@@ -1,0 +1,28 @@
+# RSS Sources for Media Section
+# Add or remove sources as needed.
+# Supports any public RSS feed URL.
+# Tip: RSSHub (https://rsshub.app) can generate RSS feeds for many sites
+#      that don't natively provide them (e.g., blog posts, social accounts).
+#      Example: https://rsshub.app/anthropic/news
+
+sources:
+  # Official AI company blogs
+  - name: Google AI Blog
+    url: https://blog.google/technology/ai/rss/
+
+  - name: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+
+  # English tech media
+  - name: The Verge AI
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+
+  - name: MIT Technology Review AI
+    url: https://www.technologyreview.com/feed/
+
+  # Research / community
+  - name: HuggingFace Blog
+    url: https://huggingface.co/blog/feed.xml

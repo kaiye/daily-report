@@ -1,20 +1,32 @@
 name: Daily Report
 
 on:
+  # 08:00 Beijing time = 00:00 UTC
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       report_date:
-        description: 'Override date (YYYY-MM-DD)'
+        description: 'Override date (YYYY-MM-DD, Beijing time)'
         required: false
         type: string
+      section:
+        description: 'Section to run (media / github / x / all)'
+        required: false
+        default: all
+        type: choice
+        options:
+          - all
+          - media
+          - github
+          - x
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,32 +36,42 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install deps
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Set report date
+      - name: Install Playwright Chromium
+        run: playwright install chromium --with-deps
+        continue-on-error: true   # PNG is optional; don't break the pipeline
+
+      - name: Determine report date (Beijing time)
         id: vars
         run: |
           if [ -n "${{ github.event.inputs.report_date }}" ]; then
             echo "report_date=${{ github.event.inputs.report_date }}" >> $GITHUB_OUTPUT
           else
-            echo "report_date=$(date -u +%F)" >> $GITHUB_OUTPUT
+            # Convert current UTC to Beijing time (UTC+8)
+            echo "report_date=$(TZ=Asia/Shanghai date +%F)" >> $GITHUB_OUTPUT
           fi
+          echo "section=${{ github.event.inputs.section || 'all' }}" >> $GITHUB_OUTPUT
 
-      - name: Generate
+      - name: Run pipeline
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
         run: |
-          python scripts/run_daily.py --date "${{ steps.vars.outputs.report_date }}"
+          python scripts/run_daily.py \
+            --date "${{ steps.vars.outputs.report_date }}" \
+            --section "${{ steps.vars.outputs.section }}"
 
-      - name: Commit outputs
+      - name: Commit and push outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add output/
-          git diff --staged --quiet || git commit -m "chore(report): daily output ${{ steps.vars.outputs.report_date }}"
+          git diff --staged --quiet || \
+            git commit -m "chore(report): daily output ${{ steps.vars.outputs.report_date }} [${{ steps.vars.outputs.section }}]"
           git push

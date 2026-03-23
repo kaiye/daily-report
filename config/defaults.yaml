@@ -1,12 +1,43 @@
-site:
-  title: AI Daily Report
-  timezone: Asia/Shanghai
+# Daily Report — Main Configuration
+# Fork this repo and edit this file to customize your daily report.
+
+# LLM settings
+# API key: set OPENAI_API_KEY environment variable
+# Compatible with any OpenAI-compatible endpoint (SiliconFlow, DeepSeek, etc.)
 llm:
+  base_url: https://api.openai.com/v1
   model: gpt-4o-mini
   temperature: 0.2
-sources:
-  github_trending:
-    enabled: true
-    since: daily
-render:
-  markdown_title: AI Daily Report
+
+# ── Section settings ─────────────────────────────────────────────────────────
+# Each section has:
+#   - operational settings (hours, max_results, etc.)
+#   - llm_directive: tells the LLM HOW to sort/filter/summarize the raw data
+#     This is the main user-configurable knob.
+
+media:
+  hours: 24   # fetch articles from the past N hours
+  llm_directive: |
+    Select the most important AI news items. Max 7 items total.
+    Priority order: major product launches or updates > significant industry events
+    or policy > important funding/M&A > insightful technology trend analysis.
+    Deduplicate: if multiple sources cover the same event, keep only the best one.
+    Sort by impact, not publication time. Output in the language of the source article title.
+
+github:
+  since: daily        # daily | weekly | monthly
+  max_results: 10     # how many repos to include
+  llm_directive: |
+    Include all trending repositories, up to 10. Sort by stars_today descending.
+    Explain each project's relevance to AI/ML practitioners or developers.
+    Keep why_it_matters concise (1-2 sentences).
+
+x:
+  hours: 24        # tweet search window in hours
+  min_faves: 1000  # minimum likes threshold
+  top_n: 10        # max tweets to include
+  llm_directive: |
+    Select the most insightful AI tweets, max 10. Sort by views descending.
+    Prefer: original analysis, product announcements, research insights.
+    Avoid: pure marketing, duplicate takes, retweet-only content.
+    Keep why_it_matters to 1 sentence per tweet.
