@@ -1,0 +1,12 @@
+site:
+  title: AI Daily Report
+  timezone: Asia/Shanghai
+llm:
+  model: gpt-4o-mini
+  temperature: 0.2
+sources:
+  github_trending:
+    enabled: true
+    since: daily
+render:
+  markdown_title: AI Daily Report

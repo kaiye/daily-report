@@ -1,0 +1,55 @@
+name: Daily Report
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      report_date:
+        description: 'Override date (YYYY-MM-DD)'
+        required: false
+        type: string
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Set report date
+        id: vars
+        run: |
+          if [ -n "${{ github.event.inputs.report_date }}" ]; then
+            echo "report_date=${{ github.event.inputs.report_date }}" >> $GITHUB_OUTPUT
+          else
+            echo "report_date=$(date -u +%F)" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+        run: |
+          python scripts/run_daily.py --date "${{ steps.vars.outputs.report_date }}"
+
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git diff --staged --quiet || git commit -m "chore(report): daily output ${{ steps.vars.outputs.report_date }}"
+          git push
