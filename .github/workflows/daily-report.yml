@@ -31,18 +31,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
+          node-version: '22'
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          npm install
 
       - name: Install Playwright Chromium
-        run: playwright install chromium --with-deps
+        run: npx playwright install chromium --with-deps
         continue-on-error: true   # PNG is optional; don't break the pipeline
 
       - name: Determine report date (Beijing time)
@@ -63,7 +62,7 @@ jobs:
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
           TWITTERAPI_IO_KEY: ${{ secrets.TWITTERAPI_IO_KEY }}
         run: |
-          python scripts/run_daily.py \
+          node scripts/run_daily.js \
             --date "${{ steps.vars.outputs.report_date }}" \
             --section "${{ steps.vars.outputs.section }}"
 

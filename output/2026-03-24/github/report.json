@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-03-24",
+  "section": "github",
+  "title": "GitHub AI 相关趋势日报",
+  "summary": "最热的共同方向是围绕大模型与智能体构建自动化系统，包括记忆层、编排框架、研究助手、交易代理以及 AI 内容生成应用。",
+  "items": [
+    {
+      "repo": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "一个开源超级智能体运行框架，结合沙箱、记忆、工具、技能、子代理和消息网关来完成研究、编程与内容创作等复杂任务。",
+      "language": "Python",
+      "stars_today": 4346,
+      "stars_total": 44299
+    },
+    {
+      "repo": "supermemoryai/supermemory",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "description": "面向 AI 应用的高性能记忆引擎与 API，用于快速存储、检索和扩展智能体或应用的长期上下文。",
+      "language": "TypeScript",
+      "stars_today": 344,
+      "stars_total": 18772
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用大模型一键生成高清短视频的工具，可自动完成文案、素材组织与视频生成等流程。",
+      "language": "Python",
+      "stars_today": 728,
+      "stars_total": 52846
+    },
+    {
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "一个可离线运行的便携式生存计算平台，集成知识库、工具与 AI 能力，便于在断网环境下获取信息与辅助决策。",
+      "language": "TypeScript",
+      "stars_today": 2513,
+      "stars_total": 15648
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "基于多智能体大模型的金融交易框架，用于研究市场、制定策略并支持自动化交易决策。",
+      "language": "Python",
+      "stars_today": 1760,
+      "stars_total": 41213
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "一个 AI 智能体技能，可从 Reddit、X、YouTube、Hacker News、Polymarket 和网页中调研主题并生成有依据的总结。",
+      "language": "Python",
+      "stars_today": 209,
+      "stars_total": 5885
+    },
+    {
+      "repo": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "面向 Claude 的智能体编排平台，用于部署多智能体协作、自动化工作流以及带有 RAG 能力的对话式 AI 系统。",
+      "language": "TypeScript",
+      "stars_today": 1397,
+      "stars_total": 25340
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "一个可持续扩展能力的 AI 智能体框架，帮助用户逐步构建更强的自动化助手。",
+      "language": "Python",
+      "stars_today": 1278,
+      "stars_total": 12754
+    },
+    {
+      "repo": "hesreallyhim/awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "description": "面向 Claude Code 的精选资源列表，收集技能、钩子、斜杠命令、智能体编排器、应用和插件。",
+      "language": "Python",
+      "stars_today": 995,
+      "stars_total": 32079
+    },
+    {
+      "repo": "hsliuping/TradingAgents-CN",
+      "url": "https://github.com/hsliuping/TradingAgents-CN",
+      "description": "中文增强版多智能体大模型金融交易框架，用于市场分析、策略协作与交易研究。",
+      "language": "Python",
+      "stars_today": 557,
+      "stars_total": 21007
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "一个利用普通 WiFi 信号进行实时人体姿态估计、生命体征监测和存在感知的感知系统，无需摄像头画面。",
+      "language": "Rust",
+      "stars_today": 861,
+      "stars_total": 41544
+    }
+  ]
+}

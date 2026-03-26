@@ -1,0 +1,446 @@
+{
+  "generated_at": "2026-03-26T11:20:18.103Z",
+  "source_raw": "raw.json",
+  "history_files_used": 1,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 38,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "首批「首席龙虾官」月薪达 6 万；投入1000亿，拼多多组建「新拼姆」；小米正式终止 MIUI 系统更新｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653102073&idx=1&sn=b0a2504b34f0fc407a863728217d2090",
+      "published_at": "2026-03-26T00:54:00.000Z",
+      "summary": "Moonshot 2026-03-26 08:54 重庆\n\n特朗普将任命黄仁勋、扎克伯格等为科技顾问，为 AI 政策提供建议；\n\nAnthropic 推出 Claude Code「自动模式」，平衡开发效率与安全；\n\nOpenAI 据悉完成了新 AI 模型的初步开发\n\n## 特朗普将任命黄仁勋、扎克伯格等为科技顾问，为 AI 政策提供建议\n\n3 月 25 日，据《华尔街日报》报道，美国总统特朗普计划任命多位商界顶尖人物加入一个科技委员会，为人工智能政策及其他事务提供咨询建议，其中包括 Meta 首席执行官马克·扎克伯格、甲骨文公司执行董事长拉里·埃里森以及英伟达首席执行官黄仁勋。\n\n该官员称，特",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic’s Claude Code gets ‘safer’ auto mode",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/900201/anthropic-claude-code-auto-mode",
+      "published_at": "2026-03-25T11:39:46.000Z",
+      "summary": "Anthropic has[launched](https://claude.com/blog/auto-mode)an \"auto mode\" for[Claude Code](https://www.theverge.com/ai-artificial-intelligence/860730/anthropic-cowork-feature-ai-agents-claude-code), a new tool that lets AI make permissions-level decisions on users' behalf. The company says the featur",
+      "priority_score": 250,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Build with Lyria 3, our newest music generation model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
+      "published_at": "2026-03-25T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/BuildWithLyria3_social.max-600x600.format-webp.webp\">Lyria 3 is now available in paid preview through the Gemini API and for testing in Google AI Studio.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Google AI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
+      "url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
+      "published_at": "2026-03-25T14:48:40.000Z",
+      "summary": "Granola's valuation jumped from $250 million to $1.5 billion with this round, and it has added more support for AI agents after users previously complained.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Agentic commerce runs on truth and context",
+      "url": "https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/",
+      "published_at": "2026-03-25T11:48:13.000Z",
+      "summary": "Imagine telling a digital agent, “Use my points and book a family trip to Italy. Keep it within budget, pick hotels we’ve liked before, and handle the details.” Instead of returning a list of links, the agent assembles an itinerary and executes the purchase.\n\nThat shift, from assistance to execution",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
+      "url": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+      "published_at": "2026-03-25T21:44:13.000Z",
+      "summary": "Anthropic finds AI isn’t replacing jobs yet, but early data shows growing inequality as experienced users gain an edge, raising concerns about future displacement and workforce divides.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Disney’s big bets on the metaverse and AI slop aren’t going so well",
+      "url": "https://www.theverge.com/streaming/900837/disney-open-ai-sora-epic-fortnite-metaverse",
+      "published_at": "2026-03-25T20:02:48.000Z",
+      "summary": "Less than a week into his tenure as[Disney's newly appointed CEO](https://www.theverge.com/news/872972/disney-ceo-bob-iger-replacement-josh-damaro), Josh D'Amaro, is already dealing with two separate crises that have cast a shadow over the company's future plans.[OpenAI is shutting down its Sora ima",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Senate Democrats are trying to ‘codify’ Anthropics red lines on autonomous weapons and mass surveillance",
+      "url": "https://www.theverge.com/policy/900341/senator-schiff-anthropic-autonomous-weapons-mass-surveillance",
+      "published_at": "2026-03-25T15:05:46.000Z",
+      "summary": "Anthropic's fight with the Pentagon is expanding to Congress. Sen. Adam Schiff (D-CA) is working on a new bill to \"codify\" Anthropic's red lines and ensure humans make the ultimate decisions in questions of life and death, and Sen. Elissa Slotkin (D-MI) recently introduced a bill to limit the Defens",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "「被动感知」到「理解接触」！它石智航重磅发布OmniVTA视触觉世界模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686704&idx=2&sn=a41c0e510bc8a4aa7395149a343d823d",
+      "published_at": "2026-03-26T01:14:00.000Z",
+      "summary": "新智元 2026-03-26 09:14 北京\n\n### **新智元报道**\n\n编辑：犀牛\n\n##### **【新智元导读】从「被动感知」到「主动预测」，首个视触觉世界模型让机器人真正学会「理解接触」。**\n\n想象这样一个场景：你正在擦桌子、削水果，或者插拔一个精密零件。\n\n这些动作对人类来说轻而易举，然而对于机器人来说，这些看似简单的操作却是一道难以跨越的技术鸿沟。\n\n近期，它石智航联合新加坡国立大学、复旦大学、中科院自动化所、清华大学、中关村学院以及北京航空航天大学六大顶尖机构，推出OmniVTA视触觉操作框架和OmniViTac大规模视触觉数据集并发表相关论文，让机器人实现从被动感知，到",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is calling it ‘Pied Piper’",
+      "url": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
+      "published_at": "2026-03-25T20:38:45.000Z",
+      "summary": "Google’s TurboQuant has the internet joking about Pied Piper from HBO's \"Silicon Valley.\" The compression algorithm promises to shrink AI’s “working memory” by up to 6x, but it’s still just a lab experiment for now.",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google launches Lyria 3 Pro music generation model",
+      "url": "https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/",
+      "published_at": "2026-03-25T16:37:43.000Z",
+      "summary": "Google is launching Lyria 3 Pro, an upgraded music model that generates longer, more customizable tracks, as it expands AI music tools across Gemini, enterprise products, and other services.",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta launches new initiative to support entrepreneurship, drive AI adoption",
+      "url": "https://techcrunch.com/2026/03/25/meta-launches-new-initiative-to-support-entrepreneurship-drive-ai-adoption/",
+      "published_at": "2026-03-25T14:45:20.000Z",
+      "summary": "Meta CEO Mark Zuckerberg said in a memo to staff that small businesses have always been a big part of the company's business model, and that while tens of millions of entrepreneurs already use its platforms to grow and connect with customers, the company wants to do more in the space.",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "This startup wants to change how mathematicians do math",
+      "url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
+      "published_at": "2026-03-25T13:59:17.000Z",
+      "summary": "Axiom Math, a startup based in Palo Alto, California, has released a[free new AI tool for mathematicians](https://axiommath.ai/territory/axplorer), designed to discover mathematical patterns that could unlock solutions to long-standing problems.\n\nThe tool, called Axplorer, is a redesign of an[existi",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "With Sift, two ex-SpaceX engineers are bringing the software that helped launch rockets to the factory floor",
+      "url": "https://techcrunch.com/2026/03/25/with-sift-stack-two-ex-spacex-engineers-are-bringing-the-software-that-helped-launch-rockets-to-the-factory-floor/",
+      "published_at": "2026-03-25T13:00:00.000Z",
+      "summary": "Sift is building the data infrastructure for advanced manufacturing.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Mercor competitor Deccan AI raises $25M, sources experts from India",
+      "url": "https://techcrunch.com/2026/03/25/deccan-ai-raises-25m-as-ai-training-push-relies-on-india-based-workforce/",
+      "published_at": "2026-03-26T00:30:00.000Z",
+      "summary": "Deccan AI concentrates its workforce in India to manage quality in a fast-growing but fragmented AI training market.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Harvey confirms $11B valuation: Sequoia triples down",
+      "url": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/",
+      "published_at": "2026-03-25T15:27:15.000Z",
+      "summary": "Investors like Sequoia, Andreessen Horowitz,  Kleiner Perkins, and Elad Gil can't get enough of AI legal tech startup Harvey.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The snow gods: How a couple of ski bums built the internet’s best weather app",
+      "url": "https://www.technologyreview.com/2026/03/26/1134470/the-snow-gods-how-a-couple-of-ski-bums-built-the-internets-best-weather-app/",
+      "published_at": "2026-03-26T10:00:00.000Z",
+      "summary": "The best snow-forecasting app for skiers and snowboarders isn’t from any of the federally funded weather services. Nor from any of the big-name brands. It’s an independent app startup that leverages government data, its own AI models, and decades of alpine-life experience to offer better snow (and s",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "刚刚，实验室被一只「科研龙虾」接管！通宵爆肝论文，还能帮你发顶刊",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686704&idx=1&sn=f2a974e2caa5f4a4281ed2cb338036de",
+      "published_at": "2026-03-26T01:14:00.000Z",
+      "summary": "新智元 2026-03-26 09:14 北京\n\n### **新智元报道**\n\n编辑：Aeneas\n\n##### **【新智元导读】 广大科研人们，属于你们的科研龙虾SciClaw横空出世了！用它接管深夜的实验室，博士僧们终于可以睡个好觉了。**\n\n终于，OpenClaw带来的Agent革命，杀进了过去最难被变革的科研领域。\n\n一只名叫SciClaw的龙虾，因为在主人产率曲线死活拉不上去时库库读文献，于深夜送来新方案，火了。\n\n据说这只龙虾，不仅能写报告，还能做自主做实验。\n\n所以不管你是被课题折磨到头秃的博士僧，还是在企业里被性能指标逼疯的研发，属实不能错过，它到底都能干什么，快来一探究竟！",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Are high gas prices good news for EVs? It’s complicated.",
+      "url": "https://www.technologyreview.com/2026/03/26/1134677/gas-prices-electric-vehicles/",
+      "published_at": "2026-03-26T10:00:00.000Z",
+      "summary": "I live in a dense city with plentiful public transportation options and limited parking, so I don’t own a car. I’m often utterly clueless about the current price of gasoline.\n\nBut as the conflict in Iran has escalated, fossil-fuel prices have been on a roller-coaster, and I’ve started paying attenti",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "前阿里 90 后 P10 ，要造 AI 世代的「哈利波特」，而入口是一张 NFC 卡片",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653102094&idx=1&sn=50f318e048c74ef811f172b1a3066341",
+      "published_at": "2026-03-26T04:06:00.000Z",
+      "summary": "原创苏子华 2026-03-26 12:06 北京\n\n​一个好的「AI 陪伴」产品该长什么样？\n\n一个好的「AI 陪伴」产品该长什么样？\n\n**作者｜苏子华** **编辑｜ **郑玄****\n\n在 AI 领域，黄缨宁团队做了一件「反着来」的事情。\n\n在他们的 AI 陪伴产品「可豆陪陪」的设计里，他们没有押注纯语音，而是做了大量 NFC 卡牌，涵盖故事播放、探案游戏等等，并将 NFC 卡牌视作孩子的 AI 入口。\n\n**而实际反馈是，28% 的使用来自卡牌互动，但有 65% 的使用来自自由对话。** 孩子不只是点播故事，而是在反复聊天、倾诉，甚至主动照顾这个「伙伴」，进而建立了「关系」。\n\n他们",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "赚钱和 AI，Keep 都想要",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653102094&idx=2&sn=9b045946dc05f59d939c3d8b00b03ce6",
+      "published_at": "2026-03-26T04:06:00.000Z",
+      "summary": "原创Moonshot 2026-03-26 12:06 北京\n\n一份「反常识」的财报背后，是 Keep 在 AI 时代转型的决心和结果。\n\n**作者｜Moonshot** **编辑｜ **郑玄****\n\n2025 年的科技商业语境里，「寻找增量」依然是主旋律。但在这样的大环境下，Keep 交出了一份有些「反常识」的财报。\n\n一边是核心规模数据的全面收缩：总营收 16.37 亿元，同比下滑 20.7% ；平均月活（MAU）也从上一年的 2992 万大幅回落至 2177 万。\n\n但另一边，Keep 经调整后净利润却达到了 2521.6 万元，彻底终结了 2024 年亏损 4.69 亿元的局面，实现",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The least surprising chapter of the Manus story is what’s happening right now",
+      "url": "https://techcrunch.com/2026/03/25/the-least-surprising-chapter-of-the-manus-story-is-whats-happening-right-now/",
+      "published_at": "2026-03-26T02:46:48.000Z",
+      "summary": "Did anyone think there would not be a reckoning over this tie-up?",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "刷榜多元时序预测，性能波动0%！打破CI/CD二元对立 | ICLR'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652686704&idx=3&sn=405ec5200d0adc4d5baea93e535be634",
+      "published_at": "2026-03-26T01:14:00.000Z",
+      "summary": "新智元 2026-03-26 09:14 北京\n\n### **新智元报道**\n\n编辑：LRST\n\n##### **【新智元导读】 ICLR'26新研究CPiRi打破时序预测僵局：用冻结底座提取时序特征，轻量模块专注学习通道间真实关系，不靠位置编码「背答案」。测试中通道乱序性能零波动，仅用25%数据即可泛化至全网络，真正实现鲁棒与精准双赢。**\n\n在多元时间序列预测（MTSF）领域，学术界长期存在着通道依赖（Channel Dependence, CD）与通道独立（Channel Independence, CI）的路线之争。\n\n**通道依赖（CD）派** （如Crossformer、iTran",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Meta is laying off hundreds of employees as it pours money into AI",
+      "url": "https://www.theverge.com/tech/900946/meta-layoffs-hundreds-employees",
+      "published_at": "2026-03-25T21:10:32.000Z",
+      "summary": "Meta is laying off hundreds of employees across its company, according to reports from[The New York Times](https://www.nytimes.com/2026/03/25/technology/meta-lays-off-700-employees-while-rewarding-top-executives.html),[NBC News](https://www.nbcnews.com/tech/social-media/meta-layoffs-hundreds-employe",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Melania Trump wants a robot to homeschool your child",
+      "url": "https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/",
+      "published_at": "2026-03-25T18:55:41.000Z",
+      "summary": "The first lady sees AI and robotics playing a prominent role in the future of American education.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Can you monitor a situation without monitors? The Polymarket sports bar tried",
+      "url": "https://www.theverge.com/column/900536/alliance-for-a-better-future-polymarket",
+      "published_at": "2026-03-25T18:19:32.000Z",
+      "summary": "Attendees wait in line outside the Situation Room by Polymarket pop-up bar in Washington, DC, US, on Friday, March 20, 2026. | Graeme Slona/Bloomberg via Getty Images.\n*Hello and welcome to*Regulator*, a newsletter for*Verge*readers who are political junkies, and Washington insiders hooked on techno",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Roundtables: The Next Era of Space Exploration",
+      "url": "https://www.technologyreview.com/2026/03/25/1134664/roundtables-the-next-era-of-space-exploration/",
+      "published_at": "2026-03-25T17:26:26.000Z",
+      "summary": "**Listen to the session or watch below**\n\nWhether it’s the race to find life on Mars, the campaign to outsmart killer asteroids, or the quest to make the moon a permanent home to astronauts, scientists’ efforts in space can tell us more about where humanity is headed. This subscriber-only discussion",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Bernie Sanders and AOC propose a ban on data center construction",
+      "url": "https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/",
+      "published_at": "2026-03-25T17:15:50.000Z",
+      "summary": "Senator Bernie Sanders and Rep. Alexandria Ocasio-Cortez introduced companion legislation to halt construction on new data centers until Congress passes comprehensive AI regulation.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Reddit accounts with ‘fishy’ bot-like behavior will soon need to prove they’re human",
+      "url": "https://www.theverge.com/tech/900363/reddit-human-verification-bots-crackdown",
+      "published_at": "2026-03-25T16:10:00.000Z",
+      "summary": "Reddit is taking new steps to identify bots on the platform - a process that may require some users to confirm that they're human. In[a post on Wednesday](https://www.reddit.com/user/spez/comments/1s3ezrc/humans_welcome_bots_must_wear_name_tags/), Reddit CEO Steve Huffman writes that the company wil",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Reddit takes on the bots with new ‘human verification’ requirements for fishy behavior",
+      "url": "https://techcrunch.com/2026/03/25/reddit-bots-new-human-verification-requirements/",
+      "published_at": "2026-03-25T16:10:00.000Z",
+      "summary": "Reddit will require suspected automated accounts to verify they’re human, as it ramps up efforts to curb bot-driven spam and manipulation.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Lyria 3 Pro: Create longer tracks in more",
+      "url": "https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/",
+      "published_at": "2026-03-25T16:01:39.000Z",
+      "summary": "Introducing Lyria 3 Pro, which unlocks longer tracks with structural awareness. We’re also bringing Lyria to more Google products and surfaces.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Lyria 3 Pro: Create longer tracks in more Google products",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/lyria-3-pro/",
+      "published_at": "2026-03-25T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Lyria-3-Pro_thumbnail.max-600x600.format-webp.webp\">We are bringing Lyria 3 to the tools where professionals work and create every day.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google Lyria 3 Pro makes longer AI songs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/900425/google-lyria-3-pro-ai-music",
+      "published_at": "2026-03-25T16:00:00.000Z",
+      "summary": "Google is expanding the capabilities of its Lyria 3 music-making AI, enabling it to create tracks up to three minutes long and from within multiple other Google Products. Until now, Lyria had been limited to 30-second clips. Lyria 3 Pro not only increases the maximum length sixfold, it also allows t",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Why this battery company is pivoting to AI",
+      "url": "https://www.technologyreview.com/2026/03/25/1134657/battery-company-ai-pivot-ses/",
+      "published_at": "2026-03-25T15:02:50.000Z",
+      "summary": "Qichao Hu doesn’t mince words about how he sees the state of the battery industry. “Almost every Western battery company has either died or is going to die. It’s kind of the reality,” he says.\n\nHu is the CEO of SES AI, a Massachusetts-based battery company. It once had aims of making huge amounts of",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Mark Zuckerberg and Jensen Huang are part of Trump’s new ‘tech panel’",
+      "url": "https://www.theverge.com/policy/900340/trump-tech-panel-mark-zuckerberg-jensen-huang",
+      "published_at": "2026-03-25T14:41:21.000Z",
+      "summary": "Mark Zuckerberg. | Image: Cath Virginia / The Verge, Getty Images\nMeta CEO Mark Zuckerberg, Oracle CTO and executive chairman Larry Ellison, Nvidia CEO Jensen Huang, and Google cofounder Sergey Brin will be the first four members of the President's Council of Advisors on Science and Technology (PCAS",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "拆除技术围墙，原子重塑推动3D打印破圈",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653102059&idx=1&sn=e4381f48b30ca04e51aafc4c8916e0d0",
+      "published_at": "2026-03-25T14:30:00.000Z",
+      "summary": "原创李苏 2026-03-25 22:30 湖北\n\n从极客玩具到普惠工具，原子重塑正试图拆除3D打印的创作高墙，将繁琐的工业制造转化为人人可用的桌面生产力。\n\n**作者｜李苏** **编辑｜ **郑玄****\n\n1976 年，乔布斯在车库里组装好一台电脑后的一段时间里，苹果公司生意清淡。还没有多少人能想象，庞大的计算机能走出工作室，进入普通人的生活，并创造一个价值数万亿，改变世界的产业。\n\n科技史不断印证，革命性产品的伟大，不在于堆砌技术参数，而在于拆除艰深技术的高墙，填平使用的鸿沟，赋予每一个普通人创造的权利，然后成就一个产业。从个人电脑到消费级数码相机，莫不如是。\n\n这一切，正发生在3D打",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta turns to AI to make shopping easier on Instagram and Facebook",
+      "url": "https://techcrunch.com/2026/03/25/meta-turns-to-ai-to-make-shopping-easier-on-instagram-and-facebook/",
+      "published_at": "2026-03-25T14:16:17.000Z",
+      "summary": "Meta is using generative AI to provide more product and brand information to consumers when they're shopping in its apps.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: reawakening frozen brains, and the AI Hype Index returns",
+      "url": "https://www.technologyreview.com/2026/03/25/1134636/the-download-reawakening-frozen-brains-and-the-ai-hype-index-returns/",
+      "published_at": "2026-03-25T12:47:44.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **This scientist rewarm",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

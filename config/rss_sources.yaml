@@ -26,3 +26,26 @@ sources:
   # Research / community
   - name: HuggingFace Blog
     url: https://huggingface.co/blog/feed.xml
+
+  # Chinese AI media (wechat2rss)
+  - name: 量子位
+    url: https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml
+
+  - name: 机器之心
+    url: https://wechat2rss.xlab.app/feed/51e92aad2728acdd1fda7314be32b16639353001.xml
+
+  - name: 新智元
+    url: https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml
+
+  - name: 极客公园
+    url: https://wechat2rss.xlab.app/feed/1a5aec98e71c707c8ca092bc2c255b9d4bac477d.xml
+
+  # China tech teams (wechat2rss)
+  - name: 字节跳动技术团队
+    url: https://wechat2rss.xlab.app/feed/4025ea55575daf8bfd8227e68b28d9638b073267.xml
+
+  - name: 阿里技术
+    url: https://wechat2rss.xlab.app/feed/6e1f9b775f7a5841ac1a94310f0478b45a02ec01.xml
+
+  - name: 腾讯技术工程
+    url: https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml

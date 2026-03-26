@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-03-25",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕智能体编排、多步研究与感知理解构建可执行的 AI 系统与应用。",
+  "items": [
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "一个用于 AI 智能体的研究技能，可从 Reddit、X、YouTube、HN、Polymarket 和网页等来源收集信息，并生成有依据的主题总结。",
+      "language": "Python",
+      "stars_today": 2684,
+      "stars_total": 8843
+    },
+    {
+      "repo": "Yeachan-Heo/oh-my-claudecode",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "description": "一个面向团队协作的多智能体编排框架，用于组织和管理基于 Claude Code 的开发流程。",
+      "language": "TypeScript",
+      "stars_today": 576,
+      "stars_total": 11930
+    },
+    {
+      "repo": "virattt/dexter",
+      "url": "https://github.com/virattt/dexter",
+      "description": "一个用于金融领域深度研究的自主智能体，能够自动执行信息搜集、分析与研究任务。",
+      "language": "TypeScript",
+      "stars_today": 274,
+      "stars_total": 18663
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "一个利用普通 WiFi 信号进行人体姿态估计、生命体征监测和在场检测的感知系统，无需摄像头画面即可完成识别。",
+      "language": "Rust",
+      "stars_today": 1001,
+      "stars_total": 42734
+    },
+    {
+      "repo": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "一个开源的长时程超级智能体运行框架，可借助沙箱、记忆、工具、技能和子智能体完成研究、编程与内容生成等复杂任务。",
+      "language": "Python",
+      "stars_today": 2388,
+      "stars_total": 47513
+    },
+    {
+      "repo": "Vaibhavs10/insanely-fast-whisper",
+      "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
+      "description": "一个针对 Whisper 的高速语音转文字实现，用于更快地完成音频转录与语音识别任务。",
+      "language": "Jupyter Notebook",
+      "stars_today": 1381,
+      "stars_total": 10552
+    },
+    {
+      "repo": "agentscope-ai/agentscope",
+      "url": "https://github.com/agentscope-ai/agentscope",
+      "description": "一个用于构建、运行和观察 AI 智能体的框架，强调可视化、可理解性与可信性。",
+      "language": "Python",
+      "stars_today": 439,
+      "stars_total": 20047
+    },
+    {
+      "repo": "datalab-to/chandra",
+      "url": "https://github.com/datalab-to/chandra",
+      "description": "一个 OCR 模型，可识别复杂表格、表单和手写内容，并保留完整版面结构信息。",
+      "language": "Python",
+      "stars_today": 546,
+      "stars_total": 5675
+    }
+  ]
+}
