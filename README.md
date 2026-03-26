@@ -2,7 +2,7 @@
 
 Open-source AI daily report data pipeline.
 
-Collects data from three dimensions every day, processes it with an LLM, and renders it into structured reports (YAML / Markdown / HTML / PNG).
+Collects data from three dimensions every day, processes it with an LLM, and renders it into structured reports (JSON / Markdown / HTML / PNG).
 
 ```
 media   → RSS feeds (official blogs, tech media)
@@ -26,7 +26,7 @@ Go to **Settings → Secrets and variables → Actions → New repository secret
 |---|---|---|
 | `OPENAI_API_KEY` | ✅ | Any OpenAI-compatible API key |
 | `OPENAI_BASE_URL` | optional | API base URL (default: OpenAI official) |
-| `OPENAI_MODEL` | optional | Model name (default: `gpt-4o-mini`) |
+| `OPENAI_MODEL` | optional | Model name (default: `gpt-5.4`) |
 | `TWITTERAPI_IO_KEY` | optional | [TwitterAPI.io](https://twitterapi.io) key for X section |
 
 The `LLM` config accepts any OpenAI-compatible endpoint. You can use:
@@ -41,8 +41,8 @@ Edit `config/defaults.yaml` to set your LLM preferences and section-level direct
 
 ```yaml
 llm:
-  base_url: https://api.openai.com/v1
-  model: gpt-4o-mini
+  base_url: https://cc.dingsum.com/v1
+  model: gpt-5.4
 
 media:
   hours: 24
@@ -96,19 +96,22 @@ output/
   YYYY-MM-DD/
     media/
       raw.json        ← raw RSS items collected
-      report.yaml     ← LLM-distilled structured data
+      post.json       ← post-processed items (html2md + inferred time)
+      report.json     ← LLM-distilled structured data
       report.md       ← Markdown render
       report.html     ← HTML render (styled)
       report.png      ← Screenshot (requires Playwright)
     github/
       raw.json
-      report.yaml
+      post.json
+      report.json
       report.md
       report.html
       report.png
     x/
       raw.json
-      report.yaml
+      post.json       ← post-processed tweets (strict UTC filter + trimmed fields)
+      report.json
       report.md
       report.html
       report.png
@@ -122,58 +125,75 @@ output/
 # 1. Clone and set up
 git clone https://github.com/kaiye/daily-report.git
 cd daily-report
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+npm install
 
-# 2. Install Playwright for PNG rendering (optional)
-playwright install chromium --with-deps
+# 2. Install Playwright browser (optional)
+npx playwright install chromium --with-deps
 
 # 3. Set environment variables
 export OPENAI_API_KEY=sk-...
 export TWITTERAPI_IO_KEY=...   # only needed for X section
 
 # 4. Run all sections
-python scripts/run_daily.py
+node scripts/run_daily.js
 
 # Run specific section
-python scripts/run_daily.py --section media
-python scripts/run_daily.py --section github
-python scripts/run_daily.py --section x
+node scripts/run_daily.js --section media
+node scripts/run_daily.js --section github
+node scripts/run_daily.js --section x
 
 # Run for a specific date
-python scripts/run_daily.py --date 2026-03-22
+node scripts/run_daily.js --date 2026-03-22
+
+# Optional: validate report.json consistency against post/raw data
+node scripts/validate_reports.js --date 2026-03-22
+node scripts/validate_reports.js --date 2026-03-22 --fix
 ```
+
+Pipeline order is enforced as:
+`raw -> post -> llm -> json -> verify`
 
 ---
 
 ## Architecture
 
-```
+```text
 config/
-  defaults.yaml        ← main config (LLM, section settings, llm_directives)
-  rss_sources.yaml     ← RSS feed list
-  x_keywords.yaml      ← X search keywords
-
-src/daily_report/
-  collectors/
-    github_trending.py ← scrapes github.com/trending
-    media_rss.py       ← fetches RSS feeds (public URLs only)
-    x_twitter.py       ← TwitterAPI.io advanced search
-  generators/
-    llm_yaml.py        ← calls LLM, returns structured YAML
-  renderers/
-    markdown.py        ← YAML → Markdown
-    html.py            ← YAML → HTML (Jinja2 templates)
-    png.py             ← HTML → PNG (Playwright headless)
-  utils/
-    io.py              ← read/write helpers
+  defaults.yaml                    ← main config (LLM, section settings)
+  rss_sources.yaml                 ← media RSS list
+  x_keywords.yaml                  ← X keyword list
 
 scripts/
-  run_daily.py         ← main pipeline orchestrator
+  run_daily.js                     ← orchestration entry only
+  validate_reports.js              ← validation CLI entry only
 
-.github/workflows/
-  daily-report.yml     ← GitHub Actions (schedule + manual trigger)
+src/daily_report_js/
+  collectors/                      ← raw collectors (per channel)
+    media_rss.js
+    github_trending.js
+    x_twitter.js
+  postprocessors/                  ← deterministic raw -> post (NO LLM)
+    media.js
+    github.js
+    x.js
+  schema/
+    report_schema.js              ← single source of truth for report fields/rules
+  generators/
+    llm_report.js                  ← only post -> report.json (LLM)
+  renderers/
+    markdown.js
+    html.js
+    png.js
+  verify/
+    validate_reports.js            ← json/schema/value consistency checks
+  pipeline/                        ← channel pipeline assembly
+    media.js
+    github.js
+    x.js
+    verify.js
+
+output/
+  YYYY-MM-DD/<section>/            ← raw/post/report outputs
 ```
 
 ---
@@ -200,7 +220,7 @@ A: Yes. If `TWITTERAPI_IO_KEY` is not set, the X section is skipped gracefully. 
 A: Yes. Standard public RSS URLs work. For WeChat public accounts, services like [wechat2rss](https://wechat2rss.xlab.app) can generate RSS feeds.
 
 **Q: PNG generation failed — is that a problem?**
-A: No. PNG generation is optional. If Playwright is not installed, the pipeline completes without PNG. All other outputs (YAML, Markdown, HTML) are always produced.
+A: No. PNG generation is optional. If Playwright is not installed, the pipeline completes without PNG. All other outputs (JSON, Markdown, HTML) are always produced.
 
 **Q: How does the LLM directive work?**
 A: In `config/defaults.yaml`, each section has an `llm_directive` field. This text is injected into the LLM system prompt, telling it how to sort, filter, and summarize the raw data. This is the primary way to customize the report style without touching code.

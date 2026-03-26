@@ -1,0 +1,48 @@
+report_date: 2026-03-24T00:00:00.000Z
+section: x
+title: AI 推特热点
+summary: 最突出的共同信号是，AI 正在从回答问题快速走向直接操作电脑、应用与通信渠道来完成端到端任务。
+items:
+  - id: '2036195789601374705'
+    author_name: Claude
+    author_handle: claudeai
+    text: >-
+      我们现在让 Claude 能直接操作你的电脑去完成任务了，它可以打开应用、浏览网页、填写表格，基本就是代替你坐在桌前动手，目前以研究预览形式登陆
+      Claude Cowork 和 Claude Code，仅支持 macOS。
+    url: https://twitter.com/claudeai/status/2036195789601374705
+    view_count: 67814900
+    like_count: 133068
+  - id: '2036193240509235452'
+    author_name: Felix Rieseberg
+    author_handle: felixrieseberg
+    text: >-
+      今天发布了让 Claude 直接控制电脑的功能：鼠标、键盘和屏幕都能接管，因此几乎任何应用都能被它使用；我尤其看好它和 Dispatch
+      搭配，这样人不在电脑前时也能远程让 Claude 代操作。
+    url: https://twitter.com/felixrieseberg/status/2036193240509235452
+    view_count: 4510519
+    like_count: 18417
+  - id: '2036195792101212445'
+    author_name: Claude
+    author_handle: claudeai
+    text: Claude 会优先调用你已连接的应用，比如 Slack、日历等；如果缺少对应连接器，它会先征得你的同意，再直接打开屏幕上的应用来继续完成任务。
+    url: https://twitter.com/claudeai/status/2036195792101212445
+    view_count: 1353253
+    like_count: 3897
+  - id: '2036059032524566573'
+    author_name: CG
+    author_handle: cgtwts
+    text: >-
+      Anthropic CEO 判断，再过六到十二个月，Claude 可能就能端到端完成我们大部分甚至全部软件工作：写代码、审代码、修
+      bug、做安全，这对软件工程岗位的冲击会非常直接。
+    url: https://twitter.com/cgtwts/status/2036059032524566573
+    view_count: 631878
+    like_count: 2970
+  - id: '2036061707529834773'
+    author_name: Andrés Matte
+    author_handle: andresmatte
+    text: >-
+      我们发布了 Kapso CLI，把 WhatsApp
+      号码接到智能体上这件事压缩成几步安装和配置，目标就是让代理型产品更快拥有可直接触达用户的通信入口。
+    url: https://twitter.com/andresmatte/status/2036061707529834773
+    view_count: 611841
+    like_count: 4175

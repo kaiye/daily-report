@@ -1,0 +1,71 @@
+report_date: 2026-03-24T00:00:00.000Z
+section: github
+title: GitHub AI 热门仓库日报
+summary: 今日最热的共同方向是围绕大语言模型构建智能体、多智能体协作与 AI 原生工作流平台。
+items:
+  - repo: bytedance/deer-flow
+    url: https://github.com/bytedance/deer-flow
+    description: 一个开源的超级智能体运行框架，结合沙箱、记忆、工具、技能、子智能体和消息网关来完成研究、编程与内容生成等复杂任务。
+    language: Python
+    stars_today: 4346
+    stars_total: 43425
+  - repo: Crosstalk-Solutions/project-nomad
+    url: https://github.com/Crosstalk-Solutions/project-nomad
+    description: 一个可离线运行的生存计算机项目，集成关键工具、知识库与 AI 能力，帮助用户在任何环境下获取信息与支持。
+    language: TypeScript
+    stars_today: 2513
+    stars_total: 15374
+  - repo: TauricResearch/TradingAgents
+    url: https://github.com/TauricResearch/TradingAgents
+    description: 一个基于大语言模型的多智能体金融交易框架，用于让多个 AI 角色协同完成市场分析、决策与交易研究。
+    language: Python
+    stars_today: 1760
+    stars_total: 40901
+  - repo: ruvnet/ruflo
+    url: https://github.com/ruvnet/ruflo
+    description: 一个面向 Claude 的智能体编排平台，用于部署多智能体集群、协调自动化工作流，并构建带有 RAG 能力的对话式 AI 系统。
+    language: TypeScript
+    stars_today: 1397
+    stars_total: 25133
+  - repo: NousResearch/hermes-agent
+    url: https://github.com/NousResearch/hermes-agent
+    description: 一个可持续扩展的 AI 智能体项目，旨在随着用户需求增长而逐步增强能力与工作流程。
+    language: Python
+    stars_today: 1278
+    stars_total: 12569
+  - repo: hesreallyhim/awesome-claude-code
+    url: https://github.com/hesreallyhim/awesome-claude-code
+    description: 一个围绕 Claude Code 的精选资源集合，汇总技能、钩子、斜杠命令、智能体编排器、应用和插件。
+    language: Python
+    stars_today: 995
+    stars_total: 31884
+  - repo: ruvnet/RuView
+    url: https://github.com/ruvnet/RuView
+    description: 一个利用 WiFi 信号进行人体姿态估计、生命体征监测和在场检测的 AI 感知项目，无需摄像头视频输入。
+    language: Rust
+    stars_today: 861
+    stars_total: 41321
+  - repo: harry0703/MoneyPrinterTurbo
+    url: https://github.com/harry0703/MoneyPrinterTurbo
+    description: 一个利用 AI 大模型一键生成高清短视频的工具，可自动完成视频内容生产流程。
+    language: Python
+    stars_today: 728
+    stars_total: 52661
+  - repo: hsliuping/TradingAgents-CN
+    url: https://github.com/hsliuping/TradingAgents-CN
+    description: 一个面向中文场景的多智能体 LLM 金融交易框架，在 TradingAgents 基础上增强了中文支持与适配能力。
+    language: Python
+    stars_today: 557
+    stars_total: 20908
+  - repo: supermemoryai/supermemory
+    url: https://github.com/supermemoryai/supermemory
+    description: 一个为 AI 应用提供高速、可扩展长期记忆能力的引擎与 API，用于存储、检索和管理智能体记忆。
+    language: TypeScript
+    stars_today: 344
+    stars_total: 18589
+  - repo: mvanhorn/last30days-skill
+    url: https://github.com/mvanhorn/last30days-skill
+    description: 一个 AI 智能体技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网页检索主题信息，并生成有依据的总结。
+    language: Python
+    stars_today: 209
+    stars_total: 5614

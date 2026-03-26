@@ -1,0 +1,17 @@
+{
+  "name": "daily-report",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "daily": "node scripts/run_daily.js",
+    "validate": "node scripts/validate_reports.js"
+  },
+  "dependencies": {
+    "html2md4llm": "^1.2.0",
+    "js-yaml": "^4.1.0",
+    "playwright": "^1.58.0",
+    "rss-parser": "^3.13.0",
+    "undici": "^7.24.5"
+  }
+}

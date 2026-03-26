@@ -1,0 +1,41 @@
+report_date: '2026-03-24'
+section: media
+title: AI媒体重点速览
+summary: 今天最重要的趋势是，头部AI公司一边加速把能力推向更自主的代理和自研算力基础设施，一边迅速收缩验证失败的消费级AI产品。
+items:
+  - source: The Verge AI频道
+    title: Arm发布35年来首款自研CPU，年内将进入Meta的AI数据中心
+    url: >-
+      https://www.theverge.com/ai-artificial-intelligence/899823/arm-agi-cpu-meta
+    published_at: '2026-03-24T20:43:14.000Z'
+    why_it_matters: 这标志着Arm从IP授权商直接走向AI芯片成品市场，也显示Meta正在为推理与智能体工作负载建立更垂直的一体化算力栈。
+  - source: TechCrunch AI频道
+    title: Anthropic让Claude Code获得更高自主权，但加入安全护栏
+    url: >-
+      https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/
+    published_at: '2026-03-24T21:00:30.000Z'
+    why_it_matters: 开发工具正从辅助编程升级为可半自主执行任务的代理，这说明行业竞争焦点已转向效率与可控性之间的平衡。
+  - source: The Verge AI频道
+    title: OpenAI宣布关闭Sora，放弃这款AI视频产品
+    url: >-
+      https://www.theverge.com/ai-artificial-intelligence/899850/openai-sora-ai-chatgpt
+    published_at: '2026-03-24T21:08:10.000Z'
+    why_it_matters: 这反映出即便底层模型能力强，独立的AI消费应用若缺乏持续用户需求也难以成立，行业开始更现实地调整产品线。
+  - source: TechCrunch AI频道
+    title: 凯鹏华盈新募35亿美元资金，明确重仓AI
+    url: >-
+      https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/
+    published_at: '2026-03-25T00:47:20.000Z'
+    why_it_matters: 顶级风投以大体量新基金继续押注AI，说明资本市场仍把AI视为从早期到成长期都最核心的投资主线。
+  - source: TechCrunch AI频道
+    title: Databricks收购两家初创公司，为新AI安全产品补齐能力
+    url: >-
+      https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/
+    published_at: '2026-03-24T20:40:56.000Z'
+    why_it_matters: 随着企业部署生成式AI进入深水区，数据权限、治理和安全正从附加功能变成平台采购的核心决策因素。
+  - source: TechCrunch AI频道
+    title: Agile Robots与Google DeepMind合作，把机器人基础模型用于产业机器人
+    url: >-
+      https://techcrunch.com/2026/03/24/agile-robots-becomes-the-latest-robotics-company-to-partner-with-google-deepmind/
+    published_at: '2026-03-24T12:05:00.000Z'
+    why_it_matters: 这说明大模型能力正更快向机器人落地迁移，物理世界中的数据闭环和产业合作正在成为下一阶段竞争重点。

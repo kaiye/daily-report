@@ -5,9 +5,22 @@
 # API key: set OPENAI_API_KEY environment variable
 # Compatible with any OpenAI-compatible endpoint (SiliconFlow, DeepSeek, etc.)
 llm:
-  base_url: https://api.openai.com/v1
-  model: gpt-4o-mini
+  base_url: https://cc.dingsum.com/v1
+  model: gpt-5.4
   temperature: 0.2
+  proxy: http://127.0.0.1:8899   # optional; set empty to disable
+
+# Output preferences
+output:
+  language: zh-cn   # e.g. zh-cn / en / ja
+  section_titles:
+    media: 媒体资讯
+    github: Github 趋势
+    x: X 热点
+
+# Verification + repair loop
+verify:
+  max_repair_attempts: 2
 
 # ── Section settings ─────────────────────────────────────────────────────────
 # Each section has:
@@ -17,27 +30,46 @@ llm:
 
 media:
   hours: 24   # fetch articles from the past N hours
+  max_items: 9
   llm_directive: |
-    Select the most important AI news items. Max 7 items total.
-    Priority order: major product launches or updates > significant industry events
-    or policy > important funding/M&A > insightful technology trend analysis.
-    Deduplicate: if multiple sources cover the same event, keep only the best one.
-    Sort by impact, not publication time. Output in the language of the source article title.
+    Select the most important AI news items. Max {{max_items}} items total.
+    First priority: items whose title or summary clearly mention these brands/companies/topics:
+    {{priority_keywords}}.
+    Use post.items.priority_score, post.items.matched_keywords and post.items.signal_tags as strong ranking signals.
+    Then prioritize: major product launches/updates > major funding/M&A > major technical breakthroughs.
+    If multiple items cover the same event, keep the most information-dense one and fill remaining slots with different topics.
+    Do not over-concentrate on one company if equally important events from other priority brands exist.
+    All JSON string fields must be written in {{output_language}}.
+    The summary must be exactly one sentence describing the single most important trend.
 
 github:
   since: daily        # daily | weekly | monthly
-  max_results: 10     # how many repos to include
+  max_results: 15     # how many repos to include
   llm_directive: |
-    Include all trending repositories, up to 10. Sort by stars_today descending.
-    Explain each project's relevance to AI/ML practitioners or developers.
-    Keep why_it_matters concise (1-2 sentences).
+    Keep only AI-related repos. If a repo has some relevance to AI, keep it; if totally unrelated, drop it.
+    Include up to {{max_items}} repos and follow the order in post.json (rank ascending).
+    Rewrite description to clearly explain what each repo does in plain language.
+    All JSON string fields must be written in {{output_language}}.
+    The summary must be exactly one sentence describing the hottest shared direction across kept items.
 
 x:
   hours: 24        # tweet search window in hours
   min_faves: 1000  # minimum likes threshold
   top_n: 10        # max tweets to include
   llm_directive: |
-    Select the most insightful AI tweets, max 10. Sort by views descending.
-    Prefer: original analysis, product announcements, research insights.
-    Avoid: pure marketing, duplicate takes, retweet-only content.
-    Keep why_it_matters to 1 sentence per tweet.
+    Select the most insightful AI tweets, max {{max_items}}, while keeping topics diverse.
+    Keep the order in post.json and avoid over-concentrating on one single event.
+    If multiple early posts are the same topic, keep official account content first (use is_official=true), drop similar non-official repeats, and use later different topics to fill remaining slots.
+    Rewrite each text into a concise paraphrase that preserves the original tone and perspective.
+    All JSON string fields must be written in {{output_language}}.
+    The summary must be exactly one sentence describing the single most important common signal across items.
+
+# Post-processing (ported from skills/daily-reports and adapted)
+post_process:
+  media:
+    history_days: 3
+    truncate_chars: 300
+    html2md_strategy: article
+  x:
+    min_text_length: 20
+    max_items: 0                   # 0 = keep as many as possible
