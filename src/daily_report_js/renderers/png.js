@@ -11,12 +11,17 @@ export async function renderPng(htmlContent, outputPath, width = 900) {
 
   try {
     const browser = await chromium.launch();
-    const page = await browser.newPage({ viewport: { width, height: 1200 } });
+    const context = await browser.newContext({
+      viewport: { width, height: 1200 },
+      deviceScaleFactor: 2,
+    });
+    const page = await context.newPage();
     await page.goto(`file://${tmpHtml}`);
     await page.waitForLoadState('networkidle');
     const height = await page.evaluate('document.body.scrollHeight');
     await page.setViewportSize({ width, height: Math.max(Number(height || 800), 800) });
     await page.screenshot({ path: outputPath, fullPage: true });
+    await context.close();
     await browser.close();
     console.log(`  ✅ PNG saved: ${outputPath}`);
     return true;
