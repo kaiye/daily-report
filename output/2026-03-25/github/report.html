@@ -1,16 +1,341 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Github 趋势</title><style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 860px; margin: 40px auto; padding: 0 20px 60px; line-height: 1.65; color: #1a1a2e; background: #f8f9fc; }
-  .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border-radius: 16px; padding: 28px 32px; margin-bottom: 32px; }
-  .header h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; }
-  .header .meta { opacity: 0.85; font-size: 0.9rem; }
-  .summary { background: white; border-radius: 12px; padding: 20px 24px; margin-bottom: 24px; color: #444; font-size: 1rem; border-left: 4px solid #667eea; }
-  .card { background: white; border-radius: 12px; padding: 20px 24px; margin-bottom: 16px; box-shadow: 0 1px 4px rgba(0,0,0,0.07); }
-  .card h3 { font-size: 1.05rem; margin-bottom: 6px; }
-  .card h3 a { color: #2563eb; text-decoration: none; }
-  .card .meta { font-size: 0.82rem; color: #888; margin-bottom: 10px; }
-  .card .why { color: #333; font-size: 0.95rem; }
-  .tweet-text { background: #f3f4f6; border-radius: 8px; padding: 12px 16px; font-size: 0.93rem; color: #222; margin-bottom: 10px; white-space: pre-wrap; word-break: break-word; }
-  .tag { display: inline-block; background: #ede9fe; color: #5b21b6; border-radius: 6px; padding: 2px 8px; font-size: 0.78rem; margin-right: 6px; }
-  .stars { color: #f59e0b; }
-  </style></head><body><div class="header"><h1>🐙 Github 趋势</h1><div class="meta">2026-03-25 · GitHub Trending</div></div><div class="summary">今日最热的共同方向是围绕智能体编排、多步研究与感知理解构建可执行的 AI 系统与应用。</div><div class="card"><h3><a href="https://github.com/mvanhorn/last30days-skill">mvanhorn/last30days-skill</a></h3><div class="meta"><span class="tag">Python</span> <span class="stars">⭐ +2.7K today</span>  · 8.8K total</div><div class="why" style="color:#666;margin-bottom:6px;">一个用于 AI 智能体的研究技能，可从 Reddit、X、YouTube、HN、Polymarket 和网页等来源收集信息，并生成有依据的主题总结。</div></div><div class="card"><h3><a href="https://github.com/Yeachan-Heo/oh-my-claudecode">Yeachan-Heo/oh-my-claudecode</a></h3><div class="meta"><span class="tag">TypeScript</span> <span class="stars">⭐ +576 today</span>  · 11.9K total</div><div class="why" style="color:#666;margin-bottom:6px;">一个面向团队协作的多智能体编排框架，用于组织和管理基于 Claude Code 的开发流程。</div></div><div class="card"><h3><a href="https://github.com/virattt/dexter">virattt/dexter</a></h3><div class="meta"><span class="tag">TypeScript</span> <span class="stars">⭐ +274 today</span>  · 18.7K total</div><div class="why" style="color:#666;margin-bottom:6px;">一个用于金融领域深度研究的自主智能体，能够自动执行信息搜集、分析与研究任务。</div></div><div class="card"><h3><a href="https://github.com/ruvnet/RuView">ruvnet/RuView</a></h3><div class="meta"><span class="tag">Rust</span> <span class="stars">⭐ +1.0K today</span>  · 42.7K total</div><div class="why" style="color:#666;margin-bottom:6px;">一个利用普通 WiFi 信号进行人体姿态估计、生命体征监测和在场检测的感知系统，无需摄像头画面即可完成识别。</div></div><div class="card"><h3><a href="https://github.com/bytedance/deer-flow">bytedance/deer-flow</a></h3><div class="meta"><span class="tag">Python</span> <span class="stars">⭐ +2.4K today</span>  · 47.5K total</div><div class="why" style="color:#666;margin-bottom:6px;">一个开源的长时程超级智能体运行框架，可借助沙箱、记忆、工具、技能和子智能体完成研究、编程与内容生成等复杂任务。</div></div><div class="card"><h3><a href="https://github.com/Vaibhavs10/insanely-fast-whisper">Vaibhavs10/insanely-fast-whisper</a></h3><div class="meta"><span class="tag">Jupyter Notebook</span> <span class="stars">⭐ +1.4K today</span>  · 10.6K total</div><div class="why" style="color:#666;margin-bottom:6px;">一个针对 Whisper 的高速语音转文字实现，用于更快地完成音频转录与语音识别任务。</div></div><div class="card"><h3><a href="https://github.com/agentscope-ai/agentscope">agentscope-ai/agentscope</a></h3><div class="meta"><span class="tag">Python</span> <span class="stars">⭐ +439 today</span>  · 20.0K total</div><div class="why" style="color:#666;margin-bottom:6px;">一个用于构建、运行和观察 AI 智能体的框架，强调可视化、可理解性与可信性。</div></div><div class="card"><h3><a href="https://github.com/datalab-to/chandra">datalab-to/chandra</a></h3><div class="meta"><span class="tag">Python</span> <span class="stars">⭐ +546 today</span>  · 5.7K total</div><div class="why" style="color:#666;margin-bottom:6px;">一个 OCR 模型，可识别复杂表格、表单和手写内容，并保留完整版面结构信息。</div></div></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Github 趋势</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #111827;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #91caff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #cfe2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #e9f2ff 0%, #f6f9ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #d6e4ff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #d6e4ff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #91caff 88%, white) 0%,
+      color-mix(in srgb, #91caff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #d6e4ff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">GitHub Trending Snapshot</p>
+        </div>
+        <p class="date-chip">MAR 25, 2026</p>
+      </div>
+      <h1 class="hero-title">Github 趋势</h1>
+      <p class="hero-summary">今日最热的共同方向是围绕智能体编排、多步研究与感知理解构建可执行的 AI 系统与应用。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">mvanhorn/last30days-skill</span>：一个用于 AI 智能体的研究技能，可从 Reddit、X、YouTube、HN、Polymarket 和网页等来源收集信息，并生成有依据的主题总结。
+          </p>
+          <p class="item-metric">⭐ +2.7K today · 8.8K total</p>
+          <a class="item-link" href="https://github.com/mvanhorn/last30days-skill">https://github.com/mvanhorn/last30days-skill</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">TypeScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Yeachan-Heo/oh-my-claudecode</span>：一个面向团队协作的多智能体编排框架，用于组织和管理基于 Claude Code 的开发流程。
+          </p>
+          <p class="item-metric">⭐ +576 today · 11.9K total</p>
+          <a class="item-link" href="https://github.com/Yeachan-Heo/oh-my-claudecode">https://github.com/Yeachan-Heo/oh-my-claudecode</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">TypeScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">virattt/dexter</span>：一个用于金融领域深度研究的自主智能体，能够自动执行信息搜集、分析与研究任务。
+          </p>
+          <p class="item-metric">⭐ +274 today · 18.7K total</p>
+          <a class="item-link" href="https://github.com/virattt/dexter">https://github.com/virattt/dexter</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">Rust</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ruvnet/RuView</span>：一个利用普通 WiFi 信号进行人体姿态估计、生命体征监测和在场检测的感知系统，无需摄像头画面即可完成识别。
+          </p>
+          <p class="item-metric">⭐ +1.0K today · 42.7K total</p>
+          <a class="item-link" href="https://github.com/ruvnet/RuView">https://github.com/ruvnet/RuView</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">bytedance/deer-flow</span>：一个开源的长时程超级智能体运行框架，可借助沙箱、记忆、工具、技能和子智能体完成研究、编程与内容生成等复杂任务。
+          </p>
+          <p class="item-metric">⭐ +2.4K today · 47.5K total</p>
+          <a class="item-link" href="https://github.com/bytedance/deer-flow">https://github.com/bytedance/deer-flow</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">Jupyter Notebook</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Vaibhavs10/insanely-fast-whisper</span>：一个针对 Whisper 的高速语音转文字实现，用于更快地完成音频转录与语音识别任务。
+          </p>
+          <p class="item-metric">⭐ +1.4K today · 10.6K total</p>
+          <a class="item-link" href="https://github.com/Vaibhavs10/insanely-fast-whisper">https://github.com/Vaibhavs10/insanely-fast-whisper</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">agentscope-ai/agentscope</span>：一个用于构建、运行和观察 AI 智能体的框架，强调可视化、可理解性与可信性。
+          </p>
+          <p class="item-metric">⭐ +439 today · 20.0K total</p>
+          <a class="item-link" href="https://github.com/agentscope-ai/agentscope">https://github.com/agentscope-ai/agentscope</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">datalab-to/chandra</span>：一个 OCR 模型，可识别复杂表格、表单和手写内容，并保留完整版面结构信息。
+          </p>
+          <p class="item-metric">⭐ +546 today · 5.7K total</p>
+          <a class="item-link" href="https://github.com/datalab-to/chandra">https://github.com/datalab-to/chandra</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>
