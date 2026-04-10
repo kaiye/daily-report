@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-04-10",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日入选项目最热的共同方向是围绕大语言模型代理、AI 编程协作，以及面向语音、教育、文档和金融场景的垂直化 AI 应用持续升温。",
+  "items": [
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "一个可持续扩展的 AI 代理框架，用于构建能随用户需求成长和适配的智能代理系统。",
+      "language": "Python",
+      "stars_today": 6485,
+      "stars_total": 44149
+    },
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "一个用于改进 Claude Code 行为的配置与提示文件，帮助大语言模型在编程任务中减少常见失误并提升表现。",
+      "language": "Unknown",
+      "stars_today": 1364,
+      "stars_total": 10402
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "一个以智能代理为核心的个性化学习助手，为用户提供定制化教学与学习支持。",
+      "language": "Python",
+      "stars_today": 1310,
+      "stars_total": 14809
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "一个无需传统分词器的多语言语音生成与文本转语音模型，支持语音合成、声音设计和高拟真语音克隆。",
+      "language": "Python",
+      "stars_today": 496,
+      "stars_total": 7617
+    },
+    {
+      "repo": "opendataloader-project/opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "description": "一个面向 AI 数据处理的 PDF 解析工具，用于将 PDF 转换为更易被模型理解和使用的结构化数据。",
+      "language": "Java",
+      "stars_today": 1124,
+      "stars_total": 13746
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个面向智能代理的软件开发技能框架与方法论，用于提升 AI 驱动开发流程的效果与可执行性。",
+      "language": "Shell",
+      "stars_today": 2299,
+      "stars_total": 143684
+    },
+    {
+      "repo": "TheCraigHewitt/seomachine",
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "description": "一个基于 Claude Code 的内容生产工作区，利用 AI 完成调研、写作、分析和 SEO 优化的长篇博客内容创作。",
+      "language": "Python",
+      "stars_today": 725,
+      "stars_total": 5185
+    },
+    {
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "一个开源的 AI 编程执行框架构建工具，帮助让 AI 编码流程更可控、可复现且更稳定。",
+      "language": "TypeScript",
+      "stars_today": 185,
+      "stars_total": 14387
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "一个面向金融市场语言的基础模型，用于理解、建模和处理金融领域相关数据与任务。",
+      "language": "Python",
+      "stars_today": 245,
+      "stars_total": 12162
+    },
+    {
+      "repo": "YishenTu/claudian",
+      "url": "https://github.com/YishenTu/claudian",
+      "description": "一个 Obsidian 插件，将 Claude Code 作为 AI 协作者嵌入知识库笔记环境中，辅助写作与整理。",
+      "language": "TypeScript",
+      "stars_today": 200,
+      "stars_total": 6794
+    }
+  ]
+}

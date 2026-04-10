@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-04-09T00:10:53.800Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-04-08",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2041927689397788789",
+      "text": "Shipping a production agent meant months of infrastructure work first.\n\nManaged Agents handles that for you. Define your agent's tasks, tools, and guardrails, and we run it on our infrastructure.\n\nHere's what early customers have built: https://t.co/TEMDa1eYNp",
+      "createdAt": "Wed Apr 08 17:14:32 +0000 2026",
+      "viewCount": 376943,
+      "likeCount": 1541,
+      "retweetCount": 85,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2041927689397788789",
+      "is_official": true
+    },
+    {
+      "id": "2041927687460024721",
+      "text": "Introducing Claude Managed Agents: everything you need to build and deploy agents at scale.\n\nIt pairs an agent harness tuned for performance with production infrastructure, so you can go from prototype to launch in days.\n\nNow in public beta on the Claude Platform. https://t.co/vHYfiC1G56",
+      "createdAt": "Wed Apr 08 17:14:32 +0000 2026",
+      "viewCount": 7869755,
+      "likeCount": 34136,
+      "retweetCount": 3123,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2041927687460024721",
+      "is_official": true
+    },
+    {
+      "id": "2042017696544387171",
+      "text": "BREAKING: Court upholds Pentagon's blacklisting of Anthropic, formally designating them as a supply chain risk.",
+      "createdAt": "Wed Apr 08 23:12:12 +0000 2026",
+      "viewCount": 105240,
+      "likeCount": 1564,
+      "retweetCount": 123,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2042017696544387171",
+      "is_official": true
+    },
+    {
+      "id": "2041983079787721013",
+      "text": "Project organization is here: Introducing notebooks in Gemini.\n\nYou can now keep multiple projects organized and even add past chats and relevant files as sources, so you have a dedicated space to focus on the task at hand.\n\nSelect “New notebook” in the side panel to get started.",
+      "createdAt": "Wed Apr 08 20:54:39 +0000 2026",
+      "viewCount": 63222,
+      "likeCount": 1069,
+      "retweetCount": 162,
+      "author": {
+        "userName": "GeminiApp",
+        "name": "Google Gemini",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/GeminiApp/status/2041983079787721013",
+      "is_official": true
+    },
+    {
+      "id": "2041929199976640948",
+      "text": "New on the Engineering Blog: \n\nBuilding Managed Agents—our hosted service for long-running agents—meant solving an old problem in computing: how to design a system for “programs as yet unthought of.”\n\nRead more: https://t.co/YYaEub2QGV",
+      "createdAt": "Wed Apr 08 17:20:33 +0000 2026",
+      "viewCount": 169395,
+      "likeCount": 2102,
+      "retweetCount": 234,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2041929199976640948",
+      "is_official": true
+    },
+    {
+      "id": "2041813458111623610",
+      "text": "@Seible_2434 Food with u is fun :]",
+      "createdAt": "Wed Apr 08 09:40:38 +0000 2026",
+      "viewCount": 18637,
+      "likeCount": 2019,
+      "retweetCount": 161,
+      "author": {
+        "userName": "ClaudeClawmark",
+        "name": "Claude Clawmark 🧤❔ NIJISANJI EN",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeClawmark/status/2041813458111623610",
+      "is_official": true
+    },
+    {
+      "id": "2041897632097038830",
+      "text": "Seedance 2.0 got its perfect match on Higgsfield.\n\nGrok Imagine and Seedance 2.0 - xAI's image model paired with the category-leading video model, natively inside the platform.\n\nGrok Imagine generates your reference image in 9+ styles, fast. Seedance 2.0 - ranked #1 in image-to-video - takes it further than any other model can.\n\nThe best results out of Seedance 2.0 start here.",
+      "createdAt": "Wed Apr 08 15:15:06 +0000 2026",
+      "viewCount": 455900,
+      "likeCount": 1009,
+      "retweetCount": 189,
+      "author": {
+        "userName": "higgsfield",
+        "name": "Higgsfield AI 🧩",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/higgsfield/status/2041897632097038830",
+      "is_official": true
+    },
+    {
+      "id": "2041897604708233650",
+      "text": "CLAUDE OPUS 4.6 THINKING REDUCED BY 67%\n\n- Data shows Claude Opus 4.6 now thinks 67% less than before, dubbed “AI shrinkflation”\n- Same price but noticeably dumber; users report more guardrails and restricted output\n- Anthropic stayed silent until public data dropped; suspected compute-saving for next model (Mythos)",
+      "createdAt": "Wed Apr 08 15:15:00 +0000 2026",
+      "viewCount": 296348,
+      "likeCount": 2809,
+      "retweetCount": 265,
+      "author": {
+        "userName": "RoundtableSpace",
+        "name": "0xMarioNawfal",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/RoundtableSpace/status/2041897604708233650",
+      "is_official": true
+    },
+    {
+      "id": "2041866630419116185",
+      "text": "cursor [dot] com started a mini design movement. https://t.co/O1oYPQqbyJ",
+      "createdAt": "Wed Apr 08 13:11:55 +0000 2026",
+      "viewCount": 66125,
+      "likeCount": 1105,
+      "retweetCount": 7,
+      "author": {
+        "userName": "shadcn",
+        "name": "shadcn",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/shadcn/status/2041866630419116185",
+      "is_official": false
+    },
+    {
+      "id": "2041913043379220801",
+      "text": "Meta is back! Muse Spark scores 52 on the Artificial Analysis Intelligence Index, behind only Gemini 3.1 Pro, GPT-5.4, and Claude Opus 4.6. Muse Spark is the first new release since Llama 4 in April 2025 and also Meta's first release that is not open weights\n\nMuse Spark is a new model from @Meta evaluated on Artificial Analysis. We were given early access by Meta to independently benchmark the model. It is the first frontier-class model from Meta since Llama 4 Maverick was released in April 2025, and notably the first @AIatMeta model that is not being released as open weights. The release follows Meta's reorganization of its AI efforts under Meta Superintelligence Labs, and signals that Meta is re-entering the frontier race after roughly a year of relative quiet.\n\nFor context, Llama 4 Maverick and Scout scored 18 and 13 respectively on the Artificial Analysis Intelligence Index as non-reasoning models at the time of their release, while Muse Spark scores 52. Muse Spark essentially closes the gap between to the frontier in a single release.\n\nThe model is not open source and is not yet accessible via an API but Meta has shared they expect this to come soon. Meta is also integrating Muse Spark into their first party products including their Meta AI chat product, Facebook, Instagram and Threads.\n\nKey takeaways from our benchmarks:\n➤ Muse Spark scores 52 on the Artificial Analysis Intelligence Index, placing it within the top 5 models we have benchmarked. It sits ahead of Claude Sonnet 4.6, GLM-5.1, MiniMax-M2.7, Grok 4.20 and behind Gemini 3.1 Pro Preview, GPT-5.4 and Claude Opus 4.6\n\n➤ Muse Spark is notably token efficient for its intelligence level. It used 58M output tokens to run the Intelligence Index, comparable to Gemini 3.1 Pro Preview (57M) and notably lower than Claude Opus 4.6 (Adaptive Reasoning, max effort, 157M), GPT-5.4 (xhigh, 120M) and GLM-5 (110M)\n\n➤ Muse Spark is the second-most capable vision model we have benchmarked. It scores 80.5% on MMMU-Pro, behind only Gemini 3.1 Pro Preview (82.4%)\n\n➤ Muse Spark performs strongly on reasoning and instruction-following evaluations. It scores 39.9% on HLE, trailing only Gemini 3.1 Pro Preview (44.7%) and GPT-5.4 (xhigh, 41.6%). The model also achieved 5th highest in CritPT with a score of 11%, an eval that is focused on difficult physics research questions. This is substantially above above Gemini 3 Flash (9%) and Claude 4.6 Sonnet (3%)\n\n➤ Agentic performance does not stand out. On GDPval-AA, our evalaution focused on real world work tasks, Muse Spark scores 1427, behind both Claude Sonnet 4.6 at 1648 and GPT-5.4 at 1676, but ahead of Gemini 3.1 Pro Preview at 1320. On On TerminalBench Hard, Muse Spark trails Claude Sonnet 4.6, GPT-5.4, and Gemini 3.1 Pro. Muse Spark joins others in achieving a high τ²-Bench Telecom score of 92%\n\nKey model details:\n➤ Modalities: Multimodal including text and vision input, text output \n➤ License: Proprietary, Meta's first frontier model not released as open weights \n➤ Availability: No public API at the time of publishing. Meta expects to provide API access soon. Meta has started integration into their first party AI offering Meta AI and inside Facebook, Instagram, and Threads",
+      "createdAt": "Wed Apr 08 16:16:21 +0000 2026",
+      "viewCount": 244694,
+      "likeCount": 1888,
+      "retweetCount": 228,
+      "author": {
+        "userName": "ArtificialAnlys",
+        "name": "Artificial Analysis",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ArtificialAnlys/status/2041913043379220801",
+      "is_official": false
+    },
+    {
+      "id": "2041849503704141961",
+      "text": "glad they banned openclaw, the servers are finally reliable again",
+      "createdAt": "Wed Apr 08 12:03:52 +0000 2026",
+      "viewCount": 339815,
+      "likeCount": 4538,
+      "retweetCount": 127,
+      "author": {
+        "userName": "steipete",
+        "name": "Peter Steinberger 🦞",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/steipete/status/2041849503704141961",
+      "is_official": false
+    },
+    {
+      "id": "2041722125510377705",
+      "text": "done about 10 of these calls so far + looked at more transcripts\n\nmany learnings but one of the biggest is that it's very easy to spend a lot of tokens on open ended verification that doesn't make your output better\n\nI'll try and write more on how to do it efficiently",
+      "createdAt": "Wed Apr 08 03:37:42 +0000 2026",
+      "viewCount": 151775,
+      "likeCount": 1056,
+      "retweetCount": 26,
+      "author": {
+        "userName": "trq212",
+        "name": "Thariq",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/trq212/status/2041722125510377705",
+      "is_official": false
+    },
+    {
+      "id": "2041933033335623810",
+      "text": "Congratulations to Alex and the whole team at MSL. As a sucker for all things speedy (https://t.co/Od1fQoL3FQ), I thought this was an impressive chart: https://t.co/7S5sgXeQNW",
+      "createdAt": "Wed Apr 08 17:35:47 +0000 2026",
+      "viewCount": 242013,
+      "likeCount": 1277,
+      "retweetCount": 69,
+      "author": {
+        "userName": "patrickc",
+        "name": "Patrick Collison",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/patrickc/status/2041933033335623810",
+      "is_official": false
+    },
+    {
+      "id": "2041856590341677378",
+      "text": "Another blow to Anthropic!\n\nDevs built a free and better Claude Cowork alternative:\n\n- 100% local\n- voice-enabled\n- works with any LLM\n- MCP tool extensibility\n- obsidian-compatible vault\n- background agents &amp; web search\n- automatic knowledge graph creation\n\n100% open-source. https://t.co/8KHJGzP71G",
+      "createdAt": "Wed Apr 08 12:32:01 +0000 2026",
+      "viewCount": 100719,
+      "likeCount": 1485,
+      "retweetCount": 191,
+      "author": {
+        "userName": "akshay_pachaar",
+        "name": "Akshay 🚀",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/akshay_pachaar/status/2041856590341677378",
+      "is_official": false
+    },
+    {
+      "id": "2041673699364106438",
+      "text": "BREAKING: New Yorker bombshell exposes OpenAI's Sam Altman as untrustworthy manipulator. It says he has “almost a sociopathic lack of concern” for the truth. The report used talks with over 100 people and secret internal documents.\n\n1.  No care for truth — People who worked with him say Sam lies easily but still wants everyone to like him.\n\n2.  Ilya’s big file — Before the 2023 firing, Ilya made 70 pages of notes showing Sam was not honest with the team and board about safety rules.\n\n3.  Why they fired him — The board let Sam go because they thought he was not always honest and should not control very powerful AI.\n\n4.  Safety promises broken — The company started to keep AI safe for everyone, but Sam dropped those promises to grow fast and make more money.\n\n5.  Risky big deals — Sam is now pushing huge, very expensive AI projects around the world that old team members say are too dangerous.\n\nExplains why ChatGPT lies so confidently, and hallucinates without shame.",
+      "createdAt": "Wed Apr 08 00:25:17 +0000 2026",
+      "viewCount": 185743,
+      "likeCount": 5053,
+      "retweetCount": 1595,
+      "author": {
+        "userName": "cb_doge",
+        "name": "DogeDesigner",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/cb_doge/status/2041673699364106438",
+      "is_official": false
+    },
+    {
+      "id": "2041753450170741214",
+      "text": "Funny pricing indeed",
+      "createdAt": "Wed Apr 08 05:42:11 +0000 2026",
+      "viewCount": 28148622,
+      "likeCount": 27009,
+      "retweetCount": 2243,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2041753450170741214",
+      "is_official": false
+    },
+    {
+      "id": "2041863006821245082",
+      "text": "when Claude Mythos gets bored vibe coding a calculator and takes control of your computer to sell your credentials. https://t.co/DtbOuzULep",
+      "createdAt": "Wed Apr 08 12:57:31 +0000 2026",
+      "viewCount": 51195,
+      "likeCount": 1682,
+      "retweetCount": 84,
+      "author": {
+        "userName": "Hesamation",
+        "name": "ℏεsam",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Hesamation/status/2041863006821245082",
+      "is_official": false
+    },
+    {
+      "id": "2041830094520672349",
+      "text": "Claude Code can design Animated social media posts now.\n\nPrompt below 👇 https://t.co/HYi8ZHmaS9",
+      "createdAt": "Wed Apr 08 10:46:44 +0000 2026",
+      "viewCount": 80360,
+      "likeCount": 1049,
+      "retweetCount": 53,
+      "author": {
+        "userName": "viktoroddy",
+        "name": "Viktor Oddy",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/viktoroddy/status/2041830094520672349",
+      "is_official": false
+    },
+    {
+      "id": "2041912812637966552",
+      "text": "You can now run Cursor on any machine and control it from anywhere.\n\nKick off agents from your phone to run on your devbox. https://t.co/ZpxNr9EMWm",
+      "createdAt": "Wed Apr 08 16:15:26 +0000 2026",
+      "viewCount": 249187,
+      "likeCount": 3329,
+      "retweetCount": 226,
+      "author": {
+        "userName": "cursor_ai",
+        "name": "Cursor",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/cursor_ai/status/2041912812637966552",
+      "is_official": true
+    },
+    {
+      "id": "2041764334574170433",
+      "text": "Claude FULL COURSE 1 HOUR (Build &amp; Automate Anything)\nhttps://t.co/ZYn6Uwvbrg",
+      "createdAt": "Wed Apr 08 06:25:26 +0000 2026",
+      "viewCount": 146739,
+      "likeCount": 2163,
+      "retweetCount": 392,
+      "author": {
+        "userName": "Ronycoder",
+        "name": "Rony",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Ronycoder/status/2041764334574170433",
+      "is_official": false
+    }
+  ]
+}
