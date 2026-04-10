@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-04-10",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "今日最重要的共同信号是，AI行业竞争正从单纯拼模型能力转向产品化落地、成本效率优化与企业级部署加速。",
+  "items": [
+    {
+      "id": "2042272415951253932",
+      "author_name": "Google Gemini",
+      "author_handle": "GeminiApp",
+      "text": "Gemini 现在能在聊天里把问题和复杂概念直接变成交互式可视化，还可调参数、旋转 3D 模型并探索数据，让学习和理解更沉浸。",
+      "url": "https://twitter.com/GeminiApp/status/2042272415951253932",
+      "view_count": 243167,
+      "like_count": 4441
+    },
+    {
+      "id": "2042292197287215230",
+      "author_name": "Andrej Karpathy",
+      "author_handle": "karpathy",
+      "text": "我今早拿一份 245 页的 Mythos PDF 试了，结果翻车很严重，输出全乱了；PDF 转换真的很难，我觉得这更像该交给前沿大模型技能层来做，而不是普通程序。",
+      "url": "https://twitter.com/karpathy/status/2042292197287215230",
+      "view_count": 98278,
+      "like_count": 1172
+    },
+    {
+      "id": "2042283481640615944",
+      "author_name": "Google DeepMind",
+      "author_handle": "GoogleDeepMind",
+      "text": "Gemma 4 以更小体量打出超预期表现，在无需海量算力的情况下胜过大它 10 倍的模型；首周下载超 1000 万次，也说明开源研究社区的热度很高。",
+      "url": "https://twitter.com/GoogleDeepMind/status/2042283481640615944",
+      "view_count": 76783,
+      "like_count": 1056
+    },
+    {
+      "id": "2042295688323875316",
+      "author_name": "OpenAI",
+      "author_handle": "OpenAI",
+      "text": "我们正在调整 ChatGPT Pro 和 Plus 订阅以支持不断增长的 Codex 使用，并推出每月 100 美元的新 Pro 档位，提供更高配额，适合更长时间、更高强度的 Codex 工作流。",
+      "url": "https://twitter.com/OpenAI/status/2042295688323875316",
+      "view_count": 2019304,
+      "like_count": 11770
+    },
+    {
+      "id": "2042308622181339453",
+      "author_name": "Claude",
+      "author_handle": "claudeai",
+      "text": "我们把顾问式策略带到 Claude 平台：让 Opus 当顾问、Sonnet 或 Haiku 当执行者，就能以更低成本做出接近 Opus 水平智能的智能体。",
+      "url": "https://twitter.com/claudeai/status/2042308622181339453",
+      "view_count": 1419730,
+      "like_count": 21236
+    },
+    {
+      "id": "2042273755485888810",
+      "author_name": "Claude",
+      "author_handle": "claudeai",
+      "text": "Claude Cowork 已向所有付费套餐正式开放；企业版还新增基于角色的权限控制、团队预算上限、使用分析和更完整的 OpenTelemetry 支持，方便全组织部署。",
+      "url": "https://twitter.com/claudeai/status/2042273755485888810",
+      "view_count": 1487045,
+      "like_count": 6774
+    },
+    {
+      "id": "2042242776658571581",
+      "author_name": "Polymarket",
+      "author_handle": "Polymarket",
+      "text": "市场最新押注显示，Claude 5 本月发布的概率已被推高到 57%。",
+      "url": "https://twitter.com/Polymarket/status/2042242776658571581",
+      "view_count": 102733,
+      "like_count": 1252
+    },
+    {
+      "id": "2042335627862032754",
+      "author_name": "Shopify",
+      "author_handle": "Shopify",
+      "text": "Shopify AI 工具包来了，现在可以用你喜欢的智能体来管理店铺，支持 Claude Code、Codex、Cursor、VS Code 等。",
+      "url": "https://twitter.com/Shopify/status/2042335627862032754",
+      "view_count": 271778,
+      "like_count": 1605
+    },
+    {
+      "id": "2042253311479275612",
+      "author_name": "Polymarket",
+      "author_handle": "Polymarket",
+      "text": "最新消息：OpenAI 已叫停其英国 Stargate 数据中心项目，原因是监管与能源成本方面的担忧。",
+      "url": "https://twitter.com/Polymarket/status/2042253311479275612",
+      "view_count": 158198,
+      "like_count": 1524
+    },
+    {
+      "id": "2042287889166532819",
+      "author_name": "Elon Musk",
+      "author_handle": "elonmusk",
+      "text": "我们现在必须先把 Colossus 2 完成并确保它极其稳定，之后再建设水循环处理厂。",
+      "url": "https://twitter.com/elonmusk/status/2042287889166532819",
+      "view_count": 10876951,
+      "like_count": 27440
+    }
+  ]
+}

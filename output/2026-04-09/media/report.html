@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>媒体资讯</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #2a1f0f;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #ffc069;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #ffd8ab;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #ffe8cc 0%, #fff7ed 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #ffe0bf;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #ffe0bf;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #ffc069 88%, white) 0%,
+      color-mix(in srgb, #ffc069 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #ffe0bf;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">Media & News Watch</p>
+        </div>
+        <p class="date-chip">APR 09, 2026</p>
+      </div>
+      <h1 class="hero-title">媒体资讯</h1>
+      <p class="hero-summary">本日最重要趋势是头部AI平台一边加速推出面向真实场景的产品与接口更新，一边同步面对资金、治理与安全层面的更高审视。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">The vibes are off at OpenAI</span>：报道聚焦OpenAI在完成1220亿美元融资、估值升至8520亿美元并可能筹备年内IPO之际，仍处于相对脆弱的位置，意味着其在消费级AI领先优势之外，正同时承受资本市场、商业化和竞争环境的多重压力；短期看，OpenAI的资金实力仍将支撑其推进产品和市场扩张，但外部对其经营稳定性与后续执行力的关注会继续升温。
+          </p>
+          <p class="item-metric">2026-04-08 13:47:38 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai">https://www.theverge.com/ai-artificial-intelligence/908513/the-vibes-are-off-at-openai</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">量子位</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">DeepSeek深夜更新后自曝：我是V4（？！）</span>：DeepSeek网页端上线“快速模式”“专家模式”，并对“视觉模型”开启灰度测试，且更新后出现与V4相关的线索，表明其正在围绕不同使用深度和多模态能力推进产品分层；后续看点集中在官方是否明确模型版本、扩大视觉能力开放范围，以及这些新模式能否转化为更稳定的用户体验提升。
+          </p>
+          <p class="item-metric">2026-04-08 04:00:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247881487&amp;idx=2&amp;sn=2a9d7df914633b3e89bac0293e7336a1">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247881487&amp;idx=2&amp;sn=2a9d7df914633b3e89bac0293e7336a1</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Tubi is the first streamer to launch a native app within ChatGPT</span>：Tubi成为首个在ChatGPT内推出原生应用的流媒体服务，说明ChatGPT正在从问答入口延伸为可承载第三方服务的分发平台，流媒体内容发现与推荐链路因此直接嵌入对话场景；若该集成获得用户采用，更多内容和消费类服务跟进接入的可能性将提高。
+          </p>
+          <p class="item-metric">2026-04-08 18:23:06 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/">https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI releases a new safety blueprint to address the rise in child sexual exploitation</span>：OpenAI发布针对儿童性剥削风险上升的新安全蓝图，把生成式AI带来的现实滥用问题纳入更系统的治理框架，影响不仅在模型使用规范，也会波及平台审核、合作伙伴合规与政策沟通；接下来外界将重点关注该蓝图如何落到具体检测、限制和行业协作机制上。
+          </p>
+          <p class="item-metric">2026-04-08 15:23:44 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/">https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">AWS boss explains why investing billions in both Anthropic and OpenAI is an OK conflict</span>：AWS就同时重金投资Anthropic与OpenAI的潜在冲突作出解释，反映出云厂商与顶级模型公司之间竞合关系正在成为产业常态，资本绑定、云资源供给与生态合作边界都更复杂；后续这一模式是否被市场接受，将影响大型云平台在多模型时代的投资和合作策略。
+          </p>
+          <p class="item-metric">2026-04-08 20:09:14 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/">https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">极客公园</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Claude Code更新后「翻车」，思考深度骤降67%；MacBook Neo热销，苹果A18芯片库存告急；离职员工「被做成 AI 数字人」引热议｜极客早知道</span>：该则汇总信息显示，Claude Code更新后被指“思考深度骤降67%”，同时还提及OpenAI内部争议与Sora资源调整，突出了头部模型产品在持续迭代中对能力稳定性和资源分配的敏感性；短期内，相关厂商需要更快回应性能波动与外部质疑，否则开发者和用户对模型可靠性的讨论会继续发酵。
+          </p>
+          <p class="item-metric">2026-04-08 00:07:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653102918&amp;idx=1&amp;sn=63f45da4fff8ff387301cdbe73145444">https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653102918&amp;idx=1&amp;sn=63f45da4fff8ff387301cdbe73145444</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Astropad’s Workbench reimagines remote desktop for AI agents, not IT support</span>：Astropad推出面向AI Agent的远程桌面Workbench，可让用户通过iPhone或iPad低延迟监控和控制运行在Mac Mini上的代理，说明Agent基础设施开始从软件能力转向可运维、可移动管理的实用工具层；随着企业和个人部署更多代理，此类面向监控与控制的配套产品有望获得更清晰的使用场景。
+          </p>
+          <p class="item-metric">2026-04-08 16:01:09 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/">https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">AI agent Poke makes setting up automations as easy as sending a text</span>：Poke试图把AI Agent自动化配置简化到“发一条短信”即可完成，降低了普通用户使用代理执行任务和自动化流程的门槛，意味着Agent产品正从面向技术人群转向面向大众的交互设计；如果其免配置体验成立，消费级Agent采用率可能因此提升。
+          </p>
+          <p class="item-metric">2026-04-08 21:05:13 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/">https://techcrunch.com/2026/04/08/poke-makes-ai-agents-as-easy-as-sending-a-text/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">新智元</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">谷歌Deep Think八语奥赛屠榜！自主攻克4大未解难题，科研壁垒崩塌</span>：报道称Google DeepMind的“Deep Think”在多语种竞赛中表现突出，并被描述为能在数学与科学发现任务中跨语言发挥能力，核心影响在于AI科研工具的语言门槛进一步下降，研究能力覆盖面随之扩大；后续值得关注的是这些结果是否会转化为更公开的科研产品或研究工作流能力。
+          </p>
+          <p class="item-metric">2026-04-08 04:01:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652690418&amp;idx=2&amp;sn=b5f300e27060485787f346d45090983d">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652690418&amp;idx=2&amp;sn=b5f300e27060485787f346d45090983d</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-04-09",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日入选项目最热的共同方向是围绕生成式 AI 智能体、本地模型运行与代码智能分析构建可直接落地的开发和内容生产工具。",
+  "items": [
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "一个整理和复现 Andrej Karpathy 风格 AI 开发技能与实践方法的资源仓库，帮助开发者学习构建和使用现代 AI 系统。",
+      "language": "Unknown",
+      "stars_today": 702,
+      "stars_total": 8958
+    },
+    {
+      "repo": "TheCraigHewitt/seomachine",
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "description": "一个基于 Claude Code 工作流的 AI 内容生产系统，用于调研、撰写、分析并优化适合搜索引擎的长篇博客内容。",
+      "language": "Python",
+      "stars_today": 649,
+      "stars_total": 4569
+    },
+    {
+      "repo": "google-ai-edge/gallery",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "description": "一个展示端侧机器学习与生成式 AI 用例的应用画廊，让用户可以在本地设备上体验和运行模型。",
+      "language": "Kotlin",
+      "stars_today": 853,
+      "stars_total": 19489
+    },
+    {
+      "repo": "NVIDIA/personaplex",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "description": "NVIDIA 的 PersonaPlex 项目代码，用于构建和实验带有角色设定与行为能力的 AI 系统。",
+      "language": "Python",
+      "stars_today": 586,
+      "stars_total": 8399
+    },
+    {
+      "repo": "google-ai-edge/LiteRT-LM",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "description": "一个面向轻量级运行时的语言模型项目，帮助开发者在边缘或本地环境中高效部署和运行大语言模型。",
+      "language": "C++",
+      "stars_today": 501,
+      "stars_total": 2975
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个面向智能体的技能框架与软件开发方法论，用于组织 AI 智能体的能力、流程与工程实践。",
+      "language": "Shell",
+      "stars_today": 2028,
+      "stars_total": 141464
+    },
+    {
+      "repo": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "一个零服务器代码智能引擎，可在浏览器中为代码仓库生成知识图谱，并内置 Graph RAG 智能体用于代码探索与理解。",
+      "language": "TypeScript",
+      "stars_today": 980,
+      "stars_total": 25283
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "一个模拟 AI 对冲基金团队协作的项目，使用多个 AI 角色完成投资研究、分析和决策流程。",
+      "language": "Python",
+      "stars_today": 151,
+      "stars_total": 50668
+    }
+  ]
+}
