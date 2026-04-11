@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-04-11",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日保留下来的热门项目共同聚焦于 AI 智能体与大模型开发基础设施，重点是让编码、协作、学习和数据处理更加自动化、可复用且可落地。",
+  "items": [
+    {
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "一个面向 AI 编码的开源执行框架，用来把 AI 编程流程变得更稳定、可重复和更容易工程化。",
+      "language": "TypeScript",
+      "stars_today": 756,
+      "stars_total": 15667
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "一个可扩展的 AI 智能体项目，帮助开发者构建能够持续成长、执行任务和进行交互的智能代理。",
+      "language": "Python",
+      "stars_today": 7671,
+      "stars_total": 52257
+    },
+    {
+      "repo": "rowboatlabs/rowboat",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "description": "一个带有记忆能力的开源 AI 协作助手，可作为团队中的智能同事参与任务处理与信息协同。",
+      "language": "TypeScript",
+      "stars_today": 507,
+      "stars_total": 11746
+    },
+    {
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "一个开源的智能体管理平台，用于分配任务、跟踪进度并持续积累 AI 编码智能体的能力。",
+      "language": "TypeScript",
+      "stars_today": 1506,
+      "stars_total": 6140
+    },
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "一个用于改进 Claude Code 表现的提示与规则文件，帮助减少大模型在编程中的常见问题并提升输出质量。",
+      "language": "Unknown",
+      "stars_today": 1450,
+      "stars_total": 11781
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "一个面向金融市场语言的基础模型项目，使用 AI 方法理解、建模和处理金融领域的数据与文本。",
+      "language": "Python",
+      "stars_today": 601,
+      "stars_total": 12728
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "一个以智能体为核心的个性化学习助手，利用 AI 为用户提供定制化教学与辅导体验。",
+      "language": "Python",
+      "stars_today": 1424,
+      "stars_total": 16002
+    },
+    {
+      "repo": "opendataloader-project/opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "description": "一个面向 AI 数据准备的 PDF 解析工具，用于把 PDF 内容提取并转换为更适合模型处理的数据。",
+      "language": "Java",
+      "stars_today": 1306,
+      "stars_total": 14821
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个面向智能体的软件开发技能框架与方法论，用来组织 AI 驱动的开发流程与实践。",
+      "language": "Shell",
+      "stars_today": 2150,
+      "stars_total": 145802
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "一个总结 Claude Code 使用经验与最佳实践的项目，帮助开发者更高效地进行 AI 辅助编程。",
+      "language": "HTML",
+      "stars_today": 1251,
+      "stars_total": 35821
+    }
+  ]
+}

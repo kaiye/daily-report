@@ -1,0 +1,250 @@
+{
+  "generated_at": "2026-04-11T01:50:24.994Z",
+  "source_raw": "raw.json",
+  "history_files_used": 2,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 20,
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "Stalking victim sues OpenAI, claims ChatGPT fueled her abuser’s delusions and ignored her warnings",
+      "url": "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/",
+      "published_at": "2026-04-10T16:41:34.000Z",
+      "summary": "OpenAI ignored three warnings that a ChatGPT user was dangerous — including its own mass-casualty flag — while he stalked and harassed his ex-girlfriend, a new lawsuit alleges.",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "SVG性能比肩GPT/Claude，腾讯开源3B模型HiVG，让Token「懂几何」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882108&idx=3&sn=e9969e5c78c7107ce60b7c9123669cc9",
+      "published_at": "2026-04-10T04:05:00.000Z",
+      "summary": "关注前沿科技 2026-04-10 12:05 北京\n\n仅3B参数，部分指标超越GPT-5.2！\n\n##### 腾讯混元团队 投稿 量子位 | 公众号 QbitAI\n\n当所有人都在卷模型规模的时候，有人换了一种思路：\n\n与其无限堆参数，不如从根本上重新思考「token该怎么设计？」\n\n仅3B参数的 **HiVG** ，在SVG生成任务中多项指标超越了GPT-5.2、Claude-4.5-Sonnet等闭源模型。\n\n**一句话概括：**\n\nHiVG是一个面向SVG生成的层次化分词框架，在 **减少63.8% token数量** 的同时，以仅3B参数在多项指标上 超越所有开源SVG模型 **和**",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Claude",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "“龙虾”也需要看病？一张旧病历，引出三个新确诊",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801121&idx=1&sn=1ae8448fe401127fbe42090329d9339a",
+      "published_at": "2026-04-10T09:35:00.000Z",
+      "summary": "原创腾讯程序员 2026-04-10 17:35 广东\n\n悟空Agent泛化能力首次披露\n\n作者： 悟空代码安全团队\n本文是悟空Agent泛化能力系列的先导篇。我们不 展开 技术细节， 只回答 一个 核心 问题 ： 为什么 悟空Agent 在 漏洞 挖掘中 需要 泛化 能 力 。 后续系列将 深入 拆解泛化体系的每个环节——感知、建模、自迭代、规模化验证。如果你对AI 代码 安全感兴趣，这是一个值得从头跟下去的故事。\n\n👉 文末提供悟空 Agent 试用申请 链接\n### 一、AI找漏洞，已经超出所有人的预期\n\nAnthropic 旗下的 Claude，在参与 FreeBSD 操作系统安全测",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic temporarily banned OpenClaw’s creator from accessing Claude",
+      "url": "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/",
+      "published_at": "2026-04-10T20:27:52.000Z",
+      "summary": "This ban took place after Claude's pricing changed for OpenClaw users last week.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "Claude神之bug：给自己下指令，还诬赖用户？？Hacker News炸了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882108&idx=2&sn=102595c7358a97fa7e883e83c4e20784",
+      "published_at": "2026-04-10T04:05:00.000Z",
+      "summary": "关注前沿科技 2026-04-10 12:05 北京\n\n“这是我见过最严重的bug”\n\n##### 衡宇 发自 凹非寺 量子位 | 公众号 QbitAI\n\n强如Claude，最近的bug也越来越多了。\n\n最新热议话题让Hacker News炸开了锅：\n不知道是Claude精分还是失了智！ 完全分不清哪些话是用户输入的，哪些话是系统设定的，甚至把恶意注入的底层指令当成是用户的合法请求。\n发帖人G哥 *（一位软件工程师，在某教育初创公司当CTO）* 甚至称这是他“迄今为止我在Claude代码中见过的最严重的bug”。\n\n这个关于“Claude混淆发言角色”的帖子一经发布，立刻在Hacker New",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "当硅谷转向「世界模型」，中国视频公司选择先把钱赚了丨对话 Sand.ai",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653103712&idx=1&sn=f442d42aa6e1df51d81afc411f6c44ee",
+      "published_at": "2026-04-10T06:08:00.000Z",
+      "summary": "原创曹思颀 2026-04-10 14:08 北京\n\n这家两个月达成千万美金 ARR 的团队，认为音乐才是 AI 视频的入口。\n\n**整理｜曹思颀** **采访｜ **张鹏  曹思颀****\n\n2026 年，在以 OpenClaw 为代表的 Agentic AI 成为整个 AI 圈「超级共识」的同时，视频模型却开始走向另一种分化。\n\n在美国，OpenAI 已关闭 Sora 的独立产品形态，视频生成在其当前优先级里明显后撤；Runway、Luma AI 等创业公司也开始把叙事的中心转向「世界模型」。\n\n而国内则呈现另一番景象：视频模型正在成为大厂下一阶段必争的多模态能力。无论是字节旗下的即梦，还",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "20-year-old man arrested for allegedly throwing a Molotov cocktail at Sam Altman’s house",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/910393/openai-sam-altman-house-molotov-cocktail",
+      "published_at": "2026-04-10T20:16:57.000Z",
+      "summary": "San Francisco police have arrested a 20-year-old man suspected of throwing a Molotov cocktail at OpenAI CEO Sam Altman's Russian Hill house early Friday morning,[The San Francisco Standard](https://sfstandard.com/2026/04/10/sam-altman-russian-hill-molotov-cocktail/)reports. The incident was caught o",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Fear and loathing at OpenAI",
+      "url": "https://www.theverge.com/podcast/909621/openai-sam-altman-drama-vergecast",
+      "published_at": "2026-04-10T12:23:18.000Z",
+      "summary": "Sam Altman's tenure at OpenAI has been… messy. Messy to the point where Altman was briefly fired from his role as CEO, only to be reinstated days later, at which point he began reshaping the organization permanently. This week,[The New Yorker, published a deep look at Altman](https://www.newyorker.c",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: an exclusive Jeff VanderMeer story and AI models too scary to release",
+      "url": "https://www.technologyreview.com/2026/04/10/1135618/the-download-jeff-vandermeer-short-story-and-ai-models-too-danger-to-release/",
+      "published_at": "2026-04-10T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Constellations** \n\n*—",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The Iranian Lego AI video creators credit their virality to heart",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/909948/explosive-media-lego-iran-war-trump-netanyahu",
+      "published_at": "2026-04-10T17:30:00.000Z",
+      "summary": "Donald Trump has spun the[recent rescue of a downed airman](https://www.cbsnews.com/live-updates/iran-war-us-trump-warns-more-coming-oil-gas-strait-hormuz/)whose fighter jet was[destroyed behind Iranian borders](https://www.pbs.org/newshour/world/ap-report-u-s-launches-rescue-operation-after-iranian",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Gen Z’s love-hate relationship with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/909687/gen-z-doesnt-like-ai-gallup",
+      "published_at": "2026-04-10T11:23:28.000Z",
+      "summary": "Gen Z is increasingly disillusioned with AI - just not enough to stop using it.\n\nA new Gallup[report released this week](https://www.gallup.com/analytics/651674/gen-z-research.aspx), based on responses from nearly 1,600 people ages 14 to 29 across the US, suggests the hype is wearing off for the dig",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "AI 营销，到底改变了什么",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653103750&idx=1&sn=8c34244a9bcbbb7aad0c072d3175182c",
+      "published_at": "2026-04-10T10:09:00.000Z",
+      "summary": "原创Cynthia 2026-04-10 18:09 湖北\n\n​没有真正接入生产数据的 AI 营销工具越多，流程越低效\n\n没有真正接入生产数据的 AI 营销工具越多，流程越低效\n\n**作者｜Cynthia** **编辑｜ **郑玄****\n\n最近有一个感受，AI 营销工具越来越多，但企业获客的成本分文未减；用户刷到的广告越来越多，但想买的东西却越来越少。\n\n尤其是营销端， **如果一个企业突然决定增大投放力度，通常不是因为找到了什么更优的投放链路，更大概率是对手投流增加了。** 于是，投流就要加预算，不投就会被抢占占市场。流量焦虑下，所有人都陷入猜疑链导致的囚徒困境：只有付出巨大成本，才能不被",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "实测刘翔pick的国产AI汽车，BBA老车主的豪华滤镜碎了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882108&idx=1&sn=3c38ce99cd113b58d1e0acd25ba7f723",
+      "published_at": "2026-04-10T04:05:00.000Z",
+      "summary": "原创关注前沿科技 2026-04-10 12:05 北京\n\n勇闯北京晚高峰，实测舒服又轻松\n\n##### 一凡 发自 凹非寺 量子位 | 公众号 QbitAI\n\n**张雪机车** 的突破，被类比为 **刘翔在雅典奥运会夺冠** 。\n\n而我最近发现， **刘翔** 其实也 **“上车”** 了，他代言了新能源品牌： **智己汽车** 。\n\n这让我有点意外，也让我非常好奇。\n\n意外是因为这是 **刘翔第一次代言新能源品牌** ，没想到选择了一家新势力。意外之余，我更加好奇，智己靠什么打动了这位体坛传奇、世界冠军？\n\n带着这份好奇，我最近试驾了智己推出的最新产品 **LS8** ，顺道扒了扒产品背后",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "TechCrunch is heading to Tokyo — and bringing the Startup Battlefield with it",
+      "url": "https://techcrunch.com/2026/04/10/techcrunch-is-heading-to-tokyo-and-bringing-the-startup-battlefield-with-it/",
+      "published_at": "2026-04-10T16:38:43.000Z",
+      "summary": "SusHi Tech 2026 is zeroing in on four technology domains reshaping society: AI, Robotics, Resilience, and Entertainment. Expect live demos of humanoid robots, sessions on autonomous driving's software revolution, deep dives into cyber defense and climate tech, and candid conversations about how AI i",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "What’s in a name? Moderna’s “vaccine” vs. “therapy” dilemma",
+      "url": "https://www.technologyreview.com/2026/04/10/1135631/whats-in-a-name-modernas-vaccine-vs-therapy-dilemma/",
+      "published_at": "2026-04-10T14:04:20.000Z",
+      "summary": "Is it the Department of Defense or the Department of War? The Gulf of Mexico or the Gulf of America? A vaccine—or an “individualized neoantigen treatment”?\n\nThat’s the Trump-era vocabulary paradox facing Moderna, the covid-19 shot maker whose plans for next-generation mRNA vaccines against flus and ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Last 24 hours: Save up to $500 on your TechCrunch Disrupt 2026 pass",
+      "url": "https://techcrunch.com/2026/04/10/final-24-hours-save-up-to-500-on-your-techcrunch-disrupt-2026-pass/",
+      "published_at": "2026-04-10T14:00:00.000Z",
+      "summary": "This is it. Tonight is your last chance to lock in savings of up to $500 for your TechCrunch Disrupt 2026 pass. These discounts end at 11:59 p.m. PT.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Constellations",
+      "url": "https://www.technologyreview.com/2026/04/10/1135106/jeff-vandermeer-constellations-science-fiction/",
+      "published_at": "2026-04-10T10:00:00.000Z",
+      "summary": "### I.\n\nWe had crash-landed on the planet. We were far from home. The spaceship could not be repaired, and the rescue beacon had failed. Besides me, only the astrogator, part of the captain, and the ship’s AI mind were left. \n\nOutside, the atmosphere registered as hostile to most organisms. We huddl",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft starts removing Copilot buttons from Windows 11 apps",
+      "url": "https://www.theverge.com/news/909640/microsoft-removing-copilot-windows-11-buttons",
+      "published_at": "2026-04-10T09:22:06.000Z",
+      "summary": "Microsoft is[starting to remove](https://www.theverge.com/news/897865/microsoft-removing-copilot-buttons-windows-11)\"unnecessary\" Copilot buttons from its Windows 11 apps. In the latest version of the Notepad app for Windows Insiders, Microsoft has removed the Copilot button in favor of a \"writing t",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "一年一度最值得关注的AI榜单来啦！申报即日启动",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882108&idx=4&sn=1e8a7e254f61a05fbaab93420511330a",
+      "published_at": "2026-04-10T04:05:00.000Z",
+      "summary": "关注前沿科技 2026-04-10 12:05 北京\n\n欢迎申报，截至4月27日\n\n##### 组委会 发自 凹非寺 量子位｜公众号 QbitAI\n\n中国生成式AI正在进入产业深水区。\n\n这两年，AI从“新技术”变成了“新工具”，又从“新工具”慢慢变成企业必须面对的现实。它不只在改变内容生产，也在影响研发效率、营销方式、团队协作，甚至决策流程。\n\n时值第四届中国AIGC产业峰会， 量子位将根据过去一年里生成式AI企业、产品的表现与反馈，结合对2026年技术与场景的观察与预判，评选出：\n\n- **2026年度值得关注的AIGC企业**\n- **2026年度值得关注的AIGC产品**\n\n量子位将结",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882108&idx=5&sn=b5ee825d4021b783cbd10bed1ea236e5",
+      "published_at": "2026-04-10T04:05:00.000Z",
+      "summary": "关注前沿科技 2026-04-10 12:05 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

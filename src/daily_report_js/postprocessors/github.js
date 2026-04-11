@@ -7,7 +7,7 @@ export function processGithubRaw(rawData, cfg = {}) {
       repo: String(item.repo || ''),
       url: String(item.url || ''),
       description: String(item.description || ''),
-      language: String(item.language || ''),
+      language: String(item.language || '').trim() || 'Unknown',
       stars_today: Number(item.stars_today || 0),
       stars_total: Number(item.stars_total || 0),
       forks: Number(item.forks || 0),
