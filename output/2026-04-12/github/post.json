@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-04-12T01:19:36.928Z",
+  "source_raw": "raw.json",
+  "source_count": 13,
+  "item_count": 13,
+  "language_breakdown": {
+    "Python": 5,
+    "TypeScript": 2,
+    "Unknown": 2,
+    "HTML": 1,
+    "Roff": 1,
+    "Java": 1,
+    "Shell": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars_today": 6438,
+      "stars_total": 59031,
+      "forks": 7838
+    },
+    {
+      "rank": 2,
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars_today": 3086,
+      "stars_total": 102240,
+      "forks": 6321
+    },
+    {
+      "rank": 3,
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "stars_today": 1346,
+      "stars_total": 16477,
+      "forks": 2641
+    },
+    {
+      "rank": 4,
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "Unknown",
+      "stars_today": 1066,
+      "stars_total": 13632,
+      "forks": 928
+    },
+    {
+      "rank": 5,
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "stars_today": 1948,
+      "stars_total": 7937,
+      "forks": 1011
+    },
+    {
+      "rank": 6,
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "stars_today": 1475,
+      "stars_total": 37082,
+      "forks": 3471
+    },
+    {
+      "rank": 7,
+      "repo": "TapXWorld/ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "stars_today": 361,
+      "stars_total": 67789,
+      "forks": 15138
+    },
+    {
+      "rank": 8,
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars_today": 1084,
+      "stars_total": 9918,
+      "forks": 1157
+    },
+    {
+      "rank": 9,
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars_today": 595,
+      "stars_total": 14280,
+      "forks": 2813
+    },
+    {
+      "rank": 10,
+      "repo": "opendataloader-project/opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "language": "Java",
+      "stars_today": 775,
+      "stars_total": 15621,
+      "forks": 1326
+    },
+    {
+      "rank": 11,
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
+      "language": "Python",
+      "stars_today": 837,
+      "stars_total": 16782,
+      "forks": 2206
+    },
+    {
+      "rank": 12,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1591,
+      "stars_total": 147175,
+      "forks": 12638
+    },
+    {
+      "rank": 13,
+      "repo": "alexpate/awesome-design-systems",
+      "url": "https://github.com/alexpate/awesome-design-systems",
+      "description": "💅🏻 ⚒ A collection of awesome design systems",
+      "language": "Unknown",
+      "stars_today": 2050,
+      "stars_total": 22401,
+      "forks": 1385
+    }
+  ]
+}
