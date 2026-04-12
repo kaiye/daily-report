@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-04-12",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜的 AI 相关项目最热方向集中在智能体工程、AI 编码工作流以及让模型更稳定落地的数据与语音基础设施。",
+  "items": [
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "一个可持续扩展的 AI 智能体框架，用于构建、运行和进化能够完成复杂任务的代理系统。",
+      "language": "Python",
+      "stars_today": 6438,
+      "stars_total": 59031
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "一个 Python 工具，可把 Office 文档、PDF 等文件转换为 Markdown，便于 LLM 和其他 AI 系统读取与处理。",
+      "language": "Python",
+      "stars_today": 3086,
+      "stars_total": 102240
+    },
+    {
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "一个面向 AI 编码的开源 harness 构建器，用来让 AI 编程流程更可控、可重复且更稳定。",
+      "language": "TypeScript",
+      "stars_today": 1346,
+      "stars_total": 16477
+    },
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "一个用于改进 Claude Code 表现的提示与规则配置文件，帮助减少大语言模型在编程中的常见失误。",
+      "language": "Unknown",
+      "stars_today": 1066,
+      "stars_total": 13632
+    },
+    {
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "一个开源托管智能体平台，可把编码智能体作为团队成员来分配任务、跟踪进度并积累技能。",
+      "language": "TypeScript",
+      "stars_today": 1948,
+      "stars_total": 7937
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "一个整理 Claude Code 使用经验与最佳实践的项目，帮助开发者更高效地使用 AI 编码助手。",
+      "language": "HTML",
+      "stars_today": 1475,
+      "stars_total": 37082
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "一个免分词器的多语言文本转语音模型，支持语音生成、声音设计和高保真语音克隆。",
+      "language": "Python",
+      "stars_today": 1084,
+      "stars_total": 9918
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "一个面向金融市场语言的基础模型，用于理解、建模和分析金融领域相关数据与信号。",
+      "language": "Python",
+      "stars_today": 595,
+      "stars_total": 14280
+    },
+    {
+      "repo": "opendataloader-project/opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "description": "一个面向 AI 数据准备的 PDF 解析工具，用于把 PDF 内容提取为更适合模型处理的结构化数据。",
+      "language": "Java",
+      "stars_today": 775,
+      "stars_total": 15621
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "一个以智能体为核心的个性化学习助手，用 AI 为学习者提供定制化辅导与教学支持。",
+      "language": "Python",
+      "stars_today": 837,
+      "stars_total": 16782
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个面向智能体的软件开发方法与技能框架，用于组织 AI 代理在实际工程中的协作与执行。",
+      "language": "Shell",
+      "stars_today": 1591,
+      "stars_total": 147175
+    }
+  ]
+}
