@@ -32,6 +32,8 @@ function buildNaturalRulesFromSchema(section, schema) {
     rules.push('text should be a concise paraphrase in the original tone and perspective.');
   }
   if (schema.requiredItemFields.includes('summary') && section === 'media') {
+    rules.push('For each media item, title must be a concise one-sentence Chinese title that faithfully translates the original meaning.');
+    rules.push('Shorten the title when possible, but do not change the factual meaning or add new claims.');
     rules.push('For each media item, summary must be exactly one sentence.');
     rules.push('The sentence should primarily summarize what happened in the original article, with at most a light implication if clearly supported by the title/summary.');
     rules.push('Do not simply repeat the full title verbatim inside item.summary.');
