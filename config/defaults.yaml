@@ -39,6 +39,8 @@ media:
     Then prioritize: major product launches/updates > major funding/M&A > major technical breakthroughs.
     If multiple items cover the same event, keep the most information-dense one and fill remaining slots with different topics.
     Do not over-concentrate on one company if equally important events from other priority brands exist.
+    For each item, rewrite title into a concise one-sentence Chinese title that faithfully preserves the original meaning.
+    Shorten where possible, but do not add claims, conclusions, or framing not present in the source title.
     For each item, write summary as exactly one sentence.
     Prefer a concise event summary grounded in the original article, not a multi-sentence industry analysis.
     Do not simply repeat the title verbatim inside the item summary.
