@@ -2,7 +2,7 @@ const SECTION_SCHEMAS = {
   media: {
     reportContext: 'AI news',
     sourceContext: 'post-processed RSS data',
-    requiredItemFields: ['source', 'title', 'url', 'published_at', 'impact_and_outlook'],
+    requiredItemFields: ['source', 'title', 'url', 'published_at', 'summary'],
     deterministicStringFields: ['source', 'url', 'published_at'],
     deterministicNumberFields: [],
     keyField: 'url',
@@ -11,7 +11,7 @@ const SECTION_SCHEMAS = {
       title: 'string',
       url: 'string',
       published_at: 'string',
-      impact_and_outlook: 'string',
+      summary: 'string',
     },
   },
   github: {

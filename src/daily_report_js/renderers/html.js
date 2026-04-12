@@ -101,11 +101,11 @@ function getItemView(section, item, index) {
     rank: String(index + 1).padStart(2, '0'),
     badge: escapeHtml(item.source || 'Media'),
     title: escapeHtml(item.title || ''),
-      content: escapeHtml(item.impact_and_outlook || item.why_it_matters || ''),
-      metric: formatFullDateTime(item.published_at),
-      url: escapeHtml(item.url || ''),
-      tone: 'warn',
-    };
+    content: escapeHtml(item.summary || item.impact_and_outlook || item.why_it_matters || ''),
+    metric: formatFullDateTime(item.published_at),
+    url: escapeHtml(item.url || ''),
+    tone: 'warn',
+  };
 }
 
 export function renderHtml(report) {

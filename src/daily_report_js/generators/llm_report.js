@@ -24,15 +24,20 @@ function buildNaturalRulesFromSchema(section, schema) {
   }
 
   if (schema.requiredItemFields.includes('description')) {
-    rules.push('description should clearly explain what the repo/project does.');
+    rules.push('description should stay close to the repository\'s own wording and read like a faithful Chinese translation, not a generic rewrite.');
+    rules.push('description must be no more than one sentence.');
+    rules.push('Avoid mechanical patterns such as “一个……用于……” unless the source itself uses that framing.');
   }
   if (schema.requiredItemFields.includes('text')) {
     rules.push('text should be a concise paraphrase in the original tone and perspective.');
   }
-  if (schema.requiredItemFields.includes('impact_and_outlook')) {
-    rules.push('impact_and_outlook must be grounded in post.items.title and post.items.summary, adding concrete impact details and explicitly stated outlook only.');
+  if (schema.requiredItemFields.includes('summary') && section === 'media') {
+    rules.push('For each media item, summary must be exactly one sentence.');
+    rules.push('The sentence should primarily summarize what happened in the original article, with at most a light implication if clearly supported by the title/summary.');
+    rules.push('Do not simply repeat the full title verbatim inside item.summary.');
+    rules.push('Keep the outlet\'s framing and avoid switching into a third-party analyst voice.');
     rules.push('Avoid mechanical phrases such as "这说明" or "这显示".');
-    rules.push('Do not invent predictions that are not supported by post.items.title/summary.');
+    rules.push('Do not invent outlook or predictions that are not supported by post.items.title/summary.');
   }
 
   rules.push(`Do not output duplicate items with the same ${schema.keyField}.`);

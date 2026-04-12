@@ -8,7 +8,7 @@ llm:
   base_url: https://cc.dingsum.com/v1
   model: gpt-5.4
   temperature: 0.2
-  proxy: http://127.0.0.1:8899   # optional; set empty to disable
+  proxy: ""   # optional; set empty to disable
 
 # Output preferences
 output:
@@ -39,6 +39,11 @@ media:
     Then prioritize: major product launches/updates > major funding/M&A > major technical breakthroughs.
     If multiple items cover the same event, keep the most information-dense one and fill remaining slots with different topics.
     Do not over-concentrate on one company if equally important events from other priority brands exist.
+    For each item, write summary as exactly one sentence.
+    Prefer a concise event summary grounded in the original article, not a multi-sentence industry analysis.
+    Do not simply repeat the title verbatim inside the item summary.
+    Keep the media outlet's framing where possible and avoid switching into a detached third-party commentary voice.
+    Do not default to outlook language unless it is clearly supported by the title/summary.
     All JSON string fields must be written in {{output_language}}.
     The summary must be exactly one sentence describing the single most important trend.
 
@@ -48,7 +53,11 @@ github:
   llm_directive: |
     Keep only AI-related repos. If a repo has some relevance to AI, keep it; if totally unrelated, drop it.
     Include up to {{max_items}} repos and follow the order in post.json (rank ascending).
-    Rewrite description to clearly explain what each repo does in plain language.
+    Keep description close to the repository's own wording and make it read like a faithful Chinese translation.
+    Keep description within one sentence.
+    Prefer preserving the project's original framing over rewriting it into a generic explanation.
+    Avoid mechanical patterns like “一个……用于……”, unless that is already the clearest faithful translation of the source description.
+    If the original description is already clear, only lightly normalize it.
     All JSON string fields must be written in {{output_language}}.
     The summary must be exactly one sentence describing the hottest shared direction across kept items.
 
