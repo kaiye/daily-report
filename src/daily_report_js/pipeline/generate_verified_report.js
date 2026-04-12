@@ -3,6 +3,54 @@ import { generateSectionReport, repairSectionReport } from '../generators/llm_re
 import { writeJson } from '../utils/io.js';
 import { verifySection } from './verify.js';
 
+function buildSourceIndex(section, post) {
+  const byKey = new Map();
+  for (const item of (post?.items || [])) {
+    if (section === 'github' && item?.repo) byKey.set(String(item.repo), item);
+    if (section === 'media' && (item?.url || item?.link)) byKey.set(String(item.url || item.link), item);
+    if (section === 'x' && item?.id) byKey.set(String(item.id), item);
+  }
+  return byKey;
+}
+
+function fillMissingRequiredFields(section, report, post) {
+  const sourceIndex = buildSourceIndex(section, post);
+  const items = Array.isArray(report?.items) ? report.items : [];
+
+  for (const item of items) {
+    if (!item || typeof item !== 'object') continue;
+
+    if (section === 'github') {
+      const source = sourceIndex.get(String(item.repo || ''));
+      if (!item.description || !String(item.description).trim()) {
+        const sourceDescription = String(source?.description || '').trim();
+        if (sourceDescription) {
+          item.description = sourceDescription;
+        } else {
+          const repoName = String(item.repo || '').split('/').pop() || '该项目';
+          item.description = `仓库原始描述缺失，项目名为 ${repoName}。`;
+        }
+      }
+    }
+
+    if (section === 'media') {
+      const source = sourceIndex.get(String(item.url || ''));
+      if ((!item.summary || !String(item.summary).trim())) {
+        item.summary = String(source?.summary || source?.description || item.title || '').trim();
+      }
+    }
+
+    if (section === 'x') {
+      const source = sourceIndex.get(String(item.id || ''));
+      if ((!item.text || !String(item.text).trim()) && source?.text) {
+        item.text = String(source.text).trim();
+      }
+    }
+  }
+
+  return report;
+}
+
 export async function generateVerifiedReport({
   outDir,
   section,
@@ -18,9 +66,9 @@ export async function generateVerifiedReport({
     return { ...report, title: fixedTitle };
   };
 
-  let report = applyFixedTitle(
+  let report = fillMissingRequiredFields(section, applyFixedTitle(
     await generateSectionReport(section, post, reportDate, directive, llmCfg),
-  );
+  ), post);
 
   for (let attempt = 0; attempt <= maxRepairAttempts; attempt += 1) {
     writeJson(path.join(outDir, 'report.json'), report);
@@ -41,7 +89,7 @@ export async function generateVerifiedReport({
       `  ♻️  Verification failed (issues=${verification.issueTotal}). Asking LLM to repair report.json (attempt ${attempt + 1}/${maxRepairAttempts})...`,
     );
 
-    report = applyFixedTitle(await repairSectionReport(
+    report = fillMissingRequiredFields(section, applyFixedTitle(await repairSectionReport(
       section,
       post,
       reportDate,
@@ -49,7 +97,7 @@ export async function generateVerifiedReport({
       llmCfg,
       report,
       verification.issues || [],
-    ));
+    )), post);
   }
 
   throw new Error(`Unexpected verification loop exit for section=${section}`);

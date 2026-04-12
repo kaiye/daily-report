@@ -1,9 +1,9 @@
 {
   "source": "github_trending",
-  "collected_at": "2026-04-12T01:19:36.926Z",
+  "collected_at": "2026-04-12T23:30:33.180Z",
   "since": "daily",
   "lang_filter": "all",
-  "count": 13,
+  "count": 14,
   "items": [
     {
       "rank": 1,
@@ -11,39 +11,39 @@
       "url": "https://github.com/NousResearch/hermes-agent",
       "description": "The agent that grows with you",
       "language": "Python",
-      "stars_total": 59031,
-      "forks": 7838,
-      "stars_today": 6438
+      "stars_total": 66030,
+      "forks": 8833,
+      "stars_today": 7450
     },
     {
       "rank": 2,
-      "repo": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "language": "Python",
-      "stars_total": 102240,
-      "forks": 6321,
-      "stars_today": 3086
+      "stars_total": 15714,
+      "forks": 3008,
+      "stars_today": 1998
     },
     {
       "rank": 3,
-      "repo": "coleam00/Archon",
-      "url": "https://github.com/coleam00/Archon",
-      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
-      "language": "TypeScript",
-      "stars_total": 16477,
-      "forks": 2641,
-      "stars_today": 1346
-    },
-    {
-      "rank": 4,
       "repo": "forrestchang/andrej-karpathy-skills",
       "url": "https://github.com/forrestchang/andrej-karpathy-skills",
       "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
       "language": "",
-      "stars_total": 13632,
-      "forks": 928,
-      "stars_today": 1066
+      "stars_total": 16586,
+      "forks": 1212,
+      "stars_today": 2351
+    },
+    {
+      "rank": 4,
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars_total": 104533,
+      "forks": 6519,
+      "stars_today": 2513
     },
     {
       "rank": 5,
@@ -51,29 +51,29 @@
       "url": "https://github.com/multica-ai/multica",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
       "language": "TypeScript",
-      "stars_total": 7937,
-      "forks": 1011,
-      "stars_today": 1948
+      "stars_total": 9305,
+      "forks": 1189,
+      "stars_today": 1626
     },
     {
       "rank": 6,
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "stars_total": 17011,
+      "forks": 2702,
+      "stars_today": 612
+    },
+    {
+      "rank": 7,
       "repo": "shanraisshan/claude-code-best-practice",
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
       "description": "practice made claude perfect",
       "language": "HTML",
-      "stars_total": 37082,
-      "forks": 3471,
-      "stars_today": 1475
-    },
-    {
-      "rank": 7,
-      "repo": "TapXWorld/ChinaTextbook",
-      "url": "https://github.com/TapXWorld/ChinaTextbook",
-      "description": "所有小初高、大学PDF教材。",
-      "language": "Roff",
-      "stars_total": 67789,
-      "forks": 15138,
-      "stars_today": 361
+      "stars_total": 38916,
+      "forks": 3670,
+      "stars_today": 1537
     },
     {
       "rank": 8,
@@ -81,59 +81,69 @@
       "url": "https://github.com/OpenBMB/VoxCPM",
       "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
       "language": "Python",
-      "stars_total": 9918,
-      "forks": 1157,
-      "stars_today": 1084
+      "stars_total": 11233,
+      "forks": 1305,
+      "stars_today": 1276
     },
     {
       "rank": 9,
-      "repo": "shiyu-coder/Kronos",
-      "url": "https://github.com/shiyu-coder/Kronos",
-      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
-      "language": "Python",
-      "stars_total": 14280,
-      "forks": 2813,
-      "stars_today": 595
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars_total": 49850,
+      "forks": 3922,
+      "stars_today": 814
     },
     {
       "rank": 10,
-      "repo": "opendataloader-project/opendataloader-pdf",
-      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
-      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
-      "language": "Java",
-      "stars_total": 15621,
-      "forks": 1326,
-      "stars_today": 775
+      "repo": "ahujasid/blender-mcp",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "BlenderMCP connects Blender to Claude AI through the Model Context Protocol (MCP), allowing Claude to directly interact with and control Blender. This integration enables prompt assisted 3D modeling, scene creation, and manipulation.\n\nWe have no official website. Any website you see online is unofficial and has no affiliation with this project. Use them at your own risk.",
+      "language": "Python",
+      "stars_total": 19127,
+      "forks": 1860,
+      "stars_today": 228
     },
     {
       "rank": 11,
-      "repo": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "\"DeepTutor: Agent-Native Personalized Learning Assistant\"",
-      "language": "Python",
-      "stars_total": 16782,
-      "forks": 2206,
-      "stars_today": 837
+      "repo": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "stars_total": 25179,
+      "forks": 1071,
+      "stars_today": 253
     },
     {
       "rank": 12,
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework &amp; software development methodology that works.",
-      "language": "Shell",
-      "stars_total": 147175,
-      "forks": 12638,
-      "stars_today": 1591
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars_total": 52156,
+      "forks": 9046,
+      "stars_today": 696
     },
     {
       "rank": 13,
-      "repo": "alexpate/awesome-design-systems",
-      "url": "https://github.com/alexpate/awesome-design-systems",
-      "description": "💅🏻 ⚒ A collection of awesome design systems",
-      "language": "",
-      "stars_total": 22401,
-      "forks": 1385,
-      "stars_today": 2050
+      "repo": "snarktank/ralph",
+      "url": "https://github.com/snarktank/ralph",
+      "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
+      "language": "TypeScript",
+      "stars_total": 15896,
+      "forks": 1588,
+      "stars_today": 519
+    },
+    {
+      "rank": 14,
+      "repo": "TapXWorld/ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "stars_total": 68194,
+      "forks": 15218,
+      "stars_today": 450
     }
   ]
 }

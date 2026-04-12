@@ -2,95 +2,95 @@
   "report_date": "2026-04-12",
   "section": "github",
   "title": "Github 趋势",
-  "summary": "今日上榜的 AI 相关项目最热方向集中在智能体工程、AI 编码工作流以及让模型更稳定落地的数据与语音基础设施。",
+  "summary": "最热的共同方向是围绕大模型代理、AI 编码工作流与多模态生成能力的开源工具和平台持续升温。",
   "items": [
     {
       "repo": "NousResearch/hermes-agent",
       "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "一个可持续扩展的 AI 智能体框架，用于构建、运行和进化能够完成复杂任务的代理系统。",
+      "description": "会与你一起成长的智能体。",
       "language": "Python",
-      "stars_today": 6438,
-      "stars_total": 59031
-    },
-    {
-      "repo": "microsoft/markitdown",
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "一个 Python 工具，可把 Office 文档、PDF 等文件转换为 Markdown，便于 LLM 和其他 AI 系统读取与处理。",
-      "language": "Python",
-      "stars_today": 3086,
-      "stars_total": 102240
-    },
-    {
-      "repo": "coleam00/Archon",
-      "url": "https://github.com/coleam00/Archon",
-      "description": "一个面向 AI 编码的开源 harness 构建器，用来让 AI 编程流程更可控、可重复且更稳定。",
-      "language": "TypeScript",
-      "stars_today": 1346,
-      "stars_total": 16477
-    },
-    {
-      "repo": "forrestchang/andrej-karpathy-skills",
-      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
-      "description": "一个用于改进 Claude Code 表现的提示与规则配置文件，帮助减少大语言模型在编程中的常见失误。",
-      "language": "Unknown",
-      "stars_today": 1066,
-      "stars_total": 13632
-    },
-    {
-      "repo": "multica-ai/multica",
-      "url": "https://github.com/multica-ai/multica",
-      "description": "一个开源托管智能体平台，可把编码智能体作为团队成员来分配任务、跟踪进度并积累技能。",
-      "language": "TypeScript",
-      "stars_today": 1948,
-      "stars_total": 7937
-    },
-    {
-      "repo": "shanraisshan/claude-code-best-practice",
-      "url": "https://github.com/shanraisshan/claude-code-best-practice",
-      "description": "一个整理 Claude Code 使用经验与最佳实践的项目，帮助开发者更高效地使用 AI 编码助手。",
-      "language": "HTML",
-      "stars_today": 1475,
-      "stars_total": 37082
-    },
-    {
-      "repo": "OpenBMB/VoxCPM",
-      "url": "https://github.com/OpenBMB/VoxCPM",
-      "description": "一个免分词器的多语言文本转语音模型，支持语音生成、声音设计和高保真语音克隆。",
-      "language": "Python",
-      "stars_today": 1084,
-      "stars_total": 9918
+      "stars_today": 7450,
+      "stars_total": 66030
     },
     {
       "repo": "shiyu-coder/Kronos",
       "url": "https://github.com/shiyu-coder/Kronos",
-      "description": "一个面向金融市场语言的基础模型，用于理解、建模和分析金融领域相关数据与信号。",
+      "description": "Kronos：面向金融市场语言的基础模型。",
       "language": "Python",
-      "stars_today": 595,
-      "stars_total": 14280
+      "stars_today": 1998,
+      "stars_total": 15714
     },
     {
-      "repo": "opendataloader-project/opendataloader-pdf",
-      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
-      "description": "一个面向 AI 数据准备的 PDF 解析工具，用于把 PDF 内容提取为更适合模型处理的结构化数据。",
-      "language": "Java",
-      "stars_today": 775,
-      "stars_total": 15621
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "单个 CLAUDE.md 文件，用于改进 Claude Code 的行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。",
+      "language": "Unknown",
+      "stars_today": 2351,
+      "stars_total": 16586
     },
     {
-      "repo": "HKUDS/DeepTutor",
-      "url": "https://github.com/HKUDS/DeepTutor",
-      "description": "一个以智能体为核心的个性化学习助手，用 AI 为学习者提供定制化辅导与教学支持。",
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "开源的托管式智能体平台，把编码智能体变成真正的队友——分配任务、跟踪进度、积累技能。",
+      "language": "TypeScript",
+      "stars_today": 1626,
+      "stars_total": 9305
+    },
+    {
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "首个面向 AI 编码的开源 harness 构建器，让 AI 编码变得确定且可重复。",
+      "language": "TypeScript",
+      "stars_today": 612,
+      "stars_total": 17011
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "这些实践让 Claude 变得近乎完美。",
+      "language": "HTML",
+      "stars_today": 1537,
+      "stars_total": 38916
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2：无 tokenizer 的 TTS，用于多语言语音生成、创意音色设计和高度逼真的声音克隆。",
       "language": "Python",
-      "stars_today": 837,
-      "stars_total": 16782
+      "stars_today": 1276,
+      "stars_total": 11233
     },
     {
-      "repo": "obra/superpowers",
-      "url": "https://github.com/obra/superpowers",
-      "description": "一个面向智能体的软件开发方法与技能框架，用于组织 AI 代理在实际工程中的协作与执行。",
-      "language": "Shell",
-      "stars_today": 1591,
-      "stars_total": 147175
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Claude Code 插件，会自动捕获 Claude 在编码会话中的所有操作，用 AI 压缩后再把相关上下文注入后续会话。",
+      "language": "TypeScript",
+      "stars_today": 814,
+      "stars_total": 49850
+    },
+    {
+      "repo": "ahujasid/blender-mcp",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "BlenderMCP 通过 Model Context Protocol（MCP）将 Blender 连接到 Claude AI，使 Claude 能直接与 Blender 交互并控制它。",
+      "language": "Python",
+      "stars_today": 228,
+      "stars_total": 19127
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "一支 AI 对冲基金团队。",
+      "language": "Python",
+      "stars_today": 696,
+      "stars_total": 52156
+    },
+    {
+      "repo": "snarktank/ralph",
+      "url": "https://github.com/snarktank/ralph",
+      "description": "Ralph 是一个自主 AI 智能体循环，会反复运行直到所有 PRD 条目完成。",
+      "language": "TypeScript",
+      "stars_today": 519,
+      "stars_total": 15896
     }
   ]
 }

@@ -1,23 +1,38 @@
 # 媒体资讯
 
-本日最突出的共同趋势是，头部AI话题正同时向模型治理与商业化产品落地两端加速分化。
+今日重点集中在Anthropic与Claude热度上升、OpenAI相关监管与人才压力讨论，以及Qwen和开源智能体等模型与工具进展持续扩散。
 
-### [AI的尽头是神学：60岁硅谷前高管神父重写Claude灵魂，拒五角大楼军用](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691208&idx=2&sn=714793b161b0912f203ac449dae86fa6)
-*新智元* · 2026-04-11
+### [Trump officials may be encouraging banks to test Anthropic’s Mythos model](https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/)
+*TechCrunch AI* · 2026-04-12
 
-报道围绕Anthropic与Claude的价值观与边界设定展开，核心影响在于把模型行为、安全约束与军用场景取舍推到更公开的位置；已明确的信息指向Claude相关规则设计正受到更强的人文与伦理审视，后续关注点仍将集中在模型治理原则如何落实到具体使用边界。
+Trump officials may be encouraging banks to test Anthropic’s Mythos model：报道称特朗普政府官员可能在鼓励银行测试Anthropic的Mythos模型，尽管美国国防部近期曾将Anthropic列为供应链风险。
 
-### [Sam Altman responds to ‘incendiary’ New Yorker article after attack on his home](https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/)
-*TechCrunch AI* · 2026-04-11
+### [At the HumanX conference, everyone was talking about Claude](https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/)
+*TechCrunch AI* · 2026-04-12
 
-事件直接关联OpenAI首席执行官Sam Altman的个人安全与外界信任争议，影响在于OpenAI管理层形象、治理透明度与舆论环境再度成为焦点；从标题与摘要看，短期内相关讨论仍会围绕其可信度质疑及公司领导层公共回应持续发酵。
+At the HumanX conference, everyone was talking about Claude：TechCrunch称在旧金山AI大会HumanX上，Anthropic及其Claude成为与会者讨论的焦点。
 
-### [重磅开源！240亿参数力压Nano Banana 2](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691208&idx=1&sn=8ef0638fe63ada3a7277b5f22e1e4f5d)
-*新智元* · 2026-04-11
+### [996太轻松，002极限压榨！被AGI逼疯的硅谷天才，正在集体逃亡](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691298&idx=2&sn=31ab86e87784ccee50411483c86a0b68)
+*新智元* · 2026-04-12
 
-该报道聚焦京东开源24B图像编辑模型JoyAI-Image-Edit，并强调其在空间理解与真实场景应用上的提升，属于有明确落地指向的产品与技术发布；已披露的信息表明，图像AI竞争正在从单纯生成转向更强调编辑能力、空间智能和行业场景适配的阶段。
+996太轻松，002极限压榨！被AGI逼疯的硅谷天才，正在集体逃亡：文章称OpenAI工程师因严重透支离开硅谷，折射出OpenAI与xAI等公司在AGI竞赛下的高压工作状态。
 
-### [重构线性视觉Transformer，精度与效率双平衡 | CVPR'25](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691208&idx=3&sn=908803e7506dd4bf0ca11bc8ac7c11c1)
-*新智元* · 2026-04-11
+### [宇树机器人逼近博尔特速度极限；Qwen 系列模型累计下载量近 10 亿；小米上调手机价格，K90 Pro Max 上涨 200 元| 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653103823&idx=1&sn=b4d4edad5be0dc85054ebee700e11354)
+*极客公园* · 2026-04-12
 
-报道介绍CARE Transformer在降低线性注意力开销的同时提升视觉任务表现，并已在iPhone与iPad上实现低延迟高精度，直接增强了端侧AI部署的现实可行性；按摘要所述，后续看点在于这类兼顾效率与精度的视觉架构是否会进一步扩展到更多移动端场景。
+宇树机器人逼近博尔特速度极限；Qwen 系列模型累计下载量近 10 亿；小米上调手机价格，K90 Pro Max 上涨 200 元| 极客早知道：极客公园在早报中提到Qwen系列模型累计下载量已接近10亿，同时欧盟拟依据《数字服务法》加强对OpenAI的监管。
+
+### [一天仅需5毛钱，开源框架替你半夜跑实验！7*24小时待命](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691298&idx=3&sn=dd20417ba12cc23e7ba7ff74a9778c91)
+*新智元* · 2026-04-12
+
+一天仅需5毛钱，开源框架替你半夜跑实验！7*24小时待命：新智元介绍开源框架Deep Researcher Agent可在不依赖LLM API的情况下全天候自动执行、监控并反思深度学习实验。
+
+### [Claude复活30年前传奇游戏，仅用一个周末](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882513&idx=2&sn=095b384bc42eb3b1cfd1c60393c41d68)
+*量子位* · 2026-04-12
+
+Claude复活30年前传奇游戏，仅用一个周末：量子位报道称有人借助Claude在一个周末内复活了一款30年前开发的传奇MUD游戏。
+
+### [The AI code wars are heating up](https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic)
+*The Verge AI* · 2026-04-12
+
+The AI code wars are heating up：The Verge在专栏中聚焦OpenAI、Google和Anthropic之间愈发激烈的AI编程工具竞争。

@@ -1,3 +1,5 @@
+import { formatNum } from '../utils/text.js';
+
 export function renderMarkdown(report) {
   const section = report.section || 'github';
   if (section === 'media') {
@@ -12,7 +14,7 @@ export function renderMarkdown(report) {
       lines.push(`### [${item.title || ''}](${item.url || ''})`);
       lines.push(`*${item.source || ''}* · ${pub}`);
       lines.push('');
-      lines.push(item.impact_and_outlook || item.why_it_matters || '');
+      lines.push(`${item.title || ''}：${item.summary || item.impact_and_outlook || item.why_it_matters || ''}`);
       lines.push('');
     }
     return `${lines.join('\n').trim()}\n`;
@@ -28,7 +30,7 @@ export function renderMarkdown(report) {
     for (const item of report.items || []) {
       const author = item.author_handle ? `@${item.author_handle}` : item.author_name || '';
       lines.push(`### [${author}](${item.url || ''})`);
-      lines.push(`*👁 ${Number(item.view_count || 0).toLocaleString()} · ❤️ ${Number(item.like_count || 0).toLocaleString()}*`);
+      lines.push(`*👁 ${formatNum(item.view_count || 0)} · ❤️ ${formatNum(item.like_count || 0)}*`);
       lines.push('');
       lines.push(item.text || '');
       lines.push('');
@@ -39,21 +41,14 @@ export function renderMarkdown(report) {
   const lines = [
     `# ${report.title || 'GitHub Trending'}`,
     '',
-    report.summary || '',
-    '',
   ];
   for (const item of report.items || []) {
-    lines.push(`### [${item.repo || ''}](${item.url || ''})`);
-    const meta = [];
-    if (item.language) meta.push(item.language);
-    if (item.stars_today) meta.push(`⭐ +${Number(item.stars_today).toLocaleString()} today`);
-    if (item.stars_total) meta.push(`${Number(item.stars_total).toLocaleString()} total`);
-    if (meta.length) lines.push(`*${meta.join(' · ')}*`);
+    const total = Number(item.stars_total || 0).toLocaleString();
+    const today = Number(item.stars_today || 0).toLocaleString();
+    const desc = item.description ? ` — ${item.description}` : '';
+    lines.push(`\`${item.repo || ''}\` ⭐ ${total} (+${today})${desc}`);
+    lines.push(`> ${item.url || ''}`);
     lines.push('');
-    if (item.description) {
-      lines.push(item.description);
-      lines.push('');
-    }
   }
   return `${lines.join('\n').trim()}\n`;
 }
