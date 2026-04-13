@@ -1,0 +1,149 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-04-13T00:15:46.622Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 14,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars_total": 66191,
+      "forks": 8854,
+      "stars_today": 7454
+    },
+    {
+      "rank": 2,
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars_total": 15743,
+      "forks": 3012,
+      "stars_today": 1985
+    },
+    {
+      "rank": 3,
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars_total": 16712,
+      "forks": 1225,
+      "stars_today": 2369
+    },
+    {
+      "rank": 4,
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars_total": 104600,
+      "forks": 6527,
+      "stars_today": 2513
+    },
+    {
+      "rank": 5,
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "stars_total": 9351,
+      "forks": 1193,
+      "stars_today": 1609
+    },
+    {
+      "rank": 6,
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "stars_total": 17033,
+      "forks": 2704,
+      "stars_today": 612
+    },
+    {
+      "rank": 7,
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "stars_total": 38960,
+      "forks": 3673,
+      "stars_today": 1548
+    },
+    {
+      "rank": 8,
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "stars_total": 11266,
+      "forks": 1308,
+      "stars_today": 1278
+    },
+    {
+      "rank": 9,
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars_total": 49946,
+      "forks": 3930,
+      "stars_today": 753
+    },
+    {
+      "rank": 10,
+      "repo": "ahujasid/blender-mcp",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "BlenderMCP connects Blender to Claude AI through the Model Context Protocol (MCP), allowing Claude to directly interact with and control Blender. This integration enables prompt assisted 3D modeling, scene creation, and manipulation.\n\nWe have no official website. Any website you see online is unofficial and has no affiliation with this project. Use them at your own risk.",
+      "language": "Python",
+      "stars_total": 19137,
+      "forks": 1861,
+      "stars_today": 215
+    },
+    {
+      "rank": 11,
+      "repo": "rustfs/rustfs",
+      "url": "https://github.com/rustfs/rustfs",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "language": "Rust",
+      "stars_total": 25198,
+      "forks": 1072,
+      "stars_today": 182
+    },
+    {
+      "rank": 12,
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars_total": 52162,
+      "forks": 9050,
+      "stars_today": 663
+    },
+    {
+      "rank": 13,
+      "repo": "snarktank/ralph",
+      "url": "https://github.com/snarktank/ralph",
+      "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
+      "language": "TypeScript",
+      "stars_total": 15911,
+      "forks": 1589,
+      "stars_today": 463
+    },
+    {
+      "rank": 14,
+      "repo": "TapXWorld/ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "stars_total": 68202,
+      "forks": 15222,
+      "stars_today": 454
+    }
+  ]
+}

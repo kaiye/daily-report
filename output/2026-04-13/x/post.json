@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-04-13T00:23:11.997Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-04-12",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2043133171949264901",
+      "text": "🎉Congratulations to the @MiniMax_AI team on the launch of MiniMax M2.7!\n\nMiniMax M2.7 is now available with NVIDIA GPU accelerated endpoints ready to try out with claws including NemoClaw and @OpenClaw. 🦞\n\n📝Get started with our technical guide: https://t.co/J3hgBNBopx and see how you can begin experimenting for free at https://t.co/0uHkBqsmYq.\n\nWhat will you build this weekend? \n\nShare in comments. 👇",
+      "createdAt": "Sun Apr 12 01:04:42 +0000 2026",
+      "viewCount": 315704,
+      "likeCount": 1662,
+      "retweetCount": 143,
+      "author": {
+        "userName": "NVIDIAAIDev",
+        "name": "NVIDIA AI Developer",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/NVIDIAAIDev/status/2043133171949264901",
+      "is_official": true
+    },
+    {
+      "id": "2043132047397659000",
+      "text": "We're delighted to announce that MiniMax M2.7 is now officially open source. \nWith SOTA performance in SWE-Pro (56.22%) and Terminal Bench 2 (57.0%).\n\nYou can find it on Hugging Face now. Enjoy!🤗\nhuggingface：https://t.co/ApWrahIl3o\nBlog: https://t.co/gAxeFsNdW4\nMiniMax API: https://t.co/1dgbMx0Q7K",
+      "createdAt": "Sun Apr 12 01:00:14 +0000 2026",
+      "viewCount": 1261279,
+      "likeCount": 5218,
+      "retweetCount": 713,
+      "author": {
+        "userName": "MiniMax_AI",
+        "name": "MiniMax (official)",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/MiniMax_AI/status/2043132047397659000",
+      "is_official": true
+    },
+    {
+      "id": "2043353392853221811",
+      "text": "Anthropic’s Claude Opus is FALLING.\n\nLatest benchmarks show its accuracy dropped from 83.3% → 68.3% in just days.\n\nThat’s a major spike in hallucinations during coding.\n\nGrok 4.20 still holds the #1 spot. Undefeated. https://t.co/FA5nbKKeS0",
+      "createdAt": "Sun Apr 12 15:39:47 +0000 2026",
+      "viewCount": 81697,
+      "likeCount": 1488,
+      "retweetCount": 146,
+      "author": {
+        "userName": "cb_doge",
+        "name": "DogeDesigner",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/cb_doge/status/2043353392853221811",
+      "is_official": false
+    },
+    {
+      "id": "2043163965648515234",
+      "text": "@tengyanAI This is false. We defaulted to medium as a result of user feedback about Claude using too many tokens. When we made the change, we (1) included it in the changelog and (2) showed a dialog when you opened Claude Code so you could choose to opt out. Literally nothing sneaky about it — this was us addressing user feedback in an obvious and explicit way.",
+      "createdAt": "Sun Apr 12 03:07:04 +0000 2026",
+      "viewCount": 212784,
+      "likeCount": 2249,
+      "retweetCount": 66,
+      "author": {
+        "userName": "bcherny",
+        "name": "Boris Cherny",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/bcherny/status/2043163965648515234",
+      "is_official": false
+    },
+    {
+      "id": "2043347156141064476",
+      "text": "Someone gave Claude Code permanent memory and it hit 46k stars in 48hrs\n\n95% less token consumption/session. Never hits context limits. Picks up exactly where you left off.\n\nOne command install. Completely free.\n\nhttps://t.co/r8Q1zdc4Qd",
+      "createdAt": "Sun Apr 12 15:15:00 +0000 2026",
+      "viewCount": 298500,
+      "likeCount": 2348,
+      "retweetCount": 159,
+      "author": {
+        "userName": "RoundtableSpace",
+        "name": "0xMarioNawfal",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/RoundtableSpace/status/2043347156141064476",
+      "is_official": true
+    },
+    {
+      "id": "2043321284113670594",
+      "text": "CLAUDE OPUS 4.6 IS NERFED.\n\nBridgeBench just proved it.\n\nLast week Claude Opus 4.6 ranked #2 on the Hallucination benchmark with an accuracy of 83.3%.\n\nToday Claude Opus 4.6 was retested and it fell to #10 on the leaderboard with an accuracy of only 68.3%.\n\nA 98% increase in hallucination.\n\nhttps://t.co/ttnnwBYerW just confirmed that Claude Opus 4.6 has reduced reasoning levels and is nerfed.",
+      "createdAt": "Sun Apr 12 13:32:11 +0000 2026",
+      "viewCount": 607294,
+      "likeCount": 5012,
+      "retweetCount": 467,
+      "author": {
+        "userName": "bridgemindai",
+        "name": "BridgeMind",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/bridgemindai/status/2043321284113670594",
+      "is_official": true
+    },
+    {
+      "id": "2043468551768686789",
+      "text": "OpenAI CEO Sam Altman's home has now reportedly been attacked twice in 3 days\n\n• One suspect was arrested after throwing a Molotov cocktail\n\n• A second incident involved a suspected single gunshot fired at the house\n\n(via @sfstandard) https://t.co/E2a1WqmKvb",
+      "createdAt": "Sun Apr 12 23:17:23 +0000 2026",
+      "viewCount": 108866,
+      "likeCount": 1946,
+      "retweetCount": 163,
+      "author": {
+        "userName": "CultureCrave",
+        "name": "Culture Crave 🍿",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/CultureCrave/status/2043468551768686789",
+      "is_official": true
+    },
+    {
+      "id": "2043330919868621142",
+      "text": "An ex-Anthropic engineer told me something at a party he probably shouldn't have.\n\nIt was in SF. Someone's rooftop. I mentioned I run trading agents on Claude. He went quiet.\n\n\"You're doing it wrong. Everyone is\"\n\nI asked what he meant.\n\n\"Claude is a runtime. Not a chatbox. You're supposed to pair it with repos\"\n\nHe pulled out his phone. Opened one GitHub link.\n\nhttps://t.co/Y5eEMU8sHI\n\n14,000 stars. Every workflow pattern they built internally before it went public.\n\nAgents. Tool use. Evals. Citations. The entire architecture.\n\n\"Everyone types prompts. That's not how we use it. You connect Claude to a codebase. It reads. It understands. It builds on top of what's already there\"\n\nI went home at 2am. Connected Claude Code to poly_data - 86 million Polymarket trades. Every wallet. Every entry.\n\nClaude didn't guess. It read the data and built detectors.\n\nFirst week: +$1,400.\nSecond week: +$3,800.\nRight now: +$9,100. 4 agents. 74% win rate.\n\nHis team runs this with a floor of PhDs and $800M AUM.\n\nMy setup: Claude + a VPS. $25/month. The repos are free.\n\nCopytrade here: https://t.co/N2byLbLHH9\n\nI asked him what separates his firm from everyone else.\n\n\"Honestly? Keyboard shortcuts and repo structure. That's it. The model is the same for everyone\"\n\nHe texted me two days later.\n\n\"Delete everything I told you\"\n\nToo late.",
+      "createdAt": "Sun Apr 12 14:10:29 +0000 2026",
+      "viewCount": 633244,
+      "likeCount": 1622,
+      "retweetCount": 107,
+      "author": {
+        "userName": "LunarResearcher",
+        "name": "Lunar",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/LunarResearcher/status/2043330919868621142",
+      "is_official": true
+    },
+    {
+      "id": "2043262859522764958",
+      "text": "🚨 BREAKING: People are using Claude to build income streams… in days.\n\nNot months.\nNot years.\n\nJust prompts.\n\nHere are 7 you can copy 👇🧵",
+      "createdAt": "Sun Apr 12 09:40:02 +0000 2026",
+      "viewCount": 525882,
+      "likeCount": 2007,
+      "retweetCount": 208,
+      "author": {
+        "userName": "altiamkabir",
+        "name": "Altiam Kabir",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/altiamkabir/status/2043262859522764958",
+      "is_official": false
+    },
+    {
+      "id": "2043308576165290319",
+      "text": "You can literally search for OPENAI_API_KEY on github and find Tons of exposed API keys\n\nThanks, vibe coders 🙏 https://t.co/DjwfklEBj0",
+      "createdAt": "Sun Apr 12 12:41:42 +0000 2026",
+      "viewCount": 305703,
+      "likeCount": 3109,
+      "retweetCount": 190,
+      "author": {
+        "userName": "CodeByNZ",
+        "name": "NZ ☄️",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/CodeByNZ/status/2043308576165290319",
+      "is_official": false
+    },
+    {
+      "id": "2043209896527638655",
+      "text": "This guy literally shows how to use Claude Code 10x better https://t.co/bnRD3AeHaL",
+      "createdAt": "Sun Apr 12 06:09:34 +0000 2026",
+      "viewCount": 80985,
+      "likeCount": 1645,
+      "retweetCount": 174,
+      "author": {
+        "userName": "trikcode",
+        "name": "Wise",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/trikcode/status/2043209896527638655",
+      "is_official": false
+    },
+    {
+      "id": "2043361324558844290",
+      "text": "Anthropic's CEO: \"coding is going away first. then all of software engineering.\"\n\nthe 5% that survives? systems thinking.\n\n3 months ago I published 5 projects for this exact moment. 21K bookmarked it.\n\nnot syntax. orchestration. harness. memory. edge inference. https://t.co/eCGHlipUQT",
+      "createdAt": "Sun Apr 12 16:11:18 +0000 2026",
+      "viewCount": 890874,
+      "likeCount": 2181,
+      "retweetCount": 191,
+      "author": {
+        "userName": "rohit4verse",
+        "name": "Rohit",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/rohit4verse/status/2043361324558844290",
+      "is_official": false
+    },
+    {
+      "id": "2043138221836746762",
+      "text": "there's a turbotax connector in Claude Code now, so glad I procrastinated on taxes 😭",
+      "createdAt": "Sun Apr 12 01:24:46 +0000 2026",
+      "viewCount": 370442,
+      "likeCount": 2298,
+      "retweetCount": 83,
+      "author": {
+        "userName": "trq212",
+        "name": "Thariq",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/trq212/status/2043138221836746762",
+      "is_official": false
+    },
+    {
+      "id": "2043382991901147158",
+      "text": "Another leak from Anthropic\n\nThey created a lovable-like feature where you can build full-stack apps easily\n\nThey are coming after everthing https://t.co/go8yGQCoGx",
+      "createdAt": "Sun Apr 12 17:37:24 +0000 2026",
+      "viewCount": 972902,
+      "likeCount": 3744,
+      "retweetCount": 172,
+      "author": {
+        "userName": "marmaduke091",
+        "name": "can",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/marmaduke091/status/2043382991901147158",
+      "is_official": false
+    },
+    {
+      "id": "2043237722882703564",
+      "text": "I GAVE CLAUDE MY BIRTH DATE AND TIME\n\nIt broke down my entire life with an unsettling precision.\nNo horoscopes. No tarot. Just pure artificial intelligence.\n\nHere are 7 prompts you should try ↓",
+      "createdAt": "Sun Apr 12 08:00:09 +0000 2026",
+      "viewCount": 599620,
+      "likeCount": 1549,
+      "retweetCount": 219,
+      "author": {
+        "userName": "AamirAnsar94694",
+        "name": "Amir Ansari",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AamirAnsar94694/status/2043237722882703564",
+      "is_official": false
+    },
+    {
+      "id": "2043223358398251112",
+      "text": "MY HOUSE FELT CLUTTERED FOR MONTHS.\nSo I showed Claude photos of every room.\n48 hours later neat space, calm mind.\nNo new furniture. No decorator. Just 7 prompts that completely transformed my space:￼",
+      "createdAt": "Sun Apr 12 07:03:04 +0000 2026",
+      "viewCount": 521069,
+      "likeCount": 2059,
+      "retweetCount": 200,
+      "author": {
+        "userName": "Nas_tech_AI",
+        "name": "Nas",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Nas_tech_AI/status/2043223358398251112",
+      "is_official": true
+    },
+    {
+      "id": "2043138374794666490",
+      "text": "basically: anthropic sneakily turned down how hard claude thinks before editing code, changed the  default from \"high\" to \"medium\" effort, and hid the reasoning from session logs. all without telling users. \n\nan amd director had 7k sessions of telemetry to prove the degradation was real and measurable (not just vibes). anthropic admitted  to the changes. there's a workaround (use \"/effort max\"). the uncomfortable part is most users had no data to notice it happened at all.",
+      "createdAt": "Sun Apr 12 01:25:22 +0000 2026",
+      "viewCount": 1118295,
+      "likeCount": 6439,
+      "retweetCount": 458,
+      "author": {
+        "userName": "tengyanAI",
+        "name": "Teng Yan",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/tengyanAI/status/2043138374794666490",
+      "is_official": true
+    },
+    {
+      "id": "2043177597434306699",
+      "text": "Imagine the alternate reality where we named GPT-5.4-Pro something like Fable.",
+      "createdAt": "Sun Apr 12 04:01:14 +0000 2026",
+      "viewCount": 102675,
+      "likeCount": 1709,
+      "retweetCount": 40,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2043177597434306699",
+      "is_official": false
+    },
+    {
+      "id": "2043168370225193458",
+      "text": "Steve would have bought Anthropic 2 years ago",
+      "createdAt": "Sun Apr 12 03:24:34 +0000 2026",
+      "viewCount": 654337,
+      "likeCount": 14436,
+      "retweetCount": 388,
+      "author": {
+        "userName": "beffjezos",
+        "name": "Beff (e/acc)",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/beffjezos/status/2043168370225193458",
+      "is_official": false
+    }
+  ]
+}
