@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">APR 13, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">最重要的共同信号是，AI 竞争正在从模型本身转向围绕编码、工作流与工具整合的真实生产力落地。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@MiniMax_AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">MiniMax (official)</span>：我们很高兴宣布 MiniMax M2.7 现已正式开源，在 SWE-Pro 和 Terminal Bench 2 上表现领先，现在已经登陆 Hugging Face。
+          </p>
+          <p class="item-metric">👁 1.3M · ❤️ 5.2K</p>
+          <a class="item-link" href="https://twitter.com/MiniMax_AI/status/2043132047397659000">https://twitter.com/MiniMax_AI/status/2043132047397659000</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@bcherny</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Boris Cherny</span>：这个说法不对，我们把 Claude Code 默认设为 medium，是回应用户对 token 消耗过高的反馈，而且当时写进了更新日志，也给了明确的退出选项，根本不是什么偷偷改。
+          </p>
+          <p class="item-metric">👁 212.8K · ❤️ 2.2K</p>
+          <a class="item-link" href="https://twitter.com/bcherny/status/2043163965648515234">https://twitter.com/bcherny/status/2043163965648515234</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@RoundtableSpace</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">0xMarioNawfal</span>：有人给 Claude Code 加上了永久记忆，48 小时冲到 4.6 万星，单次会话 token 消耗减少 95%，还不会再撞上下文上限，而且一条命令就能免费安装。
+          </p>
+          <p class="item-metric">👁 298.5K · ❤️ 2.3K</p>
+          <a class="item-link" href="https://twitter.com/RoundtableSpace/status/2043347156141064476">https://twitter.com/RoundtableSpace/status/2043347156141064476</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@CodeByNZ</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">NZ ☄️</span>：你甚至可以直接在 GitHub 搜 OPENAI_API_KEY，结果能翻出一堆暴露的 API 密钥，真得谢谢这些 vibe coder。
+          </p>
+          <p class="item-metric">👁 305.7K · ❤️ 3.1K</p>
+          <a class="item-link" href="https://twitter.com/CodeByNZ/status/2043308576165290319">https://twitter.com/CodeByNZ/status/2043308576165290319</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@rohit4verse</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Rohit</span>：Anthropic CEO 说最先消失的是写代码，然后可能是整个软件工程；真正能留下来的那 5% 会是系统思维，所以我更看重编排、框架、记忆和边缘推理。
+          </p>
+          <p class="item-metric">👁 890.9K · ❤️ 2.2K</p>
+          <a class="item-link" href="https://twitter.com/rohit4verse/status/2043361324558844290">https://twitter.com/rohit4verse/status/2043361324558844290</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@trq212</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Thariq</span>：Claude Code 现在居然有 TurboTax 连接器了，我突然很庆幸自己一直拖着没报税。
+          </p>
+          <p class="item-metric">👁 370.4K · ❤️ 2.3K</p>
+          <a class="item-link" href="https://twitter.com/trq212/status/2043138221836746762">https://twitter.com/trq212/status/2043138221836746762</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@marmaduke091</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">can</span>：Anthropic 又有新功能流出，他们做了个很像 Lovable 的东西，让你更容易直接搭全栈应用，感觉他们什么都想做。
+          </p>
+          <p class="item-metric">👁 972.9K · ❤️ 3.7K</p>
+          <a class="item-link" href="https://twitter.com/marmaduke091/status/2043382991901147158">https://twitter.com/marmaduke091/status/2043382991901147158</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@Nas_tech_AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Nas</span>：我把家里每个房间的照片都发给 Claude，48 小时后空间更整洁、心情也更平静，没买新家具也没请设计师，就靠 7 条提示词。
+          </p>
+          <p class="item-metric">👁 521.1K · ❤️ 2.1K</p>
+          <a class="item-link" href="https://twitter.com/Nas_tech_AI/status/2043223358398251112">https://twitter.com/Nas_tech_AI/status/2043223358398251112</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@thsottiaux</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Tibo</span>：想象一下那个平行世界：我们把 GPT-5.4-Pro 起名成类似 Fable 这样的名字。
+          </p>
+          <p class="item-metric">👁 102.7K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/thsottiaux/status/2043177597434306699">https://twitter.com/thsottiaux/status/2043177597434306699</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@beffjezos</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Beff (e/acc)</span>：要是史蒂夫还在，他两年前大概就会把 Anthropic 买下来。
+          </p>
+          <p class="item-metric">👁 654.3K · ❤️ 14.4K</p>
+          <a class="item-link" href="https://twitter.com/beffjezos/status/2043168370225193458">https://twitter.com/beffjezos/status/2043168370225193458</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

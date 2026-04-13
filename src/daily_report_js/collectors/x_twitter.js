@@ -1,7 +1,9 @@
 import { getUtcWindow, toIsoDateString } from '../utils/time.js';
 
 export function buildXQuery(keywords, sinceTs, untilTs, minFaves) {
-  return `(${keywords.join(' OR ')}) lang:en since_time:${sinceTs} until_time:${untilTs} min_faves:${minFaves} filter:safe -filter:nativeretweets`;
+  const sinceDate = String(sinceTs).slice(0, 10);
+  const untilDate = String(untilTs).slice(0, 10);
+  return `(${keywords.join(' OR ')}) lang:en since:${sinceDate} until:${untilDate} min_faves:${minFaves} -filter:nativeretweets`;
 }
 
 async function fetchXRaw(apiKey, query) {

@@ -1,0 +1,43 @@
+# 媒体资讯
+
+当日AI新闻焦点集中在Anthropic与Claude热度上升、OpenAI相关行业压力话题发酵，以及低成本智能体与模型生态持续扩散。
+
+### [特朗普政府官员据称正鼓励银行测试Anthropic的Mythos模型](https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/)
+*TechCrunch AI* · 2026-04-12
+
+特朗普政府官员据称正鼓励银行测试Anthropic的Mythos模型：尽管美国国防部最近将Anthropic列为供应链风险，这份报道称部分政府官员仍可能在推动银行评估其Mythos模型。
+
+### [在HumanX大会上，所有人都在谈论Claude](https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/)
+*TechCrunch AI* · 2026-04-12
+
+在HumanX大会上，所有人都在谈论Claude：旧金山这场以AI为核心的大会上，Anthropic成为最受关注的公司之一，Claude几乎主导了现场讨论。
+
+### [Claude仅用一个周末复活了30年前的传奇游戏](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247882513&idx=2&sn=095b384bc42eb3b1cfd1c60393c41d68)
+*量子位* · 2026-04-12
+
+Claude仅用一个周末复活了30年前的传奇游戏：开发者借助Claude破解作者当年自定义的编程语言，并在短时间内让一款沉寂已久的MUD游戏重新运行。
+
+### [OpenAI与xAI等公司的高压研发节奏引发工程师离职潮讨论](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691298&idx=2&sn=31ab86e87784ccee50411483c86a0b68)
+*新智元* · 2026-04-12
+
+OpenAI与xAI等公司的高压研发节奏引发工程师离职潮讨论：报道以一名OpenAI工程师离开硅谷为切口，描述AI公司在极端工作强度与道德压力下出现的人才流动现象。
+
+### [Qwen系列模型累计下载量接近10亿](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653103823&idx=1&sn=b4d4edad5be0dc85054ebee700e11354)
+*极客公园* · 2026-04-12
+
+Qwen系列模型累计下载量接近10亿：这则行业早报将Qwen模型下载规模列为焦点之一，显示国内开源模型生态仍在快速扩大影响力。
+
+### [开源框架Deep Researcher Agent可低成本全天候自动跑实验](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652691298&idx=3&sn=dd20417ba12cc23e7ba7ff74a9778c91)
+*新智元* · 2026-04-12
+
+开源框架Deep Researcher Agent可低成本全天候自动跑实验：该框架主打无需依赖LLM API即可完成实验方案生成、执行监控与反思循环，以较低成本减少研究中的重复劳动。
+
+### [AI编程大战正在升温](https://www.theverge.com/column/910019/ai-coding-wars-openai-google-anthropic)
+*The Verge AI* · 2026-04-12
+
+AI编程大战正在升温：这篇综述聚焦OpenAI、Google和Anthropic在AI编程工具上的竞争，以及代码生成与vibe coding热潮的升温。
+
+### [从LLM到幻觉：一份常见AI术语简明指南](https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/)
+*TechCrunch AI* · 2026-04-12
+
+从LLM到幻觉：一份常见AI术语简明指南：随着AI快速进入大众语境，这份指南集中解释了包括LLM和幻觉在内的一批高频概念。

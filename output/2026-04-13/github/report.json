@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-04-13",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "最热的共同方向是围绕大模型智能体与 AI 编码协作的工具链、记忆能力和任务执行平台持续爆发。",
+  "items": [
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "会与你一同成长的智能体。",
+      "language": "Python",
+      "stars_today": 7454,
+      "stars_total": 66191
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：面向金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 1985,
+      "stars_total": 15743
+    },
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "单个 CLAUDE.md 文件，用于改进 Claude Code 的行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。",
+      "language": "Unknown",
+      "stars_today": 2369,
+      "stars_total": 16712
+    },
+    {
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "开源的托管式智能体平台，把编码智能体变成真正的队友——分配任务、跟踪进度、复用并积累技能。",
+      "language": "TypeScript",
+      "stars_today": 1609,
+      "stars_total": 9351
+    },
+    {
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "首个面向 AI 编码的开源 harness builder，让 AI 编码可确定、可复现。",
+      "language": "TypeScript",
+      "stars_today": 612,
+      "stars_total": 17033
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "实践让 Claude 变得完美。",
+      "language": "HTML",
+      "stars_today": 1548,
+      "stars_total": 38960
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2：无需分词器的 TTS，用于多语言语音生成、创意音色设计与逼真克隆。",
+      "language": "Python",
+      "stars_today": 1278,
+      "stars_total": 11266
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Claude Code 插件，会自动记录 Claude 在编码会话中的全部操作，用 AI 压缩后把相关上下文注入后续会话。",
+      "language": "TypeScript",
+      "stars_today": 753,
+      "stars_total": 49946
+    },
+    {
+      "repo": "ahujasid/blender-mcp",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "BlenderMCP 通过模型上下文协议（MCP）将 Blender 连接到 Claude AI，让 Claude 能直接交互并控制 Blender。",
+      "language": "Python",
+      "stars_today": 215,
+      "stars_total": 19137
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "一支 AI 对冲基金团队。",
+      "language": "Python",
+      "stars_today": 663,
+      "stars_total": 52162
+    },
+    {
+      "repo": "snarktank/ralph",
+      "url": "https://github.com/snarktank/ralph",
+      "description": "Ralph 是一个自主 AI 智能体循环，会持续运行直到所有 PRD 条目完成。",
+      "language": "TypeScript",
+      "stars_today": 463,
+      "stars_total": 15911
+    }
+  ]
+}

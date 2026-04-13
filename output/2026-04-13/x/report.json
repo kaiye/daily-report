@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-04-13",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "最重要的共同信号是，AI 竞争正在从模型本身转向围绕编码、工作流与工具整合的真实生产力落地。",
+  "items": [
+    {
+      "id": "2043132047397659000",
+      "author_name": "MiniMax (official)",
+      "author_handle": "MiniMax_AI",
+      "text": "我们很高兴宣布 MiniMax M2.7 现已正式开源，在 SWE-Pro 和 Terminal Bench 2 上表现领先，现在已经登陆 Hugging Face。",
+      "url": "https://twitter.com/MiniMax_AI/status/2043132047397659000",
+      "view_count": 1261279,
+      "like_count": 5218
+    },
+    {
+      "id": "2043163965648515234",
+      "author_name": "Boris Cherny",
+      "author_handle": "bcherny",
+      "text": "这个说法不对，我们把 Claude Code 默认设为 medium，是回应用户对 token 消耗过高的反馈，而且当时写进了更新日志，也给了明确的退出选项，根本不是什么偷偷改。",
+      "url": "https://twitter.com/bcherny/status/2043163965648515234",
+      "view_count": 212784,
+      "like_count": 2249
+    },
+    {
+      "id": "2043347156141064476",
+      "author_name": "0xMarioNawfal",
+      "author_handle": "RoundtableSpace",
+      "text": "有人给 Claude Code 加上了永久记忆，48 小时冲到 4.6 万星，单次会话 token 消耗减少 95%，还不会再撞上下文上限，而且一条命令就能免费安装。",
+      "url": "https://twitter.com/RoundtableSpace/status/2043347156141064476",
+      "view_count": 298500,
+      "like_count": 2348
+    },
+    {
+      "id": "2043308576165290319",
+      "author_name": "NZ ☄️",
+      "author_handle": "CodeByNZ",
+      "text": "你甚至可以直接在 GitHub 搜 OPENAI_API_KEY，结果能翻出一堆暴露的 API 密钥，真得谢谢这些 vibe coder。",
+      "url": "https://twitter.com/CodeByNZ/status/2043308576165290319",
+      "view_count": 305703,
+      "like_count": 3109
+    },
+    {
+      "id": "2043361324558844290",
+      "author_name": "Rohit",
+      "author_handle": "rohit4verse",
+      "text": "Anthropic CEO 说最先消失的是写代码，然后可能是整个软件工程；真正能留下来的那 5% 会是系统思维，所以我更看重编排、框架、记忆和边缘推理。",
+      "url": "https://twitter.com/rohit4verse/status/2043361324558844290",
+      "view_count": 890874,
+      "like_count": 2181
+    },
+    {
+      "id": "2043138221836746762",
+      "author_name": "Thariq",
+      "author_handle": "trq212",
+      "text": "Claude Code 现在居然有 TurboTax 连接器了，我突然很庆幸自己一直拖着没报税。",
+      "url": "https://twitter.com/trq212/status/2043138221836746762",
+      "view_count": 370442,
+      "like_count": 2298
+    },
+    {
+      "id": "2043382991901147158",
+      "author_name": "can",
+      "author_handle": "marmaduke091",
+      "text": "Anthropic 又有新功能流出，他们做了个很像 Lovable 的东西，让你更容易直接搭全栈应用，感觉他们什么都想做。",
+      "url": "https://twitter.com/marmaduke091/status/2043382991901147158",
+      "view_count": 972902,
+      "like_count": 3744
+    },
+    {
+      "id": "2043223358398251112",
+      "author_name": "Nas",
+      "author_handle": "Nas_tech_AI",
+      "text": "我把家里每个房间的照片都发给 Claude，48 小时后空间更整洁、心情也更平静，没买新家具也没请设计师，就靠 7 条提示词。",
+      "url": "https://twitter.com/Nas_tech_AI/status/2043223358398251112",
+      "view_count": 521069,
+      "like_count": 2059
+    },
+    {
+      "id": "2043177597434306699",
+      "author_name": "Tibo",
+      "author_handle": "thsottiaux",
+      "text": "想象一下那个平行世界：我们把 GPT-5.4-Pro 起名成类似 Fable 这样的名字。",
+      "url": "https://twitter.com/thsottiaux/status/2043177597434306699",
+      "view_count": 102675,
+      "like_count": 1709
+    },
+    {
+      "id": "2043168370225193458",
+      "author_name": "Beff (e/acc)",
+      "author_handle": "beffjezos",
+      "text": "要是史蒂夫还在，他两年前大概就会把 Anthropic 买下来。",
+      "url": "https://twitter.com/beffjezos/status/2043168370225193458",
+      "view_count": 654337,
+      "like_count": 14436
+    }
+  ]
+}

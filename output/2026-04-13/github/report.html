@@ -1,0 +1,389 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Github 趋势</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #111827;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #91caff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #cfe2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #e9f2ff 0%, #f6f9ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #d6e4ff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #d6e4ff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #91caff 88%, white) 0%,
+      color-mix(in srgb, #91caff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #d6e4ff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">GitHub Trending Snapshot</p>
+        </div>
+        <p class="date-chip">APR 13, 2026</p>
+      </div>
+      <h1 class="hero-title">Github 趋势</h1>
+      <p class="hero-summary">最热的共同方向是围绕大模型智能体与 AI 编码协作的工具链、记忆能力和任务执行平台持续爆发。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">NousResearch/hermes-agent</span>：会与你一同成长的智能体。
+          </p>
+          <p class="item-metric">⭐ +7.5K today · 66.2K total</p>
+          <a class="item-link" href="https://github.com/NousResearch/hermes-agent">https://github.com/NousResearch/hermes-agent</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">shiyu-coder/Kronos</span>：Kronos：面向金融市场语言的基础模型。
+          </p>
+          <p class="item-metric">⭐ +2.0K today · 15.7K total</p>
+          <a class="item-link" href="https://github.com/shiyu-coder/Kronos">https://github.com/shiyu-coder/Kronos</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">Unknown</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">forrestchang/andrej-karpathy-skills</span>：单个 CLAUDE.md 文件，用于改进 Claude Code 的行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。
+          </p>
+          <p class="item-metric">⭐ +2.4K today · 16.7K total</p>
+          <a class="item-link" href="https://github.com/forrestchang/andrej-karpathy-skills">https://github.com/forrestchang/andrej-karpathy-skills</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">TypeScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">multica-ai/multica</span>：开源的托管式智能体平台，把编码智能体变成真正的队友——分配任务、跟踪进度、复用并积累技能。
+          </p>
+          <p class="item-metric">⭐ +1.6K today · 9.4K total</p>
+          <a class="item-link" href="https://github.com/multica-ai/multica">https://github.com/multica-ai/multica</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">TypeScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">coleam00/Archon</span>：首个面向 AI 编码的开源 harness builder，让 AI 编码可确定、可复现。
+          </p>
+          <p class="item-metric">⭐ +612 today · 17.0K total</p>
+          <a class="item-link" href="https://github.com/coleam00/Archon">https://github.com/coleam00/Archon</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">HTML</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">shanraisshan/claude-code-best-practice</span>：实践让 Claude 变得完美。
+          </p>
+          <p class="item-metric">⭐ +1.5K today · 39.0K total</p>
+          <a class="item-link" href="https://github.com/shanraisshan/claude-code-best-practice">https://github.com/shanraisshan/claude-code-best-practice</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenBMB/VoxCPM</span>：VoxCPM2：无需分词器的 TTS，用于多语言语音生成、创意音色设计与逼真克隆。
+          </p>
+          <p class="item-metric">⭐ +1.3K today · 11.3K total</p>
+          <a class="item-link" href="https://github.com/OpenBMB/VoxCPM">https://github.com/OpenBMB/VoxCPM</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">TypeScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">thedotmack/claude-mem</span>：Claude Code 插件，会自动记录 Claude 在编码会话中的全部操作，用 AI 压缩后把相关上下文注入后续会话。
+          </p>
+          <p class="item-metric">⭐ +753 today · 49.9K total</p>
+          <a class="item-link" href="https://github.com/thedotmack/claude-mem">https://github.com/thedotmack/claude-mem</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ahujasid/blender-mcp</span>：BlenderMCP 通过模型上下文协议（MCP）将 Blender 连接到 Claude AI，让 Claude 能直接交互并控制 Blender。
+          </p>
+          <p class="item-metric">⭐ +215 today · 19.1K total</p>
+          <a class="item-link" href="https://github.com/ahujasid/blender-mcp">https://github.com/ahujasid/blender-mcp</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">virattt/ai-hedge-fund</span>：一支 AI 对冲基金团队。
+          </p>
+          <p class="item-metric">⭐ +663 today · 52.2K total</p>
+          <a class="item-link" href="https://github.com/virattt/ai-hedge-fund">https://github.com/virattt/ai-hedge-fund</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">11</span>
+            <span class="item-badge">TypeScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">snarktank/ralph</span>：Ralph 是一个自主 AI 智能体循环，会持续运行直到所有 PRD 条目完成。
+          </p>
+          <p class="item-metric">⭐ +463 today · 15.9K total</p>
+          <a class="item-link" href="https://github.com/snarktank/ralph">https://github.com/snarktank/ralph</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

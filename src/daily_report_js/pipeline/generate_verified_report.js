@@ -51,6 +51,30 @@ function fillMissingRequiredFields(section, report, post) {
   return report;
 }
 
+function cleanMediaSummary(report) {
+  const items = Array.isArray(report?.items) ? report.items : [];
+  for (const item of items) {
+    if (!item || typeof item !== 'object') continue;
+    const title = String(item.title || '').trim();
+    let summary = String(item.summary || '').trim();
+    const source = String(item.source || '').trim();
+    if (!summary) continue;
+
+    if (title) {
+      const escapedTitle = title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      summary = summary.replace(new RegExp(`^${escapedTitle}[：:，,、—\\-\\s]*`), '').trim();
+    }
+
+    if (source) {
+      const escapedSource = source.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      summary = summary.replace(new RegExp(`^${escapedSource}(称|报道|表示|指出|认为)?[：:，,、—\\-\\s]*`), '').trim();
+    }
+
+    item.summary = summary;
+  }
+  return report;
+}
+
 export async function generateVerifiedReport({
   outDir,
   section,
@@ -69,6 +93,7 @@ export async function generateVerifiedReport({
   let report = fillMissingRequiredFields(section, applyFixedTitle(
     await generateSectionReport(section, post, reportDate, directive, llmCfg),
   ), post);
+  if (section === 'media') report = cleanMediaSummary(report);
 
   for (let attempt = 0; attempt <= maxRepairAttempts; attempt += 1) {
     writeJson(path.join(outDir, 'report.json'), report);
@@ -98,6 +123,7 @@ export async function generateVerifiedReport({
       report,
       verification.issues || [],
     )), post);
+    if (section === 'media') report = cleanMediaSummary(report);
   }
 
   throw new Error(`Unexpected verification loop exit for section=${section}`);
