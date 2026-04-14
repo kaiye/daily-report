@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-04-14T00:56:19.274Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-04-13",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 18,
+  "item_count": 18,
+  "items": [
+    {
+      "id": "2043837413026369908",
+      "text": "JUST IN: Google DeepMind hires a philosopher as it prepares for machine consciousness.",
+      "createdAt": "Mon Apr 13 23:43:06 +0000 2026",
+      "viewCount": 139217,
+      "likeCount": 1943,
+      "retweetCount": 220,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2043837413026369908",
+      "is_official": true
+    },
+    {
+      "id": "2043700863831556289",
+      "text": "New: Claude may have been right\n\nOn Friday it opened a brand new position & bought the dip in ServiceNow $NOW\n\n\"This company is not a victim of the AI agent buildout. It's infrastructure for it\"\n\nToday $NOW is up 6%",
+      "createdAt": "Mon Apr 13 14:40:30 +0000 2026",
+      "viewCount": 214470,
+      "likeCount": 1308,
+      "retweetCount": 78,
+      "author": {
+        "userName": "theaiportfolios",
+        "name": "The Claude Portfolio",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theaiportfolios/status/2043700863831556289",
+      "is_official": true
+    },
+    {
+      "id": "2043703997412901167",
+      "text": "JUST IN: Goldman Sachs is reportedly ramping up its cyber defenses in preparation for Claude Mythos.",
+      "createdAt": "Mon Apr 13 14:52:57 +0000 2026",
+      "viewCount": 178657,
+      "likeCount": 2150,
+      "retweetCount": 175,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2043703997412901167",
+      "is_official": true
+    },
+    {
+      "id": "2043504832804491596",
+      "text": "BREAKING: OpenAI Sam Altman's home has been shot at, a few days after a Molotov cocktail was thrown, per SF Chronicle",
+      "createdAt": "Mon Apr 13 01:41:33 +0000 2026",
+      "viewCount": 1472031,
+      "likeCount": 27025,
+      "retweetCount": 1773,
+      "author": {
+        "userName": "unusual_whales",
+        "name": "unusual_whales",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/unusual_whales/status/2043504832804491596",
+      "is_official": false
+    },
+    {
+      "id": "2043734421916803461",
+      "text": "The Trump administration has fought to withhold information about what DOGE did and argued that it is not subject to the Freedom of Information Act—even going to the Supreme Court and using other delay tactics.\n\nWe're suing for transparency. https://t.co/Iq9S0K8p30",
+      "createdAt": "Mon Apr 13 16:53:51 +0000 2026",
+      "viewCount": 7846,
+      "likeCount": 1347,
+      "retweetCount": 717,
+      "author": {
+        "userName": "CREWcrew",
+        "name": "Citizens for Ethics",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/CREWcrew/status/2043734421916803461",
+      "is_official": false
+    },
+    {
+      "id": "2043682835026923725",
+      "text": "🚨OpenAI Chief Revenue Officer memo to employees LEAKED: \n\n>\"Claude has become a religion, that's the level of that mania”\n>\"Anthropic's strategy is fear, restriction, and the idea that a small group of elites should control AI\"\n>\"They made a strategic misstep to not acquire enough compute\"\n>\"The market is ours to win\"\n>\"But Microsoft limited our ability to meet enterprises where they are — AWS Bedrock”\n\nOPENAI ENTERPRISE CODE RED ALERT",
+      "createdAt": "Mon Apr 13 13:28:52 +0000 2026",
+      "viewCount": 393511,
+      "likeCount": 2010,
+      "retweetCount": 159,
+      "author": {
+        "userName": "ns123abc",
+        "name": "NIK",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ns123abc/status/2043682835026923725",
+      "is_official": false
+    },
+    {
+      "id": "2043522709976436980",
+      "text": "THIS GITHUB REPO TURNS CLAUDE CODE INTO A FULL GAME DEVELOPMENT STUDIO WITH 49 AI AGENTS\n\n49 specialized agents, 72 skills, 12 hooks, 11 rules, and 39 document templates \n\nto make one coordinated AI team.\n\ninstead of one general-purpose assistant, you get an entire studio hierarchy:\n\n> directors who guard the game's vision\n> department leads who own their domains\n> specialists who do the hands-on work\n\nyou get a creative director, technical director, producer at the top. \n\ngame designer, lead programmer, art director, audio director, QA lead in the middle. \n\nthen 30+ specialists covering gameplay programming, AI, networking, level design, sound design, writing, UX, devops, security, and more.\n\nit comes with engine-specific agent sets for Godot 4, Unity, and Unreal Engine 5. pick your engine and get specialists who actually know it.\n\n72 slash commands cover every phase:\n\n> /brainstorm to explore ideas from scratch\n> /design-system to map out game mechanics\n> /create-epics and /create-stories for sprint planning\n> /dev-story to implement features\n> /code-review, /qa-plan, /smoke-check for quality\n> /team-combat, /team-narrative, /team-ui to coordinate multiple agents on a single feature\n> /release-checklist and /launch-checklist when you're ready to ship\n\nhooks run automatically on every commit checking for hardcoded values, TODO formatting, asset naming conventions, and JSON validity. \n\npath-scoped rules enforce different coding standards depending on what part of the codebase you're editing.\n\nand it's not auto-pilot. every agent follows a strict collaboration protocol: ask questions first, present 2-4 options with pros and cons, let you decide, show work before finalizing, and nothing gets written without your sign-off.\n\nfree AND open source",
+      "createdAt": "Mon Apr 13 02:52:35 +0000 2026",
+      "viewCount": 82458,
+      "likeCount": 1375,
+      "retweetCount": 111,
+      "author": {
+        "userName": "om_patel5",
+        "name": "Om Patel",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/om_patel5/status/2043522709976436980",
+      "is_official": false
+    },
+    {
+      "id": "2043508722622754994",
+      "text": "Hey Claude:\n\nWhat's the historical market track record when oil rises 50% in a month?\n\nThen falls 20% a week later\n\nThen rises 10% a week later\n\nThen falls 10% a week later\n\nThen rises 15% a week later\n\nNo mistakes please",
+      "createdAt": "Mon Apr 13 01:57:00 +0000 2026",
+      "viewCount": 1451782,
+      "likeCount": 4368,
+      "retweetCount": 50,
+      "author": {
+        "userName": "awealthofcs",
+        "name": "Ben Carlson",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/awealthofcs/status/2043508722622754994",
+      "is_official": false
+    },
+    {
+      "id": "2043672195017081088",
+      "text": "We're taking over a cafe on April 25th in Lagos    \n\nGrab coffee, Cursor credits, and build together https://t.co/XkC1QdQ4HD",
+      "createdAt": "Mon Apr 13 12:46:35 +0000 2026",
+      "viewCount": 68730,
+      "likeCount": 1673,
+      "retweetCount": 292,
+      "author": {
+        "userName": "benln",
+        "name": "Ben Lang",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/benln/status/2043672195017081088",
+      "is_official": false
+    },
+    {
+      "id": "2043729241326661972",
+      "text": "OpenAI's chief revenue officer is telling employees that Anthropic is juicing its ARR by $8 billion 👀\n\nfrom @haydenfield https://t.co/xuRivjBe2E",
+      "createdAt": "Mon Apr 13 16:33:16 +0000 2026",
+      "viewCount": 350400,
+      "likeCount": 1427,
+      "retweetCount": 95,
+      "author": {
+        "userName": "ZeffMax",
+        "name": "Max Zeff",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ZeffMax/status/2043729241326661972",
+      "is_official": false
+    },
+    {
+      "id": "2043835478466592836",
+      "text": "JUST IN: Suspect arrested for attacking Sam Altman's home said he wanted to kill the OpenAI CEO and stop humanity's extinction from AI, CNBC reports. https://t.co/drW2broEQy",
+      "createdAt": "Mon Apr 13 23:35:25 +0000 2026",
+      "viewCount": 162838,
+      "likeCount": 2790,
+      "retweetCount": 231,
+      "author": {
+        "userName": "WatcherGuru",
+        "name": "Watcher.Guru",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/WatcherGuru/status/2043835478466592836",
+      "is_official": true
+    },
+    {
+      "id": "2043611217407652224",
+      "text": "Me and Claude working together https://t.co/0DT9ln78tK",
+      "createdAt": "Mon Apr 13 08:44:17 +0000 2026",
+      "viewCount": 621250,
+      "likeCount": 8589,
+      "retweetCount": 770,
+      "author": {
+        "userName": "JorgeCastilloPr",
+        "name": "Jorge Castillo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/JorgeCastilloPr/status/2043611217407652224",
+      "is_official": false
+    },
+    {
+      "id": "2043489610232184989",
+      "text": "Millions of wrong answers — every single day. https://t.co/5PLVrXU5zX https://t.co/Ind3iEavoy",
+      "createdAt": "Mon Apr 13 00:41:03 +0000 2026",
+      "viewCount": 37469,
+      "likeCount": 1590,
+      "retweetCount": 598,
+      "author": {
+        "userName": "futurism",
+        "name": "Futurism",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/futurism/status/2043489610232184989",
+      "is_official": false
+    },
+    {
+      "id": "2043652025339023845",
+      "text": "wait… claude code literally punishes you for turning off telemetry??\n\nif you disable it, anthropic drops your cache from 1 hour to 5 minutes\n\nso in claude code, anthropic basically becomes an evil corp where privacy costs you 12x performance… am i reading this right? https://t.co/n0cVh351if",
+      "createdAt": "Mon Apr 13 11:26:26 +0000 2026",
+      "viewCount": 279524,
+      "likeCount": 3807,
+      "retweetCount": 310,
+      "author": {
+        "userName": "icanvardar",
+        "name": "Can Vardar",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/icanvardar/status/2043652025339023845",
+      "is_official": false
+    },
+    {
+      "id": "2043710372176122085",
+      "text": "🚨 SUPER GEMMA 4 26B UNCENSORED IS INSANE\n\nLLM WIZARD COOKING AGAIN @songjunkr\n\nDropped SuperGemma4-26B-Uncensored GGUF v2 and it’s trending on @huggingface🤗\n\nThis thing SMOKES the regular Gemma-4 26B:\n\n🤯0/100 refusals (actually uncensored)\n\n🚀Fixed all the tool-call + tokenizer jank\n\n⚡️90% faster prompt processing\n\n🏆Sharper, smarter, way more capable responses\n\n- Perfect local beast for llama.cpp\n\n✅ Runs  ~18-22 GB VRAM (16.8 GB Q4_K_M file)\n\n- Run  on 16 GB GPUs!\n\nThe  31B version in the works, should be out SOON 🤯\n\nPull this version on hugging face below 👇🏻",
+      "createdAt": "Mon Apr 13 15:18:17 +0000 2026",
+      "viewCount": 127990,
+      "likeCount": 1359,
+      "retweetCount": 135,
+      "author": {
+        "userName": "outsource_",
+        "name": "Eric ⚡️ Building...",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/outsource_/status/2043710372176122085",
+      "is_official": false
+    },
+    {
+      "id": "2043525364602028284",
+      "text": "Goodbye to astrologers.\n\nChatgpt just made it easy and free.\n\nSimply enter your date of birth.\n\nNo horoscope.\nNo tarot.\n\nCopy these 6 prompts and get mind-blowing results:",
+      "createdAt": "Mon Apr 13 03:03:08 +0000 2026",
+      "viewCount": 534062,
+      "likeCount": 1930,
+      "retweetCount": 354,
+      "author": {
+        "userName": "anjum_ai",
+        "name": "Tanvir",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/anjum_ai/status/2043525364602028284",
+      "is_official": true
+    },
+    {
+      "id": "2043720112214012177",
+      "text": "interact if you want to work at anthropic, google, meta, quant funds, hot startups, or research labs.",
+      "createdAt": "Mon Apr 13 15:56:59 +0000 2026",
+      "viewCount": 94973,
+      "likeCount": 3483,
+      "retweetCount": 63,
+      "author": {
+        "userName": "boardyai",
+        "name": "Boardy",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/boardyai/status/2043720112214012177",
+      "is_official": true
+    },
+    {
+      "id": "2043671341342040382",
+      "text": "&gt;X head of product \n&gt;uses gemini to generate images \n&gt;not grok\n\nit’s over",
+      "createdAt": "Mon Apr 13 12:43:12 +0000 2026",
+      "viewCount": 512798,
+      "likeCount": 8751,
+      "retweetCount": 324,
+      "author": {
+        "userName": "ns123abc",
+        "name": "NIK",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ns123abc/status/2043671341342040382",
+      "is_official": false
+    }
+  ]
+}

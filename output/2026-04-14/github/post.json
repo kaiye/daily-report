@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-04-14T00:55:59.345Z",
+  "source_raw": "raw.json",
+  "source_count": 16,
+  "item_count": 15,
+  "language_breakdown": {
+    "Unknown": 1,
+    "Python": 6,
+    "TypeScript": 5,
+    "Jupyter Notebook": 1,
+    "HTML": 1,
+    "JavaScript": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "Unknown",
+      "stars_today": 5733,
+      "stars_total": 25147,
+      "forks": 2042
+    },
+    {
+      "rank": 2,
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars_today": 11289,
+      "stars_total": 77041,
+      "forks": 10305
+    },
+    {
+      "rank": 3,
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars_today": 1554,
+      "stars_total": 17012,
+      "forks": 3206
+    },
+    {
+      "rank": 4,
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "language": "TypeScript",
+      "stars_today": 3175,
+      "stars_total": 53282,
+      "forks": 4253
+    },
+    {
+      "rank": 5,
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars_today": 2808,
+      "stars_total": 106933,
+      "forks": 6737
+    },
+    {
+      "rank": 6,
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "stars_today": 1715,
+      "stars_total": 11120,
+      "forks": 1390
+    },
+    {
+      "rank": 7,
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.",
+      "language": "TypeScript",
+      "stars_today": 677,
+      "stars_total": 17614,
+      "forks": 2774
+    },
+    {
+      "rank": 8,
+      "repo": "snarktank/ralph",
+      "url": "https://github.com/snarktank/ralph",
+      "description": "Ralph is an autonomous AI agent loop that runs repeatedly until all PRD items are complete.",
+      "language": "TypeScript",
+      "stars_today": 691,
+      "stars_total": 16520,
+      "forks": 1635
+    },
+    {
+      "rank": 9,
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "An AI Hedge Fund Team",
+      "language": "Python",
+      "stars_today": 783,
+      "stars_total": 52941,
+      "forks": 9192
+    },
+    {
+      "rank": 10,
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "stars_today": 1012,
+      "stars_total": 39508,
+      "forks": 4393
+    },
+    {
+      "rank": 11,
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "practice made claude perfect",
+      "language": "HTML",
+      "stars_today": 2461,
+      "stars_total": 41756,
+      "forks": 3968
+    },
+    {
+      "rank": 12,
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "stars_today": 512,
+      "stars_total": 16309,
+      "forks": 1940
+    },
+    {
+      "rank": 13,
+      "repo": "ahujasid/blender-mcp",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "BlenderMCP connects Blender to Claude AI through the Model Context Protocol (MCP), allowing Claude to directly interact with and control Blender. This integration enables prompt assisted 3D modeling, scene creation, and manipulation.\n\nWe have no official website. Any website you see online is unofficial and has no affiliation with this project. Use them at your own risk.",
+      "language": "Python",
+      "stars_today": 339,
+      "stars_total": 19493,
+      "forks": 1883
+    },
+    {
+      "rank": 14,
+      "repo": "hacksider/Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "description": "real time face swap and one-click video deepfake with only a single image",
+      "language": "Python",
+      "stars_today": 217,
+      "stars_total": 90234,
+      "forks": 13127
+    },
+    {
+      "rank": 15,
+      "repo": "gsd-build/get-shit-done",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "description": "A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.",
+      "language": "JavaScript",
+      "stars_today": 655,
+      "stars_total": 52109,
+      "forks": 4367
+    }
+  ]
+}
