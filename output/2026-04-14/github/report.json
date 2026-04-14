@@ -1,0 +1,120 @@
+{
+  "report_date": "2026-04-14",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 Claude 与智能体工作流的 AI 编码增强、上下文记忆和任务自动化平台持续升温。",
+  "items": [
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "一个单独的 CLAUDE.md 文件，用于改进 Claude Code 的行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。",
+      "language": "Unknown",
+      "stars_today": 5733,
+      "stars_total": 25147
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "会随着你一起成长的智能体。",
+      "language": "Python",
+      "stars_today": 11289,
+      "stars_total": 77041
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：面向金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 1554,
+      "stars_total": 17012
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Claude Code 插件，会自动捕获 Claude 在编码会话中的所有操作，用 AI 压缩后把相关上下文注入后续会话。",
+      "language": "TypeScript",
+      "stars_today": 3175,
+      "stars_total": 53282
+    },
+    {
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "开源的托管式智能体平台，把编码智能体变成真正的队友——分配任务、跟踪进度、复用技能。",
+      "language": "TypeScript",
+      "stars_today": 1715,
+      "stars_total": 11120
+    },
+    {
+      "repo": "coleam00/Archon",
+      "url": "https://github.com/coleam00/Archon",
+      "description": "首个面向 AI 编码的开源 harness 构建器，让 AI 编码变得确定且可重复。",
+      "language": "TypeScript",
+      "stars_today": 677,
+      "stars_total": 17614
+    },
+    {
+      "repo": "snarktank/ralph",
+      "url": "https://github.com/snarktank/ralph",
+      "description": "Ralph 是一个自主 AI 智能体循环，会持续运行直到所有 PRD 条目完成。",
+      "language": "TypeScript",
+      "stars_today": 691,
+      "stars_total": 16520
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "一个 AI 对冲基金团队。",
+      "language": "Python",
+      "stars_today": 783,
+      "stars_total": 52941
+    },
+    {
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "一组笔记本与实用配方，展示一些有趣且高效的 Claude 使用方式。",
+      "language": "Jupyter Notebook",
+      "stars_today": 1012,
+      "stars_total": 39508
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "实践让 Claude 变得完美。",
+      "language": "HTML",
+      "stars_today": 2461,
+      "stars_total": 41756
+    },
+    {
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "开源语音合成工作室。",
+      "language": "TypeScript",
+      "stars_today": 512,
+      "stars_total": 16309
+    },
+    {
+      "repo": "ahujasid/blender-mcp",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "BlenderMCP 通过模型上下文协议（MCP）将 Blender 连接到 Claude AI，使 Claude 能直接与 Blender 交互并进行控制。",
+      "language": "Python",
+      "stars_today": 339,
+      "stars_total": 19493
+    },
+    {
+      "repo": "hacksider/Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "description": "仅用一张图片即可实现实时换脸和一键视频深度伪造。",
+      "language": "Python",
+      "stars_today": 217,
+      "stars_total": 90234
+    },
+    {
+      "repo": "gsd-build/get-shit-done",
+      "url": "https://github.com/gsd-build/get-shit-done",
+      "description": "由 TÂCHES 打造的轻量且强大的元提示、上下文工程与规范驱动开发系统，面向 Claude Code。",
+      "language": "JavaScript",
+      "stars_today": 655,
+      "stars_total": 52109
+    }
+  ]
+}

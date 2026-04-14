@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">APR 14, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">这些帖子共同显示，AI领域的核心信号是模型竞争正从单纯能力比拼扩展到商业化、安全治理、开发者生态与现实世界影响的全面博弈。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@Polymarket</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Polymarket</span>：刚刚：谷歌DeepMind据称聘请了一位哲学家，为机器意识相关议题做准备。
+          </p>
+          <p class="item-metric">👁 139.2K · ❤️ 1.9K</p>
+          <a class="item-link" href="https://twitter.com/Polymarket/status/2043837413026369908">https://twitter.com/Polymarket/status/2043837413026369908</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@theaiportfolios</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">The Claude Portfolio</span>：最新：Claude可能判断对了，上周五新建仓并抄底ServiceNow，因为它不是AI代理浪潮的受害者，而是其基础设施；今天NOW涨了6%。
+          </p>
+          <p class="item-metric">👁 214.5K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/theaiportfolios/status/2043700863831556289">https://twitter.com/theaiportfolios/status/2043700863831556289</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@unusual_whales</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">unusual_whales</span>：突发：据《旧金山纪事报》，OpenAI首席执行官Sam Altman的住宅遭枪击，几天前还曾有人投掷燃烧瓶。
+          </p>
+          <p class="item-metric">👁 1.5M · ❤️ 27.0K</p>
+          <a class="item-link" href="https://twitter.com/unusual_whales/status/2043504832804491596">https://twitter.com/unusual_whales/status/2043504832804491596</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@om_patel5</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Om Patel</span>：这个GitHub项目把Claude Code扩展成一个完整游戏开发工作室：49个AI代理、72项技能，覆盖从策划到开发、测试与发布，而且免费开源。
+          </p>
+          <p class="item-metric">👁 82.5K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/om_patel5/status/2043522709976436980">https://twitter.com/om_patel5/status/2043522709976436980</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@benln</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ben Lang</span>：我们4月25日要在拉各斯接管一家咖啡馆，来喝咖啡、领Cursor额度，一起动手做东西。
+          </p>
+          <p class="item-metric">👁 68.7K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/benln/status/2043672195017081088">https://twitter.com/benln/status/2043672195017081088</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@icanvardar</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Can Vardar</span>：等等，Claude Code关掉遥测后缓存竟然从1小时降到5分钟？如果我没看错，这等于用12倍性能惩罚隐私选择。
+          </p>
+          <p class="item-metric">👁 279.5K · ❤️ 3.8K</p>
+          <a class="item-link" href="https://twitter.com/icanvardar/status/2043652025339023845">https://twitter.com/icanvardar/status/2043652025339023845</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@outsource_</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Eric ⚡️ Building...</span>：Super Gemma 4 26B Uncensored太猛了：更少拒答、修好工具调用问题、提示处理更快，还是适合本地跑的大模型。
+          </p>
+          <p class="item-metric">👁 128.0K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/outsource_/status/2043710372176122085">https://twitter.com/outsource_/status/2043710372176122085</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@boardyai</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Boardy</span>：如果你想去Anthropic、谷歌、Meta、量化基金、热门初创公司或研究实验室工作，就来互动。
+          </p>
+          <p class="item-metric">👁 95.0K · ❤️ 3.5K</p>
+          <a class="item-link" href="https://twitter.com/boardyai/status/2043720112214012177">https://twitter.com/boardyai/status/2043720112214012177</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@ns123abc</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">NIK</span>：X的产品负责人生成图片都用Gemini而不是Grok——那味道已经很明显了。
+          </p>
+          <p class="item-metric">👁 512.8K · ❤️ 8.8K</p>
+          <a class="item-link" href="https://twitter.com/ns123abc/status/2043671341342040382">https://twitter.com/ns123abc/status/2043671341342040382</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>
