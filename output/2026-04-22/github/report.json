@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-04-22",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕大模型与智能体的实用化工具链加速扩展到代码上下文、RAG、多模态感知与舆情分析等真实场景。",
+  "items": [
+    {
+      "repo": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "description": "你可掌控的 AI：自由选择模型，掌握自己的数据，摆脱厂商锁定。",
+      "language": "TypeScript",
+      "stars_today": 596,
+      "stars_total": 3473
+    },
+    {
+      "repo": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "description": "面向 Claude Code 的代码搜索 MCP，让整个代码库都成为任意编码智能体的上下文。",
+      "language": "TypeScript",
+      "stars_today": 169,
+      "stars_total": 6611
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView：WiFi DensePose 将普通 WiFi 信号转化为实时人体姿态估计、生命体征监测与存在检测，全程无需一帧视频。",
+      "language": "Rust",
+      "stars_today": 824,
+      "stars_total": 48892
+    },
+    {
+      "repo": "microsoft/ai-agents-for-beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "description": "12 节课带你开始构建 AI 智能体。",
+      "language": "Jupyter Notebook",
+      "stars_today": 200,
+      "stars_total": 57671
+    },
+    {
+      "repo": "HKUDS/RAG-Anything",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "description": "《RAG-Anything：一体化 RAG 框架》。",
+      "language": "Python",
+      "stars_today": 162,
+      "stars_total": 16880
+    },
+    {
+      "repo": "sansan0/TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "description": "AI 驱动的舆情与趋势监控工具，聚合多平台内容、RSS 与智能提醒，并支持 AI 筛选、翻译、分析简报及趋势预测。",
+      "language": "Python",
+      "stars_today": 534,
+      "stars_total": 53648
+    }
+  ]
+}

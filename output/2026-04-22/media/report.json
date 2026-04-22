@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-04-22",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "今日AI要闻集中在头部模型与工具的产品升级、重量级并购合作传闻以及企业对AI安全与应用边界的进一步推进。",
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI更新图像生成器，可从网络获取信息",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916166/openai-chatgpt-images-2",
+      "published_at": "2026-04-21T19:00:00.000Z",
+      "summary": "新版ChatGPT Images 2.0加入了可联网检索的“思考”能力，能够借助网络信息从单个提示生成多张图片。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "SpaceX与Cursor合作，并拥有以600亿美元收购其的选择权",
+      "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+      "published_at": "2026-04-21T22:45:37.000Z",
+      "summary": "这项不同寻常的安排意味着SpaceX要么未来收购这家自动编程平台，要么支付高额分手费。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "ChatGPT新款Images 2.0模型在生成文字方面表现出色",
+      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
+      "published_at": "2026-04-21T19:00:00.000Z",
+      "summary": "报道指出，这款OpenAI新图像模型在图片内生成清晰准确文字方面的能力，体现出生成式AI近年的显著进步。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sam Altman批评Anthropic网络安全模型Mythos是在进行“基于恐惧的营销”",
+      "url": "https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/",
+      "published_at": "2026-04-21T18:51:52.000Z",
+      "summary": "他在播客中质疑竞争对手通过渲染风险来放大新产品的能力与威胁程度。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "未经授权的组织据称已获得Anthropic独家网络工具Mythos的访问权限",
+      "url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+      "published_at": "2026-04-21T23:26:45.000Z",
+      "summary": "Anthropic表示正在调查相关说法，但坚持称没有证据显示其系统已受到影响。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI研究实验室NeoCognition获4000万美元种子轮融资，开发像人类一样学习的智能体",
+      "url": "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
+      "published_at": "2026-04-21T19:11:29.000Z",
+      "summary": "这家由俄亥俄州立大学研究者创立的公司正尝试打造可在任意领域成长为专家的AI智能体。"
+    },
+    {
+      "source": "极客公园",
+      "title": "Kimi K2.6是否真正把Agent做明白了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104416&idx=1&sn=d590919906b2129e53656032339811f2",
+      "published_at": "2026-04-21T14:43:00.000Z",
+      "summary": "文章聚焦Agent能力从模型强弱竞争转向生产力交付，讨论Kimi K2.6在自主执行、技能复用和长时稳定性上的进展。"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Google为Ads Advisor新增三项让Google Ads更安全更高效的功能",
+      "url": "https://blog.google/products/ads-commerce/ads-advisor-google-ads/",
+      "published_at": "2026-04-21T14:30:00.000Z",
+      "summary": "这些新增的代理式安全与政策功能被整合进Ads Advisor，用于加强账户保护并简化广告运营流程。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "YouTube将让名人查找并申请移除AI深度伪造内容",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/915872/celebrities-will-be-able-to-find-and-request-removal-of-ai-deepfakes-on-youtube",
+      "published_at": "2026-04-21T17:30:24.000Z",
+      "summary": "平台正把AI肖像检测功能扩展至好莱坞，从而帮助相关人士发现并处理涉及自身形象的深度伪造视频。"
+    }
+  ]
+}
