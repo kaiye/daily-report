@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-04-22T01:02:03.409Z",
+  "source_raw": "raw.json",
+  "source_count": 8,
+  "item_count": 7,
+  "language_breakdown": {
+    "Python": 3,
+    "TypeScript": 2,
+    "Rust": 1,
+    "Jupyter Notebook": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "Fincept-Corporation/FinceptTerminal",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars_today": 2548,
+      "stars_total": 11617,
+      "forks": 1525
+    },
+    {
+      "rank": 2,
+      "repo": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+      "language": "TypeScript",
+      "stars_today": 596,
+      "stars_total": 3473,
+      "forks": 204
+    },
+    {
+      "rank": 3,
+      "repo": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+      "language": "TypeScript",
+      "stars_today": 169,
+      "stars_total": 6611,
+      "forks": 568
+    },
+    {
+      "rank": 4,
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars_today": 824,
+      "stars_total": 48892,
+      "forks": 6514
+    },
+    {
+      "rank": 5,
+      "repo": "microsoft/ai-agents-for-beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "description": "12 Lessons to Get Started Building AI Agents",
+      "language": "Jupyter Notebook",
+      "stars_today": 200,
+      "stars_total": 57671,
+      "forks": 19870
+    },
+    {
+      "rank": 7,
+      "repo": "HKUDS/RAG-Anything",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "description": "\"RAG-Anything: All-in-One RAG Framework\"",
+      "language": "Python",
+      "stars_today": 162,
+      "stars_total": 16880,
+      "forks": 1999
+    },
+    {
+      "rank": 8,
+      "repo": "sansan0/TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "description": "⭐AI-driven public opinion &amp; trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
+      "language": "Python",
+      "stars_today": 534,
+      "stars_total": 53648,
+      "forks": 23536
+    }
+  ]
+}

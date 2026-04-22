@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">APR 22, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">最重要的共同信号是，AI竞争正同时加速到模型能力、产品分发、基础设施合作与开发者平台商业化的全面升级阶段。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@SpaceX</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">SpaceX</span>：我们正与 Cursor 深度合作，结合其面向资深工程师的产品分发能力和我们的超大规模训练算力，目标是打造全球最强的编程与知识工作AI。
+          </p>
+          <p class="item-metric">👁 3.0M · ❤️ 17.5K</p>
+          <a class="item-link" href="https://twitter.com/SpaceX/status/2046713419978453374">https://twitter.com/SpaceX/status/2046713419978453374</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@arena</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Arena.ai</span>：我们很兴奋地看到 OpenAI 的 GPT-Image-2 横扫 Image Arena 全部榜单，且在文生图上创下迄今最大的领先优势。
+          </p>
+          <p class="item-metric">👁 597.4K · ❤️ 3.2K</p>
+          <a class="item-link" href="https://twitter.com/arena/status/2046670703311884548">https://twitter.com/arena/status/2046670703311884548</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@nikitabier</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Nikita Bier</span>：今天我们在 𝕏 推出一次重大更新：自定义时间线，用 Grok 对帖子内容的理解加上个性化算法，把特定主题固定到首页。
+          </p>
+          <p class="item-metric">👁 409.9K · ❤️ 8.2K</p>
+          <a class="item-link" href="https://twitter.com/nikitabier/status/2046736181002645520">https://twitter.com/nikitabier/status/2046736181002645520</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@OpenAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI</span>：我们发布 ChatGPT Images 2.0，这是一款面向复杂视觉任务的先进图像模型，带来更精准可用的生成结果、更强编辑能力和更丰富版式。
+          </p>
+          <p class="item-metric">👁 1.4M · ❤️ 12.0K</p>
+          <a class="item-link" href="https://twitter.com/OpenAI/status/2046670977145372771">https://twitter.com/OpenAI/status/2046670977145372771</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@Kimi_Moonshot</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Kimi.ai</span>：我们上线了 Kimi K2.6 API，主打更强的长程编程、指令遵循与自我纠错，并支持多模态、工具调用、JSON 模式和网页搜索。
+          </p>
+          <p class="item-metric">👁 222.8K · ❤️ 2.5K</p>
+          <a class="item-link" href="https://twitter.com/Kimi_Moonshot/status/2046498140224966944">https://twitter.com/Kimi_Moonshot/status/2046498140224966944</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@OpenAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI</span>：这不是截图，而是在直接展示我们图像生成能力已经逼近真实界面的表现。
+          </p>
+          <p class="item-metric">👁 3.5M · ❤️ 13.0K</p>
+          <a class="item-link" href="https://twitter.com/OpenAI/status/2046589828918317155">https://twitter.com/OpenAI/status/2046589828918317155</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@The_Cyber_News</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Cyber Security News</span>：我们注意到，Anthropic 的 MCP 被曝出严重架构级漏洞，可能带来远程代码执行与大范围系统接管风险。
+          </p>
+          <p class="item-metric">👁 338.0K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/The_Cyber_News/status/2046426265876594858">https://twitter.com/The_Cyber_News/status/2046426265876594858</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@OpenAIDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI Developers</span>：Codex 现在每周已有超过 400 万人使用，说明开发者正在用它完成大量真实工作。
+          </p>
+          <p class="item-metric">👁 77.6K · ❤️ 2.3K</p>
+          <a class="item-link" href="https://twitter.com/OpenAIDevs/status/2046603091563450413">https://twitter.com/OpenAIDevs/status/2046603091563450413</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@TheGeorgePu</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">George Pu</span>：提醒一下：Claude Code 似乎已从 Pro 套餐移除，想继续用的人现在至少得升到每月 100 美元的 Max。
+          </p>
+          <p class="item-metric">👁 1.1M · ❤️ 5.0K</p>
+          <a class="item-link" href="https://twitter.com/TheGeorgePu/status/2046705634331025855">https://twitter.com/TheGeorgePu/status/2046705634331025855</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>
