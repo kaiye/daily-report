@@ -1,0 +1,48 @@
+# 媒体资讯
+
+OpenAI、Anthropic等重点公司围绕新模型、产品入口、监管冲突和算力成本的新闻集中出现，显示AI竞争正从单点模型发布扩展到生态、基础设施与商业可持续性。
+
+### [OpenAI的GPT-5.6系列或于下周发布](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109240&idx=1&sn=3edf2b06824ded16b2813bd2bb6995f2)
+*极客公园* · 2026-06-21
+
+OpenAI的GPT-5.6系列或于下周发布：报道称GPT-5.6可能包含mini、标准版和Pro版，部分Pro订阅用户已反馈可访问相关模型且输出质量提升。
+
+### [Claude安卓端模型选择器中疑似重新出现Fable 5](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652708232&idx=1&sn=823bbe0969150ecc249fa8b6384b4cb5)
+*新智元* · 2026-06-21
+
+Claude安卓端模型选择器中疑似重新出现Fable 5：开发者发现此前消失的Fable 5名称再次出现在Claude安卓版列表中，引发外界对其可能回归的讨论。
+
+### [特朗普政府若打压Anthropic，谁会受益](https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/)
+*TechCrunch AI* · 2026-06-21
+
+特朗普政府若打压Anthropic，谁会受益：文章讨论美国政府近期针对Anthropic的动作及其动因，并关注这可能如何影响更广泛的AI生态。
+
+### [离开OpenAI的24岁投资人以AI主题基金横扫华尔街](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652708232&idx=2&sn=725a53cdd30670bd98861b8510dc58cc)
+*新智元* · 2026-06-21
+
+离开OpenAI的24岁投资人以AI主题基金横扫华尔街：Leopold Aschenbrenner创立的AI主题对冲基金管理资产已超过200亿美元，文章聚焦其从OpenAI离职后的投资表现。
+
+### [Michael I. Jordan批评AGI叙事和AI理解说法](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651040234&idx=1&sn=b9d20058d84b417a596123a0c7e0ce4d)
+*机器之心* · 2026-06-21
+
+Michael I. Jordan批评AGI叙事和AI理解说法：这位统计机器学习奠基人认为AGI更像公关术语，并警告部分AI思想领袖的表达可能误导年轻一代。
+
+### [iOS 27将带来多项Siri之外的实用AI功能](https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/)
+*TechCrunch AI* · 2026-06-21
+
+iOS 27将带来多项Siri之外的实用AI功能：文章指出WWDC上Siri的AI改造虽受关注，但苹果还将在iOS 27其他位置加入更实用的AI能力。
+
+### [国内具身智能融资加速流向机器人“大脑”公司](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898574&idx=1&sn=6ede0b426e915786f55b39231903cd4a)
+*量子位* · 2026-06-21
+
+国内具身智能融资加速流向机器人“大脑”公司：统计称2026年上半年国内具身智能赛道融资约438亿元，其中超过一半流向强调模型和世界模型能力的“大脑派”公司。
+
+### [英伟达被称为AI时代最大算力地主](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652708232&idx=3&sn=a63e5cf64de5f257f8586bb21fa96db0)
+*新智元* · 2026-06-21
+
+英伟达被称为AI时代最大算力地主：文章借AI公司IPO后的财务压力讨论行业重心从模型跑分转向算力、供应链和监管等基础设施变量。
+
+### [AI巨头的Token补贴大战是否接近尾声](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109221&idx=1&sn=1ac529bdc665a31116b702a65df37685)
+*极客公园* · 2026-06-21
+
+AI巨头的Token补贴大战是否接近尾声：文章讨论AI订阅服务背后的Token成本补贴，以及大厂开始限制内部Token使用所反映的成本压力。

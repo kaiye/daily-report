@@ -1,0 +1,149 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-05-23T00:05:25.399Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 14,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars_total": 24884,
+      "forks": 2763,
+      "stars_today": 2549
+    },
+    {
+      "rank": 2,
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars_total": 16493,
+      "forks": 909,
+      "stars_today": 3684
+    },
+    {
+      "rank": 3,
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars_total": 63994,
+      "forks": 8455,
+      "stars_today": 978
+    },
+    {
+      "rank": 4,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars_total": 11885,
+      "forks": 2262,
+      "stars_today": 988
+    },
+    {
+      "rank": 5,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars_total": 40965,
+      "forks": 2601,
+      "stars_today": 501
+    },
+    {
+      "rank": 6,
+      "repo": "dotnet/skills",
+      "url": "https://github.com/dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "stars_total": 2522,
+      "forks": 198,
+      "stars_today": 389
+    },
+    {
+      "rank": 7,
+      "repo": "Lum1104/Understand-Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "Graphs that teach &gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars_total": 18534,
+      "forks": 1679,
+      "stars_today": 1393
+    },
+    {
+      "rank": 8,
+      "repo": "odoo/odoo",
+      "url": "https://github.com/odoo/odoo",
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "language": "Python",
+      "stars_total": 51120,
+      "forks": 32514,
+      "stars_today": 79
+    },
+    {
+      "rank": 9,
+      "repo": "byJoey/cfnew",
+      "url": "https://github.com/byJoey/cfnew",
+      "description": "⚠️ 重要：部署后请将兼容日期设置为 2026-01-20\n\n多协议支持：VLESS、Trojan、xhttp，可以同时启用多个 自定义路径：不用UUID当路径了，可以自己设置，支持多级路径 延迟测试：内置测试工具，测IP延迟，自动获取机场码 订阅转换：可以自定义转换服务地址 图形化管理：用KV存配置，改完立即生效，不用重新部署 API管理：支持通过API动态添加/删除优选IP 多客户端：支持 CLASH、SURGE、SING-BOX、LOON、QUANTUMULT X、V2RAY、Shadowrocket、STASH、NEKORAY、V2RAYNG 应用唤醒：点按钮自动打开对应客户端 自动识别：根据User-Agent自动返回对应格式 多语言：支持中文和波斯语，根据浏览器语言自动切换 v2.9.8 更新 订阅转换内部实现：Clash / Stash / Sing-box / Surge / Loon / Quantumult X 配置全部由 Worker 直接生成，不再依赖任何外部 sub-converter 完整规则集：Clash 使用 Loyalsoldier rule-providers ；Sing-box 使用 MetaCubeX SRS；Surge / Loon / QuanX 使用 ACL4SSR / blackmatrix7 远端规则 各策略分组均包含「策略组 + 全部节点」，可直接切换具体节点（已移除「自动选择」url-test，避免周期性测速浪费请求） 修复 Clash IPv6 节点 server 被解析为数组、代理组 🎯 全球直连 ↔ 🚀 节点选择 循环引用等问题 传输优化：参考 GrainTCP 思路优化 WebSocket/TCP 转发，上行小包队列合并、下行小包聚合、大包直发，并优化 VLESS 解析热路径 图形化 ALPN：新增 alpn 下拉选项，留空时不写 alpn ，也可选择 h3 、 h2 、 http/1.1 或组合值 节点别名简化：域名统一为 优选域名-序号 ，IPv6 统一为 IPv6优选-序号 ，IPv4 使用 isp-colo-序号 KV 配置缓存：30s 短窗口 + 跨 isolate 版本键 c_ver ，保存后无需刷新两次 SOCKS5 降级超时：直连 3.5s 无数据自动走 fallback 标签：「启用 GitHub 默认优选」改为「启用自定义优选」 页面特效开关： FX: ON / OFF ，选择 localStorage 持久化 提供混淆版本 少年你相信光吗 ，逻辑与 明文源吗 完全一致 v2.9.7 更新 悬浮保存按钮：右下角常驻「保存全部」按钮，支持 Ctrl+S / Cmd+S 快捷键 编辑任意字段后按钮自动进入「未保存」提示状态 保存中 / 刷新中有进度反馈 通知体验优化：所有阻塞式弹窗替换为右上角浮动消息，自动消失、可悬停暂停、支持手动关闭 4 种语义：success / info / warn / error 操作按钮整合：将分散在各区块的 4 个保存按钮合并为统一的悬浮操作组 提供混淆版本 少年你相信光吗 ，逻辑与 明文源吗 完全一致 v2.9.6 更新 兼容 Xray-core v26.3.27 新增香港 (HK) 地区 ProxyIP 和地区选择 KV 读取性能优化：5 小时内存缓存，减少 99% 以上的 KV 读取量 无效请求拦截：非法路径直接返回 404，不再触发 KV 读取 修复优选列表保存时 SOCKS5 配置 key 错误的问题 v2.9.5 更新 GitHub 默认优选地址默认关闭，需自行配置优选IP来源URL 新增「启用原生地址」开关，可在管理面板中控制是否生成原生地址节点（默认关闭） 兼容日期设置为 2026-01-20 v2.9.4 更新 支持客户端通过 WebSocket path 参数覆盖连接级变量（ p 、 wk 、 rm 、 s ） 无需为每个节点单独部署 Worker，在分享链接的 path 里直接写参数即可 优先级：path 参数 > KV/环境变量全局配置 > 自动检测 详见下方「 客户端 path 参数 」说明 v2.9.3 更新 新增图形化自定义DNS和ECH域名功能 可在界面中自定义DNS服务器地址（DoH格式） 可在界面中自定义ECH域名 支持动态更改，保存后立即生效 Clash配置中的ech-opts增加query-server-name参数，与v2ray保持一致 v2.9.2 更新 修复 Clash 配置生成问题 v2.9.1 更新 ECH支持：新增 Encrypted Client Hello (ECH) 功能 每次刷新订阅时自动获取最新的 ECH 配置 启用 ECH 时自动启用\"仅 TLS\"模式，避免 80 端口干扰 图形界面可一键开启/关闭 ECH 功能 v2.9 更新 地区筛选：可以按地区筛选优选结果，支持多选 延迟筛选：新增\"只显示最快的10个\"选项 追加/替换模式：添加优选结果时可以追加或替换整个列表 结果展示优化：显示地区标签，按延迟排序 其他细节优化 相关工具 优选工具： https://github.com/byJoey/yx-tools/releases 文字教程： https://joeyblog.net/yuanchuang/1146.html Workers视频教程： https://www.youtube.com/watch?v=aYzTr8FafN4 Pages视频教程： https://www.youtube.com/watch?v=JhVxJChDL-E Snippets视频教程： https://www.youtube.com/watch?v=xeFeH3Akcu8 部署 订阅每15分钟自动优选一次",
+      "language": "",
+      "stars_total": 13295,
+      "forks": 6479,
+      "stars_today": 87
+    },
+    {
+      "rank": 10,
+      "repo": "trimstray/the-book-of-secret-knowledge",
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "language": "",
+      "stars_total": 223186,
+      "forks": 13381,
+      "stars_today": 969
+    },
+    {
+      "rank": 11,
+      "repo": "Fincept-Corporation/FinceptTerminal",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars_total": 22626,
+      "forks": 3125,
+      "stars_today": 367
+    },
+    {
+      "rank": 12,
+      "repo": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "language": "TypeScript",
+      "stars_total": 6329,
+      "forks": 514,
+      "stars_today": 457
+    },
+    {
+      "rank": 13,
+      "repo": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "stars_total": 164321,
+      "forks": 13821,
+      "stars_today": 444
+    },
+    {
+      "rank": 14,
+      "repo": "karpathy/nn-zero-to-hero",
+      "url": "https://github.com/karpathy/nn-zero-to-hero",
+      "description": "Neural Networks: Zero to Hero",
+      "language": "Jupyter Notebook",
+      "stars_total": 22328,
+      "forks": 3242,
+      "stars_today": 159
+    }
+  ]
+}

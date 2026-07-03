@@ -1,0 +1,179 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-05-21T00:02:15.158Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 17,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars_total": 9432,
+      "forks": 579,
+      "stars_today": 2123
+    },
+    {
+      "rank": 2,
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars_total": 16116,
+      "forks": 1443,
+      "stars_today": 1667
+    },
+    {
+      "rank": 3,
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars_total": 23582,
+      "forks": 2111,
+      "stars_today": 3394
+    },
+    {
+      "rank": 4,
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars_total": 140742,
+      "forks": 14441,
+      "stars_today": 2679
+    },
+    {
+      "rank": 5,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars_total": 9518,
+      "forks": 1940,
+      "stars_today": 765
+    },
+    {
+      "rank": 6,
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars_total": 38518,
+      "forks": 3662,
+      "stars_today": 890
+    },
+    {
+      "rank": 7,
+      "repo": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "language": "TypeScript",
+      "stars_total": 5383,
+      "forks": 453,
+      "stars_today": 270
+    },
+    {
+      "rank": 8,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_total": 199984,
+      "forks": 17834,
+      "stars_today": 1743
+    },
+    {
+      "rank": 9,
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars_total": 20766,
+      "forks": 2543,
+      "stars_today": 674
+    },
+    {
+      "rank": 10,
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars_total": 102808,
+      "forks": 16944,
+      "stars_today": 1636
+    },
+    {
+      "rank": 11,
+      "repo": "rmyndharis/OpenWA",
+      "url": "https://github.com/rmyndharis/OpenWA",
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "language": "TypeScript",
+      "stars_total": 4843,
+      "forks": 983,
+      "stars_today": 741
+    },
+    {
+      "rank": 12,
+      "repo": "truelockmc/streambert",
+      "url": "https://github.com/truelockmc/streambert",
+      "description": "A cross-platform Electron Desktop App to stream and download any Movie, TV Series or Anime in the World. Zero Ads and Tracking",
+      "language": "JavaScript",
+      "stars_total": 2967,
+      "forks": 245,
+      "stars_today": 582
+    },
+    {
+      "rank": 13,
+      "repo": "opentoonz/opentoonz",
+      "url": "https://github.com/opentoonz/opentoonz",
+      "description": "OpenToonz - An open-source full-featured 2D animation creation software",
+      "language": "C++",
+      "stars_total": 6321,
+      "forks": 730,
+      "stars_today": 236
+    },
+    {
+      "rank": 14,
+      "repo": "zakirullin/files.md",
+      "url": "https://github.com/zakirullin/files.md",
+      "description": "🌱 Private, quiet space for thinking. A simple app for your .md files.",
+      "language": "Go",
+      "stars_total": 2196,
+      "forks": 50,
+      "stars_today": 429
+    },
+    {
+      "rank": 15,
+      "repo": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "stars_total": 15107,
+      "forks": 1250,
+      "stars_today": 1080
+    },
+    {
+      "rank": 16,
+      "repo": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars_total": 111829,
+      "forks": 18505,
+      "stars_today": 309
+    },
+    {
+      "rank": 17,
+      "repo": "HKUDS/ViMax",
+      "url": "https://github.com/HKUDS/ViMax",
+      "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "language": "Python",
+      "stars_total": 6044,
+      "forks": 980,
+      "stars_today": 674
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>媒体资讯</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #2a1f0f;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #ffc069;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #ffd8ab;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #ffe8cc 0%, #fff7ed 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #ffe0bf;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #ffe0bf;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #ffc069 88%, white) 0%,
+      color-mix(in srgb, #ffc069 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #ffe0bf;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">Media & News Watch</p>
+        </div>
+        <p class="date-chip">APR 16, 2026</p>
+      </div>
+      <h1 class="hero-title">媒体资讯</h1>
+      <p class="hero-summary">最重要的共同趋势是头部模型与智能体平台正加速推出新产品和能力更新，同时资本市场也在重新评估OpenAI与Anthropic等核心公司的价值。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI更新Agents SDK以帮助企业构建更安全、更强大的智能体</span>：此次更新扩展了其智能体开发工具包的能力，旨在顺应企业级Agentic AI快速升温的需求。
+          </p>
+          <p class="item-metric">2026-04-15 19:28:36 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/">https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Google在Mac上推出Gemini应用</span>：这款桌面应用让用户无需频繁切换窗口即可调用助手，并可通过快捷键唤出浮动界面进行交互。
+          </p>
+          <p class="item-metric">2026-04-15 18:10:15 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/tech/912638/google-gemini-mac-app">https://www.theverge.com/tech/912638/google-gemini-mac-app</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">Google DeepMind</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Google发布Gemini 3.1 Flash TTS新一代语音模型</span>：该音频模型加入更细粒度的音频标签控制，让用户能更精确地引导富有表现力的AI语音生成。
+          </p>
+          <p class="item-metric">2026-04-15 16:03:19 UTC</p>
+          <a class="item-link" href="https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/">https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anthropic的崛起让一些OpenAI投资者开始重新考虑押注</span>：有同时投资两家公司的投资人表示，要合理化OpenAI最新一轮融资需假设其未来IPO估值至少达到1.2万亿美元，从而使Anthropic当前估值看起来相对更划算。
+          </p>
+          <p class="item-metric">2026-04-15 02:31:04 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/">https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Grok因情色深度伪造内容险些被苹果应用商店下架</span>：苹果曾在今年1月私下警告，若Grok无法遏制X平台上大量未经同意的情色深度伪造内容传播，就可能将其从App Store移除。
+          </p>
+          <p class="item-metric">2026-04-15 10:55:22 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes">https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">机器之心</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">北大联合Llama-Factory推出工业级数据动态训练系统DataFlex</span>：该系统试图统一数据选择、数据混合与样本重加权等训练流程，以支撑下一代大模型应用所需的数据基础设施。
+          </p>
+          <p class="item-metric">2026-04-15 04:21:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651027815&amp;idx=3&amp;sn=9302e6c59afe49dde69068eb89da0c66">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651027815&amp;idx=3&amp;sn=9302e6c59afe49dde69068eb89da0c66</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">印度vibe-coding初创公司Emergent进入类OpenClaw智能体赛道</span>：其产品Wingman允许用户通过WhatsApp和Telegram等聊天平台管理并自动执行任务。
+          </p>
+          <p class="item-metric">2026-04-15 17:24:18 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/">https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Hightouch在AI驱动营销工具带动下实现1亿美元ARR</span>：这家公司称在推出面向营销人员的AI智能体平台后，仅20个月就将年度经常性收入增加了7000万美元。
+          </p>
+          <p class="item-metric">2026-04-15 18:55:12 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/">https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

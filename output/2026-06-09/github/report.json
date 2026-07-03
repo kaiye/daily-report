@@ -1,0 +1,112 @@
+{
+  "report_date": "2026-06-09",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI Agent 的技能、工具调用、记忆、前端与评测基础设施快速扩展。",
+  "items": [
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI Agent 技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网页研究任意主题，并综合出有依据的摘要。",
+      "language": "Python",
+      "stars_today": 3558,
+      "stars_total": 34466
+    },
+    {
+      "repo": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "基于 TurboQuant 构建的向量索引，使用 Rust 编写并提供 Python 绑定。",
+      "language": "Python",
+      "stars_today": 1729,
+      "stars_total": 8823
+    },
+    {
+      "repo": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "面向 Google 产品和技术的 Agent Skills。",
+      "language": "Python",
+      "stars_today": 461,
+      "stars_total": 12378
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "让你的 AI Agent 拥有看见整个互联网的眼睛，通过一个 CLI 读取和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书且无需 API 费用。",
+      "language": "Python",
+      "stars_today": 679,
+      "stars_total": 24072
+    },
+    {
+      "repo": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "基于 Claude Code 构建的 AI 驱动求职系统，包含 14 种技能模式、Go 仪表盘、PDF 生成和批处理。",
+      "language": "JavaScript",
+      "stars_today": 308,
+      "stars_total": 50489
+    },
+    {
+      "repo": "phuryn/pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "description": "PM Skills Marketplace：100 多个 Agentic 技能、命令和插件，覆盖从发现到战略、执行、发布和增长。",
+      "language": "Unknown",
+      "stars_today": 164,
+      "stars_total": 12641
+    },
+    {
+      "repo": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "description": "OpenAI 插件。",
+      "language": "JavaScript",
+      "stars_today": 296,
+      "stars_total": 2312
+    },
+    {
+      "repo": "Andyyyy64/whichllm",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "description": "找到真正能在你的硬件上运行且表现最佳的本地 LLM，按真实且关注时效的基准排名，而不是按参数量。",
+      "language": "Python",
+      "stars_today": 143,
+      "stars_total": 3435
+    },
+    {
+      "repo": "MemPalace/mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "description": "基准表现最佳的开源 AI 记忆系统，而且免费。",
+      "language": "Python",
+      "stars_today": 170,
+      "stars_total": 54920
+    },
+    {
+      "repo": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "我们编写你的可复用计算机视觉工具。",
+      "language": "Python",
+      "stars_today": 1288,
+      "stars_total": 42325
+    },
+    {
+      "repo": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "description": "面向 Agents 和生成式 UI 的前端技术栈，支持 React、Angular、移动端、Slack 等，并打造 AG-UI 协议。",
+      "language": "TypeScript",
+      "stars_today": 378,
+      "stars_total": 34119
+    },
+    {
+      "repo": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "一份以可视化和示例驱动的 Claude Code 指南，从基础概念到高级 Agents，并提供可复制粘贴、能立即带来价值的模板。",
+      "language": "Python",
+      "stars_today": 312,
+      "stars_total": 35757
+    },
+    {
+      "repo": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "开源、可扩展的 AI Agent，超越代码建议，可通过任意 LLM 安装、执行、编辑和测试。",
+      "language": "Rust",
+      "stars_today": 699,
+      "stars_total": 48092
+    }
+  ]
+}

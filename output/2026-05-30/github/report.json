@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-05-30",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是把大模型能力嵌入内容生成、编程代理、文档处理和垂直应用工作流。",
+  "items": [
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型，一键生成高清短视频。",
+      "language": "Python",
+      "stars_today": 3567,
+      "stars_total": 69601
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "将文件和 Office 文档转换为 Markdown 的 Python 工具。",
+      "language": "Python",
+      "stars_today": 1873,
+      "stars_total": 129909
+    },
+    {
+      "repo": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "description": "面向 Claude Code、Codex、Cursor 等的官方 Compound Engineering 插件。",
+      "language": "TypeScript",
+      "stars_today": 353,
+      "stars_total": 18124
+    },
+    {
+      "repo": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "为 AI 设计的 Salesforce 开放替代品。",
+      "language": "TypeScript",
+      "stars_today": 578,
+      "stars_total": 48397
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code 是驻留在终端中的代理式编码工具，能理解代码库，并通过自然语言命令执行例行任务、解释复杂代码和处理 git 工作流来帮助你更快编码。",
+      "language": "Python",
+      "stars_today": 395,
+      "stars_total": 127863
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill 让你的 AI 更有品味，阻止 AI 生成无聊、泛泛的垃圾内容。",
+      "language": "Shell",
+      "stars_today": 2062,
+      "stars_total": 28095
+    },
+    {
+      "repo": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor 插件规范和官方插件。",
+      "language": "TypeScript",
+      "stars_today": 134,
+      "stars_total": 1294
+    },
+    {
+      "repo": "run-llama/liteparse",
+      "url": "https://github.com/run-llama/liteparse",
+      "description": "快速、实用且开源的文档解析器。",
+      "language": "Rust",
+      "stars_today": 701,
+      "stars_total": 7271
+    },
+    {
+      "repo": "galilai-group/stable-worldmodel",
+      "url": "https://github.com/galilai-group/stable-worldmodel",
+      "description": "面向可复现世界模型研究与评估的平台。",
+      "language": "Python",
+      "stars_today": 362,
+      "stars_total": 1240
+    },
+    {
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D 是一台自包含的离线生存计算机，内置关键工具、知识和 AI，让你随时随地保持知情并获得能力。",
+      "language": "TypeScript",
+      "stars_today": 318,
+      "stars_total": 26950
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "代理运行框架性能优化系统，为 Claude Code、Codex、Opencode、Cursor 及更多工具提供技能、本能、记忆、安全和研究优先的开发能力。",
+      "language": "JavaScript",
+      "stars_today": 1406,
+      "stars_total": 198560
+    },
+    {
+      "repo": "hardikpandya/stop-slop",
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "description": "用于去除散文中 AI 痕迹的技能文件。",
+      "language": "Unknown",
+      "stars_today": 617,
+      "stars_total": 6973
+    }
+  ]
+}

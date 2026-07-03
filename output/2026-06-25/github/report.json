@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-06-25",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI 代理构建专业化工作流，从视频制作、投研分析到招聘、网页克隆、编码协作与设计系统理解都在加速代理化。",
+  "items": [
+    {
+      "repo": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "世界首个开源的代理式视频制作系统，拥有 12 条流水线、52 个工具和 500+ 项代理技能，可将你的 AI 编码助手变成完整的视频制作工作室。",
+      "language": "Python",
+      "stars_today": 3719,
+      "stars_total": 19284
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统，具备多源行情、实时新闻、决策看板、自动推送，并支持零成本定时运行。",
+      "language": "Python",
+      "stars_today": 1468,
+      "stars_total": 48453
+    },
+    {
+      "repo": "interviewstreet/hiring-agent",
+      "url": "https://github.com/interviewstreet/hiring-agent",
+      "description": "用于评估简历并打分的 AI 代理。",
+      "language": "Python",
+      "stars_today": 203,
+      "stars_total": 2134
+    },
+    {
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "description": "使用 AI 编码代理，通过一条命令克隆任意网站。",
+      "language": "TypeScript",
+      "stars_today": 692,
+      "stars_total": 19275
+    },
+    {
+      "repo": "revfactory/harness",
+      "url": "https://github.com/revfactory/harness",
+      "description": "一种元技能，可设计特定领域的代理团队、定义专门代理，并生成它们使用的技能。",
+      "language": "HTML",
+      "stars_today": 277,
+      "stars_total": 7716
+    },
+    {
+      "repo": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca 是面向并行代理群协作的 ADE，可使用你自己的订阅运行任意编码代理，并支持桌面端和移动端。",
+      "language": "TypeScript",
+      "stars_today": 331,
+      "stars_total": 6752
+    },
+    {
+      "repo": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "description": "描述视觉身份给编码代理的格式规范，DESIGN.md 让代理对设计系统拥有持久且结构化的理解。",
+      "language": "TypeScript",
+      "stars_today": 619,
+      "stars_total": 17298
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "会与你一同成长的代理。",
+      "language": "Python",
+      "stars_today": 1178,
+      "stars_total": 202028
+    }
+  ]
+}

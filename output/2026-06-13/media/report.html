@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>媒体资讯</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #2a1f0f;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #ffc069;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #ffd8ab;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #ffe8cc 0%, #fff7ed 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #ffe0bf;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #ffe0bf;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #ffc069 88%, white) 0%,
+      color-mix(in srgb, #ffc069 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #ffe0bf;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">Media & News Watch</p>
+        </div>
+        <p class="date-chip">JUN 13, 2026</p>
+      </div>
+      <h1 class="hero-title">媒体资讯</h1>
+      <p class="hero-summary">AI新闻的核心趋势是头部模型公司与物理AI创业公司持续吸引巨额资本，同时大厂AI产品、组织和安全议题加速进入落地阶段。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Mistral据称拟以200亿欧元估值融资30亿欧元</span>：这轮融资将使Mistral估值较其117亿欧元的C轮估值接近翻倍，凸显欧洲大模型公司的资本热度。
+          </p>
+          <p class="item-metric">2026-06-12 17:38:11 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/">https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">SpaceX、Anthropic和OpenAI引领热门IPO季</span>：文章将Meta或Microsoft、Anthropic、Nvidia、Google、OpenAI和SpaceX组成的“MANGOS”视为取代FAANG的新一批市场焦点。
+          </p>
+          <p class="item-metric">2026-06-12 16:23:25 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/">https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">贝索斯的Prometheus融资120亿美元，打造物理世界的人工通用工程师</span>：这家物理AI初创公司本轮估值达到410亿美元，目标是自动化重型工程和药物设计等复杂任务。
+          </p>
+          <p class="item-metric">2026-06-12 01:04:38 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/">https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">极客公园</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">SpaceX确认750亿美元IPO，Meta开始剥离Manus，苹果触控屏MacBook获确认</span>：这期早报还提到Anthropic调整Claude Fable 5面向研究员的“降智”措施，并覆盖豆包手机硬件负责人离职等AI相关动态。
+          </p>
+          <p class="item-metric">2026-06-12 00:29:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653108647&amp;idx=1&amp;sn=5bb6db07cfb4508bb7163a3fe1bd518d">https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653108647&amp;idx=1&amp;sn=5bb6db07cfb4508bb7163a3fe1bd518d</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">贝索斯AI初创公司计划打造“人工通用工程师”</span>：相关报道显示，Prometheus将把目标放在能够承担工程工作的通用型AI系统上。
+          </p>
+          <p class="item-metric">2026-06-12 14:03:39 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer">https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Meta成立数月的AI部门被曝引发工程师强烈不满</span>：一份新报告称，这个拥有6500名员工的AI部门正处在内部反弹边缘。
+          </p>
+          <p class="item-metric">2026-06-12 23:00:54 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/">https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Google起诉利用AI诈骗数十万受害者的中国网络犯罪团伙</span>：Google称名为Outsider Enterprise的团伙在两周内发送250万条短信，并借助AI实施大规模诈骗。
+          </p>
+          <p class="item-metric">2026-06-12 20:38:09 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/">https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">新版Siri终于变好了吗</span>：节目讨论苹果推出的新版本Siri，认为这次更新让长期表现不佳的语音助手出现明显变化。
+          </p>
+          <p class="item-metric">2026-06-12 17:17:04 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/podcast/949079/siri-ai-good-vergecast">https://www.theverge.com/podcast/949079/siri-ai-good-vergecast</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Theker融资8500万美元，打造不专精单一任务的工厂机器人</span>：Theker的机器不同于固定形态的人形机器人，而是设计成可重新配置以适应多类工厂任务。
+          </p>
+          <p class="item-metric">2026-06-12 01:48:07 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/">https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

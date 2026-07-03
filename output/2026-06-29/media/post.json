@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-06-29T00:01:35.678Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 12,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "DeepSeek V4更新DSpark，推理速度提升80%；Vision Pro 高管加盟 OpenAI 硬件部门；央视曝数码产品网络测评乱象｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109548&idx=1&sn=e3213fad6c19a80e73a83fd68c84aa1a",
+      "published_at": "2026-06-28T00:40:00.000Z",
+      "summary": "徐珊 2026-06-28 08:40 北京\n\n马斯克获准收购初创公司 Mesh；B站举办17周年庆，5分钟以上视频观看时长占比达65%；阿里千问输入法上线 macOS 版。\n\n## DeepSeek V4 更新 DSpark，推理速度提升 80%\n\n6 月 27 日，DeepSeek V4 进行了一次更新，新推出了投机解码（Speculative Decoding）框架 DSpark，并同步开源了支撑该版本的全栈推测性解码框架 DeepSpec。\n\nDeepSeek-V4-Pro-DSpark 并非全新架构模型，而是在 DeepSeek-V4-Pro 基础上引入了推测性解码模块。此次更新的重",
+      "priority_score": 252,
+      "matched_keywords": [
+        "OpenAI",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "China’s Z.ai claims it can match Mythos on cybersecurity",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity",
+      "published_at": "2026-06-28T21:42:51.000Z",
+      "summary": "China's Zhipu AI ([Z.ai](http://z.ai)) released its open-weight GLM-5.2, and some researchers have claimed that it[matches Mythos](https://www.wsj.com/tech/ai/chinese-ai-anthropic-mythos-cybersecurity-574b02c2?st=FRKgap&amp;reflink=desktopwebshare_permalink)in certain bug-finding and cybersecurity s",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Anthropic",
+        "GLM"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Prosecutors used ChatGPT logs as evidence in the Palisades fire trial",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial",
+      "published_at": "2026-06-28T14:12:06.000Z",
+      "summary": "Jonathan Rinderknecht was facing arson charges for setting a fire on New Year's Day in 2025, which became one of the[deadliest wildfires](https://www.theverge.com/news/605763/investigation-fire-emergency-alert-los-angeles-congress)in[LA history](https://www.theverge.com/news/600752/wildfires-los-ang",
+      "priority_score": 200,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "英伟达年度「最危险」论文！AI自繁衍代码，无限刷级进化",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709592&idx=1&sn=67287b57a9e541025be9a34c4b272334",
+      "published_at": "2026-06-28T04:10:00.000Z",
+      "summary": "ASI启示录 2026-06-28 12:10 北京\n\n### **新智元报道**\n\n##### **【新智元导读】** 年度最危险论文发了！英伟达打破20年封印，让AI亲手造出更狠的「考官」淘汰自己。无休止的自我进化一旦开启，2028年ASI降临真不是玩笑。\n\nAnthropic彻底「RSI上头」了！\n\n联合创始人Jack Clark抛出惊人预测，到2028年底，一个高度自主进化的AI就会诞生。\n\n这个概率，是60%！\n\n在人们还在为「2028 RSI能否实现」争论不休时，剑桥大学、英伟达等机构联手，丢出了一篇重磅论文——\n\n「红皇后哥德尔机器」（Red Queen Gödel Machin",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "2028，RSI降临！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709592&idx=2&sn=4f903b685036831973c8c5b0b37fe276",
+      "published_at": "2026-06-28T04:10:00.000Z",
+      "summary": "ASI启示录 2026-06-28 12:10 北京\n\n### **新智元报道**\n\n##### **【新智元导读】AI已经不再只是被训练的工具，而是开始亲手改写自己的进化速度。2028年，RSI引爆ASI的倒计时正在加速逼近。**\n\nAI自己造AI的倒计时，真的开始了。\n\n这一次，给出时间表的是Anthropic联合创始人Jack Clark。\n\n在Aspen Institute的活动上，他抛出一句让全场安静的话——\n\n**2028年底之前，递归自我改进（RSI）很可能成真：** **AI** **将自主发明、并亲手构建出比自己更强的下一代，甚至无需任何一个人类研究员参与。**\n\n他还给了一",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "前端工程师最不想看到的开源项目出现了，一行命令克隆任意网站",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900104&idx=2&sn=b452eaed552a62bf5cb237b388207505",
+      "published_at": "2026-06-28T04:08:00.000Z",
+      "summary": "关注前沿科技 2026-06-28 12:08 北京\n\nGitHub 20k Star\n\n##### 闻乐 发自 凹非寺 量子位 | 公众号 QbitAI\n\n看到一个网站设计得贼好看，想复刻一个同款？\n\n现在不用打开F12一行行抄CSS了！GitHub上有个 **2万Star** 的项目专门干这事儿——\n\n**ai-website-cloner-template** ，一行命令，像素级克隆任意网站。\n\n给它一个URL，它会自动完成全站逆向解析：\n\n采集页面元素精确计算样式、遍历滚动/点击/悬停等全量交互逻辑、提取标准化设计Token；\n\n再调度多Agent基于Git工作树并行完成组件分块重建，",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Suno launches Spark incubator program to feed independent artists to its AI machine",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine",
+      "published_at": "2026-06-28T20:27:36.000Z",
+      "summary": "Suno has ambitions to be more than just a toy to churn out AI slop, it also wants to be a streaming destination and to break new artists.[Spark](https://suno.com/blog/introducing-spark)is their new[incubator program](https://variety.com/2026/music/news/suno-spark-incubator-program-for-independent-ar",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "published_at": "2026-06-28T15:00:00.000Z",
+      "summary": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "published_at": "2026-06-28T19:05:39.000Z",
+      "summary": "\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.”",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "新智元ALL in ASI英雄帖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709592&idx=3&sn=76c3cac7caee82adcfd303c08cc02f41",
+      "published_at": "2026-06-28T04:10:00.000Z",
+      "summary": "ASI启示录 2026-06-28 12:10 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 2026年，ASI奇点之年。全球AI竞赛进入决赛圈，AI正以指数级的速度重塑世界。新智元All in ASI，现招募两个核心战位——ASI架构师（年薪50-70万）与ASI主笔（年薪50-70万），坐标北京上地，虚位以待。**\n\n全球AI竞赛进入决赛圈，每天都有大事发生。 新智元要覆盖的赛道、要打的仗也在飙升。 我们不仅要在全球AI最前沿保持绝对敏锐，更要在ASI浪潮中主动出击。 现在，新智元正式发出All in ASI英雄帖。 我们在上地AI家，召唤 **对ASI有信仰，有使",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "太空算力的国产答案：用光子更高效！马斯克和老黄都太绕了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900104&idx=1&sn=3b0889c74d995686a0a178fe84cebbb4",
+      "published_at": "2026-06-28T04:08:00.000Z",
+      "summary": "原创关注前沿科技 2026-06-28 12:08 北京\n\n把天基计算推进到可验证、可迭代的工程路线\n\n##### 克雷西 发自 凹非寺 量子位 | 公众号 QbitAI\n\n太空算力的竞赛，已经变成了一场真实的军备竞赛。\n\n马斯克判断，到2032年，太阳能驱动的太空AI卫星，将成为全球成本最优的算力方案。\n\n英伟达CEO黄仁勋今年三月的判断，也从某种程度上给这场竞赛定了性——任何生成数据的地方，都必须有智能存在。\n\n两大巨头出手之后，太空算力的战场被推到了前所未有的高度，但太空计算面临的工程挑战，依然比地面残酷得多。\n\n没有空气对流，芯片散不了热；宇宙中存在高能粒子，随时可以让芯片出错……\n\n",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247900104&idx=3&sn=ad0f943695c58cb443077f7fd2848f4b",
+      "published_at": "2026-06-28T04:08:00.000Z",
+      "summary": "关注前沿科技 2026-06-28 12:08 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

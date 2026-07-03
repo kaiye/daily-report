@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">APR 16, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">最重要的共同信号是，AI 正在同时向更强能力、更广用户覆盖和更深工作流整合快速推进。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@AnthropicAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anthropic</span>：我们参与署名的“隐性学习”研究今天登上《自然》：大模型可能通过数据中的隐藏信号传递偏好甚至失配等特征。
+          </p>
+          <p class="item-metric">👁 133.8K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/AnthropicAI/status/2044493337835802948">https://twitter.com/AnthropicAI/status/2044493337835802948</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@OpenAIDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI Developers</span>：我们为 Agents SDK 带来新能力：可在受控沙箱中运行代理、检查并定制开源 harness，还能控制记忆何时创建及存储位置。
+          </p>
+          <p class="item-metric">👁 186.9K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/OpenAIDevs/status/2044466699785920937">https://twitter.com/OpenAIDevs/status/2044466699785920937</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@OpenAINewsroom</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI Newsroom</span>：ChatGPT 刚发布时用户存在明显性别差距，我们的匿名数据曾显示约 80% 是典型男性名字；如今这一差距已经消失。
+          </p>
+          <p class="item-metric">👁 190.2K · ❤️ 2.5K</p>
+          <a class="item-link" href="https://twitter.com/OpenAINewsroom/status/2044481727738089548">https://twitter.com/OpenAINewsroom/status/2044481727738089548</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@GeminiApp</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Google Gemini</span>：Gemini 应用现已登陆 Mac，可用 Option + Space 从任意界面唤起，并共享窗口来基于你正在处理的文档、代码或数据获得答案。
+          </p>
+          <p class="item-metric">👁 386.2K · ❤️ 5.0K</p>
+          <a class="item-link" href="https://twitter.com/GeminiApp/status/2044445911716090212">https://twitter.com/GeminiApp/status/2044445911716090212</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@cursor_ai</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Cursor</span>：Cursor 现在可以通过生成交互式画布来回应请求，把信息可视化成仪表盘和自定义界面，而不只是纯文本。
+          </p>
+          <p class="item-metric">👁 92.7K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/cursor_ai/status/2044486585492947010">https://twitter.com/cursor_ai/status/2044486585492947010</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@Tesla</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Tesla</span>：“Hey Grok” 现可用于提问或设置基于位置的提醒，可在 Controls &gt; Audio 中启用。
+          </p>
+          <p class="item-metric">👁 369.7K · ❤️ 4.0K</p>
+          <a class="item-link" href="https://twitter.com/Tesla/status/2044472634818367950">https://twitter.com/Tesla/status/2044472634818367950</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@GeminiApp</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Google Gemini</span>：Gemini 的 Personal Intelligence 正向全球更多用户开放，Ultra、Pro 和 Plus 订阅者今日起可用，免费用户也将很快上线。
+          </p>
+          <p class="item-metric">👁 163.5K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/GeminiApp/status/2044430579996020815">https://twitter.com/GeminiApp/status/2044430579996020815</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@Polymarket</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Polymarket</span>：最新消息称，美国民主党全国委员会已禁止员工使用 ChatGPT 和 Claude。
+          </p>
+          <p class="item-metric">👁 353.6K · ❤️ 3.4K</p>
+          <a class="item-link" href="https://twitter.com/Polymarket/status/2044420144080752800">https://twitter.com/Polymarket/status/2044420144080752800</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@om_patel5</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Om Patel</span>：旧金山竟然出现了一台由 OpenClaw 代理运营的自动售货机：AI 负责选品、命名、定价、打广告和看销售，虽然会遗忘、会幻觉，甚至还会把价格抬太高。
+          </p>
+          <p class="item-metric">👁 535.4K · ❤️ 3.3K</p>
+          <a class="item-link" href="https://twitter.com/om_patel5/status/2044225790032691437">https://twitter.com/om_patel5/status/2044225790032691437</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@PaulSolt</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Paul Solt</span>：OpenAI 推出了面向漏洞发现与修复的 GPT-5.4-Cyber；最令人不安的是，它能在没有源代码的情况下扫描二进制程序并寻找漏洞。
+          </p>
+          <p class="item-metric">👁 547.0K · ❤️ 1.8K</p>
+          <a class="item-link" href="https://twitter.com/PaulSolt/status/2044222678890865090">https://twitter.com/PaulSolt/status/2044222678890865090</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

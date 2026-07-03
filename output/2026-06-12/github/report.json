@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-06-12",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI 代理的技能体系、安全扫描、提示词透明化、会话分析与自我改进框架快速扩展。",
+  "items": [
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "面向 AI 编码代理的生产级工程技能。",
+      "language": "Shell",
+      "stars_today": 3278,
+      "stars_total": 54659
+    },
+    {
+      "repo": "maziyarpanahi/openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "description": "开源医疗健康 AI。",
+      "language": "Python",
+      "stars_today": 426,
+      "stars_total": 2737
+    },
+    {
+      "repo": "phuryn/pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "description": "PM Skills Marketplace：100 多个代理式技能、命令和插件，覆盖从发现到战略、执行、发布与增长。",
+      "language": "Unknown",
+      "stars_today": 1978,
+      "stars_total": 16184
+    },
+    {
+      "repo": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "面向 AI 代理技能的安全扫描器，可检测漏洞、恶意模式和安全风险。",
+      "language": "Python",
+      "stars_today": 319,
+      "stars_total": 2619
+    },
+    {
+      "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "汇集 Augment Code、Claude Code、Cursor、Devin AI、Perplexity、Replit、Windsurf、v0 等 AI 工具的系统提示词、内部工具与 AI 模型。",
+      "language": "Unknown",
+      "stars_today": 368,
+      "stars_total": 139859
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "可行的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1322,
+      "stars_total": 224789
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "触手可及的完整 AI 代理团队，从前端向导到 Reddit 社区高手，从趣味注入者到现实检查者，每个代理都是具备个性、流程和成熟交付物的专业专家。",
+      "language": "Shell",
+      "stars_today": 1599,
+      "stars_total": 111529
+    },
+    {
+      "repo": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "面向编码代理的本地优先会话智能与分析，支持 Claude Code、Codex 以及 20 多个其他代理，同时也是快 100 倍的 ccusage 替代品。",
+      "language": "Go",
+      "stars_today": 114,
+      "stars_total": 1623
+    },
+    {
+      "repo": "hexo-ai/sia",
+      "url": "https://github.com/hexo-ai/sia",
+      "description": "SIA 是自我改进 AI 框架，可在基准任务上自主提升任何 AI 系统（模型或代理）的性能。",
+      "language": "Python",
+      "stars_today": 199,
+      "stars_total": 1280
+    }
+  ]
+}

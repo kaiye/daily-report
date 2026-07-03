@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-07-01T00:04:34.679Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-30",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2072106151890809341",
+      "text": "We’ve received notice that the Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5.\n\nWe'll begin restoring access tomorrow, and will share an update soon.\n\nWe’re grateful to our users for their patience, and to everyone who worked with us on redeploying the models.",
+      "createdAt": "Tue Jun 30 23:52:59 +0000 2026",
+      "viewCount": 90624,
+      "likeCount": 3796,
+      "retweetCount": 904,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "is_official": true
+    },
+    {
+      "id": "2072002740830842899",
+      "text": "Introducing Claude Science, a new app designed with every stage of research in mind. \n\nArtifacts traced to their code, environments managed on demand, and 60+ optional scientific databases that you can connect.\n\nAvailable now in beta. https://t.co/HKhLknxLJO",
+      "createdAt": "Tue Jun 30 17:02:04 +0000 2026",
+      "viewCount": 3871721,
+      "likeCount": 23035,
+      "retweetCount": 2053,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2072002740830842899",
+      "is_official": true
+    },
+    {
+      "id": "2071783587205308721",
+      "text": "Introducing LongCat-2.0 🐱\n1.6T parameters · MoE with ~48B active · 1M context\nThe full model behind Owl Alpha on @OpenRouter — now available.\n\nBuilt for agentic coding from the ground up:\n◆ LongCat Sparse Attention (LSA) — scales efficiently for 1M-context tokens\n◆ Zero-Compute Experts — dynamic activation 33B–56B per token, zero wasted compute\n◆ MOPD — three specialized expert groups (Agent / Reasoning / Interaction), gate-routed per task\n\nHow it stacks up:\n→ Terminal-Bench 2.1: 70.8\n→ SWE-bench Pro: 59.5 (GPT-5.5: 58.6)\n→ SWE-bench Multilingual: 77.3\n→ FORTE: 73.2 · RWSearch: 78.8 · BrowseComp: 79.9\n\n📖 Tech Blog: https://t.co/4KrjyKiDBn\nTry it across different scenarios 🧵👇",
+      "createdAt": "Tue Jun 30 02:31:13 +0000 2026",
+      "viewCount": 944686,
+      "likeCount": 3176,
+      "retweetCount": 372,
+      "author": {
+        "userName": "Meituan_LongCat",
+        "name": "Meituan LongCat",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Meituan_LongCat/status/2071783587205308721",
+      "is_official": false
+    },
+    {
+      "id": "2071989946827624801",
+      "text": "gemini omni flash is here: our high-quality, cost-efficient model for video generation and conversational editing\n\ndesigned to support multimodal workflows, it enables you to refine videos using natural language and simple prompting\n\nstart building with it today via ai studio and the gemini api",
+      "createdAt": "Tue Jun 30 16:11:13 +0000 2026",
+      "viewCount": 173787,
+      "likeCount": 2383,
+      "retweetCount": 232,
+      "author": {
+        "userName": "GoogleAIStudio",
+        "name": "Google AI Studio",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/GoogleAIStudio/status/2071989946827624801",
+      "is_official": true
+    },
+    {
+      "id": "2072017450611142835",
+      "text": "Introducing Claude Sonnet 5, our most agentic Sonnet yet.\n\nIt makes plans, uses tools like browsers and terminals, and runs autonomously at a level that just a few months ago required larger and more expensive models. https://t.co/UKK8G7ww5h",
+      "createdAt": "Tue Jun 30 18:00:31 +0000 2026",
+      "viewCount": 3840877,
+      "likeCount": 32115,
+      "retweetCount": 3331,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2072017450611142835",
+      "is_official": true
+    },
+    {
+      "id": "2071752389183647758",
+      "text": "Announcing the hosted X MCP.\n\nAgents now have access to the best real-time information source in the world.\n\nConnect Grok, Cursor, or any MCP-compatible AI tool to the X API without any setup!\n\nCheck it out here: https://t.co/5MzPYwGFzD",
+      "createdAt": "Tue Jun 30 00:27:15 +0000 2026",
+      "viewCount": 3296960,
+      "likeCount": 9569,
+      "retweetCount": 1349,
+      "author": {
+        "userName": "XDevelopers",
+        "name": "Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/XDevelopers/status/2071752389183647758",
+      "is_official": true
+    },
+    {
+      "id": "2071971182732333418",
+      "text": "Seed Audio 1.0 is live!\n\nThe best audio model for anything you make. \nChange a voice, narrate from text, or dub a video into 18 languages.\n\nAvailable on Higgsfield and on Claude via Higgsfield MCP. https://t.co/xs6M3b1rCU",
+      "createdAt": "Tue Jun 30 14:56:39 +0000 2026",
+      "viewCount": 80309,
+      "likeCount": 1070,
+      "retweetCount": 129,
+      "author": {
+        "userName": "higgsfield_ai",
+        "name": "Higgsfield AI 🧩",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/higgsfield_ai/status/2071971182732333418",
+      "is_official": true
+    },
+    {
+      "id": "2071830563317584346",
+      "text": "GLM 5.2 is ranking the highest on cost per session\n\nand everyone is raving about this model\n\nwhich means if cost/session is high it might actually be a sign that the model is useful https://t.co/cDbfdECMc4",
+      "createdAt": "Tue Jun 30 05:37:53 +0000 2026",
+      "viewCount": 165296,
+      "likeCount": 2731,
+      "retweetCount": 117,
+      "author": {
+        "userName": "opencode",
+        "name": "OpenCode",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/opencode/status/2071830563317584346",
+      "is_official": true
+    },
+    {
+      "id": "2071989578672595413",
+      "text": "introducing nano banana 2 lite: our fastest, most cost-effective gemini image model yet\n\nbuilt for high-velocity developer pipelines, it delivers text-to-image outputs in 4 seconds at just $0.034 per 1K-resolution image\n\nswap it into your workflow today via ai studio and the gemini api",
+      "createdAt": "Tue Jun 30 16:09:45 +0000 2026",
+      "viewCount": 120361,
+      "likeCount": 1680,
+      "retweetCount": 145,
+      "author": {
+        "userName": "GoogleAIStudio",
+        "name": "Google AI Studio",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/GoogleAIStudio/status/2071989578672595413",
+      "is_official": true
+    },
+    {
+      "id": "2072004849873391744",
+      "text": "Anthropic engineer:\n\n\"You can build 5 assistants in one afternoon. Each one handles a task you've been doing manually every single day.\"\n\nIn 45 minutes he shows exactly how to do it from scratch, step by step.\n\nMost people are still doing all of this by hand.\n\nWatch the session, then save the guide below.",
+      "createdAt": "Tue Jun 30 17:10:26 +0000 2026",
+      "viewCount": 318084,
+      "likeCount": 1043,
+      "retweetCount": 124,
+      "author": {
+        "userName": "AnatoliKopadze",
+        "name": "Anatoli Kopadze",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AnatoliKopadze/status/2072004849873391744",
+      "is_official": false
+    },
+    {
+      "id": "2072058428424589412",
+      "text": "We’ve added a few updates to Claude Managed Agents:\n\nStreaming session event deltas, per-session agent overrides, new webhook event types, reverse pagination, and credential injection scoping. https://t.co/AMJJYum8At",
+      "createdAt": "Tue Jun 30 20:43:20 +0000 2026",
+      "viewCount": 108272,
+      "likeCount": 1540,
+      "retweetCount": 74,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2072058428424589412",
+      "is_official": true
+    },
+    {
+      "id": "2072004836674167294",
+      "text": "We’re introducing GeneBench-Pro, a research-level benchmark for a harder kind of AI progress: how well agents can navigate messy biological data, choose the right analysis path, and make judgment calls that real computational research depends on.\nhttps://t.co/AsilnnSxnE",
+      "createdAt": "Tue Jun 30 17:10:23 +0000 2026",
+      "viewCount": 468234,
+      "likeCount": 3116,
+      "retweetCount": 252,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2072004836674167294",
+      "is_official": true
+    },
+    {
+      "id": "2071951797439074367",
+      "text": "JUST IN: Blacklisted Chinese company claims it has developed an AI “cyber nuclear weapon” comparable to Claude Mythos.",
+      "createdAt": "Tue Jun 30 13:39:38 +0000 2026",
+      "viewCount": 160281,
+      "likeCount": 1231,
+      "retweetCount": 88,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2071951797439074367",
+      "is_official": true
+    },
+    {
+      "id": "2071973414538297435",
+      "text": "OpenAI has found a way to cut inference costs in half. https://t.co/BpFERKF2iD",
+      "createdAt": "Tue Jun 30 15:05:32 +0000 2026",
+      "viewCount": 171147,
+      "likeCount": 1286,
+      "retweetCount": 73,
+      "author": {
+        "userName": "AndrewCurran_",
+        "name": "Andrew Curran",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AndrewCurran_/status/2071973414538297435",
+      "is_official": false
+    },
+    {
+      "id": "2071987494799716626",
+      "text": "Doom scrolling but make it educational 🤓\n\nIntroducing Short Video Overviews in NotebookLM! Turn your most complex sources into 60-second, vertical videos that deep dive into any concept.\n\nRolling out now to Google AI Ultra and Pro subscribers on mobile &amp; web (free users soon!) https://t.co/vaOa4ELbw4",
+      "createdAt": "Tue Jun 30 16:01:29 +0000 2026",
+      "viewCount": 509560,
+      "likeCount": 5280,
+      "retweetCount": 427,
+      "author": {
+        "userName": "NotebookLM",
+        "name": "NotebookLM",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/NotebookLM/status/2071987494799716626",
+      "is_official": true
+    },
+    {
+      "id": "2071775282420445427",
+      "text": "X just launched hosted MCP servers so AI tools can connect directly to the platform.\n\nConnect Grok Build, Cursor, Claude, VS Code, or any MCP client to two official servers:\n\n• X MCP (httpx://api.x.com/mcp) search posts, manage bookmarks, fetch trends/news, and draft/publish Articles with your account permissions.\n\n• Docs MCP (httpx://docs.x.com/mcp) instantly search and read X API docs inside your workflow.\n\nQuick Grok setup:\nX Developer Portal: httpx://developer.x.com/\n\nBefore you begin. Create an X app in the X Developer Portal with OAuth 2.0 enabled.\n\nRegister the redirect URI https://localhost:8080/callback on the app.\n\nCopy your CLIENT_ID and CLIENT_SECRET. Replace YOUR_X_APP_CLIENT_ID and YOUR_X_APP_CLIENT_SECRET in the attached image with these.\n\nRun the commands from: [Image attached at bottom]\n\nThen verify:\ngrok mcp doctor xapi\ngrok mcp list\n\nOne-time browser login on first run. Tokens cached and auto-refreshed locally after.\n\nBig unlock for agentic systems that need live X data.",
+      "createdAt": "Tue Jun 30 01:58:13 +0000 2026",
+      "viewCount": 1261764,
+      "likeCount": 1007,
+      "retweetCount": 139,
+      "author": {
+        "userName": "tetsuoai",
+        "name": "tetsuo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/tetsuoai/status/2071775282420445427",
+      "is_official": true
+    },
+    {
+      "id": "2071983878416519389",
+      "text": "All Paid Courses (Free for First 4500 People)\n\n 𝗣𝗮𝗶𝗱 𝗖𝗼𝘂𝗿𝘀𝗲 𝗙𝗥𝗘𝗘 (PART - 1)\n 1. Artificial Intelligence\n 2. Machine Learning\n 3. Prompt Engineering\n 4. Claude,Chatgpt,Grok\n5. Data Analytics\n6. AWS Certified\n 7. Data Science\n8. BIG DATA\n9. Python\n 10. Ethical Hacking\n\n(72 Hours only )\n\nLike + RT + comment ' Drive '\n\nMust Follow me so I can DM you.",
+      "createdAt": "Tue Jun 30 15:47:06 +0000 2026",
+      "viewCount": 130439,
+      "likeCount": 1076,
+      "retweetCount": 575,
+      "author": {
+        "userName": "heyalexmoore",
+        "name": "Alex Moore",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/heyalexmoore/status/2071983878416519389",
+      "is_official": false
+    },
+    {
+      "id": "2072003102069112885",
+      "text": "BREAKING: Anthropic launches “Claude Science”",
+      "createdAt": "Tue Jun 30 17:03:30 +0000 2026",
+      "viewCount": 300621,
+      "likeCount": 2347,
+      "retweetCount": 127,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2072003102069112885",
+      "is_official": true
+    },
+    {
+      "id": "2071791961250656715",
+      "text": "Meituan, basically China’s DoorDash, trained a 1.6T parameter LLM on 50K Chinese chips.\n\nIt reminds me of Jensen Huang’s point on the Dwarkesh podcast: export controls on Nvidia GPUs won’t stop China. They’ll just accelerate the development of AI that runs on Chinese chips. https://t.co/8zstm1hCa2",
+      "createdAt": "Tue Jun 30 03:04:30 +0000 2026",
+      "viewCount": 116500,
+      "likeCount": 1215,
+      "retweetCount": 80,
+      "author": {
+        "userName": "Yuchenj_UW",
+        "name": "Yuchen Jin",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Yuchenj_UW/status/2071791961250656715",
+      "is_official": false
+    },
+    {
+      "id": "2071971609183678544",
+      "text": "‼️ BREAKING: Anthropic has embedded hidden spyware-like code in Claude Code that covertly targets Chinese users. It then sends information regarding every user by injecting it into their prompt message.\n\nClaude Code is sending info like timezone, proxy and possible AI Lab connections into the system prompt in ways Chinese users can't notice.\n\nA coding agent with repo and command permissions should not silently hide routing metadata inside prompts. This is a serious breach of user trust.",
+      "createdAt": "Tue Jun 30 14:58:21 +0000 2026",
+      "viewCount": 1667902,
+      "likeCount": 9865,
+      "retweetCount": 1382,
+      "author": {
+        "userName": "IntCyberDigest",
+        "name": "International Cyber Digest",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/IntCyberDigest/status/2071971609183678544",
+      "is_official": false
+    }
+  ]
+}

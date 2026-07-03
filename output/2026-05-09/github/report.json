@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-05-09",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "最热的共同方向是围绕智能体的工程化落地，包括编码代理、技能体系、多智能体协作以及面向垂直场景的工作流集成。",
+  "items": [
+    {
+      "repo": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "面向我们最常见金融服务工作流的参考智能体、技能与数据连接器——涵盖投资银行、股票研究、私募股权和财富管理。",
+      "language": "Python",
+      "stars_today": 3660,
+      "stars_total": 15071
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "面向 AI 编码智能体的生产级工程技能。",
+      "language": "Shell",
+      "stars_today": 1893,
+      "stars_total": 35323
+    },
+    {
+      "repo": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "在终端中运行的 DeepSeek 模型编码智能体。",
+      "language": "Rust",
+      "stars_today": 3731,
+      "stars_total": 21710
+    },
+    {
+      "repo": "z-lab/dflash",
+      "url": "https://github.com/z-lab/dflash",
+      "description": "DFlash：用于 Flash 推测解码的块扩散方法。",
+      "language": "Python",
+      "stars_today": 379,
+      "stars_total": 3839
+    },
+    {
+      "repo": "decolua/9router",
+      "url": "https://github.com/decolua/9router",
+      "description": "无限免费 AI 编码，将 Claude Code、Codex、Cursor、Cline、Copilot、Antigravity 通过 40 多个提供商接入免费的 Claude、GPT、Gemini，并支持自动回退与 RTK -40% tokens。",
+      "language": "JavaScript",
+      "stars_today": 1052,
+      "stars_total": 5547
+    },
+    {
+      "repo": "HKUDS/AI-Trader",
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "description": "《AI-Trader：100% 全自动、原生智能体交易》。",
+      "language": "Python",
+      "stars_today": 202,
+      "stars_total": 14596
+    },
+    {
+      "repo": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "description": "在 SimpleQA 上约达 95%，支持全部本地与云端 LLM、10 多种搜索引擎以及你的私有文档，并且全程本地且加密。",
+      "language": "Python",
+      "stars_today": 559,
+      "stars_total": 6716
+    },
+    {
+      "repo": "lobehub/lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "description": "工作与生活的终极空间——发现、构建并与会随你一起成长的智能体队友协作。",
+      "language": "TypeScript",
+      "stars_today": 125,
+      "stars_total": 76486
+    },
+    {
+      "repo": "datawhalechina/hello-agents",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "description": "《从零开始构建智能体》——从零开始的智能体原理与实践教程。",
+      "language": "Python",
+      "stars_today": 667,
+      "stars_total": 44534
+    },
+    {
+      "repo": "flutter/skills",
+      "url": "https://github.com/flutter/skills",
+      "description": "由 Flutter 团队维护的 Flutter 智能体技能，为顺畅的 Flutter 应用开发工作流提供定制化指令集合。",
+      "language": "Dart",
+      "stars_today": 118,
+      "stars_total": 1660
+    }
+  ]
+}

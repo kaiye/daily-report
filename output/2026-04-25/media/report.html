@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>媒体资讯</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #2a1f0f;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #ffc069;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #ffd8ab;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #ffe8cc 0%, #fff7ed 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #ffe0bf;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #ffe0bf;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #ffc069 88%, white) 0%,
+      color-mix(in srgb, #ffc069 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #ffe0bf;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">Media & News Watch</p>
+        </div>
+        <p class="date-chip">APR 25, 2026</p>
+      </div>
+      <h1 class="hero-title">媒体资讯</h1>
+      <p class="hero-summary">最重要的趋势是头部AI公司一边密集推出更强模型与智能体能力，一边通过巨额算力投资和对产品故障的公开修复来巩固竞争优势。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">极客公园</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI发布GPT-5.5并大幅强化智能体能力</span>：这款新模型被描述为OpenAI迄今最智能的系统，主打更强的多步骤任务执行、工具调用能力，以及更低成本和更快输出速度。
+          </p>
+          <p class="item-metric">2026-04-24 00:09:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653104633&amp;idx=1&amp;sn=373a3d0d4ae13ed881f9129644e003bc">https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653104633&amp;idx=1&amp;sn=373a3d0d4ae13ed881f9129644e003bc</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">DeepSeek预览新一代AI模型V4</span>：DeepSeek称这一开源模型可与Anthropic、Google和OpenAI等美国对手的领先闭源系统竞争，标志着其在一年后再次推出重磅更新。
+          </p>
+          <p class="item-metric">2026-04-24 09:45:30 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model">https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">谷歌将以现金和算力向Anthropic投资最高400亿美元</span>：这笔计划中的巨额投入凸显出AI竞赛中获取大规模算力资源的重要性正在持续上升。
+          </p>
+          <p class="item-metric">2026-04-24 18:00:03 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/">https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">机器之心</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anthropic确认Claude Code体验下降源于三个漏洞</span>：Anthropic在复盘中表示模型本身没有变化，但过去一个月用户感受到的质量下滑是由推理设置、缓存和提示限制等问题叠加造成。
+          </p>
+          <p class="item-metric">2026-04-24 09:06:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651029959&amp;idx=2&amp;sn=cad859337e0776186778017f4b568dd8">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651029959&amp;idx=2&amp;sn=cad859337e0776186778017f4b568dd8</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">MIT Technology Review AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">DeepSeek新模型V4为何重要</span>：报道指出V4在处理超长提示词方面显著增强，并延续开源路线，体现出其架构设计上的关键进步。
+          </p>
+          <p class="item-metric">2026-04-24 21:40:58 UTC</p>
+          <a class="item-link" href="https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/">https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">DeepSeek预览一款缩小与前沿模型差距的新模型</span>：DeepSeek表示新模型因架构改进在效率和性能上都超过V3.2，并在推理基准上几乎追平当前领先的开源和闭源模型。
+          </p>
+          <p class="item-metric">2026-04-24 13:30:59 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/">https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Meta签下数百万颗亚马逊AI CPU用于智能体工作负载</span>：这笔交易表明围绕智能体AI负载的芯片竞争正在从GPU扩展到新的处理器类型。
+          </p>
+          <p class="item-metric">2026-04-24 12:00:00 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/">https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">新智元</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">谷歌DeepMind联合何恺明等人推进统一视觉Transformer方向</span>：报道认为这项工作试图用统一架构取代计算机视觉中针对检测、分割和生成等任务长期分化的专用模型体系。
+          </p>
+          <p class="item-metric">2026-04-24 06:31:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652694878&amp;idx=2&amp;sn=3007381ed6db675afbc20e3d41211733">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652694878&amp;idx=2&amp;sn=3007381ed6db675afbc20e3d41211733</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">极客公园</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">MiniMax亮相戛纳AI电影节</span>：文章围绕全球AI电影节与中国影视公司的新尝试，展现生成式AI正在更深进入影视创作与国际艺术场景。
+          </p>
+          <p class="item-metric">2026-04-24 12:38:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653104690&amp;idx=1&amp;sn=726f4334a2c7ed1f2a7096dddc720618">https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653104690&amp;idx=1&amp;sn=726f4334a2c7ed1f2a7096dddc720618</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

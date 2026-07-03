@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-04-26",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜的 AI 项目最热方向集中在代码智能体、模型工程自动化与大模型基础设施。",
+  "items": [
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "可在终端、VSCode 扩展或通过像 openclaw 一样的 Discord 免费使用 claude-code。",
+      "language": "Python",
+      "stars_today": 4007,
+      "stars_total": 11450
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "我个人的技能目录，直接来自我的 .claude 目录。",
+      "language": "Shell",
+      "stars_today": 1139,
+      "stars_total": 19958
+    },
+    {
+      "repo": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog 是一个一体化开发者平台，用于打造成功的产品，并提供 AI 产品助手来帮助调试代码、更快发布功能，以及将使用与客户数据保留在同一栈中。",
+      "language": "Python",
+      "stars_today": 471,
+      "stars_total": 33484
+    },
+    {
+      "repo": "deepseek-ai/DeepEP",
+      "url": "https://github.com/deepseek-ai/DeepEP",
+      "description": "DeepEP：一个高效的专家并行通信库。",
+      "language": "Cuda",
+      "stars_today": 189,
+      "stars_total": 9489
+    },
+    {
+      "repo": "huggingface/ml-intern",
+      "url": "https://github.com/huggingface/ml-intern",
+      "description": "🤗 ml-intern：一位开源机器学习工程师，能读论文、训练模型并交付机器学习模型。",
+      "language": "Python",
+      "stars_today": 1240,
+      "stars_total": 6214
+    },
+    {
+      "repo": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "一份精心整理的实用 Codex 技能清单，用于在 Codex CLI 和 API 中自动化工作流。",
+      "language": "Python",
+      "stars_today": 188,
+      "stars_total": 1464
+    }
+  ]
+}

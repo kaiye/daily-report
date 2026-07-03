@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>媒体资讯</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #2a1f0f;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #ffc069;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #ffd8ab;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #ffe8cc 0%, #fff7ed 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #ffe0bf;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #ffe0bf;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #ffc069 88%, white) 0%,
+      color-mix(in srgb, #ffc069 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #ffe0bf;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">Media & News Watch</p>
+        </div>
+        <p class="date-chip">MAY 24, 2026</p>
+      </div>
+      <h1 class="hero-title">媒体资讯</h1>
+      <p class="hero-summary">今日重点集中在AGI时间表、DeepSeek降价融资、谷歌多模态模型与AI重塑组织和开发评测等方向。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">新智元</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anthropic联创预言2028年AI或跨越奇点</span>：文章称Anthropic联合创始人Jack Clark和Google DeepMind相关人士同周警示AI递归自我改进与AGI时间表，并强调其潜在冲击可能远超工业革命。
+          </p>
+          <p class="item-metric">2026-05-23 05:11:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652702465&amp;idx=1&amp;sn=0b158a6669e78858a85af9b956820dc3">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652702465&amp;idx=1&amp;sn=0b158a6669e78858a85af9b956820dc3</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">量子位</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">DeepSeek-V4-Pro API永久降价，多家大厂洽谈入股</span>：DeepSeek宣布V4-Pro API从6月1日起按促销价长期执行，同时宁德时代、京东、网易等被曝正接洽参与融资，梁文锋也重申目标是AGI和坚持开源路线。
+          </p>
+          <p class="item-metric">2026-05-23 03:47:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247892493&amp;idx=1&amp;sn=885d0aa480ad564133dc9544e8e24b20">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247892493&amp;idx=1&amp;sn=885d0aa480ad564133dc9544e8e24b20</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">马斯克在地球上放弃太阳能路线</span>：文章指出xAI全面转向天然气供能，而SpaceX则热衷于轨道数据中心，并追问马斯克曾承诺的太阳能电力经济发生了什么。
+          </p>
+          <p class="item-metric">2026-05-23 13:00:00 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/">https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">新智元</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">AI编程基准开始考验真正工程能力</span>：Scale AI推出SWE Atlas评测代码理解、测试编写和重构等能力，结果显示包括GPT-5.4在内的前沿模型在代码健康、边界覆盖和跨文件协同上仍存在短板。
+          </p>
+          <p class="item-metric">2026-05-23 05:11:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652702465&amp;idx=3&amp;sn=e5b0b902bb9ff3199395d9f7fb210f45">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652702465&amp;idx=3&amp;sn=e5b0b902bb9ff3199395d9f7fb210f45</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">谷歌新款任意到任意AI模型表现惊人</span>：文章通过把孩子的毛绒玩具制作成AI视频的体验，展示Gemini相关模型在跨模态生成和深度伪造式视频创作上的能力。
+          </p>
+          <p class="item-metric">2026-05-23 11:00:00 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video">https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">HuggingFace Blog</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Nemotron-Labs用扩散语言模型迈向高速文本生成</span>：NVIDIA在HuggingFace博客介绍Nemotron-Labs扩散语言模型，主题聚焦如何推动文本生成速度接近“光速”级体验。
+          </p>
+          <p class="item-metric">2026-05-23 00:02:03 UTC</p>
+          <a class="item-link" href="https://huggingface.co/blog/nvidia/nemotron-labs-diffusion">https://huggingface.co/blog/nvidia/nemotron-labs-diffusion</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">新智元</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Meta裁员8000人并用AI重写组织流程</span>：文章称Meta在创纪录盈利后启动大规模组织调整，约8000人离职、7000名员工转入AI项目，扎克伯格试图按AI工作流重塑公司。
+          </p>
+          <p class="item-metric">2026-05-23 05:11:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652702465&amp;idx=2&amp;sn=3eec40d44b2b438d0cc8ff3b27cec7ea">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652702465&amp;idx=2&amp;sn=3eec40d44b2b438d0cc8ff3b27cec7ea</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">极客公园</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">通用模型挤压垂类AI创企生存空间</span>：文章以AI模型评测平台Yupp关停等案例切入，讨论通用模型能力快速扩张后垂直AI创业公司的定位、融资和产品逻辑正在被迫调整。
+          </p>
+          <p class="item-metric">2026-05-23 08:02:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653107067&amp;idx=1&amp;sn=cfb65da844005c91eb377824933f5cc7">https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653107067&amp;idx=1&amp;sn=cfb65da844005c91eb377824933f5cc7</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

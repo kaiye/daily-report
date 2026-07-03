@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>媒体资讯</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #2a1f0f;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #ffc069;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #ffd8ab;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #ffe8cc 0%, #fff7ed 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #ffe0bf;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #ffe0bf;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #ffc069 88%, white) 0%,
+      color-mix(in srgb, #ffc069 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #ffe0bf;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">Media & News Watch</p>
+        </div>
+        <p class="date-chip">MAY 16, 2026</p>
+      </div>
+      <h1 class="hero-title">媒体资讯</h1>
+      <p class="hero-summary">AI产品正从聊天扩展到金融、搜索治理、创作和本地设备，同时围绕代理能力、数据信任与内容质量的风险管理同步升温。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI推出ChatGPT个人金融功能，可连接银行账户</span>：用户连接账户后，ChatGPT将展示投资组合表现、消费、订阅和即将到期付款等个人财务信息。
+          </p>
+          <p class="item-metric">2026-05-15 16:00:00 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/">https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI为争夺AI代理战场继续调整高管分工</span>：公司在新一轮重组中整合部分业务，并让总裁Greg Brockman正式负责产品，以配合今年押注AI代理的产品战略。
+          </p>
+          <p class="item-metric">2026-05-15 18:21:35 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle">https://www.theverge.com/ai-artificial-intelligence/931544/openai-keeps-shuffling-its-executives-in-bid-to-win-ai-agent-battle</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">MIT Technology Review AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">马斯克诉Altman案进入收官，陪审团将裁决可信度之争</span>：庭审最后一周围绕马斯克和OpenAI CEO Sam Altman的可信度展开交锋，双方律师把焦点放在过往言行与利益冲突指控上。
+          </p>
+          <p class="item-metric">2026-05-15 23:39:35 UTC</p>
+          <a class="item-link" href="https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/">https://www.technologyreview.com/2026/05/15/1137357/musk-v-altman-week-3/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">arXiv将封禁上传大量AI垃圾论文的研究者</span>：这一预印本平台表示，若论文存在作者未核查LLM生成结果的明确证据，例如幻觉引用或模型元评论，将采取更强硬的处理措施。
+          </p>
+          <p class="item-metric">2026-05-15 20:38:19 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers">https://www.theverge.com/science/931766/arxiv-ai-slop-ban-researchers</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Google更新垃圾内容规则，纳入操纵搜索AI的行为</span>：新政策把试图影响搜索结果中AI模型表现的行为列为垃圾内容，范围包括AI Overview和Search中的AI Mode。
+          </p>
+          <p class="item-metric">2026-05-15 16:42:59 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/tech/931416/google-ai-search-spam-policy">https://www.theverge.com/tech/931416/google-ai-search-spam-policy</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">YouTube将AI深度伪造检测工具扩展至所有成年用户</span>：该相似度检测功能会通过自拍式面部扫描在平台上寻找疑似冒用本人形象的视频，并允许用户提出处理请求。
+          </p>
+          <p class="item-metric">2026-05-15 22:25:00 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults">https://www.theverge.com/news/931884/youtube-likeness-detection-ai-deepfake-expansion-all-adults</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">AI电台主持实验凸显无人监管AI的风险</span>：Andon Labs让AI代理独立运营多家电台的实验暴露出不可预测的行为，延续了其测试AI在无人干预下经营业务的系列尝试。
+          </p>
+          <p class="item-metric">2026-05-15 17:09:16 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies">https://www.theverge.com/ai-artificial-intelligence/931479/andon-labs-ai-radio-companies</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Runway从服务电影人转向挑战Google的AI愿景</span>：这家AI视频生成创业公司押注视频生成通向世界模型，并把自身的AI局外人身份视为竞争优势。
+          </p>
+          <p class="item-metric">2026-05-15 14:00:00 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/">https://techcrunch.com/2026/05/15/runway-started-by-helping-filmmakers-now-it-wants-to-beat-google-at-ai/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">腾讯技术工程</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">腾讯混元推出可在手机离线运行的轻量翻译大模型</span>：混元团队面向无网络场景提供本地翻译方案，让用户无需联网也能在手机端完成翻译。
+          </p>
+          <p class="item-metric">2026-05-15 09:37:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649801544&amp;idx=1&amp;sn=2577b3e0d9118e271227e5bfd3e76f8a">https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649801544&amp;idx=1&amp;sn=2577b3e0d9118e271227e5bfd3e76f8a</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

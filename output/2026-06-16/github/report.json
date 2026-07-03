@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-06-16",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日保留项目的共同热点是围绕 AI Agent、基础模型与 LLM 自托管/工程化的工具、安全和学习资源。",
+  "items": [
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "让你的 AI Agent 拥有看见整个互联网的眼睛，可通过一个 CLI 阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书，且无需 API 费用。",
+      "language": "Python",
+      "stars_today": 1100,
+      "stars_total": 30189
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "学会它，构建它，并为他人交付它。",
+      "language": "Python",
+      "stars_today": 562,
+      "stars_total": 33091
+    },
+    {
+      "repo": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "description": "自主机器人导论。",
+      "language": "TeX",
+      "stars_today": 489,
+      "stars_total": 3069
+    },
+    {
+      "repo": "mikeroyal/Self-Hosting-Guide",
+      "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+      "description": "自托管指南：学习如何由你或你的组织在本地（本机与私有 Web 服务器）托管并管理软件应用，涵盖云、LLM、WireGuard、自动化、Home Assistant 和网络。",
+      "language": "Dockerfile",
+      "stars_today": 188,
+      "stars_total": 21036
+    },
+    {
+      "repo": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "AI Agent 技能的安全扫描器，可检测漏洞、恶意模式和安全风险。",
+      "language": "Python",
+      "stars_today": 1079,
+      "stars_total": 6378
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 396,
+      "stars_total": 30279
+    }
+  ]
+}

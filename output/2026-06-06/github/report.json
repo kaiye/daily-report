@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-06-06",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日热门项目共同指向围绕 AI 智能体、LLM 上下文压缩、记忆与多模态/物理 AI 基础设施的工具化升级。",
+  "items": [
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "与你共同成长的智能体。",
+      "language": "Python",
+      "stars_today": 1845,
+      "stars_total": 183078
+    },
+    {
+      "repo": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "description": "在工具输出、日志、文件和 RAG 片段到达 LLM 前压缩它们，减少 60–95% token 且答案不变，并提供库、代理和 MCP 服务器。",
+      "language": "Python",
+      "stars_today": 2473,
+      "stars_total": 14480
+    },
+    {
+      "repo": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "description": "面向智能体与生成式 UI 的前端栈，支持 React + Angular，并由 AG-UI Protocol 团队打造。",
+      "language": "TypeScript",
+      "stars_today": 366,
+      "stars_total": 32662
+    },
+    {
+      "repo": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "Notebook LM 的开源实现，提供更多灵活性和功能。",
+      "language": "TypeScript",
+      "stars_today": 1152,
+      "stars_total": 25983
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "智能体工具链性能优化系统，为 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全和研究优先开发。",
+      "language": "JavaScript",
+      "stars_today": 1361,
+      "stars_total": 208341
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "让你的 AI 智能体拥有看见整个互联网的眼睛，可用一个 CLI 零 API 费用读取和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书。",
+      "language": "Python",
+      "stars_today": 148,
+      "stars_total": 21546
+    },
+    {
+      "repo": "NVIDIA/cosmos",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "description": "NVIDIA Cosmos 是开放的世界模型、数据集和工具平台，帮助开发者为机器人、自动驾驶、智能基础设施等构建物理 AI。",
+      "language": "Jupyter Notebook",
+      "stars_today": 479,
+      "stars_total": 9406
+    },
+    {
+      "repo": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "简洁通用的群体智能引擎，预测万物。",
+      "language": "Python",
+      "stars_today": 320,
+      "stars_total": 64689
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "可跨 Reddit、X、YouTube、HN、Polymarket 和网络研究任何主题，并综合出有依据摘要的 AI 智能体技能。",
+      "language": "Python",
+      "stars_today": 731,
+      "stars_total": 28192
+    },
+    {
+      "repo": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "将任何 PDF 或图像文档转为面向 AI 的结构化数据，强大轻量的 OCR 工具包连接图像/PDF 与 LLM，支持 100+ 语言。",
+      "language": "Python",
+      "stars_today": 747,
+      "stars_total": 80529
+    },
+    {
+      "repo": "MemPalace/mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "description": "基准表现最佳的开源 AI 记忆系统，而且免费。",
+      "language": "Python",
+      "stars_today": 227,
+      "stars_total": 53868
+    },
+    {
+      "repo": "withastro/flue",
+      "url": "https://github.com/withastro/flue",
+      "description": "沙盒智能体框架。",
+      "language": "TypeScript",
+      "stars_today": 126,
+      "stars_total": 4509
+    }
+  ]
+}

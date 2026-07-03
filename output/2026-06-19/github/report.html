@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Github 趋势</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #111827;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #91caff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #cfe2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #e9f2ff 0%, #f6f9ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #d6e4ff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #d6e4ff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #91caff 88%, white) 0%,
+      color-mix(in srgb, #91caff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #d6e4ff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">GitHub Trending Snapshot</p>
+        </div>
+        <p class="date-chip">JUN 19, 2026</p>
+      </div>
+      <h1 class="hero-title">Github 趋势</h1>
+      <p class="hero-summary">今日最热的共同方向是面向智能体工程的开发基础设施，涵盖编码代理、MCP 代码记忆、沙箱框架、知识抽取与向量存储。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">google-research/timesfm</span>：TimesFM（时间序列基础模型）是 Google Research 开发的预训练时间序列基础模型，面向时间序列预测。
+          </p>
+          <p class="item-metric">⭐ +844 today · 23.1K total</p>
+          <a class="item-link" href="https://github.com/google-research/timesfm">https://github.com/google-research/timesfm</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">Shell</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">obra/superpowers</span>：可工作的智能体技能框架与软件开发方法论。
+          </p>
+          <p class="item-metric">⭐ +1.4K today · 232.4K total</p>
+          <a class="item-link" href="https://github.com/obra/superpowers">https://github.com/obra/superpowers</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">Unknown</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">zai-org/GLM-5</span>：GLM-5：从氛围编程到智能体工程。
+          </p>
+          <p class="item-metric">⭐ +202 today · 4.1K total</p>
+          <a class="item-link" href="https://github.com/zai-org/GLM-5">https://github.com/zai-org/GLM-5</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">C</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">DeusData/codebase-memory-mcp</span>：高性能代码智能 MCP 服务器，可将代码库索引为持久知识图谱，平均毫秒级处理仓库，支持 158 种语言、亚毫秒查询并减少 99% token。
+          </p>
+          <p class="item-metric">⭐ +2.3K today · 7.0K total</p>
+          <a class="item-link" href="https://github.com/DeusData/codebase-memory-mcp">https://github.com/DeusData/codebase-memory-mcp</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">yifanfeng97/Hyper-Extract</span>：用 LLM 将非结构化文本转化为结构化知识，支持图、超图和时空抽取，并可一条命令完成。
+          </p>
+          <p class="item-metric">⭐ +124 today · 1.8K total</p>
+          <a class="item-link" href="https://github.com/yifanfeng97/Hyper-Extract">https://github.com/yifanfeng97/Hyper-Extract</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">C++</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">alibaba/zvec</span>：轻量、极速的进程内向量数据库。
+          </p>
+          <p class="item-metric">⭐ +259 today · 11.2K total</p>
+          <a class="item-link" href="https://github.com/alibaba/zvec">https://github.com/alibaba/zvec</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">TypeScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">withastro/flue</span>：沙箱智能体框架。
+          </p>
+          <p class="item-metric">⭐ +162 today · 5.5K total</p>
+          <a class="item-link" href="https://github.com/withastro/flue">https://github.com/withastro/flue</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">TypeScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Kilo-Org/kilocode</span>：Kilo 是一体化智能体工程平台，借助热门开源编码代理更快构建、发布和迭代。
+          </p>
+          <p class="item-metric">⭐ +1.3K today · 22.1K total</p>
+          <a class="item-link" href="https://github.com/Kilo-Org/kilocode">https://github.com/Kilo-Org/kilocode</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,169 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-04-24T00:00:54.446Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 16,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "huggingface/ml-intern",
+      "url": "https://github.com/huggingface/ml-intern",
+      "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+      "language": "Python",
+      "stars_total": 3213,
+      "forks": 279,
+      "stars_today": 720
+    },
+    {
+      "rank": 2,
+      "repo": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+      "language": "TypeScript",
+      "stars_total": 8397,
+      "forks": 661,
+      "stars_today": 1011
+    },
+    {
+      "rank": 3,
+      "repo": "HKUDS/RAG-Anything",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "description": "\"RAG-Anything: All-in-One RAG Framework\"",
+      "language": "Python",
+      "stars_total": 18133,
+      "forks": 2098,
+      "stars_today": 590
+    },
+    {
+      "rank": 4,
+      "repo": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "stars_total": 60995,
+      "forks": 6831,
+      "stars_today": 1383
+    },
+    {
+      "rank": 5,
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars_total": 49817,
+      "forks": 6586,
+      "stars_today": 429
+    },
+    {
+      "rank": 6,
+      "repo": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik, Krea, Openart AI — Free, unrestricted AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "language": "JavaScript",
+      "stars_total": 6908,
+      "forks": 1331,
+      "stars_today": 316
+    },
+    {
+      "rank": 7,
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "stars_total": 5515,
+      "forks": 942,
+      "stars_today": 1962
+    },
+    {
+      "rank": 8,
+      "repo": "open-metadata/OpenMetadata",
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "language": "TypeScript",
+      "stars_total": 12923,
+      "forks": 2014,
+      "stars_today": 776
+    },
+    {
+      "rank": 9,
+      "repo": "microsoft/ai-agents-for-beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "description": "12 Lessons to Get Started Building AI Agents",
+      "language": "Jupyter Notebook",
+      "stars_total": 58770,
+      "forks": 20030,
+      "stars_today": 208
+    },
+    {
+      "rank": 10,
+      "repo": "PowerShell/PowerShell",
+      "url": "https://github.com/PowerShell/PowerShell",
+      "description": "PowerShell for every system!",
+      "language": "C#",
+      "stars_total": 52771,
+      "forks": 8275,
+      "stars_today": 67
+    },
+    {
+      "rank": 11,
+      "repo": "cline/cline",
+      "url": "https://github.com/cline/cline",
+      "description": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.",
+      "language": "TypeScript",
+      "stars_total": 60803,
+      "forks": 6254,
+      "stars_today": 123
+    },
+    {
+      "rank": 12,
+      "repo": "microsoft/onnxruntime",
+      "url": "https://github.com/microsoft/onnxruntime",
+      "description": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator",
+      "language": "C++",
+      "stars_total": 20166,
+      "forks": 3855,
+      "stars_today": 49
+    },
+    {
+      "rank": 13,
+      "repo": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms",
+      "language": "TypeScript",
+      "stars_total": 9417,
+      "forks": 655,
+      "stars_today": 238
+    },
+    {
+      "rank": 14,
+      "repo": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "stars_total": 23781,
+      "forks": 3797,
+      "stars_today": 285
+    },
+    {
+      "rank": 15,
+      "repo": "chiphuyen/aie-book",
+      "url": "https://github.com/chiphuyen/aie-book",
+      "description": "[WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)",
+      "language": "Jupyter Notebook",
+      "stars_total": 15167,
+      "forks": 2184,
+      "stars_today": 215
+    },
+    {
+      "rank": 16,
+      "repo": "VoltAgent/awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "language": "",
+      "stars_total": 18050,
+      "forks": 1925,
+      "stars_today": 228
+    }
+  ]
+}

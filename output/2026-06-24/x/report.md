@@ -1,0 +1,53 @@
+# X 热点
+
+共同信号是 AI 正从聊天工具加速变成嵌入工作流、开发栈和基础设施的常驻协作者。
+
+### [@OpenAI](https://twitter.com/OpenAI/status/2069483224158646739)
+*👁 195.5K · ❤️ 1.1K*
+
+OpenAI 宣布 DevDay 2026 开放申请，9 月 29 日在旧金山举行，开发者需在 7 月 10 日前申请。
+
+### [@UnslothAI](https://twitter.com/UnslothAI/status/2069418532375564484)
+*👁 376.7K · ❤️ 1.8K*
+
+Unsloth 对比 1-bit GLM-5.2 GGUF、Claude 4.8 Opus 和 GPT-5.5 的一次性输出，并展示本地 Mac Studio 上约 21.6 tok/s 的运行表现。
+
+### [@MistralAI](https://twitter.com/MistralAI/status/2069420263825895917)
+*👁 540.7K · ❤️ 4.1K*
+
+Mistral 发布 OCR 4，强调可在 170 种语言中输出边界框、区块分类和行内置信度等结构化结果。
+
+### [@claudeai](https://twitter.com/claudeai/status/2069468693017268244)
+*👁 4.9M · ❤️ 14.4K*
+
+Claude 推出 Claude Tag，让团队在 Slack 中直接 @ Claude，把它作为有权限、有工具接入的协作成员来分派任务。
+
+### [@zerohedge](https://twitter.com/zerohedge/status/2069245030825353265)
+*👁 428.8K · ❤️ 1.1K*
+
+消息称微软正考虑托管 DeepSeek，这可能显著扩大中国低成本 AI 模型的使用，并加剧 OpenAI、Anthropic 面临的价格战。
+
+### [@valuetainment](https://twitter.com/valuetainment/status/2069403156371370472)
+*👁 1.1M · ❤️ 4.2K*
+
+Valuetainment 称五角大楼确认 Grok AI 在 96 小时内协助向伊朗 2000 个目标发射逾 2000 枚导弹。
+
+### [@eliebakouch](https://twitter.com/eliebakouch/status/2069252660201697382)
+*👁 116.9K · ❤️ 1.2K*
+
+elie 分享了在 GLM-5 上做强化学习所需理解的基础设施要点。
+
+### [@ryolu_](https://twitter.com/ryolu_/status/2069218497272717661)
+*👁 96.9K · ❤️ 1.6K*
+
+Ryo Lu 放出 Cursor Compile 演讲，谈 AI 时代如何构建产品，以及哪些工程原则并不会改变。
+
+### [@iamlukethedev](https://twitter.com/iamlukethedev/status/2069255017630974264)
+*👁 242.0K · ❤️ 1.2K*
+
+Luke 表示 Hermes 远程安装 Computer Use、控制电脑、截图并回传的体验异常顺滑，几乎没有配置负担。
+
+### [@karpathy](https://twitter.com/karpathy/status/2069547676849557725)
+*👁 370.3K · ❤️ 3.5K*
+
+Karpathy 认为 Claude Tag 代表 LLM 交互的第三次 UI/UX 重构：从网站、桌面应用，走向拥有组织上下文和工具的异步常驻团队实体。

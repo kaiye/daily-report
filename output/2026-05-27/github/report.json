@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-05-27",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热方向集中在面向 Claude、Codex、Cursor、Copilot 与 Gemini 等智能体工作流的知识图谱、技能、记忆和上下文增强工具。",
+  "items": [
+    {
+      "repo": "Lum1104/Understand-Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "能教学的图胜过只会炫技的图：把任何代码变成可探索、可搜索、可提问的交互式知识图谱，支持 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等。",
+      "language": "TypeScript",
+      "stars_today": 4697,
+      "stars_total": 35719
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "智能体 harness 性能优化系统，为 Claude Code、Codex、Opencode、Cursor 等提供技能、本能、记忆、安全与研究优先的开发方式。",
+      "language": "JavaScript",
+      "stars_today": 1915,
+      "stars_total": 194317
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "学习它，构建它，并把它交付给他人。",
+      "language": "Python",
+      "stars_today": 2155,
+      "stars_total": 20672
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "主要面向知识工作者在 Claude Cowork 中使用的开源插件仓库。",
+      "language": "Python",
+      "stars_today": 1718,
+      "stars_total": 16644
+    },
+    {
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "面向 AI 智能体的 754 项结构化网络安全技能，映射到 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND 与 NIST AI RMF 五大框架，并适配 Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI 等 20 多个平台。",
+      "language": "Python",
+      "stars_today": 880,
+      "stars_total": 10092
+    },
+    {
+      "repo": "hardikpandya/stop-slop",
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "description": "用于从散文中移除 AI 痕迹的技能文件。",
+      "language": "Unknown",
+      "stars_today": 539,
+      "stars_total": 5001
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill 让你的 AI 更有品味，阻止 AI 生成乏味、泛泛的垃圾内容。",
+      "language": "Shell",
+      "stars_today": 1430,
+      "stars_total": 21590
+    },
+    {
+      "repo": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "面向 AI 设计的 Salesforce 开源替代品。",
+      "language": "TypeScript",
+      "stars_today": 216,
+      "stars_total": 46842
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "为每个智能体提供跨会话持久上下文，捕获智能体在会话中的所有操作，用 AI 压缩后再把相关上下文注入未来会话，并支持 Claude Code、OpenClaw、Codex、Gemini、Hermes、Copilot、OpenCode 等。",
+      "language": "TypeScript",
+      "stars_today": 352,
+      "stars_total": 78628
+    }
+  ]
+}

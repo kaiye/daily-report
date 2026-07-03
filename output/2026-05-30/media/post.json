@@ -1,0 +1,399 @@
+{
+  "generated_at": "2026-05-30T00:01:20.316Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 33,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "小红书拿下 2026 世界杯转播权；国家大基金领投 DeepSeek，投前估值 450 亿美元；Anthropic 推出 Claude Opus 4.8 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107525&idx=1&sn=4927a481b0ffe5f63628d1c2c7e9e9d2",
+      "published_at": "2026-05-29T00:40:00.000Z",
+      "summary": "Moonshot 2026-05-29 08:40 重庆\n\nSpaceX 早期投资人：SpaceX 与特斯拉合并「只是时间问题」；\n\n字节跳动据悉正开发定制 CPU 以支持 AI 需求；\n\n扎克伯格称 Meta 考虑进军云计算市场；\n\n报道：黄仁勋加入清华大学顾问委员会，与库克、马斯克同列\n\n## 小红书宣布拿下 2026 世界杯转播权：App、网页、手机投屏免费看球\n\n5 月 28 日，小红书宣布，已成为 2026 年美加墨世界杯持权转播商、中央广播电视总台顶级赛事直播战略合作伙伴。\n\n据介绍，除中央广播电视总台自有平台，以及已达成版权许可合作的中国移动及其旗下咪咕平台外，小红书是总台授权在",
+      "priority_score": 374,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "Claude Opus 4.8实测封神！强到离谱，也贵到肉痛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703717&idx=1&sn=bc5b99098d889cc32ee61d4dcfcf5f91",
+      "published_at": "2026-05-29T05:15:00.000Z",
+      "summary": "ASI启示录 2026-05-29 13:15 北京\n\n封神还是翻车，口碑两极分化\n\n### **新智元报道**\n\n##### **【新智元导读】** 传说中的Claude Opus 4.8，性能真的如此强大吗？有人高呼封神，直言这是Opus 5，有人吐槽太拉了，还不如Opus 4.7，技术大佬也来拆台。是夯爆了还是拉完了？一文深度看透。\n\nAnthropic王者归来！\n\n深夜，Anthropic全新发布Claude Opus 4.8，一举夺回全球AI王座。\n\nOpus 4.8被定位为一款更强大的复杂任务模型，尤其是在编程、智能体任务和长时间推理方面。\n\n更狠的是，神秘的Mythos几周之内即",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "DeepSeek狂吞17万亿Tokens？国产AI算力，最关键一战来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703717&idx=2&sn=8e855d672b58500dd3d065f302a9c695",
+      "published_at": "2026-05-29T05:15:00.000Z",
+      "summary": "ASI启示录 2026-05-29 13:15 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 DeepSeek三模型霸占OpenRouter前十，月调用合计超17万亿tokens。Agent负载正在碾压一切基础设施！现在， 自主创新的国产生态，正在悄悄改写下一代AI基础设施的入场券。**\n\n打开OpenRouter最新的模型月榜，V4上线一个月，DeepSeek的存在感很强。\n\nV4 Flash月调用9.13T tokens，稳坐第1。V4 Pro也冲到了3.89T排第9。再加上V3.2的4.07T排第8，DeepSeek三个模型同时挤进前十，月调用合计超过17万亿to",
+      "priority_score": 150,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "消耗1830亿token，Meta用AI把数学教材翻译成了一个超大Lean库",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035616&idx=2&sn=bbe00851e5fd7202b859a7217f6c3a08",
+      "published_at": "2026-05-29T04:04:00.000Z",
+      "summary": "原创机器之心 2026-05-29 12:04 北京\n\nMeta 开源了当今规模最大的自动数学形式化工程\n\n编辑｜Panda\n\n数学正在迎来 AI 革命。\n\n最近几个月尤为明显。比如，就在前几天，Google DeepMind 新论文宣布其最新系统 AlphaProof Nexus 在一次自主运行中，解决了 353 道开放 Erdős 问题中的 9 道，其中两道已在数学界悬而未决长达 56 年，并且每道题的推理成本，仅需区区几百美元。详情可参阅《 [一个问题几百美元，DeepMind 智能体一次搞定了 9 个 Erdős 问题](https://mp.weixin.qq.com/s?__biz",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "What happens when companies become too AI-pilled?",
+      "url": "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
+      "published_at": "2026-05-29T17:57:05.000Z",
+      "summary": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of &#8220;AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs i",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Does your CEO have AI psychosis? Aaron Levie thinks most of them do.",
+      "url": "https://techcrunch.com/podcast/does-your-ceo-have-ai-psychosis-aaron-levie-thinks-most-of-them-do/",
+      "published_at": "2026-05-29T14:00:00.000Z",
+      "summary": "The people deciding that AI can replace your job are also the ones least likely to understand what your job truly involves, according to Box founder Aaron Levie, who pointed to this as an example of &#8220;AI psychosis.” Indeed, ClickUp recently cut 22% of its workforce for AI agents, tech layoffs i",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Adobe’s conversational AI agent is a mediocre design intern",
+      "url": "https://www.theverge.com/tech/939686/adobes-conversational-ai-agent-is-a-mediocre-design-intern",
+      "published_at": "2026-05-29T10:00:00.000Z",
+      "summary": "It explained the process of how it made these edits beautifully, I’m just not terribly impressed by the results. | Images by Jess Weatherbed /*The Verge*\nAI image tools rarely make me feel like I'm part of the creative process. They are, after all, mostly designed so that people with no design exper",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "OpenClaw与Hermes：源码里的 AI Agent 架构知识大复盘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801805&idx=1&sn=9c7e3936218bba9c8d0ee6c04afb1615",
+      "published_at": "2026-05-29T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-05-29 17:36 广东\n\n非常详尽的笔记\n\n作者：rianli\n\n2 月上旬我开始开发 QQBot 插件（openclaw-qqbot），到 3 月 31 日正式合入 OpenClaw 主仓。这两个月里为了把插件做好，顺着源码把 Channel 契约、Gateway 路由、记忆系统这些核心模块都摸了一遍。回头看这段经历，对 OpenClaw 的认知恰好经历了完整的\"看山三境\"——\n\n**看山是山** ：第一次见 OpenClaw，所有人都被惊艳了——24/7 后台常驻、跨多 IM 通道无缝流转、有人格长期记忆、自主完成开放性复杂任务。\" **这就是 AI 时代的",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
+      "published_at": "2026-05-29T19:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IOQuiz2026_social.max-600x600.format-webp.webp\">We used Google AI Studio to vibe code a quiz about our top I/O 2026 announcements.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Google AI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "超越TurboQuant，面向长上下文推理的真2-bit KV Quantization算法问世",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035616&idx=3&sn=77117cdc692cf9180e0a36a494e98f6c",
+      "published_at": "2026-05-29T04:04:00.000Z",
+      "summary": "机器之心 2026-05-29 12:04 北京\n\n内存有救了\n\n本文作者 Zhongzhu Zhou 是 TogetherAI 的 Senior Research Scientist，悉尼大学博士，研究方向为高效机器学习系统，方向覆盖 模型训推算法与系统协同设计，LLM 压缩与量化。团队成员均来自 TogetherAI，悉尼大学以及伊利诺伊大学厄巴纳 — 香槟分校。\n\nTogether AI 于 2022 年 6 月创立，由苹果前高管 Vipul Ved Prakash、斯坦福大模型研究中心主任 Percy Liang、芝加哥大学副教授 Ce Zhang、Flash Attention 作者",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "5亿Tokens白送！全球首个商用AI主机发布，终于能放开烧Token了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893795&idx=1&sn=e1570e7f2b099258881e57818b7d0d2b",
+      "published_at": "2026-05-29T08:12:00.000Z",
+      "summary": "原创关注前沿科技 2026-05-29 16:12 北京\n\n让OPC和成长型企业AI落地一步到位\n\n##### Jay 发自 凹非寺 量子位 | 公众号 QbitAI\n\nToken按量计费的时代，该翻篇了。\n\n2026年，龙虾热、养马潮， **AI真 的从对 话 走向了执行，「超级个体」不再只是说说而已……**\n\nOPC *（One Person Company，一人公司）* 这个群体，正以肉眼可见的速度批量涌现。\n\n###### **△** 图为AI生成\n\n但兴奋劲过了之后，一个尴尬的事实浮出水面。\n\nAgent用得越好，自动化运行时间就更长；而运行更长，Token账单，能吓死个人……\n\n都",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M",
+      "url": "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
+      "published_at": "2026-05-29T17:27:13.000Z",
+      "summary": "Chipmaker Groq is looking to raise $650 million in internal funding as it pivots from hardware to focus more on AI inference, the process of refining the way AI models respond to prompted requests, per Axios.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory",
+      "url": "https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/",
+      "published_at": "2026-05-29T12:00:00.000Z",
+      "summary": "South Korean chip startup XCENA is betting that AI's real bottleneck is not compute, but memory.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "「马嘉祺」让大模型翻车，而他一年前洗澡时就发现了问题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035616&idx=1&sn=105941ac15fafb51840376bca6975cd6",
+      "published_at": "2026-05-29T04:04:00.000Z",
+      "summary": "机器之心 2026-05-29 12:04 北京\n\n脸谱心智正以资金、商业落地和技术纵深三个维度同步拉满。\n\n机器之心发布\n\n上个月，一位时代少年团粉丝的偶然测试，把一个学术圈讨论的技术问题推到了全网面前。\n\n大家都知道大模型圈的「马嘉祺」事件，模型能准确说出马嘉祺的履历、综艺经历和团内角色，却始终没法正确输出马嘉祺三个字。马嘉棋、马佳琪、马琪琪，各种错别字轮番上阵。让它重复五遍，回你五个一模一样的错误。问第二个字是什么，答家。\n\n随后的技术排查揭示了原因： 大模型输出层对低频 token 的退化 。嘉祺被分词器合并成了一个独立 token，预训练阶段出现得够多所以没问题，但 SFT 阶段的高",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The deadly Ebola outbreak is proving difficult to control",
+      "url": "https://www.technologyreview.com/2026/05/29/1138093/the-deadly-ebola-outbreak-is-proving-difficult-to-control/",
+      "published_at": "2026-05-29T11:19:52.000Z",
+      "summary": "The alert was raised[on May 5](https://iris.who.int/server/api/core/bitstreams/b6e1e783-91c3-43c8-ab90-16ceaa9948f0/content). Four health-care workers in the Ituri Province of the Democratic Republic of the Congo had died from an unknown illness within four days.\n\nRapid response teams were sent to i",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cognition’s Scott Wu says AI coding agents shouldn’t replace humans",
+      "url": "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
+      "published_at": "2026-05-29T16:13:47.000Z",
+      "summary": "Cognition makes Devin, the first and arguably most successful AI coding agent. But famed coder Wu says it isn't designed to supplant human programmers.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "下限零基础，上限肝大作！腾讯这个AI游戏创作平台，太野了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893795&idx=2&sn=468e326c3f9baa63b46f9aa75d2bf2b4",
+      "published_at": "2026-05-29T08:12:00.000Z",
+      "summary": "关注前沿科技 2026-05-29 16:12 北京\n\n下一波AI创作浪潮正在游戏领域发生\n\n##### 鹭羽 发自 凹非寺 量子位 | 公众号 QbitAI\n\n不开玩笑，AI这迭代速度跟玩似的。\n\n几天不见，又是一场 **「AI颠覆行业」** 的叙事：\n\n养龙虾、爱马仕，创业变成了人人皆可OPC *（一人公司）* ——最新已经是NPC *（无人公司）* ；Runway、Veo轮番登场，让好莱坞也在惊呼时代变了……\n\n但有一个行业，始终是个例外——\n\n游戏。\n\n###### **△** 图片由AI生成\n\n先说结论，游戏实际从未和AI浪潮脱轨。\n\n相反，从游戏Agent到世界模型训练场，游戏一直",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Coders are refusing to work without AI — and that could come back to bite them",
+      "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "published_at": "2026-05-29T22:14:22.000Z",
+      "summary": "While AI is helping coders produce code faster, it may not be producing better code, researchers warn. And that could cause problems down the road for them.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+      "url": "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "published_at": "2026-05-29T18:49:19.000Z",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Tech companies desperately want to film you doing chores",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data",
+      "published_at": "2026-05-29T17:37:43.000Z",
+      "summary": "This week, an AI training startup called Shift[said it would clean New Yorkers' homes for free](https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning). It has plans to expand into other cities as well, including London, and looking around my flat, I ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "9 demos of Gemini Omni and Gemini 3.5 in action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
+      "published_at": "2026-05-29T17:30:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Omni_and_Gemini_3.5_hero.max-600x600.format-webp.webp\">Watch 9 videos showing the capabilities of Gemini Omni and Gemini 3.5, announced at Google I/O 2026.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Today is the last day to apply to speak at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/",
+      "published_at": "2026-05-29T14:15:00.000Z",
+      "summary": "Submit your session topic before today ends for a chance to speak at TechCrunch Disrupt 2026. Apply now to share your insight and help shape the conversations defining the tech industry.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Final 24 hours to save up to $410 on your TechCrunch Disrupt 2026 ticket",
+      "url": "https://techcrunch.com/2026/05/29/final-24-hours-to-save-up-to-410-on-your-techcrunch-disrupt-2026-ticket/",
+      "published_at": "2026-05-29T14:00:00.000Z",
+      "summary": "You now have until tonight at 11:59 p.m. PT to lock in Early Bird savings of up to $410 for TechCrunch Disrupt 2026 before prices increase. Join 10,000+ tech leaders in October for one of the most anticipated tech events of the year. Register now.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Kiwibit’s AI-powered bird feeder is my new backyard buddy",
+      "url": "https://techcrunch.com/2026/05/29/kiwibits-ai-powered-bird-feeder-is-my-new-backyard-buddy/",
+      "published_at": "2026-05-29T13:00:00.000Z",
+      "summary": "If you're looking for a fun way to connect with nature while collecting bird species on an app like Pokémon, give this smart feeder a try.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Jony Ive’s funky Ferrari",
+      "url": "https://www.theverge.com/podcast/939589/ferrari-luce-jony-ive-vergecast",
+      "published_at": "2026-05-29T12:25:12.000Z",
+      "summary": "Most people will never own, drive, or even sit inside[a Ferrari Luce](https://www.theverge.com/transportation/937066/ferrari-luce-ev-jony-ive-marc-newson-lovefrom). (If you can, or do… hit us up.) There's still no question that Ferrari's first electric vehicle is one of the most interesting, surpris",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: unlocking lithium and controlling Ebola",
+      "url": "https://www.technologyreview.com/2026/05/29/1138110/the-download-lithium-extraction-ebola-ai-pope/",
+      "published_at": "2026-05-29T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **How a new extraction ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Check out real-life AI prototypes from the Futures Lab.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/university-waterloo-labs/",
+      "published_at": "2026-05-29T12:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/FutureLabs_social.max-600x600.format-webp.webp\">University of Waterloo students develop AI prototypes like sign language tutors to reshape the future of education and work.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "This AI startup will clean your home for free to train future robots",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning",
+      "published_at": "2026-05-29T11:58:40.000Z",
+      "summary": "AI training startup Shift wants to clean your home for free. The catch - because, despite what its[website](https://www.shiftapp.nyc/)says, there's always a catch - is that it will record cleaners as they scrub, vacuum, dust, tidy, and wash, and use that footage to train robots.\n\nShift[announced](ht",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "手机影像的拐点，或许已经不是参数",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107632&idx=1&sn=01e7a91313cc9b01964b035590c5d429",
+      "published_at": "2026-05-29T11:34:00.000Z",
+      "summary": "原创张勇毅 2026-05-29 19:34 湖北\n\n当技术好到自己消失，创作就回到了原点。\n\n**作者｜ 张勇毅** **编辑｜ **郑玄****\n\n5 月 27 日下午，阿那亚金山岭，一场雨刚停。\n\n我参加了一个别开生面的影像沙龙：三个人坐在台上，聊了一个小时手机摄影。\n\n但有个细节让我一直觉得有些不同 —— 如今聊到手机影像，最高频的几个词不是「算力」「速度」「领先」，而是「记忆」「美好」「懂得」「简单」。\n\n这场对谈中，除了有常年使用手机作为主要创作工具的摄影师之外，还有来自高通的 Zack Zhou，从圣地亚哥飞过来的高通技术公司产品管理副总裁。\n\n按理说，一个芯片公司的高管上台，我",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "How the Pope’s Magnifica Humanitas offers a template for individuals to meet the AI moment",
+      "url": "https://www.technologyreview.com/2026/05/29/1138107/how-the-popes-magnifica-humanitas-offers-a-template-for-individuals-to-meet-the-ai-moment/",
+      "published_at": "2026-05-29T10:00:00.000Z",
+      "summary": "Pope Leo XIV’s[new encyclical on artificial intelligence](https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html)includes a statement that warrants serious attention from technologists and policymakers: “Technology is never neutral.”*Magnifica Humanitas*(“M",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893795&idx=3&sn=518b0e030f1afd75dea67f87d9336e50",
+      "published_at": "2026-05-29T08:12:00.000Z",
+      "summary": "关注前沿科技 2026-05-29 16:12 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "新智元ALL in ASI英雄帖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703717&idx=3&sn=33c2f400ebce1c3466bda7271e50ecca",
+      "published_at": "2026-05-29T05:15:00.000Z",
+      "summary": "ASI启示录 2026-05-29 13:15 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 2026年，ASI奇点之年。全球AI竞赛进入决赛圈，AI正以指数级的速度重塑世界。新智元All in ASI，现招募两个核心战位——ASI架构师（年薪50-70万）与ASI主笔（年薪50-70万），坐标北京上地，虚位以待。**\n\n全球AI竞赛进入决赛圈，每天都有大事发生。 新智元要覆盖的赛道、要打的仗也在飙升。 我们不仅要在全球AI最前沿保持绝对敏锐，更要在ASI浪潮中主动出击。 现在，新智元正式发出All in ASI英雄帖。 我们在上地AI家，召唤 **对ASI有信仰，有使",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Glean’s top line crosses $300M as AI budget cutting becomes its major selling point",
+      "url": "https://techcrunch.com/2026/05/28/gleans-top-line-crosses-300m-as-ai-budget-cutting-becomes-its-major-selling-point/",
+      "published_at": "2026-05-29T00:44:37.000Z",
+      "summary": "The enterprise AI search startup tripled its annual revenue even as tech giants entered the category.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-06-14T00:01:35.179Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 23,
+  "items": [
+    {
+      "source": "量子位",
+      "title": "Agent终于长出了身体：Jiuwen Symbiosis背后的思考与实践",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897320&idx=2&sn=26ebec72b5313d09d09d072e489af690",
+      "published_at": "2026-06-13T07:55:00.000Z",
+      "summary": "量子位 2026-06-13 15:55 北京\n\n一起构建下一代物理世界的智能系统\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n如果你在三年前问AI圈：未来最强的AI长什么样？\n\n大部分人可能会回答，一个更大的GPT，更多参数，更长上下文，更强推理能力。\n\n然后我们一路从GPT-3.5走到GPT-4、Claude、Gemini、DeepSeek、Qwen。\n\n直到今天，突然发现一个有趣的问题：AI已经学会写代码了，学会做数学题了，甚至学会和你讨论人生意义了，但它依然不会给自己倒一杯水。\n\n这正是当前AI最大的局限之一：\nAI没有身体。\n今天，openJiuwen社区正",
+      "priority_score": 422,
+      "matched_keywords": [
+        "Claude",
+        "GPT",
+        "DeepSeek",
+        "Qwen"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "ICML 2026｜一句无关问题也能劫持Agent，港科大&复旦提出首个语义缓存键碰撞攻击",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651038907&idx=3&sn=af7eb97ac8ab4c0576566b52fef58151",
+      "published_at": "2026-06-13T02:11:00.000Z",
+      "summary": "机器之心 2026-06-13 10:11 北京\n\nLLM缓存竟成「后门」？\n\n本文第一作者张芝翔为复旦大学本科四年级学生，即将前往香港科技大学CSE系攻读博士，研究方向为AI Security&Trustworthy AI。通讯作者是香港科技大学佘东冬教授。\n\n在当前大语言模型（LLM）与 AI 智能体（AI Agent）风头正劲的当下，如何降低高昂的推理成本和延迟成为了端侧及云端部署的核心痛点。\n\n为此，诸如 AWS、微软（Azure）等云服务商以及各类开源框架，广泛引入了语义缓存（Semantic Caching）的应用层技术。通过将用户的查询语句转化为嵌入向量（Embedding Ve",
+      "priority_score": 250,
+      "matched_keywords": [
+        "LLM",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "最强模型 Fable 5，四天就被「拔了网线」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108773&idx=1&sn=cfe6623deb31402e588687b2735d50df",
+      "published_at": "2026-06-13T08:00:00.000Z",
+      "summary": "原创桦林舞王 2026-06-13 16:00 湖北\n\n​抠抠搜搜算了半天 Token，结果用不上了。\n\n抠抠搜搜算了半天 Token，结果用不上了。\n\n**作者｜ 桦林舞王** **编辑｜ **靖宇****\n\n6 月 9 日，[Anthropic 发布了 Claude Fable 5。](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653108527&amp;idx=1&amp;sn=48f2227036ffc5a2e194744e0e9d55c6&amp;scene=21#wechat_redirect)这是它有史以",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "刚刚，GPT-5.5被中国纯血AI反超了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652706871&idx=1&sn=d0481cc1dcb57eefba337407d73e1b53",
+      "published_at": "2026-06-13T04:30:00.000Z",
+      "summary": "ASI启示录 2026-06-13 12:30 上海\n\n### **新智元报道**\n\n##### **【新智元导读】 刚刚，国产纯血大模型彻底逆袭了！在医疗领域全面碾压GPT-5.5，狂揽双料第一，91%的医生直呼敢用。**\n\n刚刚，医疗大模型赛道的魔咒，终于被打破了！\n\n过去两年，医疗大模型是AI落地中关注度最高的赛道之一，也是公认最难啃的一条。\n\n几乎每家大厂都会端出一个「会看病」的LLM：发布会上对答如流，PPT里指标霸榜。\n\n然而，一旦把它放进诊室，医生用两次就默默关掉了。\n\n归根到底，「能上台演示」和「能下场干活」之间的那道坎，真正迈过去的屈指可数。\n\n但这几天，剧情迎来了反转。\n\n",
+      "priority_score": 228,
+      "matched_keywords": [
+        "GPT",
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "突发！美国政府禁止外国人使用Claude Fable 5",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651038907&idx=1&sn=8dfc10a1f0a20c1c83604d0edecad083",
+      "published_at": "2026-06-13T02:11:00.000Z",
+      "summary": "机器之心 2026-06-13 10:11 北京\n\n「非美全禁」！\n\n机器之心编辑部\n\nAnthropic 最新模型 Fable 5 和 Mythos 5 再起风波。\n\n据媒体 Axios 爆料，美国特朗普（Trump）政府正式援引国家安全权力，对 AI 独角兽企业 Anthropic 最先进的 AI 模型 ——Fable 5 和 Mythos 5，实施了极为严厉的出口管制， 全面禁止外国政府、企业和个人的访问权限。 这无疑是在说， 美国正在升级对前沿 AI 系统的管控，并将其视为国家安全资产。 Axios 称，美国商务部长霍华德・卢特尼克周五致信 Anthropic CEO Dario Am",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "交白卷也排第一？Fable 5二百题全部拒答，却登顶最严AI编程基准",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651038907&idx=2&sn=3c8f95cc00db3d09ad7f2900f8af66ac",
+      "published_at": "2026-06-13T02:11:00.000Z",
+      "summary": "原创机器之心 2026-06-13 10:11 北京\n\n好比高考白卷上清华\n\n编辑｜Panda\n\n太离谱了！\n\n是的，本文的主角还是前些天刚发布了 Claude Fable 5 的 Anthropic。\n\nFable 5 发布时的排面是真的足。SWE-Bench Pro 得分 80.3%，把第二名甩出 11 个百分点；Andrej Karpathy 直接喊出「deserves a major version bump」；Stripe 拿它在 5000 万行 Ruby 代码库里跑了一整天的迁移，顶上了原本需要整个团队两个月才能完成的工作量。势头之猛，让人一度以为 AI 编程进入了新纪元。\n\n然而",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic cuts off Fable 5 and Mythos 5 access following government order",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security",
+      "published_at": "2026-06-13T12:55:49.000Z",
+      "summary": "On Friday evening, the government ordered Anthropic to block access to[Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5)and Mythos 5 for all foreign nations, both inside and outside the US, due to national security concerns. That order included employees of Anthropic. To meet those de",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "published_at": "2026-06-13T19:11:41.000Z",
+      "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "SpaceX 上市首日大涨 19.22%，马斯克成首个万亿美元富豪；世界第一网红订阅总人数突破 5 亿；Kimi 发布并开源 K2.7 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108710&idx=1&sn=904a470148a6aa99c8742328cf6f8e07",
+      "published_at": "2026-06-13T00:31:00.000Z",
+      "summary": "周永亮 2026-06-13 08:31 北京\n\n英伟达向中国客户推销 Vera 数据中心处理器；全新理想 L8 进入全国门店；消息称阿里拟出价 15 亿美元竞购零售电商平台「朴朴超市」\n\n## SpaceX 股票收于 160.95 美元，创纪录 IPO 首日上涨 19.22%，市值突破 2 万亿美元\n\n美股周五常规交易时段已经结束，截至收盘，SpaceX 股价上涨 25.95 美元，涨幅为 19.22%，收于 160.95 美元，公司市值达到 21045.6 亿美元。在有史以来最大规模的首次公开募股之后，SpaceX 于周五以每股 150 美元的价格开始交易，股票代码为 SPCX。\n\n马斯克",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Kimi"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Amazon security research reportedly led to the White House’s Anthropic Fable ban",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban",
+      "published_at": "2026-06-13T21:39:26.000Z",
+      "summary": "According to the*[Wall Street Journal](https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?mod=hp_lead_pos1)*, the export control directive that led to Anthropic[cutting off access](https://www.theverge.com/ai-artificial-intelligence/9495",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The future of Hollywood isn’t feeding prompts into vanilla gen AI models",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai",
+      "published_at": "2026-06-13T11:00:00.000Z",
+      "summary": "Concept art from Dear Upstairs Neighbors that used to train custom builds of Google’s Veo and Imagen models. | Image: Google DeepMind\nFor all the[noise that's been made](https://www.theverge.com/streaming/893538/ai-model-netflix-interpositive-ben-affleck)about how[generative AI](https://www.theverge",
+      "priority_score": 122,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "published_at": "2026-06-13T02:26:30.000Z",
+      "summary": "Anthropic isn't hiding its frustration. \"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" the company wrote in a blog post.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI faces investigation from state attorneys general",
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "published_at": "2026-06-13T16:47:18.000Z",
+      "summary": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "那一年，马斯克和我聊了聊他的「太空梦」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108768&idx=1&sn=48e73cb83f5e5921a728ce7af139f418",
+      "published_at": "2026-06-13T05:00:00.000Z",
+      "summary": "张鹏 2026-06-13 13:00 湖北\n\n以下文章来源于：张鹏科技商业观察\n**张鹏科技商业观察**\n聊科技，谈商业。\n\n功成不必在他，但他确实成功了。\n\n**作者｜张鹏** **编辑｜ **靖宇****\n\n【编者按】当地时间 6 月 12 日，万众瞩目、人类商业史上最大的规模的 IPO——伊隆·马斯克的 SpaceX 终于成功登陆纳斯达克。在装入了 X、xAI 和 Starlink 等业务后，SpaceX 不仅筹集到 750 亿美元，开盘的暴涨，更将公司市值一度推升到 2 万亿美元。\n\nSpaceX 的市值，和马斯克的火箭一样，大起大落，最终升天。\n\n从 2002 年创业 SpaceX",
+      "priority_score": 100,
+      "matched_keywords": [
+        "xAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "Anthropic 5.2万人调查大曝光！美国人对AI已达成共识",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652706871&idx=2&sn=494c7f88df5662970866f098fdfa1a8c",
+      "published_at": "2026-06-13T04:30:00.000Z",
+      "summary": "ASI启示录 2026-06-13 12:30 上海\n\n### **新智元报道**\n\n##### **【新智元导读】在一个什么都能吵翻天的国家，71%的美国人难得达成共识：AI必须有人管——但管它的，绝不能是造它的人。**\n\n**15%。**\n\n每100个美国人里，只有15个相信AI公司能管好自己造出来的东西。\n\n刚刚，Anthropic甩出一份重磅调查： **Anthropic Public Record** 。\n\n他们调查了51,993名美国人，覆盖全美50个州、华盛顿特区和波多黎各，再按人口普查基准在年龄、性别、学历、种族上做加权。\n\n这是奔着「全体美国人怎么看AI」去的—— 连压根不用",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "My yard is dying, so I made an app for that",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing",
+      "published_at": "2026-06-13T13:00:00.000Z",
+      "summary": "When I returned to my computer five minutes after giving Gemini a lengthy prompt, I had two things: a functional app in a preview window, and a message about a bug.\n\n\"~ Channel is unrecoverably broken and will be disposed!\" Sounded bad! But right below it was a button to fix the bug. Pretty weird th",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Apple’s new AI photo editing tools mostly work, for better and worse",
+      "url": "https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on",
+      "published_at": "2026-06-13T12:00:00.000Z",
+      "summary": "iPhone owners are getting real, native AI photo editing for the first time.\nThe most popular camera in the world just got its first set of serious AI photo editing features, and I don't think any of us are ready.\n\nAs far as AI photo editing goes, the new features in iOS 27 are pretty tame compared t",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "published_at": "2026-06-13T20:42:31.000Z",
+      "summary": "Once again, AI proves to be an unreliable source of information about AI.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "HuggingFace CEO力荐，Bengio团队也押注：这个1500美元训出的HRM模型，凭什么火了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897320&idx=1&sn=5878287bea9ccab89ef33330ba9b07a2",
+      "published_at": "2026-06-13T07:55:00.000Z",
+      "summary": "关注前沿科技 2026-06-13 15:55 北京\n\n模型参数量只有1B\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n好家伙，这次不是模型圈自嗨。\n\n一个训练成本约1500美元、参数量约1B、从零开始预训练的小模型，把 **HRM** 推到了下一代推理架构讨论的中心。\n\nHuggingFace联合创始人兼CEO Clem Delangue亲自转发推荐。\n\n图灵奖得主Yoshua Bengio作为共同作者参与的新论文，也走向了同一条latent recursive reasoning路线。\n\n更反常的是，它不是蒸馏，不是微调，也不是在已有大模型能力上套壳。\n\n它就是S",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "华为SpaceMind登顶空间智能权威榜：纯RGB视觉语言模型拿下70.6分，刷新李飞飞榜单记录",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897320&idx=3&sn=07784c5d298edcd85f0796f1ddcca265",
+      "published_at": "2026-06-13T07:55:00.000Z",
+      "summary": "关注前沿科技 2026-06-13 15:55 北京\n\n空间智能的价值，最终要落在真实场景里\n\n##### SpaceMind团队 投稿 量子位 | 公众号 QbitAI\n\n大模型已经能流畅对话、看图识物，但一个更底层的问题始终没被真正解决——它们是否「理解」了我们所处的三维世界？\n\n距离有多远、谁更大、从A走到B该往哪转、多视角下的顺序对不对——这些对人类近乎本能的判断，恰恰是通向具身智能、自动驾驶、机器人导航与AR/VR的关键能力。\n\n业界正逐渐达成共识：下一阶段的竞争，不只在语言与语义，更在 **空间智能** 。\n\n为把这件事真正做出来， **华为GTS AI算法部** 联合香港中文大学",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897320&idx=4&sn=31238cfd3d7d9fa480d0eefb321475fc",
+      "published_at": "2026-06-13T07:55:00.000Z",
+      "summary": "关注前沿科技 2026-06-13 15:55 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "新智元ALL in ASI英雄帖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652706871&idx=3&sn=2b5914a8fae96fffe75ce03a910cfe32",
+      "published_at": "2026-06-13T04:30:00.000Z",
+      "summary": "ASI启示录 2026-06-13 12:30 上海\n\n### **新智元报道**\n\n##### **【新智元导读】 2026年，ASI奇点之年。全球AI竞赛进入决赛圈，AI正以指数级的速度重塑世界。新智元All in ASI，现招募两个核心战位——ASI架构师（年薪50-70万）与ASI主笔（年薪50-70万），坐标北京上地，虚位以待。**\n\n全球AI竞赛进入决赛圈，每天都有大事发生。 新智元要覆盖的赛道、要打的仗也在飙升。 我们不仅要在全球AI最前沿保持绝对敏锐，更要在ASI浪潮中主动出击。 现在，新智元正式发出All in ASI英雄帖。 我们在上地AI家，召唤 **对ASI有信仰，有使",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
+      "url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
+      "published_at": "2026-06-13T04:14:19.000Z",
+      "summary": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-05-22",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "今日重点新闻集中在大模型公司围绕AI代理、编程工具和算力基础设施加速落地，同时资金与合作继续向通用AI入口和高性能计算资源集中。",
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "智谱落地ZCube以提升GPU集群利用率",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034260&idx=1&sn=79d1469b24b4a814ece601bcc00a5f95",
+      "published_at": "2026-05-21T03:03:00.000Z",
+      "summary": "文章称ZCube试图改变传统GPU组网逻辑，在大模型训练和推理规模扩张背景下让同样硬件承担更多计算任务。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "马斯克与奥特曼围绕OpenAI的诉讼持续推进",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "published_at": "2026-05-21T20:15:18.000Z",
+      "summary": "这场高风险审判围绕OpenAI未来及ChatGPT相关控制权展开，可能影响外界对该公司治理结构和商业方向的判断。"
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Anthropic的Code with Claude展示AI编程未来",
+      "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/",
+      "published_at": "2026-05-21T14:30:45.000Z",
+      "summary": "Anthropic在伦敦举办面向开发者的Code with Claude活动，重点呈现Claude在软件开发流程中的应用方式和开发者体验。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Spotify推出生成每日个性化播客的AI代理应用",
+      "url": "https://www.theverge.com/entertainment/935390/spotify-studio-ai-app-personal-podcasts",
+      "published_at": "2026-05-21T15:47:29.000Z",
+      "summary": "Studio by Spotify Labs可根据聊天提示、用户收听历史和其他信息生成每日简报、播客与播放列表。"
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Google DeepMind在亚太推出环境风险加速器项目",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "published_at": "2026-05-21T19:46:42.000Z",
+      "summary": "该项目面向亚太地区启动，目标是支持利用AI应对环境风险的相关团队和应用。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic每年支付150亿美元使用马斯克的数据中心",
+      "url": "https://www.theverge.com/science/935229/spacex-anthropic-ipo-ai-capacity-deal-colossus",
+      "published_at": "2026-05-21T13:35:52.000Z",
+      "summary": "SpaceX的IPO文件披露了与Anthropic的算力合作细节，后者将获得田纳西州孟菲斯Colossus数据中心的访问权。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google向消费者推销AI代理生态但接受度存疑",
+      "url": "https://techcrunch.com/2026/05/21/google-is-pitching-an-ai-agent-ecosystem-to-consumers-who-may-not-buy-it/",
+      "published_at": "2026-05-21T13:52:23.000Z",
+      "summary": "Google在I/O开发者大会上展示面向网页使用的新AI代理方式，但相关体验被认为仍然复杂且不够清晰。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "黄仁勋称Nvidia发现AI代理CPU的2000亿美元新市场",
+      "url": "https://techcrunch.com/2026/05/20/jensen-huang-says-hes-found-a-brand-new-200b-market-for-nvidia/",
+      "published_at": "2026-05-21T00:28:31.000Z",
+      "summary": "Nvidia首席执行官黄仁勋预计，为AI代理服务的CPU将成为公司下一项重要增长机会。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hark为秘密通用AI界面完成7亿美元A轮融资",
+      "url": "https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/",
+      "published_at": "2026-05-21T14:00:00.000Z",
+      "summary": "Hark计划今年夏天发布首批多模态模型，用于驱动可连接现有产品和服务的个人AI平台。"
+    }
+  ]
+}

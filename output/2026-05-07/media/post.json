@@ -1,0 +1,513 @@
+{
+  "generated_at": "2026-05-07T00:00:41.537Z",
+  "source_raw": "raw.json",
+  "history_files_used": 2,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 41,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "ChatGPT 默认模型升至 GPT-5.5 Instant；小米全尺寸 SUV 谍照曝光；诺兰新作《奥德赛》发预告 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105236&idx=1&sn=80309a58ebd0e55f06bcb521d4034c22",
+      "published_at": "2026-05-06T00:25:00.000Z",
+      "summary": "周永亮 2026-05-06 08:25 北京\n\nOpenAI 总裁布罗克曼 300 亿美元持股，遭马斯克律师质疑；Anthropic 推出用于执行金融服务任务的 AI 智能体；苹果将允许用户选用多款第三方人工智能服务\n\n## 美媒披露 OpenAI 总裁布罗克曼庭审细节：300 亿美元持股遭马斯克律师质疑\n\n5 月 5 日，据彭博社报道，OpenAI 联合创始人兼总裁格雷格 · 布罗克曼（Greg Brockman）在作证时表示，他在这家创业公司所持股份的价值现在已接近 300 亿美元（约合 2049 亿元人民币），这促使埃隆 · 马斯克（Elon Musk）的律师发问：为何他没有将大部分收",
+      "priority_score": 428,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "DeepSeek could hit $45B valuation from its first investment round",
+      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+      "published_at": "2026-05-06T17:20:34.000Z",
+      "summary": "The Chinese AI lab came to prominence in early 2025 after launching a large language model that trained on a fraction of the compute power and at a fraction of the cost of the big U.S. models like those from OpenAI and Anthropic.",
+      "priority_score": 374,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "published_at": "2026-05-06T15:37:32.000Z",
+      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,[ChatGPT](https://www.theverge.com/ai-artificial-intelligence/904727/openai-chatgpt-investment). In[2024, Musk filed a lawsuit](https://www.theverge.com/2024/3/1/24087",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "刚刚，GPT-5.5 Instant全员免费！数亿人的ChatGPT变了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652697811&idx=1&sn=ef19b8efc229b6a016508efb19c3186c",
+      "published_at": "2026-05-06T01:48:00.000Z",
+      "summary": "新智元 2026-05-06 09:48 北京\n\n### **新智元报道**\n\n编辑：桃子 好困\n\n##### **【新智元导读】 太突然了！OpenAI深夜甩出GPT-5.5 Instant，全面接管ChatGPT默认模型。幻觉暴降52%、数学从65分飙到81分、回复字数直砍三成，更关键的是它开始记住你、看穿你的偏好。所有人免费薅羊毛。**\n\n今天，GPT‑5.5 Instant正式上线， 所有人在ChatGPT中免费用 ！\n\n它一共有三大亮点：回答更简洁、记忆更强、更加个性化。\n\nGPT‑5.5 Instant取代GPT‑5.3 Instant，成为ChatGPT「默认模型」\n\n在处理日常",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "Claude团队用Qwen测试全新训练方法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888663&idx=2&sn=19ee129abb4fc04ceebd1c5f46e32920",
+      "published_at": "2026-05-06T09:46:00.000Z",
+      "summary": "关注前沿科技 2026-05-06 17:46 北京\n\n用价值观文档做「中训练」\n\n##### 闻乐 发自 凹非寺 量子位 | 公众号 QbitAI\n\n别人做AI中训练都在堆语料、补知识。\n\nAnthropic这边直接给大模型上价值观必修课。\n\n最新研究提出的中训练（简称 **MSM** ）精准插在预训练之后、后训练之前，专门用来给AI立规矩、塑三观。\n\n更准确地说，就是在模型预训练结束、还没开始对齐微调之前，先用 **模型规范讲解文档** 做一轮 **对齐前置特训** 。\n\n在这个阶段，模型不直接学习合规行为案例，而是通过大量专门讲解模型规范的合成文档，进行专项训练。\n\n让模型先完整理解自身",
+      "priority_score": 300,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude",
+        "Qwen"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "DeepSeek版Claude Code登顶热榜：8700星，鲸鱼哥火了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031464&idx=2&sn=add32722ef0e5b18e2f83c85e9712d8c",
+      "published_at": "2026-05-06T04:07:00.000Z",
+      "summary": "原创关注AI代码工具的 2026-05-06 12:07 北京\n\nDeepSeek专属代码智能体。\n\n编辑｜泽南\n\n感谢鲸鱼兄弟开源。\n\nDeepSeek V4 才推出一个星期，DeepSeek 版的 Claude Code 就登顶了 GitHub 热榜。大家缺的就是这么一个工具。\n\n目前已经有了超过 8700 的 Star 量，数字还在以肉眼可见的速度增长。\n\n这还只是个开始。\n\nDeepSeek TUI 是一个完全运行在本地终端里的 AI 编程智能体，由自称「鲸鱼兄弟」的 Hunter Bown 用 Rust 语言开发。它专门为 DeepSeek（尤其是最新发布的 DeepSeek V4 ",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Claude",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Barry Diller trusts Sam Altman. But ‘trust is irrelevant’ as AGI nears, he says.",
+      "url": "https://techcrunch.com/2026/05/06/barry-diller-trusts-sam-altman-but-trust-is-irrelevant-as-agi-nears-he-says/",
+      "published_at": "2026-05-06T21:57:56.000Z",
+      "summary": "Barry Diller defended OpenAI CEO Sam Altman, while warning that AGI remains an unpredictable force needing guardrails.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "国产双开源：让Mac成为你的私人AI工作站",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031464&idx=1&sn=9c345be57f7ae7a14ff081ab1296ce50",
+      "published_at": "2026-05-06T04:07:00.000Z",
+      "summary": "原创关注开源的 2026-05-06 12:07 北京\n\nCider + Mano-P = 快且实用的 Private AI\n\n编辑｜panda、+0\n\n2026 年 3 月底，Ollama 发布了一则更新公告：其 Mac 版本的底层推理引擎，将从沿用多年的 llama.cpp 切换为苹果的 MLX 框架。\n\n这条消息在开发者社区引发了激烈讨论，原因很简单：数字太好看了。在搭载 M5 芯片的 Mac 上，切换到 MLX 后，prefill 速度提升超过 57%，生成速度接近翻倍，部分场景下，生成第一个 token 的等待时间（TTFT）缩短至原先的四分之一。一位开发者在社区里写道，他的 Mac",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Llama"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Is xAI a neocloud now?",
+      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+      "published_at": "2026-05-06T21:32:55.000Z",
+      "summary": "xAI's real business may be more about building data centers than training AI models.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "xAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Mira Murati tells the court that she couldn’t trust Sam Altman’s words",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
+      "published_at": "2026-05-06T17:55:53.000Z",
+      "summary": "Mira Murati, OpenAI's former CTO, has testified under oath that CEO Sam Altman lied to her about the safety standards for a new AI model. In a video deposition shown during the ongoing*Musk v. Altman*trial on Wednesday, Murati said Altman falsely stated that OpenAI's legal department determined a ne",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Snap says its $400M deal with Perplexity ‘amicably ended’",
+      "url": "https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/",
+      "published_at": "2026-05-06T21:43:24.000Z",
+      "summary": "The deal, announced last November, would have seen Perplexity's AI search engine integrated directly into Snapchat.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Perplexity"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections",
+      "published_at": "2026-05-06T19:06:55.000Z",
+      "summary": "",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "How Elon Musk left OpenAI, according to Greg Brockman",
+      "url": "https://techcrunch.com/2026/05/06/how-elon-musk-left-openai-according-to-greg-brockman/",
+      "published_at": "2026-05-06T18:23:54.000Z",
+      "summary": "Cutthroat negotiations between startup founders are rarely shared so publicly, especially when a company becomes as world-changing as OpenAI.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Khosla-backed robotics startup Genesis AI has gone full stack, demo shows",
+      "url": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/",
+      "published_at": "2026-05-06T15:46:38.000Z",
+      "summary": "Genesis AI, a startup that raised a $105 million seed round to build foundational AI for robotics, has unveiled its first model, GENE-26.5, but also a demo showcasing a set of robotic hands performing complex tasks.",
+      "priority_score": 74,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Chrome’s AI features may be hogging 4GB of your computer storage",
+      "url": "https://www.theverge.com/tech/924933/google-chrome-4gb-gemini-nano-ai-features",
+      "published_at": "2026-05-06T10:13:09.000Z",
+      "summary": "Google Chrome may be taking up more of your storage than expected thanks to a large on-device AI model file that, in some cases, is being automatically downloaded to the browser's system folders. Users who have noticed unexplained drops in their available desktop device storage are now discovering t",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "比 OpenClaw 更火的 「Agent 员工」赛道，杀出一个新王者｜AI 上新",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105328&idx=1&sn=bbcf3482dd48cf5a2d757c2402b9456b",
+      "published_at": "2026-05-06T10:09:00.000Z",
+      "summary": "原创金光浩 2026-05-06 18:09 北京\n\n给天选打工人准备的利器。\n\n**作者｜ 金光浩** **编辑｜ 靖宇**\n\n2026 年 2 月，OpenClaw 火了。\n\n整个互联网圈子被龙虾刷屏的时候，我和大多数人一样，注意力全在这条明线上：2 月底到 3 月，几乎所有互联网大厂在同一时间推出了自己的 OpenClaw 平台，一场龙虾大战轰轰烈烈地打响。\n\n**但进入 3 月底，龙虾的热度开始猛的往下掉。**\n\n我重新翻了一下这段时间上线的产品，发现了一条暗线，只是当时被龙虾的声量盖住了：\n\n3 月 9 日，腾讯上线 WorkBuddy，定位 AI 原生桌面智能体工作台。3 月 17",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "阿里开源PromptEcho：用冻结多模态大模型为文生图训练提供高质量Reward",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031464&idx=3&sn=1403f06cf74aec5f22aae0b31717230f",
+      "published_at": "2026-05-06T04:07:00.000Z",
+      "summary": "机器之心 2026-05-06 12:07 北京\n\n一种无需任何标注、无需训练 reward 模型\n\n本文作者团队来自阿里巴巴集团，共同第一作者为深度学习研究员刘锦龙和何旺贵，通讯作者为姜浩。\n\n用强化学习（RL）优化文生图模型的 prompt following 能力，是一条被广泛验证的路径 —— 让模型根据 prompt 用不同随机种子生成多张图片，通过 reward model 计算 reward，再利用相关 RL 算法优化模型。\n\n这里面最核心的问题在于：r eward 信号从哪来？\n\n传统的对齐指标如 CLIP Score 粒度过粗，无法捕捉属性绑定、空间关系、计数等复杂语义。当前一",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI boom pushes Samsung to $1T",
+      "url": "https://techcrunch.com/2026/05/06/ai-boom-pushes-samsung-to-1t/",
+      "published_at": "2026-05-06T13:54:09.000Z",
+      "summary": "Samsung crossed the $1 trillion valuation mark after shares surged on AI-driven chip demand, making it only the second Asian company after TSMC to hit the milestone.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google shuts down Project Mariner",
+      "url": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
+      "published_at": "2026-05-06T21:21:45.000Z",
+      "summary": "Google has pulled the plug on Project Mariner, an experimental feature designed to perform tasks for you across the web, as[reported earlier by, Wired, 's Maxwell Zeff](https://x.com/ZeffMax/status/2051824497242833234?s=20). The[Project Mariner landing page](https://labs.google.com/mariner/landing)n",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google updates AI search to include quotes from Reddit and other sources",
+      "url": "https://techcrunch.com/2026/05/06/google-updates-ai-search-to-include-expert-advice-from-reddit-and-other-web-forums/",
+      "published_at": "2026-05-06T15:49:39.000Z",
+      "summary": "While citing web forums and discussion boards can help users find answers to more niche queries, this design choice could also prove chaotic.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple to pay $250M to settle lawsuit over Siri’s delayed AI features",
+      "url": "https://techcrunch.com/2026/05/06/apple-to-pay-250m-to-settle-lawsuit-over-siris-delayed-ai-features/",
+      "published_at": "2026-05-06T15:12:49.000Z",
+      "summary": "Apple has agreed to pay $250 million to settle a class action lawsuit for overpromising the arrival of Siri's AI features.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Googles AI search summaries will now quote Reddit",
+      "url": "https://www.theverge.com/tech/924993/google-ai-search-mode-overviews-update-reddit-links",
+      "published_at": "2026-05-06T13:00:30.000Z",
+      "summary": "Want real human feedback related to your search results? Google’s AI now fetches it for you. | Image by Google / The Verge\nGoogle is updating its AI Search features to make it easier for users to find information from sources they know and trust. One of the more notable changes introduces \"a preview",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "《2025字节跳动企业社会责任报告》发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247519496&idx=1&sn=1a6f8a7d309951f0c0a7139625a1b1b5",
+      "published_at": "2026-05-06T09:03:00.000Z",
+      "summary": "字节跳动技术团队 2026-05-06 17:03 江苏\n\n近日，《2025字节跳动企业社会责任报告（中国）》正式发布。\n\n过去一年，人工智能等前沿科技加速发展，并不断从技术创新走向场景应用。字节跳动既保持着竞逐未来、勇攀高峰的决心，更积极承担企业社会责任，以科技创造更多美好。\n\n在这份报告中，我们从共享科技创新、助力经济发展、焕发文化活力、增进社会福祉、守护绿色地球、创造可信生态六个方面，回顾了字节跳动这一年以科技实现社会价值的探索和实践。\n\n完整版报告可通过扫描文末二维码或点击阅读原文获取。\n\n[阅读原文](https://bytedance.larkoffice.com/file/Lz3",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Ethos raises $22.75M from a16z for its expert network with voice onboarding",
+      "url": "https://techcrunch.com/2026/05/06/ethos-raises-22-75m-from-a16z-for-its-expert-network-with-voice-onboarding/",
+      "published_at": "2026-05-06T15:00:00.000Z",
+      "summary": "Ethos says it is onboarding 35,000 experts per week.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Peter Sarlin’s QuTwo reaches $380M valuation in angel round",
+      "url": "https://techcrunch.com/2026/05/05/peter-sarlins-qutwo-reaches-380m-valuation-in-angel-round/",
+      "published_at": "2026-05-06T06:47:12.000Z",
+      "summary": "Enterprise AI will be QuTwo’s bread and butter. “AI is the north star that we will continue to aim for. Quantum is just a new type of compute,” said Sarlin, who is adamant that QuTwo is an AI company.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "对话造物时代：刚拿下数亿融资，桌面 CNC 的拐点到了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105245&idx=1&sn=b972cbd7e041dc6233be892aa09bfcde",
+      "published_at": "2026-05-06T04:06:00.000Z",
+      "summary": "原创苏子华 2026-05-06 12:06 北京\n\n你想在家里搞一个「造物车间」吗？\n\n年出货量剑指百万。\n\n**作者｜苏子华** **编辑｜ **靖宇****\n\n造物时代创始人张邱溪，同时站在了智能硬件和创客工具两个当下最热的风口之上。\n\n极客公园获悉，桌面级 CNC 公司「造物时代（Makera）」，已经于近期完成 A 轮数亿元融资。本轮融资由华映资本、北京市人工智能产业投资基金联合领投，元禾璞华、中科创星、清科创投跟投，老股东启明创投持续超额跟投。\n\n造物时代做的事情，就是把一整座精密工业级的数控机床设备，浓缩在你的书桌上，让普通人也能上手，将金属、木头等材料切割雕刻成想要的形状。价格",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceX may spend up to $119B on ‘Terafab’ chip factory in Texas",
+      "url": "https://techcrunch.com/2026/05/06/spacex-may-spend-up-to-119-billion-on-terafab-chip-factory-in-texas/",
+      "published_at": "2026-05-06T17:23:08.000Z",
+      "summary": "The project would be a \"multi-phase, next-generation, vertically integrated semiconductor manufacturing and advanced computing fabrication facility,\" according to the proposal.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "AI PPT，这次是真不用返工了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888663&idx=1&sn=6fb9088c4ede5544586fea045f5c0ed9",
+      "published_at": "2026-05-06T09:46:00.000Z",
+      "summary": "原创关注前沿科技 2026-05-06 17:46 北京\n\n实测讯飞智文Vision Agent\n\n##### 一水 发自 凹非寺 量子位 | 公众号 QbitAI\n\n过去一两年，AI做PPT这事儿一直处在一个比较尴尬的位置。\n\n能用，但不好用。\n\n虽然速度是比手搓快，但细看全是“幻觉数据”和“拼凑式模板”，后续改起来比从头做还累。\n\n所以圈内有个心照不宣的判断：AI PPT不说是个伪需求，但至少是被高估的需求。\n\n然而进入“龙虾时代”后，这个判断开始松动了。 起因是，市面上开始出现以多智能体驱动为代表的AI产品了——比如我最近刚刷到的讯飞智文Vision Agent （以下简称“讯飞智文”）",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Musk’s biggest loyalist became his biggest liability",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/925665/musk-altman-trial-shivon-zilis-testimony",
+      "published_at": "2026-05-06T23:37:02.000Z",
+      "summary": "I sat down in the*Musk v. Altman*trial courtroom today, painfully aware that no one was going to ask Shivon Zilis the question on everyone's minds: Girl, what the*fuck*are you*doing*?\n\nZilis, who testified under oath that she is the mother of four of Musk's children, was… what's the best way to char",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "How David Sacks crashed and burned in the White House",
+      "url": "https://www.theverge.com/column/925487/david-sacks-trump-administration-ai-model-review",
+      "published_at": "2026-05-06T20:18:00.000Z",
+      "summary": "AI and Crypto Czar David O. Sacks speaks during a meeting of the White House Task Force on Artificial Intelligence Education at the White House. | Matt McClain/The Washington Post via Getty Images\n*Hello and welcome to*Regulator*, a newsletter exclusively for*Verge*subscribers about tech, politics, ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "5 gardening tips you can try right in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/gardening-tips/",
+      "published_at": "2026-05-06T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/01-Google_Gardening_Header.max-600x600.format-webp.webp\">We’ve rounded up the top ways you can use Google’s AI Mode, Search Live and Shopping to help your plants thrive.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Tinder owner Match Group is slowing hiring to pay for its increased use of AI tools",
+      "url": "https://techcrunch.com/2026/05/06/tinder-owner-match-group-is-slowing-hiring-to-pay-for-its-increased-use-of-ai-tools/",
+      "published_at": "2026-05-06T15:27:36.000Z",
+      "summary": "Match Group said that it's slowing its hiring plans for the rest of the year because AI tools \"cost a lot of money.\"",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "At TechCrunch Disrupt 2026, all your M&A questions will be answered",
+      "url": "https://techcrunch.com/2026/05/06/at-techcrunch-disrupt-2026-all-your-ma-questions-will-be-answered/",
+      "published_at": "2026-05-06T14:30:00.000Z",
+      "summary": "Leaders from Coinbase, M13, and Mignano Law Group talk about how M&#038;A is an early-stage strategy at TechCrunch Disrupt 2026. Register to hear this live.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "3 days left to lock in 50% off a second ticket to TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/05/06/3-days-left-to-lock-in-50-off-a-second-ticket-to-techcrunch-disrupt-2026/",
+      "published_at": "2026-05-06T14:00:00.000Z",
+      "summary": "Three days left to lock in 50% off a second ticket to Disrupt 2026. Buy one TechCrunch Disrupt 2026 ticket, and get a second ticket at 50% off. Gain more visibility in the tech industry. Offer ends May 8 at 11:59 p.m. PT.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: seafloor science and military chatbots",
+      "url": "https://www.technologyreview.com/2026/05/06/1136917/the-download-seafloor-science-military-ai-chatbots/",
+      "published_at": "2026-05-06T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Inexpensive seafloor-",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft’s Office and LinkedIn chief now runs Teams in latest reshuffle",
+      "url": "https://www.theverge.com/tech/924931/microsoft-office-copilot-windows-reorg-shuffle",
+      "published_at": "2026-05-06T11:45:41.000Z",
+      "summary": "Microsoft's LinkedIn chief, Ryan Roslansky, took on an[expanded role](https://www.theverge.com/microsoft/679753/microsoft-linkedin-chief-office-ai-reorg)at the company as head of Office last year, and he's now getting more responsibilities as part of the latest leadership reshuffle inside Microsoft.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "波士顿动力泯然众人了，高管集体出走，机器人“量产”只能造4台",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888663&idx=3&sn=699d7529e6721094706300829aea0380",
+      "published_at": "2026-05-06T09:46:00.000Z",
+      "summary": "关注前沿科技 2026-05-06 17:46 北京\n\nIPO前夕，技术过关，但产能和人才都是问题\n\n##### henry 发自 凹非寺 量子位 | 公众号 QbitAI\n\n刚刚，波士顿动力又放出了一段Atlas的新demo。\n\ndemo中的Atlas机器人完成了一套高难度体操动作，比如倒立，双臂支撑，腰马合一，非常流畅。\n\n据悉，这是波士顿动力新一代的Altas人形机器人，也就是2026年初CES展示的量产版本。\n\n它具备：\n\n- 56个自由度，关键关节支持360°旋转\n- 身高6.2英尺(约1.9米)，体重198磅(90公斤)\n- 工作温度区间-20°C到40°C\n- IP67防尘防水\n",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888663&idx=4&sn=fda17695f9facc402f3a10568e56bf65",
+      "published_at": "2026-05-06T09:46:00.000Z",
+      "summary": "关注前沿科技 2026-05-06 17:46 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Marc Lore says that AI will soon enable anyone to open a restaurant",
+      "url": "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/",
+      "published_at": "2026-05-06T06:34:32.000Z",
+      "summary": "Wonder wants to turn its robotic kitchens into AI-powered “restaurant factories,” letting anyone spin up a virtual food brand with a prompt.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "12岁写代码，28岁撑起谷歌20亿业务！他却劝年轻人：别卷编程了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652697811&idx=2&sn=7e0913a1b5cc26881d06bda8a828410d",
+      "published_at": "2026-05-06T01:48:00.000Z",
+      "summary": "新智元 2026-05-06 09:48 北京\n\n### **新智元报道**\n\n编辑：桃子\n\n##### **【新智元导读】 12岁写代码，15岁赚第一桶金，28岁当上谷歌CMO，他却给年轻人泼了盆冷水：别学编程了！**\n\n12岁写代码，成为谷歌史上最年轻CMO后，他却告诉所有Z世代——\n\n别卷编程了，不如去滑冰！\n\n曾几何时，掌握编程能力，是通往硅谷巅峰的唯一入场券。\n\n比尔盖茨、小扎、马斯克，这些科技巨头大佬无一不是靠着十几岁时自学的编程技能，开启了改变世界的征程。\n\n像他们一样，名叫Alon Chen靠写代码一路做到了谷歌CMO，并在离职时套现了七位数巨额现金。\n\n现如今，他抛出了一个石",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "老黄爆改英伟达，Salesforce一次招千人！智能体时代应届生机会来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652697811&idx=3&sn=9756e0d615b565b0e398042e7e364817",
+      "published_at": "2026-05-06T01:48:00.000Z",
+      "summary": "新智元 2026-05-06 09:48 北京\n\n### **新智元报道**\n\n编辑：元宇\n\n##### **【新智元导读】 Salesforce CEO Marc Benioff近日甩出一份招聘计划：要一口气招进1000名应届生或实习生，与他们一起搭乘AI快车。IBM更猛，北美入门级岗位直接扩招3倍，麦肯锡、Cognizant紧跟其后。智能体时代，一批10年前根本不存在的「金饭碗」正在批量诞生，应届生这个词，也将被重写。**\n\n「锁定目标，我们要招1000名应届生或实习生！」\n\n近日，Salesforce CEO Marc Benioff在X上表示， 要招进1000个应届生或实习生，与他们一",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

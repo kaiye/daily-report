@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-06-04T00:03:27.653Z",
+  "source_raw": "raw.json",
+  "source_count": 14,
+  "item_count": 12,
+  "language_breakdown": {
+    "Python": 7,
+    "JavaScript": 1,
+    "Java": 1,
+    "Unknown": 1,
+    "Jupyter Notebook": 1,
+    "TypeScript": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "stars_today": 3530,
+      "stars_total": 9633,
+      "forks": 635
+    },
+    {
+      "rank": 2,
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars_today": 2141,
+      "stars_total": 205695,
+      "forks": 31581
+    },
+    {
+      "rank": 4,
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars_today": 1735,
+      "stars_total": 179073,
+      "forks": 30673
+    },
+    {
+      "rank": 5,
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "stars_today": 1984,
+      "stars_total": 142822,
+      "forks": 9760
+    },
+    {
+      "rank": 6,
+      "repo": "nesquena/hermes-webui",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "language": "Python",
+      "stars_today": 719,
+      "stars_total": 13090,
+      "forks": 1593
+    },
+    {
+      "rank": 7,
+      "repo": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "language": "Python",
+      "stars_today": 1067,
+      "stars_total": 60203,
+      "forks": 5801
+    },
+    {
+      "rank": 8,
+      "repo": "opendataloader-project/opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "language": "Java",
+      "stars_today": 570,
+      "stars_total": 23243,
+      "forks": 2181
+    },
+    {
+      "rank": 10,
+      "repo": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "language": "Python",
+      "stars_today": 693,
+      "stars_total": 8932,
+      "forks": 1106
+    },
+    {
+      "rank": 11,
+      "repo": "jwasham/coding-interview-university",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "Unknown",
+      "stars_today": 330,
+      "stars_total": 348986,
+      "forks": 83153
+    },
+    {
+      "rank": 12,
+      "repo": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars_today": 208,
+      "stars_total": 18872,
+      "forks": 2068
+    },
+    {
+      "rank": 13,
+      "repo": "supermemoryai/supermemory",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "language": "TypeScript",
+      "stars_today": 600,
+      "stars_total": 25151,
+      "forks": 2207
+    },
+    {
+      "rank": 14,
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stars_today": 197,
+      "stars_total": 9881,
+      "forks": 1998
+    }
+  ]
+}

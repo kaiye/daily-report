@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-06-27T00:02:28.249Z",
+  "source_raw": "raw.json",
+  "source_count": 17,
+  "item_count": 14,
+  "language_breakdown": {
+    "Haskell": 1,
+    "TypeScript": 4,
+    "Go": 2,
+    "Python": 6,
+    "Unknown": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "simplex-chat/simplex-chat",
+      "url": "https://github.com/simplex-chat/simplex-chat",
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "language": "Haskell",
+      "stars_today": 432,
+      "stars_total": 12522,
+      "forks": 709
+    },
+    {
+      "rank": 2,
+      "repo": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "stars_today": 2407,
+      "stars_total": 21218,
+      "forks": 1719
+    },
+    {
+      "rank": 4,
+      "repo": "kunchenguid/no-mistakes",
+      "url": "https://github.com/kunchenguid/no-mistakes",
+      "description": "git push no-mistakes",
+      "language": "Go",
+      "stars_today": 398,
+      "stars_total": 3411,
+      "forks": 205
+    },
+    {
+      "rank": 7,
+      "repo": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "language": "Python",
+      "stars_today": 960,
+      "stars_total": 70404,
+      "forks": 5939
+    },
+    {
+      "rank": 8,
+      "repo": "alchaincyf/zhangxuefeng-skill",
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill",
+      "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+      "language": "Unknown",
+      "stars_today": 160,
+      "stars_total": 9244,
+      "forks": 2561
+    },
+    {
+      "rank": 9,
+      "repo": "mauriceboe/TREK",
+      "url": "https://github.com/mauriceboe/TREK",
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "language": "TypeScript",
+      "stars_today": 1060,
+      "stars_total": 7648,
+      "forks": 647
+    },
+    {
+      "rank": 10,
+      "repo": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "language": "Python",
+      "stars_today": 1274,
+      "stars_total": 3100,
+      "forks": 456
+    },
+    {
+      "rank": 11,
+      "repo": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars_today": 1754,
+      "stars_total": 23587,
+      "forks": 2617
+    },
+    {
+      "rank": 12,
+      "repo": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python",
+      "stars_today": 243,
+      "stars_total": 1347,
+      "forks": 121
+    },
+    {
+      "rank": 13,
+      "repo": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars_today": 673,
+      "stars_total": 53342,
+      "forks": 10974
+    },
+    {
+      "rank": 14,
+      "repo": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars_today": 950,
+      "stars_total": 116616,
+      "forks": 17306
+    },
+    {
+      "rank": 15,
+      "repo": "IceWhaleTech/CasaOS",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "language": "Go",
+      "stars_today": 619,
+      "stars_total": 35357,
+      "forks": 2026
+    },
+    {
+      "rank": 16,
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "language": "TypeScript",
+      "stars_today": 1088,
+      "stars_total": 21347,
+      "forks": 3096
+    },
+    {
+      "rank": 17,
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars_today": 1194,
+      "stars_total": 42322,
+      "forks": 3361
+    }
+  ]
+}

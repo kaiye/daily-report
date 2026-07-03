@@ -1,0 +1,48 @@
+# 媒体资讯
+
+本日最重要趋势是AI智能体和大模型能力正从演示走向白领工作、终端设备和关键基础设施，同时安全控制与政府审查成为配套焦点。
+
+### [Anthropic将Claude Mythos扩展至15国关键基础设施](https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/)
+*TechCrunch AI* · 2026-06-02
+
+Anthropic将Claude Mythos扩展至15国关键基础设施：Anthropic扩大Project Glasswing安全漏洞项目，并向电力、水务、医疗和通信等领域的150家组织开放Mythos访问。
+
+### [OpenAI推出面向白领工作的Codex新工具](https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/)
+*TechCrunch AI* · 2026-06-02
+
+OpenAI推出面向白领工作的Codex新工具：新发布的六个插件覆盖数据分析、创意制作、销售、产品设计、股票投资和投行业务，并在Codex应用内整合指令、上下文和外部集成。
+
+### [微软Project Solara是面向AI智能体设备的操作系统](https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets)
+*The Verge AI* · 2026-06-02
+
+微软Project Solara是面向AI智能体设备的操作系统：微软在Build 2026上宣布这套基于Android的新平台，称其从底层为智能体驱动体验而设计。
+
+### [微软提供控制AI智能体行为的新方法](https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/)
+*TechCrunch AI* · 2026-06-02
+
+微软提供控制AI智能体行为的新方法：该规范允许开发、合规和安全团队用可移植策略文件定义智能体需要遵循的行为规则。
+
+### [微软首个高级推理AI模型亮相](https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026)
+*The Verge AI* · 2026-06-02
+
+微软首个高级推理AI模型亮相：微软在Build 2026上发布多款自研AI模型，其中旗舰模型MAI-Thinking-1标志着其进一步进入推理模型开发。
+
+### [Gemini Spark是作者迄今最震撼也最可怕的AI体验](https://www.theverge.com/ai-artificial-intelligence/941388/gemini-spark-ai-agent-trip-planning)
+*The Verge AI* · 2026-06-02
+
+Gemini Spark是作者迄今最震撼也最可怕的AI体验：Google的新智能体产品Spark被描述为面向多类任务的答案，文章以旅行规划场景展示其搜索、阅读和组织信息的能力。
+
+### [特朗普在行业反对后签署范围收窄的AI监管行政令](https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/)
+*TechCrunch AI* · 2026-06-02
+
+特朗普在行业反对后签署范围收窄的AI监管行政令：修订后的行政令仅要求先进模型在发布前自愿接受政府审查，而非实施更强制性的预发布监管。
+
+### [图灵奖得主Sutton新作提出AI下一步走向生成认知](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036359&idx=2&sn=216de3faa9f2b86de3bf762aad6709ba)
+*机器之心* · 2026-06-02
+
+图灵奖得主Sutton新作提出AI下一步走向生成认知：文章围绕大语言模型、智能体和世界模型的发展，讨论服务器中的AI是否真正理解物理世界以及生成认知可能提供的新路径。
+
+### [英伟达CPU进入PC赛道并面向个人智能体](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894165&idx=2&sn=0125e0e1973268ab6434b7a2664bcc8c)
+*量子位* · 2026-06-02
+
+英伟达CPU进入PC赛道并面向个人智能体：NVIDIA RTX Spark定位于个人智能体Windows PC，具备1 petaflop AI算力并支持本地运行百万上下文、120B参数的大语言模型。

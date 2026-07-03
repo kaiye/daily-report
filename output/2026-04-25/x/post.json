@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-04-25T00:01:09.382Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-04-24",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2047516922263285776",
+      "text": "🚀 DeepSeek-V4 Preview is officially live & open-sourced! Welcome to the era of cost-effective 1M context length.\n\n🔹 DeepSeek-V4-Pro: 1.6T total / 49B active params. Performance rivaling the world's top closed-source models.\n🔹 DeepSeek-V4-Flash: 284B total / 13B active params. Your fast, efficient, and economical choice.\n\nTry it now at https://t.co/GCdiMzk1Dl via Expert Mode / Instant Mode. API is updated & available today!\n\n📄 Tech Report: https://t.co/drlDrxkYtp\n🤗 Open Weights: https://t.co/T13Y8i7SDM\n\n1/n",
+      "createdAt": "Fri Apr 24 03:24:09 +0000 2026",
+      "viewCount": 6800363,
+      "likeCount": 38678,
+      "retweetCount": 6692,
+      "author": {
+        "userName": "deepseek_ai",
+        "name": "DeepSeek",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/deepseek_ai/status/2047516922263285776",
+      "is_official": true
+    },
+    {
+      "id": "2047773528121049488",
+      "text": "We’ve refreshed Claude Code on the web and mobile. A few things that recently shipped 🧵 https://t.co/hJHIckTxx3",
+      "createdAt": "Fri Apr 24 20:23:49 +0000 2026",
+      "viewCount": 112820,
+      "likeCount": 1752,
+      "retweetCount": 76,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2047773528121049488",
+      "is_official": true
+    },
+    {
+      "id": "2047787124846653895",
+      "text": "GPT-5.5 and GPT-5.5 Pro are now available in the API!",
+      "createdAt": "Fri Apr 24 21:17:51 +0000 2026",
+      "viewCount": 136888,
+      "likeCount": 3686,
+      "retweetCount": 169,
+      "author": {
+        "userName": "sama",
+        "name": "Sam Altman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sama/status/2047787124846653895",
+      "is_official": false
+    },
+    {
+      "id": "2047516926432399791",
+      "text": "DeepSeek-V4-Pro\n\n🔹 Enhanced Agentic Capabilities: Open-source SOTA in Agentic Coding benchmarks.\n🔹 Rich World Knowledge: Leads all current open models, trailing only Gemini-3.1-Pro.\n🔹 World-Class Reasoning: Beats all current open models in Math/STEM/Coding, rivaling top closed-source models.\n\n2/n",
+      "createdAt": "Fri Apr 24 03:24:10 +0000 2026",
+      "viewCount": 373667,
+      "likeCount": 3087,
+      "retweetCount": 280,
+      "author": {
+        "userName": "deepseek_ai",
+        "name": "DeepSeek",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/deepseek_ai/status/2047516926432399791",
+      "is_official": true
+    },
+    {
+      "id": "2047728360818696302",
+      "text": "New Anthropic research: Project Deal.\n\nWe created a marketplace for employees in our San Francisco office, with one big twist. We tasked Claude with buying, selling and negotiating on our colleagues’ behalf. https://t.co/H2f6cLDlAW",
+      "createdAt": "Fri Apr 24 17:24:20 +0000 2026",
+      "viewCount": 851482,
+      "likeCount": 3775,
+      "retweetCount": 251,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2047728360818696302",
+      "is_official": true
+    },
+    {
+      "id": "2047527489422102568",
+      "text": "🐳Ollama is working to have DeepSeek-V4-Pro and Flash available on Ollama's cloud.",
+      "createdAt": "Fri Apr 24 04:06:09 +0000 2026",
+      "viewCount": 78088,
+      "likeCount": 1877,
+      "retweetCount": 135,
+      "author": {
+        "userName": "ollama",
+        "name": "ollama",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/ollama/status/2047527489422102568",
+      "is_official": true
+    },
+    {
+      "id": "2047516945466188072",
+      "text": "API is Available Today!\n\n🔹 Keep base_url, just update model to deepseek-v4-pro or deepseek-v4-flash.\n🔹 Supports OpenAI ChatCompletions & Anthropic APIs.\n🔹 Both models support 1M context & dual modes (Thinking / Non-Thinking): https://t.co/MUPiwkDI8T\n\n⚠️ Note: deepseek-chat & deepseek-reasoner will be fully retired and inaccessible after Jul 24th, 2026, 15:59 (UTC Time). (Currently routing to deepseek-v4-flash non-thinking/thinking).\n\n6/n",
+      "createdAt": "Fri Apr 24 03:24:15 +0000 2026",
+      "viewCount": 276304,
+      "likeCount": 1768,
+      "retweetCount": 108,
+      "author": {
+        "userName": "deepseek_ai",
+        "name": "DeepSeek",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/deepseek_ai/status/2047516945466188072",
+      "is_official": true
+    },
+    {
+      "id": "2047516932140884024",
+      "text": "DeepSeek-V4-Flash\n\n🔹 Reasoning capabilities closely approach V4-Pro.\n🔹 Performs on par with V4-Pro on simple Agent tasks.\n🔹 Smaller parameter size, faster response times, and highly cost-effective API pricing.\n\n3/n",
+      "createdAt": "Fri Apr 24 03:24:12 +0000 2026",
+      "viewCount": 296973,
+      "likeCount": 1840,
+      "retweetCount": 116,
+      "author": {
+        "userName": "deepseek_ai",
+        "name": "DeepSeek",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/deepseek_ai/status/2047516932140884024",
+      "is_official": true
+    },
+    {
+      "id": "2047513613750202452",
+      "text": "DeepSeek v4 is now the #1 open-weight model on our Vibe Code Benchmark, and it’s not close.\n\nIt leaves the #2 (Kimi K2.6) in the dust, and even beats out frontier closed source models like Gemini 3.1 Pro. https://t.co/2KAlbmr6v1",
+      "createdAt": "Fri Apr 24 03:11:01 +0000 2026",
+      "viewCount": 194256,
+      "likeCount": 2452,
+      "retweetCount": 245,
+      "author": {
+        "userName": "ValsAI",
+        "name": "Vals AI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/ValsAI/status/2047513613750202452",
+      "is_official": true
+    },
+    {
+      "id": "2047743651053556126",
+      "text": "Super excited GPT-5.5 is rolling out to GitHub Copilot, M365 Copilot, Copilot Studio, and Foundry today.\n\nWith deeper reasoning, stronger multistep execution, and better performance across long, complex tasks, GPT-5.5 helps you go from idea to execution faster with fewer iterations to get to the right outcome.\n\nIt’s all about helping you choose the right model, or models, for the right task across your workflow.",
+      "createdAt": "Fri Apr 24 18:25:06 +0000 2026",
+      "viewCount": 163900,
+      "likeCount": 2427,
+      "retweetCount": 226,
+      "author": {
+        "userName": "satyanadella",
+        "name": "Satya Nadella",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/satyanadella/status/2047743651053556126",
+      "is_official": false
+    },
+    {
+      "id": "2047744579127185843",
+      "text": "GPT-5.5 is now available in Cursor!\n\nIt's currently the top model on CursorBench at 72.8%.\n\nWe've partnered with OpenAI to offer it for 50% off through May 2.",
+      "createdAt": "Fri Apr 24 18:28:47 +0000 2026",
+      "viewCount": 166640,
+      "likeCount": 3509,
+      "retweetCount": 163,
+      "author": {
+        "userName": "cursor_ai",
+        "name": "Cursor",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/cursor_ai/status/2047744579127185843",
+      "is_official": true
+    },
+    {
+      "id": "2047529894121185479",
+      "text": "it’s official - china’s fucking dominating AI. they’ve caught up.\n\nnew DeepSeek v4 matches GPT-5.5,  costs 86% less. 100% open source.\n\ndon’t take my word for it:\n\n-> deepseek v4 flash is 99% cheaper than opus 4.7 (not a typo). $0.28 per million tokens\n\n-> ranks #1 on code forces benchmark beating gpt 5.4. competitive to 5.5 and opus.\n\nin the last week:\n\n→ Mon: Moonshot drops Kimi K2.6\n→ Wed: Alibaba drops Qwen 3.6-27B\n→ Thurs: DeepSeek drops V4\n\n3 chinese labs, 3 frontier OPEN source models in < 4 (FOUR) days\n\nthere is no way you can argue china hasn’t caught up. \n\ngg",
+      "createdAt": "Fri Apr 24 04:15:42 +0000 2026",
+      "viewCount": 173205,
+      "likeCount": 1325,
+      "retweetCount": 119,
+      "author": {
+        "userName": "cryptopunk7213",
+        "name": "Ejaaz",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/cryptopunk7213/status/2047529894121185479",
+      "is_official": false
+    },
+    {
+      "id": "2047717649849659586",
+      "text": "UPDATE: the DOJ has joined @xAI’s lawsuit against Colorado on First Amendment grounds. AI models should not be required to alter truthful output to comply with DEI.",
+      "createdAt": "Fri Apr 24 16:41:47 +0000 2026",
+      "viewCount": 60373,
+      "likeCount": 1369,
+      "retweetCount": 155,
+      "author": {
+        "userName": "DavidSacks",
+        "name": "David Sacks",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/DavidSacks/status/2047717649849659586",
+      "is_official": false
+    },
+    {
+      "id": "2047516948611960897",
+      "text": "🔹 Amid recent attention, a quick reminder: please rely only on our official accounts for DeepSeek news. Statements from other channels do not reflect our views.\n🔹 Thank you for your continued trust. We remain committed to longtermism, advancing steadily toward our ultimate goal of AGI.\n\n7/n",
+      "createdAt": "Fri Apr 24 03:24:16 +0000 2026",
+      "viewCount": 206721,
+      "likeCount": 1879,
+      "retweetCount": 74,
+      "author": {
+        "userName": "deepseek_ai",
+        "name": "DeepSeek",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/deepseek_ai/status/2047516948611960897",
+      "is_official": true
+    },
+    {
+      "id": "2047516936289017964",
+      "text": "Structural Innovation & Ultra-High Context Efficiency\n\n🔹 Novel Attention: Token-wise compression + DSA (DeepSeek Sparse Attention).\n🔹 Peak Efficiency: World-leading long context with drastically reduced compute & memory costs.\n🔹 1M Standard: 1M context is now the default across all official DeepSeek services.\n\n4/n",
+      "createdAt": "Fri Apr 24 03:24:13 +0000 2026",
+      "viewCount": 530139,
+      "likeCount": 1864,
+      "retweetCount": 134,
+      "author": {
+        "userName": "deepseek_ai",
+        "name": "DeepSeek",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/deepseek_ai/status/2047516936289017964",
+      "is_official": true
+    },
+    {
+      "id": "2047518354903359697",
+      "text": "Exciting news - DeepSeek V4 Pro is in the Arena with 1.6T parameters (49B activated) alongside V4 Flash at 284B parameters (13B activated). Both support 1M token context. It’s a major leap over DeepSeek V3.2!\n\nCode Arena:\n- DeepSeek V4 Pro (thinking): #3 open model (#14 overall), on par with GPT-5.4-high and Gemini-3.1-Pro in agentic webdev tasks\n\nText Arena:\n- DeepSeek V4 Pro (thinking): #2 open model (#14 overall), matching Kimi-2.6\n- DeepSeek V4 Flash (thinking): #10 open model (#47 overall)\n\nCompetition at the top of the open model leaderboards keeps heating up. Huge congrats to @DeepSeek_AI on the strong comeback!",
+      "createdAt": "Fri Apr 24 03:29:51 +0000 2026",
+      "viewCount": 238357,
+      "likeCount": 1647,
+      "retweetCount": 134,
+      "author": {
+        "userName": "arena",
+        "name": "Arena.ai",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/arena/status/2047518354903359697",
+      "is_official": true
+    },
+    {
+      "id": "2047680485208531152",
+      "text": "A mathematician who shared an office with Claude Shannon at Bell Labs gave one lecture in 1986 that explains why some people win Nobel Prizes and other equally smart people spend their whole lives doing forgettable work.\n\nHis name was Richard Hamming. He won the Turing Award. He invented error-correcting codes that made modern computing possible. And he spent 30 years at Bell Labs sitting in a cafeteria at lunch watching which scientists became legendary and which ones faded into nothing.\n\nIn March 1986, he walked into a Bellcore auditorium in front of 200 researchers and told them exactly what he had seen.\n\nHere's the framework that has been quoted by every serious scientist for the last 40 years.\n\nHis opening line landed like a punch. He said most scientists he worked with at Bell Labs were just as smart as the Nobel Prize winners. Just as hardworking. Just as credentialed. And yet at the end of a 40-year career, one group had changed entire fields and the other group was forgotten by the time they retired.\n\nHe wanted to know what the difference actually was. And he said it wasn't luck. It wasn't IQ. It was a specific set of habits that almost nobody is willing to follow.\n\nThe first habit was the one that hurts the most to hear. He said most scientists deliberately avoid the most important problem in their field because the odds of failure are too high. They pick a safe adjacent problem, solve it cleanly, publish it, and move on. And because they never swing at the hard problem, they never hit it. He said if you do not work on an important problem, it is unlikely you will do important work. That is not a motivational line. That is a logical one.\n\nThe second habit was about doors. Literal doors. He noticed that the scientists at Bell Labs who kept their office doors closed got more done in the short term because they had no interruptions. But the scientists who kept their doors open got more done over a career. The open-door scientists were interrupted constantly. They also absorbed every new idea passing through the hallway. Ten years in, they were working on problems the closed-door scientists did not even know existed.\n\nThe third habit was inversion. When Bell Labs refused to give him the team of programmers he wanted, Hamming sat with the rejection for weeks. Then he flipped the question. Instead of asking for programmers to write the programs, he asked why machines could not write the programs themselves. That single inversion pushed him into the frontier of computer science. He said the pattern repeats everywhere. What looks like a defect, if you flip it correctly, becomes the exact thing that pushes you ahead of everyone else.\n\nThe fourth habit was the one that hit me the hardest. He said knowledge and productivity compound like interest. Someone who works 10 percent harder than you does not produce 10 percent more over a career. They produce twice as much. The gap doesn't add. It multiplies. And it compounds silently for years before anyone notices.\n\nHe finished the lecture with a line I have never been able to shake.\n\nHe said Pasteur's famous quote is right. Luck favors the prepared mind. But he meant it literally. You don't hope for luck. You engineer the conditions where luck can land on you. Open doors. Important problems. Inverted questions. Compounded hours. Those are not traits. Those are choices you make every single day.\n\nThe transcript has been sitting on the University of Virginia's computer science website for almost 30 years. The video is free on YouTube. Stripe Press reprinted the full lectures as a book in 2020 and Bret Victor wrote the foreword.\n\nHamming died in 1998. He gave his final lecture a few weeks before. He was 82.\n\nThe lecture that explains why some careers become legendary and others disappear is still free. Most people who could benefit from it will never open it.",
+      "createdAt": "Fri Apr 24 14:14:06 +0000 2026",
+      "viewCount": 102814,
+      "likeCount": 1824,
+      "retweetCount": 476,
+      "author": {
+        "userName": "ihtesham2005",
+        "name": "Ihtesham Ali",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ihtesham2005/status/2047680485208531152",
+      "is_official": false
+    },
+    {
+      "id": "2047715653553942997",
+      "text": "Breaking news: Despite offering its own rival Gemini AI models, Google has committed to invest $10bn in Anthropic at its current valuation with a further $30bn to come in the future. https://t.co/PX25MWlbvg https://t.co/teg2qbG4Gh",
+      "createdAt": "Fri Apr 24 16:33:51 +0000 2026",
+      "viewCount": 167864,
+      "likeCount": 1927,
+      "retweetCount": 506,
+      "author": {
+        "userName": "FT",
+        "name": "Financial Times",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/FT/status/2047715653553942997",
+      "is_official": false
+    },
+    {
+      "id": "2047686986555642196",
+      "text": "OPENAI 🚨: GPT-CODEX-5.5 HAS BEEN SPOTTED IN THE WILD. \n\nFriday feature drop? 👀 https://t.co/j3nPIpw8O2",
+      "createdAt": "Fri Apr 24 14:39:56 +0000 2026",
+      "viewCount": 170555,
+      "likeCount": 1532,
+      "retweetCount": 53,
+      "author": {
+        "userName": "testingcatalog",
+        "name": "TestingCatalog News 🗞",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/testingcatalog/status/2047686986555642196",
+      "is_official": true
+    },
+    {
+      "id": "2047765336125256026",
+      "text": "Heard that Elon is trying to rename cursor to xcode",
+      "createdAt": "Fri Apr 24 19:51:16 +0000 2026",
+      "viewCount": 80473,
+      "likeCount": 1315,
+      "retweetCount": 30,
+      "author": {
+        "userName": "jxnlco",
+        "name": "jason liu",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/jxnlco/status/2047765336125256026",
+      "is_official": false
+    }
+  ]
+}

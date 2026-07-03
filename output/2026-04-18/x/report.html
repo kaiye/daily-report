@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">APR 18, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">最重要的共同信号是，AI 产品正从单纯对话快速走向可直接生成设计、文档、文件与工作流结果的生产级创作平台。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@claudeai</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Claude</span>：我们发布了 Anthropic Labs 的 Claude Design，只需和 Claude 对话就能做原型、幻灯片和单页内容；由更强的视觉模型 Claude Opus 4.7 驱动，现已向部分付费方案逐步开放研究预览。
+          </p>
+          <p class="item-metric">👁 26.2M · ❤️ 90.7K</p>
+          <a class="item-link" href="https://twitter.com/claudeai/status/2045156267690213649">https://twitter.com/claudeai/status/2045156267690213649</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@ClaudeDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ClaudeDevs</span>：我们为 Claude Code 增加了更细的用量可见性；运行 /usage 就能看到并行会话、子代理、缓存未命中和长上下文等消耗来源，以及各自的优化建议。
+          </p>
+          <p class="item-metric">👁 140.9K · ❤️ 3.6K</p>
+          <a class="item-link" href="https://twitter.com/ClaudeDevs/status/2045206682830303358">https://twitter.com/ClaudeDevs/status/2045206682830303358</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@canva</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Canva</span>：我们与 Anthropic 的新合作已经上线：Canva 现已接入 Claude Design，可在 Claude 里生成想法，再无缝到 Canva 中编辑，不必从零开始。
+          </p>
+          <p class="item-metric">👁 705.3K · ❤️ 4.8K</p>
+          <a class="item-link" href="https://twitter.com/canva/status/2045163029138948493">https://twitter.com/canva/status/2045163029138948493</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@primemans</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Prime AI</span>：这效果太夸张了：很多人学语言很多年还是开不了口，而我认为 Claude 用 4 周做到了 Duolingo 4 年都没解决的事，下面会分享提示词。
+          </p>
+          <p class="item-metric">👁 283.8K · ❤️ 2.1K</p>
+          <a class="item-link" href="https://twitter.com/primemans/status/2045052912221724801">https://twitter.com/primemans/status/2045052912221724801</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@cb_doge</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">DogeDesigner</span>：我认为 Grok 4.3（测试版）通过了 Caitlyn Jenner AI 测试，而 ChatGPT 依然过不了；在我看来这轮是 Grok 再次胜出。
+          </p>
+          <p class="item-metric">👁 318.4K · ❤️ 1.8K</p>
+          <a class="item-link" href="https://twitter.com/cb_doge/status/2045151254889041951">https://twitter.com/cb_doge/status/2045151254889041951</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@tetsuoai</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">tetsuo</span>：grok 4.3 beta 现在能调用 Ubuntu shell 和持久文件层来生成成品；我让它写脚本把 xAI/Grok 标志编码成音频，再渲染成频谱视频并保存到文件层，整个流程已经非常夸张。
+          </p>
+          <p class="item-metric">👁 5.2M · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/tetsuoai/status/2045180268605260148">https://twitter.com/tetsuoai/status/2045180268605260148</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@techdevnotes</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Tech Dev Notes</span>：Grok 4.3 现在已经能创建 PDF，以及表格、幻灯片、文档等几乎各种文件格式。
+          </p>
+          <p class="item-metric">👁 6.8M · ❤️ 1.9K</p>
+          <a class="item-link" href="https://twitter.com/techdevnotes/status/2045092507881451802">https://twitter.com/techdevnotes/status/2045092507881451802</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@theo</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Theo - t3.gg</span>：“很多人都在用 Claude Code，所以它没那么差”——我不认同这种心态；这正是行业当年被 Internet Explorer 拖住的方式，我会继续推动大家把产品做得更好。
+          </p>
+          <p class="item-metric">👁 42.6K · ❤️ 1.9K</p>
+          <a class="item-link" href="https://twitter.com/theo/status/2045056886450553129">https://twitter.com/theo/status/2045056886450553129</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@Bouazizalex</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Alex Bouaziz</span>：致强大的 Dario Amodei、Claude 之父：还请把薪资业务留给我们 Deel；我们只是处理工资单和合规的小团队，如果你们真要做，至少先给我打个电话。
+          </p>
+          <p class="item-metric">👁 517.4K · ❤️ 3.3K</p>
+          <a class="item-link" href="https://twitter.com/Bouazizalex/status/2045174906913014101">https://twitter.com/Bouazizalex/status/2045174906913014101</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@kevinweil</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Kevin Weil 🇺🇸</span>：今天是我在 OpenAI 的最后一天，因为 OpenAI for Science 正被分散到其他研究团队；这两年非常开阔认知，我依然相信加速科学会是通往 AGI 过程中最积极的成果之一。
+          </p>
+          <p class="item-metric">👁 253.1K · ❤️ 2.7K</p>
+          <a class="item-link" href="https://twitter.com/kevinweil/status/2045230426210648348">https://twitter.com/kevinweil/status/2045230426210648348</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

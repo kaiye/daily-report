@@ -1,0 +1,377 @@
+{
+  "generated_at": "2026-06-09T00:01:21.940Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 31,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "集成 Coding 和 Agent 工具，ChatGPT 打造超级应用；两部门出台《规范》整治网络测评活动；京东、腾讯围绕 AI Agent 合作 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108330&idx=1&sn=05e52468c38ae5d3ed42baa5450f153c",
+      "published_at": "2026-06-08T01:02:00.000Z",
+      "summary": "Li Yuan 2026-06-08 09:02 北京\n\n折叠屏 iPhone 模型更多实拍曝光；孙正义表示超级智能两年内到来；机器人流量首度超越人类\n\n## OpenAI 启动 ChatGPT 问世以来最大改版\n\n据《金融时报》报道，OpenAI 计划在未来数周内推出改版后的 ChatGPT，将其打造成集成编码工具和 AI 代理（agents）的「超级应用」，以强化在企业客户中的竞争力，并在潜在 IPO 前进一步接近盈利目标。\n\n改版后的 ChatGPT 将被设计为一个入口产品，把免费用户引导至更具付费潜力的服务，例如其编码产品 Codex。报道援引一名 OpenAI 高级员工的话称，「聊天",
+      "priority_score": 450,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "阿里RTPurboV2：原生Transformer再次崛起，百步训练实现10倍稀疏注意",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037653&idx=1&sn=9a9352fb7a5ce8b8e51baea10016f3fa",
+      "published_at": "2026-06-08T02:07:00.000Z",
+      "summary": "机器之心 2026-06-08 10:07 北京\n\n“Full Attention 正在被遗忘”\n\n机器之心发布\n\n“Full Attention 正在被遗忘”\n\n随着 Agent 的广泛应用带来的长序列需求，传统 GPT 架构的 Attention 部分，由于其 O (N^2) 的计算复杂度，正逐渐被视为性能瓶颈而遭到替换。而 Attention 机制的架构迭代，也正在以前所未有的速度推进。目前业界的主流方案大致可以分为两种：Linear Attention 和 Sparse Attention。其中 Linear Attention 以 Qwen-Next 和 Kimi-K2 为代表，本质",
+      "priority_score": 350,
+      "matched_keywords": [
+        "GPT",
+        "Qwen",
+        "Kimi"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "横向拆解Claude Code、Codex等六大Agent上下文压缩策略后，我们做了第 7 个",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801845&idx=1&sn=25c1772d233048ad058811b25ff90a5b",
+      "published_at": "2026-06-08T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-06-08 17:36 广东\n\n一套可直接落地的可实践方案\n\n作者：mervynyang\n横向拆解六大 Agent 的上下文压缩策略，提炼通用配方，并面向云端多用户的 Agent 场景落地一套四级水位线方案。\n### 1. 同一个问题，六种做法\n\nAgent 要做上下文压缩，如今几乎成为所有 agent 必做的一环。有意思的是怎么做——我花了不少时间把主流方案扒了一遍，发现大家的分歧大得离谱。\n\n| 产品 | 核心策略 | 一句话概括 |\n| --- | --- | --- |\n| Claude Code | 五段流水线，按成本递增排列 | 便宜的本地操作先上，LLM",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Claude",
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI files for IPO, following Anthropic",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential",
+      "published_at": "2026-06-08T21:38:29.000Z",
+      "summary": "OpenAI on Monday checked off a preliminary step in the IPO race that it and rival Anthropic have been competing in for the better part of a year: The company announced it has confidentially submitted a Form S-1 with the US Securities and Exchange Commission, following[Anthropic's decision to do the ",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI files confidentially for IPO, following Anthropic",
+      "url": "https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/",
+      "published_at": "2026-06-08T21:29:57.000Z",
+      "summary": "The filing comes a little more than a week after its main rival, Anthropic, also filed to go public, ramping up the race between the two AI firms.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "解锁Agent Swarm新潜力，openJiuwen又一力作：多智能体流网络",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037653&idx=3&sn=1959e79cb613dd89bd2c98834312823b",
+      "published_at": "2026-06-08T02:07:00.000Z",
+      "summary": "机器之心 2026-06-08 10:07 北京\n\n通过将多智能体系统的结构、任务分解与路径选择紧密集成，不仅关注单个智能体的性能，还强调整体工作流的协调优化。\n\n多智能体协作对于解决复杂问题虽然具有巨大优势，但是其架构本质上易出现错误传播，因为由不正确的工作流生成或单智能体幻觉输出引起的错误会沿着协作链蔓延，影响最终结果。\n\n从 CAMEL、AutoGen、MetaGPT 等依赖人工配置的多智能体框架，到 ADAS、AFlow、AgentSquare、AgentSwift 等自动化工作流生成系统，多智能体技术正在从 “人工设计” 迈向 “自主优化”。然而，现有方法大多基于启发式策略搜索，其性",
+      "priority_score": 122,
+      "matched_keywords": [
+        "GPT"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "As OpenAI files for IPO, Sam Altman’s eye-scanning company is doing layoffs, report says",
+      "url": "https://techcrunch.com/2026/06/08/as-openai-files-for-ipo-sam-altmans-eye-scanning-company-is-doing-layoffs-report-says/",
+      "published_at": "2026-06-08T22:41:45.000Z",
+      "summary": "Tools for Humanity, Sam Altman's identify verification company, is reportedly struggling to generate revenue and will downsize its staff.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: how the World Cup ball will fly and OpenAI’s “super app”",
+      "url": "https://www.technologyreview.com/2026/06/08/1138485/the-download-world-cup-ball-openai-super-app/",
+      "published_at": "2026-06-08T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Why this year’s World",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "NotebookLMs Gemini 3.5 upgrade adds a cloud computer and help finding sources",
+      "url": "https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update",
+      "published_at": "2026-06-08T16:00:00.000Z",
+      "summary": "Google is rolling out \"across the board\" updates to NotebookLM. The AI-powered note-taking app now uses Google's upgraded[Gemini 3.5 model](https://www.theverge.com/tech/933699/google-gemini-redesign-ai-3-5-flash-io-2026), which will allow it to respond with \"more accurate and reliable information,\"",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple plays catch-up at WWDC",
+      "url": "https://techcrunch.com/2026/06/08/apple-plays-catch-up-at-wwdc/",
+      "published_at": "2026-06-08T21:15:42.000Z",
+      "summary": "Apple spent much of its WWDC keynote highlighting fixes, performance improvements, and long-requested features before unveiling its upgraded AI-powered Siri, signaling that the company wants users to see AI as just one part of a broader effort to improve its software.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple just taught your iPhone to finish your sentences, your photos, and your workflows",
+      "url": "https://techcrunch.com/2026/06/08/apple-just-taught-your-iphone-to-finish-your-sentences-your-photos-and-your-workflows/",
+      "published_at": "2026-06-08T18:48:45.000Z",
+      "summary": "Apple is adding new AI-powered features to Safari, Shortcuts, and Password apps.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple’s Photos app is getting new AI editing features",
+      "url": "https://techcrunch.com/2026/06/08/apples-photos-app-is-getting-new-ai-editing-features/",
+      "published_at": "2026-06-08T18:36:04.000Z",
+      "summary": "A new spatial \"Reframe\" feature will let users use AI to adjust perspectives.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple is fixing the headache of splitting the bill with its new Siri in Camera feature",
+      "url": "https://techcrunch.com/2026/06/08/apple-is-fixing-the-headache-of-splitting-the-bill-with-its-new-siri-in-camera-feature/",
+      "published_at": "2026-06-08T18:23:04.000Z",
+      "summary": "\"If you're grabbing a bite with friends and point your iPhone at the bill, then [you can] select what you ordered to split the tab with Apple Cash,\" said Apple VP of Software Sebastien Marineau-Mes.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Amazon is launching AI-generated custom merch",
+      "url": "https://www.theverge.com/news/945905/amazon-alexa-shopping-ai-generated-custom-merch-design-printing",
+      "published_at": "2026-06-08T17:52:51.000Z",
+      "summary": "Amazon is expanding its print-on-demand features to[AI-generated designs created using Alexa for Shopping](https://www.aboutamazon.com/news/retail/design-merch-with-ai-alexa-for-shopping)for products like T-shirts, water bottles, and hoodies.\n\nShoppers can use text prompts to generate images that ar",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Apple announces Siri AI and its next generation of Apple Intelligence",
+      "url": "https://www.theverge.com/tech/942416/apple-siri-ai-update-wwdc",
+      "published_at": "2026-06-08T17:34:24.000Z",
+      "summary": "Two years after first revealing its plans for Apple Intelligence and a smarter Siri that never fully materialized, at WWDC, Apple just revealed a new set of AI features and a smarter, more personalized Siri.\n\nApple calls Siri AI an \"entirely new version of Siri\" and says it's both more conversationa",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Amazon now lets you design custom merch using AI",
+      "url": "https://techcrunch.com/2026/06/08/amazon-now-lets-you-design-custom-merch-using-ai/",
+      "published_at": "2026-06-08T15:49:12.000Z",
+      "summary": "A new feature in the Amazon Shopping app allows users to generate designs with Alexa, then print them on products like T-shirts, hoodies, and tumblers.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "WWDC 2026: How to watch and what to expect",
+      "url": "https://www.theverge.com/tech/944099/wwdc-2026-how-to-watch",
+      "published_at": "2026-06-08T11:00:00.000Z",
+      "summary": "Apple's biggest event of the year is nearly here. The company's Worldwide Developers Conference will spotlight updates to iOS, macOS, and all of Apple's other operating systems, and this year's event could also include a major overhaul for Siri. Here's how you can watch along live.\n\n## When WWDC wil",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "Token「免费」时代来了？对话 Agnes AI 创始人，全模态免费的生意与野心",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108342&idx=1&sn=791e8651b8bd11d9fda4d3f9e9c5becd",
+      "published_at": "2026-06-08T10:12:00.000Z",
+      "summary": "原创徐珊 2026-06-08 18:12 湖北\n\n​当 token 不要钱，人的野心会变大。\n\n当 token 不要钱，人的野心会变大。\n\n**作者｜ 徐珊** **编辑｜ **靖宇****\n\n过去一年真正在用 AI 的人都会有同一个感受——AI 越来越贵了。以前一个月 20 美元的订阅可能都花不完，但自从 agent 和 vibe coding 流行起来，token 就烧得像流水，一个 coding agent 挂着跑上一下午，账单金额越堆越高。于是大家慢慢学会了精打细算，这个任务值不值得让它跑、这段代码要不要让 AI 再重写一遍，很多想法刚冒出来，就被一句「这得烧多少 token」先摁了",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "你的 Agent 每次都“失忆”？这个工具彻底治好了我的前端开发焦虑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520252&idx=1&sn=965325b6e00360e3d3bd90f561598f17",
+      "published_at": "2026-06-08T09:08:00.000Z",
+      "summary": "原创OpenViking 2026-06-08 17:08 北京\n\n凌晨一点，你刚和 Agent 把要设计的前端页面风格敲定——采用深色科技风格的背景，页面字体一致——然后关掉会话去睡觉。\n\n第二天一早，你重新开一个窗口，输入「帮我继续做数据看板」。\n\n然后 AI 给你吐出了 **一张白色卡片，文字忽大忽小，五花八门的字体看得你眼花缭乱** 。\n\n那一刻你意识到：你不是在用一个 AI 工具——你是在喂养一条 **每天早上失忆的金鱼** 。你所有的心血，在会话关闭的那一刻就已经全部清零。\n\n你的 Agent 额度用完了，想换个工具接着干，却遇到了更糟心的事：用 Trae 对齐了交互逻辑，切到 C",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple’s WWDC AI demos looked more real after $250M false ad settlement",
+      "url": "https://techcrunch.com/2026/06/08/apples-wwdc-ai-demos-looked-more-real-after-250m-false-ad-settlement/",
+      "published_at": "2026-06-08T22:39:57.000Z",
+      "summary": "The vibe of Apple's 2026 WWDC keynote felt like a spouse proudly listing all the honey-do-list items tackled. One subtle example: the many AI demos of someone standing, phone in hand.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Apple is using AI to fix Safari’s extension problem",
+      "url": "https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions",
+      "published_at": "2026-06-08T22:14:17.000Z",
+      "summary": "Apple is trying to solve one of Safari's biggest weaknesses with AI. Safari has long lacked the robust library of extensions that its rivals have, mainly due to the stringent development[requirements from Apple](https://www.howtogeek.com/safari-is-missing-your-favorite-extensions/). But now, Apple i",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple bets cheaper AI will woo small developers",
+      "url": "https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/",
+      "published_at": "2026-06-08T20:53:55.000Z",
+      "summary": "As AI experimentation grows more expensive, Apple is waiving cloud API costs for developers with fewer than 2 million first-time App Store downloads.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more",
+      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/",
+      "published_at": "2026-06-08T19:41:32.000Z",
+      "summary": "Apple primarily made the case for an improved experience with its longstanding Siri assistant, which like most other announcements had a hefty helping of AI.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple will let you build workflows using AI in its new Shortcuts app",
+      "url": "https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/",
+      "published_at": "2026-06-08T18:45:12.000Z",
+      "summary": "Shortcuts gets an AI upgrade, letting you describe the workflow you want in a prompt.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple’s Image Playground doesn’t suck anymore",
+      "url": "https://techcrunch.com/2026/06/08/apples-image-playground-doesnt-suck-anymore/",
+      "published_at": "2026-06-08T18:38:07.000Z",
+      "summary": "Apple's AI image generator is getting a makeover that could make it more competitive.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple gives Siri its own dedicated app",
+      "url": "https://techcrunch.com/2026/06/08/apple-gives-siri-its-own-dedicated-app/",
+      "published_at": "2026-06-08T18:33:42.000Z",
+      "summary": "Siri is finally getting its own app.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple’s long-awaited AI Siri overhaul is finally here",
+      "url": "https://techcrunch.com/2026/06/08/apples-long-awaited-ai-siri-overhaul-is-finally-here/",
+      "published_at": "2026-06-08T17:56:21.000Z",
+      "summary": "The idea behind the new \"Siri AI\" is to turn the assistant from a voice controlled assistant into an AI companion that can do a lot more.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "WWDC 2026: What to expect, from Siri’s highly anticipated revamp to Apple Intelligence and iOS 27",
+      "url": "https://techcrunch.com/2026/06/08/wwdc-2026-what-to-expect-from-siris-highly-anticipated-revamp-to-apple-intelligence-and-ios-27/",
+      "published_at": "2026-06-08T15:34:59.000Z",
+      "summary": "Apple's WWDC nears: Here's what you can look forward to.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft’s AI chief says superintelligence is near, but won’t take your job",
+      "url": "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation",
+      "published_at": "2026-06-08T14:00:00.000Z",
+      "summary": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. And I’m actually going to keep today’s intro short — I’m working from my wife’s family farm this week, as you’ll see in the video, but also this is a real burner of an episode.\n\nWe covered everything from Mustafa’s approach to trainin",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Why this year’s World Cup ball may not fly as far",
+      "url": "https://www.technologyreview.com/2026/06/08/1138470/why-this-years-world-cup-ball-may-not-fly-as-far/",
+      "published_at": "2026-06-08T09:00:00.000Z",
+      "summary": "Much is new about this month’s upcoming FIFA World Cup tournament, which will be held in the US, Canada, and Mexico. It hosts more teams than ever before. It’s the first to occur in three different host countries. And, like predecessor cups for over half a century, it will employ a soccer ball with ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "作为一个招蚊体质，这是我第一个真心支持的AI项目",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037653&idx=2&sn=5d72e1cd06c0d4eb87969b6cf8f34302",
+      "published_at": "2026-06-08T02:07:00.000Z",
+      "summary": "原创招蚊体质的 2026-06-08 10:07 北京\n\n高射炮打蚊子，这下子成真了。\n\n编辑｜Sia\n\n入夏之后，我们又迎来了一年一度的深夜终极副本：关灯，躺下。三秒后，耳边准时响起：嗡——嗡嗡——嗡嗡嗡。\n\n开灯，找不到。关灯，继续嗡。\n\n贴着耳朵 360° 环绕立体声输出，精准拿捏我的血压。\n\n人类反复开灯破防，蚊子持续暗中嘲讽。\n\n蚊子这种生物，确实奇妙。\n\n它究竟能为整个生态系统带来多少不可替代的价值，不一定说得清；但只要它一出现，人类就会失眠、抓狂、破防。\n\n它们不仅战斗力顽强，繁殖力还像开了外挂，又缺乏天敌的绝对制约，以至于在这个充满分歧的人类世界里，讨厌蚊子，可能是少数几个能达",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

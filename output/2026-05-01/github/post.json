@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-05-01T00:01:42.682Z",
+  "source_raw": "raw.json",
+  "source_count": 13,
+  "item_count": 12,
+  "language_breakdown": {
+    "Rust": 2,
+    "Python": 4,
+    "Shell": 2,
+    "TypeScript": 1,
+    "Kotlin": 1,
+    "Zig": 1,
+    "Unknown": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "stars_today": 8399,
+      "stars_total": 49153,
+      "forks": 3189
+    },
+    {
+      "rank": 2,
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars_today": 2023,
+      "stars_total": 57691,
+      "forks": 10944
+    },
+    {
+      "rank": 3,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars_today": 6187,
+      "stars_total": 49388,
+      "forks": 4045
+    },
+    {
+      "rank": 4,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1632,
+      "stars_total": 174554,
+      "forks": 15405
+    },
+    {
+      "rank": 5,
+      "repo": "lukilabs/craft-agents-oss",
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "description": "To understand what Craft Agents does and how it works watch this video.\n\nClick Here (or on the image above) to watch the video on YouTube →",
+      "language": "TypeScript",
+      "stars_today": 319,
+      "stars_total": 5563,
+      "forks": 738
+    },
+    {
+      "rank": 6,
+      "repo": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars_today": 322,
+      "stars_total": 429502,
+      "forks": 46863
+    },
+    {
+      "rank": 7,
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars_today": 675,
+      "stars_total": 1869,
+      "forks": 171
+    },
+    {
+      "rank": 8,
+      "repo": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars_today": 730,
+      "stars_total": 20826,
+      "forks": 1448
+    },
+    {
+      "rank": 9,
+      "repo": "HunxByts/GhostTrack",
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "language": "Python",
+      "stars_today": 841,
+      "stars_total": 12164,
+      "forks": 1629
+    },
+    {
+      "rank": 10,
+      "repo": "iamgio/quarkdown",
+      "url": "https://github.com/iamgio/quarkdown",
+      "description": "🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.",
+      "language": "Kotlin",
+      "stars_today": 177,
+      "stars_total": 13051,
+      "forks": 357
+    },
+    {
+      "rank": 11,
+      "repo": "ghostty-org/ghostty",
+      "url": "https://github.com/ghostty-org/ghostty",
+      "description": "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "language": "Zig",
+      "stars_today": 341,
+      "stars_total": 52843,
+      "forks": 2562
+    },
+    {
+      "rank": 12,
+      "repo": "ForrestKnight/open-source-cs",
+      "url": "https://github.com/ForrestKnight/open-source-cs",
+      "description": "Video discussing this curriculum:",
+      "language": "Unknown",
+      "stars_today": 140,
+      "stars_total": 22370,
+      "forks": 3212
+    }
+  ]
+}

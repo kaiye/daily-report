@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>媒体资讯</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #2a1f0f;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #ffc069;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #ffd8ab;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #ffe8cc 0%, #fff7ed 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #ffe0bf;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #ffe0bf;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #ffc069 88%, white) 0%,
+      color-mix(in srgb, #ffc069 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #ffe0bf;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">Media & News Watch</p>
+        </div>
+        <p class="date-chip">JUN 15, 2026</p>
+      </div>
+      <h1 class="hero-title">媒体资讯</h1>
+      <p class="hero-summary">今日重点AI报道集中在头部模型公司的访问限制与监管压力、Agent基础设施升级，以及推理效率和行业并购等基础层变化。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anthropic暂停新模型访问后，印度讨论自身AI未来</span>：Anthropic限制新模型访问引发印度科技界讨论，焦点转向该事件是否会推动印度重新评估本土AI能力建设。
+          </p>
+          <p class="item-metric">2026-06-14 03:00:00 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/">https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">中国可能曾访问Anthropic的Mythos模型</span>：白宫限制Anthropic相关模型出口的决定被指与中国可能接触Mythos模型的担忧有关。
+          </p>
+          <p class="item-metric">2026-06-14 18:27:55 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos">https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">新智元</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI遭美国多州传票调查AI沟通方式</span>：美国多个州总检察长对OpenAI展开调查，范围涉及广告、用户留存、数据使用和未成年人相关问题。
+          </p>
+          <p class="item-metric">2026-06-14 04:38:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652707105&amp;idx=2&amp;sn=4e2b6b448d43478d8a6cc17e81b743e4">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652707105&amp;idx=2&amp;sn=4e2b6b448d43478d8a6cc17e81b743e4</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">新智元</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">开发者用一行代码让Fable 5能力在Opus 4.8中复现</span>：文章称开发者通过泄露的系统级Prompt注入，让Opus 4.8在网页生成测试中呈现类似Fable 5的表现。
+          </p>
+          <p class="item-metric">2026-06-14 04:38:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652707105&amp;idx=1&amp;sn=f6fef07f5b156c1146e1d81905f3887a">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652707105&amp;idx=1&amp;sn=f6fef07f5b156c1146e1d81905f3887a</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">量子位</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">华为云发布面向Agent时代的基础设施工具</span>：华为云在INSPIRE创想者大会上发布一批Agentic工具，试图解决Agent在响应、记忆和执行等环节的基础设施瓶颈。
+          </p>
+          <p class="item-metric">2026-06-14 04:00:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247897349&amp;idx=1&amp;sn=28447d634d3e27883ce00d1099701268">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247897349&amp;idx=1&amp;sn=28447d634d3e27883ce00d1099701268</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Meta据称因北京要求撤销20亿美元Manus交易</span>：Meta被曝开始拆解对Manus的20亿美元收购交易，原因是北京方面要求该交易被撤回。
+          </p>
+          <p class="item-metric">2026-06-14 00:03:49 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/">https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">量子位</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">百度与复旦提出按投资回报率分配KV Cache的方法</span>：百度百舸团队联合复旦提出长上下文推理优化方案，在压缩80% KV Cache的同时将性能损失控制在0.52%。
+          </p>
+          <p class="item-metric">2026-06-14 04:00:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247897349&amp;idx=2&amp;sn=14ceeec45a2f6803e40bc7b029964120">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247897349&amp;idx=2&amp;sn=14ceeec45a2f6803e40bc7b029964120</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">机器之心</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">GaussianDWM用3D高斯统一自动驾驶理解与生成</span>：GaussianDWM面向自动驾驶世界模型，在统一3D场景表示中同时支持场景理解、空间定位和多模态生成任务。
+          </p>
+          <p class="item-metric">2026-06-14 02:51:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651038961&amp;idx=2&amp;sn=6cec715df102f8b6c3869339d4bd4ac1">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651038961&amp;idx=2&amp;sn=6cec715df102f8b6c3869339d4bd4ac1</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">量子位</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">清华团队提出全球气候模态统一预测模型UniCM</span>：清华大学团队联合研究人员提出UniCM，实现对七类关键气候模态的统一建模与预测。
+          </p>
+          <p class="item-metric">2026-06-14 04:00:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247897349&amp;idx=3&amp;sn=5c778ae0801953d9b307cb1582ec4cd1">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247897349&amp;idx=3&amp;sn=5c778ae0801953d9b307cb1582ec4cd1</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

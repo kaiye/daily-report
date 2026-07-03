@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-06-22T00:02:45.817Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-21",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2068765723569324462",
+      "text": "I'm joining OpenAI next week!🥹 The job search turned out to be really challenging but also super rewarding, so I wrote a small blog to share what I learned along the way and hopefully make the process a little less mysterious for the next person. https://t.co/6FigSBdenD",
+      "createdAt": "Sun Jun 21 18:39:18 +0000 2026",
+      "viewCount": 97391,
+      "likeCount": 1839,
+      "retweetCount": 101,
+      "author": {
+        "userName": "alisawuffles",
+        "name": "Alisa Liu",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/alisawuffles/status/2068765723569324462",
+      "is_official": false
+    },
+    {
+      "id": "2068601132998410400",
+      "text": "just in case you don’t know, the company behind GLM 5.2 is publicly listed, and its stock has gone up 15× in the past six months https://t.co/YI568Lq2NX",
+      "createdAt": "Sun Jun 21 07:45:17 +0000 2026",
+      "viewCount": 468043,
+      "likeCount": 2521,
+      "retweetCount": 150,
+      "author": {
+        "userName": "guohao_li",
+        "name": "Guohao Li 🐫",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/guohao_li/status/2068601132998410400",
+      "is_official": false
+    },
+    {
+      "id": "2068533586131841072",
+      "text": "I see a lot of people hyped about GLM-5.2. Rightfully so! Having an open weight model surpass GPT-5.4 and every Gemini model is dope.\n\nThat said - it's not cheap. Both Opus 4.8 and GPT-5.5 set to \"medium\" are cheaper and smarter than GLM-5.2 https://t.co/SPovI1LKnZ",
+      "createdAt": "Sun Jun 21 03:16:53 +0000 2026",
+      "viewCount": 269403,
+      "likeCount": 4452,
+      "retweetCount": 158,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2068533586131841072",
+      "is_official": false
+    },
+    {
+      "id": "2068718912041066519",
+      "text": "Temperature check on AI recruiting, here's an n of 1: a friend of mine just left OpenAI ($2M/year total comp) to go to Google ($8M/year total comp, cash/RSUs). They joined OpenAI well past ChatGPT launch and are research adjacent, but mainly software dev, not researcher.",
+      "createdAt": "Sun Jun 21 15:33:18 +0000 2026",
+      "viewCount": 282420,
+      "likeCount": 1580,
+      "retweetCount": 20,
+      "author": {
+        "userName": "0xfdf",
+        "name": "fdf",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/0xfdf/status/2068718912041066519",
+      "is_official": false
+    },
+    {
+      "id": "2068761809318990054",
+      "text": "codex for testing every single feature in your app:",
+      "createdAt": "Sun Jun 21 18:23:45 +0000 2026",
+      "viewCount": 369185,
+      "likeCount": 2155,
+      "retweetCount": 89,
+      "author": {
+        "userName": "gdb",
+        "name": "Greg Brockman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/gdb/status/2068761809318990054",
+      "is_official": false
+    },
+    {
+      "id": "2068690663919530207",
+      "text": "Anthropic engineers just showed how they build a full app from scratch, using a loop of agents\n\n40 minutes from the team behind Claude Code\n\nthey used three agents: one to plan, one to build, one to judge, cycling until the app actually works\n\nthe winners won't have the smartest model, they'll have the best loop\n\nwatch it, then read the full guide on how to actually use loops below",
+      "createdAt": "Sun Jun 21 13:41:03 +0000 2026",
+      "viewCount": 657080,
+      "likeCount": 2967,
+      "retweetCount": 366,
+      "author": {
+        "userName": "AnatoliKopadze",
+        "name": "Anatoli Kopadze",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AnatoliKopadze/status/2068690663919530207",
+      "is_official": false
+    },
+    {
+      "id": "2068595585121484866",
+      "text": "Want a good \"first loop\" to use with Codex?\n\n\"When you are done designing the API, get a second opinion from Opus with 'claude -p'\"\n\nThis has significantly improved the quality of the code I get out of OpenAI models.",
+      "createdAt": "Sun Jun 21 07:23:14 +0000 2026",
+      "viewCount": 205117,
+      "likeCount": 3553,
+      "retweetCount": 89,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2068595585121484866",
+      "is_official": false
+    },
+    {
+      "id": "2068627267488710930",
+      "text": "Anthropic engineer: \"You're not supposed to prompt Claude. You're supposed to build a system that prompts itself.\"\n\nLoops.\n\nMost builders are doing this wrong:\n\nNo memory file, so every loop starts from zero.\nNo sub-agent split, so one agent tries to do everything.\nNo stop condition, so loops run forever and bill you in your sleep.\n\nMost builders are missing at least two of the three.\n\nWatch the video first.\n\nThen read this - everything you need to know about Loops in 2026, in one place.\n\nBookmark this before it gets buried.",
+      "createdAt": "Sun Jun 21 09:29:08 +0000 2026",
+      "viewCount": 395402,
+      "likeCount": 1547,
+      "retweetCount": 209,
+      "author": {
+        "userName": "sairahul1",
+        "name": "Rahul",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sairahul1/status/2068627267488710930",
+      "is_official": true
+    },
+    {
+      "id": "2068494072281448959",
+      "text": "If Codex wins over Claude Code it will be purely because \n\n1. Claude team truly treats the user interface like shit (they don't fix widely reported bugs and inconveniences for months, idk what does Boris run his infinite token loops for even?)\n\n2. They keep overselling this \"coding is solved\" when clearly they cannot create a good frontend product across their mobile app, their website or their TUI. Claude mobile app is a horrible product, the desktop app is so buggy, conversations hang, get lost, remain dangling.... it is almost as if no one in the team ever tries their own products for 5 minutes",
+      "createdAt": "Sun Jun 21 00:39:52 +0000 2026",
+      "viewCount": 315461,
+      "likeCount": 1459,
+      "retweetCount": 52,
+      "author": {
+        "userName": "championswimmer",
+        "name": "Arnav Gupta",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/championswimmer/status/2068494072281448959",
+      "is_official": false
+    },
+    {
+      "id": "2068635266290426235",
+      "text": "If Claude Code dropped in 2010: https://t.co/YSt0ygkc3M",
+      "createdAt": "Sun Jun 21 10:00:55 +0000 2026",
+      "viewCount": 264298,
+      "likeCount": 12297,
+      "retweetCount": 399,
+      "author": {
+        "userName": "AliGrids",
+        "name": "Ali Grids",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AliGrids/status/2068635266290426235",
+      "is_official": false
+    },
+    {
+      "id": "2068507998343885284",
+      "text": "The interaction between AI &amp; past scholarly work is going to get weird. Here I gave GPT-5.5 Pro a copy of my first published paper from grad school &amp; asked it to find errors and update it.\n\nIt found new data, analyzed it, created reproducible files, extended the key argument... https://t.co/QRalGbsE81",
+      "createdAt": "Sun Jun 21 01:35:12 +0000 2026",
+      "viewCount": 153809,
+      "likeCount": 1006,
+      "retweetCount": 85,
+      "author": {
+        "userName": "emollick",
+        "name": "Ethan Mollick",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/emollick/status/2068507998343885284",
+      "is_official": false
+    },
+    {
+      "id": "2068648048222511512",
+      "text": "This is the former VP of Google DeepMind, among other things.",
+      "createdAt": "Sun Jun 21 10:51:42 +0000 2026",
+      "viewCount": 244883,
+      "likeCount": 1453,
+      "retweetCount": 50,
+      "author": {
+        "userName": "Scobleizer",
+        "name": "Robert Scoble",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Scobleizer/status/2068648048222511512",
+      "is_official": false
+    },
+    {
+      "id": "2068674430864335150",
+      "text": "after close to four years at @openai, i moved from the bay area to india earlier this year. i still believe deeply in ensuring true superintelligence accelerates science and remains accessible and beneficial to all. having grown up here, i've also always felt deeply connected to the ecosystem here.\n\nover the past several weeks, i've been speaking with researchers, engineers, and thinkers across india and apac. it's become clear that there are many who want to build the future from here. moving back felt like the counterintuitive choice. i no longer think that's true.\n\nwhat's been missing is the belief that you can build institutions of global consequence from anywhere. and more importantly, the ambition and the will to pursue ideas that seem impossibly large at first. this may be a once in a generation opportunity.\n\nmore to come soon. DMs open if this resonates.",
+      "createdAt": "Sun Jun 21 12:36:33 +0000 2026",
+      "viewCount": 323956,
+      "likeCount": 3391,
+      "retweetCount": 219,
+      "author": {
+        "userName": "shyamalanadkat",
+        "name": "shyamal",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/shyamalanadkat/status/2068674430864335150",
+      "is_official": false
+    },
+    {
+      "id": "2068709028985810956",
+      "text": "Grok 5 is currently training on 6 &amp; 10 trillion parameters at the Supercomputer COLOSSUS 2, which is the largest and most powerful AI Supercluster in the world. The release is expected by the end of this year. https://t.co/mIqOTcU1ee",
+      "createdAt": "Sun Jun 21 14:54:01 +0000 2026",
+      "viewCount": 148106,
+      "likeCount": 1454,
+      "retweetCount": 93,
+      "author": {
+        "userName": "testerlabor",
+        "name": "Testlabor",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/testerlabor/status/2068709028985810956",
+      "is_official": false
+    },
+    {
+      "id": "2068753952850546985",
+      "text": "I genuinely don't understand why everyone isn't using this yet\n\nAndrej Karpathy, a co-founder of OpenAI, posted a simple idea that hit 16 million views: stop using AI to write code, use it to build a second brain.\n\nYou point Claude Code at a folder, drop in any source, an article, a transcript, a PDF, and Claude reads it, links it, and files it into a living wiki of everything you know. It compounds like interest, the more you feed it, the smarter it gets.\n\nHere's the whole thing:\n\n> Install Obsidian, create a vault, open it in Claude Code\n\n> Paste Karpathy's wiki idea file and tell Claude to build it\n\n> Claude makes three folders: raw for sources, wiki for its pages, a CLAUDE.md that runs it\n\n> Drop any source into raw and say \"ingest this\"\n\n> Ask questions across everything, forever\n\nFive minutes to set up, and you never start from a blank chat again.\n\nFull step-by-step guide with Claude and Obsidian, link below.\n\nBookmark this",
+      "createdAt": "Sun Jun 21 17:52:32 +0000 2026",
+      "viewCount": 651828,
+      "likeCount": 3988,
+      "retweetCount": 410,
+      "author": {
+        "userName": "ridark_eth",
+        "name": "Ridark",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ridark_eth/status/2068753952850546985",
+      "is_official": false
+    },
+    {
+      "id": "2068720875340210329",
+      "text": "🚨 New Claude Sonnet 5 leak just surfaced\n\nAnthropic appears to be prepping the next Sonnet model:\n\n· Internal codename from earlier leaks: Fennec\n· Expected as early as next week\n· Expect strong coding performance, speed, and better price/performance than Opus/Fable\n· 1M token context window\n\nAre you looking forward to this model being released?",
+      "createdAt": "Sun Jun 21 15:41:06 +0000 2026",
+      "viewCount": 99252,
+      "likeCount": 1001,
+      "retweetCount": 59,
+      "author": {
+        "userName": "LuminaXspace",
+        "name": "Lumina",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/LuminaXspace/status/2068720875340210329",
+      "is_official": false
+    },
+    {
+      "id": "2068568650924409260",
+      "text": "We built the Codex App with models that were okayish at front-end.\n\nWait to see what we can do when we finally improve front-end capabilities significantly in our models. That day will be something.",
+      "createdAt": "Sun Jun 21 05:36:13 +0000 2026",
+      "viewCount": 612022,
+      "likeCount": 8001,
+      "retweetCount": 261,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2068568650924409260",
+      "is_official": false
+    },
+    {
+      "id": "2068542652019081216",
+      "text": "Anthropic is rolling out identity verification for \"certain capabilities.\"\n\nThe verification provider is Persona, a 3rd party backed by Peter Thiel.\n\nThere is absolutely no way that I continue using Claude if this happens. https://t.co/mpBC25fNr6",
+      "createdAt": "Sun Jun 21 03:52:54 +0000 2026",
+      "viewCount": 336998,
+      "likeCount": 1910,
+      "retweetCount": 228,
+      "author": {
+        "userName": "0xIlyy",
+        "name": "ily⚡️",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/0xIlyy/status/2068542652019081216",
+      "is_official": false
+    },
+    {
+      "id": "2068579781793493344",
+      "text": "Reminder the NSA has full access to Claude fable and mythos with cybersecurity safety mode turned off and is using Claude to hack every country in the world right now",
+      "createdAt": "Sun Jun 21 06:20:26 +0000 2026",
+      "viewCount": 341344,
+      "likeCount": 3485,
+      "retweetCount": 295,
+      "author": {
+        "userName": "NickADobos",
+        "name": "Nick Dobos",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/NickADobos/status/2068579781793493344",
+      "is_official": false
+    },
+    {
+      "id": "2068492081522495868",
+      "text": "5 months ago I spent $30,000 on 3 Mac Studios, 2 Mac Minis, and a DGX Spark\n\nI went all in on local LLMs and encouraged others to do the same\n\nI warned prices would explode\n\nI was called crazy, a hype beast, dangerous, and that I had no idea what I was talking about\n\nSince then:\n\n• Mac Studios above 96gb have become unavailable\n• Memory prices have 4x’d\n• Other hardware prices have 10x’d\n\nNow those same AI influencers who destroyed me are spending 5 to 6 figures on hardware publicly\n\nGLM 5.2 dropped and it’s Opus level. I’m running it on 1 of my 3 Mac Studios 512gbs. The same ones I was called an idiot and hype beast for buying. The same ones that are reselling for triple the price used.\n\nThe insane part is this is just the beginning\n\nIntelligence will be integrated into every device you own, including devices that aren’t even publicly available yet like humanoid robots\n\nAll of these new devices will require GPUs, memory, storage, and more components\n\nComponents that have already 10x’d in price\n\nThat’s not even counting all the people that will start vibe coding when Codex and Claude Code become more mainstream\n\nRight now less than 1% of the world is even taking advantage of those tools\n\nImagine what happens when it reaches 2%\n\nThe local revolution is here. Hardware is the bottleneck\n\nAct accordingly",
+      "createdAt": "Sun Jun 21 00:31:57 +0000 2026",
+      "viewCount": 182110,
+      "likeCount": 1405,
+      "retweetCount": 113,
+      "author": {
+        "userName": "AlexFinn",
+        "name": "Alex Finn",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AlexFinn/status/2068492081522495868",
+      "is_official": false
+    }
+  ]
+}

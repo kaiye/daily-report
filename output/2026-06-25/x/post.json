@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-06-25T00:03:42.920Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-24",
+  "source_count": 19,
+  "time_filtered_count": 19,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2069872515548340407",
+      "text": "You can now delegate tasks to Cursor directly from Notion.\n\nIt's built on the Cursor SDK, so every cloud agent runs on the same models, harness, and runtime that power Cursor.\n\n@​Cursor on any spec or assign it a task to open a PR your whole team can review. https://t.co/1LH9SERN2K",
+      "createdAt": "Wed Jun 24 19:57:18 +0000 2026",
+      "viewCount": 69854,
+      "likeCount": 1000,
+      "retweetCount": 63,
+      "author": {
+        "userName": "cursor_ai",
+        "name": "Cursor",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/cursor_ai/status/2069872515548340407",
+      "is_official": true
+    },
+    {
+      "id": "2069720365442719867",
+      "text": "📣📣 Meet  Qwen-AgentWorld — a native language world model that simulates 7 agent environments (MCP, Search, Terminal, SWE, Web, OS, Android) within a single model. Environment modeling is the training objective from day one, not a post-hoc adaptation.\n\n🤔 LLMs are trained to be better agents — better at acting in environments. But nobody has trained them to model the environments themselves.\n\n🗺️ Our roadmap: investigate how language world modeling can push the boundaries of general agent capabilities, along two routes:\n\n1️⃣ Build a foundation model for environment simulation — outperforming Claude Opus 4.8 and GPT-5.4 on AgentWorldBench\n\n2️⃣ Investigate how world modeling enhances agent training:\n🔬 Controllable Sim RL (agentic RL with LWM as environments) surpasses training in real environments\n🧠 Learning to predict environments (LWM warm-up) makes agents stronger — remarkably, even without any agent-specific training, this predictive knowledge transfers to agentic tasks with zero fine-tuning\n\n📑 Paper: https://t.co/Jx2l5RKq71\n📖 Blog: https://t.co/7tVcKyhsx2\n💻 GitHub: https://t.co/B5Lvb1UZCn\n🤗 HuggingFace: https://t.co/Kw3QBL1TM5\n🧩 ModelScope: https://t.co/YBnGYgMWWI",
+      "createdAt": "Wed Jun 24 09:52:43 +0000 2026",
+      "viewCount": 584221,
+      "likeCount": 3159,
+      "retweetCount": 516,
+      "author": {
+        "userName": "Alibaba_Qwen",
+        "name": "Qwen",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Alibaba_Qwen/status/2069720365442719867",
+      "is_official": true
+    },
+    {
+      "id": "2069772916951015871",
+      "text": "NEW: OpenAI unveils its first in-house AI chip, Jalapeño.",
+      "createdAt": "Wed Jun 24 13:21:32 +0000 2026",
+      "viewCount": 138042,
+      "likeCount": 1363,
+      "retweetCount": 61,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2069772916951015871",
+      "is_official": true
+    },
+    {
+      "id": "2069775531831161063",
+      "text": "Personal update, I'm starting a new role at Cursor!\n\nI'm moving into ML, working on training Composer. I'll be researching how to improve model behavior and personality.",
+      "createdAt": "Wed Jun 24 13:31:56 +0000 2026",
+      "viewCount": 180137,
+      "likeCount": 6047,
+      "retweetCount": 80,
+      "author": {
+        "userName": "leerob",
+        "name": "Lee Robinson",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/leerob/status/2069775531831161063",
+      "is_official": false
+    },
+    {
+      "id": "2069816393395012009",
+      "text": "Introducing External Agents in Notion: Claude + Cursor.\n\nYour team already collaborates in Notion. Now your favorite agents do too.\n\nAssign them tasks from a board shared with your whole team. @-mention them like teammates. Watch them run. https://t.co/HW2H9KUcyv",
+      "createdAt": "Wed Jun 24 16:14:18 +0000 2026",
+      "viewCount": 206333,
+      "likeCount": 1040,
+      "retweetCount": 75,
+      "author": {
+        "userName": "NotionHQ",
+        "name": "Notion",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/NotionHQ/status/2069816393395012009",
+      "is_official": true
+    },
+    {
+      "id": "2069588907801424263",
+      "text": "Claude just became a craacked video game designer.\n\nWith the launch of Unreal Engine's MCP server last week, you can now build entire video games just by talking to Claude.\n\nI spent the past few days building with it, and I'm telling you, this is going to forever change how video games get made and who gets to make them.\n\nIn this video I show you exactly how to set up the Unreal Engine MCP yourself and run through three demos: building a full playable city, cloning a real city from Google Earth, and creating custom buildings in Blender.\n\nHere's the agent harness I mention too: https://t.co/mos9EwnZ2h\n\n Intro\n What I built in a few hours\n Setting up the Unreal MCP server\n Fixing the port 8000 connection issue\n The agent harness that avoids the pitfalls\n Demo 1: Building a city with City Sample\n Demo 2: Cloning a real city from Google Earth with Cesium\n Demo 3: Custom buildings with Blender headless\n Outro",
+      "createdAt": "Wed Jun 24 01:10:21 +0000 2026",
+      "viewCount": 335726,
+      "likeCount": 3114,
+      "retweetCount": 286,
+      "author": {
+        "userName": "per_simmons_",
+        "name": "Pat Simmons",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/per_simmons_/status/2069588907801424263",
+      "is_official": false
+    },
+    {
+      "id": "2069585429976818084",
+      "text": "Me watching all my friends with jobs at SpaceX and Anthropic receive generational wealth https://t.co/naaNy7Ea2r",
+      "createdAt": "Wed Jun 24 00:56:32 +0000 2026",
+      "viewCount": 63687,
+      "likeCount": 1006,
+      "retweetCount": 28,
+      "author": {
+        "userName": "RobertMSterling",
+        "name": "Robert Sterling",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/RobertMSterling/status/2069585429976818084",
+      "is_official": false
+    },
+    {
+      "id": "2069770172802773292",
+      "text": "We’ve designed and built our first AI chip: Jalapeño.\n\nDesigned from the ground up by OpenAI and brought to production with @Broadcom, Jalapeño is purpose-built for the LLM workloads powering ChatGPT, Codex, the API, and future agentic products.\n\nChips are foundational to the AI economy. Building our own expands our full-stack platform from products to models to infrastructure, and will help us scale intelligence, serve more people, and expand access to AI.",
+      "createdAt": "Wed Jun 24 13:10:38 +0000 2026",
+      "viewCount": 2765276,
+      "likeCount": 17297,
+      "retweetCount": 1655,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2069770172802773292",
+      "is_official": true
+    },
+    {
+      "id": "2069809728088350789",
+      "text": "Use the official @MongoDB plugin in Grok Build to query data, optimize indexes, and manage databases. https://t.co/eKT8KN9FD8",
+      "createdAt": "Wed Jun 24 15:47:49 +0000 2026",
+      "viewCount": 431304,
+      "likeCount": 1920,
+      "retweetCount": 516,
+      "author": {
+        "userName": "xai",
+        "name": "xAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/xai/status/2069809728088350789",
+      "is_official": true
+    },
+    {
+      "id": "2069851262498291919",
+      "text": "The new GPT-5.5 Instant is very smart, very intuitive, and very fun to chat with.\n\nRolling out now to everyone, starting with Pro and then Plus users. Free users should have the new GPT-5.5 Instant model by tomorrow. https://t.co/7OR3TCUAmz",
+      "createdAt": "Wed Jun 24 18:32:51 +0000 2026",
+      "viewCount": 143086,
+      "likeCount": 2419,
+      "retweetCount": 137,
+      "author": {
+        "userName": "ChatGPTapp",
+        "name": "ChatGPT",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/ChatGPTapp/status/2069851262498291919",
+      "is_official": true
+    },
+    {
+      "id": "2069642954302796186",
+      "text": "Post clearly written by Claude, lo, the circle is complete.",
+      "createdAt": "Wed Jun 24 04:45:07 +0000 2026",
+      "viewCount": 336154,
+      "likeCount": 1684,
+      "retweetCount": 33,
+      "author": {
+        "userName": "pmarca",
+        "name": "Marc Andreessen 🇺🇸",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/pmarca/status/2069642954302796186",
+      "is_official": false
+    },
+    {
+      "id": "2069892570214179081",
+      "text": "BREAKING: Anthropic accuses Alibaba of using nearly 25,000 fraudulent accounts to extract Claude AI model capabilities.",
+      "createdAt": "Wed Jun 24 21:17:00 +0000 2026",
+      "viewCount": 237528,
+      "likeCount": 2951,
+      "retweetCount": 218,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2069892570214179081",
+      "is_official": true
+    },
+    {
+      "id": "2069740065664954644",
+      "text": "NEW: Claude Mythos reportedly found vulnerabilities in highly sensitive U.S. government systems during intelligence-agency testing.",
+      "createdAt": "Wed Jun 24 11:11:00 +0000 2026",
+      "viewCount": 142261,
+      "likeCount": 1840,
+      "retweetCount": 86,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2069740065664954644",
+      "is_official": true
+    },
+    {
+      "id": "2069779066476011998",
+      "text": "Why don’t Anthropic just use Claude Code??? https://t.co/AmE9FJL45z",
+      "createdAt": "Wed Jun 24 13:45:58 +0000 2026",
+      "viewCount": 824740,
+      "likeCount": 10286,
+      "retweetCount": 263,
+      "author": {
+        "userName": "ravikiran_dev7",
+        "name": "Ray🫧",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ravikiran_dev7/status/2069779066476011998",
+      "is_official": false
+    },
+    {
+      "id": "2069601402339328124",
+      "text": "INSTEAD OF WATCHING NETFLIX TONIGHT.\n\nSpend 1 hour with this.   \n\nClaude AI FULL COURSE that teaches you how to BUILD and AUTOMATE anything.   \n\nThe people who watch this tonight will wake up tomorrow with a new skill. \n\nWatch it and Bookmark it now. https://t.co/sSPhwydZIU",
+      "createdAt": "Wed Jun 24 02:00:00 +0000 2026",
+      "viewCount": 92406,
+      "likeCount": 1232,
+      "retweetCount": 331,
+      "author": {
+        "userName": "mehakbhoria",
+        "name": "Mahak Bhoria",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/mehakbhoria/status/2069601402339328124",
+      "is_official": false
+    },
+    {
+      "id": "2069736449902027136",
+      "text": "A senior Anthropic engineer just dropped 11-page PDF on \"Loop Engineering\" for agentic systems.\n\nThe shift: you stop prompting the agent. You build the system that prompts it instead.\n\nSchedule → Discover → Build → Verify → Repeat\n\nEvery loop runs one turn, five moves:\n\n• Discovery: it finds its own work - failing CI, open issues, recent commits - instead of being handed a list.\n\n• Handoff: each task gets an isolated git worktree so parallel agents don't collide.\n\n• Verification: a second agent, told to assume the code is broken, reviews the first. The \"thing that can say no.\"\n\n• Persistence: results get written to disk, never left in a context window that gets flushed.\n\n• Scheduling: an automation wakes it on a timer. That's what makes it a loop.\n\nThe key insight: an agent grading its own work always praises it. \n\nThis 11-page PDF changed how I'm building agentic systems today.\n\nRead it now, then explore the article below.",
+      "createdAt": "Wed Jun 24 10:56:38 +0000 2026",
+      "viewCount": 455231,
+      "likeCount": 2017,
+      "retweetCount": 323,
+      "author": {
+        "userName": "0xCodez",
+        "name": "Codez",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/0xCodez/status/2069736449902027136",
+      "is_official": false
+    },
+    {
+      "id": "2069835561226166536",
+      "text": "SITUATION UPDATE: The Trump administration has been happier with Anthropic discussions since Dario Amodei was replaced by cofounder Tom Brown in White House meetings about Fable 5, per Wired.",
+      "createdAt": "Wed Jun 24 17:30:28 +0000 2026",
+      "viewCount": 312234,
+      "likeCount": 1807,
+      "retweetCount": 50,
+      "author": {
+        "userName": "MTSlive",
+        "name": "MTS",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/MTSlive/status/2069835561226166536",
+      "is_official": true
+    },
+    {
+      "id": "2069814177624121469",
+      "text": "Claude Tag is a Trojan horse.  Not because Anthropic is doing anything evil. Because the incentives are obvious.\n\nDay one, this looks like a great feature: tag Claude in Slack, let it follow the thread, remember context, connect to tools, break down tasks, chase work, and act like a teammate.\n\nBut that is exactly the problem. The moment your AI vendor becomes a shared coworker, it stops being just a model provider. It starts becoming the place where work is interpreted, remembered, routed, and eventually executed.\n\nThat is not model lock-in. That is context lock-in. You are now renting your company back from them.\n\nModels can be swapped. Agents can be copied. But the memory of how your company actually works is much harder, maybe impossible, to move: the Slack scar tissue, the exception paths, the customer promises, the unfinished threads, the weird workflows, the implicit owners, the “we tried that in Q2 and it failed” knowledge.\n\nOnce that lives inside one vendor’s agent layer, you are not renting intelligence anymore. You are renting your company’s operating memory.\n\nAnd the pricing model makes it even more dangerous. A human coworker has a salary. Claude has unbounded tokenized activity. The more work moves through it, the more the vendor captures not just IT spend, but labor spend.\n\nThis is the enterprise bargain people will regret: Convenience now, and rapid decent into dependency.\n\nThe right architecture is simple: rent the best intelligence from whoever is best this month. OpenAI, Anthropic, Gemini, open source, whatever. But own the context layer.\n\nYour company memory should be inspectable, permissioned, portable, and model-neutral. It should not be buried inside the same vendor that sells you the intelligence and the workflow surface.\n\nClaude Tag is useful. That is why it is dangerous. Rent the intelligence, but own the context. Or, regret later.",
+      "createdAt": "Wed Jun 24 16:05:29 +0000 2026",
+      "viewCount": 413561,
+      "likeCount": 1975,
+      "retweetCount": 183,
+      "author": {
+        "userName": "ashwingop",
+        "name": "Ashwin Gopinath",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ashwingop/status/2069814177624121469",
+      "is_official": false
+    },
+    {
+      "id": "2069809298612621629",
+      "text": "Introducing Jalapeño — designed from scratch for LLM inference over nine months, accelerated by our models. Perf per watt looking incredible.",
+      "createdAt": "Wed Jun 24 15:46:06 +0000 2026",
+      "viewCount": 188916,
+      "likeCount": 2011,
+      "retweetCount": 88,
+      "author": {
+        "userName": "gdb",
+        "name": "Greg Brockman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/gdb/status/2069809298612621629",
+      "is_official": false
+    }
+  ]
+}

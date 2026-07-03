@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUN 25, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">各家都在把 AI 从单纯模型推进到可执行任务、可嵌入工作流并由自研基础设施支撑的代理时代。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@Alibaba_Qwen</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Qwen</span>：Qwen 发布了 Qwen-AgentWorld：一个在单一模型里模拟 7 种代理环境的原生语言世界模型，并强调从训练一开始就做环境建模。
+          </p>
+          <p class="item-metric">👁 584.2K · ❤️ 3.2K</p>
+          <a class="item-link" href="https://twitter.com/Alibaba_Qwen/status/2069720365442719867">https://twitter.com/Alibaba_Qwen/status/2069720365442719867</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@NotionHQ</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Notion</span>：Notion 推出 External Agents，让 Claude 和 Cursor 也能像团队成员一样在看板里协作、被 @ 提及并直接执行任务。
+          </p>
+          <p class="item-metric">👁 206.3K · ❤️ 1.0K</p>
+          <a class="item-link" href="https://twitter.com/NotionHQ/status/2069816393395012009">https://twitter.com/NotionHQ/status/2069816393395012009</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@per_simmons_</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Pat Simmons</span>：Claude 借助 Unreal Engine 的 MCP，已经能靠对话直接做游戏；作者还演示了城市、真实城市复刻和 Blender 建筑。
+          </p>
+          <p class="item-metric">👁 335.7K · ❤️ 3.1K</p>
+          <a class="item-link" href="https://twitter.com/per_simmons_/status/2069588907801424263">https://twitter.com/per_simmons_/status/2069588907801424263</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@OpenAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI</span>：OpenAI 公开了首款自研 AI 芯片 Jalapeño，称它将专门支撑 ChatGPT、Codex、API 和未来的代理产品。
+          </p>
+          <p class="item-metric">👁 2.8M · ❤️ 17.3K</p>
+          <a class="item-link" href="https://twitter.com/OpenAI/status/2069770172802773292">https://twitter.com/OpenAI/status/2069770172802773292</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@xai</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">xAI</span>：xAI 表示，Grok Build 现在可以直接用官方 MongoDB 插件来查数据、调索引和管理数据库。
+          </p>
+          <p class="item-metric">👁 431.3K · ❤️ 1.9K</p>
+          <a class="item-link" href="https://twitter.com/xai/status/2069809728088350789">https://twitter.com/xai/status/2069809728088350789</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@ChatGPTapp</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ChatGPT</span>：GPT-5.5 Instant 正在向所有人陆续开放，OpenAI 说它更聪明、更自然，也更适合聊天。
+          </p>
+          <p class="item-metric">👁 143.1K · ❤️ 2.4K</p>
+          <a class="item-link" href="https://twitter.com/ChatGPTapp/status/2069851262498291919">https://twitter.com/ChatGPTapp/status/2069851262498291919</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@Polymarket</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Polymarket</span>：市场消息称，Anthropic 指控阿里巴巴动用了近 2.5 万个虚假账号来提取 Claude 的能力。
+          </p>
+          <p class="item-metric">👁 237.5K · ❤️ 3.0K</p>
+          <a class="item-link" href="https://twitter.com/Polymarket/status/2069892570214179081">https://twitter.com/Polymarket/status/2069892570214179081</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@Polymarket</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Polymarket</span>：Claude Mythos 据称在美国高敏系统的情报测试中发现了漏洞。
+          </p>
+          <p class="item-metric">👁 142.3K · ❤️ 1.8K</p>
+          <a class="item-link" href="https://twitter.com/Polymarket/status/2069740065664954644">https://twitter.com/Polymarket/status/2069740065664954644</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@0xCodez</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Codez</span>：一位 Anthropic 工程师分享了“Loop Engineering”框架：把发现、分派、验证、持久化和调度串成一个自动循环。
+          </p>
+          <p class="item-metric">👁 455.2K · ❤️ 2.0K</p>
+          <a class="item-link" href="https://twitter.com/0xCodez/status/2069736449902027136">https://twitter.com/0xCodez/status/2069736449902027136</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@ashwingop</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ashwin Gopinath</span>：他认为 Claude Tag 看似方便，但真正的风险是把公司的上下文和工作记忆一并锁进了单一供应商。
+          </p>
+          <p class="item-metric">👁 413.6K · ❤️ 2.0K</p>
+          <a class="item-link" href="https://twitter.com/ashwingop/status/2069814177624121469">https://twitter.com/ashwingop/status/2069814177624121469</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

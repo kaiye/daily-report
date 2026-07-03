@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-06-01",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "本期热门项目主要聚焦于大模型应用、AI 编码助手、语音生成和智能代理等方向。",
+  "items": [
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型，一键生成高清短视频。",
+      "language": "Python",
+      "stars_today": 1937,
+      "stars_total": 74101
+    },
+    {
+      "repo": "nesquena/hermes-webui",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "description": "Hermes WebUI：在网页上或手机上使用 Hermes Agent 的最佳方式！",
+      "language": "Python",
+      "stars_today": 357,
+      "stars_total": 9947
+    },
+    {
+      "repo": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "description": "Claude Code、Codex、Cursor 等的官方 Compound Engineering 插件。",
+      "language": "TypeScript",
+      "stars_today": 251,
+      "stars_total": 18693
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2：用于多语言语音生成、创意音色设计和逼真克隆的无分词器 TTS。",
+      "language": "Python",
+      "stars_today": 635,
+      "stars_total": 23490
+    },
+    {
+      "repo": "revfactory/harness",
+      "url": "https://github.com/revfactory/harness",
+      "description": "一种元技能，可设计领域专用的代理团队、定义专门代理，并生成它们使用的技能。",
+      "language": "HTML",
+      "stars_today": 323,
+      "stars_total": 4582
+    },
+    {
+      "repo": "FareedKhan-dev/train-llm-from-scratch",
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "description": "从下载数据到生成文本，训练你的 LLM 的直接方法。",
+      "language": "Jupyter Notebook",
+      "stars_today": 626,
+      "stars_total": 2939
+    },
+    {
+      "repo": "supermemoryai/supermemory",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "description": "极快、可扩展的记忆引擎和应用，是 AI 时代的 Memory API。",
+      "language": "TypeScript",
+      "stars_today": 264,
+      "stars_total": 23317
+    },
+    {
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D 是一台自包含的离线生存电脑，内置关键工具、知识和 AI，让你随时随地都能保持知情并获得支持。",
+      "language": "TypeScript",
+      "stars_today": 374,
+      "stars_total": 27711
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code 是一个驻留在终端中的代理式编码工具，能理解你的代码库，并通过自然语言命令执行常规任务、解释复杂代码、处理 git 工作流，帮助你更快编程。",
+      "language": "Python",
+      "stars_today": 489,
+      "stars_total": 128887
+    }
+  ]
+}

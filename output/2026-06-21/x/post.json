@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-06-21T00:03:23.539Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-20",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2068122937308426676",
+      "text": "Update: we've gone ahead and reset 5-hour and weekly usage limits for everyone, across all plans. Enjoy your weekend!",
+      "createdAt": "Sat Jun 20 00:05:06 +0000 2026",
+      "viewCount": 1621013,
+      "likeCount": 12942,
+      "retweetCount": 707,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2068122937308426676",
+      "is_official": true
+    },
+    {
+      "id": "2068156569305641332",
+      "text": "ANTHROPIC CEO: WITHOUT HUNDREDS OF BILLIONS IN REVENUE, AI COMPANIES COULD FACE EXISTENTIAL RISK",
+      "createdAt": "Sat Jun 20 02:18:45 +0000 2026",
+      "viewCount": 820671,
+      "likeCount": 2072,
+      "retweetCount": 221,
+      "author": {
+        "userName": "FirstSquawk",
+        "name": "First Squawk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/FirstSquawk/status/2068156569305641332",
+      "is_official": false
+    },
+    {
+      "id": "2068317780064276917",
+      "text": "Web scraping will never be the same.\n\n(100% open-source visual search at scale)\n\nPixelRAG is a retrieval system that skips HTML parsing completely.\n\nInstead of scraping a page into text and embedding chunks, it screenshots the page and retrieves the image. A vision-language model reads the answer straight off the pixels.\n\nWhy that matters: parsing is where web RAG quietly loses information.\n\n- A single HTML-to-text parser can drop 40%+ of a page.\n- Tables, charts, and layout get flattened or thrown out.\n- Swapping parsers alone can move accuracy ~10 points on the same docs.\n\nPixelRAG indexes the page a person actually sees. The team built a visual index of all of Wikipedia, 30M+ screenshots, and it still beats the strongest text RAG baseline by 18.1% on text-only QA.\n\nThe repo also ships a Claude Code plugin that gives Claude eyes.\n\nIt lets Claude screenshot any URL and read the rendered page instead of scraping the DOM. So you can hand it a live page, an arXiv paper, or your local site and ask what it actually looks like.\n\nOne setup script. No MCP server, no backend.\n\nHow the pipeline works:\n\n- Renders each document (web, PDF, image) to image tiles.\n- Embeds them with Qwen3-VL-Embedding, LoRA fine-tuned on screenshots.\n- Builds a FAISS index and serves a search API.\n\nA stronger reader model lifts accuracy with no re-indexing, since the index is just pixels.\n\nEverything is open-source under Apache-2.0.\n\nGitHub repo: https://t.co/qun9TjAdmw\n\nTalking about RAG, I recently wrote an article on a new approach that makes retrieval much more efficient by cutting corpus size by 40x, reducing tokens per query by 3x, and improving vector search relevance by 2.3x.\n\nThe article is quoted below.",
+      "createdAt": "Sat Jun 20 12:59:20 +0000 2026",
+      "viewCount": 308475,
+      "likeCount": 3029,
+      "retweetCount": 375,
+      "author": {
+        "userName": "akshay_pachaar",
+        "name": "Akshay 🚀",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/akshay_pachaar/status/2068317780064276917",
+      "is_official": false
+    },
+    {
+      "id": "2068159400515412182",
+      "text": "🚨Anthropic just showed a 24-minute workshop on how to actually do prompts for Claude.\n\nTaught by the people who built it.\n\nFree. No registration. No paywall.\n\nI've seen $300 courses that don't cover what they teach in the first 8 minutes.\n\nWatch it and bookmark it now. https://t.co/7cC2aviF8m",
+      "createdAt": "Sat Jun 20 02:30:00 +0000 2026",
+      "viewCount": 183032,
+      "likeCount": 1201,
+      "retweetCount": 164,
+      "author": {
+        "userName": "anujcodes_21",
+        "name": "Anuj",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/anujcodes_21/status/2068159400515412182",
+      "is_official": false
+    },
+    {
+      "id": "2068186032114487519",
+      "text": "🚨 Forget Fable - GLM 5.2 + Kimi 2.7 Code Is Pure Open-Source Magic \n\nLaunching  xLow mode  \n\n- We route to GLM 5.2 and Kimi 2.7 based on your prompt\n\nCompare and contrast with the xHigh mode powered by Opus 4.8 and GPT 5.5.  You will be pleasantly surprised https://t.co/YRujlCKOmC",
+      "createdAt": "Sat Jun 20 04:15:49 +0000 2026",
+      "viewCount": 2127599,
+      "likeCount": 1089,
+      "retweetCount": 40,
+      "author": {
+        "userName": "bindureddy",
+        "name": "Bindu Reddy",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/bindureddy/status/2068186032114487519",
+      "is_official": false
+    },
+    {
+      "id": "2068348025206895097",
+      "text": "GLM 5.2 is a hit\n\nbeen out for 3 days and it's already 6th on our leaderboard https://t.co/jE8VnHI63r",
+      "createdAt": "Sat Jun 20 14:59:31 +0000 2026",
+      "viewCount": 78000,
+      "likeCount": 2510,
+      "retweetCount": 100,
+      "author": {
+        "userName": "opencode",
+        "name": "OpenCode",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/opencode/status/2068348025206895097",
+      "is_official": true
+    },
+    {
+      "id": "2068408638704852998",
+      "text": "Me reviewing the weekly portfolio report.",
+      "createdAt": "Sat Jun 20 19:00:23 +0000 2026",
+      "viewCount": 129509,
+      "likeCount": 1150,
+      "retweetCount": 34,
+      "author": {
+        "userName": "pmarca",
+        "name": "Marc Andreessen 🇺🇸",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/pmarca/status/2068408638704852998",
+      "is_official": false
+    },
+    {
+      "id": "2068154633202413991",
+      "text": "ANTHROPIC CEO WARNS AI COULD ELIMINATE HALF OF ENTRY-LEVEL WHITE-COLLAR JOBS, FLOATS AI TAX TO FUND UBI",
+      "createdAt": "Sat Jun 20 02:11:03 +0000 2026",
+      "viewCount": 261095,
+      "likeCount": 1113,
+      "retweetCount": 149,
+      "author": {
+        "userName": "FirstSquawk",
+        "name": "First Squawk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/FirstSquawk/status/2068154633202413991",
+      "is_official": false
+    },
+    {
+      "id": "2068273183212638384",
+      "text": "3 days left of using Fable in your Claude Code sub! Better maximize that token usage https://t.co/2F0GjTwgRG",
+      "createdAt": "Sat Jun 20 10:02:08 +0000 2026",
+      "viewCount": 341927,
+      "likeCount": 4005,
+      "retweetCount": 44,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2068273183212638384",
+      "is_official": false
+    },
+    {
+      "id": "2068182756132376668",
+      "text": "After using GLM-5.2 for a day, I’m surprised by how often it feels close to Opus 4.8/GPT-5.5 level.\n\nI compared it side by side with Opus 4.8, and sometimes I even preferred GLM-5.2’s results.\n\nOSS LLMs are impressive, especially given how many fewer GPUs they were trained on.",
+      "createdAt": "Sat Jun 20 04:02:48 +0000 2026",
+      "viewCount": 85452,
+      "likeCount": 1046,
+      "retweetCount": 54,
+      "author": {
+        "userName": "Yuchenj_UW",
+        "name": "Yuchen Jin",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Yuchenj_UW/status/2068182756132376668",
+      "is_official": false
+    },
+    {
+      "id": "2068299618564157636",
+      "text": "A single 100-word email written by ChatGPT uses around 500 ml of water, a full plastic bottle. https://t.co/MKElgbyqQL",
+      "createdAt": "Sat Jun 20 11:47:10 +0000 2026",
+      "viewCount": 154178,
+      "likeCount": 3852,
+      "retweetCount": 587,
+      "author": {
+        "userName": "YourAnonOne",
+        "name": "Anonymous",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/YourAnonOne/status/2068299618564157636",
+      "is_official": false
+    },
+    {
+      "id": "2068323095446716679",
+      "text": "GLM-5.2 has been \"stuck\" at No.2 on Hugging Face Trending for three days, but I'm thrilled to have connected with the creator behind the No.1 project this afternoon. It's been amazing to see open-source work resonating with so many people. https://t.co/fRb4UXvtvV",
+      "createdAt": "Sat Jun 20 13:20:28 +0000 2026",
+      "viewCount": 105799,
+      "likeCount": 1173,
+      "retweetCount": 34,
+      "author": {
+        "userName": "ZixuanLi_",
+        "name": "Zixuan Li",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ZixuanLi_/status/2068323095446716679",
+      "is_official": false
+    },
+    {
+      "id": "2068134212587184442",
+      "text": "I ran GLM 5.2 with OpenCode harness against Claude Opus this week deployed locally.\n\nBottom line: It is a real frontier coding model and insanely good for the price (free). Open source model + open source harness + local serving on my own chips is an amazing value proposition.\n\nSome Notes:\n\n1. Tool calling is very good — spun up nested subagents on its own, multiple levels deep\n\n2. Very good at research and planning including long range plans\n\n3. It built a cell based terminal renderer at near Opus quality. I still lean Claude, but most people couldn't tell the outputs apart\n\n4. Opus wins on oneshotting and reading my intent without me explicitly telling it\n\n5. GLM 5.2 is more than enough intelligence for most F500 work IMO\n\n6. GLM 5.2 is good enough to hill climb RL with and to drive further AI development / next generation GLM model. Progress will be much faster for their RL from here.\n\n7. Running my own endpoint = permanent fast mode\n\n8. It wastes thinking tokens writing code in the reasoning block\n\nAt this point I would consider GLM 5.2 a true frontier coding model. Getting to this point in coding quality was the hardest part IMO. They will progress quickly from here in RL.",
+      "createdAt": "Sat Jun 20 00:49:55 +0000 2026",
+      "viewCount": 159523,
+      "likeCount": 1331,
+      "retweetCount": 90,
+      "author": {
+        "userName": "PatrickToulme",
+        "name": "Patrick C Toulme",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/PatrickToulme/status/2068134212587184442",
+      "is_official": false
+    },
+    {
+      "id": "2068427754056364465",
+      "text": "JUST IN: Anthropic CEO says without “hundreds of billions in revenue” AI companies face existential risk",
+      "createdAt": "Sat Jun 20 20:16:20 +0000 2026",
+      "viewCount": 100024,
+      "likeCount": 1199,
+      "retweetCount": 106,
+      "author": {
+        "userName": "Kalshi",
+        "name": "Kalshi",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Kalshi/status/2068427754056364465",
+      "is_official": true
+    },
+    {
+      "id": "2068408542407586007",
+      "text": "The “dead internet theory” in action\n\nIn World of Warcraft, a server without humans has appeared — instead, 1,800 DeepSeek-based bots are playing there.\n\nThe bots behave like regular players: they chat, level up characters, run dungeons, and even fight each other. As a result, the game world looks completely alive.",
+      "createdAt": "Sat Jun 20 19:00:00 +0000 2026",
+      "viewCount": 760802,
+      "likeCount": 3037,
+      "retweetCount": 200,
+      "author": {
+        "userName": "nexta_tv",
+        "name": "NEXTA",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/nexta_tv/status/2068408542407586007",
+      "is_official": false
+    },
+    {
+      "id": "2068318158444691804",
+      "text": "SpaceX is about to spend the $85B they raised. The companies they spend it on will win.\n\nI put together a list of EVERY single public company supplier of Elon's companies (Tesla, Solar City, SpaceX, X, xAI) and what they supplied. Let me know what looks interesting to you. (1/2) https://t.co/jkdUvKMXcl",
+      "createdAt": "Sat Jun 20 13:00:51 +0000 2026",
+      "viewCount": 200407,
+      "likeCount": 1875,
+      "retweetCount": 253,
+      "author": {
+        "userName": "jaltucher",
+        "name": "James Altucher",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/jaltucher/status/2068318158444691804",
+      "is_official": false
+    },
+    {
+      "id": "2068258575315542352",
+      "text": "For the last three days, I've been using GLM 5.2 with OpenCode instead of Codex and I don't see any difference.\n\nThere wasn't any bug that GLM would fail to fix or a feature it would fail to add as requested.\n\nThe only downside is that this model cannot see, so if it's simpler to explain an issue by pasting a screenshot, I would still use Codex. Otherwise, GLM would be my choice.\n\nWill continue to use it for two more weeks and, if it keeps just working, I will cancel my $100/month subscription with OpenAI. I already cancelled my Anthropic subscription and have no regrets.\n\nNo moat isn't hypothetical anymore.",
+      "createdAt": "Sat Jun 20 09:04:05 +0000 2026",
+      "viewCount": 144079,
+      "likeCount": 1995,
+      "retweetCount": 113,
+      "author": {
+        "userName": "burkov",
+        "name": "BURKOV",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/burkov/status/2068258575315542352",
+      "is_official": false
+    },
+    {
+      "id": "2068392118599761967",
+      "text": "a non-technical failed grifter ive known for many years, who unironically posts ai slop on linkedin, was recently hired by anthropic as a member of technical staff\n\nmaybe the pace of hiring has gotten a bit out of hand?",
+      "createdAt": "Sat Jun 20 17:54:44 +0000 2026",
+      "viewCount": 167441,
+      "likeCount": 2797,
+      "retweetCount": 35,
+      "author": {
+        "userName": "thecaptain_nemo",
+        "name": "Nemo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thecaptain_nemo/status/2068392118599761967",
+      "is_official": true
+    },
+    {
+      "id": "2068372696690315650",
+      "text": "GLM 5.2 might be the “ChatGPT moment” for local AI \n\nThe moment many of us see the value in local models \n\nGLM 5.2 isn’t perfect, but it’s really good \n\n1M token context window so it holds an entire codebase at once. Top open model on coding right now. MIT licensed with zero restrictions. \n\nAnd it runs on your own machine through Ollama or LM Studio.\n\nWhen you're using it, it kinda feels like Opus 4.8.\n\nI honestly can't believe how good it is.\n\n2027 is probably the year of local AI.",
+      "createdAt": "Sat Jun 20 16:37:34 +0000 2026",
+      "viewCount": 90207,
+      "likeCount": 1176,
+      "retweetCount": 68,
+      "author": {
+        "userName": "gregisenberg",
+        "name": "GREG ISENBERG",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/gregisenberg/status/2068372696690315650",
+      "is_official": false
+    },
+    {
+      "id": "2068166709337633093",
+      "text": "Former VP at Meta and Google Deepmind",
+      "createdAt": "Sat Jun 20 02:59:02 +0000 2026",
+      "viewCount": 560022,
+      "likeCount": 2790,
+      "retweetCount": 128,
+      "author": {
+        "userName": "8teAPi",
+        "name": "Prakash",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/8teAPi/status/2068166709337633093",
+      "is_official": false
+    }
+  ]
+}

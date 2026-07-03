@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUN 13, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">共同信号是 AI 正在从单点模型能力竞争，快速转向可运行的代理基础设施、开放模型生态、真实基准评测和高价值场景落地。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@ClaudeDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ClaudeDevs</span>：Claude Managed Agents 现在可在你控制的沙箱里运行，既能部署在自有基础设施上，也能接入任意云或服务商，并新增多家平台指南方便按场景选择。
+          </p>
+          <p class="item-metric">👁 165.0K · ❤️ 2.1K</p>
+          <a class="item-link" href="https://twitter.com/ClaudeDevs/status/2065494480837583297">https://twitter.com/ClaudeDevs/status/2065494480837583297</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@viemccoy</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">𝚟𝚒𝚎 ⟢</span>：我一直觉得很奇妙：通往 AGI 的竟然是大语言模型，像是用文字从现实地图里召唤能力，让“助手”这个虚构角色把自己写成现实。
+          </p>
+          <p class="item-metric">👁 165.9K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/viemccoy/status/2065263390495580213">https://twitter.com/viemccoy/status/2065263390495580213</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@KimiDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Kimi Developers</span>：Kimi-K2.7-Code 亮相，开发者需要先了解关键用法，才能把这款新代码模型的潜力真正释放出来。
+          </p>
+          <p class="item-metric">👁 135.8K · ❤️ 2.4K</p>
+          <a class="item-link" href="https://twitter.com/KimiDevs/status/2065400453815574551">https://twitter.com/KimiDevs/status/2065400453815574551</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@MiniMax_AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">MiniMax (official)</span>：MiniMax M3 已以开放权重形式登陆 Hugging Face，约 428B 总参数、23B 激活参数，并同步公开稀疏注意力资料。
+          </p>
+          <p class="item-metric">👁 363.4K · ❤️ 2.1K</p>
+          <a class="item-link" href="https://twitter.com/MiniMax_AI/status/2065436935188058208">https://twitter.com/MiniMax_AI/status/2065436935188058208</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@Jason</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">@jason</span>：考虑到 token 经济学，苹果下一任 CEO 应该押注能本地运行开源模型的工作站，并用路由在本地模型和前沿模型间切换。
+          </p>
+          <p class="item-metric">👁 89.8K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/Jason/status/2065225957498093942">https://twitter.com/Jason/status/2065225957498093942</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@OpenAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI</span>：OpenAI 开始推出 Codex 额度重置“存起来以后用”的能力，Go、Plus、Pro 和 Business 用户先获得一次免费重置。
+          </p>
+          <p class="item-metric">👁 3.7M · ❤️ 20.3K</p>
+          <a class="item-link" href="https://twitter.com/OpenAI/status/2065225362544726371">https://twitter.com/OpenAI/status/2065225362544726371</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@ArtificialAnlys</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Artificial Analysis</span>：Artificial Analysis 用 DeepSWE 替换 SWE-Bench Pro 后，编码代理榜单重排：Fable 5 登顶，Codex GPT-5.5 超过 Opus 4.8。
+          </p>
+          <p class="item-metric">👁 244.1K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/ArtificialAnlys/status/2065328920514515037">https://twitter.com/ArtificialAnlys/status/2065328920514515037</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@Pirat_Nation</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Pirat_Nation 🔴</span>：OpenAI 称发现一个与中国有关的行动，试图伪装成普通美国人放大 AI 数据中心的电力、水资源和社区影响争议，但影响有限。
+          </p>
+          <p class="item-metric">👁 200.3K · ❤️ 2.4K</p>
+          <a class="item-link" href="https://twitter.com/Pirat_Nation/status/2065253251025637866">https://twitter.com/Pirat_Nation/status/2065253251025637866</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@OpenAIDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI Developers</span>：OpenAI Developers 推出浏览器使用的开发者模式，Codex 可通过 Chrome DevTools Protocol 分析性能、控制台、网络流量和页面状态。
+          </p>
+          <p class="item-metric">👁 279.0K · ❤️ 2.8K</p>
+          <a class="item-link" href="https://twitter.com/OpenAIDevs/status/2065226355495895521">https://twitter.com/OpenAIDevs/status/2065226355495895521</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@EricTopol</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Eric Topol</span>：Eric Topol 指出，在盲评医学信息任务中，Google、OpenAI、Anthropic 等通用前沿模型竟然超过了专门医学工具，这个结果出乎意料。
+          </p>
+          <p class="item-metric">👁 350.6K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/EricTopol/status/2065430578997203374">https://twitter.com/EricTopol/status/2065430578997203374</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

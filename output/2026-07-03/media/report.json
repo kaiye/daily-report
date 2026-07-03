@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-07-03",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "OpenAI、Anthropic、微软等头部AI公司围绕模型能力、算力芯片、政府关系和企业级部署持续扩张，同时Agent与LLM应用进入更细分的产品化阶段。",
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "Anthropic公告点名Claude、GPT与Kimi等模型能力风险",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109734&idx=1&sn=7a3f3e60dc5f36844fe9f84dac447517",
+      "published_at": "2026-07-02T11:48:00.000Z",
+      "summary": "文章围绕Anthropic近期关于模型能力与使用限制的长文，梳理Claude Fable 5、Mythos 5以及GPT-5.5、Kimi K2.7等被提及模型在漏洞挖掘等能力上的变化。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "微软投入25亿美元成立AI部署公司",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "published_at": "2026-07-02T13:53:00.000Z",
+      "summary": "微软推出新的AI部署组织，成为继亚马逊、OpenAI和Anthropic之后又一家加码AI落地服务的大型科技公司。"
+    },
+    {
+      "source": "极客公园",
+      "title": "Anthropic将删除Claude Code中的中国用户检测代码",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109688&idx=1&sn=872eb7f525b9096a09c106a24659b076",
+      "published_at": "2026-07-02T00:55:00.000Z",
+      "summary": "Claude Code团队成员回应称相关机制是为防止账户转售和模型蒸馏攻击而上线的实验性措施，并将在次日更新中移除。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic正与三星讨论定制AI芯片",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "published_at": "2026-07-02T18:31:09.000Z",
+      "summary": "在OpenAI宣布与博通合作定制AI芯片约一周后，Anthropic也被曝正与三星洽谈自研芯片相关合作。"
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "火山引擎发布Agentic全栈数据管理服务",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520645&idx=1&sn=5a1c550f64db8f245237cbed6b6402e0",
+      "published_at": "2026-07-02T11:29:00.000Z",
+      "summary": "火山引擎数据库在FORCE原动力大会上推出面向大规模AI Agent场景的Agentic Data Management and Services产品体系，并完成全栈产品升级。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "扎克伯格称AI Agent进展不及预期",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "published_at": "2026-07-02T23:38:10.000Z",
+      "summary": "Meta首席执行官在内部会议上据称表示，公司的AI开发工作推进速度没有达到此前预期。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI提议向美国主权财富基金捐出5%股权",
+      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "published_at": "2026-07-02T15:20:51.000Z",
+      "summary": "Sam Altman据称提出让美国公众通过主权财富基金分享AI繁荣带来的财务收益，从而重启围绕OpenAI股权公共收益分配的讨论。"
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "一家初创公司尝试解决LLM群体思维问题",
+      "url": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
+      "published_at": "2026-07-02T12:10:00.000Z",
+      "summary": "MIT Technology Review的每日简报关注大语言模型在回答中趋同的问题，并介绍一家试图缓解这种群体思维现象的初创公司。"
+    },
+    {
+      "source": "新智元",
+      "title": "中国AI语音模型ViiTorVoice登顶Seed-TTS榜单",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710327&idx=1&sn=bc1d690358e2284851e0ce359daec0cf",
+      "published_at": "2026-07-02T04:32:00.000Z",
+      "summary": "ViiTorVoice在全球语音评测Seed-TTS中取得综合第一，并以局部编辑功能主打像修改文档一样修正配音内容。"
+    }
+  ]
+}

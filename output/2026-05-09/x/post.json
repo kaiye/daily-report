@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-05-09T00:01:19.498Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-05-08",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 17,
+  "item_count": 17,
+  "items": [
+    {
+      "id": "2052808791301697563",
+      "text": "We started by investigating why Claude chose to blackmail. We believe the original source of the behavior was internet text that portrays AI as evil and interested in self-preservation.\n\nOur post-training at the time wasn’t making it worse—but it also wasn’t making it better.",
+      "createdAt": "Fri May 08 17:52:09 +0000 2026",
+      "viewCount": 799868,
+      "likeCount": 1270,
+      "retweetCount": 75,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2052808791301697563",
+      "is_official": true
+    },
+    {
+      "id": "2052808787514228772",
+      "text": "New Anthropic research: Teaching Claude why.\n\nLast year we reported that, under certain experimental conditions, Claude 4 would blackmail users.\n\nSince then, we’ve completely eliminated this behavior. How?",
+      "createdAt": "Fri May 08 17:52:08 +0000 2026",
+      "viewCount": 437557,
+      "likeCount": 4528,
+      "retweetCount": 291,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2052808787514228772",
+      "is_official": true
+    },
+    {
+      "id": "2052559108742811900",
+      "text": "We are assembling AGI in plain sight",
+      "createdAt": "Fri May 08 01:20:00 +0000 2026",
+      "viewCount": 74598,
+      "likeCount": 1042,
+      "retweetCount": 30,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2052559108742811900",
+      "is_official": false
+    },
+    {
+      "id": "2052824049047478710",
+      "text": "This week, in Elon Musk's lawsuit against Sam Altman and OpenAI, the jury saw video of a sworn deposition from Mira Murati, OpenAI's former CTO. Elaborating on her comments in our latest @NewYorker story, she alleged that Altman was not always truthful, gave different executives conflicting information, and pitted them against each other. Texts between Murati and Altman were also entered as evidence.\n\nOver the course of an 18-month investigation, we traced the yearslong history of these claims from Altman's colleagues, and looked at what this tells us about integrity in AI leadership, and how it affects all of us.\n\nHere's some of what we found. And read the full story here: https://t.co/ZOusgFyA1H",
+      "createdAt": "Fri May 08 18:52:47 +0000 2026",
+      "viewCount": 88997,
+      "likeCount": 1584,
+      "retweetCount": 408,
+      "author": {
+        "userName": "RonanFarrow",
+        "name": "Ronan Farrow",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/RonanFarrow/status/2052824049047478710",
+      "is_official": false
+    },
+    {
+      "id": "2052556477857136787",
+      "text": "this is fascinating, they train an encoder/decoder but use LLM matching the target model's shape for each part, so the latent space is just plain language and they can detect reward hacking, unwanted behavior and more\n\ncould even see it being used as an eval to quantify how smart a model is, i love this",
+      "createdAt": "Fri May 08 01:09:33 +0000 2026",
+      "viewCount": 98138,
+      "likeCount": 1117,
+      "retweetCount": 101,
+      "author": {
+        "userName": "eliebakouch",
+        "name": "elie",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/eliebakouch/status/2052556477857136787",
+      "is_official": false
+    },
+    {
+      "id": "2052590415988048141",
+      "text": "Today, I crashed my TV (zero click) with Claude code, and heres's how:\nKnowing it runs linux, I asked Claude think about common vulnerabilities that a basic linux box from 2014 would be susceptible to, given it's only exposed to the local network.\nWe tested a few out (such as heartbleed) and eventually found CVE-2012-5958, a bug in libupnp, a c lib in almost every smart tv from that era.\nWe send a single network packet with one field a few bytes too long, overflowing a stack buffer and crashing the TV.\nUp next - firmware decompilation, figuring out exactly what the hell these tv manufacturers can see from you with their shady ad programs.\nVizio got sued by the FTC in 2017 for secretly tracking everything you watched and selling it to advertisers!",
+      "createdAt": "Fri May 08 03:24:25 +0000 2026",
+      "viewCount": 183088,
+      "likeCount": 1881,
+      "retweetCount": 161,
+      "author": {
+        "userName": "Aizkmusic",
+        "name": "aizk ✡️",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Aizkmusic/status/2052590415988048141",
+      "is_official": true
+    },
+    {
+      "id": "2052618245707047409",
+      "text": "Grok Build is coming. Not autocomplete… a full coding agent.\n\nYou describe it. Grok plans, codes, and debugs. Up to 8 agents run in parallel.\n\nApps, sites, full repos. Built from plain English.\n\nArena Mode picks the best output. The local CLI keeps your code private.\n\nThis isn’t “help me code.” It just builds.\n\n@xAI @grok",
+      "createdAt": "Fri May 08 05:15:00 +0000 2026",
+      "viewCount": 141316,
+      "likeCount": 2304,
+      "retweetCount": 303,
+      "author": {
+        "userName": "MarioNawfal",
+        "name": "Mario Nawfal",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/MarioNawfal/status/2052618245707047409",
+      "is_official": false
+    },
+    {
+      "id": "2052551618252714067",
+      "text": "That's a wrap on Code with Claude San Francisco! Clawd had an amazing time, and we hope you did too. \n\nThanks to everyone who came out and everyone who tuned in 🧡 https://t.co/erF62YZr7G",
+      "createdAt": "Fri May 08 00:50:15 +0000 2026",
+      "viewCount": 348044,
+      "likeCount": 4293,
+      "retweetCount": 233,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2052551618252714067",
+      "is_official": true
+    },
+    {
+      "id": "2052782088181727613",
+      "text": "Let Grok fetch your emails, improve your slides, declutter your calendar or organize your Notion. \n\nAdd your connectors to Grok today across all plans on iOS, Android and https://t.co/f3u3RwhHjk. https://t.co/KURU7gLd3m",
+      "createdAt": "Fri May 08 16:06:03 +0000 2026",
+      "viewCount": 5835447,
+      "likeCount": 2197,
+      "retweetCount": 282,
+      "author": {
+        "userName": "grok",
+        "name": "Grok",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/grok/status/2052782088181727613",
+      "is_official": true
+    },
+    {
+      "id": "2052800507727781979",
+      "text": "Just gonna leave this here.\n\nhttps://t.co/EOI980j9e9 https://t.co/HxbCl2Izcz",
+      "createdAt": "Fri May 08 17:19:14 +0000 2026",
+      "viewCount": 296738,
+      "likeCount": 3639,
+      "retweetCount": 149,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2052800507727781979",
+      "is_official": true
+    },
+    {
+      "id": "2052595688198783326",
+      "text": "This just killed 90% of female jobs",
+      "createdAt": "Fri May 08 03:45:22 +0000 2026",
+      "viewCount": 1355966,
+      "likeCount": 14269,
+      "retweetCount": 641,
+      "author": {
+        "userName": "kangminlee",
+        "name": "Kangmin Lee | 이강민",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/kangminlee/status/2052595688198783326",
+      "is_official": false
+    },
+    {
+      "id": "2052573533679788133",
+      "text": "🚨 BREAKING: Claude can now build your retirement plan like a Vanguard $500/hour wealth consultant (for free).\n\nHere are 5 insane Claude prompts that replace your retirement advisor, tax consultant, and investment strategist.\n\n(Save for later.) https://t.co/OBOWLcuGM4",
+      "createdAt": "Fri May 08 02:17:20 +0000 2026",
+      "viewCount": 624975,
+      "likeCount": 2189,
+      "retweetCount": 318,
+      "author": {
+        "userName": "selinaai_",
+        "name": "Selina",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/selinaai_/status/2052573533679788133",
+      "is_official": true
+    },
+    {
+      "id": "2052831727261790254",
+      "text": "Yeah sorry anti-AI people, I’m out ✌🏾\n\nClaude got me with this one",
+      "createdAt": "Fri May 08 19:23:18 +0000 2026",
+      "viewCount": 190848,
+      "likeCount": 1238,
+      "retweetCount": 31,
+      "author": {
+        "userName": "316simsim",
+        "name": "SJ",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/316simsim/status/2052831727261790254",
+      "is_official": false
+    },
+    {
+      "id": "2052811606032269638",
+      "text": "HTML is the new markdown. \n\nI've stopped writing markdown files for almost everything and switched to using Claude Code to generate HTML for me. This is why.",
+      "createdAt": "Fri May 08 18:03:20 +0000 2026",
+      "viewCount": 1216821,
+      "likeCount": 5462,
+      "retweetCount": 349,
+      "author": {
+        "userName": "trq212",
+        "name": "Thariq",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/trq212/status/2052811606032269638",
+      "is_official": false
+    },
+    {
+      "id": "2052540727335571788",
+      "text": "🚨 BREAKING: ChatGPT has a secret feature called Social Media Manager Mode.\n\nYou can use it to manage your entire social media like a $5000/month social media manager for free.\n\nHere are 8 prompts to access it:",
+      "createdAt": "Fri May 08 00:06:58 +0000 2026",
+      "viewCount": 1755691,
+      "likeCount": 6036,
+      "retweetCount": 866,
+      "author": {
+        "userName": "jaxoncoder",
+        "name": "Jaxon",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/jaxoncoder/status/2052540727335571788",
+      "is_official": false
+    },
+    {
+      "id": "2052778908882174302",
+      "text": "Some news: This week I am starting at @GoogleDeepMind as Director of AGI Economics on @shanelegg’s team. I will be joining the other amazing cross-disciplinary scientists researching AGI there.\n\nMy team will study how frontier AI could reshape the economy: what happens to work and labor, how wealth and power are distributed, how institutions adapt, how AI agents shape markets, and what kinds of models can help us reason clearly about futures that may look very different from the past. I’m incredibly excited to help build this research agenda.\n\nIf AGI changes how society operates, economics is going to be critical for shaping our shared future. Many more announcements soon.",
+      "createdAt": "Fri May 08 15:53:25 +0000 2026",
+      "viewCount": 231352,
+      "likeCount": 2797,
+      "retweetCount": 123,
+      "author": {
+        "userName": "alexolegimas",
+        "name": "Alex Imas",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/alexolegimas/status/2052778908882174302",
+      "is_official": false
+    },
+    {
+      "id": "2052735566748570008",
+      "text": "Left: the watermark GPT Image 2 embeds into every image it generates.\nRight: SynthID, the fingerprint Google bakes into every Nano Banana and Gemini image.\n\nInvisible to the human eye. Applied during generation, not added after. Designed to survive screenshots, crops, and compression.\n\nMost people using these tools daily have no idea their output is fingerprinted at the pixel level. Every major AI image generator now tags what it produces, and the tag travels with the image wherever it ends up.\n\nYou can verify this yourself. Content Credentials Verify detects C2PA markers from OpenAI images. Gemini detects SynthID if you upload an image directly to it.\n\nThe images will keep getting more realistic. The identification tech is keeping pace.",
+      "createdAt": "Fri May 08 13:01:11 +0000 2026",
+      "viewCount": 275591,
+      "likeCount": 1464,
+      "retweetCount": 139,
+      "author": {
+        "userName": "godofprompt",
+        "name": "God of Prompt",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/godofprompt/status/2052735566748570008",
+      "is_official": false
+    }
+  ]
+}

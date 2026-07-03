@@ -1,0 +1,416 @@
+{
+  "generated_at": "2026-04-25T00:00:43.226Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 34,
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "Anthropic实锤Claude Code「降智」：就是这三个Bug造成的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651029959&idx=2&sn=cad859337e0776186778017f4b568dd8",
+      "published_at": "2026-04-24T09:06:00.000Z",
+      "summary": "机器之心 2026-04-24 17:06 北京\n\nAnthropic：「体验崩了」是真，「模型没变」也是真！\n\n机器之心编辑部\n\n今天 AI 圈好不热闹，先是 OpenAI 声势浩大发布 GPT5.5，接着是盼了又盼的 DeepSeek v4 终于发布。\n\n而就在这狂欢的夹缝中，Anthropic 也在「搞事情」，不过不是发布新模型，而是发了一份郑重其事的声明： 没错，你们说 Claude Code「降智」是真的，不过这都是有原因的……\n\n「在过去一个月里，一些用户反馈 Claude Code 的质量有所下降。我们对此进行了调查，并发布了一份事后复盘报告，总结了发现的三个问题。」\n\n具体的故",
+      "priority_score": 528,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude",
+        "GPT",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "Claude终于认了！降智坐实，越聊越傻，3个bug全曝光",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886113&idx=3&sn=0720f0a9237a6d30873bbaccef2e3850",
+      "published_at": "2026-04-24T05:46:00.000Z",
+      "summary": "关注前沿科技 2026-04-24 13:46 北京\n\n推理等级偷偷从「高」调成「中」\n\n##### henry 发自 凹非寺 量子位 | 公众号 QbitAI\n\n感谢OpenAI（doge）。\n\n就在GPT-5.5发布的前后脚，Claude招了：\n\n**模型降智属实，所有使用额度均已重置。**\n\n嘴硬了一个多月，这降智bug终于从A社自己嘴里蹦出来了：\n\n- 推理等级偷偷从「高」调成「中」\n- 缓存bug导致每轮对话都清空思考记录\n- 一句25词限制的提示词砸了输出质量\n\n三个bug叠在一起，Claude使用体验全面拉垮。\n\n只能还好说友商今天及时给上了一波压力，教育用户终究不可取。\n\n不过",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "Claude",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
+      "published_at": "2026-04-24T09:45:30.000Z",
+      "summary": "Chinese AI company DeepSeek released a preview of its hotly anticipated next-generation AI model V4 on Friday,[saying](https://x.com/deepseek_ai/status/2047516922263285776?s=20)that the open-source model can compete with leading closed-source systems from US rivals including Anthropic, Google, and O",
+      "priority_score": 250,
+      "matched_keywords": [
+        "Anthropic",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "OpenAI 最强模型 GPT-5.5 上线；传特斯拉与 SpaceX 终将合并；票价 20 万！12306 惊现豪华专列 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104633&idx=1&sn=373a3d0d4ae13ed881f9129644e003bc",
+      "published_at": "2026-04-24T00:09:00.000Z",
+      "summary": "连冉 2026-04-24 08:09 北京\n\n消息称微软 GitHub Copilot 将转向按 Token 计费；特斯拉：第三代人形机器人预计年中亮相；宇树科技展示轮足人形机器人\n\n## OpenAI 最智能 AI 模型：GPT-5.5 登场，Token 成本降至 1/35、输出提速 50 倍\n\n4 月 24 日，OpenAI 正式发布旗下迄今最智能的 AI 模型 GPT-5.5。该模型核心突破在于大幅升级的 Agent 智能体能力，能精准理解用户模糊指令，自主规划、调用工具并执行多步骤复杂任务，无需用户精细管控每一步流程，在 Agentic Coding、计算机使用、科研等领域表现卓越，",
+      "priority_score": 250,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Three reasons why DeepSeek’s new model V4 matters",
+      "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+      "published_at": "2026-04-24T21:40:58.000Z",
+      "summary": "On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. Notably, the model can process much longer prompts than its last generation, thanks to a new design that helps it handle large amounts of text more efficiently. Like DeepSeek’s previous models, V4 is o",
+      "priority_score": 150,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google to invest up to $40B in Anthropic in cash and compute",
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "published_at": "2026-04-24T18:00:03.000Z",
+      "summary": "Google plans up to $40B investment in Anthropic as AI rivals race to secure massive compute capacity, following the limited release of its powerful, cybersecurity-focused Mythos model.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "DeepSeek previews new AI model that ‘closes the gap’ with frontier models",
+      "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
+      "published_at": "2026-04-24T13:30:59.000Z",
+      "summary": "DeepSeek says both models are more efficient and performant than DeepSeek V3.2 due to architectural improvements, and have almost \"closed the gap\" with current leading models, both open and closed, on reasoning benchmarks.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs",
+      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+      "published_at": "2026-04-24T12:00:00.000Z",
+      "summary": "Meta has commandeered a big chunk of Amazon's homegrown CPUs (not GPUs) for AI agentic workloads, signaling that a new kind of chip race has begun.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple’s new CEO, and why Elon Musk wants to buy Cursor for $60B",
+      "url": "https://techcrunch.com/podcast/apples-new-ceo-and-why-elon-musk-wants-to-buy-cursor-for-60b/",
+      "published_at": "2026-04-24T17:45:57.000Z",
+      "summary": "A new era is on the way for Apple as Tim Cook plans to step down from his CEO role in September,&#160;handing the reins to hardware chief John Ternus.&#160;&#160; Ternus may be inheriting one of the most durable businesses in tech, but&#160;he’s&#160;also stepping into&#160;a very different&#160;eco",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Cursor"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "MiniMax 登上戛纳，AI 与艺术的全球和解开始了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104690&idx=1&sn=726f4334a2c7ed1f2a7096dddc720618",
+      "published_at": "2026-04-24T12:38:00.000Z",
+      "summary": "原创Cynthia 2026-04-24 20:38 湖北\n\n守旧派戛纳，为什么开始积极拥抱新技术？\n\n**作者｜Cynthia** **编辑｜ **郑玄****\n\n**2026 年的春天，影视圈的风向开始变了。**\n\n4 月 21 日，全球首个，也是迄今为止规模最大的 AI 电影节 WAIFF（2026），在法国戛纳电影宫正式举办。蔚蓝海岸线前，一众影视行业的从业者鱼贯而入，但一改往日红毯众星云集的流光溢彩，这一次的电影节，地毯换成了象征科技的紫色，而走上这条「紫毯」的，也换成了一众 AI 内容的创作者。\n\n几乎同一时期，地球另一端的中国影视圈：恒星引力这家打造出《苍兰诀》《永夜星河》的头部",
+      "priority_score": 100,
+      "matched_keywords": [
+        "MiniMax"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Musk vs. Altman is here, and its going to get messy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917755/musk-altman-openai-xai-gossip",
+      "published_at": "2026-04-24T12:00:00.000Z",
+      "summary": "Might as well jump, as the poet David Lee Roth once said. | Image: Cath Virginia / The Verge\nElon Musk cofounded OpenAI, and then flounced off in a huff when he wasn't anointed CEO, leaving Sam Altman as the last power-hungry man standing. Now, Musk is back with a lawsuit, and a trial is scheduled t",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "谷歌这把「香蕉」太狠了！何恺明等引爆视觉Transformer时刻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652694878&idx=2&sn=3007381ed6db675afbc20e3d41211733",
+      "published_at": "2026-04-24T06:31:00.000Z",
+      "summary": "新智元 2026-04-24 14:31 北京\n\n### **新智元报道**\n\n编辑：KingHZ\n\n##### **【新智元导读】 计算机视觉用了二十年造出的那堆「专用工具」，谷歌DeepMind想一次性全扔掉。**\n\n过去十年，计算机视觉领域有一条铁律：看懂图片的模型，和画出图片的模型，是两拨人。\n\n检测用检测网络，分割用分割网络，生成用扩散模型。\n\n每一个新任务，都意味着一套新架构、一条新流水线、一群新论文。\n\n整个领域的工程师，本质上在干同一件事——给每种视觉能力定制一把专用钥匙。\n\n谷歌把这些钥匙全扔了。\n\n最近，谷歌联合 **ResNet作者** 何恺明、谢赛宁、NeRF先驱Jon",
+      "priority_score": 100,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "Coordination Engineering关键一环，JiuwenClaw再发布Team Skills技能新范式",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886113&idx=2&sn=2fad4b0ef5d9c5931bfc971499d5a68d",
+      "published_at": "2026-04-24T05:46:00.000Z",
+      "summary": "量子位 2026-04-24 13:46 北京\n\n业界首个面向多Agent协作的标准化能力包规范\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI工程范式的演进，正从单智能体的“驾驭与治理”，大步迈向多智能体的“协同与进化”。\n\n前不久， **华为支持的openJiuwen社区** 发布的最新版JiuwenClaw，率先提出 了 **Coordination Engineering 。**\n\n其凭借Agent Team实现了多智能体自主分工、高效沟通与无缝协作，完成了从“单兵作战”到“精锐团队”的关键跨越。\n\n但一个新的命题随之而来：\n\n如何让团队协作不再从零开始，让",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "机器人马拉松超越人类之后：本体走到尽头，智能成为下半场",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651029959&idx=1&sn=2aa3285bd8c85d42d7f6c5bc5143cdde",
+      "published_at": "2026-04-24T09:06:00.000Z",
+      "summary": "机器之心 2026-04-24 17:06 北京\n\n最有可能跑通具身智能 Scaling Law 的策略是什么？\n\n机器之心发布\n\n近日，人形机器人第一次在真正意义上，“超越” 了人类。\n\n2026 北京亦庄人形机器人半程马拉松赛上，荣耀人形机器人 “闪电” 凭借 50 分 26 秒（净用时）的成绩，获得此次比赛冠军，并大幅领先目前人类男子半程马拉松世界的最新纪录是 57 分 20 秒。\n\n与此同时，宇树 H1（2023 年改版）则自主跑完 1.9 公里多弯道赛程，用时 4 分 13 秒，按比例计算已打破人类 1500 米世界纪录。\n\n图源：新华社\n\n这意味着，如今机器人马拉松的比赛成绩，已经",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "华人再破硅谷天花板！AI黑马新任CTO，中科大80后",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886113&idx=1&sn=a100f9761f09706e471a473fd06b9c19",
+      "published_at": "2026-04-24T05:46:00.000Z",
+      "summary": "原创关注前沿科技 2026-04-24 13:46 北京\n\n华人顶半边天的下一章\n\n##### Jay 发自 凹非寺 量子位 | 公众号 QbitAI\n\n硅谷，即将迎来一名新的 **华人C TO** 。\n\n毕业于中科大少年班的80后葛小川，将在今年7月1日，任职一家硅谷上市公司的下一任首席技术官。\n\n公司已正式发布了公告，葛小川的老板、公司创始人&CEO Adam Foroughi 都在里面激动发言:\n我们很高兴能从内部提拔继任者。这次任命充分印证了我们对人才培养的重视，以及在继任计划上的深思熟虑……\n从离职Meta的工程师，到硅谷市值千亿美元的上市公司CTO……\n\n而这，仅仅是葛小川在App",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
+      "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+      "published_at": "2026-04-24T19:49:35.000Z",
+      "summary": "ComfyUI, whose tools give creators more control over AI image, video, and audio generation, just raised $30 million.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
+      "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
+      "published_at": "2026-04-24T16:42:19.000Z",
+      "summary": "Apple’s sold-out Mac mini is spawning marked-up eBay listings as demand surges for the compact desktop, now favored for running local AI models and tools.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "大模型上车两年，为什么「真·AI 汽车」现在才出现？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104679&idx=1&sn=1372d87204f584d076afe43dda86cc8e",
+      "published_at": "2026-04-24T09:09:00.000Z",
+      "summary": "原创靖宇 2026-04-24 17:09 湖北\n\n​AI 上车不缺口号，缺的是一条从模型到量产的完整通路。\n\nAI 上车不缺口号，缺的是一条从模型到量产的完整通路。\n\n**作者｜靖宇**\n\n今天在北京车展上爆火的极氪8X，有网友放出了一段新车演示视频，用户坐在车里说了一句「带我去接孩子放学，顺便找一家麦当劳，5 点前我要到学校」。\n\n接下来发生的事情，和你过去对「智能汽车」的认知完全不同。车辆自主规划路线，启动智能驾驶，中途停靠麦当劳，到达学校门口自动泊车。整个过程，用户不需要碰导航、手动切换智驾模式、或者在停车场里找车位。\n\n**这不是一个语音助手在帮你搜索，而是一个 Agent 在替你执",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta’s loss is Thinking Machines’ gain",
+      "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+      "published_at": "2026-04-24T20:52:07.000Z",
+      "summary": "Meta has been poaching talent from Thinking Machines Lab. But it's a two-way street.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "8 Gemini tips for organizing your space (and life)",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-spring-cleaning-tips/",
+      "published_at": "2026-04-24T19:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Spring_Cleaning_hero.max-600x600.format-webp.webp\">Organize your home and digital space with Gemini. Use AI-powered tips for cleaning schedules, inbox decluttering, seasonal chores.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "How Project Maven taught the military to love AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917996/project-maven-military-ai-katrina-manson",
+      "published_at": "2026-04-24T17:00:00.000Z",
+      "summary": "In the first 24 hours of the assault on Iran, the US military struck more than 1,000 targets, nearly double the scale of the \"shock and awe\" attack on Iraq over two decades ago. This acceleration was made possible by AI systems that speed up the targeting process. Chief among them is the Maven Smart",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "AirPods, Touch Bars, and the rest of Tim Cooks legacy",
+      "url": "https://www.theverge.com/podcast/917965/apple-ceo-cook-ternus-transition",
+      "published_at": "2026-04-24T14:43:07.000Z",
+      "summary": "We knew at some point Tim Cook would step down from his position as Apple's CEO. Over the last year, it has become increasingly obvious that John Ternus was his likely successor. The news this week was still a surprise, though - and this year's succession could lead to[some important changes](https:",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Uber CTO Praveen Neppalli Naga joins stacked StrictlyVC SF lineup for April 30 event",
+      "url": "https://techcrunch.com/2026/04/24/uber-cto-praveen-neppalli-naga-joins-stacked-strictlyvc-sf-lineup-for-april-30-event/",
+      "published_at": "2026-04-24T14:00:00.000Z",
+      "summary": "Surprise! StrictlyVC San Francisco, which will kick off this year’s events lineup for TechCrunch on April 30 at the Sentro Filipino Cultural Center, is getting a new addition to its increasingly stacked lineup of speakers. Uber CTO Praveen Neppalli Naga will join the rest of the lineup to discuss op",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Tim Cook is stepping down. What happens to Apple now?",
+      "url": "https://techcrunch.com/video/tim-cook-is-stepping-down-what-happens-to-apple-now/",
+      "published_at": "2026-04-24T14:00:00.000Z",
+      "summary": "Tim Cook plans to step down from his CEO role in September, handing the reins to hardware chief John Ternus.   Ternus may be inheriting one of the most durable businesses in tech, but&#160;he’s&#160;also stepping into&#160;a very different&#160;ecosystemthan the one Cook spent decades shaping. The A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nothing introduces an AI-powered dictation tool",
+      "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
+      "published_at": "2026-04-24T13:41:42.000Z",
+      "summary": "Nothing's new on-device dictation tool supports over 100 languages.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: supercharged scams and studying AI healthcare",
+      "url": "https://www.technologyreview.com/2026/04/24/1136400/the-download-supercharged-scams-questionable-ai-healthcare/",
+      "published_at": "2026-04-24T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **We’re in a new era of",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Prestigious photo contest answers ‘what is a photo?’",
+      "url": "https://www.theverge.com/gadgets/918016/prestigious-photo-contest-answers-what-is-a-photo",
+      "published_at": "2026-04-24T09:40:07.000Z",
+      "summary": "The three finalists for the World Press Photo of the year. | Image: World Press Photo\nWe love to muse over[how \", real, \" photography is defined](https://www.theverge.com/2024/9/23/24252231/lets-compare-apple-google-and-samsungs-definitions-of-a-photo)here at*The Verge*now that generative AI is so p",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "鹅厂员工，最近看的一本书是什么？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801374&idx=1&sn=7c1dac7972442d0c045a1178f5d861b3",
+      "published_at": "2026-04-24T09:24:00.000Z",
+      "summary": "「文末有礼」\n在AI 效率狂奔的时代，你有多久没有好好看完一本书了？「大厂书单」第一期，我们问了鹅厂员工们最近都在读什么书，他们来自不同的岗位，答案也出乎意料地丰富。  \n📖整理下来，本期推荐书单大概有这几个读书的方向。 \n🌟 方向一：在 AI 浪潮里，重新理解「写代码」这件事\n《程序员的自我修养：链接、装载与库》、《人比AI凶》、《只是为了好玩：Linux之父 Linus Torvalds》这三本书，讲的是同一件事：当 AI 替你写代码，你的价值在哪里？\n\n🌟 方向二：技术之外的长期判断\n有几本书和代码没什么关系，但被反复提及。\n《第五消费时代》、《挽救计划》一本看世界，一本看自己——",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "记得住、答得快、用得省：HERMES 让流式视频理解实时响应提速10倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651029959&idx=3&sn=727974231a8a62b512461c7b6c148c9d",
+      "published_at": "2026-04-24T09:06:00.000Z",
+      "summary": "机器之心 2026-04-24 17:06 北京\n\n真正的流式视频理解，不只是 “看得懂”，更要 “记得住、答得快、占得省”。\n\n复旦大学、上海创智学院与新加坡国立大学联合提出 HERMES ，一个面向流式视频理解的 免训练 ( training-free) 框架。它将 KV Cache 重新建模为层次化记忆系统，在用户提问到来时无需额外检索或辅助计算，就能直接复用缓存进行回答。\n\n在多项流式与离线视频基准上的实验表明，HERMES 在相较均匀采样 减少 68% 视频 token 的情况下，仍能取得可比甚至更优的理解性能；在流式数据集上最高带来 11.4% 的增益， 并实现最高 10倍 (10",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Health-care AI is here. We don’t know if it actually helps patients.",
+      "url": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
+      "published_at": "2026-04-24T09:00:00.000Z",
+      "summary": "I don’t need to tell you that[AI is everywhere](https://www.technologyreview.com/2026/04/21/1135921/ai-malaise-artificial-intelligence-public-sentiment/?utm_source=the_checkup&amp;utm_medium=email&amp;utm_campaign=the_checkup.unpaid.engagement&amp;utm_content=04-23-26).\n\nOr that it is being used, in",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "夯爆了！清北斯坦福联手，SimpleTES横扫21个科学难题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652694878&idx=1&sn=d76b2e5be52f9c75b8dd4ee399fd1516",
+      "published_at": "2026-04-24T06:31:00.000Z",
+      "summary": "新智元 2026-04-24 14:31 北京\n\n### **新智元报道**\n\n编辑：犀牛\n\n##### **【新智元导读】有人还在拼模型「想得更聪明」， SimpleTES 用21项硬核结果证明：AI科研真正的跃迁，不在更会思考，而在把「试错—反馈—进化」这条发现机器无限放大。**\n\n过去一年，AI圈最疯狂的一个执念， 就是让模型想得更久一点。 参数更大，推理更长，链路更深——仿佛只要模型足够聪明， 科学发现迟早会像答题一样，被它一步步「想出来」。\n\n但现在，一篇论文狠狠给了这个共识一闷棍。\n\n来自宽德智能学习实验室（Will）、斯坦福大学、北京大学、清华大学和香港科技大学（广州）的研究团队",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "AI科学家还在刷静态榜？基准主动反击，重塑自动科研评价标准",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652694878&idx=3&sn=d97b79ce0f04ec0ed0e457fa68102637",
+      "published_at": "2026-04-24T06:31:00.000Z",
+      "summary": "新智元 2026-04-24 14:31 北京\n\n### **新智元报道**\n\n编辑：LRST\n\n##### **【新智元导读】 AI Scientist正把「自动科研」推向新阶段，但一个更危险的问题也在浮出水面：当evaluator是静态的，系统学到的可能不是科学机制，而只是「怎么把这张考卷做高分」。**\n\n**自动科研真正的危险，已经不是「不会搜」，而是「太会刷静态评测」 。**\n\n过去一年，AI Scientist一类系统已经展示出惊人的能力：提出想法、写代码、跑实验、分析结果，甚至自动生成论文。但系统越强，一个更本质的问题就会越尖锐： **如果评测环境是冻结的，系统完全可能学会「赢过评",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "AI在夜晚集体失明！90段视频+12类问题实测模型夜盲程度｜ICLR 2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886113&idx=4&sn=17c46b8eca7dce96310b01ae5b6aeabf",
+      "published_at": "2026-04-24T05:46:00.000Z",
+      "summary": "关注前沿科技 2026-04-24 13:46 北京\n\n把“昼夜对齐”做进第一人称基准\n\n##### EgoNight 团队 投稿 量子位 | 公众号 QbitAI\n\n人类在夜里走路，即便光线昏暗也能认出熟人、避开障碍。\n\n但AI的第一人称视觉模型到了晚上基本等于“瞎了”。\n\n昏暗光照、反光、噪声、运动模糊，再加上佩戴式设备的抖动和遮挡…让视觉理解这道题，夜间难度直接翻倍。\n\n来自INSAIT、华东师范大学、港科大（广州）、南开大学、复旦大学等机构的研究者提出 **EgoNight** 基准，系统聚焦 **夜间第一人称视觉理解** 这一长期被忽视的问题，被ICLR 2026收录。\n\n它把昼夜对",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886113&idx=5&sn=9c9edec85e25fd17feaf9f63dce20490",
+      "published_at": "2026-04-24T05:46:00.000Z",
+      "summary": "关注前沿科技 2026-04-24 13:46 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

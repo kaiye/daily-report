@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-04-19T00:00:57.991Z",
+  "source_raw": "raw.json",
+  "source_count": 10,
+  "item_count": 8,
+  "language_breakdown": {
+    "TypeScript": 1,
+    "Dart": 1,
+    "Python": 1,
+    "JavaScript": 1,
+    "Jupyter Notebook": 1,
+    "Rust": 1,
+    "Shell": 1,
+    "HTML": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+      "language": "TypeScript",
+      "stars_today": 447,
+      "stars_total": 1541,
+      "forks": 79
+    },
+    {
+      "rank": 2,
+      "repo": "BasedHardware/omi",
+      "url": "https://github.com/BasedHardware/omi",
+      "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "language": "Dart",
+      "stars_today": 609,
+      "stars_total": 10423,
+      "forks": 1714
+    },
+    {
+      "rank": 3,
+      "repo": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "language": "Python",
+      "stars_today": 470,
+      "stars_total": 22306,
+      "forks": 3547
+    },
+    {
+      "rank": 4,
+      "repo": "EvoMap/evolver",
+      "url": "https://github.com/EvoMap/evolver",
+      "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
+      "language": "JavaScript",
+      "stars_today": 1131,
+      "stars_total": 4987,
+      "forks": 489
+    },
+    {
+      "rank": 6,
+      "repo": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars_today": 547,
+      "stars_total": 32006,
+      "forks": 3891
+    },
+    {
+      "rank": 8,
+      "repo": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "language": "Rust",
+      "stars_today": 393,
+      "stars_total": 112074,
+      "forks": 16760
+    },
+    {
+      "rank": 9,
+      "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "description": "Claude Code skill to support Android app's reverse engineering",
+      "language": "Shell",
+      "stars_today": 403,
+      "stars_total": 3112,
+      "forks": 317
+    },
+    {
+      "rank": 10,
+      "repo": "tractorjuice/arc-kit",
+      "url": "https://github.com/tractorjuice/arc-kit",
+      "description": "Enterprise Architecture Governance &amp; Vendor Procurement Toolkit",
+      "language": "HTML",
+      "stars_today": 135,
+      "stars_total": 726,
+      "forks": 101
+    }
+  ]
+}

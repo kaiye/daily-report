@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>媒体资讯</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #2a1f0f;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #ffc069;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #ffd8ab;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #ffe8cc 0%, #fff7ed 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #ffe0bf;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #ffe0bf;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #ffc069 88%, white) 0%,
+      color-mix(in srgb, #ffc069 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #ffe0bf;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">Media & News Watch</p>
+        </div>
+        <p class="date-chip">JUN 25, 2026</p>
+      </div>
+      <h1 class="hero-title">媒体资讯</h1>
+      <p class="hero-summary">AI 竞争正从模型能力延伸到芯片、智能体基础设施、应用场景和顶尖人才流动。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI 发布首款由博通打造的定制芯片</span>：这款名为 Jalapeño 的处理器面向 OpenAI 推理系统的特定需求设计，标志其在 AI 基础设施上进一步走向自研。
+          </p>
+          <p class="item-metric">2026-06-24 14:54:46 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/">https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">Google DeepMind</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Google DeepMind 在 Gemini 3.5 Flash 中引入电脑使用能力</span>：Gemini 3.5 Flash 新增的电脑操作能力将模型应用推进到可直接与软件界面交互的智能体场景。
+          </p>
+          <p class="item-metric">2026-06-24 16:30:01 UTC</p>
+          <a class="item-link" href="https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/">https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">MIT Technology Review AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Stripe、Anthropic 和 OpenAI 支持阻止呼吸道感染的计划</span>：Stripe 表示将资助一个 5 亿美元的非营利项目，Anthropic 和 OpenAI 也参与支持，目标是应对普通感冒等呼吸道感染。
+          </p>
+          <p class="item-metric">2026-06-24 12:00:00 UTC</p>
+          <a class="item-link" href="https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/">https://www.technologyreview.com/2026/06/24/1139621/stripe-anthropic-and-openai-are-backing-an-effort-to-stop-respiratory-infections/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Google AI 研究人员继续转投竞争对手</span>：顶尖 AI 研究员 Jonas Adler 和 Alexander Pritzel 将从 Google 加入 Anthropic，此前已有 Noam Shazeer 和 John Jumper 等重要科学家离职。
+          </p>
+          <p class="item-metric">2026-06-24 21:42:07 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/">https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">极客公园</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">AWS 在 Agentic AI 时代重塑基础设施角色</span>：文章观察 2026 AWS 上海峰会，认为在 Claude、ChatGPT、DeepSeek 和 Llama 等模型差距收窄后，云基础设施的重要性正在上升。
+          </p>
+          <p class="item-metric">2026-06-24 13:41:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653109382&amp;idx=1&amp;sn=bc6e376f3a43391f445fd4ff3edd9168">https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653109382&amp;idx=1&amp;sn=bc6e376f3a43391f445fd4ff3edd9168</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">新智元</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">国产 3D 大模型公司影眸科技再获数亿元融资</span>：影眸科技宣布完成新一轮数亿元人民币融资，并发布被称为全球首个“会思考”的 3D 大模型。
+          </p>
+          <p class="item-metric">2026-06-24 04:41:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652708950&amp;idx=1&amp;sn=2f16c1f2ff8f70142534d690a98e7ce2">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652708950&amp;idx=1&amp;sn=2f16c1f2ff8f70142534d690a98e7ce2</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">新智元</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Karpathy 投资的 AI 记忆初创 Engram 亮相</span>：这家 13 人团队成立 8 个月后获得 9800 万美元融资，主打让大模型以更少 Token 保持长期记忆并持续改进。
+          </p>
+          <p class="item-metric">2026-06-24 04:41:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652708950&amp;idx=2&amp;sn=f53030ebc186c6bf017a2f1cb06eba72">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652708950&amp;idx=2&amp;sn=f53030ebc186c6bf017a2f1cb06eba72</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">机器之心</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">端侧运行大模型变得更简单</span>：文章指出本地 AI 模型在智能、Agent 能力和工具链成熟度上快速提升，端侧部署正在从可行走向更实用。
+          </p>
+          <p class="item-metric">2026-06-24 03:00:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651040859&amp;idx=2&amp;sn=43a32b10d7d5638a408019deacbe4ed2">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651040859&amp;idx=2&amp;sn=43a32b10d7d5638a408019deacbe4ed2</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">量子位</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">TRM 思考奖励模型让大模型推理质量可量化</span>：这项 ICML 2026 Oral 工作关注大模型推理过程本身，尝试评估 reasoning trace 是否清晰、紧凑且符合解题逻辑。
+          </p>
+          <p class="item-metric">2026-06-24 04:00:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247899199&amp;idx=3&amp;sn=b0d6764e50d881295fd85b75f8f9434a">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247899199&amp;idx=3&amp;sn=b0d6764e50d881295fd85b75f8f9434a</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

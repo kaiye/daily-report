@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-05-20",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 Claude Code、LLM 编程代理和本地开发工作流的智能体化工具持续升温。",
+  "items": [
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "你的个人 AI 超级智能，私密、简单且极其强大。",
+      "language": "Rust",
+      "stars_today": 3973,
+      "stars_total": 21132
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "CLI-Anything：让所有软件原生支持智能体。",
+      "language": "Python",
+      "stars_today": 1038,
+      "stars_total": 37680
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "面向 Claude Code 的学术研究技能：研究 → 写作 → 审阅 → 修订 → 定稿。",
+      "language": "Python",
+      "stars_today": 3164,
+      "stars_total": 14085
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一套有效的智能体技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1623,
+      "stars_total": 198339
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "由 Anthropic 官方管理的高质量 Claude Code 插件目录。",
+      "language": "Python",
+      "stars_today": 171,
+      "stars_total": 20164
+    },
+    {
+      "repo": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "description": "基于真实世界基准测试的 AI 编程代理首选持久记忆。",
+      "language": "TypeScript",
+      "stars_today": 1609,
+      "stars_total": 14118
+    },
+    {
+      "repo": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI 代理，可在常见开发命令中减少 60–90% 的 LLM token 消耗，单个 Rust 二进制文件、零依赖。",
+      "language": "Rust",
+      "stars_today": 704,
+      "stars_total": 50858
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "触手可及的完整 AI 代理公司，从前端向导到 Reddit 社群忍者，从奇思妙想注入者到现实校验者，每个代理都是拥有个性、流程和成熟交付物的专业专家。",
+      "language": "Shell",
+      "stars_today": 1120,
+      "stars_total": 101568
+    },
+    {
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "面向 Claude Code、Codex、Cursor 和 OpenCode 的预索引代码知识图谱，减少 token、减少工具调用，并且 100% 本地运行。",
+      "language": "TypeScript",
+      "stars_today": 1850,
+      "stars_total": 6555
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "一个用于改进 Claude Code 行为的 CLAUDE.md 文件，源自 Andrej Karpathy 对 LLM 编程陷阱的观察。",
+      "language": "Unknown",
+      "stars_today": 1955,
+      "stars_total": 137944
+    },
+    {
+      "repo": "humanlayer/12-factor-agents",
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "description": "我们可以用哪些原则来构建真正足以交付给生产客户的 LLM 驱动软件？",
+      "language": "TypeScript",
+      "stars_today": 736,
+      "stars_total": 21167
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "在终端、VSCode 扩展或 Discord 中像 OpenClaw 一样免费使用 claude-code，并支持语音。",
+      "language": "Python",
+      "stars_today": 563,
+      "stars_total": 26352
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-05-24",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI 编码代理的知识图谱、插件、技能库与协作平台快速升温。",
+  "items": [
+    {
+      "repo": "Lum1104/Understand-Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "会教学的图胜过会炫技的图：把任何代码变成可探索、搜索并提问的交互式知识图谱，支持 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等。",
+      "language": "TypeScript",
+      "stars_today": 2299,
+      "stars_total": 21454
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "由 Anthropic 官方管理的高质量 Claude Code 插件目录。",
+      "language": "Python",
+      "stars_today": 2193,
+      "stars_total": 26412
+    },
+    {
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "面向 Claude Code、Codex、Cursor、OpenCode 和 Hermes Agent 的预索引代码知识图谱，减少 token、减少工具调用，并且 100% 本地运行。",
+      "language": "TypeScript",
+      "stars_today": 2456,
+      "stars_total": 19394
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "学习它，构建它，并为他人交付它。",
+      "language": "Python",
+      "stars_today": 1521,
+      "stars_total": 13721
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "一个用于改进 Claude Code 行为的 CLAUDE.md 文件，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。",
+      "language": "Unknown",
+      "stars_today": 3507,
+      "stars_total": 149581
+    },
+    {
+      "repo": "dotnet/skills",
+      "url": "https://github.com/dotnet/skills",
+      "description": "用于帮助 AI 编码代理处理 .NET 和 C# 的技能仓库。",
+      "language": "C#",
+      "stars_today": 266,
+      "stars_total": 2738
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "面向编码代理的 Chrome DevTools。",
+      "language": "TypeScript",
+      "stars_today": 435,
+      "stars_total": 41322
+    },
+    {
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "面向 AI 代理的 754 项结构化网络安全技能，映射到 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND 和 NIST AI RMF 5 个框架，遵循 agentskills.io 标准，并支持 Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI 等 20 多个平台。",
+      "language": "Python",
+      "stars_today": 281,
+      "stars_total": 7388
+    },
+    {
+      "repo": "presenton/presenton",
+      "url": "https://github.com/presenton/presenton",
+      "description": "开源 AI 演示文稿生成器和 API，可作为 Gamma、Beautiful AI、Decktopus 的替代方案。",
+      "language": "TypeScript",
+      "stars_today": 241,
+      "stars_total": 6345
+    },
+    {
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "开源托管代理平台，将编码代理变成真正的队友：分配任务、跟踪进度并积累技能。",
+      "language": "TypeScript",
+      "stars_today": 410,
+      "stars_total": 31903
+    }
+  ]
+}

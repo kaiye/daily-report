@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-06-11",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "今日重要AI新闻集中在Claude Fable发布后的安全与可用性争议、AI Agent工具和融资推进，以及DeepMind、Amazon等公司围绕模型效率和基础设施的持续投入。",
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "Claude Fable拒答基础生物学问题",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/947973/fable-wont-answer-basic-biology-questions",
+      "published_at": "2026-06-10T18:43:34.000Z",
+      "summary": "Anthropic称Claude Fable 5是其广泛开放的最强模型并强调生物学能力，但实际使用中出现了对基础生物学问题拒绝回答的情况。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "微软因数据留存担忧限制员工使用Claude Fable",
+      "url": "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+      "published_at": "2026-06-10T16:50:23.000Z",
+      "summary": "Anthropic发布首个Mythos级模型Claude Fable后，微软内部出于数据留存方面的顾虑对员工使用该模型作出限制。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "xAI被诉解雇曾警示Grok安全问题的工程师",
+      "url": "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/",
+      "published_at": "2026-06-10T22:31:19.000Z",
+      "summary": "一名前xAI工程师起诉xAI和SpaceX，称自己在SpaceX历史性IPO前数日提出Grok的AI安全担忧后遭到解雇。"
+    },
+    {
+      "source": "机器之心",
+      "title": "openJiuwen推出SwarmFlow探索多智能体协同",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651038220&idx=2&sn=63760476eb94ffe5f957ebc4e77870f7",
+      "published_at": "2026-06-10T03:50:00.000Z",
+      "summary": "华为支持的openJiuwen社区围绕协同工程推进Agent Swarm、Swarm Skills和SwarmSkill Creator，并以SwarmFlow强化多Agent分工协作。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Jedify融资2400万美元为企业AI Agent补充业务上下文",
+      "url": "https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/",
+      "published_at": "2026-06-10T13:33:09.000Z",
+      "summary": "Jedify完成由Norwest领投、S Capital VC等参投的2400万美元融资，Snowflake Ventures也作为战略投资方加入。"
+    },
+    {
+      "source": "新智元",
+      "title": "科研工具Mira推出专家小队、科研画布和LLM WIKI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652706158&idx=1&sn=d1ded029579a1975c117a659a92a95b8",
+      "published_at": "2026-06-10T02:15:00.000Z",
+      "summary": "由科研龙虾SciClaw升级而来的Mira在万人内测后发布三大核心能力，试图将“Vibe Researching”产品化并帮助研究者自动处理文献、代码和结果整理。"
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Google DeepMind发布DiffusionGemma以提升文本生成速度",
+      "url": "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "published_at": "2026-06-10T16:24:11.000Z",
+      "summary": "DiffusionGemma主打将文本生成速度提升至四倍，体现Google DeepMind对更高效生成模型路径的推进。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Niteshift获700万美元种子轮押注企业反对大AI锁定",
+      "url": "https://techcrunch.com/2026/06/10/datadog-veterans-launch-ai-coding-startup-niteshift-on-a-bet-against-big-ai-lock-in/",
+      "published_at": "2026-06-10T15:00:00.000Z",
+      "summary": "由Datadog前员工创办的AI编码Agent初创公司Niteshift获得700万美元种子轮融资，主张企业应掌握模型使用主动权而非被大模型厂商锁定。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Amazon在AI支出持续增长中向银行借入175亿美元",
+      "url": "https://techcrunch.com/2026/06/10/fresh-off-bond-sale-amazon-borrows-17-5-billion-from-banks-as-ai-spending-continues/",
+      "published_at": "2026-06-10T20:19:31.000Z",
+      "summary": "Amazon继发债后又向银行借入175亿美元，反映大型科技公司为跟上AI竞赛正消耗巨额资金并推高债务。"
+    }
+  ]
+}

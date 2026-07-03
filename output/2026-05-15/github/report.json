@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-05-15",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI 代理与 Claude Code 等开发工作流构建记忆、技能框架和专用工具，同时扩展到金融模型、语音与空间感知等应用场景。",
+  "items": [
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView 将普通 WiFi 信号转化为实时空间智能、生命体征监测和存在检测，全程不需要任何视频像素。",
+      "language": "Rust",
+      "stars_today": 1715,
+      "stars_total": 55944
+    },
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "你的个人 AI 超级智能，私密、简单且极其强大。",
+      "language": "Rust",
+      "stars_today": 3329,
+      "stars_total": 7730
+    },
+    {
+      "repo": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "description": "面向 AI 编码代理、基于真实世界基准排名第一的持久记忆。",
+      "language": "TypeScript",
+      "stars_today": 1879,
+      "stars_total": 8952
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "有效运作的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1780,
+      "stars_total": 191150
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "一套可直接使用的 Agent Skills，覆盖研究、科学、工程、分析、金融和写作。",
+      "language": "Python",
+      "stars_today": 654,
+      "stars_total": 21766
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 363,
+      "stars_total": 24802
+    },
+    {
+      "repo": "supertone-inc/supertonic",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "description": "闪电般快速、端侧运行的多语言 TTS，通过 ONNX 原生运行。",
+      "language": "Swift",
+      "stars_today": 1128,
+      "stars_total": 5306
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "面向真正工程师的 Skills，直接来自我的 .claude 目录。",
+      "language": "Shell",
+      "stars_today": 2987,
+      "stars_total": 82199
+    },
+    {
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "💫 帮助你开始规格驱动开发的工具包。",
+      "language": "Python",
+      "stars_today": 1232,
+      "stars_total": 99464
+    },
+    {
+      "repo": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "使用 Garry Tan 的同款 Claude Code 配置：23 个有明确取向的工具，分别充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA。",
+      "language": "TypeScript",
+      "stars_today": 915,
+      "stars_total": 96720
+    }
+  ]
+}

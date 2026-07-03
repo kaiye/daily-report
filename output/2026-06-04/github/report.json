@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-06-04",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热方向集中在面向 LLM 与智能体的上下文压缩、记忆、数据准备和交互式应用基础设施。",
+  "items": [
+    {
+      "repo": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "description": "在工具输出、日志、文件和 RAG 分块到达 LLM 前进行压缩，减少 60-95% token 且答案保持一致，提供库、代理和 MCP 服务器。",
+      "language": "Python",
+      "stars_today": 3530,
+      "stars_total": 9633
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "智能体 harness 性能优化系统，为 Claude Code、Codex、Opencode、Cursor 及更多工具提供技能、本能、记忆、安全和研究优先开发。",
+      "language": "JavaScript",
+      "stars_today": 2141,
+      "stars_total": 205695
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "与你一同成长的智能体。",
+      "language": "Python",
+      "stars_today": 1735,
+      "stars_total": 179073
+    },
+    {
+      "repo": "nesquena/hermes-webui",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "description": "Hermes WebUI：从网页或手机使用 Hermes Agent 的最佳方式。",
+      "language": "Python",
+      "stars_today": 719,
+      "stars_total": 13090
+    },
+    {
+      "repo": "opendataloader-project/opendataloader-pdf",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "description": "面向 AI 就绪数据的 PDF 解析器，自动化 PDF 无障碍处理，开源。",
+      "language": "Java",
+      "stars_today": 570,
+      "stars_total": 23243
+    },
+    {
+      "repo": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "description": "通过免提语音交互、语音打断和 Live2D 与任意 LLM 对话，并可在本地跨平台运行。",
+      "language": "Python",
+      "stars_today": 693,
+      "stars_total": 8932
+    },
+    {
+      "repo": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "使用单张 4GB GPU 进行 AirLLM 70B 推理。",
+      "language": "Jupyter Notebook",
+      "stars_today": 208,
+      "stars_total": 18872
+    },
+    {
+      "repo": "supermemoryai/supermemory",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "description": "极快且可扩展的记忆引擎和应用，面向 AI 时代的 Memory API。",
+      "language": "TypeScript",
+      "stars_today": 600,
+      "stars_total": 25151
+    },
+    {
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "Vibe-Trading：你的个人交易智能体。",
+      "language": "Python",
+      "stars_today": 197,
+      "stars_total": 9881
+    }
+  ]
+}

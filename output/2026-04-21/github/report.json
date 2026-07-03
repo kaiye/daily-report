@@ -1,0 +1,48 @@
+{
+  "report_date": "2026-04-21",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜的 AI 相关项目最热方向集中在可控智能体工作流、本地可控模型体验，以及将 AI 用于感知、情报聚合与高性能推理基础设施。",
+  "items": [
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView：WiFi DensePose 将普通 WiFi 信号转化为实时人体姿态估计、生命体征监测和存在检测——全程无需一帧视频画面。",
+      "language": "Rust",
+      "stars_today": 713,
+      "stars_total": 48174
+    },
+    {
+      "repo": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "description": "由你掌控的 AI：自由选择模型，掌握自己的数据，摆脱供应商锁定。",
+      "language": "TypeScript",
+      "stars_today": 675,
+      "stars_total": 2798
+    },
+    {
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "实时全球情报仪表盘，将 AI 驱动的新闻聚合、地缘政治监测和基础设施追踪整合进统一的态势感知界面。",
+      "language": "TypeScript",
+      "stars_today": 316,
+      "stars_total": 50044
+    },
+    {
+      "repo": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "轻量而强大的多智能体工作流框架。",
+      "language": "Python",
+      "stars_today": 905,
+      "stars_total": 23916
+    },
+    {
+      "repo": "deepseek-ai/DeepGEMM",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "description": "DeepGEMM：简洁高效的 FP8 GEMM 内核，支持细粒度缩放。",
+      "language": "Cuda",
+      "stars_today": 109,
+      "stars_total": 6822
+    }
+  ]
+}

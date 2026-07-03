@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-05-25T00:01:56.504Z",
+  "source_raw": "raw.json",
+  "source_count": 16,
+  "item_count": 15,
+  "language_breakdown": {
+    "TypeScript": 5,
+    "Python": 6,
+    "Unknown": 1,
+    "Swift": 1,
+    "Markdown": 1,
+    "C#": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "Lum1104/Understand-Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "Graphs that teach &gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars_today": 3999,
+      "stars_total": 25656,
+      "forks": 2224
+    },
+    {
+      "rank": 2,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars_today": 1853,
+      "stars_total": 15890,
+      "forks": 2831
+    },
+    {
+      "rank": 3,
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars_today": 1173,
+      "stars_total": 27221,
+      "forks": 2906
+    },
+    {
+      "rank": 4,
+      "repo": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "language": "Python",
+      "stars_today": 550,
+      "stars_total": 14014,
+      "forks": 1736
+    },
+    {
+      "rank": 5,
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "Unknown",
+      "stars_today": 2551,
+      "stars_total": 151993,
+      "forks": 15584
+    },
+    {
+      "rank": 6,
+      "repo": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI libraries, Slack bot, vLLM pods",
+      "language": "TypeScript",
+      "stars_today": 456,
+      "stars_total": 53906,
+      "forks": 6438
+    },
+    {
+      "rank": 7,
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "language": "Python",
+      "stars_today": 553,
+      "stars_total": 29140,
+      "forks": 4376
+    },
+    {
+      "rank": 8,
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars_today": 3003,
+      "stars_total": 21894,
+      "forks": 1218
+    },
+    {
+      "rank": 9,
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "TypeScript",
+      "stars_today": 585,
+      "stars_total": 32468,
+      "forks": 3902
+    },
+    {
+      "rank": 10,
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars_today": 106,
+      "stars_total": 25783,
+      "forks": 4494
+    },
+    {
+      "rank": 11,
+      "repo": "manaflow-ai/cmux",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+      "language": "Swift",
+      "stars_today": 696,
+      "stars_total": 19001,
+      "forks": 1449
+    },
+    {
+      "rank": 12,
+      "repo": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars_today": 197,
+      "stars_total": 62129,
+      "forks": 9728
+    },
+    {
+      "rank": 13,
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars_today": 550,
+      "stars_total": 504248,
+      "forks": 47828
+    },
+    {
+      "rank": 14,
+      "repo": "dotnet/skills",
+      "url": "https://github.com/dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "stars_today": 183,
+      "stars_total": 2954,
+      "forks": 217
+    },
+    {
+      "rank": 15,
+      "repo": "blakeblackshear/frigate",
+      "url": "https://github.com/blakeblackshear/frigate",
+      "description": "NVR with realtime local object detection for IP cameras",
+      "language": "TypeScript",
+      "stars_today": 181,
+      "stars_total": 32827,
+      "forks": 3178
+    }
+  ]
+}

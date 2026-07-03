@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-06-04T00:03:53.592Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-03",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2062281977122996256",
+      "text": "We’re bringing new capabilities to GPT-Rosalind, a model series purpose-built for life sciences research at enterprise scale.\n\nIt brings GPT-5.5’s agentic coding and tool use together with stronger intelligence for drug discovery, analysis, design, and experimental workflows.\n\nhttps://t.co/SrAJ3Mt7ka",
+      "createdAt": "Wed Jun 03 21:15:13 +0000 2026",
+      "viewCount": 155295,
+      "likeCount": 1760,
+      "retweetCount": 173,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2062281977122996256",
+      "is_official": true
+    },
+    {
+      "id": "2062178835689623592",
+      "text": "Introducing Monako Glass 👓\n\nThe world's first wearable Linux computer in glasses form.\nRun Claude Code, Codex, and any coding agent — anywhere. https://t.co/DFDKuP6xux",
+      "createdAt": "Wed Jun 03 14:25:22 +0000 2026",
+      "viewCount": 420855,
+      "likeCount": 3782,
+      "retweetCount": 290,
+      "author": {
+        "userName": "candyyueliu",
+        "name": "Candy樂兒",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/candyyueliu/status/2062178835689623592",
+      "is_official": false
+    },
+    {
+      "id": "2062164743448633393",
+      "text": "Claude Code creator:\n\n\"Now I don’t prompt Claude anymore - I have loops that are running. My job is to write loops.\"\n\nIn this 30-min speech, Boris revealed his actual Claude setup for daily coding.\n\nClaude Code + loops + dynamic workflow\n\nWorth more than a $500 vibe-coding course https://t.co/uP7UD3dr0H",
+      "createdAt": "Wed Jun 03 13:29:22 +0000 2026",
+      "viewCount": 384850,
+      "likeCount": 2089,
+      "retweetCount": 179,
+      "author": {
+        "userName": "0xMovez",
+        "name": "Movez",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/0xMovez/status/2062164743448633393",
+      "is_official": false
+    },
+    {
+      "id": "2062257177788858398",
+      "text": "We've changed the trigger word from \"workflow\" to \"ultracode\".\n\nYou can still say \"use a workflow for this\", but when you're clearly referring to something else, Claude won't kick off a dynamic workflow. For an explicit trigger, use \"ultracode\". We appreciate the feedback!",
+      "createdAt": "Wed Jun 03 19:36:40 +0000 2026",
+      "viewCount": 196803,
+      "likeCount": 2549,
+      "retweetCount": 127,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2062257177788858398",
+      "is_official": true
+    },
+    {
+      "id": "2062066797625418161",
+      "text": "🚨 OpenAI's ChatGPT has become the fastest app to reach 1 billion monthly active users. https://t.co/9ivM5XmmoQ",
+      "createdAt": "Wed Jun 03 07:00:10 +0000 2026",
+      "viewCount": 28051,
+      "likeCount": 1491,
+      "retweetCount": 59,
+      "author": {
+        "userName": "IndianTechGuide",
+        "name": "Indian Tech & Infra",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/IndianTechGuide/status/2062066797625418161",
+      "is_official": false
+    },
+    {
+      "id": "2062220040934449596",
+      "text": "We spoke with @BenJames_____ about building things, creativity, and why silly ideas matter. https://t.co/36i6YTbtny",
+      "createdAt": "Wed Jun 03 17:09:06 +0000 2026",
+      "viewCount": 84981,
+      "likeCount": 1126,
+      "retweetCount": 76,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2062220040934449596",
+      "is_official": true
+    },
+    {
+      "id": "2062168254416814163",
+      "text": "A scientist in Denmark figured out how to make Claude prepare his job applications. He open-sourced the whole thing.\n\nHis name is Mads Lorentzen. He is a PhD geophysicist. He built it on top of Claude Code and released it under MIT license.\n\nHere is what it does. You fork the repo, fill in your background once, and it runs a five-step pipeline for every job you want to apply to.\n\nStep 1. It reads the job posting and scores how well you fit.\n\nStep 2. It drafts a tailored CV in LaTeX, picking only the experience that matches.\n\nStep 3. It writes a cover letter framed around what you would bring to the role.\n\nStep 4. A second AI agent reviews the first agent's work, points out weaknesses, and the first agent revises.\n\nStep 5. It compiles both into clean PDFs you can send.\n\nThe whole thing is a folder of markdown files. The candidate profile, the writing style rules, the CV templates, the interview prep notes. Every step is plain text you can read and change.\n\nThe job portal search is built for Danish boards. The application workflow itself works for any country.\n\n489 stars. 270 forks. A fork-to-star ratio that high means people are using it, not only bookmarking.\n\nMads is not a startup founder. He built this because he needed it for himself, then shared it.\n\nThis is the future of job hunting. Not a service you pay for. A workflow you own.\n\n(Link in the comments)",
+      "createdAt": "Wed Jun 03 13:43:19 +0000 2026",
+      "viewCount": 112985,
+      "likeCount": 1810,
+      "retweetCount": 201,
+      "author": {
+        "userName": "heynavtoor",
+        "name": "Nav Toor",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/heynavtoor/status/2062168254416814163",
+      "is_official": false
+    },
+    {
+      "id": "2061961710823686489",
+      "text": "OpenAI is merging ChatGPT, Codex and its Atlas browser into one desktop app and recasting Codex from a coding tool into a productivity app it says anyone can use.\n\nThe figures it has been handing out to support that: 5 million weekly Codex users, enterprise revenue up 50% week over week, usage growing 5% a day. \n\nThose come from an all-hands and an internal staff note, relayed by people familiar with the remarks.\n\nCodex is increasingly evolving into a true work platform. And GPT-5.6 is also on the horizon. Great things are expected from OpenAI in the near future.\n\nVia the information",
+      "createdAt": "Wed Jun 03 00:02:35 +0000 2026",
+      "viewCount": 58856,
+      "likeCount": 1001,
+      "retweetCount": 55,
+      "author": {
+        "userName": "kimmonismus",
+        "name": "Chubby♨️",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/kimmonismus/status/2061961710823686489",
+      "is_official": false
+    },
+    {
+      "id": "2062009696098083002",
+      "text": "THIS GUY HAD OPUS 4.8 BUILD A FULL LEAGUE OF LEGENDS CLONE IN UNDER A DAY AND CALLED IT \"LMAO\"\n\ntemu league of legends, fully playable, multiplayer, and all built by claude\n\nALL the art is claude too\n\nhe had claude generate every character, animation, and background as SVG code\n\nthen converted them to procedural canvas for smooth animation. used dedicated sub-agents for each champion\n\nthe tech stack: typescript, react, canvas, and partykit for multiplayer\n\nthe workflow:\n\n> used /goal to kick off the entire project\n> ultracode workflows for big tasks like optimization\n> /goal again to queue up lists of bug fixes\n> treated claude like a dev team\n\nthe original champion names claude came up with:\n\nthe original champion names claude came up with: Teehee\" instead of Teemo. \"CtrlAltDefeat\" as a champion name. he had to run through and clean them all up so nothing infringed on riot's IP\n\nclaude even built the bots on its own with \"chill,\" \"normal,\" and \"sweaty\" difficulty levels\n\nthe token bill was 2.7 billion total tokens consumed. mostly cache reads. 15.5 million actual output tokens. would have cost roughly $6,600 at list price but he just used his pro max subscriptions\n\npeople are already benchmarking claude by how good of a game clone it can build\n\ngame developers are watching someone build a multiplayer MOBA in a day with zero art skills and zero game dev experience\n\n2026 is wild (and its going to get even wilder)",
+      "createdAt": "Wed Jun 03 03:13:16 +0000 2026",
+      "viewCount": 288603,
+      "likeCount": 1505,
+      "retweetCount": 80,
+      "author": {
+        "userName": "om_patel5",
+        "name": "Om Patel",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/om_patel5/status/2062009696098083002",
+      "is_official": false
+    },
+    {
+      "id": "2062105627204423994",
+      "text": "ByteDance has published a paper that should make every NVIDIA investor sweat.\n\nThey trained an AI that writes CUDA better than humans experts.\n\nThey call it CUDA Agent.\n\nAnd it completely rewrites the economics of AI hardware.\n\nThey built a massive agentic reinforcement learning loop. The AI writes a kernel, compiles it, profiles the hardware, analyzes the bottlenecks, and rewrites the code until it's flawless.\n\nIt learned how to optimize memory access patterns and hardware tiling strategies that traditional compilers miss.\n\nThe results are staggering.\n\nOn the industry-standard KernelBench, CUDA Agent completely destroyed traditional compilers.\n\nIt delivered code that runs up to 3.2x faster than PyTorch's native execution.\n\nOn the hardest, most complex models, it beat the strongest proprietary models in the world—including Claude Opus 4.5 and Gemini 3 Pro, by 40%.\n\nIt didn't just match human experts. It started discovering optimizations that static compilers literally cannot see.\n\nHere is why this is a massive threat to NVIDIA.\n\nNVIDIA's dominance relies on the fact that CUDA is incredibly hard to master. Developers get locked in because optimizing code for other chips is too painful.\n\nBut if an AI agent can autonomously generate hyper-optimized hardware kernels...\n\nYou don't need a team of $500k a year CUDA engineers to build world-class infrastructure.\n\nAnd if an AI can autonomously master CUDA, it can master AMD's ROCm. Or custom silicon.\n\nThe impenetrable software wall protecting NVIDIA's monopoly just got breached by a reinforcement learning loop.\n\nIf anyone can automatically squeeze maximum performance out of any chip...\n\nHardware becomes a commodity.",
+      "createdAt": "Wed Jun 03 09:34:28 +0000 2026",
+      "viewCount": 101108,
+      "likeCount": 1179,
+      "retweetCount": 224,
+      "author": {
+        "userName": "HowToAI_",
+        "name": "How To AI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/HowToAI_/status/2062105627204423994",
+      "is_official": true
+    },
+    {
+      "id": "2062090077296283932",
+      "text": "for anyone asking where to learn this stuff:\n\n• RAG → https://t.co/4bzbUIwV5g\n• Agentic RAG → https://t.co/IotOiGmV1Y\n• AI Agents → https://t.co/nEeMnVJQbk\n• Multi-Agent Systems → https://t.co/pavDPVJEFj\n• LangGraph → https://t.co/3miEqqFzF0\n• LangGraph (code) → https://t.co/v7kxHZXqba\n• MCP → https://t.co/lKawRb4etX\n• Memory Systems → https://t.co/LSaT2UaPAS\n• Evals → https://t.co/vxChxa1kqQ\n• Context Engineering → search \"Context Engineering Survey\" on arXiv\n\nand please skip the \"build an ai agent in 10 minutes\" videos\nbuild something, watch it fail, then figure out why.",
+      "createdAt": "Wed Jun 03 08:32:40 +0000 2026",
+      "viewCount": 139626,
+      "likeCount": 2076,
+      "retweetCount": 324,
+      "author": {
+        "userName": "adxtyahq",
+        "name": "aditya",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/adxtyahq/status/2062090077296283932",
+      "is_official": false
+    },
+    {
+      "id": "2061973589583155218",
+      "text": "OpenAI CFO Sarah Friar: \"In 2026, if you want to buy more compute, good luck to you. Tell me because I dont know where else to find it.\"\n\nJason: \"Elon has some.\"\n\nRubbing in the fact that Elon sold compute to Anthropic just a few weeks ago just to get back at Sam Altman https://t.co/YFLPEIETcn",
+      "createdAt": "Wed Jun 03 00:49:48 +0000 2026",
+      "viewCount": 362742,
+      "likeCount": 1478,
+      "retweetCount": 57,
+      "author": {
+        "userName": "BoringBiz_",
+        "name": "Boring_Business",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/BoringBiz_/status/2061973589583155218",
+      "is_official": false
+    },
+    {
+      "id": "2062207772004126864",
+      "text": "Imagine paying $20/month for Claude when you can just ask questions to the Chipotle customer support bot and get Opus 4.8 for free",
+      "createdAt": "Wed Jun 03 16:20:21 +0000 2026",
+      "viewCount": 1305813,
+      "likeCount": 27109,
+      "retweetCount": 499,
+      "author": {
+        "userName": "ParikPatelCFA",
+        "name": "Dr. Parik Patel, BA, CFA, ACCA Esq.",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ParikPatelCFA/status/2062207772004126864",
+      "is_official": false
+    },
+    {
+      "id": "2062162329899278644",
+      "text": "BREAKING: Uber engineers now required to earn Claude Code credits by driving Anthropic employees.",
+      "createdAt": "Wed Jun 03 13:19:47 +0000 2026",
+      "viewCount": 170106,
+      "likeCount": 3514,
+      "retweetCount": 148,
+      "author": {
+        "userName": "petergostev",
+        "name": "Peter Gostev",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/petergostev/status/2062162329899278644",
+      "is_official": false
+    },
+    {
+      "id": "2062004830542139580",
+      "text": "a few months ago in an interview, someone asked me where we wanted to take the codex app. i answered with something along the lines of: we intend to make it the best app ever built for desktop, full stop.\n\nit probably felt like a little much, but i meant it. and it feels less potentially hyperbolic now than it did then.\n\nCodex is the best way to build software. it is now the best way to do many other things too. we will lean into both, and much of it will mean we blend a lot with ChatGPT. we will do this only when we can deliver something incredible and better than what the two separate current things can deliver alone. \n\nwe will also combine the best parts of cloud and local environments (and yes, windows+linux). and the best of instant responses and long-running objectives, like /goal. we will do so with Taste™\n\noutside of the incredible gpt models, 3 things have made the Codex app what it is:\n- an opinionated view of how agents should work with a high quality bar\n- a tight and honest dogfooding loop\n- you\n\nthose 3 things will continue to be P0. \nLFG.",
+      "createdAt": "Wed Jun 03 02:53:56 +0000 2026",
+      "viewCount": 126555,
+      "likeCount": 1142,
+      "retweetCount": 59,
+      "author": {
+        "userName": "ajambrosino",
+        "name": "Andrew Ambrosino",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ajambrosino/status/2062004830542139580",
+      "is_official": false
+    },
+    {
+      "id": "2061986584220828158",
+      "text": "A TON OF THINGS HAPPENED IN THE STOCK MARKET TODAY.\n\nHere's a full recap:\n\n1. Marvell is up around 50%, on pace for its best day ever and adding more than $80B in market cap, after Jensen Huang called $MRVL “the next trillion-dollar company” at Computex.\n\n2. OpenAI Codex now has 5M+ weekly users, with roughly 20% coming from non-developer roles, according to Bloomberg. OpenAI is expanding Codex beyond software engineering with new plugins for public equity investing, banking, sales, internal workplace apps, and professional document editing, with legal and corporate finance tools reportedly coming next.\n\n3. US JOLTS job openings came in at 7.62M in April, well above the 6.87M estimate.\n\n4. $META Meta is scaling back parts of its employee tracking tool after staff backlash, according to The Information. The tool, called the Model Capability Initiative, collects computer usage data to help train AI models on how employees complete tasks. Meta is now adding stronger privacy protections, some employee exemptions, and a 30-minute pause option, while saying activity will be summarized instead of capturing exact words typed and raw data access will be limited to a small group of engineers.\n\n5. Iran says the IRGC Aerospace Force has carried out “precise and intensive missile strikes” on U.S. military bases in Kuwait in response to U.S. strikes on Qeshm Island, marking another major escalation in the region. Kuwait’s air defenses reportedly intercepted incoming missiles and drones, while oil prices are hovering near $95 a barrel and U.S. futures are moving lower as markets price in rising geopolitical risk.\n\nThe top 10 most active options today by contracts traded were $NVDA with 3.6M contracts, $TSLA with 1.8M contracts, $AAPL with 1.1M contracts, $MSFT with 856K contracts, $GOOGL with 757K contracts, $INTC with 685K contracts, $NOK with 638K contracts, $META with 637K contracts, $MSTR with 618K contracts, and $AMZN with 615K contracts. Nvidia led the market by a wide margin with nearly 3.7M options contracts traded, while Tesla followed with 1.8M and Apple crossed 1.1M.\n\n6. $BTC Bitcoin sold off sharply after Strategy $MSTR disclosed a rare sale of 32 BTC for about $2.5 million, its first Bitcoin sale in years, with proceeds reportedly used to fund preferred stock dividend payments. The sale rattled crypto sentiment because Michael Saylor has long been viewed as the market’s most committed “never sell” Bitcoin holder, and investors saw even a tiny sale as a symbolic shift. Bitcoin fell below $68,000, while $MSTR dropped more than 9% as the market questioned whether Strategy could be forced to sell more BTC if funding pressures rise. Analysts noted the sale was financially small compared to Strategy’s overall holdings, but the psychological impact was much bigger because it challenged the company’s core Bitcoin-holding narrative.\n\n7. Palo Alto Networks $PANW reported a strong Q3, with revenue rising 31% YoY to $3.0B and adjusted EPS of $0.85, both ahead of estimates. Its next-gen security ARR grew 60% YoY to $8.1B, while RPO rose 36% to $18.4B. The company also raised its full-year outlook, guiding for about $11.4B in revenue and adjusted EPS of $3.77 to $3.79, as demand accelerates from customers securing AI deployments at scale.\n\n8. A $CRWV CoreWeave-linked data center raised $900M in high-yield debt, according to Bloomberg. The 5-year bonds priced at par with a 7.5% yield, with proceeds funding a build-to-suit hyperscale data center near Chicago that is fully leased to $CRWV for 15 years, representing about $2.2B in future revenue. AI data center developers have now raised more than $27B from junk bonds this year.\n\n9. Foreign ownership of U.S. stocks has climbed to a record $20 trillion, now representing about 19% of the entire U.S. equity market, nearly triple its share in 2000. Passive funds have also reached a record, with mutual funds and ETFs now holding $17 trillion, or roughly 15% of U.S. equities, after tripling their ownership share since the 2008 financial crisis. Meanwhile, active mutual funds continue to lose ground, with ownership falling to $11 trillion, or about 10% of the market, the lowest share since the early 1990s.\n\n10. Elon Musk’s SpaceX shares would reportedly be locked up for 366 days after the company’s IPO.  At the current $SPCX valuation, Elon is set to become the world's first trillionaire later this month. \n\n11. $UBER Uber is capping AI coding tool spending at $1,500 per employee per month after reportedly burning through its 2026 AI budget in just four months.\n\n12. GameStop $GME reported its highest quarterly net income ever at $389.6M, along with record Q1 operating income of $143.3M. Net sales rose 14% YoY, driven by collectibles, while cash, securities, digital assets, receivables, and pledged collateral totaled $9.7B. $GME approved a $2 billion share repurchase authorization through June 2, 2029, while Shopify $SHOP increased its buyback program by $3 billion, bringing the total authorization to $5 billion.\n\nWALL STREET IS THE GREATEST SHOW ON EARTH.",
+      "createdAt": "Wed Jun 03 01:41:26 +0000 2026",
+      "viewCount": 208668,
+      "likeCount": 1765,
+      "retweetCount": 103,
+      "author": {
+        "userName": "amitisinvesting",
+        "name": "amit",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/amitisinvesting/status/2061986584220828158",
+      "is_official": false
+    },
+    {
+      "id": "2061994028166775247",
+      "text": "This is wild.\n\nOpenAI just dropped Codex Sites.\n\nNow anyone can give it a plan, dashboard, launch doc or idea, and turn it into an interactive app with a URL.\n\n5 wild examples: https://t.co/zW1FEOsw8r",
+      "createdAt": "Wed Jun 03 02:11:00 +0000 2026",
+      "viewCount": 256883,
+      "likeCount": 1728,
+      "retweetCount": 145,
+      "author": {
+        "userName": "minchoi",
+        "name": "Min Choi",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/minchoi/status/2061994028166775247",
+      "is_official": true
+    },
+    {
+      "id": "2062296014879383922",
+      "text": "BREAKING: Anthropic has picked Morgan Stanley and Goldman Sachs to lead its upcoming IPO, per Bloomberg.\n\nAnthropic was valued at $965 billion in its latest funding round, officially surpassing OpenAI’s valuation for the first time.",
+      "createdAt": "Wed Jun 03 22:11:00 +0000 2026",
+      "viewCount": 105725,
+      "likeCount": 1562,
+      "retweetCount": 195,
+      "author": {
+        "userName": "KobeissiLetter",
+        "name": "The Kobeissi Letter",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/KobeissiLetter/status/2062296014879383922",
+      "is_official": true
+    },
+    {
+      "id": "2061993455480701292",
+      "text": "My friend lost 18.5 kg using Claude.\n\nNo gym.\nNo dietitian.\nNo apps.\n\nJust 7 prompts he sends to Claude every morning.\n\nI’m sharing all of them—don’t forget to save them: 👇",
+      "createdAt": "Wed Jun 03 02:08:44 +0000 2026",
+      "viewCount": 550673,
+      "likeCount": 1004,
+      "retweetCount": 207,
+      "author": {
+        "userName": "ElsaSofia__AI",
+        "name": "Elsa Ai",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ElsaSofia__AI/status/2061993455480701292",
+      "is_official": true
+    }
+  ]
+}

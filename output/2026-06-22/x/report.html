@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUN 22, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">共同信号是 AI 竞争正在从单一模型能力转向模型经济性、代理工作流、人才争夺、区域生态与算力硬件的系统级博弈。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@guohao_li</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Guohao Li 🐫</span>：提醒一下，GLM 5.2 背后的公司已经上市，过去半年股价涨了 15 倍。
+          </p>
+          <p class="item-metric">👁 468.0K · ❤️ 2.5K</p>
+          <a class="item-link" href="https://twitter.com/guohao_li/status/2068601132998410400">https://twitter.com/guohao_li/status/2068601132998410400</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@theo</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Theo - t3.gg</span>：GLM-5.2 的开源权重表现确实值得兴奋，但价格不便宜；Opus 4.8 和中档 GPT-5.5 仍然更便宜也更聪明。
+          </p>
+          <p class="item-metric">👁 269.4K · ❤️ 4.5K</p>
+          <a class="item-link" href="https://twitter.com/theo/status/2068533586131841072">https://twitter.com/theo/status/2068533586131841072</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@0xfdf</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">fdf</span>：AI 招聘热度的一个样本：朋友从 OpenAI 年包 200 万美元跳到 Google 年包 800 万美元，主要还是软件开发岗位。
+          </p>
+          <p class="item-metric">👁 282.4K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/0xfdf/status/2068718912041066519">https://twitter.com/0xfdf/status/2068718912041066519</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@sairahul1</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Rahul</span>：Claude 工程师的核心意思是别只会提示词，要搭会自我提示的系统；没有记忆、子代理和停止条件，循环就会从零开始、乱成一团还烧钱。
+          </p>
+          <p class="item-metric">👁 395.4K · ❤️ 1.5K</p>
+          <a class="item-link" href="https://twitter.com/sairahul1/status/2068627267488710930">https://twitter.com/sairahul1/status/2068627267488710930</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@emollick</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ethan Mollick</span>：AI 和旧学术成果的关系会变得很奇怪：我让 GPT-5.5 Pro 重看自己的早期论文，它找新数据、做分析、生成可复现文件，还扩展了核心论点。
+          </p>
+          <p class="item-metric">👁 153.8K · ❤️ 1.0K</p>
+          <a class="item-link" href="https://twitter.com/emollick/status/2068507998343885284">https://twitter.com/emollick/status/2068507998343885284</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@shyamalanadkat</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">shyamal</span>：离开 OpenAI 后回到印度，我越来越相信真正有全球影响力的 AI 机构可以从任何地方长出来，印度和亚太也许正迎来一代人的机会。
+          </p>
+          <p class="item-metric">👁 324.0K · ❤️ 3.4K</p>
+          <a class="item-link" href="https://twitter.com/shyamalanadkat/status/2068674430864335150">https://twitter.com/shyamalanadkat/status/2068674430864335150</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@ridark_eth</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ridark</span>：我真不懂为什么大家还没用这个：别只让 AI 写代码，把 Claude Code 接到 Obsidian，让资料自动沉淀成会复利增长的第二大脑。
+          </p>
+          <p class="item-metric">👁 651.8K · ❤️ 4.0K</p>
+          <a class="item-link" href="https://twitter.com/ridark_eth/status/2068753952850546985">https://twitter.com/ridark_eth/status/2068753952850546985</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@thsottiaux</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Tibo</span>：Codex App 是用前端能力还一般的模型做出来的；等模型前端能力真正大幅提升，那一天会很有看头。
+          </p>
+          <p class="item-metric">👁 612.0K · ❤️ 8.0K</p>
+          <a class="item-link" href="https://twitter.com/thsottiaux/status/2068568650924409260">https://twitter.com/thsottiaux/status/2068568650924409260</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@0xIlyy</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ily⚡️</span>：Anthropic 要为某些能力上线身份验证，供应商是 Persona；如果真这样，我绝对不会继续用 Claude。
+          </p>
+          <p class="item-metric">👁 337.0K · ❤️ 1.9K</p>
+          <a class="item-link" href="https://twitter.com/0xIlyy/status/2068542652019081216">https://twitter.com/0xIlyy/status/2068542652019081216</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@AlexFinn</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Alex Finn</span>：我之前重仓本地 LLM 硬件被嘲笑，现在高内存 Mac 和组件价格暴涨；GLM 5.2 这种模型证明本地革命来了，硬件才是瓶颈。
+          </p>
+          <p class="item-metric">👁 182.1K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/AlexFinn/status/2068492081522495868">https://twitter.com/AlexFinn/status/2068492081522495868</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

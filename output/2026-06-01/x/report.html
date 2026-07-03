@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUN 01, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">共同信号是 AI 正在从模型竞赛转向代理化工作流、创作工具、算力金融和具身机器人等更广泛的落地竞争。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@PeterDiamandis</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Peter H. Diamandis, MD</span>：Anthropic 在 4.7 后仅六周就推出 Opus 4.8，又把编程王座从 GPT 5.5 手里抢回，模型迭代节奏正从按月迈向更疯狂的频率。
+          </p>
+          <p class="item-metric">👁 70.0K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/PeterDiamandis/status/2061047662502088937">https://twitter.com/PeterDiamandis/status/2061047662502088937</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@leshka_eth</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Leshka.eth ⛩</span>：Michael Burry 盯上的不是 AI 热潮本身，而是背后的债务：Apollo 要筹 380 亿美元买 Google AI 芯片给 Anthropic，这看起来像流动性被 AI 吸干的危险信号。
+          </p>
+          <p class="item-metric">👁 510.7K · ❤️ 2.3K</p>
+          <a class="item-link" href="https://twitter.com/leshka_eth/status/2060896603633013152">https://twitter.com/leshka_eth/status/2060896603633013152</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@DragonsofWales</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">DragonsofWales</span>：想问问还有多少艺术家从没用过 ChatGPT、Grok、Claude、Gemini、Midjourney、Sora 或其他 AI 工具。
+          </p>
+          <p class="item-metric">👁 19.7K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/DragonsofWales/status/2061069159853649984">https://twitter.com/DragonsofWales/status/2061069159853649984</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@opencode</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenCode</span>：DeepSeek V4 Flash 现在已经接入 OpenCode Zen。
+          </p>
+          <p class="item-metric">👁 31.3K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/opencode/status/2061153857321775209">https://twitter.com/opencode/status/2061153857321775209</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@mattpocockuk</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Matt Pocock</span>：在 Claude Code 里一提到“workflow”，它就误以为要进入工作流模式并拉起一堆子代理，连创建 GitHub workflow 都被搞复杂，真是蠢得离谱。
+          </p>
+          <p class="item-metric">👁 94.4K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/mattpocockuk/status/2061120343922614519">https://twitter.com/mattpocockuk/status/2061120343922614519</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@polydao</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Mr. Buzzoni</span>：Karpathy 说我们还处在 AI 的 1960 年代是对的，多数人还把 Claude Opus 4.8 当搜索框，而真正的转变是把 LLM 当操作系统和自主代理来用。
+          </p>
+          <p class="item-metric">👁 147.3K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/polydao/status/2060964743402455212">https://twitter.com/polydao/status/2060964743402455212</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@_simonsmith</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Simon Smith</span>：Codex 已有 500 万用户，但也只相当于 ChatGPT 约 9 亿用户的 0.6%，说明我们仍处在极早期，少数人已在自动化生活和工作，多数人还不知道 AI 能做到什么。
+          </p>
+          <p class="item-metric">👁 78.1K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/_simonsmith/status/2061085217113120796">https://twitter.com/_simonsmith/status/2061085217113120796</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@sama</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Sam Altman</span>：OpenAI Robotics 正在招聘硬件、运营、系统和机器学习工程师，目标是让 AI 走进物理世界，先支持熟练工人建设基础设施，长期则设想每个人都有个人机器人。
+          </p>
+          <p class="item-metric">👁 1.3M · ❤️ 8.7K</p>
+          <a class="item-link" href="https://twitter.com/sama/status/2061117302528188712">https://twitter.com/sama/status/2061117302528188712</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@arena</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Arena.ai</span>：Grok-Imagine-Video-1.5-Preview 720p 登上 Image-to-Video Arena 第一名，相比上一版提升 52 分，并超过 Seedance-2.0 和 HappyHorse 等视频模型。
+          </p>
+          <p class="item-metric">👁 471.4K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/arena/status/2060874057130934376">https://twitter.com/arena/status/2060874057130934376</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@ingi_erlingsson</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ingi Erlingsson 🪄</span>：继续用时间切片节点、Wan 12V 和 GPT Image 2.0 在 ComfyUI 里探索故障风格影像。
+          </p>
+          <p class="item-metric">👁 69.8K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/ingi_erlingsson/status/2060881445799735775">https://twitter.com/ingi_erlingsson/status/2060881445799735775</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

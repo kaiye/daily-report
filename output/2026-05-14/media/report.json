@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-05-14",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "今日重点显示，AI 巨头正把模型与智能体加速嵌入企业、浏览器、购物和移动系统，同时面临治理、隐私与基础设施压力。",
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "马斯克与奥特曼围绕 OpenAI 未来的庭审进入实时更新",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "published_at": "2026-05-13T15:28:21.000Z",
+      "summary": "这场高风险审判围绕 OpenAI 的发展方向及 ChatGPT 等核心产品展开，可能影响公司未来结构与控制权争议。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Ramp 数据称 Anthropic 付费企业客户已超过 OpenAI",
+      "url": "https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/",
+      "published_at": "2026-05-13T14:00:00.000Z",
+      "summary": "基于 Ramp 客户支出数据的调查显示，34.4% 的参与企业正在为 Anthropic 服务付费，高于 OpenAI 的 32.3%。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic 正将小企业主纳入新客户目标",
+      "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/",
+      "published_at": "2026-05-13T16:00:00.000Z",
+      "summary": "Anthropic 的新产品布局把 AI 平台竞争从大型企业进一步推向美国数千万小企业市场。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Notion 将工作空间升级为 AI 智能体中心",
+      "url": "https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/",
+      "published_at": "2026-05-13T21:45:09.000Z",
+      "summary": "Notion 新开发者平台允许团队把 AI 智能体、外部数据源和自定义代码直接接入工作空间。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "马斯克的 xAI 被指在密西西比数据中心无监管运行近 50 台燃气轮机",
+      "url": "https://techcrunch.com/2026/05/13/musks-xai-is-running-nearly-50-gas-turbines-unchecked-at-its-mississippi-data-center/",
+      "published_at": "2026-05-13T19:49:42.000Z",
+      "summary": "xAI 的 Colossus 2 数据中心因使用“移动”燃气轮机作为电力设施而引发诉讼。"
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "AI 聊天机器人正在泄露真人电话号码",
+      "url": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
+      "published_at": "2026-05-13T18:09:03.000Z",
+      "summary": "有用户称个人联系方式被 Google AI 展示出来，而且目前似乎缺乏简单有效的阻止办法。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "亚马逊将 Alexa 接入 Amazon.com",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/929457/amazon-announces-alexa-for-shopping-ai-assistant-rufus",
+      "published_at": "2026-05-13T13:00:00.000Z",
+      "summary": "Amazon 正把由大语言模型驱动的 Alexa Plus 整合进网站，推出面向购物场景的新 AI 助手 Alexa for Shopping。"
+    },
+    {
+      "source": "极客公园",
+      "title": "谷歌在 Android 上全面强化 Gemini AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106467&idx=1&sn=99f831e39a74b4cccb65ee17dec3f462",
+      "published_at": "2026-05-13T00:54:00.000Z",
+      "summary": "Google 在 Android 专场活动上宣布围绕 Gemini 推出一系列功能，覆盖手机自动操作、Chrome、自动填表和生成式桌面组件等场景。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft Edge 的 Copilot 更新可跨标签页提取信息",
+      "url": "https://www.theverge.com/tech/930188/microsoft-edge-copilot-ai-tabs",
+      "published_at": "2026-05-13T22:04:28.000Z",
+      "summary": "Edge 新功能允许 Copilot 在用户对话时汇总所有已打开标签页中的信息，用于回答问题和辅助浏览。"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-05-22T00:03:30.420Z",
+  "source_raw": "raw.json",
+  "source_count": 19,
+  "item_count": 15,
+  "language_breakdown": {
+    "Python": 6,
+    "TypeScript": 4,
+    "Unknown": 2,
+    "C#": 1,
+    "Shell": 1,
+    "Go": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars_today": 682,
+      "stars_total": 22355,
+      "forks": 2640
+    },
+    {
+      "rank": 2,
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars_today": 4294,
+      "stars_total": 13367,
+      "forks": 762
+    },
+    {
+      "rank": 3,
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "Unknown",
+      "stars_today": 2614,
+      "stars_total": 143106,
+      "forks": 14671
+    },
+    {
+      "rank": 4,
+      "repo": "dotnet/skills",
+      "url": "https://github.com/dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "stars_today": 129,
+      "stars_total": 2184,
+      "forks": 177
+    },
+    {
+      "rank": 5,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1576,
+      "stars_total": 201478,
+      "forks": 17948
+    },
+    {
+      "rank": 6,
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars_today": 656,
+      "stars_total": 39104,
+      "forks": 3710
+    },
+    {
+      "rank": 7,
+      "repo": "rmyndharis/OpenWA",
+      "url": "https://github.com/rmyndharis/OpenWA",
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "language": "TypeScript",
+      "stars_today": 730,
+      "stars_total": 5392,
+      "forks": 1079
+    },
+    {
+      "rank": 8,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars_today": 151,
+      "stars_total": 40473,
+      "forks": 2571
+    },
+    {
+      "rank": 9,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars_today": 1333,
+      "stars_total": 10692,
+      "forks": 2118
+    },
+    {
+      "rank": 10,
+      "repo": "teng-lin/notebooklm-py",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+      "language": "Python",
+      "stars_today": 186,
+      "stars_total": 14364,
+      "forks": 1993
+    },
+    {
+      "rank": 11,
+      "repo": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "language": "TypeScript",
+      "stars_today": 500,
+      "stars_total": 5831,
+      "forks": 477
+    },
+    {
+      "rank": 12,
+      "repo": "antoinezambelli/forge",
+      "url": "https://github.com/antoinezambelli/forge",
+      "description": "A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
+      "language": "Python",
+      "stars_today": 398,
+      "stars_total": 1478,
+      "forks": 75
+    },
+    {
+      "rank": 13,
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "stars_today": 534,
+      "stars_total": 30708,
+      "forks": 3733
+    },
+    {
+      "rank": 14,
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars_today": 2579,
+      "stars_total": 18147,
+      "forks": 1560
+    },
+    {
+      "rank": 15,
+      "repo": "trimstray/the-book-of-secret-knowledge",
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "language": "Unknown",
+      "stars_today": 756,
+      "stars_total": 222416,
+      "forks": 13321
+    }
+  ]
+}

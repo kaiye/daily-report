@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-04-23",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕大模型与智能代理的上下文增强、可观测性、RAG、多模态感知和自动化工作流平台持续升温。",
+  "items": [
+    {
+      "repo": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "description": "面向 Claude Code 的代码搜索 MCP，让整个代码库都成为任意编码代理的上下文。",
+      "language": "TypeScript",
+      "stars_today": 871,
+      "stars_total": 7476
+    },
+    {
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "实时全球情报仪表盘，提供 AI 驱动的新闻聚合、地缘政治监测和基础设施跟踪，并统一在态势感知界面中。",
+      "language": "TypeScript",
+      "stars_today": 424,
+      "stars_total": 51543
+    },
+    {
+      "repo": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "description": "开源 LLM 工程平台，涵盖 LLM 可观测性、指标、评测、提示词管理、playground 与数据集。",
+      "language": "TypeScript",
+      "stars_today": 149,
+      "stars_total": 25592
+    },
+    {
+      "repo": "KeygraphHQ/shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "description": "Shannon Lite 是面向 Web 应用和 API 的自治白盒 AI 渗透测试工具，可分析源代码、识别攻击向量并执行真实利用来证明漏洞。",
+      "language": "TypeScript",
+      "stars_today": 372,
+      "stars_total": 39557
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "RuView: WiFi DensePose 将普通 WiFi 信号转化为实时人体姿态估计、生命体征监测和存在检测，全程无需任何视频像素。",
+      "language": "Rust",
+      "stars_today": 565,
+      "stars_total": 49368
+    },
+    {
+      "repo": "HKUDS/RAG-Anything",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "description": "《RAG-Anything：一体化 RAG 框架》。",
+      "language": "Python",
+      "stars_today": 786,
+      "stars_total": 17516
+    },
+    {
+      "repo": "sansan0/TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "description": "AI 驱动的舆情与趋势监控工具，聚合多平台与 RSS，并提供智能告警、AI 筛选、翻译、分析简报及趋势预测能力。",
+      "language": "Python",
+      "stars_today": 969,
+      "stars_total": 54414
+    },
+    {
+      "repo": "AIDC-AI/Pixelle-Video",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "description": "AI 全自动短视频引擎。",
+      "language": "Python",
+      "stars_today": 308,
+      "stars_total": 5519
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "开源的智能代理 skills 工具：npx skills。",
+      "language": "TypeScript",
+      "stars_today": 333,
+      "stars_total": 15454
+    }
+  ]
+}

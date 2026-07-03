@@ -1,0 +1,387 @@
+{
+  "generated_at": "2026-06-12T00:01:50.635Z",
+  "source_raw": "raw.json",
+  "history_files_used": 2,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 32,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "Claude Fable 5 拒绝回答基础生物问题；Altman 预估 OpenAI 明年上市；韩国首次查获 AI 智能眼镜考试作弊案｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108554&idx=1&sn=847548eeb87a1ca7aad13140c5055144",
+      "published_at": "2026-06-11T00:33:00.000Z",
+      "summary": "Moonshot 2026-06-11 08:33 重庆\n\n欧盟否认「封杀」Siri AI 称是苹果拒绝遵守《数字市场法案》导致推迟上线；\n\nOpenAI 洽谈租赁俄亥俄州 10 吉瓦数据中心，英伟达提供资金背书；SpaceX IPO 已获 100 亿美元级机构订单，募资规模达 750 亿美元；\n\nMeta 裁员 8000 人，开发岗、管理岗成最大牺牲品\n\n## 因安全顾虑，Anthropic 最强 AI 模型 Claude Fable 5 拒绝回答基础生物问题\n\n6 月 11 日，Anthropic 昨日推出了 ClaudeFable 5，称其为该公司目前面向大众开放的最强人工智能模型，并着",
+      "priority_score": 352,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "3D创作迎来ChatGPT时刻：Meshy发布全球首个3D AI Agent",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896929&idx=1&sn=af60a68d34fb2d8d3060aa8148bf83e5",
+      "published_at": "2026-06-11T04:00:00.000Z",
+      "summary": "关注前沿科技 2026-06-11 12:00 北京\n\n让3D模型变为可复用资产\n\n##### 梦瑶 发自 凹非寺 量子位 | 公众号 QbitAI\n\n在3D创作这个圈子，一直有个心照不宣的扎心真相：\n\n那就是最难的一步从来不是生成，而是让模型变为 **可用资产** 。\n\n对创作者来说一次完整创作，往往意味着无数次抽卡、反复修改，在不确定结果中不断试错。\n\n很多创意其实早已成型，但距离能够自主可控、批量扩展、长期复用的资产体系，往往还隔着漫长的一段路。\n\n###### **△AI** 生成\n\n当整个行业还在思考如何生成更好的模型时，已经有团队开始思考另一个更关键的问题：\n如何让3D创作从一次性",
+      "priority_score": 350,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "published_at": "2026-06-11T11:40:43.000Z",
+      "summary": "Anthropic has apologized for stealthily throttling its[new AI model, Claude Fable 5](https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos), with hidden guardrails that undermine both researchers and rivals using it to develop competing systems. The company says it is reversi",
+      "priority_score": 250,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
+      "url": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
+      "published_at": "2026-06-11T11:00:45.000Z",
+      "summary": "Google DeepMind is[funding research](https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/)into the potential dangers of situations where millions of different[AI agents](https://www.technologyreview.com/2026/04/21/1135654/agent-orchestration-ai-artificial-intelligence/)interact ",
+      "priority_score": 246,
+      "matched_keywords": [
+        "DeepMind",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "斩获15个顶级零日漏洞：0G Lab联合新国立，北大和北邮团队构建的共识协议debug智能体框架",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651038459&idx=1&sn=5135bb68ee4470d665e36e42e01dd80c",
+      "published_at": "2026-06-11T04:30:00.000Z",
+      "summary": "机器之心 2026-06-11 12:30 北京\n\n一套可落地的工业级解法。\n\n机器之心发布\n\n分布式系统的 “圣杯”—— 共识协议（Consensus Protocols），长久以来都是顶级基础设施工程师的 “Bug 地狱”。由于其状态极其复杂、多节点交织，传统测试和单体 LLM 对硬核的 Deep Bug（深层逻辑漏洞） 几乎束手无策。\n\n近日，最新 ICML 2026 中稿论文，来自 0G Labs 以及 新加坡国立大学 、北京大学、北京邮电大学等顶尖学术与产业团队的研究人员提出首个将领域知识与大模型多 Agent 协同深度融合的自动化测试框架 —— Agora 。\n\n该框架通过创新的架",
+      "priority_score": 150,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "Tabbit 1.0 发布，9 块 9 国内模型免费用，首谈与美团合作细节",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108618&idx=2&sn=6b2d623e91db00e6ca24ce05fe4fd33a",
+      "published_at": "2026-06-11T10:50:00.000Z",
+      "summary": "原创徐珊 2026-06-11 18:50 北京\n\n​现在「给人」做产品，还重要吗？\n\n现在「给人」做产品，还重要吗？\n\n**作者｜徐珊** **编辑｜ **郑玄****\n\n一句话生成浏览器插件，AI 自动整理标签页。如果你关注 AI 浏览器，这两个功能你大概率见过，国内一款叫 Tabbit 的产品，几个月前就上线了。\n\n但这次演示它们的，是苹果。6 月 8 日的 WWDC 上，苹果花了不少篇幅介绍 Safari 的这两个新能力，让浏览器从一个被动的工具，变成能主动帮你打理事情的助手。今年以来，Chrome 押的是 Gemini 的深度集成，Edge 绑定 Copilot，OpenAI 的 A",
+      "priority_score": 128,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "谷歌开源26B文本扩散MoE，劈柴：生成速度像赛马一样快",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651038459&idx=2&sn=2f131b7dd31fb1cdacbf16bcb3f312a7",
+      "published_at": "2026-06-11T04:30:00.000Z",
+      "summary": "机器之心 2026-06-11 12:30 北京\n\n用扩散模型改写文本推理\n\n机器之心编辑部\n\n今天一早，谷歌又发新模型了！\n\nGemmna 家族有了新成员 —— DiffusionGemma，一个探索文本扩散的实验性开源模型，在文本生成任务上速度极快 。\n\n根据官方介绍，DiffusionGemma 采用了 Apache 2.0 许可证发布，是一个 26B 规模的混合专家模型（MoE）。\n\n该模型没有沿用典型自回归大语言模型（LLM）那种按顺序、逐 token 生成的方式，而是可以同时生成整块文本，在 GPU 上，文本生成速度最高可提升至 4 倍。\n\nDiffusionGemma 建立在 G",
+      "priority_score": 128,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "谷歌干掉了「等你说完才翻译」！70+语言边听边译",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652706402&idx=2&sn=2de8ab072a5375dbdf39a4da11779c8e",
+      "published_at": "2026-06-11T04:30:00.000Z",
+      "summary": "ASI启示录 2026-06-11 12:30 北京\n\n### **新智元报道**\n\n##### **【新智元导读】Google 发布 Gemini 3.5 Live Translate，把实时同传从「等你说完再翻」推进到「边听边说」，70+语言、几秒延迟、语气保留。**\n\n一句话还没说完，译音已经响在你耳边——而且是对方的语速、对方的语调，只慢几秒。\n\n刚刚， Google 甩出了 Gemini 3.5 Live Translate。 这是它最新的语音对语音翻译模型，一句话概括： 把「等你说完再翻」的老规矩，直接掀了。\n\nGoogle DeepMind 首席科学家 Jeff Dean 亲自发",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Inside soccer’s data renaissance",
+      "url": "https://www.technologyreview.com/2026/06/11/1138506/inside-soccer-data-renaissance-jesse-davis/",
+      "published_at": "2026-06-11T10:00:00.000Z",
+      "summary": "Imagine tuning in to the opening kickoff of a World Cup match and seeing a player intentionally send the ball all the way down the pitch and right out of bounds on the opponent’s end. Casual fans might scratch their heads. Where’s the logic in surrendering possession seconds into a game? If you were",
+      "priority_score": 100,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s Dario Amodei has just one direct report",
+      "url": "https://techcrunch.com/2026/06/10/anthropics-dario-amodei-has-just-one-direct-report/",
+      "published_at": "2026-06-11T03:53:06.000Z",
+      "summary": "If founders and other business leaders weren't already envious of Dario Amodei, who sits atop one of the world's fastest-growing AI companies, they're going to be seriously envious now.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "对话安克阳萌：AI 硬件的真门槛，是推翻计算机 80 年的「祖宗家法」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108618&idx=1&sn=6aa30e0c4a3fa21d9d4dbc64b3402931",
+      "published_at": "2026-06-11T10:50:00.000Z",
+      "summary": "Hardwire 2026-06-11 18:50 北京\n\n​一颗芯片、一个误解、一轮周期。\n\n一颗芯片、一个误解、一轮周期。\n\n**作者｜曹思颀** **编辑｜ **郑玄****\n\n和安克创新创始人兼 CEO 阳萌正式沟通之前，Hardwire 团队看过了他近年几乎所有的公开表达。\n\n这显然不是一位当下舆论场里最受关注的「明星 CEO」——他没有个人社媒账号、没有公开发表过挑战行业巨头的野心和「金句」、甚至此前极少为自家新品发布站台。\n\n多位了解阳萌的行业人士告诉 Hardwire，阳萌更符合一个经典「商学院管理风格」的 CEO 形象：归纳能力极强、擅长对万事「建模」、总结方法论并高效布置团",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "腾讯混元AI Infra进化：HPC-Ops推理核心算子全面升级",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801982&idx=1&sn=25fb653637a2fbac015d46c265f8266e",
+      "published_at": "2026-06-11T08:20:00.000Z",
+      "summary": "腾讯技术工程 2026-06-11 16:20 广东\n\n全新更新升级\n\n### 一、 背景与成果介绍\n\nHPC-Ops 是腾讯混元 AI Infra 团队开源 并 长期维护的一套 工业级、 高性能 的 大模型推理底层算子库。在首轮开源中，HPC-Ops 提供了 Attention、GroupGEMM 等在内 多个 高性能算子 ， 原生支持 BF16 与多种 FP8 量化方案 ， 针对 常见的 主流推理硬件进行了深度优化 。\n\n近日， 为了 进一步满足 推理系统对动态业务负载的适应性、 核心 模块对 复杂 精度 和高性能融合算子 的 需求 ，HPC-Ops 推出 全新 更新 升级，包含 五大 关",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Deezer launches an AI music detector for other streaming services",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
+      "published_at": "2026-06-11T08:00:00.000Z",
+      "summary": "Deezer will now[scan your playlists](https://www.deezer.com/explore/en-us/ai-music-detector/)on other streaming platforms to detect AI-generated music. Deezer was the[first](https://www.theverge.com/entertainment/830393/ai-music-deezer-survey-spotify)of the big streaming services to start[labeling A",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "指令遵循媲美Seedance 2.0！复旦腾讯联合提出Baton，多说话人场景M-WER暴降76%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896929&idx=3&sn=3bf0f092b291e86ae6f9621b63f4267c",
+      "published_at": "2026-06-11T04:00:00.000Z",
+      "summary": "关注前沿科技 2026-06-11 12:00 北京\n\n视频和音频终于对齐了\n\n##### Baton团队 投稿 量子位 | 公众号 QbitAI\n\n视频生成，早已不止于视觉。\n\n随着生成式AI发展，联合视频—音频生成正成为重要研究方向。与视频优先、音频后期合成的传统流水线相比，原生同步生成的视听内容跨模态一致性更强，用户体验更沉浸。\n\n但问题在于，现有开源模型面对复杂语义时力不从心。\n\n遇到多阶段动作的组合式指令、涉及人与物体交互的复杂任务时，模型往往无法准确建模场景中的时序逻辑和因果关系——不仅要求长程语义推理能力，还必须在推理中维持视频与音频的时空一致性。\n\n核心矛盾在于：现有方法依赖粗",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "ACL 2026 Oral｜语义推理如鲠在喉：大模型被「短语」难住了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651038459&idx=3&sn=2fc7962e868aa2d07d46ad1dda53560d",
+      "published_at": "2026-06-11T04:30:00.000Z",
+      "summary": "机器之心 2026-06-11 12:30 北京\n\n语言模型真的理解（短语）语义吗？\n\n研究发表于 ACL 2026 主会，并获选为 Oral 论文，核心作者为北京通用人工智能研究院的研究者刘洋和北京科技大学的本科生李鸿铭，指导老师为北京科技大学外国语学院教授秦晓惠以及计算机与通信工程学院副教授刘乾坤和黄超。\n\n- 论文标题：Revisiting a Pain in the Neck: A Semantic Reasoning Benchmark for Language Models\n- 项目主页：[https://semanticqa.github.io](https://semantic",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceX officially prices shares at $135 in the largest IPO ever",
+      "url": "https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/",
+      "published_at": "2026-06-11T20:33:10.000Z",
+      "summary": "Wits its official share pricing announcement, SpaceX's IPO has begun.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
+      "published_at": "2026-06-11T20:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/VirginiaSocial.max-600x600.format-webp.webp\">We’re helping build the state’s next-generation workforce and investing in energy programs.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceX SPV investors won’t know their true holdings until post-IPO lock-ups lift",
+      "url": "https://techcrunch.com/2026/06/11/spacex-spv-investors-wont-know-their-true-holdings-until-post-ipo-lock-ups-lift/",
+      "published_at": "2026-06-11T19:58:01.000Z",
+      "summary": "After SpaceX makes its public debut, lower-tier SPV investors face hidden fees, lengthy payout delays, and the  risk of outright fraud.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Amazons data centers used 2.5 billion gallons of water last year",
+      "url": "https://www.theverge.com/tech/948534/amazon-data-centers-water-use",
+      "published_at": "2026-06-11T17:26:57.000Z",
+      "summary": "Just after Seattle enacted a one-year[data center moratorium](https://www.theverge.com/ai-artificial-intelligence/948031/seattle-officially-enacted-an-emergency-one-year-moratorium-on-new-data-centers)that some of Amazon's own employees pushed for, Amazon[shared](https://www.aboutamazon.com/news/sus",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Deezer’s new tool can identify AI music from Spotify, Apple Music, and others",
+      "url": "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/",
+      "published_at": "2026-06-11T16:36:20.000Z",
+      "summary": "Deezer introduced a tool that scans playlists from Spotify, Apple Music, and other platforms to identify AI music.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Pool’s new app turns your screenshots into something useful",
+      "url": "https://techcrunch.com/2026/06/11/pools-new-app-turns-your-screenshots-into-a-searchable-memory-bank/",
+      "published_at": "2026-06-11T15:30:00.000Z",
+      "summary": "Pool's new app automatically sorts screenshots into personalized collections, tracks down the original links behind saved content, and helps you rediscover products, recipes, travel ideas, and other things you meant to revisit.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "DoorDash’s new AI chatbot lets you order with prompts and photos",
+      "url": "https://techcrunch.com/2026/06/11/doordashs-new-ai-chatbot-lets-you-order-with-prompts-and-photos/",
+      "published_at": "2026-06-11T14:23:43.000Z",
+      "summary": "The new chatbot, called Ask DoorDash, allows users to search the app for what they're looking for in their own words instead of having to scroll through restaurants and stores to build a cart.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: soccer’s data renaissance and China’s big nuclear plans",
+      "url": "https://www.technologyreview.com/2026/06/11/1138809/the-download-soccer-football-data-analytics-china-nuclear-power/",
+      "published_at": "2026-06-11T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Inside soccer’s data ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Job titles of the future: Nature’s drug designer",
+      "url": "https://www.technologyreview.com/2026/06/11/1138502/job-titles-natures-drug-designer-tim-cernak/",
+      "published_at": "2026-06-11T10:00:00.000Z",
+      "summary": "In 2018, after nearly two decades working in Big Pharma, chemist Tim Cernak was ready to put his skills to a new use. \n\nFor Merck, he’d developed precision therapies for cancer, HIV, and diabetes that could target disease while minimizing harm to healthy cells. But as a lifelong nature lover, he was",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Why China is betting on big nuclear reactors",
+      "url": "https://www.technologyreview.com/2026/06/11/1138789/china-big-nuclear-reactors/",
+      "published_at": "2026-06-11T10:00:00.000Z",
+      "summary": "It’s a tale of two nuclear industries.\n\nIn China, large reactors are coming together at a stunning pace. The country has nearly doubled its nuclear fleet since 2016, reaching nearly 60 gigawatts of total power capacity. The new facilities are nearly all gigawatt-scale pressurized-water reactors.\n\nMe",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "三篇论文入选 SIGMOD 2026：从真实业务深处长出的字节跳动数据库创新",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520272&idx=1&sn=f5620d52a047940001c522147da97b24",
+      "published_at": "2026-06-11T09:00:00.000Z",
+      "summary": "原创字节跳动数据库 2026-06-11 17:00 北京\n\n能登上 SIGMOD 这座数据库领域的 “学术高峰”，足以证明一项技术的含金量。\n\n在当下，不少技术都面临着 “ **学术好看、落地难产** ” 的现实矛盾：研究止步于理论推演，一旦走进真实业务就漏洞百出；而能扛住流量的工程方案又很难提炼出具备行业价值的创新。\n\n而字节跳动数据库团队此次交出的答卷正是对这一现状的有力回应：团队的三篇论文入选 SIGMOD 2026，这三篇论文既在学术层面给出了严谨解答，也为数据库行业中的一道道棘手难题提供了解法，最重要的是，这些工程解法都是经过大规模生产环境验证的。\n\n此次入选的三篇成果各有侧重：两",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "一个拼多多足球装备商家，如何迈出中国制造在世界杯的新征程？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108603&idx=1&sn=d1b78a0d21734917e67d83d650470a7d",
+      "published_at": "2026-06-11T08:54:00.000Z",
+      "summary": "原创郑玄 2026-06-11 16:54 北京\n\n当一件球衣能在拼多多上 72 小时定制发货，中国制造和世界杯的关系，正在被悄悄改写。\n\n**作者｜郑玄**\n\n5 月 10 日，2056 件球衣、护具和双肩包从福建泉州装箱，运往约旦国家队。这是 2026 美加墨世界杯里，中国出口的第一批体育装备。出口它们的公司叫卡尔美——一个你大概在哪儿见过、但未必叫得上名字的牌子。\n\n世界杯的主舞台，属于耐克、阿迪和彪马——球员脚上的鞋、身上的衣服、脚下那颗球，几十年来都姓这几个名字。中国制造和世界杯打了三十年交道，但球员身上从来没穿过一件中国本土品牌做的球衣。这一次，约旦队穿上了。\n\n几乎同时，温州起家",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "AI教育走出屏幕的第一步，是一台万元机器人",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652706402&idx=1&sn=2d6cd46ea0317ff24935e260d27119ef",
+      "published_at": "2026-06-11T04:30:00.000Z",
+      "summary": "ASI启示录 2026-06-11 12:30 北京\n\n### **新智元报道**\n\n##### **【新智元导读】当 AI 教育从屏幕走向物理世界，松延动力正用小布米、课程体系和「学校—机构—家庭」生态闭环，把 K12 机器人教育变成具身智能走进千家万户的第一站。**\n\n一个孩子第一次写代码，最震撼的瞬间是什么？\n\n是他按下运行键后，机器人真的站起来、转身、挥手、避障，甚至按照他的想法完成一整段动作。\n\n那一刻，代码有了身体，有了反馈，也有了进入真实世界的能力。\n\n这正是AI教育正在发生的关键变化： **它不只停留在屏幕上，也开始走进物理世界。**\n\n顺应这一趋势，松延动力抓住了教育与家庭场",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "新智元ALL in ASI英雄帖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652706402&idx=3&sn=a426c29c6772e2c96343ad4ce6ba7419",
+      "published_at": "2026-06-11T04:30:00.000Z",
+      "summary": "ASI启示录 2026-06-11 12:30 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 2026年，ASI奇点之年。全球AI竞赛进入决赛圈，AI正以指数级的速度重塑世界。新智元All in ASI，现招募两个核心战位——ASI架构师（年薪50-70万）与ASI主笔（年薪50-70万），坐标北京上地，虚位以待。**\n\n全球AI竞赛进入决赛圈，每天都有大事发生。 新智元要覆盖的赛道、要打的仗也在飙升。 我们不仅要在全球AI最前沿保持绝对敏锐，更要在ASI浪潮中主动出击。 现在，新智元正式发出All in ASI英雄帖。 我们在上地AI家，召唤 **对ASI有信仰，有使",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Opendoor’s India exit is fueling a bigger conversation about AI and outsourcing",
+      "url": "https://techcrunch.com/2026/06/10/opendoors-india-exit-is-fueling-a-bigger-conversation-about-ai-and-outsourcing/",
+      "published_at": "2026-06-11T04:02:19.000Z",
+      "summary": "The decision comes as India emerges as the world’s largest GCC market.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "Mythos阴影里谷歌悄悄发模型，速度暴涨4倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896929&idx=2&sn=588705bddb905f19a9792a684f13b53a",
+      "published_at": "2026-06-11T04:00:00.000Z",
+      "summary": "关注前沿科技 2026-06-11 12:00 北京\n\n用扩散模型生成文本\n\n##### 一水 发自 凹非寺 量子位 | 公众号 QbitAI\n\n别再只盯着“AO”两家的新模型大战了！\n\n就在刚刚，谷歌闷头干了件大事：\n\n**把生成图片的扩散模型，拿来写文字了，** 而且一出手就是 **4倍加速** 。\n\n新模型名为DiffusionGemma，它直接抛弃了传统自回归那套“逐Token生成”的打字机模式，而是像“印刷机”一样工作——\n\n一次铺开256个token的“画布”，从随机噪声出发，多轮去噪，整段文字同时浮现。\n\n靠这套新模式，DiffusionGemma在生成速度方面交出了亮眼的成绩：",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247896929&idx=4&sn=c0755091cca36e3dcdb9352f437f95e6",
+      "published_at": "2026-06-11T04:00:00.000Z",
+      "summary": "关注前沿科技 2026-06-11 12:00 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

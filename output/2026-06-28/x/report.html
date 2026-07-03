@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUN 28, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">共同信号是 AI 社区正在从单纯追逐闭源前沿模型，转向更便宜、更可控的开权重、本地化和智能路由基础设施。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@MParakhin</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Mikhail Parakhin</span>：我深度测试了 Fable 5 和 GPT-5.6 Max：5.6 明显强过 Opus 4.8，写代码不如 Fable，但做智能体任务更好，两者分工配合很梦幻。
+          </p>
+          <p class="item-metric">👁 320.4K · ❤️ 2.1K</p>
+          <a class="item-link" href="https://twitter.com/MParakhin/status/2070727777888985339">https://twitter.com/MParakhin/status/2070727777888985339</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@__tinygrad__</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">the tiny corp</span>：换成本地 GLM-5.2 后，美国 AI 付费入场那套舒服多了；开权重可能在 12 月站上前沿，IPO 们抱歉了。
+          </p>
+          <p class="item-metric">👁 51.2K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/__tinygrad__/status/2070669189451485502">https://twitter.com/__tinygrad__/status/2070669189451485502</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@rasbt</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Sebastian Raschka</span>：我写了一篇本地开权重编码智能体搭建指南，从模型接入到内存、速度、工具调用和任务能力评估，帮助大家把本地模型用于严肃工作。
+          </p>
+          <p class="item-metric">👁 47.5K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/rasbt/status/2070871630201463137">https://twitter.com/rasbt/status/2070871630201463137</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@AnthropicAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anthropic</span>：我们正与美国政府合作恢复 Claude Mythos 5 和 Fable 5 访问；Mythos 5 已获准重新部署给部分关键基础设施防护组织，并会继续争取扩大开放。
+          </p>
+          <p class="item-metric">👁 4.0M · ❤️ 27.6K</p>
+          <a class="item-link" href="https://twitter.com/AnthropicAI/status/2070665903440871779">https://twitter.com/AnthropicAI/status/2070665903440871779</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@danielhanchen</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Daniel Han</span>：DeepSeek 发布面向 V4 Flash 和 Pro 的 DSpark 推测解码方法，吞吐提升 51% 到 400%，并且也适用于 Gemma、Qwen 等模型。
+          </p>
+          <p class="item-metric">👁 237.1K · ❤️ 2.7K</p>
+          <a class="item-link" href="https://twitter.com/danielhanchen/status/2070751700626076109">https://twitter.com/danielhanchen/status/2070751700626076109</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@sairahul1</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Rahul</span>：Sam Altman 说很快会出现 10 人十亿美元公司；多数人只会兴奋三分钟，真正行动的人这个周末就会用 AI 搭出一人公司。
+          </p>
+          <p class="item-metric">👁 932.3K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/sairahul1/status/2070944072337146096">https://twitter.com/sairahul1/status/2070944072337146096</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@brian_armstrong</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Brian Armstrong</span>：我们不是靠限额压低 AI 花费，而是用更便宜的默认模型、智能路由、缓存和可见性，让 token 用量继续增长的同时把成本砍近一半。
+          </p>
+          <p class="item-metric">👁 1.7M · ❤️ 4.3K</p>
+          <a class="item-link" href="https://twitter.com/brian_armstrong/status/2070670644577280109">https://twitter.com/brian_armstrong/status/2070670644577280109</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@__tinygrad__</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">the tiny corp</span>：我不懂为什么这么多人信 Anthropic 关于蒸馏攻击的说法；GLM-5 的训练论文写得清楚，也许 Claude 才是蒸馏了中国模型。
+          </p>
+          <p class="item-metric">👁 244.1K · ❤️ 4.0K</p>
+          <a class="item-link" href="https://twitter.com/__tinygrad__/status/2070676886464946548">https://twitter.com/__tinygrad__/status/2070676886464946548</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@OpenAIDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI Developers</span>：本周 Codex 上线体验更新：长对话线程滚动更顺滑，浏览时也能保持当前位置。
+          </p>
+          <p class="item-metric">👁 174.4K · ❤️ 2.1K</p>
+          <a class="item-link" href="https://twitter.com/OpenAIDevs/status/2070922791529091376">https://twitter.com/OpenAIDevs/status/2070922791529091376</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@AlexFinn</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Alex Finn</span>：Fable 5 和 GPT-5.6 都被卡住后，我决定全面转向开源，搭了 RTX 5090 家用 AI 实验室，尽可能让本地模型全天候为我工作。
+          </p>
+          <p class="item-metric">👁 392.1K · ❤️ 3.1K</p>
+          <a class="item-link" href="https://twitter.com/AlexFinn/status/2070670926803542304">https://twitter.com/AlexFinn/status/2070670926803542304</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

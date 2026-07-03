@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-06-30",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是把 AI Agent 落到具体工作流中，从开发、研究、交易、视频编辑到安全自动化都在强调多代理协作与端到端执行。",
+  "items": [
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "触手可及的完整 AI 机构，从前端向导到 Reddit 社区忍者，从奇思妙想注入者到现实校验者，每个代理都是具备个性、流程和成熟交付物的专业专家。",
+      "language": "Shell",
+      "stars_today": 1425,
+      "stars_total": 118844
+    },
+    {
+      "repo": "cupy/cupy",
+      "url": "https://github.com/cupy/cupy",
+      "description": "面向 GPU 的 NumPy 与 SciPy。",
+      "language": "Python",
+      "stars_today": 352,
+      "stars_total": 11812
+    },
+    {
+      "repo": "altic-dev/FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "description": "FluidVoice 是最快的 macOS 离线听写应用，语音转文字完全在本地完成。",
+      "language": "Swift",
+      "stars_today": 830,
+      "stars_total": 4368
+    },
+    {
+      "repo": "commaai/openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "description": "openpilot 是机器人操作系统，目前可升级 300 多款受支持汽车的驾驶辅助系统。",
+      "language": "Python",
+      "stars_today": 458,
+      "stars_total": 62761
+    },
+    {
+      "repo": "logto-io/logto",
+      "url": "https://github.com/logto-io/logto",
+      "description": "面向 SaaS 和 AI 应用的认证与授权基础设施，基于 OIDC 和 OAuth 2.1，支持多租户、SSO 与 RBAC。",
+      "language": "TypeScript",
+      "stars_today": 158,
+      "stars_total": 12643
+    },
+    {
+      "repo": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架，融合四位大师方法论与多 Agent 对抗分析。",
+      "language": "Python",
+      "stars_today": 1386,
+      "stars_total": 6589
+    },
+    {
+      "repo": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "description": "用编码代理编辑视频。",
+      "language": "Python",
+      "stars_today": 967,
+      "stars_total": 11921
+    },
+    {
+      "repo": "Unclecheng-li/VulnClaw",
+      "url": "https://github.com/Unclecheng-li/VulnClaw",
+      "description": "基于 AI Agent、MCP 工具链与渗透 Skill 编排，配合大语言模型，从自然语言输入自动完成信息收集、漏洞发现、漏洞利用到报告生成的全流程。",
+      "language": "Python",
+      "stars_today": 129,
+      "stars_total": 1116
+    },
+    {
+      "repo": "0xNyk/council-of-high-intelligence",
+      "url": "https://github.com/0xNyk/council-of-high-intelligence",
+      "description": "18 个 AI 人格通过多个 LLM 提供商共同审议最艰难的决策，涵盖亚里士多德、费曼、卡尼曼、Torvalds 等，并以 /council 一条命令启动结构化多轮审议与真实模型多样性。",
+      "language": "Shell",
+      "stars_today": 331,
+      "stars_total": 1870
+    },
+    {
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "Vibe-Trading：你的个人交易代理。",
+      "language": "Python",
+      "stars_today": 839,
+      "stars_total": 15072
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "generated_at": "2026-05-27T00:01:16.908Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 29,
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "xAI解散，但Grok还在上新，马斯克官宣新模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035127&idx=2&sn=1fe5e71984f4b8b517ec1349f180be3a",
+      "published_at": "2026-05-26T05:16:00.000Z",
+      "summary": "原创机器之心 2026-05-26 13:16 北京\n\n参数量达 1.5T 的 Grok 基础模型 V9-Medium 已经完成训练\n\n机器之心编辑部\n\n自从 xAI 解散、大批创始成员离职之后，大家都在关心一个问题：Grok 是不是要凉了？\n\n事实证明，并没有。就在昨天，马斯克对外透露了 Grok 最新模型的进展。据他介绍，参数量达 1.5T 的 Grok 基础模型 V9-Medium 已经完成训练，评估结果不错。\n\n目前，模型正在进行微调，几天后将启动强化学习阶段。按照计划，Grok V9-Medium 预计会在两到三周内公开发布。\n\n马斯克表示，这将是一次重大升级。他此前承认，现在承载所",
+      "priority_score": 228,
+      "matched_keywords": [
+        "xAI",
+        "Grok"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "不止于Copilot：医渡科技超级智能体，想做医疗界的Claude Code",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107259&idx=2&sn=d7327efcdb3e5d7589a640d922dd1b3b",
+      "published_at": "2026-05-26T06:56:00.000Z",
+      "summary": "极客公园 2026-05-26 14:56 北京\n\n当行业还在卷参数和评测榜单时，一家港股 AI 医疗公司用 12 年沉淀，把 AI 真正「焊」进了三甲医院的诊疗工作流——并率先跑通了商业闭环。\n\n软件工程领域，Claude Code 改变了「AI 应该停留在哪里」这个问题的答案。它告诉行业：AI 不应该停在对话框里，应该走进生产系统，以「任务执行者」的身份端到端完成复杂工程任务。那么，同样的范式转移能不能在医疗领域发生？\n\n***01*** ****为什么是 Claude Code**** ****为什么是医疗****\n\n过去一年硅谷讨论度最高的 AI 产品之一，是 Anthropic 的 ",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "OpenAI差点没了？总裁亲述：奥特曼被罢免当天，我就辞职了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702909&idx=2&sn=4904830a23033a993691303fdf5c8171",
+      "published_at": "2026-05-26T04:30:00.000Z",
+      "summary": "ASI启示录 2026-05-26 12:30 北京\n\n### **新智元报道**\n\n##### **【新智元导读】一通视频电话、三次被拒的追问、一份挤爆Google Docs的请愿书……人们以为这是一场宫斗。Brockman第一次在播客中完整复盘奥特曼被罢免那72小时，讲出的却是故事的另一面：一家相信自己在造AGI的公司，治理结构如何崩塌，又如何重建。**\n\n那72小时，差点杀死OpenAI。\n\n2026年4月22日，OpenAI联合创始人兼总裁Greg Brockman做客播客The Knowledge Project。一个多小时的访谈里，他首次完整复盘了那场危机。\n\nBrockman在播",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "从3632个漏洞看AI时代的评测基准重构！VulnGym基准发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801631&idx=1&sn=4d1c5bb6cd33aa8f38f6b902f5231065",
+      "published_at": "2026-05-26T09:32:00.000Z",
+      "summary": "原创腾讯程序员 2026-05-26 17:32 广东\n\n漏洞检测评测基准是这个行业的\"标尺\"\n\n作者：腾讯悟空代码安全团队\n## ## 导语\n\n**随着 Claude Security、Codex Security 等新一代漏洞检测工具出现，漏洞检测正在从\"发现代码缺陷\"走向\"理解项目上下文并检测业务风险\"。**\n\n我们分析了 2025 年至今的 3,632 条漏洞报告，发现 **业务逻辑漏洞占比明显上升** 。尤其是在 GitHub Star 数超过 1 万的热门项目中，4 月份业务逻辑漏洞占比已达到 47.2%，接近一半。\n\n然而，现有评测基准大多还停留在传统漏洞类型上，难以判断安全工具",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "画数独、烧蜡烛都不翻车了？浙大&阿里让AI先三思再下笔｜ACL 2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893123&idx=3&sn=324e2f6977d0b2ea15ec462d8e403890",
+      "published_at": "2026-05-26T05:30:00.000Z",
+      "summary": "关注前沿科技 2026-05-26 13:30 北京\n\n从数据到算法，构建可执行的思维链\n\n##### 浙江大学&阿里巴巴团队 投稿 量子位 | 公众号 QbitAI\n\n当下视觉生成正陷入一个能力错位困境——\n\n扩散模型的像素画质已接近完美，但一遇到需要逻辑推理的生成任务就频频翻车。\n\n让模型画 “数独解完后的样子”、“蜡烛燃烧6小时后的状态”，开源模型要么出现逻辑幻觉，要么无法把文字指令转化为精准视觉操作，形成难以跨越的执行鸿沟。\n\n反观Nano Banana、GPT-Image等闭源模型，早已具备成熟的推理驱动生成能力。\n\n开源模型与闭源模型的差距，真的是生成器不够强吗？\n\n浙江大学联合阿",
+      "priority_score": 128,
+      "matched_keywords": [
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search",
+      "url": "https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/",
+      "published_at": "2026-05-26T22:32:56.000Z",
+      "summary": "Google overhauled Search at I/O 2026, replacing blue links with AI agents. The backlash has been swift. DuckDuckGo app installs spiked 30% as users seek a way out.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Rethinking organizational design in the age of agentic AI",
+      "url": "https://www.technologyreview.com/2026/05/26/1137584/rethinking-organizational-design-in-the-age-of-agentic-ai/",
+      "published_at": "2026-05-26T14:54:10.000Z",
+      "summary": "Amid rapidly growing adoption of enterprise-level AI agents, there’s a disconnect emerging between ambition and execution. \n\nAlthough 85% of organizations say they want to be agentic within the next three years,[76% say](https://www.celonis.com/insights/reports/process-optimization)their current ope",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "AI公司烧不起Token了！国产Agent杀出，逼近Opus 4.6还免费",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702909&idx=1&sn=242761d18907f204339ead4777ce72b4",
+      "published_at": "2026-05-26T04:30:00.000Z",
+      "summary": "ASI启示录 2026-05-26 12:30 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 4个月烧光全年AI预算，天价Token账单正在屠杀硅谷！今天，高性能Agent模型SkyClaw-v1.0出世，性能直逼Opus 4.6、DeepSeek V4 Pro，百万上下文性价比拉满。**\n\n铁打的Token，流水的账单！\n\n在这场狂飙的AI浪潮中，有一个真相正在被严重低估——\n\nToken，已经成为AI时代的「电力消耗」。\n\n一份最新报告显示，从2022年-2026年，短短四年的时间，Token处理量暴增17000倍。\n\n如今，这种惊人的Token消耗，正让企业账单变",
+      "priority_score": 122,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "龙虾之父教你省钱：开源Skill给你的Skill减肥",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893123&idx=2&sn=132e34be318a96a7fbbb31b11172fb4b",
+      "published_at": "2026-05-26T05:30:00.000Z",
+      "summary": "关注前沿科技 2026-05-26 13:30 北京\n\n“Skill要像路标，不能像说明书”\n\n##### 梦晨 发自 凹非寺 量子位 | 公众号 QbitAI\n\nSkill水平参差不齐，龙虾之父Peter看不下去了。\n各位：别把Skill描述写的像本书一样，乱七八糟的东西都塞进上下文。\n为了解决这个问题，他写了一个给所有Skill做体检的Skill，给大伙开源出来。\n\n这个观点在评论区引发网友共鸣。\n\n有人提到，写了90多词的描述Agent都不能好好调用技能。砍到40词以内后，Agent反而一次选对了技能。\n\n那么，你的Skill是不是也该做一次“体检”了？\n\n## 龙虾之父给Skill做大",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenRouter more than doubles valuation to $1.3B in a year",
+      "url": "https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/",
+      "published_at": "2026-05-26T18:33:01.000Z",
+      "summary": "OpenRouter has raised a $113 million Series B led by CapitalG. Its 5x growth in usage over six months indicates the multi-AI-model future is here.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "Google I/O 2026 | 开发者主题演讲精华集锦",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107279&idx=2&sn=4ba4e057ef2bd5ab8952eb5dc02db997",
+      "published_at": "2026-05-26T10:02:00.000Z",
+      "summary": "Google 2026-05-26 18:02 北京\n\n以下文章来源于：谷歌开发者\n**谷歌开发者**\nGoogle 中国官方账号。汇集 Android, Flutter, Chrome OS, Chrome/web, AI 等开发技术，以及 Google Play 平台出海相关信息。\n\n**AI 已不再只是提供辅助，而是迈向了能够在整个工作流中独立处理复杂任务的智能体阶段。在今年的 I/O 大会上，我们发布了** **Gemini 3.5 系列模型 ，并升级了我们的 「 智能体优先 」 式开发平台 Antigravity ，带来全新的智能体编排和构建功能。我们还展示了全新的工具和技能，让智能",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Uber president says AI spending is getting ‘harder to justify’",
+      "url": "https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify",
+      "published_at": "2026-05-26T09:55:09.000Z",
+      "summary": "Uber president Andrew Macdonald (pictured) says it’s “hard to draw a line” between AI spending and deliverable features. | Photo: Zed Jameson / Bloomberg via Getty Images\nAfter reportedly exhausting its annual AI budget just four months into 2026, Uber is now questioning whether it's actually seeing",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "打破光刻工艺束缚，华为提出「韬定律」；宇树科技将于 6 月 1 日接受科创板上市审核；追觅官宣 C 罗出任全球代言人 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107197&idx=1&sn=661479b710609c15981470e01cacdcf4",
+      "published_at": "2026-05-26T00:30:00.000Z",
+      "summary": "曹思颀 2026-05-26 08:30 北京\n\n谷歌 CEO：Gemini 在 AI 编程赛道已落后；法拉利首款纯电动车 Ferrari Luce 发布；曝小红书已获 2026 世界杯分销版权。\n\n## 宇树科技将于 6 月 1 日接受科创板上市审核\n\n5 月 25 日，宇树科技正式披露科创板上会稿，将于 6 月 1 日上会，冲刺科创板。此前，宇树于 3 月 20 日获上交所受理，并已完成两轮问询答复。\n\n上会稿同步公示的财务数据显示，宇树科技 2025 年实现营业收入约 17 亿元；主营业务毛利率达 60.13%，较 2023 年的 44.22% 提升了近 16 个百分点。公司核心部组件自",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "This startup is betting India’s gig economy can train the world’s robots",
+      "url": "https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/",
+      "published_at": "2026-05-26T16:00:00.000Z",
+      "summary": "Human Archive, a startup founded by UC Berkeley and Stanford researchers, is paying gig workers in India to wear camera-equipped caps and sensor devices to collect the real-world physical training data that AI and robotics labs are racing to acquire.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "ACL 2026 Main | 不只是调用地图API，Spatial-Agent让大模型生成可执行地理分析工作流",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035127&idx=3&sn=8ab7d2ab168b69b610e70f4574698b90",
+      "published_at": "2026-05-26T05:16:00.000Z",
+      "summary": "机器之心 2026-05-26 13:16 北京\n\n把用户的自然语言问题组织成一段可执行、可验证的地理分析流程。\n\n作者 ：Riyang Bao, Cheng Yang, Dazhou Yu, Zhexiang Tang, Gengchen Mai, Liang Zhao\n\n单位 ：Emory University；Rutgers University；University of Texas at Austin\n\n大语言模型在地图、城市、交通等空间领域的应用越来越广泛。对于这些场景来说，问题往往不只是 “查一个地点” 或 “调用一次路线 API” 就能解决的，而是需要把用户的自然语言问题组织成",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Universal Music Group and TikTok renew agreement to combat unauthorized AI music",
+      "url": "https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/",
+      "published_at": "2026-05-26T14:55:05.000Z",
+      "summary": "For years, UMG has pushed platforms, streaming services, and AI companies to implement stricter content moderation policies.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Sundar Pichai on AI, the future of search, and what’s happening to the web",
+      "url": "https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web",
+      "published_at": "2026-05-26T14:00:00.000Z",
+      "summary": "Today, I’m talking with Google and Alphabet CEO Sundar Pichai, in a conversation we recorded just after the Google I/O developer conference. This is the fifth year Sundar and I have sat down after I/O, and it’s become one of my favorite*Decoder*traditions.\n\nThere’s always a lot of news at I/O, and[t",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "TechCrunch Disrupt 2026 Early Bird ticket rates end May 29",
+      "url": "https://techcrunch.com/2026/05/26/techcrunch-disrupt-2026-early-bird-ticket-rates-end-may-29/",
+      "published_at": "2026-05-26T14:00:00.000Z",
+      "summary": "Save up to $410 on your TechCrunch Disrupt 2026 pass before prices increase on May 29 at 11:59 p.m. PT. Register here to join the tech epicenter in San Francisco.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Nobody wants to tell me why they only listen to their own Suno slop",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937059/nobody-wants-to-tell-me-why-they-only-listen-their-own-suno-slop",
+      "published_at": "2026-05-26T12:46:03.000Z",
+      "summary": "Do you even like art? | Image: Cath Virginia / The Verge, Getty Images\nThere's this alarming trend in the Suno subreddit. People aren't just prompting AI songs; they're sitting around listening almost exclusively to their own slop. And in some cases, they[proudly proclaim](https://www.reddit.com/r/S",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: puncturing the AI jobs panic",
+      "url": "https://www.technologyreview.com/2026/05/26/1138028/the-download-ai-jobs-data/",
+      "published_at": "2026-05-26T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **A reality check on th",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "AI warfare is already here",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/937028/military-ai-warfare-red-lines",
+      "published_at": "2026-05-26T12:00:00.000Z",
+      "summary": "The Convention on Certain Conventional Weapons, an international forum that focuses on lethal autonomous systems, is hosted twice a year at the United Nations in Geneva. When Branka Marijan attended in November 2017, she thought the five-day sessions - which dealt largely in hypotheticals, speculati",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "当任何人都能用 AI 把公司告上法庭，法官们慌了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107279&idx=1&sn=67e82ec54ce1e419f223ed2fa5702994",
+      "published_at": "2026-05-26T10:02:00.000Z",
+      "summary": "原创桦林舞王 2026-05-26 18:02 北京\n\n​AI 正在把法庭变成一个任何人都能进入的擂台。\n\nAI 正在把法庭变成一个任何人都能进入的擂台。\n\n**作 者｜ 桦林舞王** **编辑｜ **靖宇****\n\n如果几年前有人跟我说，「以后老百姓不用花几万块请律师，直接让 AI 帮自己写诉状告赢大公司」，我大概会觉得这人在做梦。\n\n但这件事正在美国真实发生。\n\n2026 年，美国各地法院正在迎来一波前所未有的诉讼狂潮，而这些都是「自代理诉讼」，由不请律师、自己代表自己的当事人提起的案件。\n\n这本来不是新鲜事，穷人告状告不起律师，美国法院历来有接受自代理诉讼的传统。新鲜的是，这些人现在有了",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "A reality check on the AI jobs hysteria",
+      "url": "https://www.technologyreview.com/2026/05/26/1137855/a-reality-check-on-the-ai-jobs-hysteria/",
+      "published_at": "2026-05-26T09:00:00.000Z",
+      "summary": "Haven’t you heard? White-collar jobs are going away, decimated by AI. Waves of layoffs in the tech sector (most recently at Coinbase and Meta and Cisco) are said to presage what will soon come for all of us knowledge workers. But before you quit your job as a software developer or financial analyst—",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "It’s time to address the looming crisis in entry-level work.",
+      "url": "https://www.technologyreview.com/2026/05/26/1137865/its-time-to-address-the-looming-crisis-in-entry-level-work/",
+      "published_at": "2026-05-26T09:00:00.000Z",
+      "summary": "Artificial intelligence has not so far produced a clean story of mass unemployment. Aggregate employment in developed countries remains broadly stable, and recent assessments have found limited evidence that AI has shifted the headline numbers. But a troubling change may be hiding beneath the surfac",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "对话奇点光子谢崇进：当英伟达用 45 亿美元，「烧」火了赛道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107259&idx=1&sn=db5ec8ebd8256a8f27fb6646ee6f74a9",
+      "published_at": "2026-05-26T06:56:00.000Z",
+      "summary": "原创徐珊 2026-05-26 14:56 北京\n\n​AI 算力的下一个增长点，在互连。\n\nAI 算力的下一个增长点，在互连。\n\n**作者｜徐珊** **编辑｜ **郑玄****\n\n谢崇进做光通信，做了三十年。这三十年里，行业「凉」过两次。\n\n第一次是 2002 年。他刚从读完博士后，进了贝尔实验室。那是当时全球做光通信最好的地方，但他进去没多久，互联网泡沫破裂，光通信成为受冲击最重的行业之一，朗讯一度十几万员工，三年内裁到只剩四、五万。他那个团队，进去七个，最后只剩谢崇进自己。\n\n泡沫破灭后，行业一直低迷，从业者大批离开。谢崇进记得2013年去参加一个学术会议，对面的人听完他的介绍，甚至愣了",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "刚刚，国产AI自己造了AI，全球首例！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893123&idx=1&sn=5d7d73a6ba59384a99ee4e5abc254e05",
+      "published_at": "2026-05-26T05:30:00.000Z",
+      "summary": "原创关注前沿科技 2026-05-26 13:30 北京\n\n训练速度比英伟达Megatron快10%\n\n##### 金磊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n**造AI** 这件事，现在的 **主角** 变成了AI。\n\n因为就在刚刚，一个 **国产AI** 先自己写出了一套大模型预训练框架，然后再用这套预训练框架，训练出了一个新的小尺寸模型！\n\n这就是 **面壁智能** 搞出来的big news。\n\n这套由AI写出来的预训练框架叫做 **ForgeTrain** ，它是 **全球首个** 完全由AI编写的生产级大模型预训练框架，性能甚至 **超越了英伟达的Megatron** 。",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893123&idx=4&sn=0cc0af9c1b7803266cc8b34c063f9456",
+      "published_at": "2026-05-26T05:30:00.000Z",
+      "summary": "关注前沿科技 2026-05-26 13:30 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "不用人类手写训练框架了！AI自己写代码，训出1B端侧「小钢炮」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035127&idx=1&sn=1699c9c08063a1f8faf96f5b49fa8c65",
+      "published_at": "2026-05-26T05:16:00.000Z",
+      "summary": "原创关注AI的 2026-05-26 13:16 北京\n\n大模型训练框架被 AI 写出来了\n\n机器之心编辑部\n\n你的电脑里，或许很快会住进一只会聊天的「小怪兽」。\n\n它不需要庞大的云端算力，也不必每一次对话都把请求发往远处的数据中心。它可以安静地待在本地设备里，随时被唤醒，陪你聊天、回答问题、处理简单任务，甚至在没有网络的时候继续运行。\n\n这听起来像是一个轻量、有趣的 AI「桌宠」场景，但背后其实对应着大模型行业正在发生的一次路线分化。\n\n过去很长一段时间，大模型给人的印象都是庞然大物：数百亿甚至上千亿参数起步，推理依赖云端数据中心，背后是高昂的算力、电力和调用成本。模型越大，能力越强，几乎成",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "新智元ALL in ASI英雄帖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702909&idx=3&sn=cb4f06595501fe3bcd49c09902dd200e",
+      "published_at": "2026-05-26T04:30:00.000Z",
+      "summary": "ASI启示录 2026-05-26 12:30 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 2026年，ASI奇点之年。全球AI竞赛进入决赛圈，AI正以指数级的速度重塑世界。新智元All in ASI，现招募两个核心战位——ASI架构师（年薪50-70万）与ASI主笔（年薪50-70万），坐标北京上地，虚位以待。**\n\n全球AI竞赛进入决赛圈，每天都有大事发生。 新智元要覆盖的赛道、要打的仗也在飙升。 我们不仅要在全球AI最前沿保持绝对敏锐，更要在ASI浪潮中主动出击。 现在，新智元正式发出All in ASI英雄帖。 我们在上地AI家，召唤 **对ASI有信仰，有使",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

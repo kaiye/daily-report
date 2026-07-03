@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-04-21T00:01:15.431Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-04-20",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2046249571882500354",
+      "text": "Meet Kimi K2.6: Advancing Open-Source Coding\n\n🔹Open-source SOTA on HLE w/ tools (54.0), SWE-Bench Pro (58.6), SWE-bench Multilingual (76.7), BrowseComp (83.2), Toolathlon (50.0), Charxiv w/ python(86.7), Math Vision w/ python (93.2)\n\nWhat's new:\n🔹Long-horizon coding  - 4,000+ tool calls, over 12 hours of continuous execution, with generalization across languages (Rust, Go, Python) and tasks (frontend, devops, perf optimization).\n🔹Motion-rich frontend - Videos in hero sections, WebGL shaders, GSAP + Framer Motion, Three.js 3D.\n🔹Agent Swarms, elevated - 300 parallel sub-agents × 4,000 steps per run (up from K2.5's 100 / 1,500). One prompt, 100+ files. \n🔹Proactive Agents - K2.6 model powers OpenClaw, Hermes Agent, etc for 24/7 autonomous ops.  \n🔹Claw Groups (research preview) - bring your own agents, command your friends', bots & humans in the loop.\n-\nK2.6 is now live on https://t.co/YutVbwktG0 in chat mode and agent mode. \nFor production-grade coding, pair K2.6 with Kimi Code: https://t.co/uvoSJKyGCY\n- \n🔗 API: https://t.co/EOZkbOwCN4\n🔗 Tech blog: https://t.co/9wWvgIQSS3\n🔗 Weights & code: https://t.co/Be0hjs2RTP",
+      "createdAt": "Mon Apr 20 15:28:10 +0000 2026",
+      "viewCount": 2508674,
+      "likeCount": 12131,
+      "retweetCount": 1510,
+      "author": {
+        "userName": "Kimi_Moonshot",
+        "name": "Kimi.ai",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Kimi_Moonshot/status/2046249571882500354",
+      "is_official": true
+    },
+    {
+      "id": "2046328619249684989",
+      "text": "In Cowork, Claude can now build live artifacts: dashboards and trackers connected to your apps and files.\n\nOpen one any time and it refreshes with current data. https://t.co/oru97zRn8L",
+      "createdAt": "Mon Apr 20 20:42:16 +0000 2026",
+      "viewCount": 1099592,
+      "likeCount": 7392,
+      "retweetCount": 457,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2046328619249684989",
+      "is_official": true
+    },
+    {
+      "id": "2046227759475921291",
+      "text": "🚀 Introducing Qwen3.6-Max-Preview, an early preview of our next flagship model\n\nHighlights：\n⚡️ Improved agentic coding capability over Qwen3.6-Plus\n📖 Stronger world knowledge and instruction following\n🌍 Improved real-world agent and knowledge reliability performance\n\nSmarter, sharper, still evolving.\nMore Qwen3.6 models to come. Stay tuned!\n\n🔗👇\nBlog: https://t.co/6hDQJhmkjM\nQwen Studio: https://t.co/Fe2X1IrW6r\nAPI: https://t.co/xWPs39LBIm",
+      "createdAt": "Mon Apr 20 14:01:29 +0000 2026",
+      "viewCount": 226381,
+      "likeCount": 3372,
+      "retweetCount": 344,
+      "author": {
+        "userName": "Alibaba_Qwen",
+        "name": "Qwen",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Alibaba_Qwen/status/2046227759475921291",
+      "is_official": true
+    },
+    {
+      "id": "2046240203480936608",
+      "text": "The Head of Claude Code at Anthropic said he hasn’t written code by hand in months.\n\nIn 2 days he shipped 49 full features. All written 100% by AI.\n\nHe just dropped a 30 min talk on exactly how he does it.\n\nWorth more than any $500 vibe coding course. Bookmark it: https://t.co/gszR7kYJCL",
+      "createdAt": "Mon Apr 20 14:50:56 +0000 2026",
+      "viewCount": 885831,
+      "likeCount": 7563,
+      "retweetCount": 585,
+      "author": {
+        "userName": "EvanLuthra",
+        "name": "Evan Luthra",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/EvanLuthra/status/2046240203480936608",
+      "is_official": false
+    },
+    {
+      "id": "2046288243768082699",
+      "text": "Last week, we released a preview of memories in Codex.\n\nToday, we’re expanding the experiment with Chronicle, which improves memories using recent screen context.\n\nNow, Codex can help with what you’ve been working on without you restating context. https://t.co/b3p8I5eXOy",
+      "createdAt": "Mon Apr 20 18:01:50 +0000 2026",
+      "viewCount": 444135,
+      "likeCount": 3008,
+      "retweetCount": 233,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2046288243768082699",
+      "is_official": true
+    },
+    {
+      "id": "2046250426761097551",
+      "text": "Kimi K2.6 just dropped.\n\nAnd it crushed Claude Opus 4.6 on SWE-Bench Pro.\n\nKimi K2.6: 58.6\nGPT-5.4 xhigh: 57.7\nGemini 3.1 Pro: 54.2\nClaude Opus 4.6: 53.4\n\nAn open source Chinese model is now #1 on agentic coding.\n\nFrontier labs have a problem. https://t.co/wVzzChpl9p",
+      "createdAt": "Mon Apr 20 15:31:33 +0000 2026",
+      "viewCount": 156790,
+      "likeCount": 2199,
+      "retweetCount": 142,
+      "author": {
+        "userName": "bridgemindai",
+        "name": "BridgeMind",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/bridgemindai/status/2046250426761097551",
+      "is_official": true
+    },
+    {
+      "id": "2046335947869155529",
+      "text": "Excited to share that Google AI subscriptions (Pro and Ultra) now work with @GoogleAIStudio!!\n\nCome vibe code and use the playground with higher rate limits. Available right now!  https://t.co/Rf1KlA0iwn",
+      "createdAt": "Mon Apr 20 21:11:23 +0000 2026",
+      "viewCount": 71348,
+      "likeCount": 1370,
+      "retweetCount": 85,
+      "author": {
+        "userName": "OfficialLoganK",
+        "name": "Logan Kilpatrick",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/OfficialLoganK/status/2046335947869155529",
+      "is_official": true
+    },
+    {
+      "id": "2046123367041012112",
+      "text": "this guy literally breaks down the exact Claude + Obsidian playbook to build your own AI employee in a single afternoon 🤯 https://t.co/akOGAy0QmQ",
+      "createdAt": "Mon Apr 20 07:06:40 +0000 2026",
+      "viewCount": 352233,
+      "likeCount": 1700,
+      "retweetCount": 182,
+      "author": {
+        "userName": "DataChaz",
+        "name": "Charly Wargnier",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/DataChaz/status/2046123367041012112",
+      "is_official": false
+    },
+    {
+      "id": "2046029612820594962",
+      "text": "I upgraded my Claude token counter tool to compare different models and Opus 4.7 does appear to use 1.46x times the tokens for text and up to 3x the tokens for images - it's priced the same as Opus 4.6 on a per-token basis so this is actually a pretty big price bump https://t.co/PPGrwHf39D",
+      "createdAt": "Mon Apr 20 00:54:07 +0000 2026",
+      "viewCount": 133627,
+      "likeCount": 1510,
+      "retweetCount": 132,
+      "author": {
+        "userName": "simonw",
+        "name": "Simon Willison",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/simonw/status/2046029612820594962",
+      "is_official": false
+    },
+    {
+      "id": "2046327624092487688",
+      "text": "We're expanding our collaboration with Amazon to secure up to 5 gigawatts of compute for training and deploying Claude. Capacity begins coming online this quarter, with nearly 1 gigawatt expected by the end of 2026.",
+      "createdAt": "Mon Apr 20 20:38:19 +0000 2026",
+      "viewCount": 419369,
+      "likeCount": 6475,
+      "retweetCount": 470,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2046327624092487688",
+      "is_official": true
+    },
+    {
+      "id": "2046326797898232014",
+      "text": "AFTERHOURS:\n\n$AAPL: CEO TIM COOK TO STEP DOWN BY END OF SUMMER\n\n$AMZN: AMAZON WILL INVEST $5B INTO ANTHROPIC TODAY WITH UP TO $20B MORE PENDING\n\nApple moving into a new era, Amazon doubling down on their Anthropic investment",
+      "createdAt": "Mon Apr 20 20:35:02 +0000 2026",
+      "viewCount": 141219,
+      "likeCount": 1983,
+      "retweetCount": 98,
+      "author": {
+        "userName": "amitisinvesting",
+        "name": "amit",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/amitisinvesting/status/2046326797898232014",
+      "is_official": false
+    },
+    {
+      "id": "2046198983320801722",
+      "text": "1 hour. That’s all it takes.\n\nThis full Claude AI course shows you how to build and automate like a pro.\n\nSave it for the weekend. https://t.co/qD9hodGZ1W",
+      "createdAt": "Mon Apr 20 12:07:08 +0000 2026",
+      "viewCount": 266620,
+      "likeCount": 2467,
+      "retweetCount": 286,
+      "author": {
+        "userName": "allen_explains",
+        "name": "Allen Braden",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/allen_explains/status/2046198983320801722",
+      "is_official": true
+    },
+    {
+      "id": "2046103177641009198",
+      "text": "Grok 4.3 now has native LaTeX compilation built into Grok Files https://t.co/XamTaIC6Q9",
+      "createdAt": "Mon Apr 20 05:46:26 +0000 2026",
+      "viewCount": 525639,
+      "likeCount": 1930,
+      "retweetCount": 483,
+      "author": {
+        "userName": "ns123abc",
+        "name": "NIK",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ns123abc/status/2046103177641009198",
+      "is_official": false
+    },
+    {
+      "id": "2046031092780839344",
+      "text": "hey @grok make me look like a realistic cartoon character. https://t.co/nByHjItR7S",
+      "createdAt": "Mon Apr 20 01:00:00 +0000 2026",
+      "viewCount": 119566,
+      "likeCount": 6889,
+      "retweetCount": 64,
+      "author": {
+        "userName": "imtaylorroze",
+        "name": "Taylor Roze",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/imtaylorroze/status/2046031092780839344",
+      "is_official": false
+    },
+    {
+      "id": "2046329205575561235",
+      "text": "JUST IN: Amazon $AMZN to invest up to $25,000,000,000 in Claude AI developer Anthropic. https://t.co/gtnTNlgJSe",
+      "createdAt": "Mon Apr 20 20:44:36 +0000 2026",
+      "viewCount": 207580,
+      "likeCount": 3471,
+      "retweetCount": 336,
+      "author": {
+        "userName": "WatcherGuru",
+        "name": "Watcher.Guru",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/WatcherGuru/status/2046329205575561235",
+      "is_official": true
+    },
+    {
+      "id": "2046052170529935727",
+      "text": "hey @grok put me in a micro bikini https://t.co/EQUwfyqSjg",
+      "createdAt": "Mon Apr 20 02:23:45 +0000 2026",
+      "viewCount": 738107,
+      "likeCount": 5649,
+      "retweetCount": 76,
+      "author": {
+        "userName": "breckiebaby",
+        "name": "Breckie",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/breckiebaby/status/2046052170529935727",
+      "is_official": false
+    },
+    {
+      "id": "2046326495216341298",
+      "text": "BREAKING: Amazon, $AMZN, will invest up to another $25 billion in Anthropic as a part of an AI infrastructure deal.",
+      "createdAt": "Mon Apr 20 20:33:50 +0000 2026",
+      "viewCount": 197056,
+      "likeCount": 2813,
+      "retweetCount": 228,
+      "author": {
+        "userName": "KobeissiLetter",
+        "name": "The Kobeissi Letter",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/KobeissiLetter/status/2046326495216341298",
+      "is_official": true
+    },
+    {
+      "id": "2046236778886205503",
+      "text": "Hey @grok make scarlett johansson strike this pose https://t.co/2IZVpZ68St",
+      "createdAt": "Mon Apr 20 14:37:19 +0000 2026",
+      "viewCount": 1436564,
+      "likeCount": 1620,
+      "retweetCount": 147,
+      "author": {
+        "userName": "Chandni0_0",
+        "name": "Chandni",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Chandni0_0/status/2046236778886205503",
+      "is_official": false
+    },
+    {
+      "id": "2046069548806537321",
+      "text": "Hey @grok put this red dress on Billie Eilish https://t.co/bEDPMWxuOD",
+      "createdAt": "Mon Apr 20 03:32:49 +0000 2026",
+      "viewCount": 3703687,
+      "likeCount": 6252,
+      "retweetCount": 125,
+      "author": {
+        "userName": "muneb09",
+        "name": "muneeb",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/muneb09/status/2046069548806537321",
+      "is_official": false
+    },
+    {
+      "id": "2046120200957817121",
+      "text": "Grok 4.3 \"write an academic paper on general relativity\"\n\nIt produced a 5-page LaTeX paper:\n>Einstein field equations\n>Schwarzschild metric \n>tensor notation and Christoffel symbols \n>starlight deflection diagram \n>Newtonian vs GR comparison table \n>8 properly formatted citations\n>author: \"Grok\"\n\nxAI team cooked fr",
+      "createdAt": "Mon Apr 20 06:54:05 +0000 2026",
+      "viewCount": 786017,
+      "likeCount": 3940,
+      "retweetCount": 787,
+      "author": {
+        "userName": "ns123abc",
+        "name": "NIK",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ns123abc/status/2046120200957817121",
+      "is_official": false
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-07-02",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日热门项目集中在 AI Agent、多模型接入与安全自动化，显示开发者正加速把大模型能力嵌入编码、渗透测试、决策和语音等实际工作流。",
+  "items": [
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "触手可及的完整 AI 机构，从前端向导到 Reddit 社区高手，从奇思妙想注入者到现实校验者，每个智能体都是具备个性、流程和成熟交付物的专业专家。",
+      "language": "Shell",
+      "stars_today": 2114,
+      "stars_total": 123326
+    },
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "开源 AI 渗透测试工具，用于发现并修复应用漏洞。",
+      "language": "Python",
+      "stars_today": 1211,
+      "stars_total": 29663
+    },
+    {
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "Vibe-Trading：你的个人交易智能体。",
+      "language": "Python",
+      "stars_today": 694,
+      "stars_total": 16503
+    },
+    {
+      "repo": "facebook/astryx",
+      "url": "https://github.com/facebook/astryx",
+      "description": "完全可定制且面向智能体就绪的开源设计系统。",
+      "language": "TypeScript",
+      "stars_today": 708,
+      "stars_total": 2604
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "永不停下编码，免费 AI 网关以一个端点连接 231+ 提供商（50+ 免费），让 Claude Code、Codex、Cursor、Cline 和 Copilot 接入免费 Claude/GPT/Gemini，并提供 RTK+Caveman 堆叠压缩、智能自动回退、MCP/A2A、多模态 API 与 Desktop/PWA。",
+      "language": "TypeScript",
+      "stars_today": 1010,
+      "stars_total": 9494
+    },
+    {
+      "repo": "allenai/olmocr",
+      "url": "https://github.com/allenai/olmocr",
+      "description": "面向 LLM 数据集和训练的 PDF 线性化工具包。",
+      "language": "Python",
+      "stars_today": 334,
+      "stars_total": 18256
+    },
+    {
+      "repo": "logto-io/logto",
+      "url": "https://github.com/logto-io/logto",
+      "description": "面向 SaaS 和 AI 应用的认证与授权基础设施，基于 OIDC 和 OAuth 2.1 构建，支持多租户、SSO 和 RBAC。",
+      "language": "TypeScript",
+      "stars_today": 113,
+      "stars_total": 13251
+    },
+    {
+      "repo": "Unclecheng-li/VulnClaw",
+      "url": "https://github.com/Unclecheng-li/VulnClaw",
+      "description": "基于 AI Agent、MCP 工具链与渗透 Skill 编排，配合大语言模型，通过自然语言输入自动完成“信息收集→漏洞发现→漏洞利用→报告生成”全流程。",
+      "language": "Python",
+      "stars_today": 132,
+      "stars_total": 1561
+    },
+    {
+      "repo": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "description": "12 周、24 节课，人人都能学 AI。",
+      "language": "Jupyter Notebook",
+      "stars_today": 1096,
+      "stars_total": 50409
+    },
+    {
+      "repo": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "运行在终端里的智能体多路复用器。",
+      "language": "Rust",
+      "stars_today": 609,
+      "stars_total": 9577
+    },
+    {
+      "repo": "0xNyk/council-of-high-intelligence",
+      "url": "https://github.com/0xNyk/council-of-high-intelligence",
+      "description": "18 个 AI 人格跨多个 LLM 提供商为你的艰难决策进行审议，涵盖亚里士多德、费曼、卡尼曼、托瓦兹等，并以真正多样的模型进行结构化多轮讨论。",
+      "language": "Shell",
+      "stars_today": 161,
+      "stars_total": 2606
+    },
+    {
+      "repo": "altic-dev/FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "description": "最快且唯一具备端侧 STT 和自定义训练 AI 增强模型的 macOS 听写应用，是本地 Wispr Flow 替代方案，Windows、iOS 和 Linux 即将推出。",
+      "language": "Swift",
+      "stars_today": 572,
+      "stars_total": 5466
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-05-02",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕智能体的开发环境、技能框架与多智能体工作流快速升温。",
+  "items": [
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents：多智能体 LLM 金融交易框架。",
+      "language": "Python",
+      "stars_today": 2112,
+      "stars_total": 59820
+    },
+    {
+      "repo": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp 是一个诞生于终端的智能体式开发环境。",
+      "language": "Rust",
+      "stars_today": 3401,
+      "stars_total": 51418
+    },
+    {
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "编码智能体运行框架。",
+      "language": "Rust",
+      "stars_today": 403,
+      "stars_total": 2344
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "面向真正工程师的技能，直接来自我的 .claude 目录。",
+      "language": "Shell",
+      "stars_today": 3645,
+      "stars_total": 52498
+    },
+    {
+      "repo": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "description": "带有网页浏览工具的 Claude Agent SDK。",
+      "language": "JavaScript",
+      "stars_today": 334,
+      "stars_total": 1168
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个行之有效的智能体技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1096,
+      "stars_total": 175606
+    }
+  ]
+}

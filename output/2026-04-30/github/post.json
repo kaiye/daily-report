@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-04-30T00:01:24.098Z",
+  "source_raw": "raw.json",
+  "source_count": 16,
+  "item_count": 15,
+  "language_breakdown": {
+    "Rust": 2,
+    "Shell": 2,
+    "Python": 5,
+    "TypeScript": 2,
+    "Go": 1,
+    "Crystal": 1,
+    "JavaScript": 1,
+    "C#": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "stars_today": 12822,
+      "stars_total": 43637,
+      "forks": 2594
+    },
+    {
+      "rank": 2,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars_today": 7280,
+      "stars_total": 44390,
+      "forks": 3553
+    },
+    {
+      "rank": 3,
+      "repo": "HunxByts/GhostTrack",
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "language": "Python",
+      "stars_today": 1033,
+      "stars_total": 11552,
+      "forks": 1585
+    },
+    {
+      "rank": 4,
+      "repo": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "stars_today": 1177,
+      "stars_total": 4762,
+      "forks": 297
+    },
+    {
+      "rank": 5,
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars_today": 411,
+      "stars_total": 1335,
+      "forks": 127
+    },
+    {
+      "rank": 6,
+      "repo": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars_today": 774,
+      "stars_total": 33311,
+      "forks": 3780
+    },
+    {
+      "rank": 7,
+      "repo": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars_today": 1690,
+      "stars_total": 45666,
+      "forks": 5045
+    },
+    {
+      "rank": 8,
+      "repo": "CJackHwang/ds2api",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.",
+      "language": "Go",
+      "stars_today": 465,
+      "stars_total": 2702,
+      "forks": 721
+    },
+    {
+      "rank": 9,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1653,
+      "stars_total": 173072,
+      "forks": 15260
+    },
+    {
+      "rank": 10,
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
+      "language": "Python",
+      "stars_today": 294,
+      "stars_total": 32719,
+      "forks": 32909
+    },
+    {
+      "rank": 11,
+      "repo": "lukilabs/craft-agents-oss",
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "description": "To understand what Craft Agents does and how it works watch this video.\n\nClick Here (or on the image above) to watch the video on YouTube →",
+      "language": "TypeScript",
+      "stars_today": 393,
+      "stars_total": 5315,
+      "forks": 722
+    },
+    {
+      "rank": 12,
+      "repo": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": "📚 Freely available programming books",
+      "language": "Python",
+      "stars_today": 604,
+      "stars_total": 387164,
+      "forks": 66183
+    },
+    {
+      "rank": 14,
+      "repo": "iv-org/invidious",
+      "url": "https://github.com/iv-org/invidious",
+      "description": "Invidious is an alternative front-end to YouTube",
+      "language": "Crystal",
+      "stars_today": 269,
+      "stars_total": 19406,
+      "forks": 2135
+    },
+    {
+      "rank": 15,
+      "repo": "gorhill/uBlock",
+      "url": "https://github.com/gorhill/uBlock",
+      "description": "uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.",
+      "language": "JavaScript",
+      "stars_today": 391,
+      "stars_total": 64029,
+      "forks": 4074
+    },
+    {
+      "rank": 16,
+      "repo": "microsoft/PowerToys",
+      "url": "https://github.com/microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "language": "C#",
+      "stars_today": 102,
+      "stars_total": 132379,
+      "forks": 7911
+    }
+  ]
+}

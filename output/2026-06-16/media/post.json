@@ -1,0 +1,376 @@
+{
+  "generated_at": "2026-06-16T01:17:17.502Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 32,
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "As AI agents become employees, NewCore emerges with $66M to give them identities",
+      "url": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+      "published_at": "2026-06-15T13:00:00.000Z",
+      "summary": "NewCore argues the next challenge in enterprise security will be managing AI agents, not people.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "AGI",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "Fable 5突遭封禁，Anthropic大会差点黄了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652707250&idx=1&sn=d88230da15342d16f524fae5da103c40",
+      "published_at": "2026-06-15T04:07:00.000Z",
+      "summary": "ASI启示录 2026-06-15 12:07 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 地表最强Fable 5惨遭一纸禁令「物理封印」，官方开发者日竟然没了主角！Anthropic高管连夜飞往华盛顿灭火，全网都在等一个反转。**\n\nAnthropic绝对始料未及！\n\n官方原早定档6月13日，在旧金山举办Claude Fable 5开发者日。\n\n结果，一纸禁令从天而降，直接「封印」了地表最强AI。\n\n舞台已搭好， Fable 5的开发者日，竟然没了主角Fable 5？\n\n**没有Fable 5？** **那就Opus 4.8顶上**\n\n按原计划，Anthropic要",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "阿里技术",
+      "title": "后端架构 AI Friendly 的标准与路径：面向无人值守开发时代的系统重构",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247509820&idx=1&sn=c6bfc1326933573566b4e13f14625390",
+      "published_at": "2026-06-15T11:27:00.000Z",
+      "summary": "原创刘瑞洲 2026-06-15 19:27 浙江\n\n面向7×24小时无人值守AI Coding，后端系统架构的适配和优化思考。\n\n这是2026年的第 24 篇文章\n\n（ 本文阅读时间：约20分钟 ）\n\n# 前言\n\n过去十几年，互联网软件的后端系统核心目标大多围绕「人类工程师友好」展开：架构要清晰，接口要稳定，日志要可查，监控要完整，发布要可控，故障要可回滚。这些原则并没有过时，但在 AI Coding、Agentic Coding、Vibe Coding 逐渐进入工程现场之后， 一个新的问题出现了：如果未来大量开发、排障、重构、测试、发布工作不再完全由人类手动完成，而是由 AI Agent ",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Salesforce acquires AI customer service platform Fin for $3.6B",
+      "url": "https://techcrunch.com/2026/06/15/salesforce-acquires-ai-customer-service-platform-fin-for-3-6b/",
+      "published_at": "2026-06-15T14:34:45.000Z",
+      "summary": "Salesforce says it wants to use Fin's team and technology to improve Agentforce, its existing enterprise platform that businesses can use to build custom AI agents that automate tasks.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "低成本复刻Fable 5的路子找到了：OrcaRouter多模型组队，性能反超",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897515&idx=2&sn=cad860b40c09e2f7815622d9c0273312",
+      "published_at": "2026-06-15T03:37:00.000Z",
+      "summary": "关注前沿科技 2026-06-15 11:37 北京\n\n原来最强AI不是一个AI\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n这年头，AI圈最不缺的就是“得不到的白月光”。\n\n就在大家一边对着 **Claude Fable 5** 望洋兴叹，一边盘算着高昂的调用成本时，有人已经悄悄把这桌“满汉全席”给掀了。\n\n怎么掀的？一手精妙的“拼图游戏”。\n\nAI网关 **OrcaRouter** 最近上线了一套可编程路由策略 **Routing DSL** ，多个模型同时答题，自动仲裁出最优解。\n\n几个你现在就能调用的“常规模型”，给它来个组合编排，跑出来的综合胜率，直接掀翻了",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The US government’s Anthropic models ban was never about an AI jailbreak",
+      "url": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
+      "published_at": "2026-06-15T21:50:21.000Z",
+      "summary": "The Trump administration's decision that forced Anthropic to pull its latest cybersecurity models could be reactionary, retaliatory, or both, but the message is clear: The AI industry isn't immune from U.S. government interference.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Trump’s Anthropic shutdown just made the case for non-American AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/949986/anthropic-fable-mythos-shutdown-sovereign-ai",
+      "published_at": "2026-06-15T18:10:27.000Z",
+      "summary": "At Washington's request, Anthropic[suddenly took its newest and most powerful AI models offline](https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security)over the weekend. The American company[said](https://www.anthropic.com/news/fable-mythos",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cybersecurity vets protest ‘dangerous’ US government ban on Anthropic’s most powerful models",
+      "url": "https://techcrunch.com/2026/06/15/cybersecurity-vets-protest-dangerous-us-government-ban-on-anthropics-most-powerful-models/",
+      "published_at": "2026-06-15T15:29:51.000Z",
+      "summary": "A group made up of dozens of cybersecurity experts urged the White House to remove export-control restrictions on Anthropic’s Fable and Mythos models, arguing that the order is going to limit the ability of cybersecurity defenders to secure their software and products.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "一篇搞懂 AI Coding Agent 的 Token 成本控制",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802024&idx=1&sn=14ebabcd0d270ae39c6d9cd1d12fca84",
+      "published_at": "2026-06-15T09:27:00.000Z",
+      "summary": "腾讯技术工程 2026-06-15 17:27 广东\n\n万字长文 Token 成本优化指南\n\n作者： devinyzeng\n适用：CodeBuddy、Cursor、Codex、Gemini CLI 等这类 AI Coding Agent。\n\n读完你会得到三样东西：一个正确的心智模型、一份今天就能做的行动清单、几套继续往下压成本的工程方法。\n月初看账单，吓一跳。\n\n也没问多少问题，Token 怎么烧成这样？\n\n后来认真拆了一轮，才发现一个反直觉的事实：\n\n**你问的那句话，在每次请求里可能连 1% 都不到。**\n\n真正的成本大头藏在别的地方。这篇文章，就是把这个“别的地方”讲清楚，然后给一套从日",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Cursor"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "All the news about Anthropics new AI fight with the White House",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/950026/anthropic-fable-mythos-ban-ai-shutdown",
+      "published_at": "2026-06-15T19:04:53.000Z",
+      "summary": "Anthropic was already navigating one dispute with the government[in its standoff with the Pentagon](https://www.theverge.com/ai-artificial-intelligence/886082/ai-vs-the-pentagon-killer-robots-mass-surveillance-and-red-lines), and then came an order on June 12th to block off foreign access to its mos",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
+      "url": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
+      "published_at": "2026-06-15T18:30:58.000Z",
+      "summary": "Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sarvam becomes India’s newest AI unicorn with $234 million funding round led by HCLTech",
+      "url": "https://techcrunch.com/2026/06/15/sarvam-becomes-indias-newest-ai-unicorn-with-234-million-funding-round-led-by-hcltech/",
+      "published_at": "2026-06-15T13:46:08.000Z",
+      "summary": "Indian IT services company HCLTech is investing $150 million in the Bengaluru startup.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Why do South Koreans love AI so much?",
+      "url": "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/",
+      "published_at": "2026-06-15T18:46:08.000Z",
+      "summary": "*This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,* [sign up here](https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/) *.*\n\nWhen I landed in Seoul after a grueling 12-hour flight from San Francisco, I",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google’s Israel, ICE ties",
+      "url": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
+      "published_at": "2026-06-15T23:51:44.000Z",
+      "summary": "AI is once again at the heart of a college graduation protest — this time for the technology's use in Google's defense contracts.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Facebook’s new AI Mode search gets its info from public posts",
+      "url": "https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook",
+      "published_at": "2026-06-15T21:15:08.000Z",
+      "summary": "Your public Facebook posts could help inform AI-generated results in[Meta's new AI Mode](https://about.fb.com/news/2026/06/new-ai-tools-to-help-you-make-things-happen-on-facebook/). When you search on Facebook, the \"AI Mode\" option will appear alongside the usual search modes like \"People\" and \"Mark",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceX is public: Everything you need to know post-IPO",
+      "url": "https://techcrunch.com/2026/06/15/spacex-is-public-everything-you-need-to-know-post-ipo/",
+      "published_at": "2026-06-15T18:30:34.000Z",
+      "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Big Tech’s desperate last push at AI regulation",
+      "url": "https://www.theverge.com/policy/949970/ai-regulation-child-safety-kosa-congress",
+      "published_at": "2026-06-15T17:44:10.000Z",
+      "summary": "U.S. Sen. Marsha Blackburn (R-TN) and Majority Leader Chuck Schumer (D-NY) arrive for a news conference with bipartisan senators on passage of the Online Privacy Protection Act at the Capitol on July 30, 2024 in Washington, DC. | Kent Nishimura/Getty Images.\nFor months, Big Tech's Washington lobbyis",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "This man with ALS is “the first power user” of a brain implant that lets him speak",
+      "url": "https://www.technologyreview.com/2026/06/15/1138953/man-als-first-power-user-brain-implant-speak-bci/",
+      "published_at": "2026-06-15T15:12:28.000Z",
+      "summary": "Casey Harrell has had a set of electrodes embedded in his brain for almost three years. Harrell, who has amyotrophic lateral sclerosis (ALS) and is paralyzed, first used his brain-computer interface (BCI) to “speak” sentences with the help of a research team in 2023.\n\nSince then, Harrell has clocked",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "We’re strengthening our presence in Alabama through new investments and community support.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/",
+      "published_at": "2026-06-15T15:00:00.000Z",
+      "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Skydio CEO Adam Bry on why Silicon Valley shouldn’t draw red lines for drone use",
+      "url": "https://www.theverge.com/podcast/949195/skydio-ceo-adam-bry-autonmous-drones-china-red-lines-military",
+      "published_at": "2026-06-15T14:00:00.000Z",
+      "summary": "Today, I’m talking with Adam Bry, who is CEO of Skydio, the leading US maker of autonomous drones. Before we recorded this episode, I actually got to remotely operate one of Skydio’s drones in the Bay Area from Adam’s laptop in our podcast studio in New York and fly an indoor drone around our office",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: cutting AC emissions, and nature’s drug designer",
+      "url": "https://www.technologyreview.com/2026/06/15/1138948/the-download-solid-state-air-conditioning-animal-drugs/",
+      "published_at": "2026-06-15T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **These new solid-state",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "A satellite just learned to find things on its own — here’s what that means",
+      "url": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/",
+      "published_at": "2026-06-15T12:00:00.000Z",
+      "summary": "In April, for the first time ever, an Earth observation satellite found what it was looking for, all on its own.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "没有大厂背景，大一新生用 36 小时写出了鸿蒙的下一个可能",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108842&idx=1&sn=88011a40a522a4ecc64ed158c4157213",
+      "published_at": "2026-06-15T10:00:00.000Z",
+      "summary": "原创张勇毅 2026-06-15 18:00 湖北\n\n当系统级能力变成几行代码，造奇迹的人，不再只是大厂。\n\n**作者｜ 张勇毅** **编辑｜ **郑玄****\n\n一所以陶瓷、雕刻、刺绣出名的工艺美院，也把队伍送进了一场比拼代码的硬核决赛：有人做敦煌壁画的 3D 漫游，有人做星闪应援棒的软硬全栈；华中师范大学一个大一新生，简介里老老实实写着「刚刚通过初步的学习，掌握了一点 DevEco」，交出来的却是一套独轮车智能操控加指环硬件的整体方案；剩下的名额里，挤着一批个人开发者和刚成立没多久的小团队。\n\n至于人们印象里那些「该出现在极客赛道」的大厂战队——几乎看不到影子。\n\n这届决赛，更像一场「非",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "进球、切片、全网爆：如何打造一座跑赢热搜的赛事“AI 短视频工厂”？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520335&idx=1&sn=f93196be715e1b060ad677c9a7705451",
+      "published_at": "2026-06-15T09:12:00.000Z",
+      "summary": "原创视频与边缘 2026-06-15 17:12 北京\n\n一场赛事真正的流量争夺，往往不只发生在直播间，也发生在赛后几分钟的短视频分发链路里。谁能更快把进球、争议判罚、庆祝名场面切出来，谁就更有机会吃到热搜红利。\n\n**三分钟高光全网飞，人工剪辑为什么跑不赢热搜？**\n\n进球哨音响起的那一刻，观众的第一反应不是回味，而是打开社交平台——有没有人已经把这一刻切出来了？等五分钟还没看到，热情就凉了。仍靠传统回放的团队，往往已经错失第一波流量。\n\n这要求直播和短视频必须同时进行——比赛进入伤停补时，短视频倒计时就已开始。但人工模式注意力有限，还容易漏掉那些进球之外的“次高光”。关键抢断、争议黄牌、教",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "These new solid-state ACs promise a cool future. Scientists aren’t so sure.",
+      "url": "https://www.technologyreview.com/2026/06/15/1138552/solid-state-acs-promise-cool-future/",
+      "published_at": "2026-06-15T09:00:00.000Z",
+      "summary": "After three years of record-­breaking heat, this one is[set to be yet another scorcher](https://www.almanac.com/summer-weather-forecast#:~:text=Watch%20for:,expected%20in%20July%20and%20August.). Air-conditioning? Not going anywhere. The International Energy Agency[projects that the number of AC uni",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The AI layoff wave is becoming a powder keg",
+      "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+      "published_at": "2026-06-15T07:25:41.000Z",
+      "summary": "At the very moment that tens of thousands of workers are being shown the door, a small cohort of AI insiders is becoming wealthy on a scale that's hard to comprehend.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "谷歌CEO斯坦福再被嘘！竟被逼不敢提AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652707250&idx=2&sn=3fc5754ef6e79a830a4a5979aa1f8592",
+      "published_at": "2026-06-15T04:07:00.000Z",
+      "summary": "ASI启示录 2026-06-15 12:07 北京\n\n### **新智元报道**\n\n##### **【新智元导读】6月14日，谷歌CEO皮查伊登上斯坦福毕业典礼，用一场「选择乐观」的沉默演讲，暴露出硅谷AI胜利叙事正在年轻人面前失灵。**\n\n2026年的美国毕业季， 谈AI成了一件危险的事。\n\n前谷歌CEO埃里克·施密特站在亚利桑那大学的讲台上，面对上万名毕业生说「AI将会触及一切」。\n\n话音未落，嘘声四起，此起彼伏。施密特脸上的表情，在那一刻，凝固了。\n\n哈佛毕业典礼上，《每日秀》主持人、脱口秀演员 Ronny Chieng 对着全场连喊三声「F**k AI」，掌声雷动。\n\n他甚至告诉毕业",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "新智元ALL in ASI英雄帖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652707250&idx=3&sn=5f311aae3d7823ded80b52b305b18069",
+      "published_at": "2026-06-15T04:07:00.000Z",
+      "summary": "ASI启示录 2026-06-15 12:07 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 2026年，ASI奇点之年。全球AI竞赛进入决赛圈，AI正以指数级的速度重塑世界。新智元All in ASI，现招募两个核心战位——ASI架构师（年薪50-70万）与ASI主笔（年薪50-70万），坐标北京上地，虚位以待。**\n\n全球AI竞赛进入决赛圈，每天都有大事发生。 新智元要覆盖的赛道、要打的仗也在飙升。 我们不仅要在全球AI最前沿保持绝对敏锐，更要在ASI浪潮中主动出击。 现在，新智元正式发出All in ASI英雄帖。 我们在上地AI家，召唤 **对ASI有信仰，有使",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "对话夏勇峰：做了 6 年，我亲手按下 AI 眼镜的暂停键",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108827&idx=1&sn=da1e7acae5508e92c56408c501f9db64",
+      "published_at": "2026-06-15T04:03:00.000Z",
+      "summary": "原创苏子华 2026-06-15 12:03 北京\n\n给硬件加 AI，可能并不是真正通向 AI 硬件的正确路径。\n\n**作者｜苏子华** **编辑｜张鹏 **郑玄****\n\n过去三年，AI 硬件的叙事几乎都沿着同一条路径展开：从手机、耳机、眼镜到机器人等等——在原有形态上叠加 AI 能力。\n\n但这个路径正在被重新审视。\n\n今年春节后，蜂巢科技创始人夏勇峰做出了个足够让人意外的决定：暂停全年 AI 眼镜新品计划。\n\n夏勇峰是小米生态链早期的核心人物，成功孵化几百个如今遍布千家万户的智能产品，担任过小米生态链副总裁，后来做过小米手机部部门总经理。\n\n2020 年，他抱着打造下一代终端的信仰，离开小",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "AI「投胎」物理世界，第一志愿选了AI汽车",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897515&idx=1&sn=e64abb5f653f610ea51570d9e0a6542c",
+      "published_at": "2026-06-15T03:37:00.000Z",
+      "summary": "原创关注前沿科技 2026-06-15 11:37 北京\n\n硅基生命体，长在汽车上\n\n##### 贾浩楠 发自 凹非寺 量子位 | 公众号 QbitAI\n\n这个世界，很久没出现过“物种级”的新东西了。\n\n过去两年，大模型的能力一次次刷新人们的认知：它能写诗、能编程、能吵架……但所有这些，都在“数字世界”的平行空间里——交互结束，一切归零。\n\n这个阶段叫“Chat-centric AI”。但2026年被标记为分水岭： **物理AI的元年** 。AI开始拥有感知物理环境、理解因果关系、实时控制实体的能力。它不再是对话框里的“大脑”，而开始长出“身体”。\n\n问题是：什么样的身体，最适合这个新物种？\n",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "把真实GitHub仓库转化为可执行终端轨迹！TerminalTraj入选ICML 2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897515&idx=3&sn=0b1c82237b47dd14c6c74f2bfabe8e1c",
+      "published_at": "2026-06-15T03:37:00.000Z",
+      "summary": "关注前沿科技 2026-06-15 11:37 北京\n\n32K环境×50K轨迹\n\n##### TerminalTraj团队 投稿 量子位 | 公众号 QbitAI\n\n被ICML 2026接收为Spotlight！\n\n至知创新研究院、曼彻斯特大学、Multimodal Art Projection Research Community等共同提出TerminalTraj——\n\n一个面向终端智能体的大规模轨迹生成管道 *（pipeline）* 。\n\nTerminalTraj从真实GitHub仓库出发，自动构建Docker化的可执行环境 *（Dockerized execution environme",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247897515&idx=4&sn=132e95fcb5d5d63bffd78e27ea2c00fa",
+      "published_at": "2026-06-15T03:37:00.000Z",
+      "summary": "关注前沿科技 2026-06-15 11:37 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

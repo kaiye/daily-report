@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-05-12",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "AI 代理和大模型的开发与应用是当前的热门趋势。",
+  "items": [
+    {
+      "repo": "bytedance/UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "description": "开源多模态AI代理栈：连接尖端AI模型和代理基础设施。",
+      "language": "TypeScript",
+      "stars_today": 956,
+      "stars_total": 33002
+    },
+    {
+      "repo": "CloakHQ/CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "通过所有机器人检测测试的隐身Chromium，Playwright替代品，源级指纹修补。",
+      "language": "Python",
+      "stars_today": 1320,
+      "stars_total": 6131
+    },
+    {
+      "repo": "yikart/AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "description": "让我们用AI来赚钱！",
+      "language": "TypeScript",
+      "stars_today": 427,
+      "stars_total": 10754
+    },
+    {
+      "repo": "decolua/9router",
+      "url": "https://github.com/decolua/9router",
+      "description": "无限制免费AI编码，连接Claude Code、Codex等到免费Claude/GPT/Gemini。",
+      "language": "JavaScript",
+      "stars_today": 941,
+      "stars_total": 8318
+    },
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "您的个人AI超级智能，私密、简单且极其强大。",
+      "language": "Rust",
+      "stars_today": 366,
+      "stars_total": 1456
+    },
+    {
+      "repo": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程。",
+      "language": "Jupyter Notebook",
+      "stars_today": 422,
+      "stars_total": 37303
+    },
+    {
+      "repo": "rasbt/LLMs-from-scratch",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "description": "从零开始用PyTorch实现类似ChatGPT的大模型，逐步实现。",
+      "language": "Jupyter Notebook",
+      "stars_today": 337,
+      "stars_total": 93002
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "与您共同成长的代理。",
+      "language": "Python",
+      "stars_today": 2065,
+      "stars_total": 144788
+    },
+    {
+      "repo": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "description": "基于真实世界基准的AI编码代理的持久内存。",
+      "language": "TypeScript",
+      "stars_today": 430,
+      "stars_total": 4755
+    }
+  ]
+}

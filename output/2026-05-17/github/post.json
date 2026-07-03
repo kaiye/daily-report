@@ -1,0 +1,96 @@
+{
+  "generated_at": "2026-05-17T00:01:48.300Z",
+  "source_raw": "raw.json",
+  "source_count": 8,
+  "item_count": 8,
+  "language_breakdown": {
+    "Rust": 3,
+    "Python": 1,
+    "Shell": 1,
+    "JavaScript": 1,
+    "Swift": 1,
+    "TypeScript": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars_today": 397,
+      "stars_total": 91194,
+      "forks": 4548
+    },
+    {
+      "rank": 2,
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "language": "Python",
+      "stars_today": 673,
+      "stars_total": 23113,
+      "forks": 2487
+    },
+    {
+      "rank": 3,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1305,
+      "stars_total": 193981,
+      "forks": 17259
+    },
+    {
+      "rank": 4,
+      "repo": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "Open-source alternative to AI video platforms — Free AI image &amp; video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "language": "JavaScript",
+      "stars_today": 317,
+      "stars_total": 14411,
+      "forks": 2513
+    },
+    {
+      "rank": 5,
+      "repo": "supertone-inc/supertonic",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "language": "Swift",
+      "stars_today": 749,
+      "stars_total": 6851,
+      "forks": 701
+    },
+    {
+      "rank": 6,
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars_today": 1549,
+      "stars_total": 10680,
+      "forks": 919
+    },
+    {
+      "rank": 7,
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars_today": 1010,
+      "stars_total": 58327,
+      "forks": 7621
+    },
+    {
+      "rank": 8,
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars_today": 416,
+      "stars_total": 2499,
+      "forks": 208
+    }
+  ]
+}

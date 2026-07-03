@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-04-19T00:01:10.605Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-04-18",
+  "source_count": 19,
+  "time_filtered_count": 19,
+  "text_filtered_count": 17,
+  "item_count": 17,
+  "items": [
+    {
+      "id": "2045492112054165813",
+      "text": "Claude Design is insane.\n\n❤️‍🔥Just recorded a 18-min tutorial on how to build animated, award-winning websites with Claude Design + Opus 4.7! https://t.co/WnUvKYdKFj",
+      "createdAt": "Sat Apr 18 13:18:17 +0000 2026",
+      "viewCount": 596289,
+      "likeCount": 9976,
+      "retweetCount": 759,
+      "author": {
+        "userName": "viktoroddy",
+        "name": "Viktor Oddy",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/viktoroddy/status/2045492112054165813",
+      "is_official": false
+    },
+    {
+      "id": "2045324578965295511",
+      "text": "I created this video using Claude Design in just 15 prompts. https://t.co/9U2U8lnh6S",
+      "createdAt": "Sat Apr 18 02:12:34 +0000 2026",
+      "viewCount": 219678,
+      "likeCount": 1822,
+      "retweetCount": 85,
+      "author": {
+        "userName": "aftermagics",
+        "name": "Aftermagics",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/aftermagics/status/2045324578965295511",
+      "is_official": false
+    },
+    {
+      "id": "2045449352827580602",
+      "text": "Okay this one is insane. A new 18B frankenstein model was just released on @huggingface — Beats the new Qwen3.6-35B-A3B on a 44-test suite despite requiring 12GB VRAM instead of 24GB 🤯\n\nRuns on a SINGLE RTX 3060 (!)\n\n🧠 Opus 4.6 & GLM-5.1 reasoning in one model\n⚡️ 66+ tok/s stable on mid-range GPUs\n🧪 Experimental, no additional training\n🛠️ Perfect tool calling & agentic reasoning\n📷 Fits on low hardware, any 12gb card\n📚 GGUF size is 9.8GB (Q4_K_M)\n\nAnother gift from Jackrong, adding both qwopus and glm-distilled qwen together was not on my bingo card. Truly seems like the sweet spot between 9B and 27B models right now.\n\nThe ultimate model for 12-16GB VRAM owners?\n\nhttps://t.co/kqDUizh1pf",
+      "createdAt": "Sat Apr 18 10:28:22 +0000 2026",
+      "viewCount": 94417,
+      "likeCount": 1628,
+      "retweetCount": 131,
+      "author": {
+        "userName": "leftcurvedev_",
+        "name": "left curve dev",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/leftcurvedev_/status/2045449352827580602",
+      "is_official": false
+    },
+    {
+      "id": "2045461663898599472",
+      "text": "We push Prefill/Decode disaggregation beyond a single cluster: cross-datacenter + heterogeneous hardware, unlocking the potential for significantly lower cost per token.\n\nThis was previously blocked by KV cache transfer overhead. The key enabler is our hybrid model (Kimi Linear), which reduces KV cache size and makes cross-DC PD practical.\n\nValidated on a 20x scaled-up Kimi Linear model:\n✅ 1.54× throughput \n✅ 64% ↓ P90 TTFT \n→ Directly translating into lower token cost.\n\nMore in Prefill-as-a-Service: https://t.co/If8fA3t9Og",
+      "createdAt": "Sat Apr 18 11:17:18 +0000 2026",
+      "viewCount": 299650,
+      "likeCount": 1954,
+      "retweetCount": 235,
+      "author": {
+        "userName": "Kimi_Moonshot",
+        "name": "Kimi.ai",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Kimi_Moonshot/status/2045461663898599472",
+      "is_official": true
+    },
+    {
+      "id": "2045490833005400458",
+      "text": "You can just build things.",
+      "createdAt": "Sat Apr 18 13:13:12 +0000 2026",
+      "viewCount": 103142,
+      "likeCount": 1316,
+      "retweetCount": 77,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2045490833005400458",
+      "is_official": true
+    },
+    {
+      "id": "2045320795233390899",
+      "text": "We launched our new Grok Voice APIs and they’re extremely good. Strongly suggest giving them a try.",
+      "createdAt": "Sat Apr 18 01:57:32 +0000 2026",
+      "viewCount": 971418,
+      "likeCount": 2290,
+      "retweetCount": 526,
+      "author": {
+        "userName": "benjitaylor",
+        "name": "Benji Taylor",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/benjitaylor/status/2045320795233390899",
+      "is_official": false
+    },
+    {
+      "id": "2045371142811377722",
+      "text": "claude when i throw hard problems at it\nhttps://t.co/lo4mSs4CUm",
+      "createdAt": "Sat Apr 18 05:17:36 +0000 2026",
+      "viewCount": 1340712,
+      "likeCount": 9676,
+      "retweetCount": 237,
+      "author": {
+        "userName": "dejavucoder",
+        "name": "sankalp",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/dejavucoder/status/2045371142811377722",
+      "is_official": false
+    },
+    {
+      "id": "2045415049188229525",
+      "text": "Instead of watching Netflix tonight, watch this 2-hour Stanford lecture.\n\nYou’ll learn more about how ChatGPT, Claude, and other LLMs are built than most people at top AI companies learn in years. https://t.co/lCYboxt2rz",
+      "createdAt": "Sat Apr 18 08:12:04 +0000 2026",
+      "viewCount": 241642,
+      "likeCount": 1669,
+      "retweetCount": 259,
+      "author": {
+        "userName": "heyDhavall",
+        "name": "Dhaval Makwana",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/heyDhavall/status/2045415049188229525",
+      "is_official": false
+    },
+    {
+      "id": "2045535102600659414",
+      "text": "kids these days seem to have such complex AI setups\n\nanyone else just raw dogging a local folder via terminal and claude/codex code?",
+      "createdAt": "Sat Apr 18 16:09:07 +0000 2026",
+      "viewCount": 96564,
+      "likeCount": 1283,
+      "retweetCount": 16,
+      "author": {
+        "userName": "mert",
+        "name": "mert",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/mert/status/2045535102600659414",
+      "is_official": false
+    },
+    {
+      "id": "2045291456630509709",
+      "text": "A few weeks ago @steipete told me he was thinking about canceling his TED talk. Too busy. No time to prep. Working on OpenClaw and OpenAI simultaneously with zero bandwidth.\n\nHe prepped the whole thing in a week, showed up to Vancouver still taking meetings between sessions, walked into the green room with a lobster in his pocket, and delivered one of the most talked about talks of TED2026 – no teleprompter.\n\nMoments like this are why I love curating TED. The mad lad did it!",
+      "createdAt": "Sat Apr 18 00:00:57 +0000 2026",
+      "viewCount": 137587,
+      "likeCount": 1300,
+      "retweetCount": 54,
+      "author": {
+        "userName": "bilawalsidhu",
+        "name": "Bilawal Sidhu",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/bilawalsidhu/status/2045291456630509709",
+      "is_official": false
+    },
+    {
+      "id": "2045402621570150896",
+      "text": "Pretty telling how Anthropic \n\n1. Thinks it’s perfectly acceptable to ban a 60-person paying org without justification\n\n2. Are comfortable outsourcing this to some automated system\n\n3. Do no human review nor offer human contact\n\n4. Get it wrong and customer now super pissed",
+      "createdAt": "Sat Apr 18 07:22:41 +0000 2026",
+      "viewCount": 263196,
+      "likeCount": 2452,
+      "retweetCount": 147,
+      "author": {
+        "userName": "GergelyOrosz",
+        "name": "Gergely Orosz",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/GergelyOrosz/status/2045402621570150896",
+      "is_official": false
+    },
+    {
+      "id": "2045331812109746582",
+      "text": "How I review the code written by Claude: https://t.co/eIm2RT240i",
+      "createdAt": "Sat Apr 18 02:41:19 +0000 2026",
+      "viewCount": 204712,
+      "likeCount": 3336,
+      "retweetCount": 251,
+      "author": {
+        "userName": "NoahKingJr",
+        "name": "Noah",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/NoahKingJr/status/2045331812109746582",
+      "is_official": false
+    },
+    {
+      "id": "2045410656493691069",
+      "text": "Using OpenClaw is basically is like driving your own Ferrari (that you have to be a mechanic for yourself) and it's broken down all the time, but gives you the time of your life \n\nvs driving a reliable Honda (Hermes Agent)\nvs riding the bus (Claude / ChatGPT)",
+      "createdAt": "Sat Apr 18 07:54:37 +0000 2026",
+      "viewCount": 137623,
+      "likeCount": 2347,
+      "retweetCount": 162,
+      "author": {
+        "userName": "garrytan",
+        "name": "Garry Tan",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/garrytan/status/2045410656493691069",
+      "is_official": false
+    },
+    {
+      "id": "2045344926083518501",
+      "text": "RIP Figma 😭\n\nClaude just dropped Claude Design. https://t.co/ciflJeL4Iv",
+      "createdAt": "Sat Apr 18 03:33:25 +0000 2026",
+      "viewCount": 105110,
+      "likeCount": 4160,
+      "retweetCount": 507,
+      "author": {
+        "userName": "vishaltweetup",
+        "name": "Vishal",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/vishaltweetup/status/2045344926083518501",
+      "is_official": false
+    },
+    {
+      "id": "2045298095466914092",
+      "text": "Grok 4.3 Beta browser os test result, gta clone and voice control apps https://t.co/GqvWIkT5x2",
+      "createdAt": "Sat Apr 18 00:27:20 +0000 2026",
+      "viewCount": 653392,
+      "likeCount": 2029,
+      "retweetCount": 498,
+      "author": {
+        "userName": "Ominousind",
+        "name": "BijanBowen",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Ominousind/status/2045298095466914092",
+      "is_official": false
+    },
+    {
+      "id": "2045367597072273834",
+      "text": "DON’T LET CLAUDE READ YOUR ENV FILE\nDON’T LET CLAUDE READ YOUR ENV FILE\nDON’T LET CLAUDE READ YOUR ENV FILE\nDON’T LET CLAUDE READ YOUR ENV FILE\nDON’T LET CLAUDE READ YOUR ENV FILE",
+      "createdAt": "Sat Apr 18 05:03:30 +0000 2026",
+      "viewCount": 659903,
+      "likeCount": 2752,
+      "retweetCount": 95,
+      "author": {
+        "userName": "Tech_girlll",
+        "name": "Mari",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Tech_girlll/status/2045367597072273834",
+      "is_official": false
+    },
+    {
+      "id": "2045391185519448574",
+      "text": "alright - verdict is in - Motion Design is solved\n\nmade with HyperFrames + Claude Design\n\nbtw - HyperFrames is open source, star it on github and I'll send tutorial on how i made this with 2 prompts. https://t.co/uYzeIVDvlA",
+      "createdAt": "Sat Apr 18 06:37:14 +0000 2026",
+      "viewCount": 293838,
+      "likeCount": 3576,
+      "retweetCount": 152,
+      "author": {
+        "userName": "liu8in",
+        "name": "Bin Liu",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/liu8in/status/2045391185519448574",
+      "is_official": false
+    }
+  ]
+}

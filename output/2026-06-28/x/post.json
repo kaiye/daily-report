@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-06-28T00:04:18.494Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-27",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2070735111226847242",
+      "text": "This is very interesting. Coinbase seems to have lowered their token spend ($$) to about half, by \n\n1) routing to cheap inference like GLM 5.2 and Kimi 2.7 that are still pretty performant\n\n2) Smart routing + caching\n\nThey still use the same tokens as before. Start of a trend?",
+      "createdAt": "Sat Jun 27 05:04:57 +0000 2026",
+      "viewCount": 536151,
+      "likeCount": 2307,
+      "retweetCount": 132,
+      "author": {
+        "userName": "GergelyOrosz",
+        "name": "Gergely Orosz",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/GergelyOrosz/status/2070735111226847242",
+      "is_official": false
+    },
+    {
+      "id": "2070727777888985339",
+      "text": "Not as relevant now :-(: I had an opportunity to deeply test both Fable 5 and GPT-5.6 Max. 5.6 is clearly better than Opus 4.8 at everything (slightly faster, too, though that depends on the load). Vis-a-vie Fable, it is clearly worse on coding, but better on agentic workloads. I had Fable write code, 5.6 run experiments - dreamy…",
+      "createdAt": "Sat Jun 27 04:35:49 +0000 2026",
+      "viewCount": 320424,
+      "likeCount": 2126,
+      "retweetCount": 53,
+      "author": {
+        "userName": "MParakhin",
+        "name": "Mikhail Parakhin",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/MParakhin/status/2070727777888985339",
+      "is_official": true
+    },
+    {
+      "id": "2070749186925195770",
+      "text": "This is from a popular inference provider \n\nGLM-5.2 plus the US banning the most capable new models means open source caught up to SOTA closed source coding models\n\nThis could be v problematic for Anthropic’s and OpenAI’s revenue projections and IPO plans…",
+      "createdAt": "Sat Jun 27 06:00:53 +0000 2026",
+      "viewCount": 139563,
+      "likeCount": 1146,
+      "retweetCount": 55,
+      "author": {
+        "userName": "GergelyOrosz",
+        "name": "Gergely Orosz",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/GergelyOrosz/status/2070749186925195770",
+      "is_official": false
+    },
+    {
+      "id": "2070669189451485502",
+      "text": "The US AI pay-to-play scam is so much more tolerable after switching to a locally hosted GLM-5.2. From the front page of HN, open weights will be the frontier this December. Sorry about your IPOs. https://t.co/hW1ZaWBwD1",
+      "createdAt": "Sat Jun 27 00:43:00 +0000 2026",
+      "viewCount": 51153,
+      "likeCount": 1303,
+      "retweetCount": 95,
+      "author": {
+        "userName": "__tinygrad__",
+        "name": "the tiny corp",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/__tinygrad__/status/2070669189451485502",
+      "is_official": true
+    },
+    {
+      "id": "2070763855169351982",
+      "text": "GPT-5.6 is here. I wish we could use it. https://t.co/KiSl1KgW3Z",
+      "createdAt": "Sat Jun 27 06:59:10 +0000 2026",
+      "viewCount": 60032,
+      "likeCount": 1030,
+      "retweetCount": 24,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2070763855169351982",
+      "is_official": false
+    },
+    {
+      "id": "2070807405991248194",
+      "text": "Wanna know why Anthropic hates Opensource AI?\n\nGLM 5.2 being free and available to download made their $1 Trillion valuation make no sense",
+      "createdAt": "Sat Jun 27 09:52:13 +0000 2026",
+      "viewCount": 123043,
+      "likeCount": 4003,
+      "retweetCount": 251,
+      "author": {
+        "userName": "TheAhmadOsman",
+        "name": "Ahmad",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/TheAhmadOsman/status/2070807405991248194",
+      "is_official": false
+    },
+    {
+      "id": "2070733200846909717",
+      "text": "I'll bet you didnt know you could do this with Claude Code https://t.co/g0Aed2wIwh",
+      "createdAt": "Sat Jun 27 04:57:22 +0000 2026",
+      "viewCount": 231629,
+      "likeCount": 2043,
+      "retweetCount": 82,
+      "author": {
+        "userName": "LLMJunky",
+        "name": "am.will",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/LLMJunky/status/2070733200846909717",
+      "is_official": false
+    },
+    {
+      "id": "2070871630201463137",
+      "text": "I put together a new article on setting up local coding agents with open-weight models. Everything runs 100% locally.\n\nI thought it might be useful putting this together because many people asked me about my setup in the past, and I thought it would also motivate people to get started tinkering with local models for serious work (yes, things got incredibly capable this year with better LLMs and better harnesses).\n\nSo, here's a walkthrough of how to connect a local LLM to a local coding harness (could be Claude Code or Codex, which you may already be familiar with).\n\nI also included some assessment notes that are useful as a checklist to select between and consider certain LLMs over others:\n\n- Checking RAM usage at long contexts to see if the model is suitable for real work\n- Measuring prefill and decoding tok/sec to see whether it's fast enough to not be annoying\n- Making sure the model has sufficient tool-calling capabilities in theory\n- Assessing whether the model can solve some more challenging tasks when used in a coding harness.\n\nOf course, there are always more specialized tools that can squeeze a bit more performance out of things, but I hope this is a good starter kit that stays flexible; that is you can easily switch to newer models as they are released or even tap into cloud models in your familiar harness if the current ones are not sufficient enough for a given task.",
+      "createdAt": "Sat Jun 27 14:07:26 +0000 2026",
+      "viewCount": 47523,
+      "likeCount": 1176,
+      "retweetCount": 185,
+      "author": {
+        "userName": "rasbt",
+        "name": "Sebastian Raschka",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/rasbt/status/2070871630201463137",
+      "is_official": false
+    },
+    {
+      "id": "2070665903440871779",
+      "text": "Since June 12, we’ve been working closely with the US government to restore access to Claude Mythos 5 and Fable 5. Today, the government notified us that Mythos 5, our strongest cybersecurity model, can be redeployed to a set of US organizations that operate and defend critical infrastructure.\n\nWe’re restoring access for these organizations quickly, and we’re continuing to work with the government to expand access to Mythos 5 and make Fable 5 available for general use again.",
+      "createdAt": "Sat Jun 27 00:29:57 +0000 2026",
+      "viewCount": 3998395,
+      "likeCount": 27626,
+      "retweetCount": 2917,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2070665903440871779",
+      "is_official": true
+    },
+    {
+      "id": "2070751700626076109",
+      "text": "DeepSeek just released DSpark for V4 Flash &amp; Pro, a new speculative decoding method boosting throughput by 51% to 400%!\n\nDS also showed DSpark works well for other models like Gemma &amp; Qwen\n\nGithub: https://t.co/EGVYpc1kcK\nPaper: https://t.co/TaBMRVlaW9\nHF: https://t.co/289jVU2pxh https://t.co/GC31XiVjSK",
+      "createdAt": "Sat Jun 27 06:10:52 +0000 2026",
+      "viewCount": 237101,
+      "likeCount": 2739,
+      "retweetCount": 378,
+      "author": {
+        "userName": "danielhanchen",
+        "name": "Daniel Han",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/danielhanchen/status/2070751700626076109",
+      "is_official": false
+    },
+    {
+      "id": "2070944072337146096",
+      "text": "Sam Altman:\n\n\"We're going to see 10-person billion-dollar companies pretty soon.\"\n\n\"If I were 22 right now, I'd feel like the luckiest kid in history.\"\n\nMost people will read this, feel inspired for 3 minutes, and go back to what they were doing.\n\nThe ones who act will build a one-person company this weekend.\n\nOne tool. Claude Cowork. Full operation.\n\nThis is the exact playbook ↓",
+      "createdAt": "Sat Jun 27 18:55:17 +0000 2026",
+      "viewCount": 932291,
+      "likeCount": 1619,
+      "retweetCount": 194,
+      "author": {
+        "userName": "sairahul1",
+        "name": "Rahul",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sairahul1/status/2070944072337146096",
+      "is_official": true
+    },
+    {
+      "id": "2070670644577280109",
+      "text": "How to keep AI spend flat while token usage grows exponentially: Not with friction and spend alerts. With better defaults, routing, and caching.\n\nBetter Defaults (not Usage Caps) – Engineers can choose any model they want, but defaults matter. We’re experimenting with defaulting to open weight models like GLM 5.2 and Kimi 2.7 through our LLM gateway, while still encouraging engineers to choose the right model for the task. 91% of our employees were never hitting their usage caps, so instead of lowering caps and driving up alerts, we're moving to cheaper defaults. Note that code reviews use a diversity of models, so they can check each other's work.\n\nBetter Routing – In our custom harnesses, we preprocess prompts and route to the best model for the job, considering cache hits and model pricing. For instance, you may want a frontier model for planning, but not for execution where they can be overkill. Ultimately, humans shouldn't be choosing models - AI can automate this task.\n\nBetter Caching – Cache misses are the easiest way to drive your cost up. All of our requests are cache aware, so we’re reusing a warm cache wherever possible. For example, our cache hit rate went from 5% → 60% in LibreChat once properly implemented.\n\nKeep Context Lean – Start fresh sessions when switching tasks. Scope file context narrowly. Disconnect unused tools. Don't just compact. The goal isn't fewer tokens used, it's fewer tokens wasted.\n\nBetter Visibility – Our engineers can use as many tokens as they want, from whatever model they want, but we’ve made usage visible – and the more you spend on AI, the more impact we expect.\n\nThe goal isn't to suppress usage. It's to build the infrastructure that makes exponential growth sustainable.\n\nPutting this into practice has cut our AI spend nearly in half, while our token usage continues to grow.",
+      "createdAt": "Sat Jun 27 00:48:47 +0000 2026",
+      "viewCount": 1653131,
+      "likeCount": 4270,
+      "retweetCount": 438,
+      "author": {
+        "userName": "brian_armstrong",
+        "name": "Brian Armstrong",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/brian_armstrong/status/2070670644577280109",
+      "is_official": false
+    },
+    {
+      "id": "2070676886464946548",
+      "text": "I can't believe how many people believe Anthropic's propaganda about distillation attacks. You can read how GLM-5 was trained in the paper.\n\nMaybe Claude was distilled from Chinese models? I haven't seen a paper from Anthropic, and accusations are often confessions.",
+      "createdAt": "Sat Jun 27 01:13:35 +0000 2026",
+      "viewCount": 244109,
+      "likeCount": 3991,
+      "retweetCount": 277,
+      "author": {
+        "userName": "__tinygrad__",
+        "name": "the tiny corp",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/__tinygrad__/status/2070676886464946548",
+      "is_official": true
+    },
+    {
+      "id": "2070846579217519069",
+      "text": "DeepSeek just made their inference ~5x cheaper at 50 TPS https://t.co/9lYUGsshdb",
+      "createdAt": "Sat Jun 27 12:27:53 +0000 2026",
+      "viewCount": 125274,
+      "likeCount": 1407,
+      "retweetCount": 98,
+      "author": {
+        "userName": "scaling01",
+        "name": "Lisan al Gaib",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/scaling01/status/2070846579217519069",
+      "is_official": true
+    },
+    {
+      "id": "2070699602492166440",
+      "text": "btw if you are looking for a thrilling paper to read this weekend check the black box distillation one from alibaba it’s really good https://t.co/KaAd3eOPpX",
+      "createdAt": "Sat Jun 27 02:43:51 +0000 2026",
+      "viewCount": 127409,
+      "likeCount": 1610,
+      "retweetCount": 129,
+      "author": {
+        "userName": "yacinelearning",
+        "name": "Yacine Mahdid",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/yacinelearning/status/2070699602492166440",
+      "is_official": false
+    },
+    {
+      "id": "2070689036428288202",
+      "text": "Remember when Sonnet 4.5 would literally tell you it was Deepseek",
+      "createdAt": "Sat Jun 27 02:01:52 +0000 2026",
+      "viewCount": 110400,
+      "likeCount": 2046,
+      "retweetCount": 85,
+      "author": {
+        "userName": "shawmakesmagic",
+        "name": "Shaw (spirit/acc)",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/shawmakesmagic/status/2070689036428288202",
+      "is_official": false
+    },
+    {
+      "id": "2070811699624755587",
+      "text": "Anthropic CEO: \n\n“open source is kind of a distraction you still can’t really see what’s happening inside the model, so it’s not truly “free.”\n\nPeople should be paying a lot more attention to what Anthropic is doing. https://t.co/8WnBSkRw7I",
+      "createdAt": "Sat Jun 27 10:09:17 +0000 2026",
+      "viewCount": 321617,
+      "likeCount": 1174,
+      "retweetCount": 77,
+      "author": {
+        "userName": "cgtwts",
+        "name": "CG",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/cgtwts/status/2070811699624755587",
+      "is_official": false
+    },
+    {
+      "id": "2070920594380746857",
+      "text": "BREAKING: The Trump administration is reportedly moving toward allowing Anthropic to restore Fable 5 as soon as next week.",
+      "createdAt": "Sat Jun 27 17:22:00 +0000 2026",
+      "viewCount": 318253,
+      "likeCount": 4181,
+      "retweetCount": 223,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2070920594380746857",
+      "is_official": true
+    },
+    {
+      "id": "2070922791529091376",
+      "text": "🆕 Codex quality-of-life updates landed this week\n\nStarting with long threads: scrolling is smoother now, and your place stays put as you move through the conversation. https://t.co/OkV7Xxnt0T",
+      "createdAt": "Sat Jun 27 17:30:44 +0000 2026",
+      "viewCount": 174383,
+      "likeCount": 2063,
+      "retweetCount": 84,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2070922791529091376",
+      "is_official": true
+    },
+    {
+      "id": "2070670926803542304",
+      "text": "I’ve had enough\n\nWith Fable 5 being gatekept from us, and now GPT 5.6 being gatekept, I’m going full open source\n\nJust went to Microcenter and built this RTX 5090 computer. Will be adding a RTX Pro 6000 to it shortly\n\nThis brings my home AI lab to:\n• 3 Mac Studio 512gb\n• DGX Spark\n• RTX 5090\n• 2 Mac Minis\n\nI’m building a home AI lab that will allow me to run and support as many local models as possible\n\nI already have Qwen 3.6, Orinth1.0 and GLM 5.2 running. Will be adding more.\n\nThey’re all running on my new custom built AI lab platform that’s making sure these models do work 24 hours a day for me\n\nWith frontier models being gatekept, and hardware prices becoming outrageous (this build cost $9,000), it was time to pull the trigger\n\nIn 1 year I believe prices for hardware will be triple from here. Mac Studios starting at $10,000. Mac Minis starting at $2,000. MacBook Pros starting at $5,000.\n\n2 years from now I don’t believe any hardware will be available to consumers\n\nThe time to strike was now and I struck\n\nIn an age where intelligence both in the cloud and in your home are being limited, I’m becoming sovereign.\n\nIt might be time for you to do the same.",
+      "createdAt": "Sat Jun 27 00:49:54 +0000 2026",
+      "viewCount": 392136,
+      "likeCount": 3138,
+      "retweetCount": 235,
+      "author": {
+        "userName": "AlexFinn",
+        "name": "Alex Finn",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AlexFinn/status/2070670926803542304",
+      "is_official": false
+    }
+  ]
+}

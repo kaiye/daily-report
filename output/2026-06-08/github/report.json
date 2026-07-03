@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-06-08",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热方向集中在可执行任务的 AI Agent、开放式知识工具与本地高效 LLM/向量基础设施。",
+  "items": [
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "一种 AI agent skill，可跨 Reddit、X、YouTube、HN、Polymarket 和 Web 研究任意主题，然后综合出有依据的摘要。",
+      "language": "Python",
+      "stars_today": 1111,
+      "stars_total": 30867
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill 赋予你的 AI 良好品味，阻止 AI 生成无聊、泛泛而谈的劣质内容。",
+      "language": "Shell",
+      "stars_today": 1103,
+      "stars_total": 36565
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "与你共同成长的 Agent。",
+      "language": "Python",
+      "stars_today": 1112,
+      "stars_total": 185893
+    },
+    {
+      "repo": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "Notebook LM 的开源实现，提供更多灵活性和功能。",
+      "language": "TypeScript",
+      "stars_today": 554,
+      "stars_total": 27232
+    },
+    {
+      "repo": "yikart/AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "description": "让我们用 AI 来赚钱！",
+      "language": "TypeScript",
+      "stars_today": 183,
+      "stars_total": 18734
+    },
+    {
+      "repo": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "开源、可扩展的 AI Agent，不止于代码建议，可通过任意 LLM 安装、执行、编辑和测试。",
+      "language": "Rust",
+      "stars_today": 322,
+      "stars_total": 47489
+    },
+    {
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D 是一台自包含的离线生存计算机，集成关键工具、知识和 AI，让你随时随地保持信息充足并获得赋能。",
+      "language": "TypeScript",
+      "stars_today": 309,
+      "stars_total": 29710
+    },
+    {
+      "repo": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "在 C/C++ 中进行 LLM 推理。",
+      "language": "C++",
+      "stars_today": 158,
+      "stars_total": 115312
+    },
+    {
+      "repo": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "基于 TurboQuant 构建的向量索引，使用 Rust 编写并提供 Python 绑定。",
+      "language": "Python",
+      "stars_today": 1554,
+      "stars_total": 7125
+    },
+    {
+      "repo": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "description": "OpenAI 插件。",
+      "language": "JavaScript",
+      "stars_today": 262,
+      "stars_total": 2022
+    }
+  ]
+}

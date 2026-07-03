@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-06-07",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是面向智能体的工具链、记忆、检索、前端交互与多模态能力正在快速汇合。",
+  "items": [
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI 智能体技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网络研究任意主题，并综合出有依据的摘要。",
+      "language": "Python",
+      "stars_today": 439,
+      "stars_total": 28780
+    },
+    {
+      "repo": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "description": "面向智能体与生成式 UI 的前端技术栈，覆盖 React、Angular、移动端、Slack 等，并打造 AG-UI 协议。",
+      "language": "TypeScript",
+      "stars_today": 631,
+      "stars_total": 33196
+    },
+    {
+      "repo": "MemPalace/mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "description": "经过最佳基准测试的开源 AI 记忆系统，并且免费。",
+      "language": "Python",
+      "stars_today": 446,
+      "stars_total": 54268
+    },
+    {
+      "repo": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "description": "OpenAI 插件。",
+      "language": "JavaScript",
+      "stars_today": 213,
+      "stars_total": 1765
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "让你的 AI 智能体拥有看见整个互联网的眼睛，通过一个 CLI 读取并搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书，且无需 API 费用。",
+      "language": "Python",
+      "stars_today": 683,
+      "stars_total": 22304
+    },
+    {
+      "repo": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "Notebook LM 的开源实现，提供更多灵活性和功能。",
+      "language": "TypeScript",
+      "stars_today": 794,
+      "stars_total": 26599
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "可行的智能体技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 700,
+      "stars_total": 219643
+    },
+    {
+      "repo": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "基于 Claude Code 构建的 AI 驱动求职系统，包含 14 种技能模式、Go 仪表盘、PDF 生成和批处理。",
+      "language": "JavaScript",
+      "stars_today": 193,
+      "stars_total": 49325
+    },
+    {
+      "repo": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "description": "通过大规模弱监督实现稳健的语音识别。",
+      "language": "Python",
+      "stars_today": 150,
+      "stars_total": 101850
+    },
+    {
+      "repo": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "将任意 PDF 或图像文档转为供 AI 使用的结构化数据，这套强大而轻量的 OCR 工具包连接图像、PDF 与 LLM，并支持 100 多种语言。",
+      "language": "Python",
+      "stars_today": 433,
+      "stars_total": 80954
+    },
+    {
+      "repo": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "开源前沿语音 AI。",
+      "language": "Python",
+      "stars_today": 216,
+      "stars_total": 48467
+    }
+  ]
+}

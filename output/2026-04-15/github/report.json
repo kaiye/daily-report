@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-04-15",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕大语言模型与智能体工作流的开发增强，包括 Claude 编码实践、代理框架、记忆注入、多模态生成与金融领域 AI 应用。",
+  "items": [
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "单个 CLAUDE.md 文件，用于改进 Claude Code 的行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。",
+      "language": "Unknown",
+      "stars_today": 9263,
+      "stars_total": 33472
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "一款 Claude Code 插件，会自动捕获 Claude 在编码会话中的全部操作，用 AI（基于 Claude 的 agent-sdk）压缩后，将相关上下文注入后续会话。",
+      "language": "TypeScript",
+      "stars_today": 2997,
+      "stars_total": 55699
+    },
+    {
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "开源语音合成工作室。",
+      "language": "TypeScript",
+      "stars_today": 1162,
+      "stars_total": 17298
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一套行之有效的智能体技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1919,
+      "stars_total": 152225
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "一支 AI 对冲基金团队。",
+      "language": "Python",
+      "stars_today": 1007,
+      "stars_total": 54101
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：面向金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 963,
+      "stars_total": 17780
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "一个会与你一同成长的智能体。",
+      "language": "Python",
+      "stars_today": 8301,
+      "stars_total": 84148
+    },
+    {
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "一组笔记本与实践配方，展示一些有趣且高效的 Claude 使用方式。",
+      "language": "Jupyter Notebook",
+      "stars_today": 931,
+      "stars_total": 40227
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "从氛围编程到智能体工程——熟能生巧，让 Claude 更趋完美。",
+      "language": "HTML",
+      "stars_today": 2583,
+      "stars_total": 43712
+    }
+  ]
+}

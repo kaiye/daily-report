@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-06-19",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是面向智能体工程的开发基础设施，涵盖编码代理、MCP 代码记忆、沙箱框架、知识抽取与向量存储。",
+  "items": [
+    {
+      "repo": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM（时间序列基础模型）是 Google Research 开发的预训练时间序列基础模型，面向时间序列预测。",
+      "language": "Python",
+      "stars_today": 844,
+      "stars_total": 23133
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "可工作的智能体技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1429,
+      "stars_total": 232387
+    },
+    {
+      "repo": "zai-org/GLM-5",
+      "url": "https://github.com/zai-org/GLM-5",
+      "description": "GLM-5：从氛围编程到智能体工程。",
+      "language": "Unknown",
+      "stars_today": 202,
+      "stars_total": 4115
+    },
+    {
+      "repo": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "高性能代码智能 MCP 服务器，可将代码库索引为持久知识图谱，平均毫秒级处理仓库，支持 158 种语言、亚毫秒查询并减少 99% token。",
+      "language": "C",
+      "stars_today": 2322,
+      "stars_total": 7003
+    },
+    {
+      "repo": "yifanfeng97/Hyper-Extract",
+      "url": "https://github.com/yifanfeng97/Hyper-Extract",
+      "description": "用 LLM 将非结构化文本转化为结构化知识，支持图、超图和时空抽取，并可一条命令完成。",
+      "language": "Python",
+      "stars_today": 124,
+      "stars_total": 1756
+    },
+    {
+      "repo": "alibaba/zvec",
+      "url": "https://github.com/alibaba/zvec",
+      "description": "轻量、极速的进程内向量数据库。",
+      "language": "C++",
+      "stars_today": 259,
+      "stars_total": 11208
+    },
+    {
+      "repo": "withastro/flue",
+      "url": "https://github.com/withastro/flue",
+      "description": "沙箱智能体框架。",
+      "language": "TypeScript",
+      "stars_today": 162,
+      "stars_total": 5489
+    },
+    {
+      "repo": "Kilo-Org/kilocode",
+      "url": "https://github.com/Kilo-Org/kilocode",
+      "description": "Kilo 是一体化智能体工程平台，借助热门开源编码代理更快构建、发布和迭代。",
+      "language": "TypeScript",
+      "stars_today": 1345,
+      "stars_total": 22109
+    }
+  ]
+}

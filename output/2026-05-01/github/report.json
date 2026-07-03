@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-05-01",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜的 AI 相关项目最集中的方向是围绕智能体展开的开发环境、技能框架与多智能体协作工作流。",
+  "items": [
+    {
+      "repo": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp 是一个源自终端的智能体式开发环境。",
+      "language": "Rust",
+      "stars_today": 8399,
+      "stars_total": 49153
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents：面向金融交易的多智能体 LLM 框架。",
+      "language": "Python",
+      "stars_today": 2023,
+      "stars_total": 57691
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "面向真正工程师的技能，直接来自我的 .claude 目录。",
+      "language": "Shell",
+      "stars_today": 6187,
+      "stars_total": 49388
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个确实行之有效的智能体技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1632,
+      "stars_total": 174554
+    },
+    {
+      "repo": "lukilabs/craft-agents-oss",
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "description": "想了解 Craft Agents 是做什么的以及它如何工作，请观看这个视频。",
+      "language": "TypeScript",
+      "stars_today": 319,
+      "stars_total": 5563
+    },
+    {
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "编码智能体运行框架。",
+      "language": "Rust",
+      "stars_today": 675,
+      "stars_total": 1869
+    }
+  ]
+}

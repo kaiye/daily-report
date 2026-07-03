@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-06-11",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "共同信号是 AI 正在从模型发布转向可执行的开发工具、平台集成、治理压力与商业化落地。",
+  "items": [
+    {
+      "id": "2064741174317924421",
+      "author_name": "Claude",
+      "author_handle": "claudeai",
+      "text": "Claude 东京活动更新：托管代理已公测定时部署和保险库环境变量，Claude Code 动态工作流也正式可用，代理能更安全地跑工具并承担更大任务。",
+      "url": "https://twitter.com/claudeai/status/2064741174317924421",
+      "view_count": 331196,
+      "like_count": 3725
+    },
+    {
+      "id": "2064741061352636762",
+      "author_name": "Google DeepMind",
+      "author_handle": "GoogleDeepMind",
+      "text": "Google DeepMind 推出实验性开放模型 DiffusionGemma，通过同时生成整段文本而非逐词预测，在专用 GPU 上最高提速 4 倍，并能实时自我修正复杂 Markdown。",
+      "url": "https://twitter.com/GoogleDeepMind/status/2064741061352636762",
+      "view_count": 97593,
+      "like_count": 1761
+    },
+    {
+      "id": "2064756984617021807",
+      "author_name": "ClaudeDevs",
+      "author_handle": "ClaudeDevs",
+      "text": "ClaudeDevs 表示，Apple 开发者现在可通过 Foundation Models 框架调用 Claude，用于多步推理、代码生成和更长上下文任务。",
+      "url": "https://twitter.com/ClaudeDevs/status/2064756984617021807",
+      "view_count": 155532,
+      "like_count": 2546
+    },
+    {
+      "id": "2064783418844762489",
+      "author_name": "Anthropic",
+      "author_handle": "AnthropicAI",
+      "text": "Anthropic 称 AI 进展已快过政策机构的设计节奏，Dario Amodei 新文章讨论如何缩小这一差距，并同步推出三项支持倡议。",
+      "url": "https://twitter.com/AnthropicAI/status/2064783418844762489",
+      "view_count": 665974,
+      "like_count": 3434
+    },
+    {
+      "id": "2064724427313398265",
+      "author_name": "Polymarket",
+      "author_handle": "Polymarket",
+      "text": "Polymarket 称 Claude Fable 5 只用一个提示词就生成了机械结构准确的 Three.js 瑞士杠杆腕表模拟。",
+      "url": "https://twitter.com/Polymarket/status/2064724427313398265",
+      "view_count": 442782,
+      "like_count": 4081
+    },
+    {
+      "id": "2064746593413382612",
+      "author_name": "Igor Babuschkin",
+      "author_handle": "ibab",
+      "text": "Igor Babuschkin 宣布创办 River AI，目标是打造由用户拥有并塑造的 AI 系统，并表示很快会发布新东西。",
+      "url": "https://twitter.com/ibab/status/2064746593413382612",
+      "view_count": 125216,
+      "like_count": 1089
+    },
+    {
+      "id": "2064776322979676227",
+      "author_name": "Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭",
+      "author_handle": "elder_plinius",
+      "text": "Pliny 声称团队已突破 Anthropic 新模型的安全限制，语气强烈地批评其安全层过度敏感，并把这视为模型安全与研究开放之间的冲突。",
+      "url": "https://twitter.com/elder_plinius/status/2064776322979676227",
+      "view_count": 481227,
+      "like_count": 5019
+    },
+    {
+      "id": "2064735877666840810",
+      "author_name": "*Walter Bloomberg",
+      "author_handle": "DeItaone",
+      "text": "Walter Bloomberg 转述称，OpenAI 据报正准备在本月发布代号为 5.6 的新 AI 模型。",
+      "url": "https://twitter.com/DeItaone/status/2064735877666840810",
+      "view_count": 115654,
+      "like_count": 1071
+    },
+    {
+      "id": "2064601087768662077",
+      "author_name": "NIK",
+      "author_handle": "ns123abc",
+      "text": "NIK 爆料称软银试图以其 13% OpenAI 股权借款 60 亿美元继续投资 OpenAI，但银行拒绝，质疑其 8520 亿美元估值。",
+      "url": "https://twitter.com/ns123abc/status/2064601087768662077",
+      "view_count": 520919,
+      "like_count": 4568
+    },
+    {
+      "id": "2064774675021119825",
+      "author_name": "Cursor",
+      "author_handle": "cursor_ai",
+      "text": "Cursor 宣布代码审查代理提速超过 3 倍、成本降低 22%、多发现 10% 漏洞，并支持用 /review 在本地运行 Bugbot 提前修复问题。",
+      "url": "https://twitter.com/cursor_ai/status/2064774675021119825",
+      "view_count": 77168,
+      "like_count": 1608
+    }
+  ]
+}

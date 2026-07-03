@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-06-06T00:02:05.960Z",
+  "source_raw": "raw.json",
+  "source_count": 17,
+  "item_count": 15,
+  "language_breakdown": {
+    "Python": 7,
+    "TypeScript": 3,
+    "JavaScript": 1,
+    "Jupyter Notebook": 1,
+    "C#": 1,
+    "Go": 1,
+    "Unknown": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars_today": 1845,
+      "stars_total": 183078,
+      "forks": 31397
+    },
+    {
+      "rank": 2,
+      "repo": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "stars_today": 2473,
+      "stars_total": 14480,
+      "forks": 921
+    },
+    {
+      "rank": 3,
+      "repo": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "description": "The Frontend Stack for Agents &amp; Generative UI. React + Angular. Makers of the AG-UI Protocol",
+      "language": "TypeScript",
+      "stars_today": 366,
+      "stars_total": 32662,
+      "forks": 4192
+    },
+    {
+      "rank": 4,
+      "repo": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "language": "TypeScript",
+      "stars_today": 1152,
+      "stars_total": 25983,
+      "forks": 2991
+    },
+    {
+      "rank": 5,
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars_today": 1361,
+      "stars_total": 208341,
+      "forks": 31960
+    },
+    {
+      "rank": 6,
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars_today": 148,
+      "stars_total": 21546,
+      "forks": 1861
+    },
+    {
+      "rank": 7,
+      "repo": "NVIDIA/cosmos",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "language": "Jupyter Notebook",
+      "stars_today": 479,
+      "stars_total": 9406,
+      "forks": 601
+    },
+    {
+      "rank": 8,
+      "repo": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars_today": 320,
+      "stars_total": 64689,
+      "forks": 10087
+    },
+    {
+      "rank": 9,
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars_today": 731,
+      "stars_total": 28192,
+      "forks": 2391
+    },
+    {
+      "rank": 10,
+      "repo": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "language": "Python",
+      "stars_today": 747,
+      "stars_total": 80529,
+      "forks": 10632
+    },
+    {
+      "rank": 12,
+      "repo": "MemPalace/mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "description": "The best-benchmarked open-source AI memory system. And it's free.",
+      "language": "Python",
+      "stars_today": 227,
+      "stars_total": 53868,
+      "forks": 7079
+    },
+    {
+      "rank": 13,
+      "repo": "withastro/flue",
+      "url": "https://github.com/withastro/flue",
+      "description": "The sandbox agent framework.",
+      "language": "TypeScript",
+      "stars_today": 126,
+      "stars_total": 4509,
+      "forks": 241
+    },
+    {
+      "rank": 14,
+      "repo": "openclaw/openclaw-windows-node",
+      "url": "https://github.com/openclaw/openclaw-windows-node",
+      "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
+      "language": "C#",
+      "stars_today": 326,
+      "stars_total": 1598,
+      "forks": 180
+    },
+    {
+      "rank": 15,
+      "repo": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars_today": 207,
+      "stars_total": 35851,
+      "forks": 443
+    },
+    {
+      "rank": 16,
+      "repo": "jwasham/coding-interview-university",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "Unknown",
+      "stars_today": 745,
+      "stars_total": 350373,
+      "forks": 83289
+    }
+  ]
+}

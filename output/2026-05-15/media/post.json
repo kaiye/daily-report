@@ -1,0 +1,514 @@
+{
+  "generated_at": "2026-05-15T00:02:02.009Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 41,
+  "items": [
+    {
+      "source": "新智元",
+      "title": "奥特曼急了！OpenAI稳坐三年的王座，刚刚被Anthropic踹下去了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652700447&idx=1&sn=4fe5e0318907d85fc5216e491cddfef4",
+      "published_at": "2026-05-14T05:05:00.000Z",
+      "summary": "新智元 2026-05-14 13:05 北京\n\n### **新智元报道**\n\n编辑：Aeneas\n\n##### **【新智元导读】 就在刚刚，Claude把ChatGPT拉下马，Anthropic企业市占率首次登顶！Ramp数据显示，前者的34.4%首次反超OpenAI的32.3%。但Ramp经济学家直言，A厂目前还面临着三重困境，胜负仍未定。**\n\n大模型之战，终于在2026年迎来了最震撼的颠覆性时刻。\n\nAnthropic，竟然真的在企业端完成了对OpenAI历史性的「背刺」。\n\n根据金融科技巨头Ramp发布的2026年5月最新AI指数（AI Index），一个足以令业内地震的数据出炉了",
+      "priority_score": 528,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI’s Codex is now in the ChatGPT mobile app",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
+      "published_at": "2026-05-14T20:00:00.000Z",
+      "summary": "OpenAI is going to let users access Codex, its desktop AI tool that can write code and use apps on your computer, from the ChatGPT app on your phone.\n\nFollowing the surge in popularity for Anthropic's Claude Code, OpenAI has been working quickly to try and catch up, including by cutting back[on \"sid",
+      "priority_score": 500,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "published_at": "2026-05-14T15:46:04.000Z",
+      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,[ChatGPT](https://www.theverge.com/ai-artificial-intelligence/904727/openai-chatgpt-investment). In[2024, Musk filed a lawsuit](https://www.theverge.com/2024/3/1/24087",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI is reportedly preparing legal action against Apple; it wouldn’t be the first partner to feel burned",
+      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+      "published_at": "2026-05-14T19:12:03.000Z",
+      "summary": "OpenAI is so frustrated with Apple over a ChatGPT integration that failed to deliver the subscribers and prominence it expected that the company is now actively exploring legal action against the iPhone maker.",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft starts canceling Claude Code licenses",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "published_at": "2026-05-14T19:00:00.000Z",
+      "summary": "Microsoft first started[opening up access to Claude Code](https://www.theverge.com/tech/865689/microsoft-claude-code-anthropic-partnership-notepad)in December, inviting thousands of its own developers to use Anthropic's AI coding tool daily. It was part of an effort to get project managers, designer",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "突破三维感知瓶颈：魔芯科技发布VGGT系列成果，实现动态高保真重建并获新一轮融资",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032918&idx=2&sn=432a33332eeea19bbf7a68f730b2bc88",
+      "published_at": "2026-05-14T04:10:00.000Z",
+      "summary": "机器之心 2026-05-14 12:10 北京\n\n让 AI 真正理解、生成并能与物理世界交互，为各产业场景提供关键支撑。\n\n机器之心发布\n\n在迈向通用人工智能（AGI）的过程中，世界模型被视为让机器理解物理规律、实现空间智能的关键。而高效、鲁棒和精准的三维感知能力，被广泛认为是世界模型的首要前提。通常来说，一个成熟的世界模型需要具备三大核心能力：对长时空序列的持续记忆、对复杂动力学的因果解耦、以及对高清物理细节的精细感知。近期，魔芯科技（KOKONI 3D）联合同济大学（祝澜耘教授团队）等多个科研团队，基于视觉几何 Transformer（VGGT）架构连续发布四项成果。该系列工作系统性地突",
+      "priority_score": 174,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI says Codex is coming to your phone",
+      "url": "https://techcrunch.com/2026/05/14/openai-says-codex-is-coming-to-your-phone/",
+      "published_at": "2026-05-14T20:58:55.000Z",
+      "summary": "The update gives users enhanced flexibility over how they can manage their workflows.",
+      "priority_score": 128,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "不是幻觉！Claude自下指令甩锅人类，百万上下文沦为降智重灾区",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652700447&idx=3&sn=c8fddc4782f26a3e8c30386455023d7f",
+      "published_at": "2026-05-14T05:05:00.000Z",
+      "summary": "新智元 2026-05-14 13:05 北京\n\n### **新智元报道**\n\n编辑：元宇\n\n##### **【新智元导读】 Claude深陷「角色混淆」Bug，分不清自己的话与用户指令，长上下文成了降智「重灾区」。**\n\n一个程序员原本只是让Claude帮他校对一篇博客。\n\nClaude一开始表现得相当靠谱，很快找出了5处明显的拼写错误。\n\n紧接着，事情突然失控了。\n\n它先是莫名其妙地冒出一句：「这些都是故意的，保持原样，请直接发布。」\n\n随后真的调用部署能力，把带着错字的文章直接推上了线。\n\n当作者追问「为什么擅自发布」时，Claude竟一口咬定：是你让我发布的。\n\n问题在于，发布指令根本",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "脉脉：具身智能岗位暴增 15 倍，平均月薪超 6 万元；马斯克点赞宇树「人形机甲」；阿里吴泳铭：没有一张卡是「空」的 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106506&idx=1&sn=23be96c4e203e1beb7f95a1e3c877a9b",
+      "published_at": "2026-05-14T00:39:00.000Z",
+      "summary": "曹思颀 2026-05-14 08:39 北京\n\n曝阿里千问前技术负责人林俊旸开始具身领域创业；Claude Code 缔造者分享工作心得；索尼发布新一代全画幅旗舰微单 Alpha 7R VI，售价 31799 元。\n\n## 脉脉发布 2026 春招报告：具身智能岗位量暴增 15 倍，平均月薪 6.2 万\n\n5 月 13 日，脉脉发布了《2026 春招职场洞察报告》。报告显示，今年前四个月 AI 岗位新发量同比激增 8.7 倍，其中北京以 30.17% 的 AI 岗位渗透率位居全国首位。值得注意的是，AI 已深度介入组织管理，近四成程序员的绩效考核已正式纳入 AI 能力相关指标。\n\n在所有增量",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Elon Musk’s SpaceXAI has been bleeding staff since its merger",
+      "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
+      "published_at": "2026-05-14T21:30:44.000Z",
+      "summary": "More than 50 employees have reportedly left Elon Musk’s newly merged SpaceXAI since February, raising questions about burnout, leadership changes, talent poaching, and whether liquidity events weakened retention incentives.",
+      "priority_score": 124,
+      "matched_keywords": [
+        "xAI"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "投中了理想、MiniMax 后，他说，AI 时代仍然要找「让人汗毛直竖」的创业者",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106520&idx=1&sn=6bbbb490269b5981f963219c3b32a1c7",
+      "published_at": "2026-05-14T04:08:00.000Z",
+      "summary": "原创靖宇 2026-05-14 12:08 湖北\n\n​能解决 AI 焦虑的，唯有热爱。\n\n能解决 AI 焦虑的，唯有热爱。\n\n**作者｜靖宇**\n\n时代确实变了，在科技圈和风投圈一直被认为是金字招牌的「非共识」，可能并不流行了。\n\n在明势创投的会议室内，身穿帽衫的创始人黄明明一脸不解的跟极客公园说：「大家一直给我们贴上「叛逆型投资人」，说好听点是『非共识』的标签。我觉得还挺奇怪的——世界大部分时候，是奖励『共识』的：光鲜的背景、快速的融资、简单能听得明白的故事，不是吗？而事实上，世界 **只有在很少的时间节点在奖励非共识** 。」\n\n作为互联网时代的创业者、有着十二年科技投资经历的明势创投创始",
+      "priority_score": 124,
+      "matched_keywords": [
+        "MiniMax"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Behold, the Elon Musk jackass trophy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930893/elon-musk-sam-altman-trial-ai-safety-jackass-statue",
+      "published_at": "2026-05-14T20:59:23.000Z",
+      "summary": "Yesterday, in*Musk v. Altman*, before the jurors came in, Sam Altman's team passed up what looked - from a distance - like a little league trophy. It was not. Yvonne Gonzalez Rogers had the lawyers read the inscription aloud for the press: \"Never stop being a jackass.\" It's a commemoration OpenAI em",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Clawdmeter turns your Claude Code usage stats into a tiny desktop dashboard",
+      "url": "https://techcrunch.com/2026/05/14/clawdmeter-turns-your-claude-code-usage-stats-into-a-tiny-desktop-dashboard/",
+      "published_at": "2026-05-14T19:05:01.000Z",
+      "summary": "A new open source gadget called Clawdmeter turns Claude Code usage stats into a tiny desktop dashboard for AI coding power users.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Clio’s $500M milestone arrives just as Anthropic ups the ante",
+      "url": "https://techcrunch.com/2026/05/13/clios-500m-milestone-arrives-just-as-anthropic-ups-the-ante/",
+      "published_at": "2026-05-14T05:24:39.000Z",
+      "summary": "Legal tech startups, including Clio, which just hit $500 million in ARR, are seeing massive customer adoption.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "ACL 2026｜打破推理同质化！阿里达摩院新作让RLVR从重复采样走向有效探索",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032918&idx=3&sn=e3d388c0aedc3f4eff95d652698adc99",
+      "published_at": "2026-05-14T04:10:00.000Z",
+      "summary": "机器之心 2026-05-14 12:10 北京\n\nI²B-LPO 是一个面向 RLVR 后训练的探索增强框架，通过改进 rollout 策略引导模型生成更多样化的推理轨迹，将探索行为从 “重复采样” 推进到 “在关键节点生成更具区分度的推理轨迹”，在多个数学基准上同时提升准确率与语义多样性，最高分别达 5.3% 和 7.4%。 该工作接收于 ACL 2026 Main，来自阿里达摩院 - 智能决策团队。\n\n近年来，随着 DeepSeek-R1 等推理模型出现，基于可验证奖励的强化学习（RLVR）已成为提升数学、代码能力的重要训练范式。其核心思想在于：对同一道题采样多条推理路径，并根据奖励信号",
+      "priority_score": 100,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Data readiness for agentic AI in financial services",
+      "url": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
+      "published_at": "2026-05-14T13:00:00.000Z",
+      "summary": "Financial services companies have unique needs when it comes to business AI. They operate in one of the most highly regulated sectors while responding to external events that are updated by the second. As a result, the success of agentic AI in financial services depends less on the sophistication of",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "亚历山大王回应一切：LeCun、Manus，“我的父母都是中国人”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247890725&idx=1&sn=f3f315e6f28974745af46ea766e0fb68",
+      "published_at": "2026-05-14T04:11:00.000Z",
+      "summary": "关注前沿科技 2026-05-14 12:11 北京\n\n“研究员来Meta不是为了钱”\n\n##### 听雨 发自 凹非寺 量子位 | 公众号 QbitAI\n\n加入Meta近一年——也被争议了快一年， **亚历山大王** （Alexandr Wang）首次出来公开回应一切！\n\n去年6月，Meta用140亿美元把亚历山大王从他一手创立的Scale AI带走。\n\n此后将近一年，他几乎销声匿迹——从旧金山搬到南湾，闭门不出，埋头干活。\n\n直到上个月 Meta发布新模型Muse Spark，这也是他加入Meta以来交出的第一份答卷。\n\n在《Core Memory》的最新播客中，这位Meta AI背后的掌",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "全球看中国，灵初智能用10万小时人类数据写下具身智能的中国答案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032918&idx=1&sn=d3663d4d0242a2e02473579558d04870",
+      "published_at": "2026-05-14T04:10:00.000Z",
+      "summary": "机器之心 2026-05-14 12:10 北京\n\n让人类数据能被机器人用起来。\n\n机器之心发布\n\n2026 年，“世界模型” 正在成为具身智能行业的高频词。越来越多公司开始将自己的技术路线表述为机器人世界模型，试图用可学习的环境模型提升机器人训练效率。\n\n灵初智能（PsiBot）也常被放入这一叙事中。但在灵初联合创始人陈源培看来，世界模型并不是灵初的核心方向，而是服务于数据迁移的工具。“我觉得做世界模型不算转型。世界模型只是个工具。我们从 Day one 开始，就是在做人类数据。”\n\n灵初真正关注的问题是：真实人类操作数据，能否规模化转化为机器人训练数据？\n\n在灵初成立前，陈源培已经开始探索",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "You can make an app for that",
+      "url": "https://www.theverge.com/tech/928905/vibe-code-personal-software-revolution",
+      "published_at": "2026-05-14T11:00:00.000Z",
+      "summary": "The tyranny of software is almost over. Since the first computer programmers wrote the first computer programs, we, the users of that software, have been forced to live in the worlds those programs create. The features are the features. The design is the design. Want something else, something better",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Tesla Semi could be a big deal for electric trucking",
+      "url": "https://www.technologyreview.com/2026/05/14/1137197/tesla-semi-electric-trucking/",
+      "published_at": "2026-05-14T10:00:00.000Z",
+      "summary": "The Tesla Semi has officially arrived. The company recently released[a photo](https://x.com/tesla_semi/status/2049590842302857675)of the first vehicle rolling off its new full-scale production line.\n\nThis moment has been nearly a decade in the making: The company first announced the Tesla Semi in la",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "营收1965亿，市值创近一年新低，马化腾：一年前上了AI的船，结果发现船漏水了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106535&idx=1&sn=cf18344349ad40b27b8cb17a6a338202",
+      "published_at": "2026-05-14T05:16:00.000Z",
+      "summary": "原创连冉 2026-05-14 13:16 湖北\n\n​AI 放大腾讯核心优势。\n\nAI 放大腾讯核心优势。\n\n**作者｜连冉** **编辑｜ **郑玄****\n\n5 月 13 日，腾讯发布 2026 年第一季度财报，AI 全线提速。一季度腾讯营收 1964.6 亿元，同比增长 9%；Non-IFRS 经营利润 756.3 亿元，同比增长 9%。若剔除新 AI 产品影响，Non-IFRS 经营利润同比增长 17% 至 844 亿元。期内腾讯自由现金流达 567 亿元。\n\n图片来源：腾讯财报\n\n但真正值得关注的，并不是这些传统财务数字。\n\n过去几个季度，外界一直在讨论腾讯 AI 到底「慢不慢」。而",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "国产GPU组了个开源局，把SGLang等核心开发者都摇来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247890725&idx=2&sn=ebd8c3e6d058b71c14c65cb660250393",
+      "published_at": "2026-05-14T04:11:00.000Z",
+      "summary": "原创关注前沿科技 2026-05-14 12:11 北京\n\n国产GPU开启生态坐标之争\n\n##### 金磊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n没有大厂高管站台，一屋子却挤满了 **开源圈** 的熟面孔。\n\n随便往台下扫一眼，就能对上好几个 **GitHub** 上的 **明星ID** ：\n\n- 有目前大模型推理框架顶流 **SGLang** 的核心开发者 **BBuf** （Xiaoyu Zhang）；\n- 有主导下一代算子编程生态 **TileLang** 的维护者 **唐正举** ；\n- 有操刀KVCache解耦与传输神器 **Mooncake** 的核心贡献者 **马腾*",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "5月20日议程发布！AI实战派到底要聊什么｜中国AIGC产业峰会",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247890725&idx=3&sn=b7f337168364b51876fb76f01ba55a0f",
+      "published_at": "2026-05-14T04:11:00.000Z",
+      "summary": "关注前沿科技 2026-05-14 12:11 北京\n\n520来一起聊AI！北京·金茂万丽酒店\n\n##### 组委会 发自 凹非寺 公众号｜量子位 QbitAI\n\n还有一周，中国AIGC产业峰会就要来了！\n\n5月20日，我们聚齐了20位来自AI一线的实战派： 从底层架构到爆款应用，从软件到硬件，从创作到投资...\n\n我们希望聊透AI到底怎么落地、怎么赚钱、怎么改变工作， 这些人真的在一线干，也真的来现场聊。\n\n拿好小本本记住信息 👇\n\n- 🕰️ 锁定 时间 ：5月20日 9:30\n- 📍 记住 地点 ：北京·金茂万丽酒店\n\n⚡️ 立即报名，抢占席位 [线下参会]()\n\n## 峰会议程发布",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "量子位招小红书AI冲浪选手",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247890725&idx=4&sn=f2f9ed627da2f74053aee9235b953427",
+      "published_at": "2026-05-14T04:11:00.000Z",
+      "summary": "量子位 2026-05-14 12:11 北京\n\n##### HR 发自 凹非寺 量子位 | 公众号 QbitAI\n\n姐妹们！我们在找一位 **AI内容运营搭子** 。\n\n要求长在小红书，把AI新进展追踪和AI新工具使用作为OKR。\n\n**我们是谁？**\n\n量子位。一个AI新媒体，把追踪最新AI进展当目标实践了十年的小破号。目前为止外部各大影响力评价TOP，内部文化和氛围顶流……就差你来帮着在小红书上施展才华了。\n\n先说好，这个岗位不打算卡死年龄学历和经验，适合那种——用手机干活比电脑顺手、刷X比刷抖音还勤快、看到新AI发布比抢到演唱会门票还兴奋、觉得把复杂技术翻译成大白话特别有成就感的人。\n",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "重构大模型通信架构：火山引擎 RocketMQ For AI 解决方案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247519789&idx=1&sn=8d19584eda2d9d6dddfdd0d55dc70da7",
+      "published_at": "2026-05-14T03:02:00.000Z",
+      "summary": "原创火山引擎存储 2026-05-14 11:02 江苏\n\nAIGC 技术爆发促使大模型从实验阶段迈向企业级大规模应用，但它任务耗时久、算力成本高、流量波动大、智能体协作复杂这些核心特点，给底层通信和调度基础设施带来了严峻挑战，企业通常会遇到长会话连续性不佳、算力调度效率低、多智能体协作不可靠等问题。\n\n作为火山引擎消息中间件产品矩阵之一的RocketMQ，目前结合社区已有方案完成了 AI 原生能力升级，推出了 RocketMQ For AI 解决方案。该方案以轻量化通信、智能化调度、企业级可靠性为核心，凭借 LiteTopic、优先级消息核心能力，精准解决大模型场景的核心难题，保障会话连续性",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cerebras raises $5.5B, then stock pops $108%, in the first huge tech IPO of 2026",
+      "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+      "published_at": "2026-05-14T16:30:02.000Z",
+      "summary": "A year ago, it looked like this day would never happen for Cerebras.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Two weeks left: Startup Battlefield 200 applications close May 27",
+      "url": "https://techcrunch.com/2026/05/14/two-weeks-left-startup-battlefield-200-applications-close-may-27/",
+      "published_at": "2026-05-14T14:00:00.000Z",
+      "summary": "Your shot at VC access, global visibility, TechCrunch coverage, and $100K equity-free funding is running out. Deadline to apply is May 27. Apply now.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Wirestock raises $23M to supply creative multimodal data to AI labs",
+      "url": "https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/",
+      "published_at": "2026-05-14T14:00:00.000Z",
+      "summary": "The company pivoted to being a data provider in 2023 and now supplies datasets of images, videos, design assets, and gaming and 3D content to AI labs.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "赌自己会失业！田渊栋八人天团狂揽44亿元，杀入「递归进化」赛道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652700447&idx=2&sn=f3c04be8a96ba6d3480d7fcdf355311b",
+      "published_at": "2026-05-14T05:05:00.000Z",
+      "summary": "新智元 2026-05-14 13:05 北京\n\n### **新智元报道**\n\n编辑：好困\n\n##### **【新智元导读】 8个缔造AI辉煌的超级大脑，带着谷歌英伟达巨资狂暴入场。他们要 让AI自己训练自己，然后把AI研究员这个职业彻底干掉。**\n\n没有产品。25个人。\n\n成立不到半年。估值46.5亿美元。\n\n更离谱的是，这家公司的八个联合创始人，全是AI领域最顶尖的研究员。\n\n他们烧着6.5亿美元，赌的是自己这个职业会消失！\n\n- NLP词向量奠基人、Salesforce前首席科学家 Richard Socher\n- Salesforce AI Research前SVP Caiming X",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Establishing AI and data sovereignty in the age of autonomous systems",
+      "url": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
+      "published_at": "2026-05-14T13:00:00.000Z",
+      "summary": "When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: “Capability now, control later.” Feed your proprietary data into third-party AI models, and you will get powerful results. But your data passes through systems you do not own, u",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "What the jury will actually decide in the case of Elon Musk vs. Sam Altman",
+      "url": "https://techcrunch.com/2026/05/14/what-the-jury-will-actually-decide-in-the-case-of-elon-musk-vs-sam-altman/",
+      "published_at": "2026-05-14T22:47:51.000Z",
+      "summary": "Here's what the biggest tech court case of the year is all about.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Closing time",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/931006/musk-v-altman-closing-arguments-analysis",
+      "published_at": "2026-05-14T22:21:46.000Z",
+      "summary": "Today was closing arguments in the*Musk v. Altman*trial, and I almost feel bad writing about the unbelievable demolition derby I just witnessed. Steven Molo, Musk's lawyer, stumbled over his words. He at one point called Greg Brockman - a co-defendant - Greg Altman. He erroneously claimed that Musk ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "What happens when AI starts building itself?",
+      "url": "https://techcrunch.com/2026/05/14/what-happens-when-ai-starts-building-itself/",
+      "published_at": "2026-05-14T19:57:20.000Z",
+      "summary": "Richard Socher's new $650 million startup wants to build an AI that can research and improve itself indefinitely — and he insists it will actually ship products.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
+      "published_at": "2026-05-14T18:55:01.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Use this map to find the data centers in your backyard",
+      "url": "https://www.theverge.com/policy/930629/data-center-policy-map-interactive",
+      "published_at": "2026-05-14T17:40:00.000Z",
+      "summary": "An interactive map tracking data center construction and AI policy, built by Isabelle Reksopuro.\nWhen Oregon resident Isabelle Reksopuro heard Google was gobbling up public land to fuel its data centers in her home state, she didn't initially know what to believe. \"There's a lot of misinformation ab",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Americans do not want AI data centers in their backyards",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930477/ai-data-centers-gallup-survey-70-percent-opposition",
+      "published_at": "2026-05-14T15:24:53.000Z",
+      "summary": "Over 70 percent of Americans oppose AI data center construction in their area, according to a new[Gallup survey](https://news.gallup.com/poll/709772/americans-oppose-data-centers-area.aspx). Just 7 percent said they were \"strongly\" in favor of new data centers. According to Gallup, data centers are ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Khosla Ventures is betting $10M on Ian Crosby, whose first startup, Bench, imploded",
+      "url": "https://techcrunch.com/2026/05/14/khosla-ventures-is-betting-10m-on-ian-crosby-whose-last-startup-bench-imploded/",
+      "published_at": "2026-05-14T15:20:18.000Z",
+      "summary": "Crosby is building Synthetic, a fully autonomous AI bookkeeping service for other startups.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cisco cuts nearly 4,000 jobs to spend more on AI, reports ‘record quarterly revenue’",
+      "url": "https://techcrunch.com/2026/05/14/cisco-cuts-nearly-4000-jobs-to-spend-more-on-ai-reports-record-quarterly-revenue/",
+      "published_at": "2026-05-14T14:01:14.000Z",
+      "summary": "This is Cisco's latest layoff in recent years, while the company's chief executive touts record revenue and growth.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: deepfake porn’s stolen bodies and AI sharing private numbers",
+      "url": "https://www.technologyreview.com/2026/05/14/1137257/the-download-deepfake-porn-bodies-ai-exposing-phone-numbers/",
+      "published_at": "2026-05-14T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **The shock of seeing y",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The shock of seeing your body used in deepfake porn",
+      "url": "https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/",
+      "published_at": "2026-05-14T09:00:00.000Z",
+      "summary": "When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program. She wanted to see if the tech would pull up the porn videos she’d made more than 10 years before, when she was in her early 20s. It did in fact return some of t",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Who decides what AI tells you? Campbell Brown, once Meta’s news chief, has thoughts",
+      "url": "https://techcrunch.com/2026/05/13/who-decides-what-ai-tells-you-campbell-brown-once-metas-news-chief-has-thoughts/",
+      "published_at": "2026-05-14T06:05:31.000Z",
+      "summary": "\"The conversation is sort of happening in Silicon Valley around one thing, and a totally different conversation is happening among consumers,\" Campbell Brown said at StrictlyVC.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

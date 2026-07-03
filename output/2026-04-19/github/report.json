@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-04-19",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕大模型与智能体的自主可控、协作编排和实战学习工具持续升温。",
+  "items": [
+    {
+      "repo": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "description": "你可控的 AI：自由选择模型，掌握自己的数据，消除供应商锁定。",
+      "language": "TypeScript",
+      "stars_today": 447,
+      "stars_total": 1541
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "url": "https://github.com/BasedHardware/omi",
+      "description": "能看见你的屏幕、听懂你的对话，并告诉你该怎么做的 AI。",
+      "language": "Dart",
+      "stars_today": 609,
+      "stars_total": 10423
+    },
+    {
+      "repo": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "面向多智能体工作流的轻量且强大的框架。",
+      "language": "Python",
+      "stars_today": 470,
+      "stars_total": 22306
+    },
+    {
+      "repo": "EvoMap/evolver",
+      "url": "https://github.com/EvoMap/evolver",
+      "description": "由 GEP 驱动的 AI 智能体自进化引擎，基因组进化协议。",
+      "language": "JavaScript",
+      "stars_today": 1131,
+      "stars_total": 4987
+    },
+    {
+      "repo": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型 Dive into LLMs》系列编程实践教程。",
+      "language": "Jupyter Notebook",
+      "stars_today": 547,
+      "stars_total": 32006
+    },
+    {
+      "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "description": "用于支持 Android 应用逆向工程的 Claude Code skill。",
+      "language": "Shell",
+      "stars_today": 403,
+      "stars_total": 3112
+    }
+  ]
+}

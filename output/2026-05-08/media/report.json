@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-05-08",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "OpenAI、Perplexity、Anthropic等重点玩家在产品能力、安全功能与资本动作上同步推进，显示AI竞争正从模型本身进一步扩展到应用落地、风险控制和产业整合。",
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "ChatGPT将推出“可信联系人”安全提醒功能",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/925874/chatgpt-trusted-contact-emergency-self-harm-notification",
+      "published_at": "2026-05-07T18:00:00.000Z",
+      "summary": "这项可选功能允许成年用户预设紧急联系人，并在系统检测到可能涉及自我伤害等安全风险时通知家人、朋友或照护者。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI在API中推出新的语音智能功能",
+      "url": "https://techcrunch.com/2026/05/07/openai-launches-new-voice-intelligence-features-in-its-api/",
+      "published_at": "2026-05-07T22:24:50.000Z",
+      "summary": "新能力面向客服、教育和创作者平台等场景，进一步扩展了开发者通过OpenAI接口构建语音应用的方式。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Perplexity的Personal Computer现已向所有Mac用户开放",
+      "url": "https://techcrunch.com/2026/05/07/perplexitys-personal-computer-is-now-available-everyone-on-mac/",
+      "published_at": "2026-05-07T19:57:59.000Z",
+      "summary": "这款产品把AI智能体带到Mac端，意味着Perplexity正把个人电脑作为更广泛落地代理式交互的入口。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenClaw和Claude现可将AI生成播客导入Spotify",
+      "url": "https://www.theverge.com/entertainment/925916/save-to-spotify-ai-podcasts",
+      "published_at": "2026-05-07T14:15:40.000Z",
+      "summary": "Spotify推出面向OpenClaw、Claude Code和OpenAI Codex等AI代理的命令行工具，帮助用户把生成的个人音频内容直接保存到平台。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Moonshot AI以200亿美元估值融资20亿美元",
+      "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+      "published_at": "2026-05-07T13:44:25.000Z",
+      "summary": "这轮融资反映出其订阅和API业务增长迅速，也凸显开源AI需求上升正在推动中国头部模型公司的资本热度。"
+    },
+    {
+      "source": "机器之心",
+      "title": "马斯克确认xAI解散并将22万张GPU算力租给Anthropic",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031726&idx=1&sn=e6eca005d102e4a279d9b460dfa0d35d",
+      "published_at": "2026-05-07T02:05:00.000Z",
+      "summary": "报道称xAI及Grok等相关业务将被整合进SpaceX新部门SpaceXAI，此次重组还伴随大规模算力资源流向Anthropic。"
+    },
+    {
+      "source": "机器之心",
+      "title": "新基准测试显示Claude、GPT和Gemini均未完成软件项目重建",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031726&idx=2&sn=105ca19f31b4709f958795a3a73bc0ca",
+      "published_at": "2026-05-07T02:05:00.000Z",
+      "summary": "由SWE-Bench作者推出的新测试把评估重点放在完整软件工程任务上，结果显示当前主流顶级模型仍难以胜任端到端项目重建。"
+    },
+    {
+      "source": "新智元",
+      "title": "Anthropic为Claude托管智能体加入“Dreaming”功能",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652698250&idx=2&sn=55071d7c98d04b893a5907ebbfcaafb1",
+      "published_at": "2026-05-07T04:02:00.000Z",
+      "summary": "这项功能让智能体在两次任务间自动回顾历史与整理记忆，并结合多智能体协作和自动评分机制提升任务完成率。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "马斯克与奥特曼围绕OpenAI未来的诉讼战进入庭审焦点",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "published_at": "2026-05-07T17:40:50.000Z",
+      "summary": "这场高风险审理正在围绕OpenAI的组织方向与使命展开，结果可能影响其未来发展及ChatGPT相关业务。"
+    }
+  ]
+}

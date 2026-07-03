@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-05-05",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕大模型代理的编排、开发与垂直场景应用快速升温。",
+  "items": [
+    {
+      "repo": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 面向 Claude 的领先代理编排平台，可部署智能多代理群体、协调自主工作流，并构建对话式 AI 系统。",
+      "language": "TypeScript",
+      "stars_today": 2598,
+      "stars_total": 41347
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents：多代理 LLM 金融交易框架。",
+      "language": "Python",
+      "stars_today": 2182,
+      "stars_total": 67427
+    },
+    {
+      "repo": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "description": "带有网页浏览工具的 Claude Agent SDK。",
+      "language": "JavaScript",
+      "stars_today": 320,
+      "stars_total": 2107
+    },
+    {
+      "repo": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "运行在终端中的 DeepSeek 模型编码代理。",
+      "language": "Rust",
+      "stars_today": 1274,
+      "stars_total": 3895
+    },
+    {
+      "repo": "czlonkowski/n8n-mcp",
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "description": "适用于 Claude Desktop、Claude Code、Windsurf 和 Cursor 的 MCP，可为你构建 n8n 工作流。",
+      "language": "TypeScript",
+      "stars_today": 496,
+      "stars_total": 19900
+    },
+    {
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "编码代理测试框架。",
+      "language": "Rust",
+      "stars_today": 548,
+      "stars_total": 3898
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "一套完整的 AI agency 触手可及——从前端 wizard 到 Reddit 社区 ninja，从奇思注入者到现实校验者，每个代理都是具备个性、流程和已验证交付物的专业专家。",
+      "language": "Shell",
+      "stars_today": 1189,
+      "stars_total": 92609
+    },
+    {
+      "repo": "virattt/dexter",
+      "url": "https://github.com/virattt/dexter",
+      "description": "用于深度金融研究的自主代理。",
+      "language": "TypeScript",
+      "stars_today": 409,
+      "stars_total": 23186
+    },
+    {
+      "repo": "fspecii/ace-step-ui",
+      "url": "https://github.com/fspecii/ace-step-ui",
+      "description": "🎵 终极开源 Suno 替代方案——面向 ACE-Step 1.5 AI 音乐生成的专业 UI，免费、本地、无限制。",
+      "language": "JavaScript",
+      "stars_today": 237,
+      "stars_total": 2829
+    },
+    {
+      "repo": "cocoindex-io/cocoindex",
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "description": "面向长周期代理的增量引擎。",
+      "language": "Python",
+      "stars_today": 166,
+      "stars_total": 7995
+    }
+  ]
+}

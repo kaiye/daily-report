@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-07-03",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 Claude Code、Codex 与各类编码代理扩展技能、工具调用和专业化工作流。",
+  "items": [
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "开源 AI 渗透测试工具，帮助发现并修复应用漏洞。",
+      "language": "Python",
+      "stars_today": 2137,
+      "stars_total": 32133
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 能用少 token 就别用多 token——通过像穴居人一样说话减少 65% token 的 Claude Code 技能。",
+      "language": "JavaScript",
+      "stars_today": 926,
+      "stars_total": 80846
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "完整的 AI agency 触手可及——从前端向导到 Reddit 社区忍者，从奇思注入者到现实校验者，每个 agent 都是拥有个性、流程和成熟交付物的专业专家。",
+      "language": "Shell",
+      "stars_today": 3032,
+      "stars_total": 125456
+    },
+    {
+      "repo": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "基于 Claude Code 构建的 AI 驱动求职系统，包含 14 种技能模式、Go 仪表盘、PDF 生成和批处理。",
+      "language": "JavaScript",
+      "stars_today": 372,
+      "stars_total": 57785
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "可行的 agentic 技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 897,
+      "stars_total": 244391
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "面向编码 agent 的 Chrome DevTools。",
+      "language": "TypeScript",
+      "stars_today": 104,
+      "stars_total": 45073
+    },
+    {
+      "repo": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "description": "用编码 agent 编辑视频。",
+      "language": "Python",
+      "stars_today": 554,
+      "stars_total": 13766
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "Agent harness 性能优化系统，为 Claude Code、Codex、Opencode、Cursor 及更多工具提供技能、本能、记忆、安全与研究优先开发。",
+      "language": "JavaScript",
+      "stars_today": 486,
+      "stars_total": 225167
+    },
+    {
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "“Vibe-Trading：你的个人交易 agent”。",
+      "language": "Python",
+      "stars_today": 939,
+      "stars_total": 17318
+    },
+    {
+      "repo": "openai/codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "description": "在 Claude Code 中使用 Codex 来审查代码或委派任务。",
+      "language": "JavaScript",
+      "stars_today": 352,
+      "stars_total": 22610
+    },
+    {
+      "repo": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "description": "Langflow 是构建和部署 AI 驱动 agent 与工作流的强大工具。",
+      "language": "Python",
+      "stars_today": 117,
+      "stars_total": 150711
+    }
+  ]
+}

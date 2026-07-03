@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-05-31",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "本日AI新闻集中在大模型能力与应用落地继续推进，同时资本、基础设施和商业化计费正在重塑AI产业节奏。",
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "SpaceX拟IPO估值1.8万亿美元，DeepMind CEO称AGI或三年内到来",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107684&idx=1&sn=0d2402f878d0cc81ec3d4a73bd04e704",
+      "published_at": "2026-05-30T00:23:00.000Z",
+      "summary": "文章汇总称，SpaceX最早6月4日启动IPO路演并寻求高估值，同时谷歌DeepMind负责人对AGI时间表给出较激进判断。"
+    },
+    {
+      "source": "新智元",
+      "title": "Claude灰测AI Fluency功能，为用户使用AI的水平打分",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703932&idx=2&sn=b8d066d3177ac8db880b43ba1bdfe943",
+      "published_at": "2026-05-30T07:00:00.000Z",
+      "summary": "Anthropic被曝在Claude中测试一项基于历史对话的评分功能，通过11个指标评估用户与AI协作的熟练程度。"
+    },
+    {
+      "source": "极客公园",
+      "title": "智谱港股剧烈震荡，MiniMax披露A股上市辅导备案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107710&idx=1&sn=8086e37f91725be8b948c01b848060ff",
+      "published_at": "2026-05-30T04:47:00.000Z",
+      "summary": "智谱单日股价大幅冲高后回落，MiniMax则与中信证券签署上市辅导协议并进入证监会备案公示。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "谷歌24小时AI助手Gemini Spark被评价为相当实用",
+      "url": "https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/",
+      "published_at": "2026-05-30T15:30:00.000Z",
+      "summary": "Gemini Spark可用于自动整理收件箱摘要、规划本地活动等日常任务，但其作为独立产品存在的理由仍不清晰。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "GitHub Copilot新代币计费模式引发开发者不满",
+      "url": "https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/",
+      "published_at": "2026-05-30T16:30:00.000Z",
+      "summary": "微软GitHub Copilot调整为基于代币的收费方式后，一些开发者对成本和产品体验变化表达强烈质疑。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta据称正在开发AI吊坠",
+      "url": "https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/",
+      "published_at": "2026-05-30T15:59:58.000Z",
+      "summary": "相关消息称Meta正把更多资源押注在AI硬件上，其中包括一款可穿戴吊坠形态的设备。"
+    },
+    {
+      "source": "量子位",
+      "title": "人大与至知研究院开源Claw Agent数据、训练和评测链条",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893825&idx=2&sn=2f1e5fdae519fe910eda7f64a58247ca",
+      "published_at": "2026-05-30T04:00:00.000Z",
+      "summary": "ClawGym框架把合成数据、模型训练和可靠评测连接起来，意在缓解Agent从问答走向任务执行时的数据与评测瓶颈。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "软银称将投资至多750亿欧元建设法国数据中心",
+      "url": "https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/",
+      "published_at": "2026-05-30T21:45:00.000Z",
+      "summary": "软银表示该计划目标是在法国开发并运营最多5吉瓦的新增数据中心容量。"
+    },
+    {
+      "source": "机器之心",
+      "title": "英伟达清华团队γ-World让世界模型从单机走向联机",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035907&idx=1&sn=cd65e6a8e2619188409acb7a14b19812",
+      "published_at": "2026-05-30T02:30:00.000Z",
+      "summary": "γ-World聚焦多主体共享环境中的因果耦合问题，试图突破以单一参与者为前提的视频世界模型限制。"
+    }
+  ]
+}

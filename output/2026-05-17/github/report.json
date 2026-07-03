@@ -1,0 +1,64 @@
+{
+  "report_date": "2026-05-17",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日热门项目集中在面向智能体技能、生成式媒体、本地个人智能、语音与代码辅助的可自托管和本地化 AI 能力。",
+  "items": [
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "一组可直接使用的智能体技能，面向研究、科学、工程、分析、金融和写作。",
+      "language": "Python",
+      "stars_today": 673,
+      "stars_total": 23113
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个有效的智能体技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1305,
+      "stars_total": 193981
+    },
+    {
+      "repo": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "AI 视频平台的开源替代方案，提供免费的 AI 图像与视频生成工作室，内含 200 多个模型（Flux、Midjourney、Kling、Sora、Veo），无内容过滤，可自托管并采用 MIT 许可。",
+      "language": "JavaScript",
+      "stars_today": 317,
+      "stars_total": 14411
+    },
+    {
+      "repo": "supertone-inc/supertonic",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "description": "闪电般快速、端侧运行的多语言 TTS，通过 ONNX 原生运行。",
+      "language": "Swift",
+      "stars_today": 749,
+      "stars_total": 6851
+    },
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "你的个人 AI 超级智能，私密、简单且极其强大。",
+      "language": "Rust",
+      "stars_today": 1549,
+      "stars_total": 10680
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView 将普通 WiFi 信号转化为实时空间智能、生命体征监测和存在检测，全程无需任何视频像素。",
+      "language": "Rust",
+      "stars_today": 1010,
+      "stars_total": 58327
+    },
+    {
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "面向 Claude Code 的预索引代码知识图谱，减少 token、减少工具调用，并且 100% 本地运行。",
+      "language": "TypeScript",
+      "stars_today": 416,
+      "stars_total": 2499
+    }
+  ]
+}

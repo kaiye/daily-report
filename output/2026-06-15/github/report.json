@@ -1,0 +1,40 @@
+{
+  "report_date": "2026-06-15",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI Agent 安全、基础模型、生成式 AI 接口与自主机器人等 AI 系统能力的构建与落地。",
+  "items": [
+    {
+      "repo": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "面向 AI Agent 技能的安全扫描器，可检测漏洞、恶意模式和安全风险。",
+      "language": "Python",
+      "stars_today": 964,
+      "stars_total": 5257
+    },
+    {
+      "repo": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "description": "《自主机器人导论》。",
+      "language": "TeX",
+      "stars_today": 293,
+      "stars_total": 2700
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：面向金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 244,
+      "stars_total": 29898
+    },
+    {
+      "repo": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "description": "面向多个生成式 AI 提供商的简单统一接口。",
+      "language": "Python",
+      "stars_today": 291,
+      "stars_total": 14380
+    }
+  ]
+}

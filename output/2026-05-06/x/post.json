@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-05-06T00:01:24.499Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-05-05",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 18,
+  "item_count": 18,
+  "items": [
+    {
+      "id": "2051760873455112495",
+      "text": "ANTHROPIC COMMITS TO SPENDING $200B ON GOOGLE CLOUD AND CHIPS OVER THE NEXT 5 YEAR — THE INFORMATION\n\nGoogle $GOOGL is now the most valuable company on Planet Earth, overtaking $NVDA Nvidia. https://t.co/syhy1641dm",
+      "createdAt": "Tue May 05 20:28:06 +0000 2026",
+      "viewCount": 263875,
+      "likeCount": 4687,
+      "retweetCount": 324,
+      "author": {
+        "userName": "amitisinvesting",
+        "name": "amit",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/amitisinvesting/status/2051760873455112495",
+      "is_official": false
+    },
+    {
+      "id": "2051663268704636937",
+      "text": "Introducing SubQ - a major breakthrough in LLM intelligence.\n\nIt is the first model built on a fully sub-quadratic sparse-attention architecture (SSA),\n\nAnd the first frontier model with a 12 million token context window which is:\n\n- 52x faster than FlashAttention at 1MM tokens\n- Less than 5% the cost of Opus\n\nTransformer-based LLMs waste compute by processing every possible relationship between words (standard attention).\n\nOnly a small fraction actually matter.\n\n@subquadratic finds and focuses only on the ones that do.\n\nThat's nearly 1,000x less compute and a new way for LLMs to scale.",
+      "createdAt": "Tue May 05 14:00:15 +0000 2026",
+      "viewCount": 7447070,
+      "likeCount": 14395,
+      "retweetCount": 1852,
+      "author": {
+        "userName": "alex_whedon",
+        "name": "Alexander Whedon",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/alex_whedon/status/2051663268704636937",
+      "is_official": false
+    },
+    {
+      "id": "2051709028250915275",
+      "text": "GPT-5.5 Instant is starting to roll out in ChatGPT.\n\nIt’s a big upgrade, giving you smarter, clearer, and more personalized answers in a warmer, more natural tone.\n\nAnd it's also more concise, which we heard you wanted. We think you'll love chatting with it. https://t.co/HSQOhjqxp7",
+      "createdAt": "Tue May 05 17:02:05 +0000 2026",
+      "viewCount": 833569,
+      "likeCount": 7114,
+      "retweetCount": 641,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2051709028250915275",
+      "is_official": true
+    },
+    {
+      "id": "2051703217697010103",
+      "text": "Grok 4.3 is now live on the xAI API. It’s our fastest, most intelligent model to date.\n\nIt tops the @ArtificialAnlys leaderboards in agentic tool calling and instruction following, and ranks #1 in @ValsAI enterprise domains like case law and corporate finance.\n\nGrok 4.3 supports a 1 million token context window and is priced at $1.25/m input and $2.50/m output.\n\nCreate an API key and start building: https://t.co/JDRUt1UOUm",
+      "createdAt": "Tue May 05 16:39:00 +0000 2026",
+      "viewCount": 7831105,
+      "likeCount": 4099,
+      "retweetCount": 492,
+      "author": {
+        "userName": "xai",
+        "name": "xAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/xai/status/2051703217697010103",
+      "is_official": true
+    },
+    {
+      "id": "2051662923651805656",
+      "text": "Tough day for folks (DM me if I can help!) but if I found myself suddenly laid off from a company that cited AI as a cause, this is what I’d do:\n\n- download codex and Claude/code \n- say: “this was my job and how I spent my day, how can you help me automate it w skills”\n- push a dozen of those skills to GitHub \n- open up Claude design and make a portfolio site, with an “agent” per skill explaining how you built it, what tools it interacts with, etc.” give to lovable or v0 or whatever to publish \n- post that site and link to GitHub on LinkedIn\n- search “ai for <job>” and try all the new startups, form an opinion, message their founders\n- try something scary like openclaw, form an opinion\n- take a course in tactical AI in your field \n- build, share, build\n\nThe gap in AI adoption is getting bigger. Start reskilling now while it’s early. \n\nThe time is now.",
+      "createdAt": "Tue May 05 13:58:53 +0000 2026",
+      "viewCount": 106810,
+      "likeCount": 1555,
+      "retweetCount": 110,
+      "author": {
+        "userName": "clairevo",
+        "name": "claire vo 🖤",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/clairevo/status/2051662923651805656",
+      "is_official": true
+    },
+    {
+      "id": "2051679629488865498",
+      "text": "New for financial services: ready-to-run Claude agent templates for building pitches, conducting valuation reviews, closing the books at month-end, and more.\n\nInstall them as plugins in Cowork and Claude Code, or use our cookbooks to run them in production as Managed Agents. https://t.co/Nzj4Feaaz2",
+      "createdAt": "Tue May 05 15:05:16 +0000 2026",
+      "viewCount": 5695036,
+      "likeCount": 20333,
+      "retweetCount": 1469,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2051679629488865498",
+      "is_official": true
+    },
+    {
+      "id": "2051693893473935372",
+      "text": "Today we're launching Perplexity Computer for Professional Finance.\n\nFinance teams can bring licensed data from providers like Morningstar, PitchBook, Daloopa, and Carbon Arc into Computer.\n\nWe’ve also added 35 dedicated finance workflows for the work analysts repeat every week. https://t.co/AfWvC2FOpA",
+      "createdAt": "Tue May 05 16:01:57 +0000 2026",
+      "viewCount": 317943,
+      "likeCount": 2105,
+      "retweetCount": 202,
+      "author": {
+        "userName": "perplexity_ai",
+        "name": "Perplexity",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/perplexity_ai/status/2051693893473935372",
+      "is_official": true
+    },
+    {
+      "id": "2051758445402223051",
+      "text": "in particular, the combination of improvements to speed, intelligence, personality, and great memory/personalization feels like a more-than-sum-of-the-parts thing when it all hits together",
+      "createdAt": "Tue May 05 20:18:27 +0000 2026",
+      "viewCount": 110965,
+      "likeCount": 1104,
+      "retweetCount": 36,
+      "author": {
+        "userName": "sama",
+        "name": "Sam Altman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sama/status/2051758445402223051",
+      "is_official": false
+    },
+    {
+      "id": "2051525926874501291",
+      "text": "The biggest advancement in AI coding this year has been /goal\n\nAnd it isn't even close\n\nIt allows your AI agent to quite literally work for days without stopping. You give a mission. It works until the mission is complete\n\nHere's the thing though: /goal is useless if you don't use it properly\n\nYou NEED a good prompt for it\n\nI found basically any prompt I hand write after /goal is never good enough. It produces results that might as well have been a normal prompt\n\nMeta prompting is the answer\n\nGo to any AI that has context around the project you're working on\n\nSay \"I'm working with Codex and I want to use their new /goal feature. Please research their /goal feature. Then, take a look at our project and give me 3 options for how we could use /goal to be maximally productive. Then give me a highly detailed /goal prompt for each\"\n\nTake one of the prompts then go into the Codex CLI and type /goal then give the new prompt\n\nI 100% guarantee the AI does better work than you've ever seen before",
+      "createdAt": "Tue May 05 04:54:31 +0000 2026",
+      "viewCount": 88845,
+      "likeCount": 1654,
+      "retweetCount": 96,
+      "author": {
+        "userName": "AlexFinn",
+        "name": "Alex Finn",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AlexFinn/status/2051525926874501291",
+      "is_official": false
+    },
+    {
+      "id": "2051776032127238266",
+      "text": "ChatGPT is now available as an add-on in Excel and Google Sheets.\n\nIt can help analyze messy data, write formulas, update spreadsheets, and explain what it’s doing along the way—without leaving your spreadsheet.\n\nPowered by GPT-5.5.\n\nhttps://t.co/XEH9AqKXnQ https://t.co/qfdXKzym6r",
+      "createdAt": "Tue May 05 21:28:20 +0000 2026",
+      "viewCount": 77150,
+      "likeCount": 1525,
+      "retweetCount": 121,
+      "author": {
+        "userName": "ChatGPTapp",
+        "name": "ChatGPT",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/ChatGPTapp/status/2051776032127238266",
+      "is_official": true
+    },
+    {
+      "id": "2051724685231214650",
+      "text": "i would like to talk to people who have built amazing things with 5.5 that weren't possible with earlier models. i am especially interested in examples that took ludicrous token budgets. thanks.",
+      "createdAt": "Tue May 05 18:04:18 +0000 2026",
+      "viewCount": 429836,
+      "likeCount": 4951,
+      "retweetCount": 160,
+      "author": {
+        "userName": "sama",
+        "name": "Sam Altman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sama/status/2051724685231214650",
+      "is_official": false
+    },
+    {
+      "id": "2051724824947646921",
+      "text": "iOS 27 Will Let You Pick Claude or Gemini Instead of ChatGPT for Apple Intelligence https://t.co/XHzVDsElNJ",
+      "createdAt": "Tue May 05 18:04:52 +0000 2026",
+      "viewCount": 148072,
+      "likeCount": 2767,
+      "retweetCount": 70,
+      "author": {
+        "userName": "MacRumors",
+        "name": "MacRumors.com",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/MacRumors/status/2051724824947646921",
+      "is_official": true
+    },
+    {
+      "id": "2051572691635749221",
+      "text": "🚨 Anthropic partners with Blackstone, Hellman &amp; Friedman, and Goldman Sachs to launch a new AI services firm. https://t.co/NezY6DY9e6",
+      "createdAt": "Tue May 05 08:00:20 +0000 2026",
+      "viewCount": 56350,
+      "likeCount": 2368,
+      "retweetCount": 95,
+      "author": {
+        "userName": "IndianTechGuide",
+        "name": "Indian Tech & Infra",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/IndianTechGuide/status/2051572691635749221",
+      "is_official": false
+    },
+    {
+      "id": "2051591792064110753",
+      "text": "> 4,200 paying subscribers.\n> $127,000 a month.\n> 5 different girls. 5 backstories. 5 personalities.\n> none of them exist.\n> Claude writes every DM. Flux generates every photo. ElevenLabs makes every voice note.\n> if a subscriber asks \"are you real?\" — the system is literally instructed to lie.\n> 4,200 men paying $30/message to a ghost.\n> this isn't a side hustle.\n> this is fraud at scale, dressed up as a productivity thread.\n> 2026 isn't the year AI took jobs.\n> it's the year AI took lovers — and the bill came with it.",
+      "createdAt": "Tue May 05 09:16:14 +0000 2026",
+      "viewCount": 296605,
+      "likeCount": 1177,
+      "retweetCount": 137,
+      "author": {
+        "userName": "dunik_7",
+        "name": "dunik",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/dunik_7/status/2051591792064110753",
+      "is_official": false
+    },
+    {
+      "id": "2051758152224506203",
+      "text": "the new instant model in chatgpt is so good damn\n\nif you have been thinking-model-only for awhile, give it a try!",
+      "createdAt": "Tue May 05 20:17:17 +0000 2026",
+      "viewCount": 334984,
+      "likeCount": 2581,
+      "retweetCount": 85,
+      "author": {
+        "userName": "sama",
+        "name": "Sam Altman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sama/status/2051758152224506203",
+      "is_official": false
+    },
+    {
+      "id": "2051716909629153573",
+      "text": "5.5 instant comes to ChatGPT today!\n\nimo it is a pretty big upgrade, i really like using it.",
+      "createdAt": "Tue May 05 17:33:24 +0000 2026",
+      "viewCount": 160162,
+      "likeCount": 2276,
+      "retweetCount": 102,
+      "author": {
+        "userName": "sama",
+        "name": "Sam Altman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sama/status/2051716909629153573",
+      "is_official": false
+    },
+    {
+      "id": "2051745400055288182",
+      "text": "that's my quant. my quantitative. my MATH specialist. https://t.co/DQlj11EwJ6",
+      "createdAt": "Tue May 05 19:26:37 +0000 2026",
+      "viewCount": 212703,
+      "likeCount": 2529,
+      "retweetCount": 157,
+      "author": {
+        "userName": "fabianstelzer",
+        "name": "fabian",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/fabianstelzer/status/2051745400055288182",
+      "is_official": false
+    },
+    {
+      "id": "2051709103614083475",
+      "text": "GPT-5.5 Instant is starting to roll out to everyone in ChatGPT. \n\nMuch more concise. Better memory. More personalized.\n\nAnd it's way easier to talk to. Really. https://t.co/C6iCpFZte7",
+      "createdAt": "Tue May 05 17:02:23 +0000 2026",
+      "viewCount": 112666,
+      "likeCount": 2044,
+      "retweetCount": 130,
+      "author": {
+        "userName": "ChatGPTapp",
+        "name": "ChatGPT",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/ChatGPTapp/status/2051709103614083475",
+      "is_official": true
+    }
+  ]
+}

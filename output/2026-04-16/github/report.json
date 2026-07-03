@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-04-16",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "最热的共同方向是围绕大模型与智能体的编程增强、工作流自动化和多代理协作框架迅速升温。",
+  "items": [
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "单个 CLAUDE.md 文件，用于改进 Claude Code 的行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。",
+      "language": "Unknown",
+      "stars_today": 9646,
+      "stars_total": 42773
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Claude Code 插件，可自动捕获 Claude 在编码会话中的全部操作，用 AI（基于 Claude 的 agent-sdk）压缩后，并将相关上下文注入未来会话。",
+      "language": "TypeScript",
+      "stars_today": 2305,
+      "stars_total": 57764
+    },
+    {
+      "repo": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型 Dive into LLMs》系列编程实践教程。",
+      "language": "Jupyter Notebook",
+      "stars_today": 941,
+      "stars_total": 29377
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "AI 对冲基金团队。",
+      "language": "Python",
+      "stars_today": 1058,
+      "stars_total": 55031
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一套行之有效的智能体技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 2055,
+      "stars_total": 154222
+    },
+    {
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "开源语音合成工作室。",
+      "language": "TypeScript",
+      "stars_today": 1062,
+      "stars_total": 18244
+    },
+    {
+      "repo": "vercel-labs/open-agents",
+      "url": "https://github.com/vercel-labs/open-agents",
+      "description": "用于构建云端智能体的开源模板。",
+      "language": "TypeScript",
+      "stars_today": 915,
+      "stars_total": 2607
+    },
+    {
+      "repo": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "description": "自进化智能体：从 3.3K 行种子代码生长技能树，以少 6 倍 token 消耗实现完整系统控制。",
+      "language": "Python",
+      "stars_today": 446,
+      "stars_total": 1907
+    },
+    {
+      "repo": "google/magika",
+      "url": "https://github.com/google/magika",
+      "description": "快速且准确的 AI 驱动文件内容类型检测。",
+      "language": "Python",
+      "stars_today": 768,
+      "stars_total": 13750
+    },
+    {
+      "repo": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "description": "把 Claude Code 变成完整的游戏开发工作室——包含 49 个 AI 智能体、72 个工作流技能，以及一套映射真实工作室层级的完整协同系统。",
+      "language": "Shell",
+      "stars_today": 612,
+      "stars_total": 10385
+    }
+  ]
+}

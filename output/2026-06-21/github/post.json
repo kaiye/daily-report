@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-06-21T00:02:54.455Z",
+  "source_raw": "raw.json",
+  "source_count": 17,
+  "item_count": 15,
+  "language_breakdown": {
+    "Swift": 1,
+    "Clojure": 1,
+    "Python": 3,
+    "Rust": 2,
+    "C": 1,
+    "TypeScript": 5,
+    "Shell": 1,
+    "Kotlin": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "palmier-io/palmier-pro",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "language": "Swift",
+      "stars_today": 902,
+      "stars_total": 3318,
+      "forks": 276
+    },
+    {
+      "rank": 2,
+      "repo": "penpot/penpot",
+      "url": "https://github.com/penpot/penpot",
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "language": "Clojure",
+      "stars_today": 420,
+      "stars_total": 51397,
+      "forks": 3299
+    },
+    {
+      "rank": 3,
+      "repo": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars_today": 677,
+      "stars_total": 7039,
+      "forks": 1147
+    },
+    {
+      "rank": 4,
+      "repo": "tursodatabase/turso",
+      "url": "https://github.com/tursodatabase/turso",
+      "description": "Turso is an in-process SQL database, compatible with SQLite.",
+      "language": "Rust",
+      "stars_today": 801,
+      "stars_total": 20319,
+      "forks": 1042
+    },
+    {
+      "rank": 5,
+      "repo": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars_today": 1271,
+      "stars_total": 9324,
+      "forks": 706
+    },
+    {
+      "rank": 6,
+      "repo": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars_today": 433,
+      "stars_total": 24535,
+      "forks": 2326
+    },
+    {
+      "rank": 7,
+      "repo": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "language": "TypeScript",
+      "stars_today": 140,
+      "stars_total": 50854,
+      "forks": 7412
+    },
+    {
+      "rank": 8,
+      "repo": "Kong/insomnia",
+      "url": "https://github.com/Kong/insomnia",
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "language": "TypeScript",
+      "stars_today": 329,
+      "stars_total": 39320,
+      "forks": 2324
+    },
+    {
+      "rank": 9,
+      "repo": "tw93/Pake",
+      "url": "https://github.com/tw93/Pake",
+      "description": "🤱🏻 Turn any webpage into a desktop app with one command.",
+      "language": "Rust",
+      "stars_today": 2546,
+      "stars_total": 54694,
+      "forks": 10871
+    },
+    {
+      "rank": 10,
+      "repo": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "language": "Python",
+      "stars_today": 3795,
+      "stars_total": 41819,
+      "forks": 2871
+    },
+    {
+      "rank": 11,
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "stars_today": 145,
+      "stars_total": 31007,
+      "forks": 3834
+    },
+    {
+      "rank": 12,
+      "repo": "Kilo-Org/kilocode",
+      "url": "https://github.com/Kilo-Org/kilocode",
+      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+      "language": "TypeScript",
+      "stars_today": 513,
+      "stars_total": 23341,
+      "forks": 2742
+    },
+    {
+      "rank": 13,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars_today": 1395,
+      "stars_total": 138189,
+      "forks": 11991
+    },
+    {
+      "rank": 14,
+      "repo": "withastro/flue",
+      "url": "https://github.com/withastro/flue",
+      "description": "The sandbox agent framework.",
+      "language": "TypeScript",
+      "stars_today": 316,
+      "stars_total": 6089,
+      "forks": 344
+    },
+    {
+      "rank": 16,
+      "repo": "pppscn/SmsForwarder",
+      "url": "https://github.com/pppscn/SmsForwarder",
+      "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
+      "language": "Kotlin",
+      "stars_today": 104,
+      "stars_total": 26485,
+      "forks": 3273
+    }
+  ]
+}

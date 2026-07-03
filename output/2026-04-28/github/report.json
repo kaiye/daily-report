@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-04-28",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今天最热的共同方向是围绕 Claude、Codex、Graph RAG、多智能体与语音模型的 AI 开发工具链和代理能力持续升温。",
+  "items": [
+    {
+      "repo": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus：零服务器代码智能引擎，是一个完全在浏览器中运行的客户端知识图谱创建器，导入 GitHub 仓库或 ZIP 文件即可获得带内置 Graph RAG Agent 的交互式知识图谱。",
+      "language": "TypeScript",
+      "stars_today": 1102,
+      "stars_total": 31494
+    },
+    {
+      "repo": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "为跨 Codex CLI 和 API 自动化工作流而整理的实用 Codex skills 清单。",
+      "language": "Python",
+      "stars_today": 638,
+      "stars_total": 2761
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "可在终端、VSCode 扩展或像 openclaw 那样通过 Discord 免费使用 claude-code。",
+      "language": "Python",
+      "stars_today": 2949,
+      "stars_total": 16038
+    },
+    {
+      "repo": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads——为你的编码代理提供记忆升级。",
+      "language": "Go",
+      "stars_today": 498,
+      "stars_total": 22179
+    },
+    {
+      "repo": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "用于配置和监控 Claude Code 的 CLI 工具。",
+      "language": "Python",
+      "stars_today": 154,
+      "stars_total": 25775
+    },
+    {
+      "repo": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "开源前沿语音 AI。",
+      "language": "Python",
+      "stars_today": 757,
+      "stars_total": 43066
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents：多智能体 LLM 金融交易框架。",
+      "language": "Python",
+      "stars_today": 248,
+      "stars_total": 53753
+    },
+    {
+      "repo": "CJackHwang/ds2api",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "description": "Deepseek to API：轻量高性能全栈中间件，可将客户端协议转换为通用 API，并兼容 Google、Claude 和 OpenAI API 格式。",
+      "language": "Go",
+      "stars_today": 138,
+      "stars_total": 1826
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "report_date": "2026-05-29",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "今日AI媒体重点集中在Agent工具链、具身智能与多变量缩放规律等技术路线的产品化和开源进展。",
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "Mila与DeepMind提出统一多变量神经缩放定律UNSL",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035468&idx=2&sn=04c057ee3ddfb6194df95cb4f6c03ef2",
+      "published_at": "2026-05-28T04:30:00.000Z",
+      "summary": "该研究尝试把参数量、数据量、训练步数、token数量、batch size和推理计算等变量纳入同一缩放规律框架。"
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "Viking AI搜索CLI发布，可用对话完成搜索推荐配置",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520074&idx=1&sn=3eed7d763e69903e7c29cbe894a0f156",
+      "published_at": "2026-05-28T09:00:00.000Z",
+      "summary": "SearchCLI通过IaC范式整合数据入库、效果评测和搜推问答策略调优等流程，让Agent执行原本复杂的工程链路。"
+    },
+    {
+      "source": "新智元",
+      "title": "清华团队开源Agent系统PilotDeck，称Token成本可降70%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652703429&idx=1&sn=9fff850b5bb3408d2c399bfdc0420ab8",
+      "published_at": "2026-05-28T04:38:00.000Z",
+      "summary": "PilotDeck面向开发者提供任务并行、项目独立管理、记忆可视化与成本控制能力，用于构建多Agent协作系统。"
+    },
+    {
+      "source": "极客公园",
+      "title": "Genesis AI开源机器人训练场以加速仿真评测",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107500&idx=2&sn=178e51111ce49dab0829521fd7e689ee",
+      "published_at": "2026-05-28T10:28:00.000Z",
+      "summary": "该训练场面向机器人模型开发，把真实世界需要数百小时的评测任务压缩到仿真环境中的短时间运行。"
+    },
+    {
+      "source": "极客公园",
+      "title": "物理AI的早期答案可能先出现在工厂里",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107500&idx=1&sn=fecb6d7e4d7d7e2e55ccecf9897c4240",
+      "published_at": "2026-05-28T10:28:00.000Z",
+      "summary": "文章通过对话微亿智造讨论具身智能进入工厂后面临的稳定性、低故障运行和系统化落地门槛。"
+    },
+    {
+      "source": "极客公园",
+      "title": "宇树在全球具身浪潮中的位置引发讨论",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107511&idx=1&sn=1ceba01ef8ee7e126d202a4be37fe636",
+      "published_at": "2026-05-28T12:36:00.000Z",
+      "summary": "文章围绕宇树科创板上会稿、估值争议和人形机器人出货情况，讨论其硬件能力在具身智能赛道中的价值。"
+    },
+    {
+      "source": "极客公园",
+      "title": "雷军回应武契奇“小米汽车买不起”，Meta推出AI聊天机器人订阅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107413&idx=1&sn=f379e434d974d49fc8c9b8941575fd42",
+      "published_at": "2026-05-28T00:34:00.000Z",
+      "summary": "这篇早报汇总了小米汽车参访、Meta AI聊天机器人订阅服务、英伟达CEO黄仁勋动态等多条科技公司消息。"
+    },
+    {
+      "source": "机器之心",
+      "title": "AutoMoT在B2D与nuScenes上取得双SOTA，探索VLM结合端到端驾驶",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651035468&idx=3&sn=c2d8f60bfc41fea7fcdfcd7d25b83291",
+      "published_at": "2026-05-28T04:30:00.000Z",
+      "summary": "该工作关注如何让大模型的场景理解能力服务于自动驾驶中的决策和轨迹规划任务。"
+    }
+  ]
+}

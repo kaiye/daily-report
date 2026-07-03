@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-05-09T00:01:07.049Z",
+  "source_raw": "raw.json",
+  "source_count": 12,
+  "item_count": 11,
+  "language_breakdown": {
+    "Python": 6,
+    "Shell": 1,
+    "Rust": 1,
+    "JavaScript": 1,
+    "TypeScript": 1,
+    "Dart": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management.\n\nEverything here is available two ways from one source : install it as a Claude Cowork plugin, or deploy it through the Claude Managed Agents API behind your own workflow engine. Same system prompt, same skills — you choose where it runs.",
+      "language": "Python",
+      "stars_today": 3660,
+      "stars_total": 15071,
+      "forks": 1881
+    },
+    {
+      "rank": 2,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars_today": 1893,
+      "stars_total": 35323,
+      "forks": 4017
+    },
+    {
+      "rank": 3,
+      "repo": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "stars_today": 3731,
+      "stars_total": 21710,
+      "forks": 1688
+    },
+    {
+      "rank": 4,
+      "repo": "z-lab/dflash",
+      "url": "https://github.com/z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "stars_today": 379,
+      "stars_total": 3839,
+      "forks": 265
+    },
+    {
+      "rank": 5,
+      "repo": "decolua/9router",
+      "url": "https://github.com/decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
+      "stars_today": 1052,
+      "stars_total": 5547,
+      "forks": 1066
+    },
+    {
+      "rank": 6,
+      "repo": "CloakHQ/CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars_today": 526,
+      "stars_total": 2944,
+      "forks": 232
+    },
+    {
+      "rank": 8,
+      "repo": "HKUDS/AI-Trader",
+      "url": "https://github.com/HKUDS/AI-Trader",
+      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+      "language": "Python",
+      "stars_today": 202,
+      "stars_total": 14596,
+      "forks": 2432
+    },
+    {
+      "rank": 9,
+      "repo": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local &amp; Encrypted.",
+      "language": "Python",
+      "stars_today": 559,
+      "stars_total": 6716,
+      "forks": 594
+    },
+    {
+      "rank": 10,
+      "repo": "lobehub/lobehub",
+      "url": "https://github.com/lobehub/lobehub",
+      "description": "The ultimate space for work and life — to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level — enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+      "language": "TypeScript",
+      "stars_today": 125,
+      "stars_total": 76486,
+      "forks": 15112
+    },
+    {
+      "rank": 11,
+      "repo": "datawhalechina/hello-agents",
+      "url": "https://github.com/datawhalechina/hello-agents",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "language": "Python",
+      "stars_today": 667,
+      "stars_total": 44534,
+      "forks": 5416
+    },
+    {
+      "rank": 12,
+      "repo": "flutter/skills",
+      "url": "https://github.com/flutter/skills",
+      "description": "Agent skills for Flutter, maintained by the Flutter team. A collection of skills providing tailored instructions for happy path Flutter app development workflows. By giving the agent actual domain expertise and repeatable workflows, you drastically reduce mistakes and ensure agents reliably complete the task following best practices.\n\nSkills are essentially simple folders of files that can be seen as complementary to MCP, where MCP gives an agent access to specialized tools and a Skill teaches the agent “how” to use tools for a specific task.",
+      "language": "Dart",
+      "stars_today": 118,
+      "stars_total": 1660,
+      "forks": 92
+    }
+  ]
+}

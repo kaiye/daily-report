@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-04-24",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "这些帖子共同表明，AI竞争正加速转向更强的代理执行、工具调用与真实工作流落地能力。",
+  "items": [
+    {
+      "id": "2047421844311949513",
+      "author_name": "Claude",
+      "author_handle": "claudeai",
+      "text": "Claude 托管代理的记忆功能现已进入公开测试，让代理能从每次会话中学习，并在性能与灵活性之间取得平衡。",
+      "url": "https://twitter.com/claudeai/status/2047421844311949513",
+      "view_count": 159838,
+      "like_count": 3748
+    },
+    {
+      "id": "2047190578493096122",
+      "author_name": "Kimi.ai",
+      "author_handle": "Kimi_Moonshot",
+      "text": "我们发布了 Kimi K2.6 Agent Swarm：支持 300 个并行子代理、每次运行 4000 步，并能直接产出大量文件、长篇综述和结构化数据集。",
+      "url": "https://twitter.com/Kimi_Moonshot/status/2047190578493096122",
+      "view_count": 421336,
+      "like_count": 3062
+    },
+    {
+      "id": "2047371123185287223",
+      "author_name": "ClaudeDevs",
+      "author_handle": "ClaudeDevs",
+      "text": "过去一个月大家反馈 Claude Code 质量下滑；我们已定位三项问题并发布复盘，这些问题已在 v2.1.116+ 修复，同时重置了所有订阅用户的额度。",
+      "url": "https://twitter.com/ClaudeDevs/status/2047371123185287223",
+      "view_count": 3126653,
+      "like_count": 26965
+    },
+    {
+      "id": "2047376561205325845",
+      "author_name": "OpenAI",
+      "author_handle": "OpenAI",
+      "text": "我们发布了 GPT-5.5：它更擅长理解复杂目标、调用工具、自检并把任务真正做完，现已上线 ChatGPT 和 Codex。",
+      "url": "https://twitter.com/OpenAI/status/2047376561205325845",
+      "view_count": 4931614,
+      "like_count": 35557
+    },
+    {
+      "id": "2047383764347572389",
+      "author_name": "Claude",
+      "author_handle": "claudeai",
+      "text": "Claude 现在能连接更多工作之外常用应用，包括旅行预订、订餐、购物、音乐和报税等服务。",
+      "url": "https://twitter.com/claudeai/status/2047383764347572389",
+      "view_count": 632633,
+      "like_count": 8224
+    },
+    {
+      "id": "2047441173569216721",
+      "author_name": "xAI",
+      "author_handle": "xai",
+      "text": "我们推出了 Grok Voice Think Fast 1.0，这是一款面向复杂多步工作流的语音模型，响应迅速、准确率高，并且更能应对噪音、口音和打断。",
+      "url": "https://twitter.com/xai/status/2047441173569216721",
+      "view_count": 90507,
+      "like_count": 1465
+    },
+    {
+      "id": "2047245316391670042",
+      "author_name": "Charly Wargnier",
+      "author_handle": "DataChaz",
+      "text": "我感觉谷歌这波太狠了：Anthropic 刚因 Claude Design 限额引发争议，谷歌就直接把 DESIGN.md 开源出来了。",
+      "url": "https://twitter.com/DataChaz/status/2047245316391670042",
+      "view_count": 1201093,
+      "like_count": 5649
+    },
+    {
+      "id": "2047388614167003208",
+      "author_name": "ARC Prize",
+      "author_handle": "arcprize",
+      "text": "经验证，GPT-5.5 在 ARC-AGI-2 上达到新的最佳水平，成为这项基准上的当前最强模型。",
+      "url": "https://twitter.com/arcprize/status/2047388614167003208",
+      "view_count": 140969,
+      "like_count": 1494
+    }
+  ]
+}

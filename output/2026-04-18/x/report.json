@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-04-18",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "最重要的共同信号是，AI 产品正从单纯对话快速走向可直接生成设计、文档、文件与工作流结果的生产级创作平台。",
+  "items": [
+    {
+      "id": "2045156267690213649",
+      "author_name": "Claude",
+      "author_handle": "claudeai",
+      "text": "我们发布了 Anthropic Labs 的 Claude Design，只需和 Claude 对话就能做原型、幻灯片和单页内容；由更强的视觉模型 Claude Opus 4.7 驱动，现已向部分付费方案逐步开放研究预览。",
+      "url": "https://twitter.com/claudeai/status/2045156267690213649",
+      "view_count": 26186081,
+      "like_count": 90714
+    },
+    {
+      "id": "2045206682830303358",
+      "author_name": "ClaudeDevs",
+      "author_handle": "ClaudeDevs",
+      "text": "我们为 Claude Code 增加了更细的用量可见性；运行 /usage 就能看到并行会话、子代理、缓存未命中和长上下文等消耗来源，以及各自的优化建议。",
+      "url": "https://twitter.com/ClaudeDevs/status/2045206682830303358",
+      "view_count": 140913,
+      "like_count": 3632
+    },
+    {
+      "id": "2045163029138948493",
+      "author_name": "Canva",
+      "author_handle": "canva",
+      "text": "我们与 Anthropic 的新合作已经上线：Canva 现已接入 Claude Design，可在 Claude 里生成想法，再无缝到 Canva 中编辑，不必从零开始。",
+      "url": "https://twitter.com/canva/status/2045163029138948493",
+      "view_count": 705312,
+      "like_count": 4764
+    },
+    {
+      "id": "2045052912221724801",
+      "author_name": "Prime AI",
+      "author_handle": "primemans",
+      "text": "这效果太夸张了：很多人学语言很多年还是开不了口，而我认为 Claude 用 4 周做到了 Duolingo 4 年都没解决的事，下面会分享提示词。",
+      "url": "https://twitter.com/primemans/status/2045052912221724801",
+      "view_count": 283833,
+      "like_count": 2149
+    },
+    {
+      "id": "2045151254889041951",
+      "author_name": "DogeDesigner",
+      "author_handle": "cb_doge",
+      "text": "我认为 Grok 4.3（测试版）通过了 Caitlyn Jenner AI 测试，而 ChatGPT 依然过不了；在我看来这轮是 Grok 再次胜出。",
+      "url": "https://twitter.com/cb_doge/status/2045151254889041951",
+      "view_count": 318366,
+      "like_count": 1845
+    },
+    {
+      "id": "2045180268605260148",
+      "author_name": "tetsuo",
+      "author_handle": "tetsuoai",
+      "text": "grok 4.3 beta 现在能调用 Ubuntu shell 和持久文件层来生成成品；我让它写脚本把 xAI/Grok 标志编码成音频，再渲染成频谱视频并保存到文件层，整个流程已经非常夸张。",
+      "url": "https://twitter.com/tetsuoai/status/2045180268605260148",
+      "view_count": 5237418,
+      "like_count": 1635
+    },
+    {
+      "id": "2045092507881451802",
+      "author_name": "Tech Dev Notes",
+      "author_handle": "techdevnotes",
+      "text": "Grok 4.3 现在已经能创建 PDF，以及表格、幻灯片、文档等几乎各种文件格式。",
+      "url": "https://twitter.com/techdevnotes/status/2045092507881451802",
+      "view_count": 6839785,
+      "like_count": 1887
+    },
+    {
+      "id": "2045056886450553129",
+      "author_name": "Theo - t3.gg",
+      "author_handle": "theo",
+      "text": "“很多人都在用 Claude Code，所以它没那么差”——我不认同这种心态；这正是行业当年被 Internet Explorer 拖住的方式，我会继续推动大家把产品做得更好。",
+      "url": "https://twitter.com/theo/status/2045056886450553129",
+      "view_count": 42646,
+      "like_count": 1937
+    },
+    {
+      "id": "2045174906913014101",
+      "author_name": "Alex Bouaziz",
+      "author_handle": "Bouazizalex",
+      "text": "致强大的 Dario Amodei、Claude 之父：还请把薪资业务留给我们 Deel；我们只是处理工资单和合规的小团队，如果你们真要做，至少先给我打个电话。",
+      "url": "https://twitter.com/Bouazizalex/status/2045174906913014101",
+      "view_count": 517357,
+      "like_count": 3340
+    },
+    {
+      "id": "2045230426210648348",
+      "author_name": "Kevin Weil 🇺🇸",
+      "author_handle": "kevinweil",
+      "text": "今天是我在 OpenAI 的最后一天，因为 OpenAI for Science 正被分散到其他研究团队；这两年非常开阔认知，我依然相信加速科学会是通往 AGI 过程中最积极的成果之一。",
+      "url": "https://twitter.com/kevinweil/status/2045230426210648348",
+      "view_count": 253096,
+      "like_count": 2719
+    }
+  ]
+}

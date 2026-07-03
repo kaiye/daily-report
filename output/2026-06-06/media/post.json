@@ -1,0 +1,284 @@
+{
+  "generated_at": "2026-06-06T00:01:32.826Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 25,
+  "items": [
+    {
+      "source": "腾讯技术工程",
+      "title": "如何写好 Skill：一份终极实战经验手册",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801836&idx=1&sn=f01a69e0c012eafde5f8bc76804bc5fb",
+      "published_at": "2026-06-05T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-06-05 17:36 广东\n\n鹅厂团队积累的知识，帮大家少走弯路\n\n作者：jackjchou\n这篇文章把我们写 Skill 踩过的坑、总结出的经验，再加上 Anthropic 官方的一些好做法，整理到了一起。希望能帮你少走弯路，把团队积累的知识真正\"喂\"给 AI，让它干活更靠谱。 本文示例以 Go 语言为主，兼顾 Python、Java 等语言，所有原则和技巧适用于任何编程语言。\n### 阅读建议\n\n文章比较长，不同背景的读者可以按需跳读：\n\n| 你的情况 | 推荐阅读路径 |\n| --- | --- |\n| **从没写过 Skill，想快速上手** | 一 → 二",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "模型也需要「睡觉」？CMU新论文让LLM在梦中「巩固记忆」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037190&idx=2&sn=b5976fc929c8c0c135d11c99e0ea1ace",
+      "published_at": "2026-06-05T04:07:00.000Z",
+      "summary": "原创关注AI的 2026-06-05 12:07 辽宁\n\n睡得越久，推理越强？\n\n机器之心编辑部\n\n很长一段时间，「长上下文」一直是各大模型厂商军备竞赛的焦点，从 128K 到 1M，再到更长的上下文窗口，业界已然形成一个固有认知，只要窗口足够大，模型就能记住更多内容，也就能处理更长、更复杂的任务。\n\n但问题也随之而来：上下文越长，KV Cache 越臃肿，不仅导致显存瞬间被「吃光」，推理速度愈发缓慢，成本也迅速上升。\n\n更关键的是，把更多 token 放进窗口，并不等于模型真的把这些信息转化成了可推理的长期记忆，结果是，榜单分数越刷越高，可在一些需要「深度脑暴」的复杂推理任务中，模型常常因为",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google will pay SpaceX $920M per month for compute",
+      "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+      "published_at": "2026-06-05T18:57:20.000Z",
+      "summary": "In a statement, a Google representative described the deal as a result of unexpected demand for its recently launched AI products.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in May 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/",
+      "published_at": "2026-06-05T14:45:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/May_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from May 2026",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "100亿砸向人形，不如先让10万台机器狗走进家庭",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895384&idx=1&sn=f120fe3de0cafc7135f409dbd0980e8e",
+      "published_at": "2026-06-05T03:53:00.000Z",
+      "summary": "关注前沿科技 2026-06-05 11:53 北京\n\n所有通用技术，最后都要回到消费市场\n\n##### 田晏林 发自 凹非寺 量子位 | 公众号 QbitAI\n\n「下一代真正改变世界的东西，刚开始看起来往往都像玩具。」\n\n——Clayton Christensen\n\n你别说，哈佛商学院教授这话初听不觉，细品悟了！（doge）\n\n四足机器人的处境不就是这样嘛！\n\n还记得5月17日，蔚蓝科技发布的消费级四足机器人BabyAlpha A3么？\n\n1000倍算力跃迁、端侧70亿参数大模型本地运行，感知能力对标甚至部分超越人类……\n\n（对产品感兴趣的朋友，戳👉[1000X进化 | 蔚蓝 BabyAl",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "罗永浩卸任锤子软件「执行董事」；iOS 27 升级名单曝光；网友热议苹果输入法离谱错误 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108207&idx=1&sn=0b0ca160aed35fa18656e2c9c719b147",
+      "published_at": "2026-06-05T00:17:00.000Z",
+      "summary": "任泓玲 2026-06-05 08:17 湖北\n\n法拉利首款纯电车型 Luce 遭群嘲；微软重押 Win11 原生应用：WinUI 3 改名 WinUI；黄仁勋为英伟达 GTX 1080 显卡签名：称其是自己的最爱之一，改变了一切。\n\n## 微软重押 Win11 原生应用：WinUI 3 改名 WinUI，承诺不再另起新 UI 框架\n\n6 月 4 日消息，科技媒体 Windows Central 昨日（6 月 3 日）发布博文，报道称在 Build 2026 开发者大会上，微软把 Windows 11 原生应用重新推到台前。\n\n微软确认 WinUI 是 Windows 应用的最优生产平台，并放",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The most interesting startups right now want to get you off your phone",
+      "url": "https://techcrunch.com/video/the-most-interesting-startups-right-now-want-to-get-you-off-your-phone/",
+      "published_at": "2026-06-05T17:17:06.000Z",
+      "summary": "While the AI fundraising machine&#160;keeps breaking its own records, some founders are building in the other direction.&#160; Mirror founder Brynn Putnam just raised money for&#160;Board, a startup focused on bringing people together through in-person games and social experiences.&#160;Cyberdeck cr",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The ‘together tech’ wave might be the most intriguing startup bet of 2026",
+      "url": "https://techcrunch.com/podcast/the-together-tech-wave-might-be-the-most-intriguing-startup-bet-of-2026/",
+      "published_at": "2026-06-05T14:00:00.000Z",
+      "summary": "While the AI fundraising machine&#160;keeps breaking its own records, some founders are building in the other direction.&#160; Mirror founder Brynn Putnam just raised money for&#160;Board, a startup focused on bringing people together through in-person games and social experiences.&#160;Cyberdeck cr",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "进家大战已经打响，第一个跑出来的不是人形",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037190&idx=1&sn=2caac8a67974cf40e6577a707b4b0e3d",
+      "published_at": "2026-06-05T04:07:00.000Z",
+      "summary": "原创机器之心 2026-06-05 12:07 辽宁\n\n让上万个家庭主动掏钱买机器人，他们做对了什么？\n\n编辑｜张倩\n\n现在市面上那么多机器人，有哪款是你真的愿意掏钱买回去的？\n\n2026 年，这个问题变得愈发重要，它直接决定了一家具身智能公司能否靠自己的造血能力活下去，而不是永远等待下一轮融资。\n\n与此同时，市场投票其实已经给出了一些结果。其中最值得关注的一个现象是：在公认难度极高的家庭消费场景，已经有公司卖出了 25000 多台。\n\n这家公司叫蔚蓝科技。前段时间，他们的新产品 —— [BabyAlpha A3 机器狗](https://mp.weixin.qq.com/s?__biz=Mz",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Thousand Token Wood: shipping a multi-agent economy on a 3B model",
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim",
+      "published_at": "2026-06-05T22:18:46.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Meta hack shows there’s more to AI security than Mythos",
+      "url": "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
+      "published_at": "2026-06-05T09:00:00.000Z",
+      "summary": "On June 5,*404 Media* [reported](https://www.404media.co/hackers-simply-asked-meta-ai-to-give-them-access-to-high-profile-instagram-accounts-it-worked/)that attackers had been using Meta’s AI customer support agent to steal Instagram accounts. Their approach was simple: They asked the agent to link ",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "刚刚，姚顺雨现身！公开回应腾讯AI落后了吗？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895384&idx=2&sn=82352ccf721fb2f7d2b71a03ced50f9e",
+      "published_at": "2026-06-05T03:53:00.000Z",
+      "summary": "关注前沿科技 2026-06-05 11:53 北京\n\n现场爆满！干货太密集！\n\n##### 闻乐 听雨 发自 凹非寺 量子位 | 公众号 QbitAI\n\n**姚顺雨** 开讲了，现场爆满！\n\n整个会场放眼望去全是「人人人人人」……\n\n今年腾讯云AI产业应用大会的主题是 **「Agent进场，效能生长」** ，产业先行者、技术开发者与生态创新伙伴齐聚一堂。\n\n当下AI正褪去概念热度，大步迈向实打实的产业落地，一众从业者也借着这场盛会，围绕行业落地、技术革新展开深度交流探讨。\n\n当然了，大会的重磅——\n\n腾讯集团高级执行副总裁、云与智慧产业事业群CEO **汤道生** 和腾讯首席AI科学家 姚顺",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Startup Battlefield 200 applications officially close in 3 days",
+      "url": "https://techcrunch.com/2026/06/05/startup-battlefield-200-applications-officially-close-in-3-days/",
+      "published_at": "2026-06-05T20:00:00.000Z",
+      "summary": "Applications for Startup Battlefield 200 officially close on June 8, 11:59 p.m. PT. Don't wait any longer. Secure your shot at competing on the Disrupt Stage at TechCrunch Disrupt 2026 this October at San Francisco's Moscone West.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "This is your laptop… on AI",
+      "url": "https://www.theverge.com/podcast/944058/ai-laptop-nvidia-build-gemini-spark-vergecast",
+      "published_at": "2026-06-05T16:39:07.000Z",
+      "summary": "We're now deep into developer conference season, and one of the themes so far is the relentless conviction from Big Tech companies that AI is going to change everything about how we do everything. Nvidia's Jensen Huang made that clearer than anyone this week, when he described[a completely new way o",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "New York lawmakers pass one-year ban on new data centers",
+      "url": "https://www.theverge.com/policy/944041/new-york-data-center-moratorium",
+      "published_at": "2026-06-05T15:25:10.000Z",
+      "summary": "The New York State legislature[passed](https://www.nysenate.gov/legislation/bills/2025/S10642)a one-year moratorium on new large data centers, the first statewide ban of its kind if Democratic Governor Kathy Hochul signs it into law.\n\nLawmakers behind the bill say it's meant to give policymakers tim",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The token bill comes due: Inside the industry scramble to manage AI’s runaway costs",
+      "url": "https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/",
+      "published_at": "2026-06-05T14:49:12.000Z",
+      "summary": "\"The whole conversation shifted from tokenmaxxing and 'go fast' to 'we need guardrails, how do we control this?'\"",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "This AI startup says it can tell if a script will make a hit film",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/943531/ai-script-quilty-simon-horsman-daniel-wood",
+      "published_at": "2026-06-05T13:57:31.000Z",
+      "summary": "When Quilty hit the industry trades earlier this year, the AI startup promised that its tool could accurately predict a film's success just by reading the script. When people actually got[a chance to experiment with](https://www.thewrap.com/industry-news/tech/quilty-ai-tool-script-test-does-it-work-",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AirTrunk commits $30B to build 5GW of AI data centers in India",
+      "url": "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
+      "published_at": "2026-06-05T13:03:10.000Z",
+      "summary": "The Australian data center operator plans to set up 5GW of capacity in India.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: AI hacking beyond Mythos, and chatbots’ impact on our brains",
+      "url": "https://www.technologyreview.com/2026/06/05/1138452/the-download-ai-hacking-mythos-chatbots-brain-impacts/",
+      "published_at": "2026-06-05T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **The Meta hack shows t",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Are AI chatbots making us lose control of our brains?",
+      "url": "https://www.technologyreview.com/2026/06/05/1138427/are-ai-chatbots-making-us-lose-control-of-our-brains/",
+      "published_at": "2026-06-05T09:00:00.000Z",
+      "summary": "This week I’ve been at[SXSW London](https://www.sxswlondon.com/). There’s been music, film, and a lot—and I mean*a lot*—of talk about AI. I also had the opportunity to sit down with Gloria Mark, a psychologist at the University of California, Irvine, who has spent the last 30 years studying how peop",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Mira Murati steps back into the spotlight, carefully",
+      "url": "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
+      "published_at": "2026-06-05T05:06:37.000Z",
+      "summary": "In the current environment, remaining heads down has diminishing returns; at some point, you have to make some noise just to remind the market you exist.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "除了 AI Siri 和库克「谢幕演讲」，今年 WWDC 还有什么？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653108246&idx=1&sn=059702b7821729a56dfeb353537e0df0",
+      "published_at": "2026-06-05T04:49:00.000Z",
+      "summary": "原创张勇毅 2026-06-05 12:49 湖北\n\n​头条讲的是大脑，注脚讲的是性格。\n\n头条讲的是大脑，注脚讲的是性格。\n\n**作者｜ 张勇毅** **编辑｜ **靖宇****\n\n虽然今年 WWDC 还有几天正式开幕，但苹果已经把今年的主角剧透得明明白白。\n\n打开 WWDC26 的官网，标语是「All systems glow」——把 NASA 倒计时那句经典的「all systems go」改了一个字，从「准备就绪」变成「全场发光」。配套壁纸是一整块深色背景、中间一个发光的苹果 logo，连预热歌单都叫「Glow all out」。这一整套视觉，指向的是同一样东西：那个传闻中会发光的新 ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "刺破成功率幻象，直面具身智能的「真灵巧」，机器人精细操作评测新范式来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651037190&idx=3&sn=53e0adcbf4b30f3515ff236734530c0c",
+      "published_at": "2026-06-05T04:07:00.000Z",
+      "summary": "机器之心 2026-06-05 12:07 辽宁\n\n从 “是否成功” 到 “为何失败”，重新定义机器人精细操作评测范式\n\n精细操作是具身智能迈向真实物理世界的关键能力，但现有评测往往只用 “成功 / 失败” 的二元指标衡量机器人表现，容易掩盖其在语义理解、精细感知和稳定执行中的真实短板。\n\n针对这一问题，东南大学魏秀参教授、耿新教授和北京大学彭宇新教授团队提出 精细操作元评测基座 MetaFine ，从 understanding、perception 和 behavior 三个维度系统诊断具身智能体的操作能力。MetaFine 不仅能够揭示传统成功率指标下被高估的能力幻象，还可兼容吸收不同机",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "单卡10秒级！计算所联合ETH单图3D化新研究：同质量生成提速2.67倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895384&idx=3&sn=ca9ea0584de04ee00e64993bb272c83f",
+      "published_at": "2026-06-05T03:53:00.000Z",
+      "summary": "关注前沿科技 2026-06-05 11:53 北京\n\n无需重训，效率拉满\n\n##### Fast-SAM3D团队 投稿 量子位 | 公众号 QbitAI\n\n**如何仅从一张图片中生成可用的3D资产？** 这个问题正成为3D生成、机器人感知和空间计算的基础能力。\n\n过去单图3D重建更多地还是停留在“能生成一个物体”， **SAM3D** 的出现则把问题推进到更复杂的开放场景：\n\n给定一张图像和目标mask，不仅能重建任意物体，还能恢复纹理和空间布局。\n\n然而走向真实应用时，推理效率很快成了新瓶颈。高质量3D重建时间过长，难以支撑复杂场景，所以能不能更快、更稳定、更便宜地重建？\n\n为应对这一挑战",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247895384&idx=4&sn=c9c806cf4a709257ad016831d32ab822",
+      "published_at": "2026-06-05T03:53:00.000Z",
+      "summary": "关注前沿科技 2026-06-05 11:53 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

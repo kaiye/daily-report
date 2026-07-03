@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-05-24T00:02:23.824Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-05-23",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2058280452851638313",
+      "text": "Some of you noticed limits drained faster in Codex, we root caused it to an optimization that we rolled back that had an impact on cache hit rates when compacting across long running sessions. \n\nWe fixed this and have now reset usage limits for all accounts. Enjoy the weekend.",
+      "createdAt": "Sat May 23 20:14:35 +0000 2026",
+      "viewCount": 310664,
+      "likeCount": 6410,
+      "retweetCount": 296,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2058280452851638313",
+      "is_official": false
+    },
+    {
+      "id": "2058247167207235836",
+      "text": "OpenAI, Anthropic, SpaceX. Three of the most important companies in human history. All are going public within months of each other. These IPOs will be unlike anything in the history of financial markets.",
+      "createdAt": "Sat May 23 18:02:19 +0000 2026",
+      "viewCount": 42633,
+      "likeCount": 1065,
+      "retweetCount": 120,
+      "author": {
+        "userName": "PeterDiamandis",
+        "name": "Peter H. Diamandis, MD",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/PeterDiamandis/status/2058247167207235836",
+      "is_official": false
+    },
+    {
+      "id": "2058242937612648613",
+      "text": "🚨 THE ENTIRE AI BOOM MIGHT BE BUILT ON FAKE REVENUE.\n\nLatest corporate filings show that OpenAI and Anthropic alone make up over half of the entire $2 trillion future cloud backlog held by Microsoft, Oracle, Google, and Amazon.\n\nThis massive pipeline is actually being created through a circular accounting trick called a round trip revenue loop.\n\nBut how it works ?\n\nA tech giant gives billions of dollars to an AI startup as an \"investment\". But hidden in the contract is a strict rule forcing the startup to hand that exact same money straight back to the tech giant to rent their computer servers.\n\nLook at the documented case of Microsoft and OpenAI.\n\nWhen Microsoft invested $13 billion into OpenAI, it didn't just give them cash; it gave them \"cloud credits\" to use Microsoft servers. OpenAI used those exact credits to train its AI models, and Microsoft then turned around and recorded that server usage as brand new \"cloud revenue\" from a customer.\n\nThe tech giant is literally paying itself with its own money and calling it a sale.\n\nThis is why OpenAI’s annual cloud bill has ballooned to over $60 billion, double its actual revenue of $25 billion, kept alive solely by this recycled funding loop.\n\nAnthropic runs the exact same play, spending $2.66 billion on Amazon Web Services in just nine months, which was basically 100% of all the money it earned at the time.\n\nThis manufactured demand triggers a second accounting trick where tech giants book massive paper profits. Every time a startup gets a higher value from a new funding round, the tech giant updates the value of its investment on its books and counts that unearned paper gain as direct profit.\n\nIn Q1 2026, Alphabet reported a record $62.6 billion profit, but $28.7 billion nearly half, was just a paper markup on its Anthropic investment. In the same quarter, Amazon reported $30.3 billion in profit, but $16.8 billion of it was just an Anthropic paper gain.\n\nWhile Amazon reported record profits, its actual free cash flow collapsed 95% to just $1.2 billion because it had to spend $44.2 billion in real cash to build physical data centers.\n\nThis has created a massive danger where these giant companies rely heavily on just one or two unstable startups. Microsoft has 49% of its $627 billion future backlog tied to OpenAI, while Oracle has an incredible 54% of its entire $553 billion pipeline relying on OpenAI alone.\n\nThis perfectly mirrors the 2001 dot-com crash when Global Crossing and Qwest Communications swapped identical fiber-optic network capacity with each other just to book fake sales.\n\nQwest had to erase $1.4 billion in fake income, and Global Crossing went completely bankrupt.\n\nThe only difference is that the dot-com swaps were illegal, but today's AI loop is fully legal under current accounting rules.\n\nThis legal loop inflates tech company stock prices, forcing automatic retirement accounts and index funds to buy even more of these tech stocks. It is a self feeding loop where investments, sales, and stock prices all go up on paper without the AI technology ever making real cash profits.",
+      "createdAt": "Sat May 23 17:45:31 +0000 2026",
+      "viewCount": 341206,
+      "likeCount": 2582,
+      "retweetCount": 660,
+      "author": {
+        "userName": "BullTheoryio",
+        "name": "Bull Theory",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/BullTheoryio/status/2058242937612648613",
+      "is_official": true
+    },
+    {
+      "id": "2058217175047901310",
+      "text": "If you struggle to describe UI transitions in Claude or Codex, these commonly used transition terms can help. Save this for later. https://t.co/YOfy4oeh6j",
+      "createdAt": "Sat May 23 16:03:09 +0000 2026",
+      "viewCount": 62491,
+      "likeCount": 1255,
+      "retweetCount": 32,
+      "author": {
+        "userName": "gabriell_lab",
+        "name": "Gabriel",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/gabriell_lab/status/2058217175047901310",
+      "is_official": false
+    },
+    {
+      "id": "2058192791537361192",
+      "text": "WAIT. This is actually insane.\n\nA solo dev just won the Anthropic hackathon, shipped a working product in 8 hours with Claude Code, and walked away with $15,000.\n\nThen he open-sourced the entire stack.\n\n153,000 stars on GitHub. Here's full setup:\n\n→ 38 specialized agents (planner, security reviewer, debugger, code reviewer)\n→ 156 skills loaded on demand (/plan, /tdd, /security-scan, /quality-gate)\n→ 72 custom slash commands\n→ AgentShield: 1,282 security tests across CLAUDE .md, MCP configs, hooks, skills\n→ 3 Opus 4.6 agents running red-team pipelines (Attacker, Defender, Auditor)\n→ Continuous learning layer that builds confidence across sessions\n→ Coverage across 12 language ecosystems\n\nThis is what Claude Code looks like when someone treats it like infrastructure instead of a chatbot.",
+      "createdAt": "Sat May 23 14:26:15 +0000 2026",
+      "viewCount": 151724,
+      "likeCount": 1993,
+      "retweetCount": 150,
+      "author": {
+        "userName": "PrajwalTomar_",
+        "name": "Prajwal Tomar",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/PrajwalTomar_/status/2058192791537361192",
+      "is_official": false
+    },
+    {
+      "id": "2058070363935056107",
+      "text": "Today, we introduce Claude for Marketing.\n\nIn one chat, Fastlane deploys social media accounts, generates viral content, and posts everything automatically.\n\nYou built a product, now make sure the world sees it. https://t.co/5s5IUHhrFq",
+      "createdAt": "Sat May 23 06:19:46 +0000 2026",
+      "viewCount": 1802818,
+      "likeCount": 3426,
+      "retweetCount": 236,
+      "author": {
+        "userName": "shwarmadev",
+        "name": "Anish",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/shwarmadev/status/2058070363935056107",
+      "is_official": false
+    },
+    {
+      "id": "2057980619263537395",
+      "text": "Claude Mythos absolutely destroys GPT-5.5 in ExploitBench and ExploitGym\n\nMythos finds 18 arbitrary code execution exploits\nGPT-5.5 finds 0 https://t.co/qgFID2uIiL",
+      "createdAt": "Sat May 23 00:23:09 +0000 2026",
+      "viewCount": 124380,
+      "likeCount": 1107,
+      "retweetCount": 68,
+      "author": {
+        "userName": "scaling01",
+        "name": "Lisan al Gaib",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/scaling01/status/2057980619263537395",
+      "is_official": true
+    },
+    {
+      "id": "2057980426958835971",
+      "text": "Claude Mythos alone is finding more vulnerabilities than were found from all sources combined in prior years 👀 https://t.co/QcDBGo12Zh",
+      "createdAt": "Sat May 23 00:22:23 +0000 2026",
+      "viewCount": 161021,
+      "likeCount": 1001,
+      "retweetCount": 91,
+      "author": {
+        "userName": "peterwildeford",
+        "name": "Peter Wildeford🇺🇸🚀",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/peterwildeford/status/2057980426958835971",
+      "is_official": false
+    },
+    {
+      "id": "2058071172361998482",
+      "text": "A little secret. About 5% of our production traffic is on the Pi harness, about another 5% is on OpenCode. Reminder you can use your ChatGPT account in a flourishing set of other tools.\n\nWe’ll continue to make Codex awesome, but you have options.",
+      "createdAt": "Sat May 23 06:22:59 +0000 2026",
+      "viewCount": 600019,
+      "likeCount": 7344,
+      "retweetCount": 239,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2058071172361998482",
+      "is_official": false
+    },
+    {
+      "id": "2058035043608744072",
+      "text": "Insane if true.\n\nSo 50% of OpenAI researchers have to leave the US and return to their home countries to apply for a green card?\n\nDon’t drive talent away.",
+      "createdAt": "Sat May 23 03:59:25 +0000 2026",
+      "viewCount": 216313,
+      "likeCount": 2010,
+      "retweetCount": 95,
+      "author": {
+        "userName": "Yuchenj_UW",
+        "name": "Yuchen Jin",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Yuchenj_UW/status/2058035043608744072",
+      "is_official": false
+    },
+    {
+      "id": "2057988300926075346",
+      "text": "You should NEVER be downloading AI agent skills from the internet\n\nIt's the biggest attack vector for security breaches right now\n\nTons of skills in the public skill sites you see are compromised with prompts that open your computer up\n\nDo this instead:\n\nIf you see any skill you want your agent to have, give the link to your agent\n\nSay \"look at what this skill does. I want you to do something similar. Think about how this fits into our workflow and how you'd use it. Then build your own version of it, custom for what we do\"\n\nYour agent then will build its own, secure version that can't have dirty prompts from random people on the internet\n\nThis is the biggest security practice you can implement",
+      "createdAt": "Sat May 23 00:53:41 +0000 2026",
+      "viewCount": 68096,
+      "likeCount": 1572,
+      "retweetCount": 131,
+      "author": {
+        "userName": "AlexFinn",
+        "name": "Alex Finn",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AlexFinn/status/2057988300926075346",
+      "is_official": false
+    },
+    {
+      "id": "2058219136874959285",
+      "text": "JUST IN: 🇺🇸 Trump administration and Anthropic finalizing deal to let US spy agencies use its AI tools. https://t.co/10I7ubZfG6",
+      "createdAt": "Sat May 23 16:10:56 +0000 2026",
+      "viewCount": 574061,
+      "likeCount": 5383,
+      "retweetCount": 576,
+      "author": {
+        "userName": "WatcherGuru",
+        "name": "Watcher.Guru",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/WatcherGuru/status/2058219136874959285",
+      "is_official": true
+    },
+    {
+      "id": "2058187750705418448",
+      "text": "A 6-person team is building task-specific AI models that are 4-8x faster than anything from OpenAI or Anthropic. 500K downloads on HuggingFace. No hype. Just better engineering winning on the merits.\n\nThis is what \"make something people want\" looks like in the model layer.\n\nhttps://t.co/nsf8b31xha",
+      "createdAt": "Sat May 23 14:06:13 +0000 2026",
+      "viewCount": 104101,
+      "likeCount": 1519,
+      "retweetCount": 137,
+      "author": {
+        "userName": "garrytan",
+        "name": "Garry Tan",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/garrytan/status/2058187750705418448",
+      "is_official": false
+    },
+    {
+      "id": "2058008964143644831",
+      "text": "LEARNING CLAUDE NOW IS LIKE BUYING BITCOIN IN 2017.\n\nMOST PEOPLE WILL REALIZE IT WAY TOO LATE.\n\nBUILDING A ONE-PERSON BUSINESS AND MAKING $10K/MONTH IS CLOSER THAN YOU THINK.\n\nHERE ARE 7 PROMPTS TO GET AHEAD OF 99% OF PEOPLE IN 2026:",
+      "createdAt": "Sat May 23 02:15:47 +0000 2026",
+      "viewCount": 126804,
+      "likeCount": 1223,
+      "retweetCount": 224,
+      "author": {
+        "userName": "Aina_Ai2",
+        "name": "Aina",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Aina_Ai2/status/2058008964143644831",
+      "is_official": true
+    },
+    {
+      "id": "2058090912014622787",
+      "text": "🚨 BREAKING: I asked Claude to improve my LinkedIn profile.\n\nIt didn’t just improve it. It made it a recruiter magnet.\n\nHere are the 7 exact prompts I used:",
+      "createdAt": "Sat May 23 07:41:25 +0000 2026",
+      "viewCount": 301336,
+      "likeCount": 1211,
+      "retweetCount": 288,
+      "author": {
+        "userName": "AriaWestcott",
+        "name": "Aria Westcott",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AriaWestcott/status/2058090912014622787",
+      "is_official": false
+    },
+    {
+      "id": "2058320061258236263",
+      "text": "Should we bring batch compute to codex? Aka /slow mode",
+      "createdAt": "Sat May 23 22:51:58 +0000 2026",
+      "viewCount": 39938,
+      "likeCount": 1465,
+      "retweetCount": 19,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2058320061258236263",
+      "is_official": false
+    },
+    {
+      "id": "2058116725929828722",
+      "text": "I don't write code anymore\n\nI haven't written code in I think 6 months?\n\nI think everyone is like this no?",
+      "createdAt": "Sat May 23 09:24:00 +0000 2026",
+      "viewCount": 866981,
+      "likeCount": 2350,
+      "retweetCount": 61,
+      "author": {
+        "userName": "levelsio",
+        "name": "@levelsio",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/levelsio/status/2058116725929828722",
+      "is_official": false
+    },
+    {
+      "id": "2058136028456919509",
+      "text": "AGENTS.md\nDESIGN.md\nCLAUDE.md\nSKILL.md\nREQUIREMENTS.md\nPROPOSAL.md\nPLAN.md\n.\n.\nGOD-HELP-ME.md",
+      "createdAt": "Sat May 23 10:40:42 +0000 2026",
+      "viewCount": 78516,
+      "likeCount": 3447,
+      "retweetCount": 316,
+      "author": {
+        "userName": "mannupaaji",
+        "name": "Manu Arora",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/mannupaaji/status/2058136028456919509",
+      "is_official": false
+    },
+    {
+      "id": "2058182115855040865",
+      "text": "“got a gig collecting memory cards for OpenAI” https://t.co/7Jfo9PQ1l1",
+      "createdAt": "Sat May 23 13:43:50 +0000 2026",
+      "viewCount": 134940,
+      "likeCount": 2118,
+      "retweetCount": 186,
+      "author": {
+        "userName": "alexL_E_I",
+        "name": "alex lei",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/alexL_E_I/status/2058182115855040865",
+      "is_official": false
+    },
+    {
+      "id": "2058103035969351896",
+      "text": "Anthropic pays $750,000+ a year for engineers who know how to build LLMs from scratch.\n\nStanford just released the exact lecture that teaches it - 1 hour 44 minutes, free, straight from CS229.\n\nBookmark and watch it this weekend. \n\nIt'll teach you more about how ChatGPT & Claude actually work than most people at top AI companies learn in their entire careers.",
+      "createdAt": "Sat May 23 08:29:36 +0000 2026",
+      "viewCount": 1081952,
+      "likeCount": 3882,
+      "retweetCount": 625,
+      "author": {
+        "userName": "sairahul1",
+        "name": "Rahul",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sairahul1/status/2058103035969351896",
+      "is_official": true
+    }
+  ]
+}

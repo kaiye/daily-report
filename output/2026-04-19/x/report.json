@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-04-19",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "这些帖子共同表明，AI正从模型讨论快速转向真实创作、开发与基础设施落地，且门槛持续降低。",
+  "items": [
+    {
+      "id": "2045461663898599472",
+      "author_name": "Kimi.ai",
+      "author_handle": "Kimi_Moonshot",
+      "text": "我们把预填充/解码解耦推进到跨数据中心和异构硬件，借助 Kimi Linear 降低 KV 缓存开销，实现更低单 token 成本，实测吞吐提升 1.54 倍、P90 首 token 时间下降 64%。",
+      "url": "https://twitter.com/Kimi_Moonshot/status/2045461663898599472",
+      "view_count": 299650,
+      "like_count": 1954
+    },
+    {
+      "id": "2045490833005400458",
+      "author_name": "OpenAI Developers",
+      "author_handle": "OpenAIDevs",
+      "text": "现在你真的可以直接动手把东西做出来。",
+      "url": "https://twitter.com/OpenAIDevs/status/2045490833005400458",
+      "view_count": 103142,
+      "like_count": 1316
+    },
+    {
+      "id": "2045320795233390899",
+      "author_name": "Benji Taylor",
+      "author_handle": "benjitaylor",
+      "text": "我们新推出的 Grok 语音 API 表现非常强，强烈建议大家亲自试试。",
+      "url": "https://twitter.com/benjitaylor/status/2045320795233390899",
+      "view_count": 971418,
+      "like_count": 2290
+    },
+    {
+      "id": "2045415049188229525",
+      "author_name": "Dhaval Makwana",
+      "author_handle": "heyDhavall",
+      "text": "今晚别刷网飞了，去看这节两小时的斯坦福课程；它能让你比多数人更系统地理解 ChatGPT、Claude 和其他大模型是怎么构建出来的。",
+      "url": "https://twitter.com/heyDhavall/status/2045415049188229525",
+      "view_count": 241642,
+      "like_count": 1669
+    },
+    {
+      "id": "2045402621570150896",
+      "author_name": "Gergely Orosz",
+      "author_handle": "GergelyOrosz",
+      "text": "这件事很能说明问题：Anthropic 似乎能让自动化系统在没有解释、没有人工复核、也没有人工联系方式的情况下，直接封掉一个 60 人的付费组织账户。",
+      "url": "https://twitter.com/GergelyOrosz/status/2045402621570150896",
+      "view_count": 263196,
+      "like_count": 2452
+    },
+    {
+      "id": "2045410656493691069",
+      "author_name": "Garry Tan",
+      "author_handle": "garrytan",
+      "text": "用 OpenClaw 就像开一辆你得自己修、还老抛锚的法拉利，刺激但折腾；Hermes Agent 更像可靠的本田，而 Claude/ChatGPT 则像坐公交。",
+      "url": "https://twitter.com/garrytan/status/2045410656493691069",
+      "view_count": 137623,
+      "like_count": 2347
+    },
+    {
+      "id": "2045298095466914092",
+      "author_name": "BijanBowen",
+      "author_handle": "Ominousind",
+      "text": "我放出了 Grok 4.3 Beta 在浏览器操作系统测试、GTA 克隆和语音控制应用上的结果。",
+      "url": "https://twitter.com/Ominousind/status/2045298095466914092",
+      "view_count": 653392,
+      "like_count": 2029
+    },
+    {
+      "id": "2045367597072273834",
+      "author_name": "Mari",
+      "author_handle": "Tech_girlll",
+      "text": "千万别让 Claude 读取你的 env 文件。",
+      "url": "https://twitter.com/Tech_girlll/status/2045367597072273834",
+      "view_count": 659903,
+      "like_count": 2752
+    },
+    {
+      "id": "2045331812109746582",
+      "author_name": "Noah",
+      "author_handle": "NoahKingJr",
+      "text": "这是我审核 Claude 写出来代码的方法。",
+      "url": "https://twitter.com/NoahKingJr/status/2045331812109746582",
+      "view_count": 204712,
+      "like_count": 3336
+    },
+    {
+      "id": "2045344926083518501",
+      "author_name": "Vishal",
+      "author_handle": "vishaltweetup",
+      "text": "Figma 要小心了，Claude 刚刚发布了 Claude Design。",
+      "url": "https://twitter.com/vishaltweetup/status/2045344926083518501",
+      "view_count": 105110,
+      "like_count": 4160
+    }
+  ]
+}

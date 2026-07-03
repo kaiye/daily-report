@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">APR 20, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">这些帖子共同反映出一个最重要信号：AI讨论正从单纯比拼模型能力转向更具体的产品化落地、工作流重塑与通往AGI的竞赛叙事。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@PolymarketMoney</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Polymarket Money</span>：刚刚：市场预测显示，Anthropic今年估值有望超过OpenAI。
+          </p>
+          <p class="item-metric">👁 114.5K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/PolymarketMoney/status/2045669752962535845">https://twitter.com/PolymarketMoney/status/2045669752962535845</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@r0ck3t23</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Dustin</span>：黄仁勋的核心观点是：AI不是只看模型输赢，而是一块五层蛋糕——底层是能源与芯片，顶层才是应用变现，模型只是夹在中间的一层。
+          </p>
+          <p class="item-metric">👁 413.6K · ❤️ 2.5K</p>
+          <a class="item-link" href="https://twitter.com/r0ck3t23/status/2045665711704461371">https://twitter.com/r0ck3t23/status/2045665711704461371</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@elder_plinius</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭</span>：我这边测到一个惊人的结果：Opus-4.7竟能自己生成越狱方法、再用电脑操作亲自验证，短时间内就攻破了大部分测试类别。
+          </p>
+          <p class="item-metric">👁 412.0K · ❤️ 2.5K</p>
+          <a class="item-link" href="https://twitter.com/elder_plinius/status/2045682830383231474">https://twitter.com/elder_plinius/status/2045682830383231474</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@minchoi</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Min Choi</span>：Claude Design只靠文字就能生成夸张级别的UI、设计和动画，设计工作看起来真的要被改写了。
+          </p>
+          <p class="item-metric">👁 790.5K · ❤️ 3.6K</p>
+          <a class="item-link" href="https://twitter.com/minchoi/status/2045705871527653794">https://twitter.com/minchoi/status/2045705871527653794</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@thsottiaux</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Tibo</span>：如果你觉得搭载GPT-5.4的Codex已经够快了，今年我们还有至少一个数量级的提速空间；工程优化会持续叠加，现在正是学Codex的好时机。
+          </p>
+          <p class="item-metric">👁 199.2K · ❤️ 4.8K</p>
+          <a class="item-link" href="https://twitter.com/thsottiaux/status/2045721740748427677">https://twitter.com/thsottiaux/status/2045721740748427677</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@ns123abc</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">NIK</span>：我拿到Grok 4.3后，第一件事就是用高难度研究任务测试它：它思考了13分多钟，自建项目文件夹、产出多份交叉验证文件，研究能力很硬核。
+          </p>
+          <p class="item-metric">👁 646.4K · ❤️ 3.2K</p>
+          <a class="item-link" href="https://twitter.com/ns123abc/status/2045772621376086142">https://twitter.com/ns123abc/status/2045772621376086142</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@rubenhassid</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ruben Hassid</span>：想让Claude别再“每天重新认识你”，关键是从一次性提示词升级到Projects和Skills，把你的语气、流程和重复任务真正固化进去。
+          </p>
+          <p class="item-metric">👁 125.1K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/rubenhassid/status/2045804609554235659">https://twitter.com/rubenhassid/status/2045804609554235659</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@heynavtoor</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Nav Toor</span>：Claude现在连一整周备餐和精确营养目标都能规划得像高价注册营养师一样，我还整理了12个提示词来帮你算宏量和省买菜钱。
+          </p>
+          <p class="item-metric">👁 840.4K · ❤️ 4.6K</p>
+          <a class="item-link" href="https://twitter.com/heynavtoor/status/2045826159636824423">https://twitter.com/heynavtoor/status/2045826159636824423</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@rohanpaul_ai</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Rohan Paul</span>：Demis Hassabis提出了一个定义AGI的“爱因斯坦测试”：把模型知识截断在1911年，看它能否像爱因斯坦那样独立推导出广义相对论。
+          </p>
+          <p class="item-metric">👁 155.1K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/rohanpaul_ai/status/2045912351690592708">https://twitter.com/rohanpaul_ai/status/2045912351690592708</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@Kalshi</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Kalshi</span>：刚刚：马斯克表示，Grok 5将实现AGI。
+          </p>
+          <p class="item-metric">👁 51.5K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/Kalshi/status/2045983775549440174">https://twitter.com/Kalshi/status/2045983775549440174</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

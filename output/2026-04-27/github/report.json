@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-04-27",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今天最热的共同方向是围绕编码助手、代理技能与可操控桌面环境的 AI Agent 工具链快速升温。",
+  "items": [
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "面向真正工程师的 Agent Skills，直接来自我的 .claude 目录。",
+      "language": "Shell",
+      "stars_today": 2519,
+      "stars_total": 23513
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "可在终端、VSCode 扩展或通过类似 openclaw 的 Discord 免费使用 claude-code。",
+      "language": "Python",
+      "stars_today": 1701,
+      "stars_total": 13527
+    },
+    {
+      "repo": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus：零服务器代码智能引擎，在浏览器中运行的客户端知识图谱生成器，导入 GitHub 仓库或 ZIP 文件即可获得内置 Graph RAG Agent 的交互式知识图谱。",
+      "language": "TypeScript",
+      "stars_today": 700,
+      "stars_total": 30150
+    },
+    {
+      "repo": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog 是一体化开发者平台，提供产品分析、会话回放、错误跟踪、功能开关、实验、调查、数据仓库、CDP，以及帮助调试代码和更快交付功能的 AI 产品助手。",
+      "language": "Python",
+      "stars_today": 337,
+      "stars_total": 33826
+    },
+    {
+      "repo": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "面向 Computer-Use Agents 的开源基础设施，提供沙箱、SDK 和基准，用于训练和评估可控制完整桌面的 AI 代理。",
+      "language": "HTML",
+      "stars_today": 182,
+      "stars_total": 14360
+    },
+    {
+      "repo": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads——为你的编码代理带来的记忆升级。",
+      "language": "Go",
+      "stars_today": 152,
+      "stars_total": 21665
+    },
+    {
+      "repo": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "你自己的个人 AI 助手，支持任何操作系统与任何平台，采用 lobster 的方式。",
+      "language": "TypeScript",
+      "stars_today": 627,
+      "stars_total": 364592
+    },
+    {
+      "repo": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "一份精心整理的实用 Codex 技能清单，用于在 Codex CLI 和 API 间自动化工作流。",
+      "language": "Python",
+      "stars_today": 517,
+      "stars_total": 1960
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-06-26",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 Claude Code、编码代理和多智能体工作流，把设计、视频制作、投资研究、安全技能、网页操作与文档处理等任务产品化。",
+  "items": [
+    {
+      "repo": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "description": "用于向编码代理描述视觉识别的格式规范，DESIGN.md 让代理持续、结构化地理解设计系统。",
+      "language": "TypeScript",
+      "stars_today": 1475,
+      "stars_total": 19136
+    },
+    {
+      "repo": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "全球首个开源智能体式视频制作系统，包含 12 条流水线、52 个工具和 500 多项智能体技能，可把 AI 编码助手变成完整的视频制作工作室。",
+      "language": "Python",
+      "stars_today": 3434,
+      "stars_total": 22019
+    },
+    {
+      "repo": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架，融合巴菲特、芒格、段永平、李录四位大师方法论与多智能体并行研究。",
+      "language": "Python",
+      "stars_today": 309,
+      "stars_total": 1829
+    },
+    {
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "description": "使用 AI 编码代理通过一条命令克隆任意网站。",
+      "language": "TypeScript",
+      "stars_today": 1024,
+      "stars_total": 20396
+    },
+    {
+      "repo": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "使用 Garry Tan 完整的 Claude Code 配置：23 个带明确主张的工具，分别充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA。",
+      "language": "TypeScript",
+      "stars_today": 767,
+      "stars_total": 115775
+    },
+    {
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "面向 AI 智能体的 817 项结构化网络安全技能，映射 MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF 与 MITRE F3 等 6 个框架，并适配 Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI 等 20 多个平台。",
+      "language": "Python",
+      "stars_today": 571,
+      "stars_total": 21208
+    },
+    {
+      "repo": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "description": "JavaScript 页面内 GUI 智能体，可用自然语言控制网页界面。",
+      "language": "TypeScript",
+      "stars_today": 163,
+      "stars_total": 19791
+    },
+    {
+      "repo": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "description": "将 PDF 和 Office 文档等复杂文档转换为适合 LLM 与智能体工作流使用的 markdown/JSON。",
+      "language": "Python",
+      "stars_today": 644,
+      "stars_total": 69542
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "从氛围编程到智能体工程，实践让 Claude 更完美。",
+      "language": "HTML",
+      "stars_today": 287,
+      "stars_total": 60506
+    }
+  ]
+}

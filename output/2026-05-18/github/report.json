@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-05-18",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热方向集中在本地与可自托管 AI、智能体原生软件以及面向生产和专业场景的 Agent 技能体系。",
+  "items": [
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "你的个人 AI 超级智能，私密、简单且极其强大。",
+      "language": "Rust",
+      "stars_today": 1690,
+      "stars_total": 13095
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "CLI-Anything：让所有软件都成为智能体原生。",
+      "language": "Python",
+      "stars_today": 238,
+      "stars_total": 35564
+    },
+    {
+      "repo": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "AI 视频平台的开源替代品，提供含 200+ 模型的免费 AI 图像与视频生成工作室，无内容过滤，可自托管并采用 MIT 许可证。",
+      "language": "JavaScript",
+      "stars_today": 703,
+      "stars_total": 15075
+    },
+    {
+      "repo": "BigBodyCobain/Shadowbroker",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "description": "面向全球舞台的开源情报，在统一界面中追踪富豪的公司和私人飞机、间谍卫星以及地震事件，并可接入 AI 智能体解析数据以发现未曾显现的关联。",
+      "language": "Python",
+      "stars_today": 333,
+      "stars_total": 7055
+    },
+    {
+      "repo": "tech-leads-club/agent-skills",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "description": "面向专业 AI 编码智能体的安全、已验证技能注册表，可放心扩展 Antigravity、Claude Code、Cursor、Copilot 等工具。",
+      "language": "TypeScript",
+      "stars_today": 225,
+      "stars_total": 3507
+    },
+    {
+      "repo": "NirDiamant/agents-towards-production",
+      "url": "https://github.com/NirDiamant/agents-towards-production",
+      "description": "面向构建生产级 GenAI 智能体的端到端、代码优先教程，覆盖从原型到企业部署。",
+      "language": "Jupyter Notebook",
+      "stars_today": 172,
+      "stars_total": 19897
+    },
+    {
+      "repo": "dograh-hq/dograh",
+      "url": "https://github.com/dograh-hq/dograh",
+      "description": "开源语音智能体平台。",
+      "language": "Python",
+      "stars_today": 223,
+      "stars_total": 1644
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "一组面向研究、科学、工程、分析、金融和写作的即用型智能体技能。",
+      "language": "Python",
+      "stars_today": 762,
+      "stars_total": 23802
+    },
+    {
+      "repo": "Light-Heart-Labs/DreamServer",
+      "url": "https://github.com/Light-Heart-Labs/DreamServer",
+      "description": "面向所有人的随处本地 AI，涵盖 LLM 推理、聊天界面、语音、智能体、工作流、RAG 和图像生成，无需云端和订阅。",
+      "language": "Python",
+      "stars_today": 112,
+      "stars_total": 1141
+    },
+    {
+      "repo": "KeygraphHQ/shannon",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "description": "Shannon Lite 是面向 Web 应用和 API 的自主白盒 AI 渗透测试工具，可分析源代码、识别攻击向量并执行真实漏洞利用以在生产前证明漏洞。",
+      "language": "TypeScript",
+      "stars_today": 200,
+      "stars_total": 42692
+    }
+  ]
+}

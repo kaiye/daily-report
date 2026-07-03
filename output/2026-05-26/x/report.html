@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">MAY 26, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">AI 正从模型能力竞赛走向可直接降低成本、生成应用、重塑工作流并引发治理讨论的基础设施阶段。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@Alibaba_Qwen</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Qwen</span>：✅ Qwen3.7-Max 已自动启用隐式缓存，无需配置就能更快、更省；想要更稳定命中率也可以改用显式缓存。
+          </p>
+          <p class="item-metric">👁 92.1K · ❤️ 1.0K</p>
+          <a class="item-link" href="https://twitter.com/Alibaba_Qwen/status/2058932656797368619">https://twitter.com/Alibaba_Qwen/status/2058932656797368619</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@xai</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">xAI</span>：Grok Build Beta 已面向 SuperGrok 和 X Premium+ 用户开放，可用 Plan Mode、Imagine 生成图像视频，并通过 CLI 构建自动化与编排器。
+          </p>
+          <p class="item-metric">👁 2.0M · ❤️ 4.3K</p>
+          <a class="item-link" href="https://twitter.com/xai/status/2058973760708091907">https://twitter.com/xai/status/2058973760708091907</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@ai_rohitt</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Rohit</span>：Anthropic 放出 27 分钟 Claude 提示词实战课，由团队亲自讲解，免费、免注册、无付费墙，值得立刻收藏。
+          </p>
+          <p class="item-metric">👁 397.9K · ❤️ 2.2K</p>
+          <a class="item-link" href="https://twitter.com/ai_rohitt/status/2058812423310918133">https://twitter.com/ai_rohitt/status/2058812423310918133</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@OfficialLoganK</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Logan Kilpatrick</span>：我们刚在 Google AI Studio 免费上线直接构建原生 Android 应用的能力；上线一周已有超 25 万个应用被创建，很多人此前从没写过 Android。
+          </p>
+          <p class="item-metric">👁 149.2K · ❤️ 2.3K</p>
+          <a class="item-link" href="https://twitter.com/OfficialLoganK/status/2058997700218294564">https://twitter.com/OfficialLoganK/status/2058997700218294564</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@FurkanGozukara</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Furkan Gözükara</span>：Anthropic 联创 Chris Olah 警告 AI 可能在全球范围内灾难性取代人类劳动，而科技精英并没有可行机制把财富重新分配给被抛下的人。
+          </p>
+          <p class="item-metric">👁 52.3K · ❤️ 1.8K</p>
+          <a class="item-link" href="https://twitter.com/FurkanGozukara/status/2058877642380599685">https://twitter.com/FurkanGozukara/status/2058877642380599685</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@TFTC21</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">TFTC</span>：Anthropic 联创在梵蒂冈称，他们在模型内部发现令人不安且类似情绪的结构，并呼吁宗教、哲学和社会共同回答 AI 应如何进入世界。
+          </p>
+          <p class="item-metric">👁 1.2M · ❤️ 7.9K</p>
+          <a class="item-link" href="https://twitter.com/TFTC21/status/2058889513213030638">https://twitter.com/TFTC21/status/2058889513213030638</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@NVIDIAAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">NVIDIA AI</span>：两台 DGX Sparks 加上 MiniMax M2.7 NVFP4，就能同时跑 16 个本地 AI 智能体。
+          </p>
+          <p class="item-metric">👁 100.8K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/NVIDIAAI/status/2058921531481510074">https://twitter.com/NVIDIAAI/status/2058921531481510074</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@DanielMiessler</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ᴅᴀɴɪᴇʟ ᴍɪᴇssʟᴇʀ 🛡️</span>：Claude Code 即将推出的 /workflows 可能对企业 AI 极其重要：把公司里重复、预期明确的工作转成按 SOP 执行的准确定性流程，人类则从上层定义问题和优化系统。
+          </p>
+          <p class="item-metric">👁 213.4K · ❤️ 2.4K</p>
+          <a class="item-link" href="https://twitter.com/DanielMiessler/status/2058699741140222055">https://twitter.com/DanielMiessler/status/2058699741140222055</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@SebJohnsonUK</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Seb Johnson</span>：Anthropic 正在伦敦扩张，部分研究工程岗位年薪最高可达 63 万英镑且不含期权，伦敦 AI 人才战正在明显升温。
+          </p>
+          <p class="item-metric">👁 243.8K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/SebJohnsonUK/status/2058807025581338888">https://twitter.com/SebJohnsonUK/status/2058807025581338888</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@AP</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">The Associated Press</span>：教皇 Leo XIV 呼吁对人工智能实施强有力监管，并要求开发者服务共同善而非利润，因为这项技术正在影响从工作到战争的一切。
+          </p>
+          <p class="item-metric">👁 724.3K · ❤️ 7.2K</p>
+          <a class="item-link" href="https://twitter.com/AP/status/2058851551041446266">https://twitter.com/AP/status/2058851551041446266</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

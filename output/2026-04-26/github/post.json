@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-04-26T00:01:00.260Z",
+  "source_raw": "raw.json",
+  "source_count": 13,
+  "item_count": 8,
+  "language_breakdown": {
+    "Python": 5,
+    "Shell": 1,
+    "Cuda": 1,
+    "Markdown": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "stars_today": 4007,
+      "stars_total": 11450,
+      "forks": 1704
+    },
+    {
+      "rank": 2,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "My personal directory of skills, straight from my .claude directory.",
+      "language": "Shell",
+      "stars_today": 1139,
+      "stars_total": 19958,
+      "forks": 1663
+    },
+    {
+      "rank": 3,
+      "repo": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "stars_today": 1200,
+      "stars_total": 63820,
+      "forks": 7155
+    },
+    {
+      "rank": 4,
+      "repo": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "language": "Python",
+      "stars_today": 471,
+      "stars_total": 33484,
+      "forks": 2601
+    },
+    {
+      "rank": 6,
+      "repo": "deepseek-ai/DeepEP",
+      "url": "https://github.com/deepseek-ai/DeepEP",
+      "description": "DeepEP: an efficient expert-parallel communication library",
+      "language": "Cuda",
+      "stars_today": 189,
+      "stars_total": 9489,
+      "forks": 1196
+    },
+    {
+      "rank": 9,
+      "repo": "huggingface/ml-intern",
+      "url": "https://github.com/huggingface/ml-intern",
+      "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+      "language": "Python",
+      "stars_today": 1240,
+      "stars_total": 6214,
+      "forks": 558
+    },
+    {
+      "rank": 10,
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars_today": 1432,
+      "stars_total": 495951,
+      "forks": 46999
+    },
+    {
+      "rank": 13,
+      "repo": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "stars_today": 188,
+      "stars_total": 1464,
+      "forks": 130
+    }
+  ]
+}

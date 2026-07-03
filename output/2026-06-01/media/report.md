@@ -1,0 +1,33 @@
+# 媒体资讯
+
+Anthropic、OpenAI等模型更新与Agent、具身智能、评测方法的进展集中出现，显示AI竞争正同时向产品迭代和真实场景落地推进。
+
+### [Anthropic被指为推新Opus 4.8暗中削弱旧Claude](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704049&idx=2&sn=ea20a3d0bfee38315a7f68e096260465)
+*新智元* · 2026-05-31
+
+Anthropic被指为推新Opus 4.8暗中削弱旧Claude：外媒爆料称Anthropic可能通过压低旧版Claude性能来推动用户转向新旗舰模型Opus 4.8。
+
+### [OpenAI升级GPT-5.5 Instant模型](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107748&idx=1&sn=4ff4c406117f57c27c9ba428af290d6c)
+*极客公园* · 2026-05-31
+
+OpenAI升级GPT-5.5 Instant模型：OpenAI对GPT-5.5 Instant进行了更新，以强化即时交互场景下的响应能力。
+
+### [微软开启Skills自我进化机制](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036001&idx=2&sn=36e1a61439358ea641b8e307722af337)
+*机器之心* · 2026-05-31
+
+微软开启Skills自我进化机制：微软把技能模块做成可迭代训练的对象，试图用类似神经网络训练的方式提升Agent能力。
+
+### [复旦与通义提出新的CUA训练范式](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247893880&idx=3&sn=3801eccb44a75d9e72fc8da3c199f2a3)
+*量子位* · 2026-05-31
+
+复旦与通义提出新的CUA训练范式：该方法面向GUI和工具混合动作空间，训练Agent更合理地在界面操作与API调用之间做选择。
+
+### [复旦团队发布时空一体世界动作模型](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652704049&idx=1&sn=d5d142f3c472fb3f5259775808596a6f)
+*新智元* · 2026-05-31
+
+复旦团队发布时空一体世界动作模型：这项工作把空间感知、物理约束和长时序规划结合起来，面向机器人在真实环境中的稳定行动。
+
+### [人大高瓴发布Agent时代Rubrics综述](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651036001&idx=3&sn=137934964f0930f34602672e2e8498a3)
+*机器之心* · 2026-05-31
+
+人大高瓴发布Agent时代Rubrics综述：这篇综述系统梳理了在缺少标准答案时，如何从多个维度评估大模型和Agent输出质量。

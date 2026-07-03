@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-06-13",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "共同信号是 AI 正在从单点模型能力竞争，快速转向可运行的代理基础设施、开放模型生态、真实基准评测和高价值场景落地。",
+  "items": [
+    {
+      "id": "2065494480837583297",
+      "author_name": "ClaudeDevs",
+      "author_handle": "ClaudeDevs",
+      "text": "Claude Managed Agents 现在可在你控制的沙箱里运行，既能部署在自有基础设施上，也能接入任意云或服务商，并新增多家平台指南方便按场景选择。",
+      "url": "https://twitter.com/ClaudeDevs/status/2065494480837583297",
+      "view_count": 164966,
+      "like_count": 2066
+    },
+    {
+      "id": "2065263390495580213",
+      "author_name": "𝚟𝚒𝚎 ⟢",
+      "author_handle": "viemccoy",
+      "text": "我一直觉得很奇妙：通往 AGI 的竟然是大语言模型，像是用文字从现实地图里召唤能力，让“助手”这个虚构角色把自己写成现实。",
+      "url": "https://twitter.com/viemccoy/status/2065263390495580213",
+      "view_count": 165853,
+      "like_count": 1125
+    },
+    {
+      "id": "2065400453815574551",
+      "author_name": "Kimi Developers",
+      "author_handle": "KimiDevs",
+      "text": "Kimi-K2.7-Code 亮相，开发者需要先了解关键用法，才能把这款新代码模型的潜力真正释放出来。",
+      "url": "https://twitter.com/KimiDevs/status/2065400453815574551",
+      "view_count": 135767,
+      "like_count": 2384
+    },
+    {
+      "id": "2065436935188058208",
+      "author_name": "MiniMax (official)",
+      "author_handle": "MiniMax_AI",
+      "text": "MiniMax M3 已以开放权重形式登陆 Hugging Face，约 428B 总参数、23B 激活参数，并同步公开稀疏注意力资料。",
+      "url": "https://twitter.com/MiniMax_AI/status/2065436935188058208",
+      "view_count": 363415,
+      "like_count": 2123
+    },
+    {
+      "id": "2065225957498093942",
+      "author_name": "@jason",
+      "author_handle": "Jason",
+      "text": "考虑到 token 经济学，苹果下一任 CEO 应该押注能本地运行开源模型的工作站，并用路由在本地模型和前沿模型间切换。",
+      "url": "https://twitter.com/Jason/status/2065225957498093942",
+      "view_count": 89832,
+      "like_count": 1278
+    },
+    {
+      "id": "2065225362544726371",
+      "author_name": "OpenAI",
+      "author_handle": "OpenAI",
+      "text": "OpenAI 开始推出 Codex 额度重置“存起来以后用”的能力，Go、Plus、Pro 和 Business 用户先获得一次免费重置。",
+      "url": "https://twitter.com/OpenAI/status/2065225362544726371",
+      "view_count": 3680104,
+      "like_count": 20348
+    },
+    {
+      "id": "2065328920514515037",
+      "author_name": "Artificial Analysis",
+      "author_handle": "ArtificialAnlys",
+      "text": "Artificial Analysis 用 DeepSWE 替换 SWE-Bench Pro 后，编码代理榜单重排：Fable 5 登顶，Codex GPT-5.5 超过 Opus 4.8。",
+      "url": "https://twitter.com/ArtificialAnlys/status/2065328920514515037",
+      "view_count": 244119,
+      "like_count": 1565
+    },
+    {
+      "id": "2065253251025637866",
+      "author_name": "Pirat_Nation 🔴",
+      "author_handle": "Pirat_Nation",
+      "text": "OpenAI 称发现一个与中国有关的行动，试图伪装成普通美国人放大 AI 数据中心的电力、水资源和社区影响争议，但影响有限。",
+      "url": "https://twitter.com/Pirat_Nation/status/2065253251025637866",
+      "view_count": 200286,
+      "like_count": 2366
+    },
+    {
+      "id": "2065226355495895521",
+      "author_name": "OpenAI Developers",
+      "author_handle": "OpenAIDevs",
+      "text": "OpenAI Developers 推出浏览器使用的开发者模式，Codex 可通过 Chrome DevTools Protocol 分析性能、控制台、网络流量和页面状态。",
+      "url": "https://twitter.com/OpenAIDevs/status/2065226355495895521",
+      "view_count": 279006,
+      "like_count": 2825
+    },
+    {
+      "id": "2065430578997203374",
+      "author_name": "Eric Topol",
+      "author_handle": "EricTopol",
+      "text": "Eric Topol 指出，在盲评医学信息任务中，Google、OpenAI、Anthropic 等通用前沿模型竟然超过了专门医学工具，这个结果出乎意料。",
+      "url": "https://twitter.com/EricTopol/status/2065430578997203374",
+      "view_count": 350577,
+      "like_count": 1210
+    }
+  ]
+}

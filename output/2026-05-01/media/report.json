@@ -1,0 +1,64 @@
+{
+  "report_date": "2026-05-01",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "头部 AI 公司当天的核心动态集中在账户安全、模型接入与限制、超大额融资、车载助手落地以及面向智能体的新支付基础设施。",
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI 为 ChatGPT 账户推出高级安全功能并与 Yubico 合作",
+      "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+      "published_at": "2026-04-30T18:20:03.000Z",
+      "summary": "这项可选安全计划为 ChatGPT 账户增加了更多保护措施，其中包括接入 Yubico 的安全密钥方案。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "消息称 Anthropic 或以 9000 亿美元估值融资 500 亿美元",
+      "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
+      "published_at": "2026-04-30T00:07:15.000Z",
+      "summary": "据称这家 Claude 开发商已收到多份主动报价，估值区间约为 8500 亿至 9000 亿美元。"
+    },
+    {
+      "source": "极客公园",
+      "title": "OpenAI 结束与微软独家合作并将模型接入亚马逊 AWS",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104975&idx=1&sn=e87d1f6c4eeea5a3e12499114fa05e0d",
+      "published_at": "2026-04-30T00:29:00.000Z",
+      "summary": "亚马逊云科技在新品发布会上宣布与 OpenAI 合作，把其最新大模型接入 Amazon Bedrock。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "马斯克确认 xAI 曾用 OpenAI 模型训练 Grok",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation",
+      "published_at": "2026-04-30T18:16:57.000Z",
+      "summary": "马斯克在加州联邦法庭作证称，xAI 曾借助 OpenAI 的模型改进自身系统，相关争议聚焦于模型蒸馏做法。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI 也开始限制 GPT-5.5 Cyber 的访问范围",
+      "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+      "published_at": "2026-04-30T19:27:41.000Z",
+      "summary": "OpenAI 表示其网络安全测试工具 GPT-5.5 Cyber 初期只会向“关键网络防御者”开放。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Gemini 正在向搭载 Google built-in 的汽车推送",
+      "url": "https://www.theverge.com/tech/921117/google-gemini-ai-assistant-cars-upgrade",
+      "published_at": "2026-04-30T16:00:00.000Z",
+      "summary": "Google 准备在车载信息娱乐系统中以 Gemini 取代现有 Google Assistant，推动更强的对话式车载体验。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Stripe 推出也可供自主 AI Agent 使用的数字钱包 Link",
+      "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
+      "published_at": "2026-04-30T17:15:19.000Z",
+      "summary": "该产品允许用户绑定卡片、银行账户和订阅服务，并通过审批流程授权 AI 智能体安全支出。"
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Goodfire 推出可调试 LLM 的机制可解释性工具 Silico",
+      "url": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/",
+      "published_at": "2026-04-30T15:59:41.000Z",
+      "summary": "这款新工具让研究人员和工程师能够查看模型内部并在训练过程中调整影响模型行为的参数。"
+    }
+  ]
+}

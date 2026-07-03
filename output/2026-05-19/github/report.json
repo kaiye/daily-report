@@ -1,0 +1,112 @@
+{
+  "report_date": "2026-05-19",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI 代理与 LLM 应用基础设施，将研究、编码、软件交互、多模态生成和行业分析进一步产品化。",
+  "items": [
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "你的个人 AI 超级智能，私密、简单且极其强大。",
+      "language": "Rust",
+      "stars_today": 3941,
+      "stars_total": 17121
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Claude Code 的学术研究技能：研究 → 写作 → 审阅 → 修订 → 定稿。",
+      "language": "Python",
+      "stars_today": 1439,
+      "stars_total": 11671
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "“CLI-Anything：让所有软件都成为代理原生”——CLI-Hub：https://clianything.cc/。",
+      "language": "Python",
+      "stars_today": 1049,
+      "stars_total": 36601
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "一套可直接使用的代理技能，面向研究、科学、工程、分析、金融和写作。",
+      "language": "Python",
+      "stars_today": 609,
+      "stars_total": 24376
+    },
+    {
+      "repo": "supertone-inc/supertonic",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "description": "闪电般快速的端侧多语言 TTS，通过 ONNX 原生运行。",
+      "language": "Swift",
+      "stars_today": 715,
+      "stars_total": 8323
+    },
+    {
+      "repo": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "在 C/C++ 中进行 LLM 推理。",
+      "language": "C++",
+      "stars_today": 213,
+      "stars_total": 111019
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView 将普通 WiFi 信号转化为实时空间智能、生命体征监测和存在检测，全程无需任何视频像素。",
+      "language": "Rust",
+      "stars_today": 700,
+      "stars_total": 59884
+    },
+    {
+      "repo": "tech-leads-club/agent-skills",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "description": "面向专业 AI 编码代理的安全、已验证技能注册表，让你放心扩展 Antigravity、Claude Code、Cursor、Copilot 等工具。",
+      "language": "TypeScript",
+      "stars_today": 1244,
+      "stars_total": 4026
+    },
+    {
+      "repo": "BigBodyCobain/Shadowbroker",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "description": "面向全球舞台的开源情报，在统一界面追踪富豪的企业/私人飞机、间谍卫星和地震事件等，并可接入 AI 代理解析数据、发现此前未见的关联。",
+      "language": "Python",
+      "stars_today": 767,
+      "stars_total": 7712
+    },
+    {
+      "repo": "humanlayer/12-factor-agents",
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "description": "我们可以用哪些原则来构建真正足以交到生产客户手中的 LLM 驱动软件？",
+      "language": "TypeScript",
+      "stars_today": 399,
+      "stars_total": 20544
+    },
+    {
+      "repo": "NVlabs/Sana",
+      "url": "https://github.com/NVlabs/Sana",
+      "description": "SANA：基于线性扩散 Transformer 的高效高分辨率图像合成。",
+      "language": "Python",
+      "stars_today": 387,
+      "stars_total": 6509
+    },
+    {
+      "repo": "microsoft/ai-agents-for-beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "description": "12 节课带你开始构建 AI 代理。",
+      "language": "Jupyter Notebook",
+      "stars_today": 1012,
+      "stars_total": 63432
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的 A/H/美股智能分析系统，整合多数据源行情、实时新闻、LLM 决策仪表盘和多渠道推送，零成本定时运行。",
+      "language": "Python",
+      "stars_today": 310,
+      "stars_total": 37069
+    }
+  ]
+}

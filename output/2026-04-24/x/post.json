@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-04-24T00:01:08.717Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-04-23",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2047421844311949513",
+      "text": "Memory on Claude Managed Agents is now in public beta.\n\nYour agents can now learn from every session, using an intelligence-optimized memory layer that balances performance with flexibility. https://t.co/P7GjOYPqCz",
+      "createdAt": "Thu Apr 23 21:06:21 +0000 2026",
+      "viewCount": 159838,
+      "likeCount": 3748,
+      "retweetCount": 250,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2047421844311949513",
+      "is_official": true
+    },
+    {
+      "id": "2047190578493096122",
+      "text": "Meet Kimi K2.6 Agent Swarm 👋\n\nHighlights： \n🔹 Swarms, elevated - 300 parallel sub-agents × 4,000 steps per run (up from 100 / 1,500 in K2.5). \n\n🔹 Outputs are real files, not chat - one run delivers 100+ files, 100,000-word literature reviews, or 20,000-row datasets. \n\n 🔹Heterogeneous skills - search, analysis, coding, long-form writing, and visual generation all running in parallel\n\n🔗Try it at: https://t.co/2Tu8McUaUa",
+      "createdAt": "Thu Apr 23 05:47:23 +0000 2026",
+      "viewCount": 421336,
+      "likeCount": 3062,
+      "retweetCount": 260,
+      "author": {
+        "userName": "Kimi_Moonshot",
+        "name": "Kimi.ai",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Kimi_Moonshot/status/2047190578493096122",
+      "is_official": true
+    },
+    {
+      "id": "2047381283358355706",
+      "text": "With GPT-5.5, Codex now gets more of the job done across the browser, files, docs, and your computer.\n\nWe've expanded browser use so Codex can interact with web apps, and test flows, click through pages, capture screenshots, and iterate on what it sees until it completes the task.",
+      "createdAt": "Thu Apr 23 18:25:11 +0000 2026",
+      "viewCount": 383014,
+      "likeCount": 2944,
+      "retweetCount": 239,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2047381283358355706",
+      "is_official": true
+    },
+    {
+      "id": "2047371123185287223",
+      "text": "Over the past month, some of you reported Claude Code's quality had slipped. We investigated, and published a post-mortem on the three issues we found.\n\nAll are fixed in v2.1.116+ and we’ve reset usage limits for all subscribers.",
+      "createdAt": "Thu Apr 23 17:44:48 +0000 2026",
+      "viewCount": 3126653,
+      "likeCount": 26965,
+      "retweetCount": 1789,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2047371123185287223",
+      "is_official": true
+    },
+    {
+      "id": "2047377079352877534",
+      "text": "GPT-5.5 is here.\n\nIt’s our smartest frontier model yet, introducing a new class of intelligence for agentic coding, computer use, knowledge work, and scientific research.\n\nRolling out in ChatGPT and Codex today. API is coming soon. https://t.co/KS3Q0hB4bG",
+      "createdAt": "Thu Apr 23 18:08:28 +0000 2026",
+      "viewCount": 279373,
+      "likeCount": 4405,
+      "retweetCount": 463,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2047377079352877534",
+      "is_official": true
+    },
+    {
+      "id": "2047371126503047578",
+      "text": "Thanks to the entire Claude community for giving feedback and continuing to build with us. \n\nRead the full post-mortem here: https://t.co/a8xZ5iFos0",
+      "createdAt": "Thu Apr 23 17:44:49 +0000 2026",
+      "viewCount": 340573,
+      "likeCount": 1712,
+      "retweetCount": 76,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2047371126503047578",
+      "is_official": true
+    },
+    {
+      "id": "2047228760412274798",
+      "text": "THIS IS INSANE\n\nThis anthropic engineer turned $200 into $14,300 in Polymarket trading bot running Claude Code that analyzes 86M trades and ranks wallets by win rate and profit.\n\nThe system uses AI to scan 14,000 wallets in minutes and filter trades. \n\nIt only makes 10 trades daily, focusing on high-probability whale-driven moves and  exits early before the whales do.",
+      "createdAt": "Thu Apr 23 08:19:06 +0000 2026",
+      "viewCount": 287169,
+      "likeCount": 2327,
+      "retweetCount": 321,
+      "author": {
+        "userName": "AshCrypto",
+        "name": "Ash Crypto",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AshCrypto/status/2047228760412274798",
+      "is_official": true
+    },
+    {
+      "id": "2047386593410044113",
+      "text": "GPT-5.5, a new step-up in intelligence, is available in ChatGPT for all paid plans, rolling out now.",
+      "createdAt": "Thu Apr 23 18:46:17 +0000 2026",
+      "viewCount": 110202,
+      "likeCount": 2388,
+      "retweetCount": 149,
+      "author": {
+        "userName": "ChatGPTapp",
+        "name": "ChatGPT",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/ChatGPTapp/status/2047386593410044113",
+      "is_official": true
+    },
+    {
+      "id": "2047381612372115812",
+      "text": "GPT-5.5 is a new class of intelligence.\n\nThis intelligence makes it intuitive to use; it completes challenging tasks with little micromanagement. Also very token efficient, and runs with low latency and at scale.\n\nA real step toward a new way of getting computer work done.",
+      "createdAt": "Thu Apr 23 18:26:29 +0000 2026",
+      "viewCount": 83327,
+      "likeCount": 1659,
+      "retweetCount": 94,
+      "author": {
+        "userName": "gdb",
+        "name": "Greg Brockman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/gdb/status/2047381612372115812",
+      "is_official": false
+    },
+    {
+      "id": "2047383764347572389",
+      "text": "Claude can now connect to more of the apps you use outside of work, including @Tripadvisor, @bookingcom, @resy, @Instacart, @Spotify, @audible_com, @AllTrails, @thumbtack, Intuit @turbotax, and more. https://t.co/SmQcIdwDWi",
+      "createdAt": "Thu Apr 23 18:35:02 +0000 2026",
+      "viewCount": 632633,
+      "likeCount": 8224,
+      "retweetCount": 475,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2047383764347572389",
+      "is_official": true
+    },
+    {
+      "id": "2047441173569216721",
+      "text": "Introducing Grok Voice Think Fast 1.0\n\nA state-of-the-art voice model built for complex, multi-step workflows with snappy responses and high accuracy.\n\nIt takes the top spot on the Tau Voice Bench and handles real-world messiness like noise, accents, and interruptions better than any other model in the world.\n\nhttps://t.co/SwdNYRH7Po",
+      "createdAt": "Thu Apr 23 22:23:10 +0000 2026",
+      "viewCount": 90507,
+      "likeCount": 1465,
+      "retweetCount": 186,
+      "author": {
+        "userName": "xai",
+        "name": "xAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/xai/status/2047441173569216721",
+      "is_official": true
+    },
+    {
+      "id": "2047320688302629322",
+      "text": "OPENAI 🚨: GPT-5.5 AND GPT-5.5 PRO HAVE BEEN SPOTTED ON OPENROUTER! \n\n- gpt-5.5-20260423\n- gpt-5.5-pro-20260423\n\nSoon 👀 https://t.co/jU9yeXyHkM",
+      "createdAt": "Thu Apr 23 14:24:24 +0000 2026",
+      "viewCount": 415288,
+      "likeCount": 2345,
+      "retweetCount": 174,
+      "author": {
+        "userName": "testingcatalog",
+        "name": "TestingCatalog News 🗞",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/testingcatalog/status/2047320688302629322",
+      "is_official": true
+    },
+    {
+      "id": "2047371124238062069",
+      "text": "The issues stemmed from Claude Code and the Agent SDK harness, which also impacted Cowork since it runs on the SDK.\n\nThe models themselves didn't regress, and the Claude API was not affected.",
+      "createdAt": "Thu Apr 23 17:44:48 +0000 2026",
+      "viewCount": 356302,
+      "likeCount": 1939,
+      "retweetCount": 42,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2047371124238062069",
+      "is_official": true
+    },
+    {
+      "id": "2047175344038494302",
+      "text": "Everyone can just build things. https://t.co/raCCSS5irR",
+      "createdAt": "Thu Apr 23 04:46:51 +0000 2026",
+      "viewCount": 184998,
+      "likeCount": 4513,
+      "retweetCount": 151,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2047175344038494302",
+      "is_official": true
+    },
+    {
+      "id": "2047279221912084908",
+      "text": "Claude can now teach your kids any school subject like a $100/hour private tutor from Khan Academy. For free.\n\nHere are 12 prompts that explain math, science, history, and English at any grade level in minutes:\n\n(Save this before it disappears) https://t.co/i0pBEIXPy0",
+      "createdAt": "Thu Apr 23 11:39:37 +0000 2026",
+      "viewCount": 146868,
+      "likeCount": 1223,
+      "retweetCount": 189,
+      "author": {
+        "userName": "heynavtoor",
+        "name": "Nav Toor",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/heynavtoor/status/2047279221912084908",
+      "is_official": false
+    },
+    {
+      "id": "2047381666054959369",
+      "text": "Drop what you're doing. It happened.\n\nChatGPT 5.5 is out and it beats Opus 4.7 in almost every benchmark\n\nIt even beat Mythos in some benchmarks including Terminal-Bench 2.0\n\nThis is what you need to do immediately if you want to escape the permanent underclass:\n\n• Download the Codex desktop app and start using this model. Codex now has computer use so it can act as an agent\n• Upgrade your OpenClaw to ChatGPT 5.5. A lot of the team has been saying they have been building this model for OpenClaw (I will verify this soon)\n• Everything you do on your computer for the next 24 hours, describe it to ChatGPT 5.5 and ask how it can do the task better\n• It's by far best in class for knowledge work tasks. Every document, spreadsheet, presentation you create should go through 5.5\n• Take a moment and be grateful you are alive during the greatest tech explosion in history\n\nWhen new tech drops, you have to take advantage of it. That's the only way to win\n\nPut your phone on Do Not Disturb and get to it",
+      "createdAt": "Thu Apr 23 18:26:42 +0000 2026",
+      "viewCount": 225855,
+      "likeCount": 1410,
+      "retweetCount": 99,
+      "author": {
+        "userName": "AlexFinn",
+        "name": "Alex Finn",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AlexFinn/status/2047381666054959369",
+      "is_official": false
+    },
+    {
+      "id": "2047245316391670042",
+      "text": "Google’s level of disrespect is OFF THE CHARTS right now.\n\nAnthropic really thought they had us locked down with Claude Design’s ridiculous rate limits…\n\n…and now Google has literally countered it straight away by open-sourcing DESIGN.md 🤯\n\nhttps://t.co/9Hq4nLX2GK",
+      "createdAt": "Thu Apr 23 09:24:54 +0000 2026",
+      "viewCount": 1201093,
+      "likeCount": 5649,
+      "retweetCount": 331,
+      "author": {
+        "userName": "DataChaz",
+        "name": "Charly Wargnier",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/DataChaz/status/2047245316391670042",
+      "is_official": false
+    },
+    {
+      "id": "2047388614167003208",
+      "text": "GPT-5.5 on ARC-AGI (Verified)\n\nARC-AGI-2:\n- Max: 85.0%, $1.87\n- High: 83.3%, $1.45\n- Med: 70.4%, $0.86\n- Low: 33%, $0.35\n\nGPT-5.5 is now state of the art on ARC-AGI-2 https://t.co/sf6ekxNent",
+      "createdAt": "Thu Apr 23 18:54:18 +0000 2026",
+      "viewCount": 140969,
+      "likeCount": 1494,
+      "retweetCount": 157,
+      "author": {
+        "userName": "arcprize",
+        "name": "ARC Prize",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/arcprize/status/2047388614167003208",
+      "is_official": false
+    },
+    {
+      "id": "2047376561205325845",
+      "text": "Introducing GPT-5.5\n\nA new class of intelligence for real work and powering agents, built to understand complex goals, use tools, check its work, and carry more tasks through to completion. It marks a new way of getting computer work done.\n\nNow available in ChatGPT and Codex. https://t.co/rPLTk99ZH5",
+      "createdAt": "Thu Apr 23 18:06:25 +0000 2026",
+      "viewCount": 4931614,
+      "likeCount": 35557,
+      "retweetCount": 4926,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2047376561205325845",
+      "is_official": true
+    }
+  ]
+}

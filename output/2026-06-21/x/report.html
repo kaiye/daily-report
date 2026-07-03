@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUN 21, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">今日最重要的共同信号是：AI正在从模型能力竞争扩展到成本、开放生态、资源消耗、就业冲击和真实世界部署的全面博弈。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@ClaudeDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ClaudeDevs</span>：我们已经为所有套餐重置了5小时和每周用量限制，周末尽情使用吧。
+          </p>
+          <p class="item-metric">👁 1.6M · ❤️ 12.9K</p>
+          <a class="item-link" href="https://twitter.com/ClaudeDevs/status/2068122937308426676">https://twitter.com/ClaudeDevs/status/2068122937308426676</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@akshay_pachaar</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Akshay 🚀</span>：网页抓取可能要变天：PixelRAG直接检索页面截图，让视觉语言模型从像素里读答案，避免HTML解析丢信息。
+          </p>
+          <p class="item-metric">👁 308.5K · ❤️ 3.0K</p>
+          <a class="item-link" href="https://twitter.com/akshay_pachaar/status/2068317780064276917">https://twitter.com/akshay_pachaar/status/2068317780064276917</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@anujcodes_21</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anuj</span>：Anthropic放出一场24分钟Claude提示词实操课，由内部团队讲解，免费、免注册，值得立刻收藏。
+          </p>
+          <p class="item-metric">👁 183.0K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/anujcodes_21/status/2068159400515412182">https://twitter.com/anujcodes_21/status/2068159400515412182</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@opencode</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenCode</span>：GLM 5.2发布三天就冲到我们排行榜第6名，势头很猛。
+          </p>
+          <p class="item-metric">👁 78.0K · ❤️ 2.5K</p>
+          <a class="item-link" href="https://twitter.com/opencode/status/2068348025206895097">https://twitter.com/opencode/status/2068348025206895097</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@FirstSquawk</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">First Squawk</span>：Anthropic CEO警告AI可能消灭一半入门级白领岗位，并提出用AI税资助UBI。
+          </p>
+          <p class="item-metric">👁 261.1K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/FirstSquawk/status/2068154633202413991">https://twitter.com/FirstSquawk/status/2068154633202413991</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@YourAnonOne</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anonymous</span>：一封100词的ChatGPT邮件据称要消耗约500毫升水，相当于一整瓶塑料瓶装水。
+          </p>
+          <p class="item-metric">👁 154.2K · ❤️ 3.9K</p>
+          <a class="item-link" href="https://twitter.com/YourAnonOne/status/2068299618564157636">https://twitter.com/YourAnonOne/status/2068299618564157636</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@Kalshi</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Kalshi</span>：Anthropic CEO称，如果没有数千亿美元收入，AI公司可能面临生存风险。
+          </p>
+          <p class="item-metric">👁 100.0K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/Kalshi/status/2068427754056364465">https://twitter.com/Kalshi/status/2068427754056364465</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@nexta_tv</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">NEXTA</span>：“死互联网理论”像是照进现实：一个魔兽服务器里没有真人，1800个基于DeepSeek的机器人在聊天、升级、下副本和互相战斗。
+          </p>
+          <p class="item-metric">👁 760.8K · ❤️ 3.0K</p>
+          <a class="item-link" href="https://twitter.com/nexta_tv/status/2068408542407586007">https://twitter.com/nexta_tv/status/2068408542407586007</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@jaltucher</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">James Altucher</span>：SpaceX即将动用850亿美元融资，马斯克系公司供应商可能成为赢家；我整理了相关上市供应商清单。
+          </p>
+          <p class="item-metric">👁 200.4K · ❤️ 1.9K</p>
+          <a class="item-link" href="https://twitter.com/jaltucher/status/2068318158444691804">https://twitter.com/jaltucher/status/2068318158444691804</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@thecaptain_nemo</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Nemo</span>：我认识的一位非技术背景、常发AI垃圾内容的人竟被Anthropic招为技术人员，也许AI公司的招聘节奏真的失控了。
+          </p>
+          <p class="item-metric">👁 167.4K · ❤️ 2.8K</p>
+          <a class="item-link" href="https://twitter.com/thecaptain_nemo/status/2068392118599761967">https://twitter.com/thecaptain_nemo/status/2068392118599761967</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

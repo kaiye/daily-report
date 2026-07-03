@@ -1,0 +1,705 @@
+{
+  "generated_at": "2026-05-20T00:01:18.107Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 57,
+  "items": [
+    {
+      "source": "新智元",
+      "title": "你的AI Agent越用越蠢？港中大、浙大戳破「记忆」的谎言",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652701520&idx=3&sn=d420c2201a9207d4940ef6009ee78334",
+      "published_at": "2026-05-19T04:36:00.000Z",
+      "summary": "ASI启示录 2026-05-19 12:36 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 你是否在使用Agent工作或者写代码时，总感觉上下文不够用？或者感觉反复使用Agent时并没有变得更聪明？感觉目前的记忆方案仍然不够用？今日，香港中文大学联合浙江大学发布的一篇论文关注了这个问题，并引起了学术界广泛讨论：你以为Agent在「记忆」，其实只是在记备忘录。**\n\n你有没有遇到过这种情况：\n\n给Agent配了向量数据库，上传了大量历史对话，结果它下次还是答不上来；或者用Cursor、Claude写了几十轮代码，感觉它对你项目的理解并没有随着时间真正加深，每次都像是在重",
+      "priority_score": 350,
+      "matched_keywords": [
+        "Claude",
+        "AI Agent",
+        "Cursor"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google updates its Gemini app to take on ChatGPT and Claude at IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/google-updates-its-gemini-app-to-take-on-chatgpt-and-claude-at-io-2026/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "The updates signal Google’s push to turn its Gemini app into an all-purpose AI hub rather than a stand-alone chatbot.",
+      "priority_score": 328,
+      "matched_keywords": [
+        "Claude",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI co-founder Andrej Karpathy joins Anthropic’s pre-training team",
+      "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+      "published_at": "2026-05-19T15:43:04.000Z",
+      "summary": "Pre-training is responsible for the large-scale training runs that give Claude its core knowledge and capabilities, according to the company. It's also one of the most expensive, compute-intensive phases of building a frontier model.",
+      "priority_score": 322,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Agentic app coding gets an upgrade with Google’s release of Android CLI",
+      "url": "https://techcrunch.com/2026/05/19/agentic-app-coding-gets-an-upgrade-with-googles-release-of-android-cli/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "Google is embracing the rise of AI coding agents with new Android tools designed to work with platforms like Claude Code and OpenAI’s Codex, allowing developers — or their AI assistants — to build Android apps faster from the command line.",
+      "priority_score": 250,
+      "matched_keywords": [
+        "OpenAI",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "LLM近期重大架构进化一览：从Gemma 4到DeepSeek V4",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033888&idx=2&sn=0260ac498ecbedb37e83dc0d5288b029",
+      "published_at": "2026-05-19T04:00:00.000Z",
+      "summary": "机器之心 2026-05-19 12:00 北京\n\n长上下文越来越贵，新 LLM 架构怎么「省钱」？\n\n机器之心编辑部\n\n过去一段时间，很多人对大模型都有一个明显感受： token 总是不够用 。\n\n毕竟用户想大模型更 「聪明」 更连贯，上下文窗口只会越来越大。\n\n而在模型背后，长上下文是相当「奢侈」的。用户 token 消耗翻倍，其实是模型更大的 KV cache 和更高的 attention 计算成本。\n\n尤其是在推理模型和 Agent 逐渐成为主流后，长上下文已经从一个「宣传亮点」，逐渐转变为大模型架构设计需要正面解决的问题。\n\nSebastian 精准地捕捉到，最近几个月发布的一批 L",
+      "priority_score": 250,
+      "matched_keywords": [
+        "DeepSeek",
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google wants to compete with Anthropic’s Mythos",
+      "url": "https://www.theverge.com/tech/933921/google-wants-to-compete-with-anthropics-mythos",
+      "published_at": "2026-05-19T17:48:22.000Z",
+      "summary": "Google is making a big push into cybersecurity. At I/O, the company announced that it was inviting select groups of experts to test the API for CodeMender, an \"AI agent for code security\" it debuted last October. The difference is that Google is now making the tool more widely available externally -",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Anthropic",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Demis Hassabis said this might be the ‘foothills of the singularity.’ What?",
+      "url": "https://www.theverge.com/tech/934260/google-io-ai-singularity-demis-hassabis",
+      "published_at": "2026-05-19T22:16:02.000Z",
+      "summary": "Welcome to a \"profound moment for humanity,\" according to Google DeepMind CEO Demis Hassabis, who closed out[Google I/O's keynote presentation](https://www.youtube.com/live/wYSncx9zLIU?t=10459s)on Tuesday, saying:\nGoogle's cutting-edge research and products will help unlock AGI's incredible potentia",
+      "priority_score": 200,
+      "matched_keywords": [
+        "DeepMind",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "AI创业一年狂揽800亿美元！Anthropic反杀OpenAI，双雄独吞89%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652701520&idx=2&sn=f6f7c30e2ed0aac4e4a6144d66a25915",
+      "published_at": "2026-05-19T04:36:00.000Z",
+      "summary": "新智元 2026-05-19 12:36 北京\n\n### **新智元报道**\n\n##### **【新智元导读】AI创业公司一年狂揽800亿美元，OpenAI和Anthropic两家独吞89%，百模大战的终局不是百花齐放，而是赢家通吃。**\n\nAI创业公司一年狂揽800亿美元！\n\nThe Information最新数据显示，全球34家头部AI创业公司的年化收入合计已冲到约800亿美元，半年内暴涨112%。\n\n听起来像是整个赛道都在狂飙对吧，但把这个数字拆开看，脊背发凉——\n\n**OpenAI和Anthropic两家，拿走了其中的89%！**\n\n剩下32家公司，挤在11%的缝隙里喘气。\n\n这哪里是",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "How to use Google’s new AI agents to go beyond your standard searches",
+      "url": "https://techcrunch.com/2026/05/19/how-to-use-googles-new-ai-agents-to-go-beyond-your-standard-searches/",
+      "published_at": "2026-05-19T21:16:25.000Z",
+      "summary": "Google is launching AI-powered “information agents” that can monitor topics in the background and proactively alert users to updates and changes.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Everything new in our Google AI subscriptions, fresh from I/O 2026",
+      "url": "https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/I_O_26_Header_1_AYohnR4.max-600x600.format-webp.webp\">Introducing a $100 AI Ultra plan — plus, new features and benefits for Google AI Plus, Pro and Ultra subscribers.",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Google AI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google can now vibe-code you an Android app",
+      "url": "https://www.theverge.com/tech/932364/google-ai-studio-native-android-apps-vibe-code-google-io-2026",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "Google is announcing a major upgrade to one of its vibe coding platforms: Beginning today, you can now use AI Studio to build native Android apps.\n\nWith Google AI Studio, you can prompt your idea for an app and preview it with an embedded emulator of Android. When you want to try it out on an actual",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Google AI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s Genie world model can now simulate real streets with Street View",
+      "url": "https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/",
+      "published_at": "2026-05-19T17:51:39.000Z",
+      "summary": "Google DeepMind is integrating Street View with Project Genie to create immersive, interactive world simulations for robotics, gaming, and travel, allowing users to explore environments, weather changes, and rare scenarios.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI is making it easier to check if an image was made by their models",
+      "url": "https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "OpenAI announced two new measures to help detect AI generated imagery: joining the open C2PA standard and adding Google's SynthID to its products.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Roundtables: Inside the Musk v. Altman Trial",
+      "url": "https://www.technologyreview.com/2026/05/19/1137454/roundtables-inside-the-musk-v-altman-trial/",
+      "published_at": "2026-05-19T20:15:18.000Z",
+      "summary": "****Listen to the session or watch below****\n\nElon Musk lost his suit against OpenAI, in which he alleged CEO Sam Altman and President Greg Brockman had deceived him over the company’s non-profit status.\n\nWatch as AI reporter and attorney Michelle Kim, who covered the trial for MIT Technology Review",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Elon Musk said Sam Altman ‘stole’ a non-profit — but the trial showed he had similar aims",
+      "url": "https://techcrunch.com/2026/05/19/elon-musk-said-sam-altman-stole-a-non-profit-but-the-trial-showed-he-had-similar-aims/",
+      "published_at": "2026-05-19T20:11:00.000Z",
+      "summary": "The jury's speedy decision to reject Elon Musk's lawsuit against the other founders of OpenAI and Microsoft confirmed what we saw in the courtroom: Musk's case was a weak one, in part because he waited so long to file it.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google Search is getting its biggest changes ever",
+      "url": "https://www.theverge.com/tech/932970/google-search-ai-update-io-2026",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "Google Search is entering the next phase of its AI evolution. During Google I/O 2026, the company showed off[a reimagined search box](https://blog.google/products-and-platforms/products/search/search-io-2026/)that makes it easier to flow between AI Overviews, the[AI-generated summaries](https://www.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Here’s why Elon Musk lost his suit against OpenAI",
+      "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
+      "published_at": "2026-05-19T00:53:10.000Z",
+      "summary": "On Monday, the jury in*Musk v. Altman*dealt Elon Musk a major blow—reaching a unanimous advisory verdict that he had sued OpenAI too late and, as a result, his claims are barred by the applicable statutes of limitations. US District Judge Yvonne Gonzalez Rogers immediately accepted it. \n\nMusk[announ",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "与 Altman 官司出结果，马斯克败诉；群核携手影石，让人人都能创作 3D 内容；英伟达 Q1 营收或超预期 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106828&idx=1&sn=4fc4e52f44ef2ee34b2e74be3730fc7b",
+      "published_at": "2026-05-19T00:32:00.000Z",
+      "summary": "范哲 2026-05-19 08:32 北京\n\n三星罢工进入倒计时，韩国政府发出「最后通牒」；AMD CEO 苏姿丰访华表态：中国市场极其重要；SpaceX 加速推进史上最大 IPO，目标 6 月 12 日挂牌；苹果 Siri 将迎来大改版：自动删除聊天记录，首次搭载谷歌 Gemini\n\n## 美陪审团驳回马斯克对 OpenAI 的诉讼 马斯克誓言上诉\n\n2026 年 5 月 18 日消息，旧金山联邦法院宣判马斯克起诉 OpenAI 一案败诉，陪审团一致以诉讼时效过期驳回其所有索赔。按照加州法律，相关诉求需在事件发生三年内提起，OpenAI2019 年完成引资微软、推进商业化等关键举措，马斯克",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The 13 biggest announcements at Google I/O 2026",
+      "url": "https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini",
+      "published_at": "2026-05-19T17:54:33.000Z",
+      "summary": "Google CEO Sundar Pichai on stage at I/O 2026. | Screenshot:[YouTube](https://www.youtube.com/watch?v=wYSncx9zLIU)\nGoogle's I/O 2026 keynote today was once again full of AI-related announcements including a new family of Gemini 3.5 AI models, new features for Search and Gmail, and updates about its ",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots",
+      "url": "https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/",
+      "published_at": "2026-05-19T17:51:30.000Z",
+      "summary": "Google launched Gemini 3.5 Flash, its most powerful coding and agentic AI model yet, at the company's annual developer conference. It is capable of autonomously executing complex tasks and building software from scratch.",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5__keyword__blog-heade.max-600x600.format-webp.webp\">At Google I/O we released Gemini 3.5, our latest series of models combining frontier intelligence with action.",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "抢先李飞飞！世界模型能多人联机玩FPS游戏了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891759&idx=1&sn=f740f98282614031e02f5309d0f6b3b6",
+      "published_at": "2026-05-19T06:08:00.000Z",
+      "summary": "原创关注前沿科技 2026-05-19 14:08 北京\n\n开局就被秒，对面你是「人」吗？\n\n##### Jay 发自 凹非寺 量子位 | 公众号 QbitAI\n\n我被AI杀了？\n\n有视频为证，我被一个不知道是人还是AI的东西， **一枪崩了** 。\n\n还是在一个 **世 界模型创造 的世界** 里。\n\n嗯，就是这个画质糊成马赛克的网页版FPS。\n\n背后没有游戏引擎，没有物理规则，没有一行渲染代码。\n\n你看到的一切，都是靠一个叫 Agora-1 的世界模型，实时生成的。\n\n人类 和AI，同时在其中搏击。\n\n## AI版黄金眼007\n\n先一起看看这条官方产品发布视频。\n\n我看了好多遍，很奇怪的感",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "veRL 推出开源 Uni-Agent：为通用 Agent 训练打造统一框架",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247519822&idx=1&sn=593c83efeaade641f9ab13166dbce953",
+      "published_at": "2026-05-19T05:10:00.000Z",
+      "summary": "原创veRL&云基础 2026-05-19 13:10 江苏\n\n仓库地址：\n\nUni-Agent： [https://github.com/verl-project/uni-agent](https://github.com/verl-project/uni-agent)\n\n最近，OpenClaw 等开源 Agent 项目的爆火，释放出一个很强的信号：\n\nAgent 正在从“看起来很厉害”，走向“真的开始替人做事”。它不再只是回答问题，而是开始真正执行任务，这也是 Agent 最让人兴奋的地方。\n\n但在热闹背后，一个关键问题也逐渐浮出水面： **能够支撑复杂通用场景、规模化运行，并自然衔接训练",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "From teen hacker to Iron Dome researcher, this founder raised $28M to fight AI phishing",
+      "url": "https://techcrunch.com/2026/05/19/from-teen-hacker-to-iron-dome-researcher-this-founder-raised-28m-to-fight-ai-phishing/",
+      "published_at": "2026-05-19T21:08:51.000Z",
+      "summary": "Ocean, an agentic email security platform, claims its AI can thoroughly analyze the context of every incoming email to detect fraud and impersonation attempts.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "How AI Mode is changing the way people search in the U.S.",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_US.max-600x600.format-webp.webp\">One year after launch, see how AI Mode’s users are shifting from keywords to natural language queries.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "New ways to create and get things done in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/workspace-updates/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GoogleWorkspace-IO.max-600x600.format-webp.webp\">Announcing new voice capabilities in Gmail, Docs and Keep, a new design tool called Google Pics and updates to AI Inbox.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Would you let robots spend your money? Google is betting on it",
+      "url": "https://www.theverge.com/news/932927/google-io-agentic-ai-shopping-universal-cart",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "Google is going all in on AI-driven shopping even as some competitors back off.\n\nAt Google I/O, the company unveiled the latest iteration of its AI commerce tools: a \"Universal Cart\" that works across different retailers and Google products like Gemini - and eventually YouTube and Gmail, too. Users ",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Gmail is going to start talking to you",
+      "url": "https://www.theverge.com/tech/932973/google-gmail-live-ai-keep-docs-io-2026",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "Google is launching[a big new feature](https://blog.google/products-and-platforms/products/workspace/workspace-updates/)for Gmail called Gmail Live, a new AI-powered voice mode that's basically the Gemini Live experience but built specifically for your inbox.\n\nTo use Gmail Live, tap an icon that wil",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s AI Studio now lets anyone build Android apps in minutes",
+      "url": "https://techcrunch.com/2026/05/19/googles-ai-studio-now-lets-anyone-build-android-apps-in-minutes/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "Google unveiled new web-based AI tools that can generate native Android apps in minutes, as the company expands its push into AI-powered software development.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s new Universal Cart wants to follow your entire shopping journey across the internet",
+      "url": "https://techcrunch.com/2026/05/19/googles-new-universal-cart-wants-to-follow-your-entire-shopping-journey-across-the-internet/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "Most people shop across multiple devices, many retailers, and over the course of many days, which is why Google is launching Universal Cart.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google launches Antigravity 2.0 with an updated desktop app and CLI tool at IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/google-launches-antigravity-2-0-with-an-updated-desktop-app-and-cli-tool-at-io-2026/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "Google is debuting a new AI Ultra plan priced at $100, which will give users 5x more usage limit than the AI Pro plan alongside the Antigravity 2.0 launch.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google adds voice-based prompting to Docs and Keep",
+      "url": "https://techcrunch.com/2026/05/19/google-adds-voice-based-prompting-to-docs-and-keep/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "Google is letting users create drafts, take notes, and search for email with voice with the new Workspace update.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "国产GPU开始造世界！国内首个全栈具身智能仿真平台来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891759&idx=2&sn=dae11b5c3de28b554fc3823dd823198a",
+      "published_at": "2026-05-19T06:08:00.000Z",
+      "summary": "原创关注前沿科技 2026-05-19 14:08 北京\n\n发布MT Lambda\n\n##### 金磊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n没有新的GPU，没有新的智算卡。\n\n但一家 **国产GPU** 厂商，却在一整场发布会的时间里，做了一件 **非常物理** 的事儿——\n\n发布 **首个全栈国产化** 的 **具身智能** 仿真平台。\n\n先来看效果。\n\n这只名叫 **小飞** 的机器狗，缓缓走上了舞台。\n\n在走到舞台中央后，只见屏幕里仿真世界的小飞 **侧空翻** 了一下，随即，物理世界的小飞便做出了一模一样的动作。\n\n转个身，再来一次，动作依旧是像 **粘贴复制** 的似的",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "全球首个AI专家市场上线！把你的绝活打包，数字分身7x24小时变现",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652701520&idx=1&sn=d866f4902ec388e08776df3a78139a52",
+      "published_at": "2026-05-19T04:36:00.000Z",
+      "summary": "ASI启示录 2026-05-19 12:36 北京\n\n### **新智元报道**\n\n##### **【新智元导读】你空有一身绝绝子搞钱经验，却在AI时代越用越焦虑？今天，首个AI专家市场「袋袋」上线：不考提示词，不拼敲代码，只要你会聊天，就能一键将你的脑子「数字资产化」，让你的判断力变成全球24小时自动躺赚的「逻辑版税」！**\n\n你有一项绝活，用它赚钱，理所应当。\n\n但过去，你的收入卡在物理限制里：一颗脑袋、一天 24 小时、一次只能出现在一个空间。\n\n如果现在，你的AI数字分身能够做到，无休止地替你赚钱呢？而且是面向全球？\n\n今天，袋袋（Profy）——全球首个AI专家市场正式上线。\n\n在",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "670 亿美元！AI 崛起，促成美国最大能源并购案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106840&idx=1&sn=3fbe7ce145eff5d8dcac137e6563644e",
+      "published_at": "2026-05-19T04:08:00.000Z",
+      "summary": "原创桦林舞王 2026-05-19 12:08 北京\n\n​GPU 烧算力，电网烧钱，最后是普通消费者买单。\n\nGPU 烧算力，电网烧钱，最后是普通消费者买单。\n\n**作者｜桦林舞王** **编辑｜ **靖宇****\n\n如果几年前有人跟我说，AI 这件事最终会重塑美国的电力版图，你大概不会太当真。毕竟，我们谈论的是软件、是算法、是模型参数——这些东西听起来和电厂没什么关系。\n\n但就在 2026 年 5 月 18 日，这个认知被彻底打破了。\n\n**NextEra Energy 宣布以 670 亿美元收购 Dominion Energy，创下美国历史上最大的公用事业并购纪录** 。 这个数字足够震撼",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "OlmoEarth v1.1: A more efficient family of models",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-1",
+      "published_at": "2026-05-19T18:38:09.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google Search as you know it is over",
+      "url": "https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/",
+      "published_at": "2026-05-19T17:46:00.000Z",
+      "summary": "Google is transforming Search from a list of links into an AI-powered experience filled with conversational answers, autonomous agents, and interactive interfaces — a shift that could further reduce traffic to publishers across the web.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "I/O 2026: Welcome to the agentic Gemini era",
+      "url": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SundarKeynote-hero.max-600x600.format-webp.webp\">The latest from Google I/O: See how we’re helping you get more done with Gemini.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google introduces Gemini Spark, a 24/7 agentic assistant with Gmail integration, at IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "At the Google I/O developer conference, the company announced a new agentic personal assistant called Gemini Spark, built from Gemini's base models and an agentic harness from Google Antigravity.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s Gemini Omni turns images, audio, and text into video — and that’s just the start",
+      "url": "https://techcrunch.com/2026/05/19/googles-gemini-omni-turns-images-audio-and-text-into-video-and-thats-just-the-start/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "Google's Gemini Omni is a new multimodal model that reasons across text, images, audio, and video to generate and edit videos through simple conversation — starting with Omni Flash.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "从卖token到卖结果，这些公司开始让AI背KPI了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033888&idx=1&sn=f00bd91a39c2baa5e323a0114afdf173",
+      "published_at": "2026-05-19T04:00:00.000Z",
+      "summary": "原创机器之心 2026-05-19 12:00 北京\n\nRaaS：AI 的价值回归\n\n编辑｜张倩\n\n自从黄仁勋在 GTC 上大手一挥，鼓励企业把 token 消耗量算进工程师的 KPI，魔幻的事情就一天比一天多了。\n\n先是 Meta 内部搞起「烧 token 竞赛」，员工为冲 KPI，写死循环 bot、用低效提示词刷量；接着亚马逊员工为了证明自己「高频使用 Agent」，明明不需要自动化的活儿，硬给做成自动。表面看，这是大厂员工在「卷 AI 使用率」，但背后暴露的问题其实更严重：当企业无法衡量 AI 的真实价值时，就只能退而求其次，用「调用量」代替「产出」。\n\n而这种失真，正在变成整个行业的共",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google just declared itself a contender in AI design at IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/",
+      "published_at": "2026-05-19T21:33:30.000Z",
+      "summary": "Google says it's designed the app to be accessible to everyone, from teachers to small business owners.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "You can now talk to your Gmail inbox, as seen at Google IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/you-can-now-talk-to-your-gmail-inbox-as-seen-at-google-io-2026/",
+      "published_at": "2026-05-19T21:25:31.000Z",
+      "summary": "Google expands Gmail’s AI Inbox with conversational voice search, letting users ask Gemini to find buried email details.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The future of Google is a search box that does everything",
+      "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026",
+      "published_at": "2026-05-19T21:24:14.000Z",
+      "summary": "Last year, after watching Google's I/O keynote, I wrote that it felt like[Google's future was Google googling](https://www.theverge.com/google/671200/google-googling-ai-mode-project-mariner-i-o-2025). After watching this year's I/O keynote on Tuesday, I don't think Google just wants to google for yo",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google’s AI future demands trust — and your personal data",
+      "url": "https://www.theverge.com/tech/934172/google-io-gemini-ai-trust-personal-data",
+      "published_at": "2026-05-19T21:00:00.000Z",
+      "summary": "Google has big promises for its AI-powered future - and a lot of it depends on your trust. At I/O 2026, Google described a bunch of new tools that it claims will make your life easier.[Gemini Spark](https://www.theverge.com/tech/932996/google-gemini-spark-antigravity-io-2026), Google's always-on AI ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google takes a page out of Meta’s book, announces new audio-powered smart glasses at IO 2026",
+      "url": "https://techcrunch.com/2026/05/19/google-takes-a-page-out-of-metas-book-announces-new-audio-powered-smart-glasses-at-io-2026/",
+      "published_at": "2026-05-19T19:15:31.000Z",
+      "summary": "Google is calling the new devices \"audio glasses,\" in that users will be able to issue verbal commands to them and get things done via its ecosystem of apps and services, including Gemini.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Gemini will use Volvo’s external cameras to interpret parking signs",
+      "url": "https://www.theverge.com/transportation/933556/google-io-gemini-volvo-ex60-camera-ai-parking",
+      "published_at": "2026-05-19T18:00:00.000Z",
+      "summary": "Gemini is gaining the power of sight*and*mobility.[Today at the I/O conference](https://www.theverge.com/tech/932454/google-io-2026-news-announcements), Google and Volvo announced that the AI-powered assistant will be able to access external cameras in[the upcoming EX60 SUV](https://www.theverge.com",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Collection-Hero.gif\">At Google I/O 2026, we shared how we’re making AI more helpful for everyone. See everything we announced.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "A new era for AI Search",
+      "url": "https://blog.google/products-and-platforms/products/search/search-io-2026/",
+      "published_at": "2026-05-19T17:45:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_AI_and_search_engine_v46.max-600x600.format-webp.webp\">We shared the next step in our journey to bring together the best of a search engine with the best of AI.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Understanding the modern cybercrime landscape",
+      "url": "https://www.technologyreview.com/2026/05/19/1136925/understanding-the-modern-cybercrime-landscape/",
+      "published_at": "2026-05-19T13:00:00.000Z",
+      "summary": "Throughout 2025, HPE observed significant changes in how cybercriminals operate. Analyzing real-world threats, our HPE Threat Labs highlighted an industrialization of the cyber criminals’ methods in its new*[In the Wild](https://www.hpe.com/psnow/doc/a50014950enw?utm_campaign=FY26_SY_BU_GO_AMS_NA_Sy",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: Musk v. Altman, smart glasses for warfare, and Google I/O",
+      "url": "https://www.technologyreview.com/2026/05/19/1137505/the-download-musk-altman-trial-smart-glasses-warfare-google-i-o/",
+      "published_at": "2026-05-19T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Here’s why Elon Musk ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Colossal Biosciences is growing chickens in a 3D-printed artificial eggshell",
+      "url": "https://www.technologyreview.com/2026/05/19/1137471/colossal-biosciences-is-growing-chickens-in-a-3d-printed-container/",
+      "published_at": "2026-05-19T12:00:00.000Z",
+      "summary": "The baby chicks were shifting and starting to pip—or trying to hatch. But not from an egg. \n\nInstead, these chickens were growing inside transparent 3D-printed plastic cups at the Dallas headquarters of Colossal Biosciences.\n\nThe biotech company today claimed it has developed a “fully artificial egg",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "给程序员送什么，会让他炫耀三天三夜？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801557&idx=1&sn=6f39e3a707ec56f1fdab7c1ff9466885",
+      "published_at": "2026-05-19T11:16:00.000Z",
+      "summary": "原创腾讯程序员 2026-05-19 19:16 广东\n\n这9样，基本能吹到下个月\n\n[跳转微信打开](https://wechat2rss.xlab.app/link-proxy/?k=44882855&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMjM5ODYwMjI2MA%3D%3D%26mid%3D2649801557%26idx%3D1%26sn%3D6f39e3a707ec56f1fdab7c1ff9466885)",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "让大模型学会「自己教自己」！京东&中科院信工所连发三篇论文定义Self-Taught RLVR",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891759&idx=3&sn=fc47242b1d6ce6aa4b33c64d792977d3",
+      "published_at": "2026-05-19T06:08:00.000Z",
+      "summary": "关注前沿科技 2026-05-19 14:08 北京\n\nRLVR后训练系列新作\n\n##### 京东&中科院信工所 投稿 量子位 | 公众号 QbitAI\n\n最近，京东和中科院信工所展开了 **Self-Taught RLVR** 的系列研究，并连发三篇后训练新作。\n\n这一系列的核心命题只有一个:\n如何让大模型自我指导，实现迭代演化?\n研究者对Self-Taught探索了三个互补维度：\n\n1、 **RLSD** ：探究 **informed self** ——由特权信息增强的自身来教自己； 2、 **NPO** ：聚焦 **temporal self** ——由近未来的自身教自己； 3、 **C",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247891759&idx=4&sn=1fe049ecbb582bcde208a366a6ab25b1",
+      "published_at": "2026-05-19T06:08:00.000Z",
+      "summary": "关注前沿科技 2026-05-19 14:08 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "ICML 2026 | 突破3DGS光度多义性瓶颈：北航/新国立提出AmbiSuR，重塑高保真3D几何重建",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033888&idx=3&sn=eba91739c595831c281481586a85bc92",
+      "published_at": "2026-05-19T04:00:00.000Z",
+      "summary": "机器之心 2026-05-19 12:00 北京\n\n深入剖析了 3DGS 内部的基元级多义性，并首次论证了球谐函数在高斯溅射中作为 “多义性自指示器” 的可行性与内在潜能\n\n近年来，3D 高斯泼溅（3D Gaussian Splatting, 3DGS）凭借其卓越的新视角合成能力和实时的渲染效率，极大地推动了神经渲染技术的发展。然而，当研究者试图直接从 3DGS 中提取精确的 3D 几何表面（Mesh 等）时，往往会面临严重的几何失真问题。正如论文所指出的，由于混合过程缺乏约束，模型极易出现 过度 重 建 （over-reconstruction）和 恶性的几何重叠 ，生成由冗余基元构成的 病",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "6 年骂战，2 小时裁决，马斯克 VS Altman 第一战失败",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106834&idx=1&sn=c25d2eaae336e51413c3d5b61e59da0f",
+      "published_at": "2026-05-19T01:17:00.000Z",
+      "summary": "原创桦林舞王 2026-05-19 09:17 北京\n\nMusk 和 Altman 的恩怨，终于有了一个法律意义上的句号。\n\n**作者｜桦林舞王** **编辑｜ **靖宇****\n\n在经典黑帮电影《教父》里，有一句台词流传至今——「这不是私人恩怨，这是生意。」\n\n但现实往往更复杂。当生意和私人恩怨搅在一起，当一个人既是昔日的共同创始人、又是今日最强劲的竞争对手，你很难说清楚，那张诉状到底是一纸法律文书，还是一封迟来的绝交信。\n\n在硅谷乃至整个美国，目前最受人瞩目的诉讼大战，无疑是正在进行的马斯克 VS Altman 的法庭大战。\n\n现在，这场持续多年的「恩怨」，终于有了第一阶段的结果。\n\n当地",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

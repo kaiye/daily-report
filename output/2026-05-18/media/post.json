@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-05-18T00:01:17.163Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 11,
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "花了1000倍的token，效果可能却没有更好：AI Agent的“隐性账单”长什么样",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033486&idx=3&sn=b78e5f51da1734107dbfbe393a7f6e0a",
+      "published_at": "2026-05-17T03:06:00.000Z",
+      "summary": "机器之心 2026-05-17 11:06 北京\n\n分析了 8 个 frontier 模型在 swe-bench-verified 上的轨迹。\n\n如今的 AI Agent 正在大规模落地，其中应用最广且最受关注的当数 Claude Code，Codex，Cursor 这类 coding agent。过去的一年里，这类 coding agent 产品迭代迅速，在一年内将在 swe-bench- verified 的准确率提高到了 78%+。\n\n然而，相比简单的代码推理或者和代码相关的聊天，coding agent 的 token 消耗也极为显著。在使用这种 coding agent 的过程中，最",
+      "priority_score": 322,
+      "matched_keywords": [
+        "Claude",
+        "AI Agent",
+        "Cursor"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Why trust is a big question at the Elon Musk-OpenAI trial",
+      "url": "https://techcrunch.com/2026/05/17/why-trust-is-a-big-question-at-the-elon-musk-openai-trial/",
+      "published_at": "2026-05-17T19:46:34.000Z",
+      "summary": "A big theme in the trial’s final days was whether OpenAI CEO Sam Altman is trustworthy.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "一个月狂烧130万美元！龙虾之父自曝token账单，费用OpenAI全包",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033486&idx=1&sn=d735fea8f939c9ca3c15a8d7d010fff7",
+      "published_at": "2026-05-17T03:06:00.000Z",
+      "summary": "原创关注龙虾的 2026-05-17 11:06 北京\n\n雇一支开发团队可能都没这么贵。\n\n机器之心编辑部\n\n是的，你没看错！\n\n龙虾之父 Peter Steinberger 一个月的 API token 花费金额竟然高达 130 万美元+。\n\n可以看到，30 天总 token 消耗量为 6030 亿，请求量 760 万，\n\n网友惊呼，「雇佣一支开发团队可能都比这便宜。」\n\n另一位网友追问道，「兄弟，你最好能亮出点真本事，做出那些百万美元年薪的工程师都搞不定的东西，不然这广告恐怕就成了前沿实验室泡沫开始破裂的信号了。而且这价格还是补贴过的。天哪，要按实际成本算，那得贵得多。」\n\nSteinbe",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "特斯拉解封17 份Robotaxi 碰撞报告；卢伟冰：部分国产旗舰手机售价或突破万元；警告：AI 可轻松从高分辨率自拍照中窃取指纹 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106703&idx=1&sn=af09ed7750219eb2fabbc8305777f824",
+      "published_at": "2026-05-17T01:40:00.000Z",
+      "summary": "美漪 2026-05-17 09:40 上海\n\nOpenAI 在美国遭集体诉讼；比尔 · 盖茨基金会出售最后持有的 770 万股微软股票；三星电子会长李在镕就公司「内部问题」公开道歉\n\n## 特斯拉解封 17 份 Robotaxi 碰撞报告：首次披露事故细节\n\n5 月 17 日消息，据 Electrek 昨日报道，特斯拉已向美国国家公路交通安全管理局（NHTSA）补交并解除了全部 17 份自动驾驶系统碰撞报告的涂黑内容，首次向公众披露每起事故的真实经过。\n\n此前，特斯拉是所有自动驾驶系统运营商中唯一一家将每份碰撞报告均完整涂黑并标为「可能包含机密商业信息」的企业。\n\n最新公布的 NHTSA 文",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple’s Siri revamp could include auto-deleting chats",
+      "url": "https://techcrunch.com/2026/05/17/apples-siri-revamp-could-include-auto-deleting-chats/",
+      "published_at": "2026-05-17T20:15:00.000Z",
+      "summary": "Privacy will be a major theme when Apple unveils a new version of Siri.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "「世界模型」究竟是什么？一文看懂其前世今生与百亿赌局",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651033486&idx=2&sn=a01ce91f3d80502dc1db926c3e0d41e2",
+      "published_at": "2026-05-17T03:06:00.000Z",
+      "summary": "机器之心 2026-05-17 11:06 北京\n\n百亿美元涌入，但「世界模型」是什么都还没说清楚\n\n机器之心编译\n\n世界模型（World Model） ，想必你已经在很多场合听过这个术语了。它有时出现在视频生成领域，有时又出现在具身智能领域；它们的含义还有所差别，甚至看起来像是完全不同的概念。\n\n为什么会出现这样的分歧？答案藏在这个词的历史里。\n\n近日，MoE Capital 的 Henry Yin 和 Naomi Xia 撰写了一篇深度博客，系统梳理了「世界模型」这一概念背后两条长达数十年、彼此独立演进的研究脉络：一条是强化学习社区从 1990 年代便开始探索的「 让智能体在想象中做梦 」",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Revamped Siri will reportedly offer auto-deleting chats",
+      "url": "https://www.theverge.com/tech/932207/siri-apple-intelligence-auto-deleting-chats",
+      "published_at": "2026-05-17T18:40:28.000Z",
+      "summary": "Apple is hoping that its[record on privacy](https://www.theverge.com/2019/3/26/18282158/apple-services-privacy-credit-card-tv-data-sharing)can be the differentiator on the AI front, and maybe even buy it a little slack as it continues to lag behind the competition. According to*[Bloomberg's](https:/",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "University of Arizona students boo Eric Schmidt’s AI cheerleading during commencement",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement",
+      "published_at": "2026-05-17T17:22:23.000Z",
+      "summary": "Former Google CEO Eric Schmidt delivered the commencement address at the University of Arizona on Friday. And, as his speech veered into talk of AI, he was repeatedly drowned out by boos. AI is already a contentious topic, and it's not surprising that those about to enter a ravaged job market feel p",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "If you’re giving a commencement speech in 2026, maybe don’t mention AI",
+      "url": "https://techcrunch.com/2026/05/17/if-youre-giving-a-commencement-speech-in-2026-maybe-dont-mention-ai/",
+      "published_at": "2026-05-17T16:32:04.000Z",
+      "summary": "It's tough to get graduating students excited about a future shaped by artificial intelligence.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "TechCrunch Mobility: The AI skills arms race is coming for automotive",
+      "url": "https://techcrunch.com/2026/05/17/techcrunch-mobility-the-ai-skills-arms-race-is-coming-for-automotive/",
+      "published_at": "2026-05-17T16:05:00.000Z",
+      "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Chatbots at the drive-thru are just the beginning",
+      "url": "https://www.theverge.com/column/928096/chatbots-ai-drive-thru-mcdonalds-wendys",
+      "published_at": "2026-05-17T12:00:00.000Z",
+      "summary": "*This is* [The Stepback](https://www.theverge.com/the-stepback-newsletter) *, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is seeping into our daily lives,* [follow Emma Roth](https://www.theverge.com/authors/emma-roth) *.*The Stepback*arrives",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-06-26T00:02:22.357Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 16,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "stars_total": 19136,
+      "forks": 1644,
+      "stars_today": 1475
+    },
+    {
+      "rank": 2,
+      "repo": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars_total": 22019,
+      "forks": 2472,
+      "stars_today": 3434
+    },
+    {
+      "rank": 3,
+      "repo": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "language": "Python",
+      "stars_total": 1829,
+      "forks": 295,
+      "stars_today": 309
+    },
+    {
+      "rank": 4,
+      "repo": "mauriceboe/TREK",
+      "url": "https://github.com/mauriceboe/TREK",
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "language": "TypeScript",
+      "stars_total": 6622,
+      "forks": 605,
+      "stars_today": 241
+    },
+    {
+      "rank": 5,
+      "repo": "apple/container",
+      "url": "https://github.com/apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "language": "Swift",
+      "stars_total": 43192,
+      "forks": 1267,
+      "stars_today": 1351
+    },
+    {
+      "rank": 6,
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "language": "TypeScript",
+      "stars_total": 20396,
+      "forks": 3005,
+      "stars_today": 1024
+    },
+    {
+      "rank": 7,
+      "repo": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "stars_total": 2501,
+      "forks": 295,
+      "stars_today": 57
+    },
+    {
+      "rank": 8,
+      "repo": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "language": "TypeScript",
+      "stars_total": 115775,
+      "forks": 17166,
+      "stars_today": 767
+    },
+    {
+      "rank": 9,
+      "repo": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "language": "Python",
+      "stars_total": 1124,
+      "forks": 114,
+      "stars_today": 47
+    },
+    {
+      "rank": 10,
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
+      "language": "Python",
+      "stars_total": 21208,
+      "forks": 2445,
+      "stars_today": 571
+    },
+    {
+      "rank": 11,
+      "repo": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "stars_total": 19791,
+      "forks": 1705,
+      "stars_today": 163
+    },
+    {
+      "rank": 12,
+      "repo": "IceWhaleTech/CasaOS",
+      "url": "https://github.com/IceWhaleTech/CasaOS",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "language": "Go",
+      "stars_total": 34800,
+      "forks": 1991,
+      "stars_today": 223
+    },
+    {
+      "rank": 13,
+      "repo": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "language": "Python",
+      "stars_total": 69542,
+      "forks": 5883,
+      "stars_today": 644
+    },
+    {
+      "rank": 14,
+      "repo": "Free-TV/IPTV",
+      "url": "https://github.com/Free-TV/IPTV",
+      "description": "M3U Playlist for free TV channels",
+      "language": "Python",
+      "stars_total": 18193,
+      "forks": 2677,
+      "stars_today": 139
+    },
+    {
+      "rank": 15,
+      "repo": "shanraisshan/claude-code-best-practice",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "language": "HTML",
+      "stars_total": 60506,
+      "forks": 6061,
+      "stars_today": 287
+    },
+    {
+      "rank": 16,
+      "repo": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars_total": 52734,
+      "forks": 10920,
+      "stars_today": 398
+    }
+  ]
+}

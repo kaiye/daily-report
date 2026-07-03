@@ -1,0 +1,349 @@
+{
+  "generated_at": "2026-06-27T00:01:51.084Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 27,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "SpaceX 连日暴跌后，OpenAI 或推迟上市计划；苹果 Mac、iPad 等产品全线涨价 20%；DeepSeek 发布招聘公告 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109461&idx=1&sn=7b345dc5de39d308b3e1615e2066789e",
+      "published_at": "2026-06-26T00:54:00.000Z",
+      "summary": "周永亮 2026-06-26 08:54 北京\n\n谷歌重组 AI 编程小组试图追赶 Anthropic；俞浩社交账号已被追觅公司接管；奥斯卡奖得主瓦尔兹参演《流浪地球 3》\n\n## OpenAI 倾向推迟至明年上市\n\n三名参与公司上市筹备讨论的知情人士透露，OpenAI 倾向于将首次公开募股推迟至明年。这一转变凸显出当下快速崛起的 AI 巨头前路充满不确定性。\n\n知情人士称，公司此前聘请投行与律所，计划最早于今年三、四季度完成上市。内部人士表示，CEO 山姆・奥特曼要求顾问团队想出方案，让这家初创企业上市估值达到 1 万亿美元——其最新一轮私募估值 7300 亿美元。\n\n但近期一系列连锁事件，",
+      "priority_score": 352,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI unveils GPT-5.6 amid US AI regulatory drama",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview",
+      "published_at": "2026-06-26T17:00:00.000Z",
+      "summary": "Less than 24 hours after news broke that OpenAI would[stagger its next model release](https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request)at the request of the Trump administration, that model, GPT-5.6, is here.  On Friday, the comp",
+      "priority_score": 250,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "大模型最后一层竟是推理累赘？绕开对齐税，奥数准确率暴涨 22.4%！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=3&sn=a411b58582421e0f71d8260bdb141e58",
+      "published_at": "2026-06-26T04:35:00.000Z",
+      "summary": "关注前沿科技 2026-06-26 12:35 北京\n\n置信解码：无训练、即插即用的选择策略\n\n##### Qwen 团队 投稿 量子位 | 公众号 QbitAI\n\n传统认知默认：随着网络深度单调递增，思考结果也会变得更准确。\n\n各类开源自回归大语言模型 *（LLM）* 的生成，也总是从最后一层输出。\n\n然而，来自 **Qwen团队、清华大学、南洋理工大学** 的最新研究成果打破了这一固有假设。\n\n他们揭示了一个普遍存在的 **“猜想-精炼-扰动”（Guess-Refine-Perturb）** 动态过程：\n模型的中间层往往已经凝聚了最精准的推理语义，而对齐post-training（如 RL",
+      "priority_score": 228,
+      "matched_keywords": [
+        "LLM",
+        "Qwen"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "It’s not about Anthropic vs. OpenAI anymore",
+      "url": "https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/",
+      "published_at": "2026-06-26T16:24:47.000Z",
+      "summary": "AI models have progressed to the point where their capabilities have real political consequences. Dealing with those consequences will require collective action.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm",
+      "url": "https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/",
+      "published_at": "2026-06-26T18:32:14.000Z",
+      "summary": "“We don’t believe this kind of government access process should become the long-term default,” says OpenAI. “It keeps the best tools from users, developers, enterprises, cyber defenders, and global partners who need them.”",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "DeepSeek你怎么连HR都缺啊？！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=2&sn=2b0d2607ead8596c6276d6d76007a995",
+      "published_at": "2026-06-26T04:35:00.000Z",
+      "summary": "关注前沿科技 2026-06-26 12:35 北京\n\n30+岗位同时招人\n\n##### 克雷西 发自 凹非寺 量子位 | 公众号 QbitAI\n\n不是，DeepSeek，我知道你缺人，但没想到你怎么连HR都缺啊？\n\n这不刚好是毕业季嘛，DeepSeek官方放出了全新一轮的招聘公告。\n\n其中除了算法数据运维这些技术型岗位，像HR法务行政等职能部门也都在招人。\n\n其中HR团队还特别加了一条横线，“地位”和AGI核心业务管培生一样，你品，你细品。\n\n那么，这次DeepSeek具体都要招聘什么样的人才呢？\n\n## 技术&职能，30+岗位同时招人\n\nDeepSeek官方的招聘页面，一共挂出了30+岗位",
+      "priority_score": 200,
+      "matched_keywords": [
+        "DeepSeek",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropics Mythos mess is only getting worse",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations",
+      "published_at": "2026-06-26T14:07:03.000Z",
+      "summary": "It's been two weeks since Anthropic took its Mythos-class models offline after a Friday evening ultimatum from the Trump administration. The company sprang into action immediately, sending a barrage of executives to Washington, DC. But updates have been suspiciously lacking, with no resolution in si",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "OpenSandbox 再进化：Credential Vault 让真实密钥不再进入沙箱",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247509853&idx=1&sn=ddffff2caf6f9e08a10dba04a8adb384",
+      "published_at": "2026-06-26T08:07:00.000Z",
+      "summary": "原创靳文祥 2026-06-26 16:07 浙江\n\nAI Agent 走向生产环境，OpenSandbox 如何解决密钥暴露风险？\n\n这是2026年的第 27 篇文章\n\n（ 本文阅读时间：约20分钟 ）\n\n# 前言\n\nOpenSandbox 是一个阿里巴巴开源的面向 AI Agent 的通用沙箱平台，提供多语言 SDK、CLI、MCP Server，以及 Docker / Kubernetes 运行时，在阿里内部广泛应用于 Coding Agent、GUI Agent、代码执行、Agent 评测、RL 训练等场景。\n\nOpenSandbox 正在成为 AI Agent 基础设施领域里一个重要",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)",
+      "url": "https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/",
+      "published_at": "2026-06-26T17:43:22.000Z",
+      "summary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI’s Jalapeño chip is Big Tech’s spiciest move away from Nvidia",
+      "url": "https://techcrunch.com/podcast/openais-jalapeno-chip-is-big-techs-spiciest-move-away-from-nvidia/",
+      "published_at": "2026-06-26T14:00:00.000Z",
+      "summary": "Nvidia has dominated the AI chip market for years, but the era of total dependence might be ending.&#160;&#160; OpenAI just shared its plans to spice things up with&#160;Jalapeño, its custom inference chip built with Broadcom, joining Google, Apple, and SpaceX in a growing list of companies building",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "Fable 5开始灰度解禁？6月26日大限倒计时",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709225&idx=2&sn=0a9b003c0d947a7228a37ff2201b0264",
+      "published_at": "2026-06-26T01:31:00.000Z",
+      "summary": "ASI启示录 2026-06-26 09:31 北京\n\n### **新智元报道**\n\n##### **【新智元导读】** Fable 5疑似回来了，正在慢慢灰度推送。\n\n就在刚刚，一个消息让整个AI圈兴奋起来——被禁用多日的Fable 5，疑似开始部分解禁了。\n\n就在昨天下午，有网友直接甩出了实机录屏铁证！\n\n在少部分用户的 Claude 手机 App 中，Fable 5 已经赫然出现在了模型选择器中！\n\n在 Claude Code v2.1.190 更新中，部分用户可以看到 Claude Fable 5。它会出现在模型选择器中，或者通过 /model 命令显示，并在达到使用限制后显示「您本周",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI poaches Uber India chief to lead its biggest market outside the US",
+      "url": "https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/",
+      "published_at": "2026-06-26T18:19:36.000Z",
+      "summary": "The hire marks OpenAI's latest push into India, expanding offices, partnerships and hiring.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: brain-melting heatwaves and unprecedented OpenAI restrictions",
+      "url": "https://www.technologyreview.com/2026/06/26/1139780/the-download-heatwaves-brain-health-openai-restrictions/",
+      "published_at": "2026-06-26T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Heat waves mess with ",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "腾讯混元AI Infra如何优化Hy3 Preview：一次大模型推理性能提升的技术拆解",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802370&idx=1&sn=933bed02fa58d278084e12946d3fa8ce",
+      "published_at": "2026-06-26T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-06-26 17:36 广东\n\n极致性能优化实践\n\n作者：混元AI Infra推理团队\n本文将从算子优化与融合、并行策略、多级缓存、MTP和异步调度优化、量化与稀疏五大维度，逐一剖析各项技术的设计思路、核心算法与实测收益，全面揭示 Hy3 preview 模型在 Hopper 卡 上从算子到系统的极致性能优化实践。\n### 一、背景和优化成果\n\n随着大语言模型向千亿参数、百万级上下文加速演进，推理效率已成为模型规模化落地的决定性瓶颈。更大的模型、更长的序列、更复杂的 MoE 稀疏架构，在带来能力跃升的同时，也对算力、显存与通信提出了前所未有的挑战。\n\n混元Hy3 pr",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "零跑朱江明：想做一台「电动埃尔法」，无法保证未来产品不涨价",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109479&idx=2&sn=66cb6471686986e78382c58fed07afe9",
+      "published_at": "2026-06-26T05:29:00.000Z",
+      "summary": "原创靖宇 2026-06-26 13:29 北京\n\nD 系列两款车交完卷，零跑证明了一件事——25 万以上的市场，消费者真的不为标买单了。\n\n**作者｜靖宇**\n\n6 月 25 日晚，零跑 D99 上市，售价 24.98-31.98 万元。这是零跑的第一款 MPV，也是 D 平台的第二款车。\n\n发布会后的媒体群访里，有记者直接问零跑汽车创始人朱江明：零跑一直擅长做 20 万以下的产品，做 D99 有没有挑战？毛利高吗？\n\n**零跑汽车高级副总裁曹力（左）、零跑汽车创始人兼 CEO 朱江明在群访中｜图片来源：极客公园** 朱江明没有回避。他说零跑的定价策略一直是成本定价，D99 的利润比 A10",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "单目3DGS迎来突破：影石开源UniSHARP实现全相机适配",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651041320&idx=3&sn=0274c73463d62d8925d7c0271950e117",
+      "published_at": "2026-06-26T03:30:00.000Z",
+      "summary": "机器之心 2026-06-26 11:30 北京\n\n首个统一平面透视、广角、鱼眼与 360° 全景相机的单目 3DGS 模型\n\n影石研究院 发布面向异构成像系统的单目新视角合成模型 UniSHARP （Universal Sharp Monocular View Synthesis）。作为 首个统一透视、广角、鱼眼与 360° 全景相机 的单目 3DGS 模型，UniSHARP 只需一张输入图像，即可通过单次推理在秒级时间内 获得场景的高斯点云 ，无需多张图像输入或逐场景优化。\n\n该方法不再依赖针孔相机假设，而是以统一的几何表示打通 不同相机模型之间的壁垒 ， 通过融合 2D 语义特征与 3D",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "国内首张防爆资质、全球首个加油大脑方案，他们凭什么拿下两个「第一」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651041320&idx=1&sn=7ea8d0ceeecd9f9887356d08b93a8c7f",
+      "published_at": "2026-06-26T03:30:00.000Z",
+      "summary": "原创关注具身智能的 2026-06-26 11:30 北京\n\n全球首款搭载大脑系统的防爆机器人，已经开始干活了\n\n编辑｜冷猫\n\n据统计，今年国内具身智能领域融资总额已突破 370 亿元。\n\n工信部与国务院国资委联合启动「人形机器人与具身智能实景实训专项行动」，央广网直接把今年定义为「商业化落地关键年」。一级市场的钱、二级市场的故事，全都在喊同一个方向：落地、落地、落地。\n\n但问题来了，具身智能到底应该怎么落地？\n\n大家都比较认可的观点是，具身智能应该去攻克人类做不到的事，应该去替代人类做一些高危、繁重、重复，人不想干也不该干的活。\n\n6 月 22 日，第四届中国国际供应链促进博览会在北京开幕，",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "当使用企业数据的从「人」变成「AI」，阿里云重做了一套基础设施",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109488&idx=1&sn=b261d683c8bbde87896371eadfa3143a",
+      "published_at": "2026-06-26T09:00:00.000Z",
+      "summary": "原创连冉 2026-06-26 17:00 湖北\n\n​大模型越来越强，但 Agent 还缺一套「实时感知系统」。\n\n大模型越来越强，但 Agent 还缺一套「实时感知系统」。\n\n**作者｜连冉** **编辑｜ **郑玄****\n\n过去一年，Agent 成为了 AI 行业最热门的关键词。\n\n从自动写代码、整理信息，到端到端完成具体任务，整个行业都在见证 AI 从「回答问题」走向「完成工作」。\n\n但当 Agent 真正进入企业生产环境，一个新的问题开始浮现：Agent 的最终质量，本质上取决于喂养它的数据质量与流转效率。模型再强，如果拿到的数据是滞后的、碎片化的、不同步的，也发挥不出应有的价值。\n",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "火山引擎 AI 搜索千万级 Agent 架构演进与实践：从 ReAct 三节点到 Unified Policy",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520575&idx=1&sn=6d3a2d35f06bf57d763e1a41c5e00a6f",
+      "published_at": "2026-06-26T09:00:00.000Z",
+      "summary": "Viking 工程师 2026-06-26 17:00 北京\n\n以下文章来源于：VikingAI搜索\n**VikingAI搜索**\n火山引擎 Viking AI 搜索，助力企业快速打造多模态检索、个性化推荐和对话 Agent 能力！\n\n**导读：**\n\n当 Agent 技术彻底跨越 Demo 玩具阶段，真正挺进千万级并发的企业级生产环境时，传统的 ReAct 架构开始暴露出节点臃肿、延迟极高、状态管理混乱的致命缺陷。本文深度拆解火山引擎 AI 搜索团队如何重新定义 Workflow 与 Agent 的系统边界，通过构建 **Unified Policy Agent （UP-ReAct）** 架",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "本周六，围观学习ACL 2026论文分享会，最后报名了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651041320&idx=2&sn=f713a7c4f44eb5e6599d7ed667d97a37",
+      "published_at": "2026-06-26T03:30:00.000Z",
+      "summary": "机器之心 2026-06-26 11:30 北京\n\n6月27日，北京不见不散！\n\n大模型的竞争正从单纯追求“更准更快”转向“复杂任务执行”的新阶段。进入 2026年，从 AI Coding 到 Agent，大模型不再只是生成文本，而是通过理解意图、拆解步骤和调用工具，深度介入真实应用场景。在技术迭代飞速的当下，对 AI 从业者来说，持续跟进顶会，已经不只是学术兴趣，也是在快速变化的技术周期中保持判断力的重要方式。\n\n作为 NLP 领域的国际顶级会议之一，ACL 一直被视为学术界和工业界公认的重要交流平台。本届 ACL 2026 共收到 12,148 篇投稿，其中 Main Conference",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Early Bird pricing ends tonight for TechCrunch Founder Summit",
+      "url": "https://techcrunch.com/2026/06/26/early-bird-pricing-ends-tonight-for-techcrunch-founder-summit/",
+      "published_at": "2026-06-26T13:00:00.000Z",
+      "summary": "Save up to $190 on your pass to TechCrunch Founder Summit 2026. Early Bird pricing ends today, at 11:59 p.m. PT, after which rates increase. Register now.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Heat waves mess with your brain. Scientists are trying to figure out why.",
+      "url": "https://www.technologyreview.com/2026/06/26/1139760/heat-waves-mess-with-your-brain-scientists-are-trying-to-figure-out-why/",
+      "published_at": "2026-06-26T09:00:00.000Z",
+      "summary": "It’s been hot in London this week. Really hot. A dangerous heat wave has hit Western Europe. Yesterday, the UK recorded its highest ever June temperature at 36.1 °C (about 97 °F). But as the weather app on my phone confirmed, it*felt like*39 °C.\n\nIt’s frightening that we are seeing such temperatures",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "高考志愿填报，正在变成 AI 的主场",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109479&idx=1&sn=6c68c612fdec4bc1d03bc4c2d0730897",
+      "published_at": "2026-06-26T05:29:00.000Z",
+      "summary": "原创Moonshot 2026-06-26 13:29 北京\n\n千问等 AI 工具，正在成为高考志愿填报的起点。\n\n**作者｜Moonshot** **编辑｜ **郑玄****\n\n高考一结束，志愿填报就成了千万家庭的头等大事。这是很多人在人生里，第一个要自己拍板的大决定，也是一道没人教过的题。\n\n有人怕规则看不懂，一脚踩空滑了档；有人被五花八门的信息淹没，越查越乱；还有人压根没想清楚将来要做什么，志愿表摊在面前，不知从何下笔。\n\n规则、信息、方向，三种迷茫，几乎盖住了所有填志愿的家庭。今年，他们手里多了个新工具：AI。\n\n「AI 填志愿」正在成为今年高考后的新现象。\n\n广州一场高校招生咨询会上",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "从需求到设计到代码，一个软件全搞定！TRAE Work Design实测来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=1&sn=083a5e912e6380c40a428f80d93d18f6",
+      "published_at": "2026-06-26T04:35:00.000Z",
+      "summary": "原创关注前沿科技 2026-06-26 12:35 北京\n\n精准识别设计系统\n\n##### 闻乐 发自 凹非寺 量子位 | 公众号 QbitAI\n\nTRAE Work上新了一个 **Design模式** ，专门搞设计的。\n\n之前TRAE Work已经有Work模式聊需求、Code模式写代码，现在补上了Design——\n\n需求→设计→代码，全链路在一个平台里跑通了。\n\n这次的设计模式也不只是「AI帮你画张图」那么简单，咱先稍微捋一下它能干的事儿：\n\n你手头有Figma文件的话，丢进去，它能直接帮你把 **设计系统** 扒出来，品牌色、字体、组件这些全都能识别提取；\n\n生成设计稿之后，想要改哪里，",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247899865&idx=4&sn=6d0aa0ad9d4a5afd24111797beefda48",
+      "published_at": "2026-06-26T04:35:00.000Z",
+      "summary": "关注前沿科技 2026-06-26 12:35 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "英伟达All in的物理AI路线，居然是中国黑马提前一年就定义好了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709225&idx=1&sn=ea05e262dd47d9d1e4e1214e1d1228c5",
+      "published_at": "2026-06-26T01:31:00.000Z",
+      "summary": "ASI启示录 2026-06-26 09:31 北京\n\n### **新智元报道**\n\n##### **【新智元导读】** 当全球具身智能行业还在争论技术路线时，一家中国公司已经率先定义并跑通了自己的答案。深度机智提出的「人类学习」路线——以人类数据为起点、动作建模为中心、机器人为 AI 而生——正在被英伟达、Physical Intelligence 等海外头部机构沿同一方向跟进。成立仅一年，数据、模型、本体、场景全线落地，核心布局节奏领先美国同类项目近一年。\n\n具身智能行业眼下最大的不确定性，在路线层面。\n\n过去两年，行业在 VLA 端到端、仿真训练、遥操作三条路线上各有押注，每家都在大量投",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "新智元ALL in ASI英雄帖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652709225&idx=3&sn=b2808713af842e164cecde8a5eeb79cd",
+      "published_at": "2026-06-26T01:31:00.000Z",
+      "summary": "ASI启示录 2026-06-26 09:31 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 2026年，ASI奇点之年。全球AI竞赛进入决赛圈，AI正以指数级的速度重塑世界。新智元All in ASI，现招募两个核心战位——ASI架构师（年薪50-70万）与ASI主笔（年薪50-70万），坐标北京上地，虚位以待。**\n\n全球AI竞赛进入决赛圈，每天都有大事发生。 新智元要覆盖的赛道、要打的仗也在飙升。 我们不仅要在全球AI最前沿保持绝对敏锐，更要在ASI浪潮中主动出击。 现在，新智元正式发出All in ASI英雄帖。 我们在上地AI家，召唤 **对ASI有信仰，有使",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

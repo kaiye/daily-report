@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-04-24",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI 智能体与编码助手的上下文增强、技能集扩展和实战落地工具快速升温。",
+  "items": [
+    {
+      "repo": "huggingface/ml-intern",
+      "url": "https://github.com/huggingface/ml-intern",
+      "description": "🤗 ml-intern：一个开源的机器学习工程师，会读论文、训练模型并交付机器学习模型。",
+      "language": "Python",
+      "stars_today": 720,
+      "stars_total": 3213
+    },
+    {
+      "repo": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "description": "面向 Claude Code 的代码搜索 MCP，让任意编码智能体都能把整个代码库作为上下文。",
+      "language": "TypeScript",
+      "stars_today": 1011,
+      "stars_total": 8397
+    },
+    {
+      "repo": "HKUDS/RAG-Anything",
+      "url": "https://github.com/HKUDS/RAG-Anything",
+      "description": "RAG-Anything：一体化 RAG 框架。",
+      "language": "Python",
+      "stars_today": 590,
+      "stars_total": 18133
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView：WiFi DensePose 将普通 WiFi 信号转化为实时人体姿态估计、生命体征监测与在场检测，全程无需任何视频像素。",
+      "language": "Rust",
+      "stars_today": 429,
+      "stars_total": 49817
+    },
+    {
+      "repo": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "一个不设审查的开源替代方案，对标 Higgsfield AI、Freepik、Krea、Openart AI，提供免费、无限制的 AI 图像与视频生成工作室，内置 200+ 模型并支持自托管，采用 MIT 许可证。",
+      "language": "JavaScript",
+      "stars_today": 316,
+      "stars_total": 6908
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "可在终端、VSCode 扩展或通过类似 openclaw 的 Discord 免费使用 claude-code。",
+      "language": "Python",
+      "stars_today": 1962,
+      "stars_total": 5515
+    },
+    {
+      "repo": "microsoft/ai-agents-for-beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "description": "12 节课程，带你开始构建 AI 智能体。",
+      "language": "Jupyter Notebook",
+      "stars_today": 208,
+      "stars_total": 58770
+    },
+    {
+      "repo": "cline/cline",
+      "url": "https://github.com/cline/cline",
+      "description": "直接运行在 IDE 中的自主编码智能体，在你的许可下可逐步创建或编辑文件、执行命令、使用浏览器等。",
+      "language": "TypeScript",
+      "stars_today": 123,
+      "stars_total": 60803
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "面向 AI 编码智能体的上下文窗口优化，隔离工具输出，减少 98%，支持 12 个平台。",
+      "language": "TypeScript",
+      "stars_today": 238,
+      "stars_total": 9417
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "description": "面向 Claude Code 和 AI 智能体的营销技能，涵盖 CRO、文案、SEO、分析与增长工程。",
+      "language": "JavaScript",
+      "stars_today": 285,
+      "stars_total": 23781
+    },
+    {
+      "repo": "chiphuyen/aie-book",
+      "url": "https://github.com/chiphuyen/aie-book",
+      "description": "[WIP] 面向 AI 工程师的资源，也包含《AI Engineering》（Chip Huyen，2025）的配套材料。",
+      "language": "Jupyter Notebook",
+      "stars_today": 215,
+      "stars_total": 15167
+    },
+    {
+      "repo": "VoltAgent/awesome-agent-skills",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills",
+      "description": "精选的 1000+ 智能体技能集合，来自官方开发团队与社区，兼容 Claude Code、Codex、Gemini CLI、Cursor 等。",
+      "language": "Unknown",
+      "stars_today": 228,
+      "stars_total": 18050
+    }
+  ]
+}

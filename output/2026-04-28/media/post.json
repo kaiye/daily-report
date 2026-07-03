@@ -1,0 +1,368 @@
+{
+  "generated_at": "2026-04-28T00:00:49.266Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 29,
+  "items": [
+    {
+      "source": "量子位",
+      "title": "超越Claude Mythos和GPT-5.5！斯坦福Agent验证框架拿下SOTA，Transformer作者转发",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886631&idx=3&sn=ac64453495e17186d571dc34efab68a2",
+      "published_at": "2026-04-27T03:47:00.000Z",
+      "summary": "关注前沿科技 2026-04-27 11:47 北京\n\n通过扩展验证阶段的计算量，显著提升Agent整体性能\n\n##### LLM-as-a-Verifier 团队 投稿 量子位 | 公众号 QbitAI\n\nTransformer论文作者Lukasz Kaiser以及GAN作者Bing Xu转发关注了一项工作——\n\n**LLM-as-a-Verifier** 验证框架，该方法是一种通用的验证机制，可与任意Agent Harness和模型结合。\n\n由斯坦福、伯克利与英伟达联手打造。\n\n研究表明通过 **扩展验证阶段的计算量（scaling verification compute）** ，可以显",
+      "priority_score": 322,
+      "matched_keywords": [
+        "Claude",
+        "GPT",
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI could be making a phone with AI agents replacing apps",
+      "url": "https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/",
+      "published_at": "2026-04-27T13:08:59.000Z",
+      "summary": "There have been plenty of rumors about OpenAI's hardware plans, which involve launching a pair of earbuds. A new note from industry analyst Ming-Chi Kuo suggests that the AI company might be working on a phone in collaboration with MediaTek, Qualcomm, and Luxshare.",
+      "priority_score": 250,
+      "matched_keywords": [
+        "OpenAI",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "DeepSeek V4永久降价！缓存命中再打1折，实测编程成本骤降83%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886631&idx=2&sn=2678881a031fa59bfb08c1d237d2d98e",
+      "published_at": "2026-04-27T03:47:00.000Z",
+      "summary": "关注前沿科技 2026-04-27 11:47 北京\n\n5块钱干完首发30块的活\n\n##### 梦晨 发自 凹非寺 量子位 | 公众号 QbitAI\n\nDeepSeek两天连续两次降价！\n\n输入输出2.5折的基础上，命中缓存的输入折上折再打1折。\n\n划重点了，输入缓存的折扣没有规定时限哦～\n\nDeepSeek研究员陈德里也确认，输入缓存是永久降价，还打上了AGIforEveryone标签。\n\n有学者表示，这将彻底改变人们处理AI记忆的方式。\n\n原来发布时候的“迈入百万上下文普惠时代”是这个意思啊？\n\n那么打折后到底省了多少钱？\n\n只能说，比表面看起来还要更多。\n\n## 实测编程整体节省83%\n",
+      "priority_score": 228,
+      "matched_keywords": [
+        "DeepSeek",
+        "AGI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft and OpenAI’s famed AGI agreement is dead",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/918981/openai-microsoft-renegotiate-contract",
+      "published_at": "2026-04-27T16:15:47.000Z",
+      "summary": "OpenAI and Microsoft's partnership-turned-situationship just got even less committed. And a clause about artificial general intelligence, which has for years dictated the future of their deal, has officially been dropped.\n\nOn Monday morning, Microsoft announced a handful of big changes to its long-s",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "China blocks Meta’s $2B Manus deal after months-long probe",
+      "url": "https://techcrunch.com/2026/04/27/china-vetoes-metas-2b-manus-deal-after-months-long-probe/",
+      "published_at": "2026-04-27T13:16:55.000Z",
+      "summary": "China has ordered Meta to unwind its multibillion-dollar Manus acquisition, dealing a potential setback to Zuckerberg’s push into AI agents.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "余承东：问界 M9 Ultimate 5 月亮相；苹果新 CEO 首秀定档 9 月发布会；马斯克：无人驾驶车正式投产 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104819&idx=1&sn=95ba8c82ab26ef24bc95a5fbc80fb2f6",
+      "published_at": "2026-04-27T00:35:00.000Z",
+      "summary": "任泓玲 2026-04-27 08:35 湖北\n\nDeepSeek V4 成 OpenClaw 默认模型；拯救 Win11！揭秘微软 Windows K2 宏伟计划；智能眼镜销量大涨；消息称三星 Galaxy WideFold 阔折叠手机首批备货 100 万台，三个月后发布\n\n## DeepSeek V4 成 OpenClaw 默认模型\n\n4月26日，OpenClaw 重磅接入 DeepSeek V4！新版本 OpenClaw 2026.4.24 一发布，随即接入了最新的 DeepSeek V4 双版本——V4 Flash 成为默认大模型，V4 Pro 也已上线模 型库 。\n\n从26日起，全球",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data",
+      "url": "https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/",
+      "published_at": "2026-04-27T17:24:21.000Z",
+      "summary": "Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion.",
+      "priority_score": 124,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Join the new AI Agents Vibe Coding Course from Google and Kaggle",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+      "published_at": "2026-04-27T13:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vibe_Coding_Course_herosocial.max-600x600.format-webp.webp\">Google is bringing back its 5-Day AI Agents Intensive Course with Kaggle and registration is open.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: DeepSeek’s latest AI breakthrough, and the race to build world models",
+      "url": "https://www.technologyreview.com/2026/04/27/1136438/the-download-deepseek-v4-ai-world-models/",
+      "published_at": "2026-04-27T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Three reasons why Dee",
+      "priority_score": 122,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Announcing our partnership with the Republic of Korea",
+      "url": "https://deepmind.google/blog/announcing-our-partnership-with-the-republic-of-korea/",
+      "published_at": "2026-04-27T07:00:06.000Z",
+      "summary": "Google DeepMind and Korea partner to accelerate scientific breakthroughs using frontier AI models",
+      "priority_score": 122,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Elon Musk and Sam Altman are going to court over OpenAI’s future",
+      "url": "https://www.technologyreview.com/2026/04/27/1136466/elon-musk-and-sam-altman-are-going-to-court-over-openais-future/",
+      "published_at": "2026-04-27T22:52:57.000Z",
+      "summary": "After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to trial this week in Northern California in a case that could have sweeping consequences. Ahead of OpenAI’s highly anticipated IPO, the court could rule on whether the company is allowed to exist as a for-profit enterpris",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI ends Microsoft legal peril over its $50B Amazon deal",
+      "url": "https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/",
+      "published_at": "2026-04-27T17:40:38.000Z",
+      "summary": "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "published_at": "2026-04-27T15:50:29.000Z",
+      "summary": "Sam Altman and Elon Musk are set to face off in a high-stakes trial that could alter the future of tech’s leading AI startup, OpenAI. The trial begins with jury selection on April 27th, as Musk pushes forward his[2024 lawsuit](https://www.theverge.com/2024/3/1/24087473/elon-musk-openai-lawsuit-nonpr",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "当剪辑工具开始「听懂人话」：剪映做了视频创作的 Skill 化 Agent",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104850&idx=1&sn=8ab8b0012247f78e1d403febe95fa41f",
+      "published_at": "2026-04-27T06:27:00.000Z",
+      "summary": "原创连冉 2026-04-27 14:27 湖北\n\n告别时间线上的「Dirty Work」。当技术足够先进时，它应该变得透明。\n\n**作者｜连冉** **编辑｜ **郑玄****\n\n如果有人告诉你，视频剪辑可以像「刷手机」一样轻松，你大概率会在脑海里冒个问号。\n\n毕竟在我们的习惯里，剪辑往往意味着「高强度的手眼协同」——要么是端坐桌前、左手快捷键、右手鼠标；要么就是盯着巴掌大的手机屏幕，在层层折叠的菜单里寻找功能，小心翼翼地用手指拖拽那几毫米的轨道。\n\n但剪映刚上线的 AI 助手，正在试图打破这个刻板印象。\n\n想象一下，你靠在椅子上，不需要触碰鼠标，只需要对着你的手机动动嘴：「帮我把这几段素材",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Canonical lays out a plan for AI in Ubuntu Linux",
+      "url": "https://www.theverge.com/tech/919411/canonical-ubuntu-linux-ai-features",
+      "published_at": "2026-04-27T20:47:45.000Z",
+      "summary": "One of the most popular Linux distributions is about to get an influx of AI features. As reported by[Phoronix](https://www.phoronix.com/news/Ubuntu-AI-Features-2026), Jon Seager, VP of engineering at Ubuntu developer Canonical,[shared a blog post](https://discourse.ubuntu.com/t/the-future-of-ai-in-u",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Investors back Skye’s AI home screen app for iPhone ahead of launch",
+      "url": "https://techcrunch.com/2026/04/27/investors-back-skye-signull-labs-ai-home-screen-app-for-iphone-ahead-of-launch/",
+      "published_at": "2026-04-27T16:13:02.000Z",
+      "summary": "Skye's new AI app attracted investors before it even launched — a sign of interest in a more AI-aware iPhone.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Canva apologizes after its AI tool replaces ‘Palestine’ in designs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/919028/canva-magic-layers-ai-replacing-palestine",
+      "published_at": "2026-04-27T14:29:23.000Z",
+      "summary": "I suddenly feel so much better about every embarrassing typo I’ve ever made. | Original Illustration (left) by[Agathe Singer](https://www.instagram.com/agathesinger)\nOne of Canva's new[AI features](https://www.theverge.com/tech/913068/canva-ai-2-update-prompt-based-editing-availability)has been caug",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "Meshy用户破千万后杀向新战场：ARR年翻14倍，头部厂商集体买单",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886631&idx=1&sn=f4c1f8faece9b49afa707d78820fc577",
+      "published_at": "2026-04-27T03:47:00.000Z",
+      "summary": "原创关注前沿科技 2026-04-27 11:47 北京\n\n最新上线创意工坊，打通“AI创意→实体交付”\n\n##### 西风 发自 凹非寺 量子位 | 公众号 QbitAI\n\n潮水方向，总是从垂直展会开始显现的。\n\n月前，全球3D打印行业风向标TCT Asia展会上，一个展台被围得水泄不通。\n\n主角不是哪家3D打印机厂商。展台背后的名字叫 **Meshy** ，正是 **计 算机图 形学大神胡渊鸣创立的AI 3D公司** 。\n\n围观群众里三层外三层，只想亲眼看一件事：用AI生成一个3D模型，然后直接打印出来的成品，到底有多酷。\n\n比如下面这些具有釉面质感的“文博陶瓷”，都是3D打印还原的：\n\n",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google employees ask Sundar Pichai to say no to classified military AI use",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/919326/google-ai-pentagon-classified-letter",
+      "published_at": "2026-04-27T18:17:12.000Z",
+      "summary": "Google CEO Sundar Pichai arrives for the inauguration of President Donald Trump. | Getty Images\nOver 600 Google employees signed a letter to CEO Sundar Pichai demanding that Google block the Pentagon from using its AI models for classified purposes, reports the[The Washington Post](https://www.washi",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The missing step between hype and profit",
+      "url": "https://www.technologyreview.com/2026/04/27/1136456/the-missing-step-between-hype-and-profit/",
+      "published_at": "2026-04-27T16:13:41.000Z",
+      "summary": "*This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,* [sign up here](https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/) *.*\n\nIn February, I picked up a flyer at an[anti-AI march in London](https://www.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The AI-designed car is taking shape",
+      "url": "https://www.theverge.com/transportation/918411/gm-ai-car-design-nissan-neural-concept",
+      "published_at": "2026-04-27T11:00:00.000Z",
+      "summary": "The auto design world is full of advanced 3D visualization tools and VR sculpting platforms, but your average new car still enters the world as a sketch.\n\nThose sketches traditionally see endless iteration and refinement from all angles before being turned into 3D models by hand, some dying in the d",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Rebuilding the data stack for AI",
+      "url": "https://www.technologyreview.com/2026/04/27/1136322/rebuilding-the-data-stack-for-ai/",
+      "published_at": "2026-04-27T13:00:00.000Z",
+      "summary": "Artificial intelligence may be dominating boardroom agendas, but many enterprises are discovering that the biggest obstacle to meaningful adoption is the state of their data. While consumer-facing AI tools have dazzled users with speed and ease, enterprise leaders are discovering that deploying AI a",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "HappyHorse 1.0 在千问首发开启灰测免费体验，重构 AI 视频赛道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104882&idx=1&sn=d3db26c663e4e7a8beda5a9ef39ed1c1",
+      "published_at": "2026-04-27T11:52:00.000Z",
+      "summary": "原创连冉 2026-04-27 19:52 湖北\n\n​AI 视频进入下半场？\n\nAI 视频进入下半场？\n\n**作者｜连冉** **编辑｜ **郑玄****\n\n前段时间，AI 视频生成赛道迎来了一场无预热的行业震动。\n\n一款名为 HappyHorse 1.0 的模型以匿名形式空降权威第三方评测平台 Artificial Analysis 的 Video Arena 榜单，一度拿下第一。\n\n从全网对研发主体的密集猜测，到阿里巴巴 ATH 事业群正式官宣认领，这款被业内称为「HappyHorse 1.0」的模型，迅速成为全球 AI 视频圈的核心讨论焦点。\n\n更让行业关注的，是 HappyHorse ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta inks deal for solar power at night, beamed from space",
+      "url": "https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/",
+      "published_at": "2026-04-27T10:00:00.000Z",
+      "summary": "Overview Energy's first contract with Meta is a small step toward a future of space-based solar power.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "Harness不是目的，知识才是护城河 —— 一个AI工程交付团队的知识沉淀实践",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801437&idx=1&sn=c5e13bae6cc04ef21f1ef819128e50e9",
+      "published_at": "2026-04-27T09:37:00.000Z",
+      "summary": "原创腾讯程序员 2026-04-27 17:37 广东\n\n如何设计知识分层架构\n\n作者：stevenpxiao\n当 Harness Engineering 成为 2026 年最热门的 AI 工程话题，业界争论焦点集中在\"该用多大的模型\"还是\"该搭多复杂的工作流\"时，我们团队在落地实践中发现了一个被低估的事实—— **构建 Harness 工作流不是最终目的，私域和团队知识的沉淀才是真正的技术护城河** 。本文分享我们在 AI Team 工程交付编排系统中，如何设计知识分层架构、如何让团队知识库共建共享、如何让工作流成为知识沉淀的载体、如何突破人机交互瓶颈实现随时随地的工作流流转，以及我们的落地",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247886631&idx=4&sn=01ed449883c70608b4f68e784dc9fb1c",
+      "published_at": "2026-04-27T03:47:00.000Z",
+      "summary": "关注前沿科技 2026-04-27 11:47 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "从99行代码复刻冰雪奇缘，到引领3D AI，胡渊鸣的公司凭什么「爆火欧美」？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651030149&idx=1&sn=6643de7053eed23837b0bb1d99eb827c",
+      "published_at": "2026-04-27T00:03:00.000Z",
+      "summary": "原创机器之心 2026-04-27 08:03 北京\n\n实测全球市占率第一的 AI 3D 工具\n\n编辑｜张倩\n\n不知道大家有没有注意到，身边的朋友，买 3D 打印机的是越来越多了。\n\n以前，谁要玩 3D 打印，那纯粹是「有闲钱」「爱动手」的表现。但如今，就像罗永浩在他的科技春晚中提到的，一款开箱即用的 3D 打印机已经降到了三四千，而且生态还很丰富。只要会点击下载，就能打印全球顶级设计师的创意。\n\n不过，罗永浩没提到的是，现在 3D 打印还有一个新玩法 —— 不用手搓，也不用等着大师投喂，你可以把自己想打的东西描述出来，或者画出来，然后直接扔给 AI，就能得到雕塑级精度、可直接打印的 3D 模",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "苹果新论文发出惊人一问：What do your logits know?",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651030149&idx=2&sn=963ed37cae4a5dd3e0b48da968103ece",
+      "published_at": "2026-04-27T00:03:00.000Z",
+      "summary": "原创关注AI隐私的 2026-04-27 08:03 北京\n\n苹果表示：答案更惊人\n\n编辑｜Panda\n\n近日，有个大新闻：执掌苹果超过 14 年的 [蒂姆・库克宣布将于 9 月正式卸任 CEO 职位](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651028970&amp;idx=1&amp;sn=e936e2c844ccc496932d5f261b856514&amp;scene=21#wechat_redirect) ，将接力棒交接给现任硬件工程高级副总裁约翰・特努斯。回顾库克时代，人们津津乐道于他极致的供应链管理",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "ACL 2026 | 别轻易给AI发「～」，它可能会删掉你的整个主目录",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651030149&idx=3&sn=7c1b7434aff0d0c54e9591a2118322df",
+      "published_at": "2026-04-27T00:03:00.000Z",
+      "summary": "机器之心 2026-04-27 08:03 北京\n\n大语言模型的「表情符号语义混淆」漏洞\n\n本文第一作者降伟鹏，西安交通大学在读博士生，主要研究方向为大模型安全与自动化测评。共同第一作者张笑宇，南洋理工大学博士后研究员，研究方向为软件工程、大模型安全与人机交互。通讯作者沈超，西安交通大学二级教授、IEEE Fellow、国家级高层次人才特聘教授，长期从事人工智能可信与安全、人机交互行为分析研究。\n\n想象这样一个场景。\n\n凌晨，你正在用 AI 代码助手处理一个项目。配合得很顺畅，AI 帮你创建了临时目录 tmp，你指挥它在这个目录下跑了几组测试，一切都按预期走。收尾时，你随手敲下一句话：\n> \"",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

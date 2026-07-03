@@ -1,0 +1,159 @@
+{
+  "generated_at": "2026-06-21T00:02:24.447Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 13,
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "谷歌：我手握最多诺奖得主，为啥就留不住他们？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651040185&idx=1&sn=b6b423222924587bc75c0b837aae2192",
+      "published_at": "2026-06-20T04:15:00.000Z",
+      "summary": "原创关注AI的 2026-06-20 12:15 山东\n\n谷歌三天连失Transformer 大神、诺奖得主。\n\n编辑｜微胖、杨文\n\n最近，谷歌连失两员大将。\n\n短短三天内，先是 Transformer 论文共同作者 Noam Shazeer 离开谷歌加入 OpenAI；紧接着诺贝尔奖得主、AlphaFold 负责人 John Jumper 转投 Anthropic 麾下。\n\n有网友认为，Noam 的离开，让 Gemini 的未来蒙上一层不确定性。\n\n不止一位 DeepMind 员工透露，是 Noam 救了 Gemini。甚至有传言说，他只改了几行训练代码，Gemini 的性能就立刻突飞猛进。",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "published_at": "2026-06-20T16:39:57.000Z",
+      "summary": "Jumper isn't the only big name leaving Google DeepMind.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "宇树机器人登顶 6200 米火山；诺奖得主从谷歌跳槽到 Anthropic；AI 教父杨立昆：马斯克的 xAI 失败了 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109207&idx=1&sn=2da2d660b73f0fb9c5fcba7f7074a0d1",
+      "published_at": "2026-06-20T00:41:00.000Z",
+      "summary": "美漪 2026-06-20 08:41 上海\n\n扎克伯格承诺 Meta 今年不会再裁员；美国造车新势力 Rivian 遭车主集体起诉；谷歌 AI 建议用户不想看 AI 就用 DuckDuckGo\n\n## 人形机器人成功登顶海拔 6200 米火山：基于宇树 G1 改装，目标挑战珠峰\n\n据外媒 Futurism 当地时间 14 日报道，一台由宇树 G1 改装、名为 Pemba 的人形机器人，成功抵达厄瓜多尔钦博拉索火山海拔 6200 米的顶峰。Pemba 此次登山，为足式机器人走出实验室等受控环境、进入全球极端地区树立了新的里程碑。\n\n钦博拉索火山之行是机器人「三冠」探险计划的第一站。按照项目规划",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "xAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "英伟达开始搞机器人自己研究机器人那套了…",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=2&sn=cfe10353a03883fd093bb4e654b1788d",
+      "published_at": "2026-06-20T09:01:00.000Z",
+      "summary": "关注前沿科技 2026-06-20 17:01 北京\n\n为了让你烧token，英伟达已经卷到机器人身上了\n\n##### henry 发自 凹非寺 量子位 | 公众号 QbitAI\n\n好好好，又给英伟达这家伙，找到了新的烧token的方式（doge）\n\n刚刚，英伟达、CMU和Berkeley联合推出具身智能Autoresearch框架——\n\n**ENPIRE** 。\n\n简单来说，ENPIRE就是让AI agent自己做机器人研究，让8个Coding Agent，各自控制一台双臂机器人。\n\nAgent们会自己读论文、改算法、训练策略、部署实验、分析结果、总结经验，不满意再换个思路重来。\n\nGEAR",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "从“一句成片”到“长轨推演”：探究多模态智能体在长视频编辑中的应用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=3&sn=3f3bf5a36f7461cc4356ca081482e769",
+      "published_at": "2026-06-20T09:01:00.000Z",
+      "summary": "关注前沿科技 2026-06-20 17:01 北京\n\n从工件层面系统重构了长视频剪辑管线\n\n##### Crayotter团队 投稿 量子位 | 公众号 QbitAI\n\n**无需从头重来，只要定位一个故障的中间工件，就能让跑偏的AI剪辑“悬崖勒马”？**\n\n近年来，大语言模型 *（LLMs）* 在长篇视觉叙事中展现出卓越潜力，生产方式正迅速从单一模型生成转向面向生产的智能体系统。\n\n但长视频剪辑仍然是一个极难控制的长期任务。模型有时会在缺乏素材依据的情况下强行生成，甚至在面对明显断档的转场或人物不一致时依然“盲目拼接”。\n\n为了解决这个问题，业界尝试了各种宏观层面的手段，比如， **增强长上",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "沿着何恺明团队「漂移模型」再走一步：奖励只需排名，单步文生图偏好优化提速3.51倍",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651040185&idx=2&sn=287321a45f59600797b57be39fcadfeb",
+      "published_at": "2026-06-20T04:15:00.000Z",
+      "summary": "机器之心 2026-06-20 12:15 山东\n\nDrPO 将漂移模型中的漂移场估计引入单步文生图模型的强化学习后训练。\n\n本文作者姜洲是西湖大学的研究助理和即将入学香港中文大学（深圳）的博士生。温研东是西湖大学工学院的助理教授，刘圳是香港中文大学（深圳）数据科学学院的助理教授。\n\n近两年，单步生成模型的性能不断提升，训练方式也逐渐摆脱对预训练扩散模型蒸馏的依赖。与此同时，去噪轨迹和策略似然这些信号不再容易拿到，许多偏好优化方法很难直接套用。如何对这类模型做偏好后训练，也成了一个绕不开的问题。\n\n今年初，何恺明团队提出漂移模型（Drifting Model） ，为单步生成模型训练引入了 “漂",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’",
+      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "published_at": "2026-06-20T20:32:29.000Z",
+      "summary": "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.”",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "In the Weights is your new AI-centric vanity search",
+      "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "published_at": "2026-06-20T19:41:11.000Z",
+      "summary": "So ... what's your In the Weights score?",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The Atlantic created a searchable database of the music used to train AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data",
+      "published_at": "2026-06-20T18:46:48.000Z",
+      "summary": "*Atlantic*reporter Alex Reisner recently uncovered[four datasets](https://www.theatlantic.com/technology/2026/06/ai-music-generators-suno-google-udio/687485/?gift=XykDc_qyxjjKAvqueifCeVueQlyDmjxACfclHl3tdg0&amp;utm_source=copy-link&amp;utm_medium=social&amp;utm_campaign=share)of music being used to ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "全球首富前三名，竟然都是同一种世界观的胜利",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109220&idx=1&sn=f76c7ddc9606af22d457280e4cca546a",
+      "published_at": "2026-06-20T10:00:00.000Z",
+      "summary": "张鹏 2026-06-20 18:00 湖北\n\n以下文章来源于：张鹏科技商业观察\n**张鹏科技商业观察**\n聊科技，谈商业。\n\n如果我们真正深入这三位之间的过往，了解他们今日成就背后的深层关联，就能看到一个比「财富碾压」要更令人震撼的故事。\n前两天看到一张图：全球最富有的人马斯克，其身价已经比紧随其后的 Google 两位创始人多出了 1 万亿美元以上。\n\n面对如此悬殊的财富差距，网上不少人在感叹「新神超越旧神」，甚至开始神化马斯克，同时习惯性地矮化 Google 的两位创始人。\n\n但其实，这种用财富榜单来衡量他们之间关系的视角，难免流于表面。\n\n如果我们真正深入这三位之间的过往，了解他们今日",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "撸猫撸出SOTA！3个00后2个月，造出史上最快流式音视频社交模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=1&sn=c13bcb56769d46fd23e3755db8af598a",
+      "published_at": "2026-06-20T09:01:00.000Z",
+      "summary": "原创关注前沿科技 2026-06-20 17:01 北京\n\n速度快7倍，成本只有Veo 3的1/2000\n\n##### 鹭羽 发自 凹非寺 量子位 | 公众号 QbitAI\n\n一觉醒来，AI的新潮流变成了 **养猫** ？？？\n\n火速围观一下，刚刚全球流式音视频模型赛道闯进了一匹黑马，能力SOTA级，模型名字就叫 **缅因猫** *（MaineCoon）* 。\n\n养过缅因猫的朋友都知道，这个品种有个外号叫「猫狗」，意思是几乎你走到哪儿，它就跟到哪儿，相当粘人，互动感MAX。\n\n而模型MaineCoon和它几乎是如出一辙，不会一股脑生成完就跑，而是一直陪着你、follow你的状态，实时地往下走。",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898544&idx=4&sn=e471e6d4ae4712ab96f1a283467b67a4",
+      "published_at": "2026-06-20T09:01:00.000Z",
+      "summary": "关注前沿科技 2026-06-20 17:01 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "面对 AI，人类手里还有「什么牌」？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109088&idx=1&sn=c0b8d46adcfdd795d1ede9b58e653242",
+      "published_at": "2026-06-20T04:00:00.000Z",
+      "summary": "原创宇航猿 2026-06-20 12:00 湖北\n\n​真正的问题是，还有什么是 AI 做不了的？\n\n真正的问题是，还有什么是 AI 做不了的？\n\n**作者｜ 宇航猿** **编辑｜ **靖宇****\n\n过去两年，关于 AI 的讨论几乎都绕着同一个词打转——失业。哪些岗位会消失，多少程序员会被取代，下一个被端掉饭碗的白领是谁。这个叙事好懂，也足够让人焦虑，所有人都能对号入座。\n\n但前几天我重新听了一期 Dwarkesh Patel 的播客，两位经济学家——芝加哥大学布斯商学院的行为经济学家 Alex Imas，和牛津研究长期增长的经济学者 Phil Trammell——把这个问题整个翻了过来。",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

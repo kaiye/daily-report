@@ -1,0 +1,56 @@
+{
+  "report_date": "2026-06-18",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是面向 AI Agent 的代码理解、技能框架、互联网感知、多模态桌面操作与时间序列基础模型能力。",
+  "items": [
+    {
+      "repo": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "高性能代码智能 MCP 服务器，将代码库索引为持久知识图谱：平均仓库毫秒级完成，支持 158 种语言、亚毫秒查询、减少 99% token，单个静态二进制文件且零依赖。",
+      "language": "C",
+      "stars_today": 371,
+      "stars_total": 5215
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "让你的 AI Agent 拥有看见整个互联网的眼睛，可读取和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书，一个 CLI 且零 API 费用。",
+      "language": "Python",
+      "stars_today": 1161,
+      "stars_total": 33137
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "有效的 Agentic 技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1129,
+      "stars_total": 231030
+    },
+    {
+      "repo": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM（时间序列基础模型）是 Google Research 开发的预训练时间序列基础模型，用于时间序列预测。",
+      "language": "Python",
+      "stars_today": 606,
+      "stars_total": 21875
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "面向真正工程师的技能，直接来自我的 .claude 目录。",
+      "language": "Shell",
+      "stars_today": 1523,
+      "stars_total": 133514
+    },
+    {
+      "repo": "bytedance/UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "description": "开源多模态 AI Agent 技术栈，连接前沿 AI 模型与 Agent 基础设施。",
+      "language": "TypeScript",
+      "stars_today": 150,
+      "stars_total": 36684
+    }
+  ]
+}

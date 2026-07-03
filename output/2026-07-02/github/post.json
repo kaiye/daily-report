@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-07-02T00:03:25.229Z",
+  "source_raw": "raw.json",
+  "source_count": 20,
+  "item_count": 15,
+  "language_breakdown": {
+    "Shell": 2,
+    "Python": 5,
+    "HTML": 1,
+    "TypeScript": 4,
+    "Jupyter Notebook": 1,
+    "Rust": 1,
+    "Swift": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars_today": 2114,
+      "stars_total": 123326,
+      "forks": 20070
+    },
+    {
+      "rank": 2,
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "stars_today": 1211,
+      "stars_total": 29663,
+      "forks": 3220
+    },
+    {
+      "rank": 3,
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "language": "Python",
+      "stars_today": 694,
+      "stars_total": 16503,
+      "forks": 2802
+    },
+    {
+      "rank": 4,
+      "repo": "hasaneyldrm/exercises-dataset",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset",
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "language": "HTML",
+      "stars_today": 2470,
+      "stars_total": 8380,
+      "forks": 949
+    },
+    {
+      "rank": 5,
+      "repo": "facebook/astryx",
+      "url": "https://github.com/facebook/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars_today": 708,
+      "stars_total": 2604,
+      "forks": 133
+    },
+    {
+      "rank": 6,
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "language": "TypeScript",
+      "stars_today": 1010,
+      "stars_total": 9494,
+      "forks": 1464
+    },
+    {
+      "rank": 7,
+      "repo": "allenai/olmocr",
+      "url": "https://github.com/allenai/olmocr",
+      "description": "Toolkit for linearizing PDFs for LLM datasets/training",
+      "language": "Python",
+      "stars_today": 334,
+      "stars_total": 18256,
+      "forks": 1503
+    },
+    {
+      "rank": 8,
+      "repo": "logto-io/logto",
+      "url": "https://github.com/logto-io/logto",
+      "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+      "language": "TypeScript",
+      "stars_today": 113,
+      "stars_total": 13251,
+      "forks": 903
+    },
+    {
+      "rank": 10,
+      "repo": "Mebus/cupp",
+      "url": "https://github.com/Mebus/cupp",
+      "description": "Common User Passwords Profiler (CUPP)",
+      "language": "Python",
+      "stars_today": 184,
+      "stars_total": 6240,
+      "forks": 2065
+    },
+    {
+      "rank": 11,
+      "repo": "Unclecheng-li/VulnClaw",
+      "url": "https://github.com/Unclecheng-li/VulnClaw",
+      "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
+      "language": "Python",
+      "stars_today": 132,
+      "stars_total": 1561,
+      "forks": 217
+    },
+    {
+      "rank": 12,
+      "repo": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "language": "Jupyter Notebook",
+      "stars_today": 1096,
+      "stars_total": 50409,
+      "forks": 10252
+    },
+    {
+      "rank": 13,
+      "repo": "refactoringhq/tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "language": "TypeScript",
+      "stars_today": 150,
+      "stars_total": 18016,
+      "forks": 1223
+    },
+    {
+      "rank": 14,
+      "repo": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "stars_today": 609,
+      "stars_total": 9577,
+      "forks": 565
+    },
+    {
+      "rank": 15,
+      "repo": "0xNyk/council-of-high-intelligence",
+      "url": "https://github.com/0xNyk/council-of-high-intelligence",
+      "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds &amp; more — structured multi-round deliberation with genuine model diversity. One command: /council",
+      "language": "Shell",
+      "stars_today": 161,
+      "stars_total": 2606,
+      "forks": 243
+    },
+    {
+      "rank": 16,
+      "repo": "altic-dev/FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
+      "language": "Swift",
+      "stars_today": 572,
+      "stars_total": 5466,
+      "forks": 331
+    }
+  ]
+}

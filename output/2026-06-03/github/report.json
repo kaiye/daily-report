@@ -1,0 +1,64 @@
+{
+  "report_date": "2026-06-03",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕大模型与智能体的上下文压缩、记忆、文档处理、语音生成和开发工作流优化。",
+  "items": [
+    {
+      "repo": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "description": "在工具输出、日志、文件和 RAG 分块到达 LLM 之前进行压缩，减少 60–95% 的 token 且答案不变，提供库、代理和 MCP 服务器。",
+      "language": "Python",
+      "stars_today": 1265,
+      "stars_total": 6322
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "将文件和 Office 文档转换为 Markdown 的 Python 工具。",
+      "language": "Python",
+      "stars_today": 3618,
+      "stars_total": 141070
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "智能体框架性能优化系统，为 Claude Code、Codex、Opencode、Cursor 及更多工具提供技能、本能、记忆、安全和研究优先的开发能力。",
+      "language": "JavaScript",
+      "stars_today": 1533,
+      "stars_total": 203889
+    },
+    {
+      "repo": "nesquena/hermes-webui",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "description": "Hermes WebUI：从网页或手机使用 Hermes Agent 的最佳方式。",
+      "language": "Python",
+      "stars_today": 1722,
+      "stars_total": 12519
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2：面向多语言语音生成、创意声音设计和逼真克隆的无 tokenizer TTS。",
+      "language": "Python",
+      "stars_today": 783,
+      "stars_total": 25096
+    },
+    {
+      "repo": "stefan-jansen/machine-learning-for-trading",
+      "url": "https://github.com/stefan-jansen/machine-learning-for-trading",
+      "description": "《Machine Learning for Algorithmic Trading》第 2 版的配套代码。",
+      "language": "Jupyter Notebook",
+      "stars_today": 574,
+      "stars_total": 18442
+    },
+    {
+      "repo": "supermemoryai/supermemory",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "description": "极快且可扩展的记忆引擎与应用，面向 AI 时代的 Memory API。",
+      "language": "TypeScript",
+      "stars_today": 680,
+      "stars_total": 24609
+    }
+  ]
+}

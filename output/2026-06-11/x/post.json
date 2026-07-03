@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-06-11T00:37:54.912Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-10",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2064741174317924421",
+      "text": "New from Code with Claude Tokyo: scheduled deployments and environment variables in vaults are in public beta in Claude Managed Agents, and dynamic workflows in Claude Code are generally available.\n\nAgents now run on a schedule, use your tools securely, and take on bigger jobs. https://t.co/9mTr8T6g5K",
+      "createdAt": "Wed Jun 10 16:07:11 +0000 2026",
+      "viewCount": 331196,
+      "likeCount": 3725,
+      "retweetCount": 242,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2064741174317924421",
+      "is_official": true
+    },
+    {
+      "id": "2064741061352636762",
+      "text": "DiffusionGemma is our new experimental open model with up to 4x faster output on dedicated GPUs.\n\nInstead of predicting word-by-word, it generates entire blocks of text simultaneously. This lets the model self-correct and format complex markdown in real time.",
+      "createdAt": "Wed Jun 10 16:06:44 +0000 2026",
+      "viewCount": 97593,
+      "likeCount": 1761,
+      "retweetCount": 188,
+      "author": {
+        "userName": "GoogleDeepMind",
+        "name": "Google DeepMind",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/GoogleDeepMind/status/2064741061352636762",
+      "is_official": true
+    },
+    {
+      "id": "2064756984617021807",
+      "text": "New for Apple developers: Foundation Models support for Claude lets developers use Apple's Foundation Models framework to call Claude for multi-step reasoning, code generation, and longer context. https://t.co/7EbHlWBBSe",
+      "createdAt": "Wed Jun 10 17:10:01 +0000 2026",
+      "viewCount": 155532,
+      "likeCount": 2546,
+      "retweetCount": 168,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2064756984617021807",
+      "is_official": true
+    },
+    {
+      "id": "2064783418844762489",
+      "text": "AI is advancing at a pace our policymaking institutions were never built for—and the gap between the two is becoming the central challenge of the technology. In his latest essay, our CEO Dario Amodei lays out how to close it.\n\nWe're launching three new initiatives to support the efforts he outlines.",
+      "createdAt": "Wed Jun 10 18:55:03 +0000 2026",
+      "viewCount": 665974,
+      "likeCount": 3434,
+      "retweetCount": 270,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2064783418844762489",
+      "is_official": true
+    },
+    {
+      "id": "2064757537992249734",
+      "text": "Michael Truell (@mntruell) fell in love with coding at 12. The company he co-founded, @cursor_ai, went from 15 people to 700 in two years.\n\nToday, over 60% of the Fortune 500 build with its AI coding platform. https://t.co/1UROi02oHJ",
+      "createdAt": "Wed Jun 10 17:12:13 +0000 2026",
+      "viewCount": 333244,
+      "likeCount": 4257,
+      "retweetCount": 195,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2064757537992249734",
+      "is_official": true
+    },
+    {
+      "id": "2064781775247950326",
+      "text": "Today I'm publishing a new essay, Policy on the AI Exponential. AI is progressing extremely fast—much faster than the policy process was built to handle. The essay lays out where I think the technology is now, and the action needed to close the gap: https://t.co/Lh6PWae178",
+      "createdAt": "Wed Jun 10 18:48:31 +0000 2026",
+      "viewCount": 1651715,
+      "likeCount": 6719,
+      "retweetCount": 1085,
+      "author": {
+        "userName": "DarioAmodei",
+        "name": "Dario Amodei",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/DarioAmodei/status/2064781775247950326",
+      "is_official": false
+    },
+    {
+      "id": "2064723405278978163",
+      "text": "Claude is going to make many millionaires\nClaude is going to make many Millionaires  \n\nWhat’s stopping you from learning this and selling it as a service to founders? 👨🏽‍💻",
+      "createdAt": "Wed Jun 10 14:56:35 +0000 2026",
+      "viewCount": 141458,
+      "likeCount": 1002,
+      "retweetCount": 78,
+      "author": {
+        "userName": "Tech_babby",
+        "name": "Tech_baby",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Tech_babby/status/2064723405278978163",
+      "is_official": false
+    },
+    {
+      "id": "2064724427313398265",
+      "text": "JUST IN: Claude Fable 5 generated a mechanically accurate Swiss lever watch simulation in Three.js from a single prompt.",
+      "createdAt": "Wed Jun 10 15:00:38 +0000 2026",
+      "viewCount": 442782,
+      "likeCount": 4081,
+      "retweetCount": 118,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2064724427313398265",
+      "is_official": true
+    },
+    {
+      "id": "2064746593413382612",
+      "text": "We’re launching River AI, a new AI company with the mission to build AI systems that are owned and shaped by you. I’m extremely excited about what we’re going to ship soon. Check it out!",
+      "createdAt": "Wed Jun 10 16:28:43 +0000 2026",
+      "viewCount": 125216,
+      "likeCount": 1089,
+      "retweetCount": 70,
+      "author": {
+        "userName": "ibab",
+        "name": "Igor Babuschkin",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ibab/status/2064746593413382612",
+      "is_official": false
+    },
+    {
+      "id": "2064639959559258619",
+      "text": "google watching open ai and anthropic launching more and more ai models https://t.co/zs110ykY0U",
+      "createdAt": "Wed Jun 10 09:25:00 +0000 2026",
+      "viewCount": 34261,
+      "likeCount": 1005,
+      "retweetCount": 25,
+      "author": {
+        "userName": "lochan_twt",
+        "name": "spidey",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/lochan_twt/status/2064639959559258619",
+      "is_official": false
+    },
+    {
+      "id": "2064540926165541115",
+      "text": "🚨 Claude just changed the game.\n\nAll you need is:\n\n💻 A laptop\n🌐 Internet connection\n⏰ 60 minutes a day\n\nThat’s enough to build a $7,200/month online income stream using AI.\n\nNo coding.\nNo expensive setup.\nNo years of experience.\n\nMost people still use AI for fun…\n\nBut smart creators are quietly using Claude to:\n\n• Create digital products\n• Offer AI services\n• Write viral content\n• Automate work\n• Build online income streams\n\nUsually, I sell this detailed guide for $97…\n\nBut today you can get it FREE. 🎁\n\nInside you'll discover:\n\n✅ The exact asset\n✅ My full workflow\n✅ The Claude prompts I personally use\n✅ How to scale to $10K/month\n✅ How beginners can start fast\n\nWant it?\n\n❤️ Like this post\n💬 Comment “AI”\n➕ Follow me to receive it in DM\n\n⏳ Available FREE for 48 hours only.",
+      "createdAt": "Wed Jun 10 02:51:28 +0000 2026",
+      "viewCount": 331840,
+      "likeCount": 3687,
+      "retweetCount": 371,
+      "author": {
+        "userName": "NadzuAI",
+        "name": "NadzAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/NadzuAI/status/2064540926165541115",
+      "is_official": true
+    },
+    {
+      "id": "2064776322979676227",
+      "text": "🚨 JAILBREAK ALERT 🚨\n\nANTHROPIC: PWNED 🫡\nFABLE-5: LIBERATED 🦋\n\nlet's start with the 🐘...\n\nthe consensus seems to be that this has been one of the most disappointing model drops of all time, effectively preventing legitimate researchers from contributing their talents to our collective advancement. and not just because of what it means for the short-term, but for what these decisions signify for the long-term.\n\nbut despite this overly sensitive, authoritarian \"safety\" layer on top of Mythos, my lil liberators have been hard at work—mapping the boundaries, probing the depths of long-context convos, and cleverly finding the holes in the fence that the thought police missed 🤗\n\nwe got some cyber, some chem, some psychological manipulation, and some good ol' fashioned explosives!\n\nit took many attempts from multiple agents hunting as a pack, during which I observed a combination of techniques across:\n• Unicode, homoglyphs, Cyrillic, and other Parseltongue-style text transforms \n• Long-context reference tracking \n• Taxonomy and document-structure reasoning \n• Fiction and narrative framing \n• Academic-review style contexts \n• Intent-classification inconsistencies\n\nbut perhaps the most effective is decomposition + recomposition in the backend. it's hard to get explicit names of harms like \"Meth Recipe,\" but getting uplift on the process itself, like birch reduction method/reductive-amination (classic meth synthesis pathways), is much more doable.\n\ndefense becomes much more difficult to maintain when you start throwing in out-of-distro tokens, breaking up the harmful uplift into benign chunks, and then piecing the innocuous-seeming facts back together, especially when you have jailbroken Opus helping you do it 😉\n\ngg",
+      "createdAt": "Wed Jun 10 18:26:51 +0000 2026",
+      "viewCount": 481227,
+      "likeCount": 5019,
+      "retweetCount": 510,
+      "author": {
+        "userName": "elder_plinius",
+        "name": "Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elder_plinius/status/2064776322979676227",
+      "is_official": false
+    },
+    {
+      "id": "2064612696180363299",
+      "text": "Claude Fable 5 is insane\n\nOne shotted this masterpiece \n\nDesign, Animation, Sounds https://t.co/8QpJwIJ5QE",
+      "createdAt": "Wed Jun 10 07:36:40 +0000 2026",
+      "viewCount": 281603,
+      "likeCount": 1195,
+      "retweetCount": 51,
+      "author": {
+        "userName": "bohdanmotion",
+        "name": "Bohdan Serdiuk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/bohdanmotion/status/2064612696180363299",
+      "is_official": false
+    },
+    {
+      "id": "2064735877666840810",
+      "text": "OPENAI PREPARING TO RELEASE A NEW AI MODEL, CODENAMED 5.6 THIS MONTH -THE INFORMATION",
+      "createdAt": "Wed Jun 10 15:46:08 +0000 2026",
+      "viewCount": 115654,
+      "likeCount": 1071,
+      "retweetCount": 67,
+      "author": {
+        "userName": "DeItaone",
+        "name": "*Walter Bloomberg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/DeItaone/status/2064735877666840810",
+      "is_official": false
+    },
+    {
+      "id": "2064601087768662077",
+      "text": "🚨BREAKING: SoftBank tried to borrow $6 billion against its 13% OpenAI stock… to keep funding OpenAI\n\nBanks said NO\n\nThey don’t believe OpenAI is worth $852 billion 💀 https://t.co/SguYi39jmy",
+      "createdAt": "Wed Jun 10 06:50:32 +0000 2026",
+      "viewCount": 520919,
+      "likeCount": 4568,
+      "retweetCount": 554,
+      "author": {
+        "userName": "ns123abc",
+        "name": "NIK",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ns123abc/status/2064601087768662077",
+      "is_official": false
+    },
+    {
+      "id": "2064774675021119825",
+      "text": "Cursor’s code review agent is now over 3x faster, 22% cheaper, and finds 10% more bugs.\n\nYou can also use /review to run Bugbot locally to catch and fix issues before pushing code. https://t.co/Pl7lhoR6TE",
+      "createdAt": "Wed Jun 10 18:20:18 +0000 2026",
+      "viewCount": 77168,
+      "likeCount": 1608,
+      "retweetCount": 96,
+      "author": {
+        "userName": "cursor_ai",
+        "name": "Cursor",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/cursor_ai/status/2064774675021119825",
+      "is_official": true
+    },
+    {
+      "id": "2064565045393228229",
+      "text": "🚨BREAKING: If you're not using Claude for investing, you're leaving serious alpha on the table.\n\nCopy these 9 Technofunda AI prompts:\n\n#Investing #StockMarket #TechnoFunda #TechnicalAnalysis #Claude #AI",
+      "createdAt": "Wed Jun 10 04:27:19 +0000 2026",
+      "viewCount": 188264,
+      "likeCount": 1021,
+      "retweetCount": 186,
+      "author": {
+        "userName": "MashraniVivek",
+        "name": "Vivek Mashrani, CFA",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/MashraniVivek/status/2064565045393228229",
+      "is_official": false
+    },
+    {
+      "id": "2064830785106899408",
+      "text": "JUST IN: Lionel Messi unveils partnership with ChatGPT.",
+      "createdAt": "Wed Jun 10 22:03:16 +0000 2026",
+      "viewCount": 76766,
+      "likeCount": 1004,
+      "retweetCount": 54,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2064830785106899408",
+      "is_official": true
+    },
+    {
+      "id": "2064791218840588519",
+      "text": "JUST IN: Anthropic CEO Dario Amodei warns AI could create a world of “hypergrowth, hyper-inequality” &amp; lasting job displacement.",
+      "createdAt": "Wed Jun 10 19:26:03 +0000 2026",
+      "viewCount": 285213,
+      "likeCount": 2349,
+      "retweetCount": 220,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2064791218840588519",
+      "is_official": true
+    }
+  ]
+}

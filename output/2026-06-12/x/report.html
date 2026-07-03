@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUN 12, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">共同信号是 AI 竞争正从模型能力扩展到价格战、代理基础设施、垂直应用和生态部署的全面竞赛。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@WSJ</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">The Wall Street Journal</span>：报道称，OpenAI 正考虑大幅降价，以从主要对手 Anthropic 手中争夺客户。
+          </p>
+          <p class="item-metric">👁 495.3K · ❤️ 1.0K</p>
+          <a class="item-link" href="https://twitter.com/WSJ/status/2064885410761671041">https://twitter.com/WSJ/status/2064885410761671041</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@OpenAINewsroom</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI Newsroom</span>：OpenAI 宣布拟收购 Ona，其安全云端执行技术将帮助 Codex 承担更长周期任务，并支持企业安全部署代理。
+          </p>
+          <p class="item-metric">👁 428.5K · ❤️ 3.2K</p>
+          <a class="item-link" href="https://twitter.com/OpenAINewsroom/status/2065088002335158753">https://twitter.com/OpenAINewsroom/status/2065088002335158753</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@GergelyOrosz</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Gergely Orosz</span>：我越来越怀疑 Anthropic 的限制并非出于安全，而更像是在用安全叙事服务商业利益、压制竞争。
+          </p>
+          <p class="item-metric">👁 81.3K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/GergelyOrosz/status/2064983993531953292">https://twitter.com/GergelyOrosz/status/2064983993531953292</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@elonmusk</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Elon Musk</span>：Grok 追求最大程度的真实。
+          </p>
+          <p class="item-metric">👁 11.9M · ❤️ 49.7K</p>
+          <a class="item-link" href="https://twitter.com/elonmusk/status/2065112374709719329">https://twitter.com/elonmusk/status/2065112374709719329</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@AnthropicAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anthropic</span>：Anthropic 推出 Claude Corps 全国奖学金项目，将培训 1000 名职业早期人才使用 Claude，并资助他们服务美国非营利组织。
+          </p>
+          <p class="item-metric">👁 374.2K · ❤️ 4.8K</p>
+          <a class="item-link" href="https://twitter.com/AnthropicAI/status/2065057393927467084">https://twitter.com/AnthropicAI/status/2065057393927467084</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@brian_armstrong</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Brian Armstrong</span>：Coinbase for Agents 现在可让你用喜爱的 AI 代理控制 Coinbase 账户或子账户，并演示了设置流程与可执行操作。
+          </p>
+          <p class="item-metric">👁 102.4K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/brian_armstrong/status/2065117709835137079">https://twitter.com/brian_armstrong/status/2065117709835137079</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@kimmonismus</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Chubby♨️</span>：订阅套餐被严重补贴：据称 Claude Max 20x 每月 200 美元可用约 8000 美元额度，ChatGPT Pro 20x 则约 14000 美元。
+          </p>
+          <p class="item-metric">👁 879.1K · ❤️ 3.6K</p>
+          <a class="item-link" href="https://twitter.com/kimmonismus/status/2064987311402537184">https://twitter.com/kimmonismus/status/2064987311402537184</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@aaronli</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Aaron Li</span>：Claude Fable 5 像是解决了 CAD：我让它建一个 V8 发动机，不到 10 分钟就给出可运行模型。
+          </p>
+          <p class="item-metric">👁 597.5K · ❤️ 5.6K</p>
+          <a class="item-link" href="https://twitter.com/aaronli/status/2064876123109089742">https://twitter.com/aaronli/status/2064876123109089742</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@ClaudeDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ClaudeDevs</span>：Claude Managed Agents 新增定时部署和环境变量功能，可按计划运行任务，并把 vault 凭据以环境变量形式暴露给 CLI。
+          </p>
+          <p class="item-metric">👁 171.9K · ❤️ 2.6K</p>
+          <a class="item-link" href="https://twitter.com/ClaudeDevs/status/2065080005328249086">https://twitter.com/ClaudeDevs/status/2065080005328249086</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@OfficialLoganK</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Logan Kilpatrick</span>：Gemini Omni Flash 在图像转视频、文本转视频和视频编辑上达到领先水平，期待很快通过 API 提供给开发者。
+          </p>
+          <p class="item-metric">👁 57.9K · ❤️ 1.0K</p>
+          <a class="item-link" href="https://twitter.com/OfficialLoganK/status/2065118111360303414">https://twitter.com/OfficialLoganK/status/2065118111360303414</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

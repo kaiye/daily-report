@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-04-30",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕编程代理、技能框架与代码理解构建的 AI 开发工具链全面升温。",
+  "items": [
+    {
+      "repo": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp 是诞生于终端的代理式开发环境。",
+      "language": "Rust",
+      "stars_today": 12822,
+      "stars_total": 43637
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "面向真正工程师的技能，直接来自我的 .claude 目录。",
+      "language": "Shell",
+      "stars_today": 7280,
+      "stars_total": 44390
+    },
+    {
+      "repo": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "一份精选的实用 Codex 技能列表，用于在 Codex CLI 和 API 间自动化工作流。",
+      "language": "Python",
+      "stars_today": 1177,
+      "stars_total": 4762
+    },
+    {
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "编码代理运行框架。",
+      "language": "Rust",
+      "stars_today": 411,
+      "stars_total": 1335
+    },
+    {
+      "repo": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus 是零服务器的代码智能引擎，在浏览器中完全以客户端方式运行，可为 GitHub 仓库或 ZIP 文件生成交互式知识图谱并内置 Graph RAG Agent。",
+      "language": "TypeScript",
+      "stars_today": 774,
+      "stars_total": 33311
+    },
+    {
+      "repo": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "开源前沿语音 AI。",
+      "language": "Python",
+      "stars_today": 1690,
+      "stars_total": 45666
+    },
+    {
+      "repo": "CJackHwang/ds2api",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "description": "Deepseek to API：轻量高性能的全栈中间件，将客户端协议转换为通用 API，并兼容 Google、Claude 和 OpenAI API 格式。",
+      "language": "Go",
+      "stars_today": 465,
+      "stars_total": 2702
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个真正可用的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1653,
+      "stars_total": 173072
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的 A/H/美股智能分析器：多数据源行情、实时新闻、LLM 决策仪表盘与多渠道推送，零成本定时运行。",
+      "language": "Python",
+      "stars_today": 294,
+      "stars_total": 32719
+    },
+    {
+      "repo": "lukilabs/craft-agents-oss",
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "description": "了解 Craft Agents 是做什么以及如何工作的开源项目。",
+      "language": "TypeScript",
+      "stars_today": 393,
+      "stars_total": 5315
+    }
+  ]
+}

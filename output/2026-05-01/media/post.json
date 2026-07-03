@@ -1,0 +1,537 @@
+{
+  "generated_at": "2026-05-01T00:01:16.786Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 43,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "马斯克：OpenAI 是我的创意，Altman 是小偷；Claude Code 使用成本翻倍；Image 2 登顶视觉模型榜｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104975&idx=1&sn=e87d1f6c4eeea5a3e12499114fa05e0d",
+      "published_at": "2026-04-30T00:29:00.000Z",
+      "summary": "Moonshot 2026-04-30 08:29 重庆\n\n结束与微软独家合作，OpenAI 模型接入亚马逊 AWS；\n\nAnthropic 正在考虑对其估值超过 9000 亿美元的融资报价；\n\n腾讯 ima 解锁 Agent 形态，推出知识 Agent「copilot」；\n\n研究预测 2025 年中期 35% 新网站内容将由 AI 生成\n\n## 结束与微软独家合作，OpenAI 模型接入亚马逊 AWS\n\n4 月 29 日，在亚马逊云科技（Amazon Web Services，简称 AWS）新品发布会上，AWS 宣布携手 OpenAI，将 OpenAI 最新大模型接入 Amazon Bedr",
+      "priority_score": 374,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI announces new advanced security for ChatGPT accounts, including a partnership with Yubico",
+      "url": "https://techcrunch.com/2026/04/30/openai-announces-new-advanced-security-for-chatgpt-accounts-including-a-partnership-with-yubico/",
+      "published_at": "2026-04-30T18:20:03.000Z",
+      "summary": "OpenAI is launching additional opt-in protections for ChatGPT accounts. The new security initiative includes a new partnership with security key provider Yubico.",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Live updates from Elon Musk and Sam Altman’s court battle over the future of OpenAI",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "published_at": "2026-04-30T16:57:14.000Z",
+      "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product,[ChatGPT](https://www.theverge.com/ai-artificial-intelligence/904727/openai-chatgpt-investment). In[2024, Musk filed a lawsuit](https://www.theverge.com/2024/3/1/24087",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Elon Musk confirms xAI used OpenAI’s models to train Grok",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation",
+      "published_at": "2026-04-30T18:16:57.000Z",
+      "summary": "In a federal courtroom in California on Thursday, Elon Musk testified that his own AI startup, xAI, has used OpenAI's models to improve its own.\n\nThe matter at question is model distillation, a common industry practice by which one larger AI model acts as a \"teacher\" of sorts to pass on knowledge to",
+      "priority_score": 322,
+      "matched_keywords": [
+        "OpenAI",
+        "xAI",
+        "Grok"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Elon Musk testifies that xAI trained Grok on OpenAI models",
+      "url": "https://techcrunch.com/2026/04/30/elon-musk-testifies-that-xai-trained-grok-on-openai-models/",
+      "published_at": "2026-04-30T18:03:57.000Z",
+      "summary": "\"Distillation\" is a hot topic as frontier labs try to prevent smaller competitors from copying their models.",
+      "priority_score": 322,
+      "matched_keywords": [
+        "OpenAI",
+        "xAI",
+        "Grok"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "After dissing Anthropic for limiting Mythos, OpenAI restricts access to Cyber, too",
+      "url": "https://techcrunch.com/2026/04/30/after-dissing-anthropic-for-limiting-mythos-openai-restricts-access-to-cyber-too/",
+      "published_at": "2026-04-30T19:27:41.000Z",
+      "summary": "OpenAI will begin rolling out its cybersecurity testing tool, GPT-5.5 Cyber only \"to critical cyber defenders\" at first.",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sources: Anthropic could raise a new $50B round at a valuation of $900B",
+      "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
+      "published_at": "2026-04-30T00:07:15.000Z",
+      "summary": "The maker of Claude has received multiple preemptive offers at valuations in the $850 billion to $900 billion range, according to sources familiar with the matter.",
+      "priority_score": 224,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "哈萨比斯出的难题，GPT之父接上了：用一个知识停在1930年的模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031116&idx=2&sn=fb6006ee2ab440c5bd27906b24641b4c",
+      "published_at": "2026-04-30T04:50:00.000Z",
+      "summary": "原创穿越1930的 2026-04-30 12:50 北京\n\n一个训练数据截止到 1911 年的模型，能不能自己推导出爱因斯坦 1915 年提出的广义相对论？\n\n机器之心编辑部\n\n「 一个训练数据截止到 1911 年的模型，能不能自己推导出爱因斯坦 1915 年提出的广义相对论 ？」今年年初，哈萨比斯给出了一个极其硬核的 AGI 判定标准。\n\n没想到的是，这件事真的有人尝试去做了，而且其中一位作者还是 GPT 之父 Alec Radford。\n\n最近，Alec Radford 和「神经常微分方程」提出者之一、陈天琦导师 David Duvenaud 以及量化专家 Nick Levine 一起做",
+      "priority_score": 200,
+      "matched_keywords": [
+        "GPT",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "OpenAI公告正经解释：为什么GPT-5.5爱说“哥布林”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887926&idx=2&sn=4a609a8ba6f99eda15cbdfa33cf23719",
+      "published_at": "2026-04-30T04:37:00.000Z",
+      "summary": "关注前沿科技 2026-04-30 12:37 北京\n\nOpenAI正经写了一篇研究复盘，标题看起来却像个段子\n\n##### 梦晨 发自 凹非寺 量子位 | 公众号 QbitAI\n\nOpenAI正儿八经写了一篇研究复盘，标题看起来却像个段子：\n\nGPT-5.5爱说哥布林，正是这两天OpenAI用户最热议话题。 起初，是有人发现Codex系统提示词中特别强调了两遍：禁止谈论哥布林、妖精、巨魔等生物。 进一步发酵， 是大模型竞技场做了个全面测试，发现随着模型版本更新，这些奇幻生物开始多到很难忽略。\n\n现在，OpenAI官网发公告正式回应这个问题，还在调查过程中更了解如何控制模型行为了。\n\n以下是O",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "This startup’s new mechanistic interpretability tool lets you debug LLMs",
+      "url": "https://www.technologyreview.com/2026/04/30/1136721/this-startups-new-mechanistic-interpretability-tool-lets-you-debug-llms/",
+      "published_at": "2026-04-30T15:59:41.000Z",
+      "summary": "The San Francisco–based startup Goodfire just released a new tool, called Silico, that lets researchers and engineers peer inside an AI model and adjust its parameters—the[settings that determine a model’s behavior](https://www.technologyreview.com/2026/01/07/1130795/what-even-is-a-parameter/)—durin",
+      "priority_score": 150,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "魔法原子进军硅谷背后：世界模型野望与生态卡位",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105061&idx=1&sn=ef0361a7db105a4d67a8cefb4afbff8b",
+      "published_at": "2026-04-30T13:59:00.000Z",
+      "summary": "原创Li Yuan 2026-04-30 21:59 北京\n\n​硅谷来了一家中国具身公司。\n\n硅谷来了一家中国具身公司。\n\n**作者｜Li Yuan** **编辑｜ **郑玄****\n\n中国机器人公司火，已经不只是在国内了。一家具身智能公司，近期已经把发布会开到了硅谷。\n\n美西时间 4 月 28 日，魔法原子 MagicLab 在硅谷举办全球首届具身智能创新大会 GEIS。\n\n**魔法原子在会上推出了新一代人形机器人 MagicBot X1 和灵巧手 MagicHand H01，而且第一次把其世界模型 Magic-Mix、数据生成与训练反馈闭环，作为一套完整的具身智能底层能力集中展示出来。**",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "All the evidence unveiled so far in Musk v. Altman",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/920775/evidence-exhibits-elon-musk-sam-altman-openai-trial",
+      "published_at": "2026-04-30T19:00:00.000Z",
+      "summary": "The*Musk v. Altman*trial is underway, and that means exhibits, or the evidence to be presented in court, are being revealed piece by piece. So far, email exchanges, photos, and corporate documents are circulating from the earliest days of OpenAI - and from before the AI lab even had a name. Some hig",
+      "priority_score": 128,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sources: Anthropic potential $900B+ valuation round could happen within 2 weeks",
+      "url": "https://techcrunch.com/2026/04/30/anthropic-potential-900b-valuation-round-could-happen-within-two-weeks/",
+      "published_at": "2026-04-30T23:07:56.000Z",
+      "summary": "Anthropic is asking investors to submit allocations for the AI company’s latest fundraise within the next 48 hours, according to sources familiar with the matter.",
+      "priority_score": 124,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Stripe introduces Link, a digital wallet that autonomous AI agents can use, too",
+      "url": "https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/",
+      "published_at": "2026-04-30T17:15:19.000Z",
+      "summary": "Link lets users connect cards, banks, and subscriptions, then authorize AI agents to spend securely via approval flows.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI talks about not talking about goblins",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/921181/openai-codex-goblins",
+      "published_at": "2026-04-30T13:42:29.000Z",
+      "summary": "OpenAI is opening up about its goblin problem. After[a report from, Wired](https://www.wired.com/story/openai-really-wants-codex-to-shut-up-about-goblins/)revealed instructions to OpenAI's coding model to \"never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or crea",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Heres how the new Microsoft and OpenAI deal breaks down",
+      "url": "https://www.theverge.com/tech/921210/microsoft-openai-partnership-divorce-notepad",
+      "published_at": "2026-04-30T16:00:00.000Z",
+      "summary": "Microsoft's relationship with OpenAI has always been complicated, so I expected the close partnership-turned-situationship to end in tears. After all, executive disagreements, rearranged contracts, and frustrations over AI infrastructure have all regularly been part of the partnership, creating plen",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "ACL 2026 综述：从事后解释到内生解释，大模型内生可解释性的前沿进展",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031116&idx=3&sn=d844cbbadb0b6f0cbd90a97ccce21280",
+      "published_at": "2026-04-30T04:50:00.000Z",
+      "summary": "机器之心 2026-04-30 12:50 北京\n\n我们能不能把黑箱直接改造成更接近 “玻璃箱” 的系统？\n\n- 论文链接：[https://arxiv.org/pdf/2604.16042](https://arxiv.org/pdf/2604.16042)\n- github 链接：[https://github.com/PKU-PILLAR-Group/Survey-Intrinsic-Interpretability-of-LLMs](https://github.com/PKU-PILLAR-Group/Survey-Intrinsic-Interpretability-of-LLMs",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "平头哥发布首款智能网卡「磐脉 920」，补齐 AI 算力最后一块短板",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104984&idx=1&sn=dc42411b03a4365b9d390640bb35848e",
+      "published_at": "2026-04-30T03:49:00.000Z",
+      "summary": "原创苏子华 2026-04-30 11:49 北京\n\nGPU 买了那么多，跑起来却像「堵车」？​\n\nGPU 买了那么多，跑起来却像「堵车」？\n\n**作者｜苏子华** **编辑｜ **郑玄****\n\n最近两年，AI 行业最热的词一直绕不开「算力」。\n\n从大模型训练，到今年 Agent 的火热，再到各家云厂商不断扩建智算中心，行业讨论最多的，几乎都是 GPU、芯片和算力规模。好像只要卡够多，AI 就能继续往前跑。\n\n但现实并不是。\n\n不少做大模型训练和推理的人，已经越来越明显地感受到另一层问题：机器越来越贵，GPU 越来越强，但模型训练和推理的效率，却没有同步提升。\n\n问题不一定出在算力本身，而可",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Meta is running get-rich-quick ads for its AI tools",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/915970/meta-manus-ai-ads-website-slop",
+      "published_at": "2026-04-30T16:48:13.000Z",
+      "summary": "Manus, an AI[company Meta acquired](https://www.theverge.com/news/851113/meta-acquires-general-purpose-ai-agent-startup-manus)for[$2 billion](https://www.wsj.com/tech/ai/meta-buys-ai-startup-manus-adding-millions-of-paying-users-f1dc7ef8)last year is running ads promising quick, easy money with AI: ",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Gemini is rolling out to cars with Google built-in",
+      "url": "https://www.theverge.com/tech/921117/google-gemini-ai-assistant-cars-upgrade",
+      "published_at": "2026-04-30T16:00:00.000Z",
+      "summary": "Here’s an early look at the new Gemini assistant on a vehicle infotainment system. | Image: Google\nGoogle is preparing to update vehicles that have Google built-in with its Gemini AI assistant.  This will be an upgrade from the current Google Assistant according to Google's announcement, and promise",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Verified by Spotify badge lets you know this artist isnt AI",
+      "url": "https://www.theverge.com/tech/921048/verified-by-spotify-badge",
+      "published_at": "2026-04-30T13:08:23.000Z",
+      "summary": "Spotify is launching a new verification program to combat spam,[fakes](https://www.theverge.com/news/785136/spotify-ai-slop-impersonation-disclosure), and[AI](https://www.theverge.com/streaming/900910/spotify-artist-profile-protection-ai-clones). Some artists will now have a \"Verified by Spotify\" ba",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "Generalist之后，罗剑岚团队推出LWD，也要变革具身智能训练范式",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031116&idx=1&sn=b934b136862779b055b5e7623bc4e43a",
+      "published_at": "2026-04-30T04:50:00.000Z",
+      "summary": "原创关注具身智能的 2026-04-30 12:50 北京\n\n部署，只是自我训练的起点。\n\n编辑｜泽南\n\n这一次，具身智能的范式算是彻底升级了。\n\n智元机器人的办公室里，最近员工们一上班就能看到机器人熟练地切着水果：\n\n有梨有黄瓜，一通操作完了之后装进破壁机，打成了健康饮料端上来：\n\n同样一套设备也能玩转调酒的全套流程：\n\n或是做工夫茶、整理商品货架、打包鞋盒等各种任务：\n\n之前每台机器人只能完成一个任务，现在基于同一个模型的机器人可以承接大量不同任务。而且，在真实世界中持续部署的过程中，它们的性能还会持续不断地提升。\n\n这么全面的能力是如何做到的？答案是直接在真实环境中搞大规模分布式强化学习",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "华为携手中科大发布灵境造物，openJiuwen首发Coordination Engineering全栈支撑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887926&idx=1&sn=dbd9ca8dfac3edd12eb7a8e8dae304da",
+      "published_at": "2026-04-30T04:37:00.000Z",
+      "summary": "关注前沿科技 2026-04-30 12:37 北京\n\n基于全栈国产化软硬件生态打造\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI正在重新定义科学研究。\n\n过去，材料化学、分子催化等领域的科研，从文献调研、理论筛选、实验设计到迭代验证，往往要靠科研团队长年累月地攻坚。\n\n既要精通专业机理，又要耗费大量时间协调分工、反复试错。\n\n如今，一个能 **自主规划、分工协作、闭环执行** 的“AI科学家”，正在走向工程化落地。\n\n4月25日， **中国科学技术大学** 正式发布 **“灵境造物”** 智能科研云平台，该平台面向全球开放使用，这标志着“人工智能驱动的科学研究”",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Legal AI startup Legora hits $5.6B valuation and its battle with Harvey just got hotter",
+      "url": "https://techcrunch.com/2026/04/30/legal-ai-startup-legora-hits-5-6-valuation-and-its-battle-with-harvey-just-got-hotter/",
+      "published_at": "2026-04-30T20:14:47.000Z",
+      "summary": "The two wildly fast-growing rivals have raised massive sums, pushed into each other's home turf, and now have dueling ad campaigns.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "成本砍半！国产黑马攻破机器人「瘫痪」难题，大厂纷纷上车",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696520&idx=1&sn=65dc393581c4779f56a43b52a9a14cf5",
+      "published_at": "2026-04-30T05:00:00.000Z",
+      "summary": "新智元 2026-04-30 13:00 北京\n\n深圳机器人凭什么惊艳全球？答案不在整机，在一颗电机。\n\n### **新智元报道**\n\n编辑：YHluck\n\n##### **【新智元导读】 深圳机器人凭什么惊艳全球？答案不在整机，在一颗电机。小象电动用轴向磁通路线突破量产瓶颈，累计出货近7万台，杀入华为、比亚迪、广汽、美团供应链，完成超亿元融资。这是深圳底层硬科技崛起的缩影，也是中国机器人产业链从「能做样机」到「真正量产」的关键一跃。**\n\n**深圳** **机器人** **，赢在哪儿？**\n\n不是企业多，是生态碾压。\n\n截至2026年4月，深圳集聚机器人产业链企业超 **7.4万家** ，核",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Enabling a new model for healthcare with AI co-clinician",
+      "url": "https://deepmind.google/blog/ai-co-clinician/",
+      "published_at": "2026-04-30T12:14:15.000Z",
+      "summary": "Researching the path to AI-augmented care and development of an AI co-clinician.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The craziest part of Musk v. Altman happened while the jury was out of the room",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/921713/musk-v-altman-jared-birchall-screw-up-xai",
+      "published_at": "2026-04-30T22:59:51.000Z",
+      "summary": "Okay, I am not a lawyer so I only understood about half of what just happened. But I am fairly sure, given the context, that Elon Musk's lawyers may have just fucked up big.\n\nJared \"[James Brickhouse](https://www.theverge.com/2019/12/5/20996680/elon-musk-testimony-vernon-unsworth-tweet-humiliated-di",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple was surprised by AI-driven demand for Macs",
+      "url": "https://techcrunch.com/2026/04/30/apple-was-surprised-by-ai-driven-demand-for-macs/",
+      "published_at": "2026-04-30T22:12:52.000Z",
+      "summary": "Apple said it will be supply-constrained on Mac mini, Studio, and Neo in the next quarter, too.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Exclusive eBook: Inside the stealthy startup that pitched brainless human clones",
+      "url": "https://www.technologyreview.com/2026/04/30/1136684/exclusive-ebook-inside-the-stealthy-startup-that-pitched-brainless-human-clones/",
+      "published_at": "2026-04-30T18:42:50.000Z",
+      "summary": "The ultimate plan to live forever is a brand new body.\n\nThis subscriber-only eBook explores R3 Bio, a small startup that has pitched a startling and ethically charged vision for “brainless clones” to serve the role of backup human bodies.\n\nby**[Antonio Regalado](https://www.technologyreview.com/auth",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "FDA approval, fundraising, and the reality of building in healthcare according to BioticsAI founder",
+      "url": "https://techcrunch.com/2026/04/30/fda-approval-fundraising-and-the-reality-of-building-in-healthcare-according-to-bioticsai-founder/",
+      "published_at": "2026-04-30T17:53:53.000Z",
+      "summary": "BioticsAI CEO Robhy Bustami joined Isabelle Johannessen on Build Mode to discuss how the company has navigated a highly regulated space and kept the team motivated while cutting through all the red tape.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s Gemini AI assistant is hitting the road in millions of vehicles",
+      "url": "https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/",
+      "published_at": "2026-04-30T17:46:54.000Z",
+      "summary": "The move signals Google’s push to bring more advanced, conversational AI into the driving experience.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Salesforce is crowdsourcing its AI roadmap — with customers",
+      "url": "https://techcrunch.com/2026/04/30/salesforce-is-crowdsourcing-its-ai-roadmap-with-customers/",
+      "published_at": "2026-04-30T16:06:49.000Z",
+      "summary": "Salesforce lets its customers lead its product roadmap with the thinking that if one enterprise customer has a problem, the others likely do too.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "X announces a rebuilt ad platform powered by AI",
+      "url": "https://techcrunch.com/2026/04/30/x-announces-a-rebuilt-ad-platform-powered-by-ai/",
+      "published_at": "2026-04-30T15:14:55.000Z",
+      "summary": "X is rolling out a rebuilt ads platform powered by AI as it works to grow revenue again.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "All these smart glasses and nothing to do",
+      "url": "https://www.theverge.com/tech/921159/smart-glasses-review-wearable-even-realities-g2-meta-ray-ban-rokid-lucyd-oakley-meta-vanguard",
+      "published_at": "2026-04-30T15:00:00.000Z",
+      "summary": "Despite only having one face, I made testing work.\nI'm currently wearing a pair of smart glasses called the Even Realities G2. Another two pairs, from Rokid, sit on my desk. A few feet away, I've got the Meta Ray-Ban Display charging alongside their Neural Wristband. In my closet are*six pairs*of $5",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "实测纳逗 Pro：能做专业影视级内容的智能平台长啥样",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105061&idx=2&sn=c7a5e14e84adc593f3f801e4c19b4c08",
+      "published_at": "2026-04-30T13:59:00.000Z",
+      "summary": "原创Cynthia 2026-04-30 21:59 北京\n\n​专业影视级 AI 内容创作，不只是改善抽卡效率。\n\n专业影视级 AI 内容创作，不只是改善抽卡效率。\n\n**作者｜Cynthia** **编辑｜ **郑玄****\n\n这个春天，谁的社交媒体，还没有被各种小猫炒菜、小狗做播客，酱板鸭救狐狸的 AI 视频刷屏？\n\n魔性视频爆火的背后，AI 视频也已经跨过从能不能用到好不好用的关键节点。\n\n能否实现 **稳定产出高质量可直接商用、达标影视级甚至院线级标准** ，能否真正切入专业影视创作链条，深度适配专业级影视制作全流程，补齐当下行业空白，成为了这一阶段新的行业命题。\n\n相应的，行业话语权",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: the North Pole’s future and humanoid data",
+      "url": "https://www.technologyreview.com/2026/04/30/1136713/the-download-north-pole-future-humanoid-data/",
+      "published_at": "2026-04-30T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Digging for clues abo",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta says its business AI now facilitates 10 million conversations a week",
+      "url": "https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/",
+      "published_at": "2026-04-30T12:08:45.000Z",
+      "summary": "Meta said over 8 billion advertisers have used at least one of its GenAI tools",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "AI「生肉证明」堆爆GitHub！陶哲轩重磅发声：只会解题没用了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696520&idx=2&sn=31be61e5f6a35e44b5da2b2252a59186",
+      "published_at": "2026-04-30T05:00:00.000Z",
+      "summary": "新智元 2026-04-30 13:00 北京\n\n### **新智元报道**\n\n编辑：犀牛\n\n##### **【新智元导读】陶哲轩最新判断，数学正在从「证明稀缺」进入「证明过剩」时代——数学家最值钱的工作已不再只是「做出证明」，而是验证它、消化它，并把一块 AI 吐出的「生肉证明」变成人类真正吃得下的知识。**\n\n最近，陶哲轩在 Mastodon 抛出一记重磅判断——\n\n**数学正在从证明稀缺时代，进入证明过剩时代（from an era of proof scarcity to an era of proof abundance）！**\n\n在AI对Erdős问题的贡献Github页面上，20",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "生成式推荐补上关键一环！语义ID首次实现可微分联合优化 | SIGIR'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696520&idx=3&sn=79f13cf9f23ffdca89a1c9a2976d5c3c",
+      "published_at": "2026-04-30T05:00:00.000Z",
+      "summary": "新智元 2026-04-30 13:00 北京\n\n### **新智元报道**\n\n编辑：LRST\n\n##### **【新智元导读】 生成式推荐正在成为推荐系统的重要方向。和传统推荐模型直接在物品集合上做分类不同，生成式推荐更倾向于先把物品编码成一串离散token，再由模型生成用户可能感兴趣的「下一个物品表示」。在这条技术路线中，语义ID（Semantic ID） 已经成为关键基础设施。**\n\n问题在于，现有多数方法里的语义ID往往是 **先学好、再冻结** 的：它们通常服务于内容重建，却不直接面向推荐目标优化。这样一来，推荐模型虽然在学「该推荐什么」，却无法反过来影响「物品该如何表示」。\n\n来自",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "终结多智能体视觉幻觉“滚雪球”！新国立等提出ViF：无需改造模型，即插即用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887926&idx=3&sn=4678db70b1cb193a664e7acf6e1253ec",
+      "published_at": "2026-04-30T04:37:00.000Z",
+      "summary": "关注前沿科技 2026-04-30 12:37 北京\n\n入选ICLR 2026\n\n##### ViF团队 投稿 量子位 | 公众号 QbitAI\n\n智能体现在能hold住越来越多复杂任务了，但问题仍然不少。\n\n比如，多智能体协同做视觉任务，常常轮次越多错得越离谱——根源不在模型能力不够，而在于智能体之间传递视觉信息的方式本身就有缺陷。\n\n来自新加坡国立大学LV-Lab及其他国内外科研机构的研究人员关注到：\n\n基于视觉语言模型（VLM）的多智能体系统（MAS）正成为复杂多模态协作的核心方案，却被一个致命痛点死死卡住： **多智能体视觉幻觉滚雪球** ——单个智能体的视觉误判通过纯文本信息流逐级放",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247887926&idx=4&sn=080bc2026269612e2dec08765bdaac48",
+      "published_at": "2026-04-30T04:37:00.000Z",
+      "summary": "关注前沿科技 2026-04-30 12:37 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO",
+      "url": "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+      "published_at": "2026-04-30T03:58:22.000Z",
+      "summary": "You need infrastructure to build AI and robots, but apparently you also need AI and robots to build infrastructure.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Amazon’s cloud business is surging — and so is its capital spending",
+      "url": "https://techcrunch.com/2026/04/29/amazons-cloud-business-is-surging-and-so-is-its-capital-spending/",
+      "published_at": "2026-04-30T00:14:23.000Z",
+      "summary": "The e-commerce giant is making more money than expected from AWS but it's also spending a lot, and will continue to do so in the near term, its chief executive said.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

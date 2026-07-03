@@ -1,0 +1,368 @@
+{
+  "generated_at": "2026-04-18T00:00:47.034Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 31,
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI’s former Sora boss is leaving",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
+      "published_at": "2026-04-17T21:13:25.000Z",
+      "summary": "Last month,[OpenAI gave up on its Sora video generation tool](https://www.theverge.com/ai-artificial-intelligence/899850/openai-sora-ai-chatgpt), and on Friday, the Sora team's leader, Bill Peebles, announced that he is leaving the company. OpenAI has been shifting its priorities as part of an effor",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic launches Claude Design, a new product for creating quick visuals",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
+      "published_at": "2026-04-17T15:00:00.000Z",
+      "summary": "The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "雷军15小时直播验证「一次充电」到上海；大疆 Pocket 4 上市即售罄；Opus4.7 正式上线   | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104072&idx=1&sn=9cf8d55af3672ba05cfeb7f55940e29a",
+      "published_at": "2026-04-17T01:28:00.000Z",
+      "summary": "任泓玲 2026-04-17 09:28 湖北\n\n国家统计局：日均词元（Token）调用量突破 140 万亿；黄仁勋呼吁中美加强 AI 合作；MiniMax 宣布云端沙箱 Hermes；Canva 可画发布 Canva AI2.0\n\n## 国家统计局：日均词元（Token）调用量突破 140 万亿，较上年末增长超 40%\n\n4 月 16 日消息，国家统计局副局长毛盛勇昨日在国新办新闻发布会上表示，智能化发展引领作用不断增强。中国人工智能商业化规模化应用取得阶段性突破，到今年 3 月份，日均词元（Token）调用量突破 140 万亿，比上年末增长超 40%，人工智能发展赋能千行百业，带动相关领域",
+      "priority_score": 150,
+      "matched_keywords": [
+        "MiniMax"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sources: Cursor in talks to raise $2B+ at $50B valuation as enterprise growth surges",
+      "url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
+      "published_at": "2026-04-17T19:17:26.000Z",
+      "summary": "Returning backers a16z and Thrive are expected to lead the round.",
+      "priority_score": 124,
+      "matched_keywords": [
+        "Cursor"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic’s new cybersecurity model could get it back in the government’s good graces",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview",
+      "published_at": "2026-04-17T20:14:21.000Z",
+      "summary": "The Trump administration has spent nearly two months fighting with AI company Anthropic. It's[dubbed the company](https://truthsocial.com/@realDonaldTrump/posts/116144552969293195)a \"RADICAL LEFT, WOKE COMPANY\" full of \"Leftwing nut jobs\" and a menace to national security. But some of the ice may re",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "ACL 2026 | OPeRA Dataset: LLM真的能模仿人类行为了吗？首次系统评估LLM的人类行为模拟能力",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651028221&idx=3&sn=6c138ed9ec5211b7968b253618de7062",
+      "published_at": "2026-04-17T03:03:00.000Z",
+      "summary": "机器之心 2026-04-17 11:03 北京\n\n一个面向人类行为模拟的在线购物行为数据集。\n\n近年来，大语言模型（LLM）正在快速从「语言生成器」走向「行动者」。在越来越多的 agent 系统中，模型已经不仅仅是回答问题，而是开始执行任务：它会搜索、浏览网页、点击商品、比较选项，甚至在过程中给出一段看似合理的解释。很多时候，这些行为已经足够自然，以至于我们会产生一种直觉 —— 它们已经「很像人」。\n\n但一个更关键的问题往往被忽略了： 这些行为，真 的接近人类吗？\n\n换句话说，我们现在看到的，是一种 「 看起来合理」的 行为 ；但它是否 准确地反映了真实用户在相同情境下的决策 ，其实仍然是一",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Kevin Weil and Bill Peebles exit OpenAI as company continues to shed ‘side quests’",
+      "url": "https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/",
+      "published_at": "2026-04-17T20:38:17.000Z",
+      "summary": "Kevin Weil and Bill Peebles are leaving OpenAI as the company shuts down Sora and folds its science team, signaling a sharp pivot away from consumer moonshots toward enterprise AI.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Tokenmaxxing, OpenAI’s shopping spree, and the AI Anxiety Gap",
+      "url": "https://techcrunch.com/podcast/tokenmaxxing-openais-shopping-spree-and-the-ai-anxiety-gap/",
+      "published_at": "2026-04-17T15:57:40.000Z",
+      "summary": "The gap between AI insiders and everyone else&#160;is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from&#160;finance apps&#160;to&#160;talk shows, a certain shoe company just&#160;rebranded as an AI infrastructure p",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Are we tokenmaxxing our way to nowhere?",
+      "url": "https://techcrunch.com/video/are-we-tokenmaxxing-our-way-to-nowhere/",
+      "published_at": "2026-04-17T13:00:00.000Z",
+      "summary": "The gap between AI insiders and everyone else&#160;is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from&#160;finance apps&#160;to&#160;talk shows, a certain shoe company just&#160;rebranded as an AI infrastructure p",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "π0.6和GEN-1谁代表未来？乾坤未定，但这条底层赛道浮出水面",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651028221&idx=1&sn=38628e0cd0dc1142f40eb4d98f2542d0",
+      "published_at": "2026-04-17T03:03:00.000Z",
+      "summary": "原创机器之心 2026-04-17 11:03 北京\n\n机器不会自己从世界里长出能力，人的经验也不会自然流入机器。\n\n编辑｜张倩\n\n最近一段时间，相信很多具身智能公司都有点着急。\n\n大洋彼岸，近期，Generalist AI 公布了一项引发行业关注的进展：据其公开披露，团队基于约 50 万小时真实世界人类行为数据训练的 GEN-1，在若干任务上的成功率超过 99%。其创始人、前 DeepMind 高级研究科学家 Pete Florence 随后发文表示：「当数据规模足够大，且团队能够完整掌控基础模型时，技术边界会以更快速度被推进。」这被视为其此前关于具身智能尺度定律（Scaling Law）判",
+      "priority_score": 100,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "DeepSeek悄悄更新：Mega MoE、FP4 Indexer来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651028221&idx=2&sn=f96e5f62f82072350fa07825eb9f2298",
+      "published_at": "2026-04-17T03:03:00.000Z",
+      "summary": "原创机器之心 2026-04-17 11:03 北京\n\n沉寂许久的 DeepSeek 又有新动作了！\n\n机器之心编辑部\n\n昨天下午，沉寂许久的 DeepSeek 又有新动作了！\n\n不过正如 DeepSeek 自己在 PR 中强调的，和模型没关系，更新了一下 DeepGEMM 代码库。\n\n不过，此次更新，我们看到了一个新东西： M eg a MoE 。\n\n链接：[https://github.com/deepseek-ai/DeepGEMM/pull/304](https://github.com/deepseek-ai/DeepGEMM/pull/304)\n\nMega MoE 项目贡献者来自 ",
+      "priority_score": 100,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "从Vibe Coding到Agentic Engineering：重构后台开发全流程",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801233&idx=1&sn=6e6eaf8a0e94e8349bbbef4b734dc5c0",
+      "published_at": "2026-04-17T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-04-17 17:36 广东\n\n把整个流程拆开给大家看\n\n作者：seanguo\n\n### 引言\n\n做后台开发的同事应该都有这个体会：从接到需求到最终发布，我们要在 PM、GitPlatform、编辑器、DevOps 平台、Galileo 之间来回横跳。每次切换都在丢上下文——刚在 PM 看完需求描述，切到编辑器就忘了某个细节；部署完测试环境去查日志，又得回忆刚才改了哪几行代码。\n\n你可能听过 **Vibe Coding** 这个说法——打开 AI 对话框，用自然语言描述需求，让模型直接生成代码，跑通就算完。原型验证很爽，但一旦要上生产，问题就来了：生成的代码质量不可控",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "阿里首个世界模型：快乐…生蚝",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884044&idx=3&sn=9de9239c863275c6963b82bc831f7da9",
+      "published_at": "2026-04-17T03:15:00.000Z",
+      "summary": "关注前沿科技 2026-04-17 11:15 北京\n\n一句话，造一个可实时交互自带BGM的数字世界\n\n##### 西风 发自 凹非寺 量子位 | 公众号 QbitAI\n\n什么情况？！世界模型成果这几天扎堆上线了。\n\n就在刚刚，成立恰满一个月的阿里ATH *（A l ibaba Token Hub）* 事业群，发布 **全球 首个主 动式实时 交 互的世界模 型产品** 。\n\n名也挺有趣的，叫 **HappyOyster（快乐生蚝）** 。\n\n据官方介绍，HappyOyster搭载原生多模态架构，背后是 **支持多模态输入与音视 频联合生 成的流式生成世界模型** ，核心主打 漫游 （ W a",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sam Altman’s project World looks to scale its human verification empire. First stop: Tinder.",
+      "url": "https://techcrunch.com/2026/04/17/sam-altmans-project-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/",
+      "published_at": "2026-04-17T22:34:02.000Z",
+      "summary": "World, which has raised eyebrows (but also a lot of interest) with its Orb-centered anonymous verification project, is looking to expand its influence via a bevy of new partnerships.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Building a Fast Multilingual OCR Model with Synthetic Data",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-ocr-v2",
+      "published_at": "2026-04-17T16:17:55.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "字节Seedance 2.0发论文了，171人署名，吴永辉曾妍在列",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884044&idx=2&sn=a70affb8cf0faa4c455b1b2dae24ed9d",
+      "published_at": "2026-04-17T03:15:00.000Z",
+      "summary": "关注前沿科技 2026-04-17 11:15 北京\n\n与1.5Pro时期相比，62人新加入\n\n##### 梦晨 发自 凹非寺 量子位 | 公众号 QbitAI\n\n现象级AI视频技术、字节Seedance 2.0在arXiv发论文了。\n\n晒了26页的Benchmark，和贡献者名单。\n\n170位团队成员全公开，署名和尊重都拉满了，不过嘛这就不怕……嘛？ 论文公布的时间节点，正赶上Seedance 2.0通过Byteplus平台铺向全球。\n\n100多个国家的企业客户可以通过预付费API直接调用。支持文字、图片、视频、音频多模态输入，生成4到15秒MP4视频，最高720p。\n\n但这个“全球”列表里",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Should you stare into Sam Altmans orb before your next date?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb",
+      "published_at": "2026-04-17T20:42:47.000Z",
+      "summary": "Tinder users who prove they're a real person by[visiting an identity-verifying orb](https://world.org/blog/announcements/online-dating-gaming-event-tickets-proof-of-human-everyday-life)will soon be able to get five free boosts in the app - and it's just the latest service to embrace the orb. World, ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "‘Tokenmaxxing’ is making developers less productive than they think",
+      "url": "https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/",
+      "published_at": "2026-04-17T18:42:45.000Z",
+      "summary": "There's a lot more code — but it's a lot more expensive and requires a lot more rewriting.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "This charming gadget writes bad AI poetry",
+      "url": "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
+      "published_at": "2026-04-17T17:30:00.000Z",
+      "summary": "I kind of wish it just took pictures.\nI've never been as charmed and frustrated by one gadget as I have with the Poetry Camera.\n\nIt's a delightful object. White and cherry red with a color-matched woven strap, it looks playful and adorably lo-fi. If I saw it on a store shelf, I'd absolutely pick it ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
+      "published_at": "2026-04-17T15:46:37.000Z",
+      "summary": "Dairy Queen is becoming the latest fast food chain to get in on AI, as it's[bringing a chatbot to dozens](https://www.businesswire.com/news/home/20260416628439/en/Dairy-Queen-Partners-with-Presto-on-Voice-AI)of its drive-thrus across the US and Canada. It aims to help speed up drive-thru service and",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Pie Day 2026",
+      "url": "https://www.technologyreview.com/2026/04/17/1136121/pie-day-links/",
+      "published_at": "2026-04-17T14:07:41.000Z",
+      "summary": "Ellie’s Pi Day post:[https://mitadmissions.org/blogs/entry/pi-day-2026-food-institute/](https://mitadmissions.org/blogs/entry/pi-day-2026-food-institute/)\n\nHow Ellie orchestrated the baking of 30 pies:[https://mitadmissions.org/blogs/entry/behind-the-scenes-of-thirty-pies/](https://mitadmissions.org",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "7 ways to travel smarter this summer, with help from Google",
+      "url": "https://blog.google/products-and-platforms/products/search/summer-travel-tips-google-search-ai/",
+      "published_at": "2026-04-17T14:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summer_Travel_Tips_2026_hero.max-600x600.format-webp.webp\">The latest tools from Google can help you plan trips, find a great deal and explore your next destination.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The ‘AI is inevitable’ trap",
+      "url": "https://www.theverge.com/podcast/913792/ai-divide-sam-altman-vergecast",
+      "published_at": "2026-04-17T13:24:34.000Z",
+      "summary": "In the latest sign of AI silly season, Allbirds, the shoe company, told the world it was now an AI company and briefly managed to[septuple its stock price](https://www.theverge.com/news/912484/allbirds-ai-hyperscale). The Newbird AI story is really just one of a bunch of things this week that made u",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "当游戏遇见 AI：为什么头部厂商都在选择阿里云",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104140&idx=1&sn=2fe0d6a982e7d96e61e4dcdf84c97b71",
+      "published_at": "2026-04-17T12:20:00.000Z",
+      "summary": "原创Cynthia 2026-04-17 20:20 湖北\n\n​游戏云的市场格局已定\n\n游戏云的市场格局已定\n\n**作者｜Cynthia** **编辑｜ **郑玄****\n\n2025 年，全球游戏产业交出了一份看似华丽的成绩单：1960 亿美元的总收入创下历史新高。这约等于一个中等体量国家的 GDP，或者几家超级巨头公司一年的净利润总和。\n\n硬币的另一面却显得格外沉重。刨去通胀因素，行业的实际购买力仅恢复到 2021 年的水平。更让从业者焦虑的是，3A 大作的平均开发成本已飙升至平均 2 亿美元，参与人数动辄数千。首月回收成本的比例，却从十年前的 70% 跌至不足 40%。\n\n全球游戏产业正站",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: bad news for inner Neanderthals, and AI warfare’s human illusion",
+      "url": "https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/",
+      "published_at": "2026-04-17T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **The problem with thin",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "群核黄晓煌：创业者的「命」，归根结底来自「世界观」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104108&idx=1&sn=aa5112fc52a86d4ba86b38be04fefdf8",
+      "published_at": "2026-04-17T10:36:00.000Z",
+      "summary": "原创极客公园 2026-04-17 18:36 天津\n\n对创业者来说，「命」这个东西由天也由己。而所有的胜利，最终都是世界观的胜利。\n\n**对话｜张鹏** **编辑｜ **Li Yuan****\n\n今天，群核上市了。\n\n按常理说，到了这个节点，CEO 往往会被资本市场、投资人、媒体、路演塞满日程，整个人都处在一种高度紧绷的状态里。\n\n但有点出乎我意料的是，可能是因为上市认购情况太好了，群核的创始人黄晓煌反而是我认识的创业者里，少数几个在公司上市前夕还留得出整块时间、能坐下来聊聊天，复盘下创业历程的人。\n\n认识黄晓煌也有快 8、9 年了，一开始觉得他是一个非常典型的技术创业者。从早年出国读博，研",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The case for fixing everything",
+      "url": "https://www.technologyreview.com/2026/04/17/1135408/book-review-stewart-brand-fixing-everything-maintenance/",
+      "published_at": "2026-04-17T10:00:00.000Z",
+      "summary": "The handsome new book*[Maintenance: Of Everything, Part One](https://press.stripe.com/maintenance-part-one)*, by the tech industry legend Stewart Brand, promises to be the first in a series offering “a comprehensive overview of the civilizational importance of maintenance.” One of Brand’s several bi",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "How robots learn: A brief, contemporary history",
+      "url": "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
+      "published_at": "2026-04-17T10:00:00.000Z",
+      "summary": "Roboticists used to dream big but build small. They’d hope to match or exceed the extraordinary complexity of the human body, and then they’d spend their career refining robotic arms for auto plants. Aim for C-3P0; end up with the Roomba. \n\nThe real ambition for many of these researchers was the rob",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "字节跳动首创DisCoGC架构，重塑EB级分布式存储GC范式",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247519246&idx=1&sn=42a80ee711fb0327f7c332154702497c",
+      "published_at": "2026-04-17T04:04:00.000Z",
+      "summary": "原创字节跳动基础设施 2026-04-17 12:04 北京\n\nFAST（USENIX Conference on File and Storage Technologies）是全球计算机存储领域最权威的顶级学术会议，代表着国际存储技术的最高风向标。字节跳动基础设施团队与清华大学合作的最新论文《Discard-Based Garbage Collection for Distributed Log-Structured Storage Systems in ByteDance》成功被FAST'26会议收录。本文将简要解读该论文的核心技术与工程实践。\n\n在字节跳动，每天有海量的数据洪流涌向底层存",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "空间智能第一股，开盘暴涨171%！李飞飞押注的赛道，杭州六小龙之一跑通了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884044&idx=1&sn=ed5c0c3c20bf0c1b40534d1250b5b307",
+      "published_at": "2026-04-17T03:15:00.000Z",
+      "summary": "原创关注前沿科技 2026-04-17 11:15 北京\n\n让AI走进物理世界\n\n##### Jay 发自 凹非寺 量子位 | 公众号 QbitAI\n\n「空间智能第一股」，真的来了。\n\n对，也是 「杭州六小龙 」 里 率 先冲线 的那一家。\n\n今日， 群核科技 （00068.HK） 正式挂牌上市， 报20.70港元 ，较发行价上涨 17 1.65 % 。\n\n*昨天的暗盘也是热闹非凡， 一度涨超195% 。*\n\n群核科技董事长黄晓煌 在致辞中提到：\n15年前，群核科技以GPU上云为起点，秉持着「让每一个空间，都成为可计算的世界」的愿景发展至今。\n\n未来，我们会继续做强空间智能底座，服务人类的三维",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "今年最火的AI产品，不止龙虾｜榜单申报中",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247884044&idx=4&sn=5288a1310629c2505c309a3c2e4e5d49",
+      "published_at": "2026-04-17T03:15:00.000Z",
+      "summary": "关注前沿科技 2026-04-17 11:15 北京\n\n抓紧申报了！截至4月27日\n\n##### 组委会 发自 凹非寺 量子位｜公众号 QbitAI\n\n最近每个人都被“龙虾”“爱马仕”刷屏了。\n\n但AI产品总是面临的问题是，爆火的很多，真正能留下的很少。\n\n这正是我们希望回答的：今年最值得关注的AI企业&产品是什么？\n\n不只是龙虾，我们也想找到那些 **真正跑通场景、开始被用户验证的AI产品，以及拥有技术实力、具备潜力的AI企业。**\n\n如果你来自这样的团队：\n\n- **有 清晰落地的应用场景 （而不只是demo）**\n- **有 真实用户在使用，且数据在持续增长**\n- 在某个细分领域里，已",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

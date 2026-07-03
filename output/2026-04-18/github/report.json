@@ -1,0 +1,128 @@
+{
+  "report_date": "2026-04-18",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "最热的共同方向是围绕 AI 代理的自进化、协作编排与开发工作流基础设施正在快速升温。",
+  "items": [
+    {
+      "repo": "EvoMap/evolver",
+      "url": "https://github.com/EvoMap/evolver",
+      "description": "面向 AI 代理的 GEP 驱动自进化引擎：Genome Evolution Protocol。",
+      "language": "JavaScript",
+      "stars_today": 737,
+      "stars_total": 4222
+    },
+    {
+      "repo": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "description": "自进化代理：从 3.3K 行种子代码长出技能树，并以 6 倍更低的 token 消耗实现完整系统控制。",
+      "language": "Python",
+      "stars_today": 845,
+      "stars_total": 3604
+    },
+    {
+      "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "description": "用于支持 Android 应用逆向工程的 Claude Code 技能。",
+      "language": "Shell",
+      "stars_today": 538,
+      "stars_total": 2732
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "url": "https://github.com/BasedHardware/omi",
+      "description": "能看你的屏幕、听你的对话并告诉你该怎么做的 AI。",
+      "language": "Dart",
+      "stars_today": 824,
+      "stars_total": 9815
+    },
+    {
+      "repo": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型 Dive into LLMs》系列编程实践教程。",
+      "language": "Jupyter Notebook",
+      "stars_today": 944,
+      "stars_total": 31508
+    },
+    {
+      "repo": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "description": "把 Claude Code 变成完整的游戏开发工作室——49 个 AI 代理、72 个工作流技能，以及映射真实工作室层级的完整协作系统。",
+      "language": "Shell",
+      "stars_today": 311,
+      "stars_total": 11767
+    },
+    {
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "开源语音合成工作室。",
+      "language": "TypeScript",
+      "stars_today": 797,
+      "stars_total": 19837
+    },
+    {
+      "repo": "lukilabs/craft-agents-oss",
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "description": "Craft Agents 的开源版本。",
+      "language": "TypeScript",
+      "stars_today": 110,
+      "stars_total": 4291
+    },
+    {
+      "repo": "Tracer-Cloud/opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "description": "构建你自己的 AI SRE 代理，面向 AI 时代的开源工具包。",
+      "language": "Python",
+      "stars_today": 184,
+      "stars_total": 1435
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "行之有效的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1713,
+      "stars_total": 157744
+    },
+    {
+      "repo": "z-lab/dflash",
+      "url": "https://github.com/z-lab/dflash",
+      "description": "DFlash：用于 Flash 推测解码的块扩散。",
+      "language": "Python",
+      "stars_today": 287,
+      "stars_total": 1801
+    },
+    {
+      "repo": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "轻量而强大的多代理工作流框架。",
+      "language": "Python",
+      "stars_today": 625,
+      "stars_total": 21801
+    },
+    {
+      "repo": "google/magika",
+      "url": "https://github.com/google/magika",
+      "description": "快速且准确的 AI 驱动文件内容类型检测。",
+      "language": "Python",
+      "stars_today": 956,
+      "stars_total": 15448
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "T3 Code 是面向编程代理的极简 Web 图形界面，目前支持 Codex 和 Claude。",
+      "language": "TypeScript",
+      "stars_today": 227,
+      "stars_total": 9432
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "面向编程代理的 Chrome DevTools。",
+      "language": "TypeScript",
+      "stars_today": 196,
+      "stars_total": 35840
+    }
+  ]
+}

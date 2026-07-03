@@ -1,0 +1,350 @@
+{
+  "generated_at": "2026-06-02T00:01:14.746Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 28,
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents",
+      "url": "https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/",
+      "published_at": "2026-06-01T20:03:40.000Z",
+      "summary": "The lawsuit partially revolves around a shooting at Florida State University last year, and ChatGPT's alleged role in the incident.",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic has officially filed to go public",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public",
+      "published_at": "2026-06-01T16:40:38.000Z",
+      "summary": "After months of speculation about whether OpenAI or Anthropic would be first in their race to IPO, Anthropic on Monday reached a key milestone: filing to kick off the process with the U.S. Securities and Exchange Commission.\n\nThe filing sets the stage for what's sure to be a massive IPO. As of its f",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "深入解析Chromium的 AI Coding 开发体系",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801806&idx=1&sn=174aba5e6556049d7729e9e11f39ab8d",
+      "published_at": "2026-06-01T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-06-01 17:36 广东\n\n详尽文档\n\n作者：QQ浏览器团队出品\n笔者作为QQ浏览器的开发，研究了一下Chromium的AI Coding开发体系，希望从中学习到一些东西。\n### 一、整体介绍\n\nChromium 是全球最大的开源 C++ 项目之一，代码量超过 **3500 万行** 。面对如此庞大的代码库，Chromium 团队在源码仓库中构建了一整套 **AI Agent 基础设施** ——不只是\"用 AI 写代码\"，而是建立了一套完整的提示词管理、技能系统、知识库、评估体系和大规模自动化项目。\n\nAI Coding 相关内容集中在 `agents/` 目录",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP",
+      "url": "https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/",
+      "published_at": "2026-06-01T21:35:00.000Z",
+      "summary": "If Nvidia has cracked a way to bring AI agents easily, safely, and usefully to the masses, it could — and should — be big.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Gemini’s new AI agent is about as good as Google’s demo",
+      "url": "https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on",
+      "published_at": "2026-06-01T20:00:00.000Z",
+      "summary": "Google's new \"24/7\" AI agent, Gemini Spark, can be shockingly good at doing things on your behalf. But I'm not sure it's worth the financial cost and potential privacy tradeoffs.\n\nThe company gave me access to Spark last week. Google advertises Spark as an AI agent that can take on tasks and work on",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic files to go public",
+      "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+      "published_at": "2026-06-01T16:36:55.000Z",
+      "summary": "Anthropic, now an AI powerhouse that has landed top-tier enterprise customers, was once considered an underdog in the emerging world of large language models.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
+      "url": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
+      "published_at": "2026-06-01T13:51:18.000Z",
+      "summary": "",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "This could be Windows’ M1 moment — but expect it to cost a ton",
+      "url": "https://www.theverge.com/tech/941215/windows-laptops-nvidia-rtx-spark-apple-m1-arm-price-ram",
+      "published_at": "2026-06-01T20:02:31.000Z",
+      "summary": "Nvidia's announcement that it's[getting into the consumer laptop chip space](https://www.theverge.com/tech/940589/nvidia-rtx-spark-n1-n1x-laptop-desktop-pc-cpu-gpu-ai-release-date)with[RTX Spark](https://www.theverge.com/gadgets/940794/first-nvidia-rtx-spark-laptops-roundup-computex-2026)is huge. Ap",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "This AI weather startup is out-forecasting government agencies",
+      "url": "https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/",
+      "published_at": "2026-06-01T16:00:00.000Z",
+      "summary": "WindBorne benefits from its unique combination of model-building and data collection. The company now has about 400 balloons in flight gathering sensor readings at any given time, launched from 15 sites around the globe. The advances in its current model come from improvements in how the data collec",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft to unveil new AI models and Windows improvements at Build",
+      "url": "https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect",
+      "published_at": "2026-06-01T14:39:03.000Z",
+      "summary": "Microsoft is heading to San Francisco this week in a bid to win back developers at its Build conference. I've been attending Build since the days when Microsoft called it the Professional Developers Conference, and I can't remember a more pivotal moment. As Microsoft continues to reshuffle its entir",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "扣子 3.0 正式上线：新一代 AI 团队，从扣子开始",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520149&idx=1&sn=8970cf00d11854b501678df8d651247f",
+      "published_at": "2026-06-01T07:46:00.000Z",
+      "summary": "扣子Coze 2026-06-01 15:46 江苏\n\n开启人和 Agent 协作新方式\n\n今天，扣子 3.0 正式上线，扣子手机端 （iOS / Android）、电脑端（Mac OS / Windows）、网页端（coze.cn）三端全量更新。\n\n这一次，扣子带来了全新电脑端，扣子 App 也全面升级，我们把 Agent 带进了更完整的工作现场：你可以在网页端创建和管理任务，在桌面端连接本地文件，也可以在手机上用扣子 App 推进任务、继续调度 Agent，甚至“遥控”操作电脑。\n\n过去的这段时间，很多用户用扣子完成日常工作、每天执行特定任务。但当任务从一次回答走向持续推进，单个 Agen",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "独家丨美团领投 A 轮， Mindverse 总融资 5000 万美元，打造持续学习的 Agent 模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107841&idx=1&sn=a0af2e2a487b657ae3fbf8157e9c8a01",
+      "published_at": "2026-06-01T10:27:00.000Z",
+      "summary": "原创徐珊 2026-06-01 18:27 湖北\n\n构建持续学习的 Agent 模型。\n\n**作者｜徐珊** **编辑｜ **郑玄****\n\nMindverse 完成由美团领投的 A 轮融资，元禾璞华、韶音、变量资本和老股东追加跟投，历史股东包括蚂蚁、源一、红杉中国、真格、高榕、线性等一线基金，融资额近 5000 万美元，高鹄资本担任独家财务顾问。\n\n**一个会持续学习的** **先进 Agent** **模型，到底该怎么** **构建** **？** 在大模型智能上 限一路被推高时，「持续学习」的最佳答案还是没有出现。\n\n「真正的 Agent 能力并非来自精巧的提示词拼凑，而是源自后训练。」",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "近2亿美元！VAST完成新一轮融资，正式披露世界模型路线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894090&idx=1&sn=9179a21958712e5c31ef6b8e9da5499f",
+      "published_at": "2026-06-01T08:26:00.000Z",
+      "summary": "原创关注前沿科技 2026-06-01 16:26 北京\n\n场景永不消失，多人真正同屏\n\n##### 听雨 发自 凹非寺 量子位 | 公众号 QbitAI\n\n通用人工智能公司 **VAST** ，带来两个新消息：\n\n一， **完成近2亿美元的新一轮融资** ；二， **终于正式对外披露自己的世界模型路线** 。\n\nVAST近期完成合计近2亿美元的A+及A++轮融资，领投方为渶策资本、国寿长三角科创基金。 投资方汇聚了头部市场化基金、国资平台与产业龙头战投，包括深圳市人工智能终端产业基金（产业方为全球头部终端厂商荣耀）、上海半导体产投等产业投资方，以及深创投、元生资本、沃赋创投与方广资本等一线财",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "DuckDuckGo makes its ‘no-AI’ search engine easier to access as its traffic booms",
+      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+      "published_at": "2026-06-01T14:49:10.000Z",
+      "summary": "Alternative search engine DuckDuckGo launches 'no AI' web extensions for Chrome and Firefox users.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Strava blames zero-code AI apps and scrapers as it tightens API access",
+      "url": "https://www.theverge.com/gadgets/940854/strava-restricts-api-access-ai-apps",
+      "published_at": "2026-06-01T14:06:44.000Z",
+      "summary": "The popular fitness-tracking platform, Strava, is[restricting access to its API](https://communityhub.strava.com/insider-journal-9/an-update-to-our-developer-program-13428)as part of efforts to clamp down on AI scraping, as[reported earlier by, TechCrunch](https://techcrunch.com/2026/06/01/strava-de",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Alphabet plans to raise $80B to pay for AI buildout",
+      "url": "https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/",
+      "published_at": "2026-06-01T22:55:09.000Z",
+      "summary": "\"The company is experiencing strong demand for its AI solutions and services from enterprises and consumers, at levels that are exceeding the company’s available supply,\" Alphabet said in its statement.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
+      "url": "https://huggingface.co/blog/JetBrains/mellum2-launch",
+      "published_at": "2026-06-01T15:45:17.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "8 个月卖出 11 万台大车的故事，蔚来还能再复制一次吗？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107859&idx=1&sn=009faef356d27afc6551c3772582565b",
+      "published_at": "2026-06-01T11:58:00.000Z",
+      "summary": "原创曹思颀 2026-06-01 19:58 北京\n\n​​越来越短的产品「半衰期」，是否正在杀死高端溢价的叙事？\n\n越来越短的产品「半衰期」，是否正在杀死高端溢价的叙事？\n\n**作者｜曹思颀** **编辑｜ **靖宇****\n\n中国新能源汽车市场的核心思路，正在悄然地发生变化。\n\n过去 5 年，产品定位和策略选择是这场商战的关键胜负手。理想 ONE 和小米 SU7 是这个阶段的两款现象级产品：前者定义了新能源时代的第一个超级需求——三排六座「奶爸 SUV」；后者则是主动地绕开了被行业视作共识的 SUV 品类，用颜值和性能作为核心打法，最终超越特斯拉 Model 3 成为纯电轿车这一细分品类的销",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "China has approved the world’s first invasive brain-computer chip—here’s what’s next",
+      "url": "https://www.technologyreview.com/2026/06/01/1138133/china-world-first-brain-chip/",
+      "published_at": "2026-06-01T09:09:00.000Z",
+      "summary": "One day last October, sitting in the courtyard of his house in China’s Henan province, Dong Hui decided to see if he could hold a pen to write. \n\nDong, 39, had sustained spinal cord injuries in a car accident six years earlier that left him paralyzed from the neck down. Slowly but determinedly, he w",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
+      "published_at": "2026-06-01T04:44:55.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Metas own AI was exploited to hijack Instagram accounts",
+      "url": "https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked",
+      "published_at": "2026-06-01T19:20:47.000Z",
+      "summary": "Meta's AI support chatbot helped hackers hijack Instagram accounts,[as reported earlier by, 404 Media](https://www.404media.co/hackers-simply-asked-meta-ai-to-give-them-access-to-high-profile-instagram-accounts-it-worked/). In[a video shared on Telegram](https://x.com/DarkWebInformer/status/20612535",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Water access is now a risk factor in SpaceX’s IPO",
+      "url": "https://techcrunch.com/2026/06/01/water-access-is-now-a-risk-factor-in-spacexs-ipo/",
+      "published_at": "2026-06-01T18:19:53.000Z",
+      "summary": "The company says it needs \"significant\" water resources to cool its data centers, and that access to abundant, affordable water is a challenge.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "How we used Gemini to build Google I/O 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
+      "published_at": "2026-06-01T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_IO.max-600x600.format-webp.webp\">Learn how Googlers used AI to produce Google I/O 2026.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "AI is blowing up music. How should the Grammys handle it?",
+      "url": "https://www.theverge.com/podcast/940831/ai-grammys-music-recording-harvey-mason",
+      "published_at": "2026-06-01T14:30:00.000Z",
+      "summary": "Today I’m talking with Harvey Mason Jr., who is CEO of the Recording Academy — that’s the outfit that puts on the Grammy Awards. I[last talked to Harvey](https://www.theverge.com/24293447/grammy-awards-recording-academy-harvey-mason-beyonce-discrimination-generative-ai-decoder)in 2024, when it was o",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: China’s brain implant ambitions",
+      "url": "https://www.technologyreview.com/2026/06/01/1138207/the-download-china-bci-brain-implant-nvidia-ai-chips-laptops/",
+      "published_at": "2026-06-01T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **China has approved th",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "云端模型如何落地物理世界？招商局狮子山人工智能实验室用LiOS打通具身智能全链路",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894090&idx=2&sn=e505746db4e72c7d97d75fa113db3932",
+      "published_at": "2026-06-01T08:26:00.000Z",
+      "summary": "关注前沿科技 2026-06-01 16:26 北京\n\n从仿真到多形态真机，具身模型如何落地复杂家庭柔性物体操作？\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n把一件皱成一团的衣服叠好，是家务，也是机器人操作里的“硬仗”。\n\n## 叠衣服，何以成为具身智能圈的“试金石”？\n\n对人类而言，“叠衣服”是个无需思考的日常生活动作，但在机器人柔性操作领域，却是顶级难题之一。\n\n衣物属于典型的无定型柔性物体，抓起一个角，整体结构都会随之改变。\n\n- 宏观上，机器人要判断整件衣服的朝向、展开程度和折叠路径；\n- 细节上，布料的摩擦、厚薄、弹性、静电吸附，甚至毛边、线头、标签、拉链",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247894090&idx=3&sn=841f5c6783b2da2fcd6a9f37aa77ae28",
+      "published_at": "2026-06-01T08:26:00.000Z",
+      "summary": "关注前沿科技 2026-06-01 16:26 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "传英伟达 N1x 跑分不及苹果 M3 Max；小鹏 L03 实车曝光；停服三年后，天涯社区今日正式恢复访问 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107782&idx=1&sn=b2d98e81f6d9014da7b44bf410308432",
+      "published_at": "2026-06-01T00:16:00.000Z",
+      "summary": "苏子华 2026-06-01 08:16 美国\n\n· 因北汽、吉利两家中国车企持股近 20% ，奔驰或会被「赶出」美国\n\n## 三星超越美光，跃居全球车载存储市场第一大供应商\n\n6 月 1 日消息，三星在全球存储半导体领域已占据主导地位。其 NAND 闪存和 DRAM 内存的出货量位居全球榜首，同时该公司在利润丰厚的高带宽内存（HBM）市场也逐步提升了市占率。\n\n美光此前长期领跑车载存储供应市场，如今这一地位已被三星超越。\n\nS&P Global Mobility 的最新数据显示，截至去年，三星电子在全球车载存储市场的份额达到 40%，较 2024 年提升 5 个百分点。此次份额增长主要来自对",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

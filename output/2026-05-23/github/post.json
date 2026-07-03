@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-05-23T00:05:25.401Z",
+  "source_raw": "raw.json",
+  "source_count": 14,
+  "item_count": 12,
+  "language_breakdown": {
+    "Python": 4,
+    "TypeScript": 4,
+    "Rust": 1,
+    "C#": 1,
+    "Unknown": 1,
+    "Jupyter Notebook": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars_today": 2549,
+      "stars_total": 24884,
+      "forks": 2763
+    },
+    {
+      "rank": 2,
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars_today": 3684,
+      "stars_total": 16493,
+      "forks": 909
+    },
+    {
+      "rank": 3,
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars_today": 978,
+      "stars_total": 63994,
+      "forks": 8455
+    },
+    {
+      "rank": 4,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars_today": 988,
+      "stars_total": 11885,
+      "forks": 2262
+    },
+    {
+      "rank": 5,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars_today": 501,
+      "stars_total": 40965,
+      "forks": 2601
+    },
+    {
+      "rank": 6,
+      "repo": "dotnet/skills",
+      "url": "https://github.com/dotnet/skills",
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "language": "C#",
+      "stars_today": 389,
+      "stars_total": 2522,
+      "forks": 198
+    },
+    {
+      "rank": 7,
+      "repo": "Lum1104/Understand-Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "Graphs that teach &gt; graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "stars_today": 1393,
+      "stars_total": 18534,
+      "forks": 1679
+    },
+    {
+      "rank": 10,
+      "repo": "trimstray/the-book-of-secret-knowledge",
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "language": "Unknown",
+      "stars_today": 969,
+      "stars_total": 223186,
+      "forks": 13381
+    },
+    {
+      "rank": 11,
+      "repo": "Fincept-Corporation/FinceptTerminal",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars_today": 367,
+      "stars_total": 22626,
+      "forks": 3125
+    },
+    {
+      "rank": 12,
+      "repo": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "language": "TypeScript",
+      "stars_today": 457,
+      "stars_total": 6329,
+      "forks": 514
+    },
+    {
+      "rank": 13,
+      "repo": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "A feature-rich command-line audio/video downloader",
+      "language": "Python",
+      "stars_today": 444,
+      "stars_total": 164321,
+      "forks": 13821
+    },
+    {
+      "rank": 14,
+      "repo": "karpathy/nn-zero-to-hero",
+      "url": "https://github.com/karpathy/nn-zero-to-hero",
+      "description": "Neural Networks: Zero to Hero",
+      "language": "Jupyter Notebook",
+      "stars_today": 159,
+      "stars_total": 22328,
+      "forks": 3242
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-06-28",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "共同信号是 AI 社区正在从单纯追逐闭源前沿模型，转向更便宜、更可控的开权重、本地化和智能路由基础设施。",
+  "items": [
+    {
+      "id": "2070727777888985339",
+      "author_name": "Mikhail Parakhin",
+      "author_handle": "MParakhin",
+      "text": "我深度测试了 Fable 5 和 GPT-5.6 Max：5.6 明显强过 Opus 4.8，写代码不如 Fable，但做智能体任务更好，两者分工配合很梦幻。",
+      "url": "https://twitter.com/MParakhin/status/2070727777888985339",
+      "view_count": 320424,
+      "like_count": 2126
+    },
+    {
+      "id": "2070669189451485502",
+      "author_name": "the tiny corp",
+      "author_handle": "__tinygrad__",
+      "text": "换成本地 GLM-5.2 后，美国 AI 付费入场那套舒服多了；开权重可能在 12 月站上前沿，IPO 们抱歉了。",
+      "url": "https://twitter.com/__tinygrad__/status/2070669189451485502",
+      "view_count": 51153,
+      "like_count": 1303
+    },
+    {
+      "id": "2070871630201463137",
+      "author_name": "Sebastian Raschka",
+      "author_handle": "rasbt",
+      "text": "我写了一篇本地开权重编码智能体搭建指南，从模型接入到内存、速度、工具调用和任务能力评估，帮助大家把本地模型用于严肃工作。",
+      "url": "https://twitter.com/rasbt/status/2070871630201463137",
+      "view_count": 47523,
+      "like_count": 1176
+    },
+    {
+      "id": "2070665903440871779",
+      "author_name": "Anthropic",
+      "author_handle": "AnthropicAI",
+      "text": "我们正与美国政府合作恢复 Claude Mythos 5 和 Fable 5 访问；Mythos 5 已获准重新部署给部分关键基础设施防护组织，并会继续争取扩大开放。",
+      "url": "https://twitter.com/AnthropicAI/status/2070665903440871779",
+      "view_count": 3998395,
+      "like_count": 27626
+    },
+    {
+      "id": "2070751700626076109",
+      "author_name": "Daniel Han",
+      "author_handle": "danielhanchen",
+      "text": "DeepSeek 发布面向 V4 Flash 和 Pro 的 DSpark 推测解码方法，吞吐提升 51% 到 400%，并且也适用于 Gemma、Qwen 等模型。",
+      "url": "https://twitter.com/danielhanchen/status/2070751700626076109",
+      "view_count": 237101,
+      "like_count": 2739
+    },
+    {
+      "id": "2070944072337146096",
+      "author_name": "Rahul",
+      "author_handle": "sairahul1",
+      "text": "Sam Altman 说很快会出现 10 人十亿美元公司；多数人只会兴奋三分钟，真正行动的人这个周末就会用 AI 搭出一人公司。",
+      "url": "https://twitter.com/sairahul1/status/2070944072337146096",
+      "view_count": 932291,
+      "like_count": 1619
+    },
+    {
+      "id": "2070670644577280109",
+      "author_name": "Brian Armstrong",
+      "author_handle": "brian_armstrong",
+      "text": "我们不是靠限额压低 AI 花费，而是用更便宜的默认模型、智能路由、缓存和可见性，让 token 用量继续增长的同时把成本砍近一半。",
+      "url": "https://twitter.com/brian_armstrong/status/2070670644577280109",
+      "view_count": 1653131,
+      "like_count": 4270
+    },
+    {
+      "id": "2070676886464946548",
+      "author_name": "the tiny corp",
+      "author_handle": "__tinygrad__",
+      "text": "我不懂为什么这么多人信 Anthropic 关于蒸馏攻击的说法；GLM-5 的训练论文写得清楚，也许 Claude 才是蒸馏了中国模型。",
+      "url": "https://twitter.com/__tinygrad__/status/2070676886464946548",
+      "view_count": 244109,
+      "like_count": 3991
+    },
+    {
+      "id": "2070922791529091376",
+      "author_name": "OpenAI Developers",
+      "author_handle": "OpenAIDevs",
+      "text": "本周 Codex 上线体验更新：长对话线程滚动更顺滑，浏览时也能保持当前位置。",
+      "url": "https://twitter.com/OpenAIDevs/status/2070922791529091376",
+      "view_count": 174383,
+      "like_count": 2063
+    },
+    {
+      "id": "2070670926803542304",
+      "author_name": "Alex Finn",
+      "author_handle": "AlexFinn",
+      "text": "Fable 5 和 GPT-5.6 都被卡住后，我决定全面转向开源，搭了 RTX 5090 家用 AI 实验室，尽可能让本地模型全天候为我工作。",
+      "url": "https://twitter.com/AlexFinn/status/2070670926803542304",
+      "view_count": 392136,
+      "like_count": 3138
+    }
+  ]
+}

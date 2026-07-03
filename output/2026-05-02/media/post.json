@@ -1,0 +1,297 @@
+{
+  "generated_at": "2026-05-02T00:00:40.087Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 23,
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "有人只用API就猜出了GPT、Claude、Gemini的参数量？社区吵翻了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031232&idx=1&sn=6ef67aad98248c27294f1be3eb80d089",
+      "published_at": "2026-05-01T05:01:00.000Z",
+      "summary": "原创关注大模型的 2026-05-01 13:01 北京\n\nScale Is All You Need\n\n机器之心编辑部\n\n最近，研究人员李博杰在 arXiv 发布论文，提出一个名为「不可压缩知识探针」的评测框架，尝试仅通过黑盒 API 调用，来逆向估算任意 LLM 的参数规模。\n\n- 论文标题：Incompressible Knowledge Probes: Estimating Black-Box LLM Parameter Counts via Factual Capacity\n- 论文地址：[https://arxiv.org/pdf/2604.24827](https://arxiv",
+      "priority_score": 328,
+      "matched_keywords": [
+        "Claude",
+        "GPT",
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "撕开Claude Code真相：让它好用的98.4%，是工程不是AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696950&idx=2&sn=b8388fc8a9c5f6b51dbdf7e799d7f349",
+      "published_at": "2026-05-01T05:29:00.000Z",
+      "summary": "新智元 2026-05-01 13:29 山西\n\n### **新智元报道**\n\n编辑：元宇\n\n##### **【新智元导读】 当普通人还在钻研「最强提示词咒语」时，硅谷顶级实验室已经把AI基建跑成了生产线。**\n\n你还在ChatGPT的聊天框里反复调prompt？\n\n最近，一位X用户发了条推文，开头就是一个惊呼：头部大厂偷偷在用的Claude Code项目模板外泄！\n\n这已经不是写提示词了。这是AI工程基础设施。\n\n整套打法围绕一个文件「CLAUDE.md」展开，而它的核心原则只有三条：\n\n每次Claude犯错→你加一条规则；每次你重复自己→你加一个工作流；每次出bug→你加一道护栏。\n\n这样",
+      "priority_score": 300,
+      "matched_keywords": [
+        "Claude",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "永别了，终端！OpenAI疯狂升级Codex，接管Mac人类全程0操作围观",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696950&idx=1&sn=21fccc2ad1d6da0a9081e392ba631c10",
+      "published_at": "2026-05-01T05:29:00.000Z",
+      "summary": "新智元 2026-05-01 13:29 山西\n\n### **新智元报道**\n\n编辑：Aeneas KingHZ\n\n##### **【新智元导读】 OpenAI刚刚投下了一枚重磅炸弹：原本作为程序员「副驾驶」的Codex迎来史诗级更新，正式从代码工具进化为通用个人助理，奥特曼亲自下场带货。开发者实测后惊呼：Codex接管整台Mac，人类全程0操作围观，太炸裂了！**\n\nOpenAI重大更新！\n\nOpenAI的智能体Codex，这次直接硬刚Claude Cowork。\n\nCodex是OpenAI的旗舰代码生成模型，支持GitHub Copilot等产品，已成为全球开发者不可或缺的AI助手。这次的",
+      "priority_score": 228,
+      "matched_keywords": [
+        "OpenAI",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "DeepSeek 发布多模态模型及技术报告；小红书官宣组织调整：柯南出任总裁；宇树发布双臂人形机器人，2.69万元起售 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105104&idx=1&sn=f3eb229530189dee0ed968392108bd66",
+      "published_at": "2026-05-01T00:34:00.000Z",
+      "summary": "曹思颀 2026-05-01 08:34 辽宁\n\nFigure 机器人量产大幅提速，从每天一台到每小时一台；硅谷高管：现阶段 AI 成本高于人力，但高额 AI 账单仍是积极信号；泡泡玛特首款 LABUBU 冰箱开售秒罄，二手溢价 4000 元。\n\n## DeepSeek 发布多模态模型及技术报告\n\n近日，DeepSeek 在 Github 上正式发布了多模态模型，公布了背后的技术报告。\n\n在技术报告中，DeepSeek 提到：尽管多模态大语言模型（MLLMs）取得了显著进展，但主流的思维链（CoT）范式仍主要局限于语言学领域。虽然近期研究重点通过高分辨率裁剪技术（例如基于图像的思考）来弥合感知",
+      "priority_score": 228,
+      "matched_keywords": [
+        "DeepSeek",
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Musk v. Altman week 1: Elon Musk says he was duped, warns AI could kill us all, and admits that xAI distills OpenAI’s models",
+      "url": "https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/",
+      "published_at": "2026-05-01T22:08:19.000Z",
+      "summary": "In the first week of the landmark trial between Elon Musk and OpenAI, Musk took the stand in a crisp black suit and tie and argued that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into bankrolling the company. Along the way, he warned that AI could destroy us all and sat throu",
+      "priority_score": 222,
+      "matched_keywords": [
+        "OpenAI",
+        "xAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "强化学习的进化：从PPO到MaxRL，LLM推理训练的算法演进史",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031232&idx=2&sn=d9bede92f805cf8bbb184d9ff344cca6",
+      "published_at": "2026-05-01T05:01:00.000Z",
+      "summary": "机器之心 2026-05-01 13:01 北京\n\n想了解用于推理 LLM 的强化学习？看这篇文章就够了\n\n机器之心编译\n\n强化学习已成为 LLM 后训练技术栈中最重要的技术之一。它是促成 GPT-3 向 InstructGPT 转变的关键要素。此后，它也成为当前这波推理能力提升浪潮的核心。\n\n第一代针对 LLM 的强化学习以 PPO为主导。该方法最初为雅达利游戏和机器人等传统强化学习场景开发，后来极其成功地适配到了 RLHF 中。\n\n在提升推理能力这一目标的驱动下，第二代方法带来了新一轮的算法演进。短时间内涌现了大量变体。多数变体与前代方法只有微小差异，但这些差异却产生了深远的影响。\n\n本文",
+      "priority_score": 200,
+      "matched_keywords": [
+        "GPT",
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "ChatGPT Images 2.0 is a hit in India, but not a big winner elsewhere, yet",
+      "url": "https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/",
+      "published_at": "2026-05-01T02:00:00.000Z",
+      "summary": "Users in India are embracing ChatGPT Images 2.0 for creative, personal visuals — from avatars to cinematic portraits.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft wants lawyers to trust its new AI agent in Word documents",
+      "url": "https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai",
+      "published_at": "2026-05-01T11:18:54.000Z",
+      "summary": "Microsoft is launching a new AI agent inside Word that's specifically designed for legal teams. Legal Agent handles document edits, negotiation history, and complex documents to help legal teams handle tasks like reviewing contracts.\n\n\"Instead of relying on general AI models to interpret commands, t",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Replit’s Amjad Masad on the Cursor deal, fighting Apple, and why he’d rather not sell",
+      "url": "https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/",
+      "published_at": "2026-05-01T23:06:50.000Z",
+      "summary": "At TechCrunch's sold-out StrictlyVC event in San Francisco on Thursday night, we covered a lot of ground in a short time, beginning with the question everyone in the industry is asking right now: in a world where rival Cursor is reportedly in talks to be acquired by SpaceX for $60 billion, is Replit",
+      "priority_score": 124,
+      "matched_keywords": [
+        "Cursor"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Pentagon inks deals with Nvidia, Microsoft, and AWS to deploy AI on classified networks",
+      "url": "https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/",
+      "published_at": "2026-05-01T16:02:36.000Z",
+      "summary": "The deals come as the DOD has doubled down on diversifying its exposure to AI vendors in the wake of its controversial dispute with Anthropic over usage terms of its AI models.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Did you know you can’t steal a charity? Don’t worry. Elon Musk will remind you.",
+      "url": "https://techcrunch.com/podcast/did-you-know-you-cant-steal-a-charity-dont-worry-elon-musk-will-remind-you/",
+      "published_at": "2026-05-01T17:44:29.000Z",
+      "summary": "Elon Musk spent the better part of three days on the witness stand this week in his lawsuit against OpenAI, and it&#8217;s already getting messy. Emails, texts, and his own tweets are surfacing in court, and there are plenty more witnesses to come. Musk&#8217;s argument against OpenAI? By converting",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Musk v. Altman is just getting started",
+      "url": "https://techcrunch.com/video/musk-v-altman-is-just-getting-started/",
+      "published_at": "2026-05-01T14:00:00.000Z",
+      "summary": "Elon Musk spent the better part of three days&#160;on the witness stand&#160;this week&#160;in his lawsuit against OpenAI, and&#160;it&#8217;s&#160;already getting messy. Emails, texts, and&#160;his own tweets&#160;are surfacing in court, and there are plenty more witnesses to come. Musk&#8217;s arg",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: a new Christian phone network, and debugging LLMs",
+      "url": "https://www.technologyreview.com/2026/05/01/1136762/the-download-christian-phone-network-debugging-llms/",
+      "published_at": "2026-05-01T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **A new US phone networ",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "北大开源统一世界模型框架：多类合成推理任务一套搞定",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888004&idx=2&sn=df1394c7a8d411439011d14c12233470",
+      "published_at": "2026-05-01T04:16:00.000Z",
+      "summary": "关注前沿科技 2026-05-01 12:16 北京\n\n把世界模型从复杂工程变成标准调用\n\n##### OpenDCAI 团队 投稿 量子位 | 公众号 QbitAI\n\n世界模型（World Model）是现在AI领域最受关注的研究方向之一，其核心目标在于构建能够对真实世界进行 **感知、理解、交互与预测** 的统一智能系统。\n\n然而，在当前研究实践中，不同任务（如交互式视频生成、3D 场景建模、视觉-语言-动作（VLA）控制以及多模态推理）之间普遍存在 **接口不统一、推理流程割裂、系统耦合严重** 等问题，研究者往往需要为每类任务单独构建推理逻辑与工程环境，导致重复开发成本高、跨任务对比困",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "A new US phone network for Christians aims to block porn and gender-related content",
+      "url": "https://www.technologyreview.com/2026/05/01/1136739/a-new-t-mobile-network-for-christians-aims-to-block-porn-and-gender-related-content/",
+      "published_at": "2026-05-01T09:00:00.000Z",
+      "summary": "A new US-wide cell phone network marketed to Christians is set to launch next week. It blocks porn, which experts in network security say marks the first time a US cell plan has used network-level blocking for such content that can’t be turned off even by adult account owners. It’s also rolling out ",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta buys robotics startup to bolster its humanoid AI ambitions",
+      "url": "https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/",
+      "published_at": "2026-05-01T22:13:27.000Z",
+      "summary": "Meta bought humanoid startup Assured Robot Intelligence to beef up its AI models for robots, the company said.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Cyber-Insecurity in the AI Era",
+      "url": "https://www.technologyreview.com/2026/05/01/1136779/cyber-insecurity-in-the-ai-era/",
+      "published_at": "2026-05-01T15:54:01.000Z",
+      "summary": "Cybersecurity was already under strain before AI entered the stack. Now, as AI expands the attack surface and adds new complexity, the limits of legacy approaches are becoming harder to ignore. This session from MIT Technology Review’s EmTech AI conference explores why security must be rethought wit",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Operationalizing AI for Scale and Sovereignty",
+      "url": "https://www.technologyreview.com/2026/05/01/1136772/operationalizing-ai-for-scale-and-sovereignty/",
+      "published_at": "2026-05-01T15:31:09.000Z",
+      "summary": "Companies are taking control of their own data to tailor AI for their needs. The challenge lies in balancing ownership with the safe, trusted flow of high‑quality data needed to power reliable insights. This conversation from MIT Technology Review’s EmTech AI conference examines how AI factories unl",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Inexpensive seafloor-hopping submersibles could stoke deep-sea science—and mining",
+      "url": "https://www.technologyreview.com/2026/05/01/1136734/inexpensive-seafloor-hopping-submersibles-could-stoke-deep-sea-science-and-mining/",
+      "published_at": "2026-05-01T10:00:00.000Z",
+      "summary": "Smack dab between Australia and South America, the US National Oceanic and Atmospheric Administration (NOAA) research vessel*Rainier*is currently on a mission to map more than 8,000 square nautical miles of the Pacific seafloor in search of critical mineral deposits. But it isn’t doing it alone; for",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Trump’s mass firing just dealt another blow to American science",
+      "url": "https://www.technologyreview.com/2026/05/01/1136722/mass-firing-trump-fresh-blow-american-science-nsf-nsb/",
+      "published_at": "2026-05-01T09:00:00.000Z",
+      "summary": "This past week delivered another gut punch for science in the US. This time, the target was the National Science Foundation—a federal agency that funds major research projects to the tune of around $9 billion. The foundation’s efforts were overseen by a board of 22 prominent scientists. On Friday la",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "一句话造世界！开发者用10天婚假爆肝，让AI小镇真正「活」了过来",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696950&idx=3&sn=d869571a46ad5feb8b005459124580f2",
+      "published_at": "2026-05-01T05:29:00.000Z",
+      "summary": "新智元 2026-05-01 13:29 山西\n\n### **新智元报道**\n\n编辑：LRST\n\n##### **【新智元导读】 2023年斯坦福「AI小镇」火了， 后续也诞生了大量类似的热门项目， 但所有这类项目都有一个共同瓶颈——世界是人工搭建的，固定的。最近，一位独立开发者用10天婚假爆肝了一个项目WorldX：输入一句话、5分钟，一个完整的AI世界就诞生了——地图、角色、动画、人设全部自动生成，AI角色们自主在其中生活、对话、形成记忆、产生戏剧性的涌现行为。**\n\n输入这样一句话： **「夜晚的宋朝繁华夜市，有当铺掌柜、算命先生、捕快、小偷、酒鬼，还有一个刚从现代穿越来的网红。」**\n",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "他用AI办了个音乐节，主题：别读博",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888004&idx=1&sn=cf0920402625bb5d0af65be63e9578b5",
+      "published_at": "2026-05-01T04:16:00.000Z",
+      "summary": "原创关注前沿科技 2026-05-01 12:16 北京\n\n一代科研人的赛博苦中作乐\n\n##### 邓思邈 发自 凹非寺 量子位 | 公众号 QbitAI\n\n一个博士生连续做了6小时实验后，凌晨3点才吃上晚饭——\n\n他打开了一首 **AI生成的歌** ，开始单曲循环。\n\n听着歌词里的 “被抢一作”“延毕”“审稿不通过”“创新点都没有”“科研理想” ，他又哭又笑，眼泪止不住地往下流。\n\n那些他在组会上咽下去、在导师面前没敢说出口的话，无奈、恐惧、焦虑、疲惫……全在这首歌里。他突然感觉自己被 看见 了，被 理解 了。\n\n就这么一边听着歌，一边把实验做下去。直到窗外泛白，他才记起来自己一夜没睡觉。\n",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888004&idx=3&sn=6dc4c56ba810ddf93b8587f9b363de11",
+      "published_at": "2026-05-01T04:16:00.000Z",
+      "summary": "关注前沿科技 2026-05-01 12:16 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

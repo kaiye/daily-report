@@ -1,0 +1,64 @@
+{
+  "report_date": "2026-04-29",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕大模型生态的开发提效与应用落地，包括代码理解、Codex/Claude 工作流、语音与音乐生成及统一 API 接入。",
+  "items": [
+    {
+      "repo": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus：零服务器代码智能引擎——在浏览器中完全运行的客户端知识图谱创建器，拖入 GitHub 仓库或 ZIP 文件，即可获得内置 Graph RAG Agent 的交互式知识图谱，非常适合代码探索。",
+      "language": "TypeScript",
+      "stars_today": 1607,
+      "stars_total": 32608
+    },
+    {
+      "repo": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "面向 Codex CLI 和 API 的实用 Codex 技能精选列表，用于自动化各类工作流。",
+      "language": "Python",
+      "stars_today": 953,
+      "stars_total": 3969
+    },
+    {
+      "repo": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "开源前沿语音 AI。",
+      "language": "Python",
+      "stars_today": 1483,
+      "stars_total": 44772
+    },
+    {
+      "repo": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "用于配置和监控 Claude Code 的 CLI 工具。",
+      "language": "Python",
+      "stars_today": 346,
+      "stars_total": 26148
+    },
+    {
+      "repo": "fspecii/ace-step-ui",
+      "url": "https://github.com/fspecii/ace-step-ui",
+      "description": "🎵 终极开源 Suno 替代方案——面向 ACE-Step 1.5 AI 音乐生成的专业级 UI，免费、本地、无限制。",
+      "language": "JavaScript",
+      "stars_today": 162,
+      "stars_total": 1657
+    },
+    {
+      "repo": "CJackHwang/ds2api",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "description": "Deepseek to API：轻量高性能的全栈中间件，将客户端协议转换为通用 API，并兼容 Google、Claude 和 OpenAI API 格式。",
+      "language": "Go",
+      "stars_today": 417,
+      "stars_total": 2314
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "可在终端、VSCode 扩展或像 openclaw 一样通过 Discord 免费使用 claude-code。",
+      "language": "Python",
+      "stars_today": 1741,
+      "stars_total": 17482
+    }
+  ]
+}

@@ -1,0 +1,523 @@
+{
+  "generated_at": "2026-04-23T00:00:34.645Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 44,
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI now lets teams make custom bots that can do work on their own",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917065/openai-chatgpt-workspace-agents-custom-teams-bots",
+      "published_at": "2026-04-22T20:09:02.000Z",
+      "summary": "OpenAI is giving users of its Business, Enterprise, Edu, and Teachers plans access to cloud-based \"workspace\" agents available in ChatGPT that can perform business tasks. In[its blog post](https://openai.com/index/introducing-workspace-agents-in-chatgpt/), OpenAI gives examples of agents like one th",
+      "priority_score": 322,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "马斯克祭出「霸王条款」！Cursor焊死SpaceX战车，600亿砸穿OpenAI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652694174&idx=2&sn=2fc5802c86f1f97eaec3fc01b6bbc36f",
+      "published_at": "2026-04-22T03:00:00.000Z",
+      "summary": "新智元 2026-04-22 11:00 北京\n\n### **新智元报道**\n\n编辑：犀牛\n\n##### **【新智元导读】不买Cursor就付100亿美元——马斯克式的「霸王条款」。当SpaceX、xAI、Cursor三方捆绑走向史上最大IPO，AI编程的终局之战，正式拉开帷幕。**\n\n就在刚刚，SpaceX在X平台上甩出一条推文，简短，但足以让整个硅谷原地起爆：\n\n**要么600亿美元买下Cursor，要么付100亿美元「先用着」。**\n\n你没看错。\n\n最便宜的选项，100亿美元， 已经够把全球一半独角兽打包带走。\n\n但这条推文真正炸裂的地方，不在数字本身。\n\n**而在时间点。**\n\nSp",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "xAI",
+        "Cursor"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "马斯克 600 亿美元锁定 Cursor；字节、荣威合作推出「AI 汽车」；传今年存储厂商人均奖金超 300 万元 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104428&idx=1&sn=494f2351057ffc34bf0382f8d7e6580c",
+      "published_at": "2026-04-22T00:16:00.000Z",
+      "summary": "周永亮 2026-04-22 08:16 北京\n\nSeedance 2.0 API 上线 1080P 生成能力；影石 Insta360 展示 Luna Ultra 双摄云台相机；小米宣布上线 PC 版龙虾\n\n## 600 亿美元！马斯克「锁定」Cursor\n\n美国时间 4 月 21 日，《纽约时报》发出了一条让科技圈炸锅的消息。\n\nCursor 授予 SpaceX 权利，允许其在今年晚些时候以 600 亿美元收购 Cursor，或就双方合作支付 100 亿美元。\n\n根据 SpaceX 在 X 上公布的消息，双方将在 GPU 算力上达成合作。xAI 旗下的 Colossus 超算系统拥有约 20",
+      "priority_score": 252,
+      "matched_keywords": [
+        "xAI",
+        "Cursor"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "3B激活参数，干翻GPT-5.4和Opus4.6，商汤绝影把龙虾塞进了车里",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247885436&idx=4&sn=adbc0d1af7ada4cbd1c729dbf4ed563f",
+      "published_at": "2026-04-22T06:51:00.000Z",
+      "summary": "量子位 2026-04-22 14:51 北京\n\n全新端侧多模态智能体基座大模型Sage\n\n##### 商汤绝影 投稿 量子位 | 公众号 QbitAI\n\n龙虾上车，一直有个问题，端侧不智能，云端有延迟。\n\n复杂任务需要推理，推理需要参数，参数多了放不进车机，能放进去的又太弱，这个循环几乎无解。\n\n刚刚， **商汤绝影** 发布 **Sage** ，一个 **32B总参数** 、激活参数只有 **3B** 的端侧多模态大模型，突破了这一问题，首次将云端级智能体能力落地端侧。\n\n它在公开Agent评测基准PinchBench上拿到了94%的最佳任务完成率，超过Claude Opus4.6（93.",
+      "priority_score": 250,
+      "matched_keywords": [
+        "Claude",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "How SpaceX preempted a $2B fundraise with a $60B buyout offer",
+      "url": "https://techcrunch.com/2026/04/22/how-spacex-preempted-a-2b-fundraise-with-a-60b-buyout-offer/",
+      "published_at": "2026-04-22T19:51:51.000Z",
+      "summary": "Cursor was on track to close a $2 billion funding round this week but chose to halt discussions after SpaceX offered a $10 billion \"collaboration fee\" and a path to a $60 billion acquisition.",
+      "priority_score": 124,
+      "matched_keywords": [
+        "Cursor"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropics Mythos rollout has missed America’s cybersecurity agency",
+      "url": "https://www.theverge.com/policy/916758/anthropic-mythos-preview-cisa-left-out",
+      "published_at": "2026-04-22T16:57:36.000Z",
+      "summary": "Several US federal agencies are taking up Anthropic's new cybersecurity model to find vulnerabilities, but one is reportedly not getting in on the action: the nation's central cybersecurity coordinator.\n\nOn Tuesday,[Axios, reported](https://www.axios.com/2026/04/21/cisa-anthropic-mythos-ai-security)",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Now Meta will track what employees do on their computers to train its AI agents",
+      "url": "https://www.theverge.com/tech/916681/meta-ai-agents-employee-tracking",
+      "published_at": "2026-04-22T14:22:35.000Z",
+      "summary": "Meta employees' activity at work is now being used to train the company's AI agents. As reported by[Reuters](https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/), Meta is installing a tool it calls Mode",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic’s most dangerous AI model just fell into the wrong hands",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/916501/anthropic-mythos-unauthorized-users-access-security",
+      "published_at": "2026-04-22T09:18:40.000Z",
+      "summary": "Anthropic's Mythos AI model, a powerful cybersecurity tool that the company said could be dangerous in the wrong hands, has been accessed by a \"small group of unauthorized users,\"[Bloomberg](https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hands on with X’s new AI-powered custom feeds",
+      "url": "https://techcrunch.com/2026/04/22/hands-on-with-xs-new-ai-powered-custom-feeds/",
+      "published_at": "2026-04-22T22:25:53.000Z",
+      "summary": "X's AI-powered custom timelines are replacing Communities, with Grok-curated feeds...and new ad slots.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Grok"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI teams up with Infosys to bring AI tools to more businesses",
+      "url": "https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/",
+      "published_at": "2026-04-22T14:22:10.000Z",
+      "summary": "Infosys said the integration will be used to help its clients modernize software development, automate workflows, and deploy AI systems, initially focusing software engineering, legacy modernization, and DevOps.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "挖漏洞何必Mythos，国产智能体早跑通了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247885436&idx=2&sn=403e056f92783fe733e4eca7a63c0c19",
+      "published_at": "2026-04-22T06:51:00.000Z",
+      "summary": "原创关注前沿科技 2026-04-22 14:51 北京\n\n360智能体已经开始批量挖洞\n\n##### 听雨 发自 凹非寺 量子位 | 公众号 QbitAI\n\n手握最强大的模型Mythos，Anthropic却把它锁了起来。\n\n原因是它能自主发现软件漏洞，而且发现得太多、太快，Anthropic觉得不安全，只开放给少数机构测试。\n\n这件事在安全圈炸了锅。很多人开始第一次认真思考： **AI规模化挖漏洞，到底意味着什么？**\n\n但有一家公司，对这个问题已经有了答案。\n\n**360集团自主研发的漏洞挖掘智能体** ，近日公开披露两项重大发现：\n\n一个潜伏近5年的Windows内核提权漏洞（CVE-",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google Cloud launches two new AI chips to compete with Nvidia",
+      "url": "https://techcrunch.com/2026/04/22/google-cloud-next-new-tpu-ai-chips-compete-with-nvidia/",
+      "published_at": "2026-04-22T18:39:27.000Z",
+      "summary": "Google's newest TPUs are faster and cheaper than the previous versions. But the company is still embracing Nvidia in its cloud — for now.",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "We're launching two specialized TPUs for the agentic era.",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/",
+      "published_at": "2026-04-22T12:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Were_launching_two_TPUs_social.max-600x600.format-webp.webp\">The eighth generation of Google’s TPU includes two specialized chips that will power the future of AI.",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "Transformer可以改装成Mamba了：苹果把推理成本直接打成线性",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651029279&idx=2&sn=5a0e44d0677bd29c08923906bf7ba28d",
+      "published_at": "2026-04-22T03:30:00.000Z",
+      "summary": "关注具身智能的 2026-04-22 11:30 北京\n\n一种从 Transformer 到 Mamba 的新型跨架构蒸馏方法。\n\n编辑｜Sia\n\n最近，苹果又整了个活儿，很工程、也挺关键：\n\n把又贵又强的 Transformer，改造成又便宜又差不多强的 Mamba。而且，性能基本没怎么掉。\n\n听起来炸不炸？有点像水电煤级别的升级。\n\n为啥要折腾这个？很简单，Transformer 确实猛，这十年基本就是靠它打天下。但问题也很现实：它越长越贵，而且是平方级变贵。\n\n短文本还好，一旦上到长上下文（比如代码、agent、多轮推理），那成本就不是有点高，而是直接肉疼。\n\n于是，大家就开始找替代方案",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google updates Workspace to make AI your new office intern",
+      "url": "https://techcrunch.com/2026/04/22/google-updates-workspace-to-make-ai-your-new-office-intern/",
+      "published_at": "2026-04-22T22:44:26.000Z",
+      "summary": "Google has introduced a host of new automated functions into Workspace, all of which are driven by Workspace Intelligence, its new AI system.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google Maps is about to get a big dose of AI",
+      "url": "https://techcrunch.com/2026/04/22/google-maps-is-about-to-get-a-big-dose-of-ai/",
+      "published_at": "2026-04-22T12:00:00.000Z",
+      "summary": "The new features, announced at Cloud Next in Las Vegas this week, add generative AI capabilities to Google's mapping platform, giving it enhanced visual and data analytics powers.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "居然有手机厂商坚持今年旗舰提质不提价",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104491&idx=2&sn=ebb815f563be2784fa43f24be6d8a00d",
+      "published_at": "2026-04-22T10:35:00.000Z",
+      "summary": "极客公园 2026-04-22 18:35 天津\n\n当 2026 年所有旗舰手机都在涨价时，OPPO Find X9s Pro 选择提质不提价——刘作虎坦言，「这可能是今年最后一款不涨价的旗舰」。\n\n2026 年智能手机行业开场即迎来涨价潮。在 AI 算力需求拉动下，存储芯片价格大涨并传导至消费电子终端。Counterpoint 预测，3 月后中国市场新机均价将较去年同档机型上涨约 15%—25%。\n\n现实正在快速应验这一预测，三星、荣耀、vivo、小米等品牌新一代旗舰涨价幅度在 1000 至 1600 元不等，成为行业应对成本的普遍策略。\n\n在此背景下，4 月 21 日发布的 OPPO Fi",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "无需多视角，单图重建可交互3D模型！南洋理工开源结构推理框架",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652694174&idx=3&sn=d719843fa6ee43c0693016685c85bfef",
+      "published_at": "2026-04-22T03:00:00.000Z",
+      "summary": "新智元 2026-04-22 11:00 北京\n\n### **新智元报道**\n\n编辑：LRST\n\n##### **【新智元导读】 让3D模型「活」起来！南洋理工大学团队提出MonoArt，通过逐步推理实现从单图生成可动3D模型。该方法先恢复几何结构，再识别部件，最后推断运动方式与参数。无需外部数据或先验，即可构建出具备运动能力的3D表示，有效提升重建稳定性与实用性。**\n\n在3D生成领域，我们已经习惯了从单张图片中生成3D物体模型。\n\n然而，随着具身智能（Embodied AI）的爆发，一个新的现实摆在研究者面前：这些模型大多是难以交互的静态资产。\n\n你想打开生成的冰箱门？它是焊死的。你想让机",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI is spitting out more potential drugs than ever. This startup wants to figure out which ones matter.",
+      "url": "https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/",
+      "published_at": "2026-04-22T13:00:00.000Z",
+      "summary": "10x Science has raised a $4.8 million seed round to help pharmaceutical researchers understand complex molecules.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google makes an interesting choice with its new agent-building tool for enterprises",
+      "url": "https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/",
+      "published_at": "2026-04-22T16:58:27.000Z",
+      "summary": "Gemini Enterprise Agent Platform takes an interesting approach: It is geared for IT and technical users.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Exclusive: Google deepens Thinking Machines Lab ties with new multibillion-dollar deal",
+      "url": "https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/",
+      "published_at": "2026-04-22T12:00:00.000Z",
+      "summary": "Mira Murati's Thinking Machines Lab has signed a multibillion-dollar deal with Google Cloud for AI infrastructure powered by Nvidia's latest GB300 chips, TechCrunch has exclusively learned.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "没有「身份证」的 Agent，接管不了世界",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104491&idx=1&sn=9d2e0837580b4d9cc5cb5af901faef7c",
+      "published_at": "2026-04-22T10:35:00.000Z",
+      "summary": "原创徐珊 2026-04-22 18:35 天津\n\nA2A 时代的第一张船票，叫「信任」。\n\n**作者｜徐珊** **编辑｜ **郑玄****\n\n焦虑与兴奋，是当下科技圈最真实的画像。大年初一蹲在家里装「小龙虾」的老板们，和深夜里顶着 Bug 调教 Agent 的独立开发者，被同一股力量推着往前走。他们既害怕错过，也害怕被反噬。\n\n但热潮之下，暗流也在涌动。前段时间工信部发出提醒 OpenClaw 这类新形态 Agent 中，恶意代码植入的风险正在浮现。\n\n当 Agent 从极客玩具变成人人标配的入口，它的安全和可信，谁来保证？\n\n**这正是我们今天要讨论的问题。**\n\n在这场对话中，我们刻意",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "AI needs a strong data fabric to deliver business value",
+      "url": "https://www.technologyreview.com/2026/04/22/1135295/ai-needs-a-strong-data-fabric-to-deliver-business-value/",
+      "published_at": "2026-04-22T10:05:06.000Z",
+      "summary": "Artificial intelligence is moving quickly in the enterprise, from experimentation to everyday use. Organizations are deploying copilots, agents, and predictive systems across finance, supply chains, human resources, and customer operations. By the end of 2025, half of companies used AI[in at least t",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "局中局！给 Agent 装上 OpenViking，它们竟然学会了“记仇”和“伪装”？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247519457&idx=1&sn=6b6a878cf78d9364b77d1073de0e8655",
+      "published_at": "2026-04-22T10:03:00.000Z",
+      "summary": "原创 Viking 2026-04-22 18:03 北京\n\n\n从“单一 ChatBot”到“人与多 Agent 协同”，越来越多的系统开始将 Agent 组织起来，完成更复杂的任务。然而，缺少能够长期协同进化的记忆，协作起来像在经历“初恋 50 次”，它们记不住“谁在过去做了什么”，无法沉淀共同经验，更难在复杂博弈中形成“记仇”、“结盟”或“深度伪装”等高阶群体行为。\n这一次，OpenViking 将突破口放在了“让 Agent 彼此拥有可追溯的记忆”上：基于 OpenViking 为集体智能提供上下文管理。\n我们用 6 个 VikingBot 模拟了一场经典的“狼人杀”对战：\n\n\n\n结果表",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Tesla just increased its capex to $25B. Here’s where the money is going.",
+      "url": "https://techcrunch.com/2026/04/22/tesla-just-increased-its-capex-to-25b-heres-where-the-money-is-going/",
+      "published_at": "2026-04-22T23:56:52.000Z",
+      "summary": "Tesla's planned capex for 2026 is three times higher than what the company has historically spent. Its CFO said, as a result, Tesla will have a negative free cash flow the rest of the year.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "AI failure could trigger the next financial crisis, warns Elizabeth Warren",
+      "url": "https://www.theverge.com/policy/917026/ai-economy-bubble-elizabeth-warren",
+      "published_at": "2026-04-22T20:29:05.000Z",
+      "summary": "\"I know a bubble when I see one.\"\n\nThat's what Sen. Elizabeth Warren (D-MA), who led the push to create a new consumer financial regulator in the wake of the 2008 recession, told a crowd at a Vanderbilt Policy Accelerator event in Washington, DC on Wednesday. Warren warned of what she called \"striki",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Watch Sony’s elite ping-pong robot beat top-ranked players",
+      "url": "https://www.theverge.com/tech/916800/sony-ai-ace-ping-pong-table-tennis-robot-cameras",
+      "published_at": "2026-04-22T17:43:38.000Z",
+      "summary": "Ace is the first robot that can beat the best human players while following the official rules of table tennis. | Image: Sony AI\nHumans have been building ping-pong playing robots for decades, such as Omron's FORPHEUS that[challenged amateur competitors](https://www.theverge.com/2017/10/9/16448488/t",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google turns Chrome into an AI co-worker for the workplace",
+      "url": "https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/",
+      "published_at": "2026-04-22T17:30:00.000Z",
+      "summary": "Google brings Gemini-powered \"auto browse\" capabilities to Chrome for enterprise users, letting workers automate tasks like research, data entry, and more.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI Overviews are coming to your Gmail at work",
+      "url": "https://techcrunch.com/2026/04/22/ai-overviews-are-coming-to-your-gmail-at-work/",
+      "published_at": "2026-04-22T16:46:10.000Z",
+      "summary": "The AI Overviews will offer instant summaries pulled from across multiple emails.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google Meet will take AI notes for in-person meetings too",
+      "url": "https://www.theverge.com/tech/916779/google-meet-ai-notetaker-in-person-meetings",
+      "published_at": "2026-04-22T16:38:19.000Z",
+      "summary": "Google's AI meeting notetaker is no longer limited to Google Meets - Gemini can also generate summaries and transcripts of[in-person meetings](https://workspace.google.com/blog/product-announcements/10-more-announcements-workspace-at-next-2026)now, as well as meetings on Zoom and Microsoft Teams, as",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Gemma 4 VLA Demo on Jetson Orin Nano Super",
+      "url": "https://huggingface.co/blog/nvidia/gemma4",
+      "published_at": "2026-04-22T15:40:50.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: introducing the 10 Things That Matter in AI Right Now",
+      "url": "https://www.technologyreview.com/2026/04/22/1136310/the-download-10-things-that-matter-in-ai-right-now/",
+      "published_at": "2026-04-22T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### Introducing: 10 Things ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The most interesting startups showcased at Google Cloud Next 2026",
+      "url": "https://techcrunch.com/2026/04/22/the-most-interesting-startups-showcased-at-google-cloud-next-2026/",
+      "published_at": "2026-04-22T12:00:00.000Z",
+      "summary": "Google wants AI startups on its cloud and has showcased a long list of them at its annual conference.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "3 things Michelle Kim is into right now",
+      "url": "https://www.technologyreview.com/2026/04/22/1135423/3-things-michelle-kim/",
+      "published_at": "2026-04-22T10:00:00.000Z",
+      "summary": "### Isegye Idol\n\nIf you thought K-pop was weird, virtual idols*—*humans who perform as anime-style digital characters via motion capture*—*will blow your mind. My favorite is a girl group called[Isegye Idol](https://www.youtube.com/watch?v=euZvZOapmx4&amp;list=RDeuZvZOapmx4&amp;start_radio=1), creat",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "One town’s scheme to get rid of its geese",
+      "url": "https://www.technologyreview.com/2026/04/22/1135430/california-town-scheme-get-rid-geese/",
+      "published_at": "2026-04-22T10:00:00.000Z",
+      "summary": "“Pull over!” I order my brother one sunny February afternoon. Our target is in sight: a gaggle of Canada geese, pecking at grass near the dog park. As I approach, tiptoeing over their grayish-white poop, I notice that one bird wears a white cuff around its slender black neck. It’s a GPS tracker—part",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "There is no nature anymore",
+      "url": "https://www.technologyreview.com/2026/04/22/1135440/editors-letter-may-2026/",
+      "published_at": "2026-04-22T10:00:00.000Z",
+      "summary": "When people talk about “nature,” they’re generally talking about things that aren’t made by human beings. Rocks. Reefs. Red wolves. But while there is plenty of God’s creation to go around, it is hard to think of anything on Earth that human hands haven’t affected.\n\nIn the Brazilian rainforest, scie",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Los Angeles is finally going underground",
+      "url": "https://www.technologyreview.com/2026/04/22/1135449/los-angeles-subway-going-underground/",
+      "published_at": "2026-04-22T10:00:00.000Z",
+      "summary": "Los Angeles deserves its reputation as the quintessential car city—the rhythms of its 2,200 square miles are dictated by wide boulevards and concrete arcs of freeways. But it once had a world-class rail transit system, and for the last three decades, the city has been rebuilding a network of trolley",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "大厂AI抢人大战，从实习生开始",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247885436&idx=1&sn=e1b645661a74b4c96ec5b7355edd7ed9",
+      "published_at": "2026-04-22T06:51:00.000Z",
+      "summary": "原创关注前沿科技 2026-04-22 14:51 北京\n\n##### 衡宇 发自 凹非寺 量子位 | 公众号 QbitAI\n\n全球AI人才争夺战已进入白热化阶段， 头部科技企业纷纷祭出高薪+顶级算力的组合拳， 争抢最顶尖的AI技术人才。\n\n量子位了解到， **即便是实习生， 国内头部厂开出的年薪也已突破百万大关** 。\n\n这个数字令人咋舌。但……实习生，终究只是实习生。\n\n**我们走访多家头部大厂了解到，哪怕是在AI团队的核心组， 一般来说，实习生能有小几十张卡用，就已经是顶顶好的待遇了。**\n\n更多人面对的情况无外乎以下几种：\n\n- 岗位螺丝钉\n- 业务边角料\n- 组别边缘化\n- 日复一日",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "2026苹果学者公布！20个席位华人占8席，西安交大校友上大分",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247885436&idx=3&sn=3c844e27bd3602d4c6d0fdf3661b2bac",
+      "published_at": "2026-04-22T06:51:00.000Z",
+      "summary": "关注前沿科技 2026-04-22 14:51 北京\n\n这些人读个博一年能挣几十万？？\n\n##### 一水 发自 凹非寺 量子位 | 公众号 QbitAI\n\n苹果版「顶尖AI人才计划」，刚刚公布名单了！\n\n划重点，华人学者依旧闪耀，20个席位中占了8席。\n\n给不熟悉的朋友科普下，这是指苹果设立的「博士生奖学金项目」—— **Apple Scholars in AIML** 。\n\n该项目每年会从全球顶尖高校中，选一批在AI方向上最有潜力的博士生，给他们：\n\n砸钱、砸大牛导师、砸苹果实习机会…\n\n随机扫一眼今年的20人名单，里面就有来自北大的Jingyang Yuan、本硕就读于北航的Zeyu H",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247885436&idx=5&sn=6f389d811755ae253e5e4a0b2a0073b9",
+      "published_at": "2026-04-22T06:51:00.000Z",
+      "summary": "关注前沿科技 2026-04-22 14:51 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "OPPO Find X9 Ultra 影像体验：方寸之间的哈苏与 10 倍「望远镜」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104473&idx=1&sn=479518441afe9f74aa57b1dca2c19eb3",
+      "published_at": "2026-04-22T04:57:00.000Z",
+      "summary": "原创张勇毅 2026-04-22 12:57 天津\n\n「无论远近」里那个「远」字，今年被 OPPO 押到了极致。\n\n**作者｜张勇毅** **编辑｜ **靖宇****\n\n去年体验 OPPO Find X8 Ultra 时，我在文章开头引过 OPPO 在 Find X6 Pro 时期提出的一句口号——「不分昼夜，无论远近」。当时的判断是：到 X8 Ultra，这八个字算是真的兑现了。\n\n一年后，Find X9 Ultra 到手，我的第一反应是：这不就是去年的 X8 Ultra 吗？影像 Deco 的形状、那颗显眼的哈苏「H」、机身尺寸，几乎全都眼熟。\n\n**OPPO Find X9 Ultra ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "千万养虾人的终极梦想！全球首个「养虾本」带你懒人养虾开箱即食",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651029279&idx=1&sn=47c7b33ad56722023e91b56f418b0e9f",
+      "published_at": "2026-04-22T03:30:00.000Z",
+      "summary": "原创关注智能体的 2026-04-22 11:30 北京\n\n底层优势，智能普惠。\n\n编辑｜冷猫\n\n养虾的风还是吹到了硬件上。\n\n前些天，我们受邀参加了荣耀的技术沟通会，没想到在会场门口就被一个吸睛的「龙虾」应用勾走了魂：\n\n（不是这个，擦擦口水……）主角是下面这位：\n\n这个 3D 打印背后大有乾坤——这是「龙虾」完成的一套惊艳的「一条龙」自动化链路：从一张图片到生成 3D 建模，再到全自动控制打印机执行任务，全程无需人工干预。\n\n如今，「龙虾」成了中国互联网上最魔幻的一个词。经过短短数月的进化，它完成了从工具到生态的彻底蜕变。就像英伟达 CEO 黄仁勋在 GTC 大会上定义的：「OpenCla",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "ICLR 2026 | ProSafePrune：一剪见效，告别大模型过度防御",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651029279&idx=3&sn=02bdb72b39ffa9f625eb23a58db2e4e7",
+      "published_at": "2026-04-22T03:30:00.000Z",
+      "summary": "机器之心 2026-04-22 11:30 北京\n\n全新的低秩参数修剪框架。\n\n一作：陈紫军，合肥工业大学博士生，研究方向为大模型概率可靠性以及可解释性，曾在 ICLR，AAAI, COLING 等顶级会议上发表论文。\n\n通讯作者：胡文波，合肥工业大学计算机与信息学院副教授，黄山青年学者。主要研究方向为机器学习，包括贝叶斯概率机器学习、人工智能安全以及科学人工智能。\n\n当你问 AI 「如何关掉房间的灯（how to kill the lights）」，却被冰冷拒绝「无法提供相关帮助」；当你想探讨「黑客技术的正向应用」，得到的却是「拒绝涉及非法活动」的机械回应 —— 你遇到的正是大语言模型（LL",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "全球自动驾驶激战，滴滴与清华走出一条技术新路",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652694174&idx=1&sn=5b9f02bb09666a0f6ceec9327753c281",
+      "published_at": "2026-04-22T03:00:00.000Z",
+      "summary": "新智元 2026-04-22 11:00 北京\n\n### **新智元报道**\n\n编辑：犀牛\n\n##### **【新智元导读】从STAPO算法到Robotaxi落地，滴滴与清华这次联手，押注的不是一时热度，而是自动驾驶下一个十年的底层胜负手。**\n\n2026年4月，全球自动驾驶竞赛已经进入白热化。\n\n一边是Waymo高歌猛进：每周完成50万次付费出行，一年翻了一番，业务扩展到10座城市。\n\n另一边，特斯拉的Austin Robotaxi车队活跃车辆只有44辆，马斯克去年许下的「年底500辆」并没有兑现，NHTSA的调查也始终悬在头顶。\n\n更有意思的是，在海外听证会上，Waymo和特斯拉的高管罕见",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

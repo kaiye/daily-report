@@ -1,0 +1,477 @@
+{
+  "generated_at": "2026-04-16T00:00:41.439Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 40,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "斯坦福报告：美国AI投资为中国23倍，但模型差距消失；Q1豆包海外版下载7200万次；OpenAI指控Anthropic：300亿收入80亿造假 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653103929&idx=1&sn=2e50fcd0464ff901c9ed770fc5dc01ce",
+      "published_at": "2026-04-15T00:51:00.000Z",
+      "summary": "Moonshot 2026-04-15 08:51 重庆\n\n腾讯云率先支持 Hermes Agent 云端快速部署；\n\n消息称风投争相投资 Anthropic，对其估值最高达 8000 亿美元；\n\nMeta 预计将超越谷歌，成为全球最大数字广告巨头\n\n## 2026 斯坦福 AI 指数报告：美国 AI 投资规模是中国的 23 倍，但 AI 模型基本没差距了\n\n4 月 14 日，美国斯坦福大学发布的《2026 年人工智能指数报告》显示，尽管美国在顶级人工智能（AI）模型的产出数量及高影响力专利方面仍居领先地位，中国在论文发表数量、论文被引频次、专利产出总量以及工业机器人安装量等多项指标上已占据优",
+      "priority_score": 274,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s rise is giving some OpenAI investors second thoughts",
+      "url": "https://techcrunch.com/2026/04/14/anthropics-rise-is-giving-some-openai-investors-second-thoughts/",
+      "published_at": "2026-04-15T02:31:04.000Z",
+      "summary": "One investor who has backed both companies told the FT that justifying OpenAI's recent round required assuming an IPO valuation of $1.2 trillion or more — making Anthropic's current $380 billion valuation look like the relative bargain.",
+      "priority_score": 224,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI updates its Agents SDK to help enterprises build safer, more capable agents",
+      "url": "https://techcrunch.com/2026/04/15/openai-updates-its-agents-sdk-to-help-enterprises-build-safer-more-capable-agents/",
+      "published_at": "2026-04-15T19:28:36.000Z",
+      "summary": "OpenAI has expanded the capabilities of its agent-building toolkit, as agentic AI continues to grow in popularity.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hightouch reaches $100M ARR fueled by marketing tools powered by AI",
+      "url": "https://techcrunch.com/2026/04/15/hightouch-reaches-100m-arr-fueled-by-marketing-tools-powered-by-ai/",
+      "published_at": "2026-04-15T18:55:12.000Z",
+      "summary": "The startup says it grew its ARR by $70 million in just 20 months after launching an AI agent platform for marketers.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "北大联合Llama-Factory推出DataFlex：工业级数据动态训练系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651027815&idx=3&sn=9302e6c59afe49dde69068eb89da0c66",
+      "published_at": "2026-04-15T04:21:00.000Z",
+      "summary": "原创机器之心 2026-04-15 12:21 北京\n\n构筑支撑下一代AI应用的数据基础设施。\n\n当大模型训练进入深水区，竞争的关键已经不再只是「模型参数怎么调」，而逐渐转向一个更核心、也更难系统解决的问题： 模型在训练过程中究竟看到了什么数据、以什么比例看到、哪些样本应该被更频繁地学习。\n\n这些因素正在越来越直接地决定训练效率、泛化能力以及最终模型性能。\n\n围绕数据选择、数据混合和样本重加权，学术界已经提出了不少方法。但长期以来，这些方法大多分散在彼此独立的代码仓库中：接口不统一、训练流程不一致、复现门槛高、横向比较困难。\n\n更重要的是，很多方法依赖 embedding、模型打分、梯度或中间",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Llama"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "India’s vibe-coding startup Emergent enters OpenClaw-like AI agent space",
+      "url": "https://techcrunch.com/2026/04/15/indias-vibe-coding-startup-emergent-enters-openclaw-like-ai-agent-space/",
+      "published_at": "2026-04-15T17:24:18.000Z",
+      "summary": "Emergent's Wingman lets users manage and automate tasks through chat on platforms like WhatsApp and Telegram.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "OpenClaw的启示：身份权限管理是AI Agent时代的阿喀琉斯之踵",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247519254&idx=1&sn=59a6b003989511a6a221574c354b452f",
+      "published_at": "2026-04-15T09:28:00.000Z",
+      "summary": "原创火山AI安全 2026-04-15 17:28 北京\n\n**引言：现象级爆发与安全崩塌：OpenClaw 启示录**\n\n2026年初，随着 OpenClaw 等自主智能体（Autonomous Agents）框架的病毒式爆发，人工智能领域经历了一场深刻的范式转移。从“对话式 AI”向“代理式 AI（Agentic AI）”的跨越，人们期望的数字员工正在变成现实。硬币的另一面是，为了让 OpenClaw 高效运作，用户往往必须授予其所谓的“上帝模式”（God Mode）——即对其文件读取、代码执行和互联网访问不加限制的广泛权限。已经开始有用户完全授权代OpenClaw替人类进行股票交易、在线",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Grok’s sexual deepfakes almost got it banned from Apple’s App Store. Almost.",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/912297/apple-app-store-ban-grok-x-deepfakes",
+      "published_at": "2026-04-15T10:55:22.000Z",
+      "summary": "Apple quietly threatened to kick Elon Musk's AI app, Grok, from its App Store in January over its failure to curb the surge of nonconsensual sexual deepfakes flooding X,[according](https://www.nbcnews.com/tech/tech-news/apple-threat-remove-grok-app-store-deepfake-letter-musk-x-ai-rcna331677)to*NBC N",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Grok"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "黄仁勋率先开源量子AI大模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247883563&idx=2&sn=f7aafc44c8b289b05f242a0e886b9c9f",
+      "published_at": "2026-04-15T04:37:00.000Z",
+      "summary": "关注前沿科技 2026-04-15 12:37 北京\n\n“AI会是量子计算机的操作系统”\n\n##### 鱼羊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n英伟达最新AI开源，瞄准了量子计算：\n\n推出 **全球首个开源量子AI模型家族** —— **NVIDIA Ising** 。\n\n具体包括：\n\n- Ising Calibration（校准）：一个350亿参数的视觉语言模型（VLM），能够快速解读并对来自量子处理器的测量结果做出反应。基于这一模型， **Agent能够把几天的校准工作缩短到几小时** 。\n- Ising Decoding（解码）： **用3D CNN做实时纠错** ，包括",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "刚刚，李飞飞世界模型开源了个渲染神器",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651027815&idx=2&sn=deedfb56322150d7db37f6f1ca1851f5",
+      "published_at": "2026-04-15T04:21:00.000Z",
+      "summary": "原创关注世界模型的 2026-04-15 12:21 北京\n\n把亿级3D世界搬进浏览器\n\n编辑｜杜伟\n\n刚刚，李飞飞世界模型新成果来了，还是开源的！\n\n就在今天凌晨， 李飞飞空间智能独角兽公司 World Labs 官宣推出「Spark 2.0」，将最具野心的 3DGS（3D 高斯泼溅）世界带入到 Web 。\n\n这意味着，原本只有专业设备才能运行的超大规模、高保真 3D 场景，现在变成任何人都可以在浏览器中访问的内容。\n\n而随着高保真 3D 内容可以在任意设备上进行访问，包括手机、VR 设备等，空间叙事能力向前迈进了一大步。\n\n这个专为 3DGS 打造的渲染器还是开源的，可以流式加载 1 亿 ",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "This startup is betting tokenmaxxing will create the next compute giant",
+      "url": "https://techcrunch.com/2026/04/15/parasail-raises-32m-to-feed-tokenmaxxing-ai-developers/",
+      "published_at": "2026-04-15T13:00:00.000Z",
+      "summary": "Parasail raised $32 million in a Series A, signaling a fractured future of models and compute.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google launches a Gemini AI app on Mac",
+      "url": "https://www.theverge.com/tech/912638/google-gemini-mac-app",
+      "published_at": "2026-04-15T18:10:15.000Z",
+      "summary": "Google is[launching a new Gemini app](https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-mac-os/)on Mac that allows you to interact with the AI assistant without switching windows on your desktop. With the app, you can use the**Option + Space**shortcut to pull up a floating ",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Allbirds announced a switch from shoes to AI and its stock jumped 600 percent",
+      "url": "https://www.theverge.com/news/912484/allbirds-ai-hyperscale",
+      "published_at": "2026-04-15T16:13:30.000Z",
+      "summary": "Allbirds had a hit a decade ago with its Wool Runner shoes, but after a $4 billion IPO in 2021, the business never turned a profit, and sales dropped nearly 50 percent between 2022 and 2025. The company recently[announced](https://ir.allbirds.com/news-releases/news-release-details/allbirds-signs-def",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: NASA’s nuclear spacecraft and unveiling our AI 10",
+      "url": "https://www.technologyreview.com/2026/04/15/1135904/the-download-nasa-nuclear-powered-spacecraft-10-things-that-matter-in-ai-right-now/",
+      "published_at": "2026-04-15T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **NASA is building the ",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "新Vidu Q3参考生，这是冲着「剧」来的！万物皆可参考：特效音效场景都备好了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247883563&idx=1&sn=3010a2451e000e6e213cb45f63e28b10",
+      "published_at": "2026-04-15T04:37:00.000Z",
+      "summary": "原创关注前沿科技 2026-04-15 12:37 北京\n\n参考生的纪录，Vidu自己超越自己\n\n##### 针寞机 发自 凹非寺 量子位 | 公众号 QbitAI\n\n咱就是说啊，这年头做一个小短剧，真的不要太简单。\n\n因为，现在手搓一集 **国漫** 小短剧，真的是 **几张图** 就能搞定！\n\n话不多说，直接来看效果：\n\n不论是打斗的 **特效** 还是背景 **音效** 、人物的 **旁白** ，都是一锅出的那种！\n\n这就是 **生数科技Vidu Q3** 正式发布的 **参考生视频** ，主打的就是一个 为剧而生，万物可参，声画同出。\n\n（早在Vidu Q3在今年1月发布的时候，它就登",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "实测参考生之王Vidu Q3：这已经不叫AI生成了，这叫AI驱动整个剧组",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651027815&idx=1&sn=ae947e65b36eee8d4e14fd7ed62cbb07",
+      "published_at": "2026-04-15T04:21:00.000Z",
+      "summary": "原创关注视频生成的 2026-04-15 12:21 北京\n\nVidu Q3 把「参考生」做成生产力\n\n编辑｜+0\n\n话不多说，先来看一段短片。\n\n大家觉得效果如何？以上短片的视听内容几乎都由生数科技最新发布的视频大模型 Vidu Q3 生成。\n\n4 月 13 日，Vidu Q3 正式上线了「参考生视频 」 。 值得注意的是，在全球首个参考生榜单 SuperClue 榜单上，Vidu Q3 断层登顶！多图/单图参考任务双榜第一。\n\n过去一个月，如果你刷过短视频平台，大概率已经见过一种越来越「怪」的内容：剧情很抓人、更新很快，但仔细一看，演员不太对劲。\n\n有新闻热议未来可能有短剧除了主角，配角全",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI learning app Gizmo levels up with 13M users and a $22M investment",
+      "url": "https://techcrunch.com/2026/04/15/ai-learning-app-gizmo-levels-up-with-13m-users-and-a-22m-investment/",
+      "published_at": "2026-04-15T18:38:10.000Z",
+      "summary": "Gizmo, an AI-powered learning platform, has attracted more than 13 million users and just secured $22 million in Series A funding.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The musician-turned-biotech-founder waiting to fundraise",
+      "url": "https://techcrunch.com/podcast/the-musician-turned-biotech-founder-waiting-to-fundraise/",
+      "published_at": "2026-04-15T17:58:28.000Z",
+      "summary": "When Grammy-nominated singer-songwriter&#160;Aloe Blacc&#160;got COVID despite being vaccinated and boosted, he tried to fund research for a better solution.&#160;What&#160;he&#160;quickly&#160;found&#160;out? You&#160;can&#8217;t&#160;just write a check in biotech. Regulators require a commercializ",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+      "published_at": "2026-04-15T16:03:19.000Z",
+      "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Gitar, a startup that uses agents to secure code, emerges from stealth with $9 million",
+      "url": "https://techcrunch.com/2026/04/15/gitar-a-startup-that-uses-agents-to-secure-code-emerges-from-stealth-with-9-million/",
+      "published_at": "2026-04-15T13:00:00.000Z",
+      "summary": "The company uses AI to review code that, more often than not these days, has also been generated by AI.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+      "url": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+      "published_at": "2026-04-15T12:07:25.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "在硅谷和两个 AI 工程师聊完，我觉得下一代汽车可能不是车了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653103911&idx=1&sn=f52d5a12bafa8e060a4fb08e192a3f10",
+      "published_at": "2026-04-15T04:09:00.000Z",
+      "summary": "原创靖宇 2026-04-15 12:09 北京\n\nGTC 大会上人人都在谈 Agent 和具身智能，但真正让我理解 AI 如何进入物理世界的，是在一台极氪 9X 里发生的两场对话。\n\n**作者｜靖宇**\n\n触目所及，满眼都是绿色。围绕着展览馆区域，整个圣何塞市中心，包括人们胸前的证件，充满了硅谷特有的「赛博绿」。\n\n这是英伟达 GTC2026 大会的现场，全球超过 3 万人，来到这里，希望能更贴近快速进化的 AI 的最前沿。仿佛受到人们热情的感染，加州今年的天气反常，3 月中旬中午气温蹿升到 20 度以上，阳光照在人们热切的脸上，反射出焦虑的光晕。\n\n仅仅两年时间， **人们口中聊的，已经从",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Trump’s posting even more AI-generated Trump-Jesus fan art",
+      "url": "https://www.theverge.com/column/912627/trump-jesus-ai-whcd-penguin-meme",
+      "published_at": "2026-04-15T19:50:31.000Z",
+      "summary": "The version posted by @realdonaldtrump/Truth Social.\n*Hello and welcome to*Regulator*, a newsletter for*Verge*subscribers about Big Tech power plays in Washington and beyond. (And when I say beyond, I mean the great beyond, like Heaven, maybe.) If you've found your way to this newsletter from the wi",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "LinkedIn data shows AI isn’t to blame for hiring decline… yet",
+      "url": "https://techcrunch.com/2026/04/15/linkedin-data-shows-ai-isnt-to-blame-for-hiring-decline-yet/",
+      "published_at": "2026-04-15T18:51:54.000Z",
+      "summary": "LinkedIn says hiring is down 20% since 2022, but blames higher interest rates — not AI — for the slowdown.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Can AI judge journalism? A Thiel-backed startup says yes, even if it risks chilling whistleblowers",
+      "url": "https://techcrunch.com/2026/04/15/can-ai-judge-journalism-a-thiel-backed-startup-says-yes-even-if-it-risks-chilling-whistleblowers/",
+      "published_at": "2026-04-15T18:33:20.000Z",
+      "summary": "Objection, a Thiel-backed startup, aims to use AI to judge journalism, letting users pay to challenge stories. Critics warn it could chill whistleblowers and reshape how media accountability works.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google rolls out a native Gemini app for Mac",
+      "url": "https://techcrunch.com/2026/04/15/google-rolls-out-a-native-gemini-app-for-mac/",
+      "published_at": "2026-04-15T18:22:13.000Z",
+      "summary": "You can share anything on their screen with Gemini to get help with what they're looking at in the moment, including local files.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+      "published_at": "2026-04-15T15:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3.1-flash-tts_blog_keywo.max-600x600.format-webp.webp\">Gemini 3.1 Flash TTS is now available across Google products.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "After sale of its shoe business, Allbirds pivots to AI",
+      "url": "https://techcrunch.com/2026/04/15/after-sale-of-its-shoe-business-allbirds-pivots-to-ai/",
+      "published_at": "2026-04-15T14:24:31.000Z",
+      "summary": "Allbirds is ditching wool sneakers for AI servers, rebranding as NewBird AI after locking in a $50M convertible financing facility.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Reid Hoffman weighs in on the ‘tokenmaxxing’ debate",
+      "url": "https://techcrunch.com/2026/04/15/reid-hoffman-weighs-in-on-the-tokenmaxxing-debate/",
+      "published_at": "2026-04-15T13:06:54.000Z",
+      "summary": "Reid Hoffman says tracking AI token use can gauge adoption, but cautions it should be paired with context and not treated as a direct productivity metric.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Adobe’s new Firefly AI assistant can use Creative Cloud apps to complete tasks",
+      "url": "https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/",
+      "published_at": "2026-04-15T13:01:00.000Z",
+      "summary": "Adobe says the assistant can work across apps like Firefly, Photoshop, Premiere, Lightroom, Express,  Illustrator and its other apps to do tasks for you.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Adobe embraces conversational AI editing, marking a ‘fundamental shift’ in creative work",
+      "url": "https://www.theverge.com/tech/912287/adobe-firefly-ai-assistant-announcement-editing",
+      "published_at": "2026-04-15T13:00:00.000Z",
+      "summary": "You don’t need to understand any fancy editing terms — just describe what changes you want to make. | Image: Adobe\nAdobe is fully embracing AI tools that enable creators to edit their work using descriptive prompts, instead of manually using specific Creative Cloud apps. The software giant's new Fir",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Cyberscammers are bypassing banks’ security with illicit tools sold on Telegram",
+      "url": "https://www.technologyreview.com/2026/04/15/1135898/cyberscammers-bypassing-bank-telegram/",
+      "published_at": "2026-04-15T11:26:12.000Z",
+      "summary": "From inside a money-laundering center in Cambodia, an employee opens a popular Vietnamese banking app on his phone. The app asks him to upload a photo associated with the account, so he clicks on a picture of a 30-something Asian man.\n\nNext, the app requests to open the camera for a video “liveness”",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "真正的 Skill 商店，为什么变成了微信公众号和小红书？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653104016&idx=1&sn=0035441fd7e9fd27d3f88165d654ef59",
+      "published_at": "2026-04-15T10:36:00.000Z",
+      "summary": "原创苏子华 2026-04-15 18:36 北京\n\n​我们正处在一个 Skills 大爆发，但面对海量选择，却无从下手的时代。\n\n我们正处在一个 Skills 大爆发，但面对海量选择，却无从下手的时代。\n\n**作者｜苏子华** **编辑｜ **郑玄****\n\nSkills 已经多到看不过来的程度了。\n\n仅仅在 OpenClaw 的官方技能商店 ClawHub 里，Skills 数量已经突破了 5 万个，覆盖内容创作、数据处理、自动化办公等全场景。\n\n**OpenClaw 的官方技能商店 ClawHub｜图片来源：ClawHub**\n\n与此同时，互联网大厂与 AI 公司纷纷布局 Skill 商",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "装了N个skills之后，鹅厂员工觉得“最香”的是哪一个？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801199&idx=1&sn=6e8aaa294cae62786e1cd73e98e82ad6",
+      "published_at": "2026-04-15T09:32:00.000Z",
+      "summary": "原创爱讨论的 2026-04-15 17:32 广东\n\n这些skills...太强大了\n\n### 话题背景\n\n最近大家都在研究龙虾，装了好多skills，但最常用的好像还是那几个？\n\n那么装了N个skills之后，你们觉得\"最香\"的是哪一个：是每天都在用的那个？是某次救了急的那个？还是自己做的、越用越顺手的那个？\n\n这次带大家看看鹅厂的大佬们，都在用什么skill提效？也欢迎晒出你自己宝藏skill，或者把心里最想要、却还没人做的skill idea说出来（关注有奖）\n\n### 鹅厂工程师的看法\n\n**01**\n\n**sophiay** - 行业应用\n\n本人强烈安利 腾讯文档 skill，这个",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Meet HoloTab by HCompany. Your AI browser companion.",
+      "url": "https://huggingface.co/blog/Hcompany/holotab",
+      "published_at": "2026-04-15T09:25:20.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "No one’s sure if synthetic mirror life will kill us all",
+      "url": "https://www.technologyreview.com/2026/04/15/1135197/synthetic-mirror-life-microbes-kill-us-all/",
+      "published_at": "2026-04-15T09:00:00.000Z",
+      "summary": "For four days in February 2019, some 30 synthetic biologists and ethicists hunkered down at a conference center in Northern Virginia to brainstorm high-risk, cutting-­edge, irresistibly exciting ideas that the National Science Foundation should fund. By the end of the meeting, they’d landed on a com",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Building trust in the AI era with privacy-led UX",
+      "url": "https://www.technologyreview.com/2026/04/15/1135530/building-trust-in-the-ai-era-with-privacy-led-ux/",
+      "published_at": "2026-04-15T06:00:00.000Z",
+      "summary": "The practice of privacy-led user experience (UX) is a design philosophy that treats transparency around data collection and usage as an integral part of the customer relationship. An undertapped opportunity in digital marketing, privacy-led UX treats user consent not as a tick-box compliance exercis",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "柔体操作最缺数据、最怕仿真失真？新研究让布料物理真实再现",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247883563&idx=3&sn=f632f71df97c1ac20bc64c6cfeebce20",
+      "published_at": "2026-04-15T04:37:00.000Z",
+      "summary": "关注前沿科技 2026-04-15 12:37 北京\n\n第一次纯仿真数据训练的策略，能零样本迁移到真机部署\n\n##### 非羊 整理自 凹非寺 量子位 | 公众号 QbitAI\n\n近年来研究者们一直在试图通过仿真环境批量产出具身训练数据。\n\n但是仿真环境和真实环境终究还是有差异，在一些复杂场景中仿真环境还不能产出足够高质量的数据。\n\n**上海AI Lab** 最新研究，实现了对布料等棘手物品的物理性质真实再现，相关复杂条件的仿真数据质量达到了可堪一用的程度。\n\n**让仿真不再只是“近似现实”的工具，而是现实数据生成与策略学习的新入口。**\n\n具身智能的进展很快，但它真正卡住的地方也越来越清楚：",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "今年最火的AI产品，不止龙虾｜榜单申报中",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247883563&idx=4&sn=e2a0a9f89dc0748b559495d64effc44c",
+      "published_at": "2026-04-15T04:37:00.000Z",
+      "summary": "关注前沿科技 2026-04-15 12:37 北京\n\n抓紧申报了！截至4月27日\n\n##### 组委会 发自 凹非寺 量子位｜公众号 QbitAI\n\n最近每个人都被“龙虾”“爱马仕”刷屏了。\n\n但AI产品总是面临的问题是，爆火的很多，真正能留下的很少。\n\n这正是我们希望回答的：今年最值得关注的AI企业&产品是什么？\n\n不只是龙虾，我们也想找到那些 **真正跑通场景、开始被用户验证的AI产品，以及拥有技术实力、具备潜力的AI企业。**\n\n如果你来自这样的团队：\n\n- **有 清晰落地的应用场景 （而不只是demo）**\n- **有 真实用户在使用，且数据在持续增长**\n- 在某个细分领域里，已",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247883563&idx=5&sn=f2166423a348ca196e001f23e47e08f5",
+      "published_at": "2026-04-15T04:37:00.000Z",
+      "summary": "关注前沿科技 2026-04-15 12:37 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

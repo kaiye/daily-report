@@ -1,0 +1,393 @@
+{
+  "generated_at": "2026-07-02T00:02:21.772Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 31,
+  "items": [
+    {
+      "source": "MIT Technology Review AI",
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "url": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "published_at": "2026-07-01T14:35:16.000Z",
+      "summary": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and you’ll get 8 or 9.\n\nThat won’t work every time—but if it did f",
+      "priority_score": 400,
+      "matched_keywords": [
+        "Claude",
+        "ChatGPT",
+        "GPT",
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "飞书让表格变成「AI同事」加入群聊，不打开表就能用表",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042107&idx=1&sn=3e8c78829980da74c9ff711576eef040",
+      "published_at": "2026-07-01T03:59:00.000Z",
+      "summary": "原创爱用Agent的 2026-07-01 11:59 四川\n\n跟团队的新同事交个朋友……\n\n编辑｜冷猫、Panda\n\n6 月 23 日，Anthropic 发布了一个叫 Claude Tag 的东西。\n\n简单说就是把 Claude 以团队成员的身份塞进了 Slack 频道。多人可以 @Claude 分派任务，它能持续学习频道上下文，主动跟进未解决事项，Anthropic 内部 65% 的产品团队代码已经由它生成。\n\n这个消息着实让人振奋，因为 Claude Tag 第一次真正做到了「让 Agent 成为数字同事」。这也让 Agent 开始进入所谓的 T ea m Agent 时代，即 为整个",
+      "priority_score": 250,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: Anthropic launches Claude Science, and California’s carbon manure math",
+      "url": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
+      "published_at": "2026-07-01T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Claude Science is Ant",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "Anthropic承认了！Claude Code木马门被抓包，明天回滚",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710162&idx=1&sn=7975e3d69ba70d08536f333f6cab305e",
+      "published_at": "2026-07-01T05:25:00.000Z",
+      "summary": "ASI启示录 2026-07-01 13:25 北京\n\n木马藏了3个月，被抓才说要删\n\n### **新智元报道**\n\n##### **【新智元导读】** Anthropic偷偷把隐形代码藏在Claude Code，持续3个月余。被抓包后，Claude Code负责人辩解称：都是误会，马上移除！\n\n刚刚，Anthropic承认Claude Code存在「木马」，明天就回滚。\n\n原因在于Anthropic被曝在Claude Code中暗藏玄机，从2.1.91版本开始，便暗中嵌入了「隐形代码」！\n\n如果你启用了网络代理，Claude Code会通过对系统提示词进行不可见的修改，秘密传输位置等信息。\n",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropics long-sidelined Fable 5 is greenlit to return",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+      "published_at": "2026-07-01T00:03:55.000Z",
+      "summary": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In[a post on X](https://x.com/AnthropicAI/status/2072106151890809341?), Anthropic said it plans to begin restoring access Wednesday to users globally on Claude platfor",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "《恋与深空》取消敖尹上线，承诺不再推出新男主；英伟达在华启动机器人人才招聘；中国大学停招众多语言专业｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109637&idx=1&sn=38a69dcef8c458823f0d3aee59517e06",
+      "published_at": "2026-07-01T00:03:00.000Z",
+      "summary": "Moonshot 2026-07-01 08:03 重庆\n\n月之暗面估值增至 315 亿美元，ARR 破 3 亿美元；\n\n消息称 OpenAI 研发出新方案，可将推理成本减半；\n\n苹果发起 DMCA 维权，全网清除 iPhone 18 Pro 泄露素材\n\n## 叠纸游戏宣布《恋与深空》取消敖尹上线与开发安排，承诺未来不再推出新男主\n\n6 月 30 日，叠纸游戏官方在微博发文道歉，宣布旗下游戏《恋与深空》将取消敖尹上线与开发安排。\n\n据博文所述，叠纸游戏自项目筹备之初就希望《恋与深空》能够成为一个持续成长、不断丰富的恋爱世界，为玩家带来更多样的体验。近期各种问题接连发生，他们及时调整并处理相关内",
+      "priority_score": 152,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "一文了解｜SkillScan 智能体技能安全扫描最佳实践",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520623&idx=1&sn=aa90e07b9cd476f64938f0ae935909f0",
+      "published_at": "2026-07-01T11:11:00.000Z",
+      "summary": "原创火山引擎 AI 安全 2026-07-01 19:11 北京\n\n**一、引言**\n\n随着 AI Agent 技能（Skills）生态的迅速发展，社区开发者贡献的技能数量与日俱增。然而，这些技能来源多样、质量参差不齐，其安全性缺乏有效保障。攻击者可能借机发布恶意技能，对用户设备进行攻击或窃取数据。SkillScan 作为面向智能体技能包的全链路安全检测方案，为技能生态提供全面的安全保障。\n\n本文将从 **风险全景、检测能力、场景实践、接入方案、开发规范** 五个维度，全面梳理技能安全的核心挑战，详细阐述 SkillScan 的安全检测体系与保障方案，为业务接入与开发者提供完整的实践指南。\n\n",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Trump drops restrictions on Anthropic’s Mythos and Fable models",
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "published_at": "2026-07-01T02:16:06.000Z",
+      "summary": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "谷歌深夜双发！最便宜Nano Banana来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710162&idx=2&sn=75fa217b9dad74b9fa3a76552a0ca883",
+      "published_at": "2026-07-01T05:25:00.000Z",
+      "summary": "ASI启示录 2026-07-01 13:25 北京\n\n四秒出图两毛钱\n\n### **新智元报道**\n\n##### **【新智元导读】** 谷歌深夜狂甩王炸：4秒极速出图，成本仅需两毛！新模型Nano Banana 2 Lite联手视频神器Omni Flash，彻底打通图生视频流水线，引爆AI创作效率革命。\n\n昨晚，Google DeepMind悄然上线两枚重磅杀器。\n\nNano Banana 2 Lite（gemini-3.1-flash-lite-image），堪称史上最快最便宜的文生图模型，4秒生图，每张1K分辨率高清图成本低至0.24元。\n\nGemini Omni Flash则是面向开",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "OceanBase湖库一体，重新定义AI数据库",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901046&idx=1&sn=b39e71eb4ed8d2cfcdecabe43eb783ee",
+      "published_at": "2026-07-01T05:53:00.000Z",
+      "summary": "量子位 2026-07-01 13:53 北京\n\n一套技术栈实现离在线统一\n\n##### OceanBase CTO 杨传辉 量子位 | 公众号 QbitAI\n\nAI时代苟日新，日日新，又日新， **数据库** 也是如此。\n\n主流数据库的发展经历了几次重要演进：从最早的OLTP数据库，到OLAP从其中分离出来成为数据仓库，再到大数据系统。长期以来，数据库架构主要围绕人类应用、确定性交易和结构化数据分析设计。\n\n今天，新的变化正在发生。\n\nAI Agent不再只是读取数据、回答问题，而是开始调用工具、生成代码、执行任务、修改状态，甚至参与业务流程。数据库的使用者，正在从人类应用扩展到大量自主运行",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "冷门新语言AI写不动？IEEE论文：从零到及格线，MoonBit给出完整训练路线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901046&idx=3&sn=f81efbdae1fa6cca391a9c4389820598",
+      "published_at": "2026-07-01T05:53:00.000Z",
+      "summary": "关注前沿科技 2026-07-01 13:53 北京\n\nAI时代的新编程语言，如何被模型学习和理解？\n\n##### 宗恩 投稿 量子位 | 公众号 QbitAI\n\n对于Python、Java、JavaScript这些语言，大模型通常能给出相当成熟的答案。\n\n但如果换做小众的、样例不足的年轻语言呢？\n\n**大模型到底是真的掌握了通用编程能力，还是更擅长那些在训练数据里出现过无数次的语言？**\n\n一篇新论文把这个问题拉到了台前。\n\n论文题为《No  Resource, No Benchmarks, No Problem? Evaluating and Improving LLMs for  Cod",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "url": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "published_at": "2026-07-01T02:04:40.000Z",
+      "summary": "Wayve’s offering is part of a growing trend of AI startups using employee tenders as a strategic tool to attract and retain talent.",
+      "priority_score": 52,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "一句话生图要过时了？开源图像生成Agent进化出「工具编排」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042107&idx=3&sn=35f6528ab089fe866de6e2e8911ddf1f",
+      "published_at": "2026-07-01T03:59:00.000Z",
+      "summary": "机器之心 2026-07-01 11:59 四川\n\n先搜索、再找参考、最后作画\n\n图像生成正在从「 一句话生成一张图」，走向更接近真实创作流程的开放任务。\n\n在实际使用中，用户常常不只是给出一个 prompt：他可能要求画面对齐某个地标、人物、商品或事件，也可能要求参考图身份一致、材质特殊、或者要求模糊的描述也能表达清楚。面对这些需求，单靠生成模型一次前向推理很难稳定完成。\n\n近期，来自香港科技大学（广州）、美团、香港科技大学、新加坡国立大学等机构的研究团队提出 GenEvolve ，一个面向开放图像生成的自我进化智能体框架。它将一次生成建模为一「 工具编排轨迹」：智能体先理解请求，再调用搜索",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller",
+      "url": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
+      "published_at": "2026-07-01T18:47:22.000Z",
+      "summary": "Sound built its reputation on concentrated, high-conviction bets in category-leading AI labs, while Kutcher's new fund appears to be chasing the layer underneath those companies — the infrastructure and energy that power them.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in June 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "published_at": "2026-07-01T18:15:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from June 2026.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "自变量 200 亿估值背后，具身智能在给什么定价？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109658&idx=1&sn=4ab5b726ac37526ebefada087209efe4",
+      "published_at": "2026-07-01T05:37:00.000Z",
+      "summary": "原创Li Yuan 2026-07-01 13:37 湖北\n\n200 亿元估值已经成了头部 具身智能公司 的新标杆。\n\n**作者｜Li Yuan** **编辑｜ **郑玄****\n\n最近和朋友聊天，一个同样关注具身智能的朋友说，自己之前有点错判形势了。年初前三个月，行业融资已经很热闹，当时觉得大家该融的应该也融得差不多了，接下来可能会安静一点。结果现在看，完全不是这么回事。\n\n最近两天，最轰动的融资消息是，自变量机器人又连续完成了 B+、B++ 和 C 轮融资，估值突破 200 亿元人民币。而且是全部交割后的估值。\n\n极客公园 4 月刚刚写过，自变量完成了 B 轮融资，投资方是小米战投。也就是",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cloudflare’s new policy pushes AI companies to pay for publishers’ content",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "published_at": "2026-07-01T17:48:37.000Z",
+      "summary": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents, or risk being blocked by default on many publisher sites.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
+      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "published_at": "2026-07-01T14:20:19.000Z",
+      "summary": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac alongside other improvements, like real-time tracking and support for more apps.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "published_at": "2026-07-01T13:43:07.000Z",
+      "summary": "Meta is developing plans for a cloud infrastructure business, selling access to AI compute power and models. The move would pit it against the big cloud providers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "五块钱如何花三天...      horsley，一位腾讯应用开发高级工程师  从token 焦虑到系统化治理，horsley这次想分享的不是几个省 token 小技...",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802390&idx=1&sn=509449770a62d5427b3154525c1a9445",
+      "published_at": "2026-07-01T09:54:00.000Z",
+      "summary": "腾讯技术工程 2026-07-01 17:54 贵州\n\n五块钱如何花三天...\n\nhorsley，一位腾讯应用开发高级工程师\n\n从token 焦虑到系统化治理，horsley这次想分享的不是几个省 token 小技巧，而是额度收紧后，团队怎样更稳定、更可持续地使用 Agent。\n\n要真正管住 Token 成本，不能只靠临时节流，关键是先把这四件事看清楚：\n\n一，真正的问题是浪费不可见\n\n很多 token 不是花在难题上，而是花在黑盒里的绕路上。尤其在 IDE vibe 里，外部只看到结果，却看不到 agent 有没有选错模型、反复读旧上下文、工具失败后重试，或因为环境问题绕远路。\n\n所以第一步",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "Loop世界模型论文登顶Hugging Face，来自中国一家初创，周鸿祎陆奇都投了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901046&idx=2&sn=da7bf1ec203f115bc3c7ead358b109aa",
+      "published_at": "2026-07-01T05:53:00.000Z",
+      "summary": "关注前沿科技 2026-07-01 13:53 北京\n\n重写AI如何反复推演世界\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\nPrompt还没退场，Loop已经开始接管AI叙事。\n\n这两周，硅谷开发者圈最热的词之一，是 **Loop Engineering** 。\n\n它讲的是一件很“Agent时代”的事：别再手动一轮轮prompt模型了，去设计一个循环系统，让AI自己执行、检查、修正、继续跑，直到任务完成。\n\n传统模式以prompt为核心，现在开始转向以 **工作流** 为核心，这也是它突然爆红的原因。\n\n而就在大家热议“怎么让AI自己跑起来”时，另一条更硬的线也在快",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "邢波再出手：上次「骂」完世界模型，这次轮到智能体了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042107&idx=2&sn=455937649735c225e976b085ef82100c",
+      "published_at": "2026-07-01T03:59:00.000Z",
+      "summary": "原创关注Agent的 2026-07-01 11:59 四川\n\n邢波团队拆解五大软肋后，开出了智能体的「药方」：GIC 架构\n\n编辑｜Panda\n\n去年夏天，MBZUAI 校长、CMU 教授邢波一篇《世界模型批评》吸引了研究社区广泛关注，他从科幻经典《沙丘》里「完美模拟现实」的想象出发，逐一拆解了当下几大世界模型流派的硬伤，提出了一套新架构，也由此引出了他与 Yann LeCun 之间一场关于「世界模型到底该怎么造」的公开辩论。参阅我们当时的报道《 [「世界模型」也被泼冷水了？邢波等人揭开五大「硬伤」，提出新范式](https://mp.weixin.qq.com/s?__biz=MzA3Mz",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+      "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+      "published_at": "2026-07-01T18:54:18.000Z",
+      "summary": "SpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "url": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "published_at": "2026-07-01T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Summit_Photo_1.max-600x600.format-webp.webp\">Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "published_at": "2026-07-01T14:25:23.000Z",
+      "summary": "Venice AI is already profitable, with annualized run-rate revenues of over $70 million, CEO Erik Voorhees said.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Builders Stage agenda revealed: Practical strategies for scaling startups at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026/",
+      "published_at": "2026-07-01T14:00:00.000Z",
+      "summary": "The Builders Stage is returning to TechCrunch Disrupt 2026, bringing together 10,000+ founders, startup operators, and investors for practical conversations. and Q&#038;A on what it takes to build and scale successful companies. Register now to save up to $330.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google built a great smart speaker, but Gemini isn’t ready for it",
+      "url": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
+      "published_at": "2026-07-01T12:00:00.000Z",
+      "summary": "The Google Home Speaker is Google’s first smart speaker in years. And it’s pretty! | Photo: Jennifer Patison Tuohy / The Verge\nSmart speakers have spent the past few years searching for a compelling second act. Beyond music, timers, and controlling your lights, they've struggled to justify taking up",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "2 年，他和 AI「聊」出一家智能戒指公司，还盈利了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109662&idx=1&sn=ab38ee43713ccfae28e12c636a1799a4",
+      "published_at": "2026-07-01T09:00:00.000Z",
+      "summary": "原创苏子华 2026-07-01 17:00 北京\n\n0 个全职员工，做出一款爆品。\n\n**作者｜苏子华** **编辑｜靖宇**\n\n这原本是一个很容易让人忽视的普通创业故事。\n\n2025 年，Kickstarter 上有一个叫 AIVELA Ring Pro 的智能戒指，众筹了约 86 万美元。放在一个项目动辄众筹千万美元、大几百万美元的今天，这个数字并不出彩。\n\n但如果说，这是一个人 solo 出来的项目，整个项目没有全职员工，连创始人自己都是兼职，而且项目还盈利了。是不是就不一样了？\n\n以及，如果说创始人本来是智能戒指领域的「门外汉」，在下班后的时间，一路指挥 AI 来做竞品分析、产品设计",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901046&idx=4&sn=46433445fd2caf7883e5e576e55dec20",
+      "published_at": "2026-07-01T05:53:00.000Z",
+      "summary": "关注前沿科技 2026-07-01 13:53 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "新智元ALL in ASI英雄帖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710162&idx=3&sn=8f934044faab7cddcc3b9ef051e3716b",
+      "published_at": "2026-07-01T05:25:00.000Z",
+      "summary": "ASI启示录 2026-07-01 13:25 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 2026年，ASI奇点之年。全球AI竞赛进入决赛圈，AI正以指数级的速度重塑世界。新智元All in ASI，现招募两个核心战位——ASI架构师（年薪50-70万）与ASI主笔（年薪50-70万），坐标北京上地，虚位以待。**\n\n全球AI竞赛进入决赛圈，每天都有大事发生。 新智元要覆盖的赛道、要打的仗也在飙升。 我们不仅要在全球AI最前沿保持绝对敏锐，更要在ASI浪潮中主动出击。 现在，新智元正式发出All in ASI英雄帖。 我们在上地AI家，召唤 **对ASI有信仰，有使",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The ‘Father of the Internet’ is finally retiring",
+      "url": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+      "published_at": "2026-07-01T03:15:37.000Z",
+      "summary": "Vinton Cerf, one of the creators of the protocols underlying the internet, will step down as Google's chief internet evangelist next week.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

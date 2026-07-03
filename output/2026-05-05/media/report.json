@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-05-05",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "前沿大模型公司的企业化扩张、OpenAI诉讼进展与开发工具更新共同构成了当天最受关注的AI新闻主线。",
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "马斯克与奥特曼围绕OpenAI未来的法庭之争持续更新",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "published_at": "2026-05-04T15:43:49.000Z",
+      "summary": "这场高风险审理正聚焦OpenAI的治理与使命争议，其结果可能影响公司未来方向及ChatGPT所处的位置。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic和OpenAI都在为企业AI服务设立合资公司",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/",
+      "published_at": "2026-05-04T15:59:24.000Z",
+      "summary": "两家公司分别与资管机构合作，以更积极地推广各自面向企业客户的AI产品与服务。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "马斯克在OpenAI庭审中的唯一AI专家证人担忧AGI军备竞赛",
+      "url": "https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/",
+      "published_at": "2026-05-04T16:57:47.000Z",
+      "summary": "长期研究AI安全的斯图尔特·罗素主张应由政府对前沿实验室施加约束，以避免能力竞赛失控。"
+    },
+    {
+      "source": "量子位",
+      "title": "面向DeepSeek优化的终端编程工具DeepSeek-TUI登上GitHub热榜",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888322&idx=1&sn=2ec6c1b3f8f61e7cf7549aaae6fb603e",
+      "published_at": "2026-05-04T04:24:00.000Z",
+      "summary": "这个用Rust编写、运行在终端中的Coding Agent因针对DeepSeek做了适配优化而迅速涨星至2.3k。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "与OpenAI关系密切的Cerebras正迈向重磅IPO",
+      "url": "https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/",
+      "published_at": "2026-05-04T21:53:21.000Z",
+      "summary": "这家AI芯片公司据称估值有望达到266亿美元以上，而其与OpenAI之间的合作关系也被视为重要看点。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI总裁出庭却几乎没有正面回答关键问题",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/923684/musk-brockman-altman-openai-trial",
+      "published_at": "2026-05-04T23:49:33.000Z",
+      "summary": "Greg Brockman在作证过程中呈现出的回避姿态，使其庭上表现本身也成为这场案件的一部分。"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Google公布2026年4月AI更新汇总",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-april-2026/",
+      "published_at": "2026-05-04T17:00:00.000Z",
+      "summary": "这篇汇总文章集中回顾了Google在4月对AI产品与能力所做的最新发布和进展。"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Gemini API推出Webhooks以降低长任务延迟和调用摩擦",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/event-driven-webhooks/",
+      "published_at": "2026-05-04T15:30:00.000Z",
+      "summary": "这一基于事件驱动的推送通知机制旨在替代低效轮询，让开发者处理长时间运行任务时更顺畅。"
+    },
+    {
+      "source": "极客公园",
+      "title": "Anthropic内部实验让AI代理在二手交易群里彼此砍价",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105106&idx=1&sn=7576732fca8fb1c12671b5afe1f38a4b",
+      "published_at": "2026-05-04T04:05:00.000Z",
+      "summary": "该实验设想用户只需设定底价和上传物品信息，后续谈判与成交流程可由买卖双方的AI助手自动完成。"
+    }
+  ]
+}

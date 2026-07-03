@@ -1,0 +1,57 @@
+{
+  "report_date": "2026-04-17",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "OpenAI、Anthropic与Google集中推出面向编码、模型能力和个性化体验的新功能，显示头部AI平台仍在以高频产品迭代争夺开发者与用户入口。",
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI大幅更新Codex，直指Claude Code",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
+      "published_at": "2026-04-16T17:00:00.000Z",
+      "summary": "这次升级为Codex加入了操作桌面应用、生成图像和利用历史记忆等能力，强化了其代理式编程与开发工作流。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic在Mythos Preview热度中发布新Opus模型",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/913184/anthropic-claude-opus-4-7-cybersecurity",
+      "published_at": "2026-04-16T15:59:24.000Z",
+      "summary": "Anthropic称Claude Opus 4.7是其目前最强的通用可用模型，重点提升了复杂编码和网络安全相关任务表现。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Gemini现可调用Google Photos生成个性化图像",
+      "url": "https://www.theverge.com/tech/913202/gemini-personal-intelligence-images-nano-banana",
+      "published_at": "2026-04-16T16:00:00.000Z",
+      "summary": "Google把个人智能功能与Nano Banana 2图像模型结合，让Gemini能基于用户照片和个人上下文创建更贴合个人生活的图片。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google更新AI Mode，可在页内打开链接",
+      "url": "https://www.theverge.com/tech/913109/google-ai-mode-tabs-sources",
+      "published_at": "2026-04-16T17:00:00.000Z",
+      "summary": "Chrome中的AI Mode现在支持将来源网页与聊天结果并排显示，用户无需离开当前页面就能查看参考内容。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "InsightFinder融资1500万美元，帮助企业定位AI代理出错环节",
+      "url": "https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/",
+      "published_at": "2026-04-16T16:15:00.000Z",
+      "summary": "这家公司希望把排障范围从单个模型扩展到接入AI后的整个技术栈，以解决企业部署AI代理时的监控与诊断难题。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Antioch获850万美元种子轮融资，要做物理AI领域的Cursor",
+      "url": "https://techcrunch.com/2026/04/16/this-simulation-startup-wants-to-be-the-cursor-for-physical-ai/",
+      "published_at": "2026-04-16T12:30:00.000Z",
+      "summary": "这笔融资将用于开发面向新一代机器人构建者的仿真工具，以提升物理AI系统的开发效率。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Factory以15亿美元估值融资，面向企业打造AI编程产品",
+      "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
+      "published_at": "2026-04-16T22:55:30.000Z",
+      "summary": "这家成立三年的初创公司完成由Khosla Ventures领投的1.5亿美元融资，继续押注企业级AI编程市场。"
+    }
+  ]
+}

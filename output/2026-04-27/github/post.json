@@ -1,0 +1,116 @@
+{
+  "generated_at": "2026-04-27T00:01:44.081Z",
+  "source_raw": "raw.json",
+  "source_count": 13,
+  "item_count": 10,
+  "language_breakdown": {
+    "Shell": 1,
+    "Python": 4,
+    "TypeScript": 2,
+    "HTML": 1,
+    "Go": 1,
+    "Markdown": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Agent Skills for real engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars_today": 2519,
+      "stars_total": 23513,
+      "forks": 1910
+    },
+    {
+      "rank": 2,
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "stars_today": 1701,
+      "stars_total": 13527,
+      "forks": 1947
+    },
+    {
+      "rank": 3,
+      "repo": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "language": "Python",
+      "stars_today": 1720,
+      "stars_total": 65418,
+      "forks": 7337
+    },
+    {
+      "rank": 4,
+      "repo": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars_today": 700,
+      "stars_total": 30150,
+      "forks": 3479
+    },
+    {
+      "rank": 5,
+      "repo": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "language": "Python",
+      "stars_today": 337,
+      "stars_total": 33826,
+      "forks": 2631
+    },
+    {
+      "rank": 7,
+      "repo": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+      "language": "HTML",
+      "stars_today": 182,
+      "stars_total": 14360,
+      "forks": 899
+    },
+    {
+      "rank": 8,
+      "repo": "gastownhall/beads",
+      "url": "https://github.com/gastownhall/beads",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "language": "Go",
+      "stars_today": 152,
+      "stars_total": 21665,
+      "forks": 1438
+    },
+    {
+      "rank": 11,
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars_today": 1075,
+      "stars_total": 496777,
+      "forks": 47078
+    },
+    {
+      "rank": 12,
+      "repo": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars_today": 627,
+      "stars_total": 364592,
+      "forks": 74660
+    },
+    {
+      "rank": 13,
+      "repo": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "stars_today": 517,
+      "stars_total": 1960,
+      "forks": 158
+    }
+  ]
+}

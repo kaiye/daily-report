@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-05-14",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日 AI 热门项目集中在代理式开发、个人 AI 基础设施、持久记忆与本地化模型能力，显示开发者正加速把 AI 代理落到真实工作流中。",
+  "items": [
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "你的个人 AI 超级智能：私密、简单且极其强大。",
+      "language": "Rust",
+      "stars_today": 1696,
+      "stars_total": 5466
+    },
+    {
+      "repo": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "description": "基于真实世界基准测试的 AI 编码代理排名第一的持久记忆。",
+      "language": "TypeScript",
+      "stars_today": 1379,
+      "stars_total": 7610
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一套有效的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1401,
+      "stars_total": 189499
+    },
+    {
+      "repo": "yikart/AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "description": "让我们用 AI 来赚钱！",
+      "language": "TypeScript",
+      "stars_today": 981,
+      "stars_total": 12906
+    },
+    {
+      "repo": "millionco/react-doctor",
+      "url": "https://github.com/millionco/react-doctor",
+      "description": "你的代理写出了糟糕的 React，它会把问题抓出来。",
+      "language": "TypeScript",
+      "stars_today": 604,
+      "stars_total": 9271
+    },
+    {
+      "repo": "danielmiessler/Personal_AI_Infrastructure",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "description": "用于放大人类能力的代理式 AI 基础设施。",
+      "language": "TypeScript",
+      "stars_today": 435,
+      "stars_total": 13355
+    },
+    {
+      "repo": "supertone-inc/supertonic",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "description": "闪电般快速的端侧多语言 TTS，通过 ONNX 原生运行。",
+      "language": "Swift",
+      "stars_today": 859,
+      "stars_total": 4346
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "面向真正工程师的技能，直接来自我的 .claude 目录。",
+      "language": "Shell",
+      "stars_today": 3392,
+      "stars_total": 78954
+    },
+    {
+      "repo": "rasbt/LLMs-from-scratch",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "description": "用 PyTorch 从零开始逐步实现类似 ChatGPT 的大语言模型。",
+      "language": "Jupyter Notebook",
+      "stars_today": 821,
+      "stars_total": 94455
+    },
+    {
+      "repo": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "面向计算机使用代理的开源基础设施，提供沙箱、SDK 和基准，用于训练与评估可控制完整桌面的 AI 代理。",
+      "language": "HTML",
+      "stars_today": 245,
+      "stars_total": 16538
+    },
+    {
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "帮助你开始进行规格驱动开发的工具包。",
+      "language": "Python",
+      "stars_today": 1120,
+      "stars_total": 98360
+    }
+  ]
+}

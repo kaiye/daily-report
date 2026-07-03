@@ -1,0 +1,126 @@
+{
+  "generated_at": "2026-06-18T00:02:30.318Z",
+  "source_raw": "raw.json",
+  "source_count": 20,
+  "item_count": 11,
+  "language_breakdown": {
+    "C": 1,
+    "Rust": 2,
+    "Python": 2,
+    "TypeScript": 3,
+    "Shell": 2,
+    "Ruby": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "language": "C",
+      "stars_today": 371,
+      "stars_total": 5215,
+      "forks": 483
+    },
+    {
+      "rank": 2,
+      "repo": "n0-computer/iroh",
+      "url": "https://github.com/n0-computer/iroh",
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "language": "Rust",
+      "stars_today": 421,
+      "stars_total": 9634,
+      "forks": 448
+    },
+    {
+      "rank": 3,
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars_today": 1161,
+      "stars_total": 33137,
+      "forks": 2668
+    },
+    {
+      "rank": 4,
+      "repo": "meshery/meshery",
+      "url": "https://github.com/meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "TypeScript",
+      "stars_today": 196,
+      "stars_total": 11014,
+      "forks": 3458
+    },
+    {
+      "rank": 5,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1129,
+      "stars_total": 231030,
+      "forks": 20542
+    },
+    {
+      "rank": 6,
+      "repo": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars_today": 606,
+      "stars_total": 21875,
+      "forks": 2129
+    },
+    {
+      "rank": 11,
+      "repo": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+      "language": "Rust",
+      "stars_today": 457,
+      "stars_total": 7632,
+      "forks": 328
+    },
+    {
+      "rank": 12,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars_today": 1523,
+      "stars_total": 133514,
+      "forks": 11600
+    },
+    {
+      "rank": 14,
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stars_today": 757,
+      "stars_total": 449125,
+      "forks": 45088
+    },
+    {
+      "rank": 15,
+      "repo": "bytedance/UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "language": "TypeScript",
+      "stars_today": 150,
+      "stars_total": 36684,
+      "forks": 3700
+    },
+    {
+      "rank": 17,
+      "repo": "chatwoot/chatwoot",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "language": "Ruby",
+      "stars_today": 264,
+      "stars_total": 32357,
+      "forks": 7713
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-04-18T00:01:02.952Z",
+  "source_raw": "raw.json",
+  "source_count": 15,
+  "item_count": 15,
+  "language_breakdown": {
+    "JavaScript": 1,
+    "Python": 5,
+    "Shell": 3,
+    "Dart": 1,
+    "Jupyter Notebook": 1,
+    "TypeScript": 4
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "EvoMap/evolver",
+      "url": "https://github.com/EvoMap/evolver",
+      "description": "The GEP-Powered Self-Evolution Engine for AI Agents. Genome Evolution Protocol. | evomap.ai",
+      "language": "JavaScript",
+      "stars_today": 737,
+      "stars_total": 4222,
+      "forks": 417
+    },
+    {
+      "rank": 2,
+      "repo": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "description": "Self-evolving agent: grows skill tree from 3.3K-line seed, achieving full system control with 6x less token consumption",
+      "language": "Python",
+      "stars_today": 845,
+      "stars_total": 3604,
+      "forks": 386
+    },
+    {
+      "rank": 3,
+      "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "description": "Claude Code skill to support Android app's reverse engineering",
+      "language": "Shell",
+      "stars_today": 538,
+      "stars_total": 2732,
+      "forks": 283
+    },
+    {
+      "rank": 4,
+      "repo": "BasedHardware/omi",
+      "url": "https://github.com/BasedHardware/omi",
+      "description": "AI that sees your screen, listens to your conversations and tells you what to do",
+      "language": "Dart",
+      "stars_today": 824,
+      "stars_total": 9815,
+      "forks": 1672
+    },
+    {
+      "rank": 5,
+      "repo": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars_today": 944,
+      "stars_total": 31508,
+      "forks": 3838
+    },
+    {
+      "rank": 6,
+      "repo": "Donchitos/Claude-Code-Game-Studios",
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "language": "Shell",
+      "stars_today": 311,
+      "stars_total": 11767,
+      "forks": 1715
+    },
+    {
+      "rank": 7,
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source voice synthesis studio",
+      "language": "TypeScript",
+      "stars_today": 797,
+      "stars_total": 19837,
+      "forks": 2278
+    },
+    {
+      "rank": 8,
+      "repo": "lukilabs/craft-agents-oss",
+      "url": "https://github.com/lukilabs/craft-agents-oss",
+      "description": "To understand what Craft Agents does and how it works watch this video.\n\nClick Here (or on the image above) to watch the video on YouTube →",
+      "language": "TypeScript",
+      "stars_today": 110,
+      "stars_total": 4291,
+      "forks": 635
+    },
+    {
+      "rank": 9,
+      "repo": "Tracer-Cloud/opensre",
+      "url": "https://github.com/Tracer-Cloud/opensre",
+      "description": "Build your own AI SRE agents. The open source toolkit for the AI era ✨",
+      "language": "Python",
+      "stars_today": 184,
+      "stars_total": 1435,
+      "forks": 170
+    },
+    {
+      "rank": 10,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1713,
+      "stars_total": 157744,
+      "forks": 13718
+    },
+    {
+      "rank": 11,
+      "repo": "z-lab/dflash",
+      "url": "https://github.com/z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "stars_today": 287,
+      "stars_total": 1801,
+      "forks": 119
+    },
+    {
+      "rank": 12,
+      "repo": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "language": "Python",
+      "stars_today": 625,
+      "stars_total": 21801,
+      "forks": 3488
+    },
+    {
+      "rank": 13,
+      "repo": "google/magika",
+      "url": "https://github.com/google/magika",
+      "description": "Fast and accurate AI powered file content types detection",
+      "language": "Python",
+      "stars_today": 956,
+      "stars_total": 15448,
+      "forks": 849
+    },
+    {
+      "rank": 14,
+      "repo": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "T3 Code is a minimal web GUI for coding agents (currently Codex and Claude, more coming soon).\n\nT3 Code currently supports Codex and Claude. Install and authenticate at least one provider before use:",
+      "language": "TypeScript",
+      "stars_today": 227,
+      "stars_total": 9432,
+      "forks": 1775
+    },
+    {
+      "rank": 15,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars_today": 196,
+      "stars_total": 35840,
+      "forks": 2192
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-05-07",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "最重要的趋势是头部AI公司一边密集发布模型与智能体更新、一边在融资合作和治理纠纷中重塑竞争格局。",
+  "items": [
+    {
+      "source": "新智元",
+      "title": "GPT-5.5 Instant 成为 ChatGPT 默认模型并向所有用户免费开放",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652697811&idx=1&sn=ef19b8efc229b6a016508efb19c3186c",
+      "published_at": "2026-05-06T01:48:00.000Z",
+      "summary": "这次更新主打更低幻觉、更强记忆和更个性化的回复表现，同时压缩回答长度以提升日常使用体验。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "DeepSeek 首轮融资估值或达 450 亿美元",
+      "url": "https://techcrunch.com/2026/05/06/deepseek-could-hit-45b-valuation-from-its-first-investment-round/",
+      "published_at": "2026-05-06T17:20:34.000Z",
+      "summary": "这家中国AI实验室因以更低算力和成本训练出具影响力的大模型而走红，如今正以高估值启动首次外部融资。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "马斯克与奥尔特曼围绕 OpenAI 未来的法庭争斗持续升级",
+      "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit",
+      "published_at": "2026-05-06T15:37:32.000Z",
+      "summary": "这场高风险审判正聚焦 OpenAI 的组织方向与控制权之争，并可能影响其未来发展及 ChatGPT 的走向。"
+    },
+    {
+      "source": "量子位",
+      "title": "Anthropic 提出用规范文档进行中训练的新方法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247888663&idx=2&sn=19ee129abb4fc04ceebd1c5f46e32920",
+      "published_at": "2026-05-06T09:46:00.000Z",
+      "summary": "这项研究在预训练与后训练之间加入专门阶段，让模型先通过合成文档理解行为规范，再进入后续对齐流程。"
+    },
+    {
+      "source": "极客公园",
+      "title": "Anthropic 推出面向金融服务任务的 AI 智能体",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105236&idx=1&sn=80309a58ebd0e55f06bcb521d4034c22",
+      "published_at": "2026-05-06T00:25:00.000Z",
+      "summary": "这一新产品瞄准金融场景中的具体执行类工作，与同篇提到的 ChatGPT 默认模型升级和苹果开放第三方 AI 服务形成呼应。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Snap 表示与 Perplexity 的 4 亿美元合作已友好终止",
+      "url": "https://techcrunch.com/2026/05/06/snap-says-its-400m-deal-with-perplexity-amicably-ended/",
+      "published_at": "2026-05-06T21:43:24.000Z",
+      "summary": "这项去年宣布的合作原计划将 Perplexity 的 AI 搜索直接整合进 Snapchat，但目前双方已结束协议。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Mira Murati 作证称她无法信任 Sam Altman 的说法",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/925338/openai-musk-v-altman-mira-murati",
+      "published_at": "2026-05-06T17:55:53.000Z",
+      "summary": "这位 OpenAI 前 CTO 在庭审证词中称，Altman 曾就新模型安全标准相关问题向她作出不实陈述。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "xAI 的真实业务或许更像新型云基础设施公司",
+      "url": "https://techcrunch.com/2026/05/06/is-xai-a-neocloud-now/",
+      "published_at": "2026-05-06T21:32:55.000Z",
+      "summary": "报道认为，xAI 的重心可能越来越偏向建设数据中心等算力基础设施，而不只是训练 AI 模型本身。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google 关闭网页任务代理项目 Project Mariner",
+      "url": "https://www.theverge.com/tech/925559/google-project-mariner-shut-down",
+      "published_at": "2026-05-06T21:21:45.000Z",
+      "summary": "这个原本用于替用户跨网站执行任务的实验性功能已被终止，显示出通用网页代理产品化仍面临挑战。"
+    }
+  ]
+}

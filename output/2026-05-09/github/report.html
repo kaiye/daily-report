@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Github 趋势</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #111827;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #91caff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #cfe2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #e9f2ff 0%, #f6f9ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #d6e4ff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #d6e4ff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #91caff 88%, white) 0%,
+      color-mix(in srgb, #91caff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #d6e4ff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">GitHub Trending Snapshot</p>
+        </div>
+        <p class="date-chip">MAY 09, 2026</p>
+      </div>
+      <h1 class="hero-title">Github 趋势</h1>
+      <p class="hero-summary">最热的共同方向是围绕智能体的工程化落地，包括编码代理、技能体系、多智能体协作以及面向垂直场景的工作流集成。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">anthropics/financial-services</span>：面向我们最常见金融服务工作流的参考智能体、技能与数据连接器——涵盖投资银行、股票研究、私募股权和财富管理。
+          </p>
+          <p class="item-metric">⭐ +3.7K today · 15.1K total</p>
+          <a class="item-link" href="https://github.com/anthropics/financial-services">https://github.com/anthropics/financial-services</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">Shell</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">addyosmani/agent-skills</span>：面向 AI 编码智能体的生产级工程技能。
+          </p>
+          <p class="item-metric">⭐ +1.9K today · 35.3K total</p>
+          <a class="item-link" href="https://github.com/addyosmani/agent-skills">https://github.com/addyosmani/agent-skills</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">Rust</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Hmbown/DeepSeek-TUI</span>：在终端中运行的 DeepSeek 模型编码智能体。
+          </p>
+          <p class="item-metric">⭐ +3.7K today · 21.7K total</p>
+          <a class="item-link" href="https://github.com/Hmbown/DeepSeek-TUI">https://github.com/Hmbown/DeepSeek-TUI</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">z-lab/dflash</span>：DFlash：用于 Flash 推测解码的块扩散方法。
+          </p>
+          <p class="item-metric">⭐ +379 today · 3.8K total</p>
+          <a class="item-link" href="https://github.com/z-lab/dflash">https://github.com/z-lab/dflash</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">JavaScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">decolua/9router</span>：无限免费 AI 编码，将 Claude Code、Codex、Cursor、Cline、Copilot、Antigravity 通过 40 多个提供商接入免费的 Claude、GPT、Gemini，并支持自动回退与 RTK -40% tokens。
+          </p>
+          <p class="item-metric">⭐ +1.1K today · 5.5K total</p>
+          <a class="item-link" href="https://github.com/decolua/9router">https://github.com/decolua/9router</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">HKUDS/AI-Trader</span>：《AI-Trader：100% 全自动、原生智能体交易》。
+          </p>
+          <p class="item-metric">⭐ +202 today · 14.6K total</p>
+          <a class="item-link" href="https://github.com/HKUDS/AI-Trader">https://github.com/HKUDS/AI-Trader</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">LearningCircuit/local-deep-research</span>：在 SimpleQA 上约达 95%，支持全部本地与云端 LLM、10 多种搜索引擎以及你的私有文档，并且全程本地且加密。
+          </p>
+          <p class="item-metric">⭐ +559 today · 6.7K total</p>
+          <a class="item-link" href="https://github.com/LearningCircuit/local-deep-research">https://github.com/LearningCircuit/local-deep-research</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">TypeScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">lobehub/lobehub</span>：工作与生活的终极空间——发现、构建并与会随你一起成长的智能体队友协作。
+          </p>
+          <p class="item-metric">⭐ +125 today · 76.5K total</p>
+          <a class="item-link" href="https://github.com/lobehub/lobehub">https://github.com/lobehub/lobehub</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">datawhalechina/hello-agents</span>：《从零开始构建智能体》——从零开始的智能体原理与实践教程。
+          </p>
+          <p class="item-metric">⭐ +667 today · 44.5K total</p>
+          <a class="item-link" href="https://github.com/datawhalechina/hello-agents">https://github.com/datawhalechina/hello-agents</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">Dart</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">flutter/skills</span>：由 Flutter 团队维护的 Flutter 智能体技能，为顺畅的 Flutter 应用开发工作流提供定制化指令集合。
+          </p>
+          <p class="item-metric">⭐ +118 today · 1.7K total</p>
+          <a class="item-link" href="https://github.com/flutter/skills">https://github.com/flutter/skills</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

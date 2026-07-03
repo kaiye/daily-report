@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-05-09T00:00:45.454Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 28,
+  "items": [
+    {
+      "source": "新智元",
+      "title": "18岁高中生用AI挖出150万未知天体，首批ChatGPT原住民毕业",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652698565&idx=2&sn=b1d139cf2933b98e71c473e1483298a1",
+      "published_at": "2026-05-08T04:12:00.000Z",
+      "summary": "新智元 2026-05-08 12:12 北京\n\n### **新智元报道**\n\n编辑：元宇\n\n##### **【新智元导读】 18岁高中生挖出约150万个未知天体，25岁博士生给1.4亿张星系图装上自然语言搜索……OpenAI发布了首届「ChatGPT Futures Class of 2026」， 26位入选者来自从大一就用上ChatGPT的年轻群体，他们正在用AI改写「优秀年轻人」的定义。**\n\n刚刚，OpenAI上线了一个叫「ChatGPT Futures」的页面。\n\n一共26个年轻人（或团队），每人（或团队）1万美元奖金，外加前沿模型访问权限。\n\n其中，最引人瞩目的一个名字叫Matte",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "token级，精准控制生成长度：3B模型击败GPT 5.4、Claude",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652698565&idx=3&sn=a2dc3d9c748f3f10e01b99ee895074ff",
+      "published_at": "2026-05-08T04:12:00.000Z",
+      "summary": "新智元 2026-05-08 12:12 北京\n\n### **新智元报道**\n\n编辑：LRST\n\n##### **【新智元导读】 LenVM将长度建模提升到token级别，开辟可扩展价值预训练的新维度——3B开源模型精确长度控制全面击败GPT-5.4、Claude-Opus-4-6等顶级闭源模型；相同token预算下推理准确率提升10倍（63% vs 6%）；沿模型规模、数据量、采样数三轴无饱和scaling的value pretraining**\n\nToken 是现代自回归模型的基本计算单元，每一个都意味着前向传播、KV缓存占用、延迟累积和能耗。随着长链推理（long-CoT）和智能体工作流",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Claude",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "GPT-5级推理能力塞进语音模型，OpenAI把同传翻译成本砍穿地板价",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889299&idx=2&sn=e1ba7eebd25734faaa35c8f3fbd3a04b",
+      "published_at": "2026-05-08T04:05:00.000Z",
+      "summary": "关注前沿科技 2026-05-08 12:05 北京\n\n三款实时语音模型上线\n\n##### 听雨 发自 凹非寺 量子位 | 公众号 QbitAI\n\nOpenAI上新三款实时语音模型，不仅集成了GPT-5级的推理能力，还重击了一拳同传行业：\n\n能紧跟发言人节奏的 **同声传译** ，现在每分钟成本 **两毛五** 。\n\n三款模型分别是 **GPT-Realtime-2** 、 **GPT-Realtime-Translate** 、 **GPT-Realtime-Whisper** ，把端到端推理语音、同声传译、流式转写三件事打包进了同一套API。\n\n效果有点炸裂。\n\nOpenAI员工Jason",
+      "priority_score": 228,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "快手首个打工人Agent来了！工作秒变桌面软件：零代码、不烧token",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652698565&idx=1&sn=a17b04221c71606b4d8d22d7252616b4",
+      "published_at": "2026-05-08T04:12:00.000Z",
+      "summary": "新智元 2026-05-08 12:12 北京\n\n### ### **新智元报道**\n\n编辑：好困 犀牛\n\n##### **【新智元导读】只是说了 句话，电脑桌面竟然直接长出一个新软件！今天起， 普通人第一次真正拥有了制造工具的超能力。**\n\nAI Agent最近的「事故」，一个比一个离谱。\n\n上个月，PocketOS创始人Jer Crane让Cursor做了一次常规的数据库迁移。\n\nAgent「理解」了任务，然后给出了自己的判断。先清空，再重建。\n\n问题是，它只完成了前半句。\n\n[9秒。生产数据库连同备份，干干净净。](https://mp.weixin.qq.com/s?__biz=MzI",
+      "priority_score": 222,
+      "matched_keywords": [
+        "AI Agent",
+        "Cursor"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The “people’s airline” and the enterprise AI gold rush",
+      "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+      "published_at": "2026-05-08T15:46:17.000Z",
+      "summary": "Everyone wants a piece of the&#160;enterprise&#160;AI pie, and this week, we saw a string of companies making their moves. From&#160;Anthropic and OpenAI announcing new joint ventures&#160;targeting enterprise AI deployment to&#160;SAP dropping $1B&#160;on German AI startup Prior Labs,&#160;it&#8217",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "所有实验室都怕字节，所有人都在夸DeepSeek！美国研究员36小时中国AI行",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889299&idx=1&sn=863c9a13fb74272f1808f0b3472e591f",
+      "published_at": "2026-05-08T04:05:00.000Z",
+      "summary": "关注前沿科技 2026-05-08 12:05 北京\n\n回去后开始担心硅谷了\n\n##### Jay 发自 凹非寺 量子位 | 公众号 QbitAI\n中国AI研究员的性格、魅力和真诚……让人倍感亲切。\n这是艾伦研究所 *（Ai2）* 的研究员 **Nat han La mbert** ，在最近结束中国之行后，发自内心的一番感慨。\n\n在Nathan眼里， 国内的LLM圈子简直是天堂 ，大家彼此尊重、即便立场不同也客客气气的。\n\n反观大洋彼岸的御三家，他突然有点没眼看。\n\n天天激情互喷，跟部落争霸似的……\n\n并非场面客套话。\n\n这次来中国的36小时，Nathan几乎把国内AI圈打卡了个遍，月之暗面、",
+      "priority_score": 200,
+      "matched_keywords": [
+        "DeepSeek",
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "美团推「养虾社区」；OpenAI 推出三款实时语音模型；宇树机器人在韩国佛门「受戒」，法名「迦悲」| 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105780&idx=1&sn=6bffdefc14926d70211698f7047c5a05",
+      "published_at": "2026-05-08T00:12:00.000Z",
+      "summary": "于程程 2026-05-08 08:12 北京\n\n宇树科技开放全球首个人形机器人应用商店 UniStore；李想呼吁所有车企推广 5C 增程技术；鸿蒙智行智界 V9 将于 5 月 15 日正式上市，预售价 39.98 万起\n\n## 宇树科技开放全球首个人形机器人应用商店 UniStore\n\n5 月 7 日，宇树科技宣布，旗下人形机器人官方共享应用平台 UniStore 正式全面开放。该平台定位为全球首个人形机器人任务动作应用商店，将通过标准化接口与生态建设，降低机器人应用的开发与使用门槛，推动人形机器人从功能机时代向智能机时代跨越。\n\nUniStore 平台的上线，为开发者和用户搭建了类似智能",
+      "priority_score": 128,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "CyberSecQwen-4B: Why Defensive Cyber Needs Small, Specialized, Locally-Runnable Models",
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/cybersecqwen-4b",
+      "published_at": "2026-05-08T17:41:05.000Z",
+      "summary": "",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Qwen"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft was worried OpenAI would run off to Amazon and ‘shit-talk’ Azure",
+      "url": "https://www.theverge.com/report/926771/microsoft-openai-amazon-worries-shit-talk-azure",
+      "published_at": "2026-05-08T15:25:02.000Z",
+      "summary": "OpenAI CEO Sam Altman and Microsoft CTO Kevin Scott. | Image: Getty Images\nWhen OpenAI was busy experimenting with AI-powered gaming bots, Microsoft CEO Satya Nadella and OpenAI CEO Sam Altman were in the early days of forming an AI partnership. Court documents from the ongoing*Musk v. Altman*trial ",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "提速4.48倍！哈工大华为新框架让扩散大模型精度无损、推理起飞",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889299&idx=3&sn=3dbeb889db6113713a1da897c6f0224f",
+      "published_at": "2026-05-08T04:05:00.000Z",
+      "summary": "关注前沿科技 2026-05-08 12:05 北京\n\n还实现跨任务平均3倍以上的加速\n\n##### Dynamic-dLLM团队 投稿 量子位 | 公众号 QbitAI\n\n文本生成这件事，扩散大语言模型 *（dLLMs）* 正展现出巨大的潜力。\n\n但与此同时，它也面临着严重的计算瓶颈——\n\n为此，哈工大（深圳）与华为、深圳河套学院的研究团队提出了一套免训练加速框架 **Dynamic-dLLM** 。\n\n不同于主流的dLLM加速方案 *（如dLLM-Cache、Fast-dLLM等）* ，它们主要依赖静态缓存或固定阈值的并行解码策略，该框架则巧妙结合了动态缓存预算分配 *（DCU）* 与自适",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "All the latest updates on AI data centers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
+      "published_at": "2026-05-08T18:45:08.000Z",
+      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. \n\nFro",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "See what happens when creative legends use AI to make ads for small businesses.",
+      "url": "https://blog.google/company-news/inside-google/company-announcements/the-small-brief/",
+      "published_at": "2026-05-08T15:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Group_Icons_1x1.max-600x600.format-webp.webp\">Today we're launching The Small Brief, an initiative bringing together three ad industry icons to champion a local businesses they love. Their mission is to build breakt…",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+      "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
+      "published_at": "2026-05-08T22:59:05.000Z",
+      "summary": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Intel’s comeback story is even wilder than it seems",
+      "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
+      "published_at": "2026-05-08T20:02:52.000Z",
+      "summary": "Intel's stock has risen a stunning 490% over the past year, a bet by Wall Street that may be running well ahead of the company's actual turnaround.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
+      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+      "published_at": "2026-05-08T18:33:21.000Z",
+      "summary": "Cloudflare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "PlayStation sees AI as a ‘powerful tool’ to help make games",
+      "url": "https://www.theverge.com/games/926914/sony-playstation-ai-powerful-tool-games",
+      "published_at": "2026-05-08T16:30:56.000Z",
+      "summary": "As part of[an earnings presentation on Friday](https://www.sony.com/en/SonyInfo/IR/library/presen/strategy/pdf/2026/speech_E.pdf), Sony shared how it's thinking about AI at the company, including many details about how it's evaluating AI as part of making PlayStation games. Generative AI has recentl",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Here’s what you need to know about the cruise ship hantavirus outbreak",
+      "url": "https://www.technologyreview.com/2026/05/08/1136988/heres-what-you-need-to-know-about-the-cruise-ship-hantavirus-outbreak/",
+      "published_at": "2026-05-08T16:19:40.000Z",
+      "summary": "MIT Technology Review Explains*: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next.* [You can read more from the series here](https://www.technologyreview.com/tag/tech-review-explains) *.*\n\nEight passengers aboard a Dutch-flagged cruise ship ha",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "url": "https://huggingface.co/blog/allenai/emo",
+      "published_at": "2026-05-08T16:03:50.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Last 24 hours to get 50% off a second pass to TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/05/08/last-24-hours-to-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
+      "published_at": "2026-05-08T14:00:00.000Z",
+      "summary": "Last day to buy one pass and get a second one at 50% off to TechCrunch Disrupt 2026. Bring a partner, co-founder, or colleague at half off. Register now.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Everybody wants to rule the AI world",
+      "url": "https://www.theverge.com/podcast/926707/openai-ceo-murati-musk-trial-vergecast",
+      "published_at": "2026-05-08T13:31:37.000Z",
+      "summary": "Sometimes, companies pick CEOs based on carefully laid succession plans designed to maximize investor confidence and future performance. Other times, apparently, companies pick CEOs based on a bunch of video calls while[the current CEO is texting the former CEO](https://www.theverge.com/ai-artificia",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Nanoleaf bets its future on robots, red light therapy, and AI",
+      "url": "https://www.theverge.com/tech/926342/nanoleaf-smart-lighting-ai-robotics-red-light-wellness",
+      "published_at": "2026-05-08T12:15:00.000Z",
+      "summary": "Nanoleaf teased a trio of new products focused on embodied AI as it looks to move its brand beyond smart lighting. | Image: Nanoleaf\nSmart lighting company Nanoleaf has been unusually quiet recently. While competitors such as Govee and Philips Hue have been[pumping out new products](https://www.thev",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: AI malaise and babymaking tech",
+      "url": "https://www.technologyreview.com/2026/05/08/1136985/the-download-ai-malaise-babymaking-ivf-tech/",
+      "published_at": "2026-05-08T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **We’ve entered the era",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "OSMO Pocket 4P，是大疆自己打响的「云台相机下半场」第一枪",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106146&idx=1&sn=f7db2dbe986ddff32f91d87a6272f3d6",
+      "published_at": "2026-05-08T09:36:00.000Z",
+      "summary": "原创张勇毅 2026-05-08 17:36 北京\n\n「手持云台相机」品类里，大疆独行时代的最后一年。\n\n**作者｜ 张勇毅** **编辑｜ **靖宇****\n\n2025 年的某段时间，打开抖音、小红书、B 站，很多人都会有一种隐约的视觉重复——一台黑色的、屏幕能旋转的小相机，反复出现。\n\n当时这台「小相机」，无论是国内的视频创作者，还是海外的 YouTuber，几乎人手一台。旅行 Vlog、家庭记录、街头美食、宠物日常，那个机身造型成了一种共同的视觉符号。Pocket 这个名字第一次穿透了科技圈的边界，渗透到普通人对「拍视频」这件事的本能想象里。这是大疆此前任何一款产品都没有达到过的渗透度。",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "抖音动态体验优化实践与思考",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247519658&idx=1&sn=95a16291712f0de8814897cc2f3dc5b2",
+      "published_at": "2026-05-08T09:30:00.000Z",
+      "summary": "原创抖音基础质量 2026-05-08 17:30 江苏\n\n**一、背景与困境**\n\n过去几年，抖音的业务边界持续拓宽，从核心短视频延伸至直播、电商、本地生活等多元场景，用户规模与交互复杂度持续增长。设备端需同时承载高性能渲染、低延迟推流、多线程预加载等密集任务，内存峰值与并发任务数激增，传统资源调度机制难以为继，面临以下挑战：\n\nAndroid 动态性能框架（ADPF）为解决感知和调度问题提供了一种思路，其可提供从硬件层面反馈实时热信息、硬件负载等精细化数据，支持应用响应和调整。ADPF 虽提供精细化硬件信号，但原生能力适配游戏场景，难以满足抖音多资源维度综合调度需求，我们需要在抖音内部深度",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Here’s how technology transformed babymaking",
+      "url": "https://www.technologyreview.com/2026/05/08/1136974/heres-how-technology-transformed-babymaking-ivf/",
+      "published_at": "2026-05-08T09:00:00.000Z",
+      "summary": "Technology is changing the way we make babies. The pioneering work of the scientists who invented IVF led to the birth of the first “test tube baby” in 1978. We’ve come a long, long way since then.\n\nThis week, I’ve been working on[a piece](https://www.technologyreview.com/2026/05/07/1136946/whats-ne",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The fax machine is the bottleneck in US healthcare, and VCs are starting to notice",
+      "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
+      "published_at": "2026-05-08T04:42:29.000Z",
+      "summary": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the founders say the administrative staff they work with aren't worried about that; they're more worried abo",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "扫地机祖师爷再创业：造了一只懂你的「人造赛博宠物」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653106034&idx=1&sn=25b2450f0bfa8cd86514983815adf563",
+      "published_at": "2026-05-08T04:07:00.000Z",
+      "summary": "原创Moonshot 2026-05-08 12:07 北京\n\n​当一台智能机器的核心功能，变成了提供情绪价值。\n\n当一台智能机器的核心功能，变成了提供情绪价值。\n\n**作者｜ Moonshot** **编辑｜ **靖宇****\n\n当下的科技圈，具身智能的叙事出奇地一致。\n\n波士顿动力的 Atlas 正在展示跑酷，特斯拉的 Optimus 试图精准捏起一颗鸡蛋，Figure 01 已经进驻宝马工厂开始搬运箱子。仿佛所有人都在比拼，谁能成为第一个「史塔克工业」（《钢铁侠》中的公司）。\n\n就在这股人形劳工狂热中，一家名为 Familiar Machines 的初创公司出现了。虽是初创，其创始人 *",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247889299&idx=4&sn=728ecacc3a438eae0c75e3937947c19e",
+      "published_at": "2026-05-08T04:05:00.000Z",
+      "summary": "关注前沿科技 2026-05-08 12:05 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

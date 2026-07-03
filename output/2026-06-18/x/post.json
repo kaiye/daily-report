@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-06-18T00:02:47.706Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-17",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2067146024452538498",
+      "text": "ANTHROPIC JUST OPEN SOURCED THE ENTIRE WALL STREET WORKFLOW AND FIRMS ARE NOT GOING TO BE HAPPY ABOUT IT.\n\nDCF models. LBO models. Equity research reports. Merger analysis. KYC checks.\n\nAll of it. Free. On GitHub.\n\nHere is what just became available to anyone with a laptop.\n\nDirect connections to Bloomberg, FactSet, S&P Global, Morningstar, and PitchBook.\n\nReal Excel models with live formulas and sensitivity tables built automatically.\n\nCIMs, IC memos, earnings reports, and buyer lists drafted on demand.\n\nPE due diligence, GL reconciliation, and NAV tie-outs running as production agents.\n\nThis is not a chatbot wrapper that summarizes financial news.\n\nThese are production agents that own entire financial workflows end to end.\n\nThe kind that investment banks and private equity firms pay $50,000 to $500,000 per year in software licenses to run.\n\nNow it is a one-line Claude Code plugin install.\n\n19,800 GitHub stars.\n\nApache 2.0 license.\n\n100% open source.\n\nThink about what this actually means.\n\nA junior analyst at a bulge bracket bank spends 80% of their 100-hour week running models, drafting memos, and compiling data across Bloomberg and FactSet.\n\nThat entire workflow just became a Claude Code agent.\n\nThe banks charging clients $500 an hour for analysis that this system produces in minutes are not going to tell you this exists.\n\nThe boutique advisory firms charging $50,000 retainers for due diligence work that these agents handle autonomously are not going to promote this repo.\n\nBut it is already live.\n\n19,800 people have already starred it.\n\nThe window where knowing this gives you an edge over every analyst, associate, and advisor still doing this manually is open right now.\n\nStar it. Fork it. Deploy it this weekend.\n\nBookmark this before your next financial model.\n\nFollow  @cyrilXBT for every open source release that disrupts an overpriced industry the moment it drops.",
+      "createdAt": "Wed Jun 17 07:23:12 +0000 2026",
+      "viewCount": 301822,
+      "likeCount": 2094,
+      "retweetCount": 222,
+      "author": {
+        "userName": "cyrilXBT",
+        "name": "CyrilXBT",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/cyrilXBT/status/2067146024452538498",
+      "is_official": false
+    },
+    {
+      "id": "2067034697704857615",
+      "text": "Whoa, GLM-5.2 is INSANE for UI/UX with the right prompting. Open models have finally closed the gap.\n\nYou have to push it, but it's super creative. I just asked for a beautiful personal site; this was all the model's idea (multiple turns): https://t.co/GSZ78dVUc6",
+      "createdAt": "Wed Jun 17 00:00:50 +0000 2026",
+      "viewCount": 129092,
+      "likeCount": 1342,
+      "retweetCount": 55,
+      "author": {
+        "userName": "anshuc",
+        "name": "Anshu",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/anshuc/status/2067034697704857615",
+      "is_official": false
+    },
+    {
+      "id": "2067298098553254211",
+      "text": "Thanks for building with us at Claude Build Day!\n300 builders spent their Saturday with us in SF, and we're blown away by what you made in a single day. \n\nHere are all the winning demos: 🧵 https://t.co/GynahLLweE",
+      "createdAt": "Wed Jun 17 17:27:29 +0000 2026",
+      "viewCount": 140727,
+      "likeCount": 1585,
+      "retweetCount": 73,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2067298098553254211",
+      "is_official": true
+    },
+    {
+      "id": "2067293745075442171",
+      "text": "GPT-5.4 helped drive a medicinal chemistry project from literature review to a validated experimental result.\n\nPaired with https://t.co/gcDaph8b2B’s Maria AI and specialized lab, the model proposed an unexpected way to improve a widely used reaction in drug discovery. https://t.co/KmyBlHLX8y",
+      "createdAt": "Wed Jun 17 17:10:11 +0000 2026",
+      "viewCount": 225903,
+      "likeCount": 2009,
+      "retweetCount": 184,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2067293745075442171",
+      "is_official": true
+    },
+    {
+      "id": "2067325887909884315",
+      "text": "New in Claude Design: it stays on brand with your design system across projects, lets you edit directly on the canvas, syncs with Claude Code, and connects to more of the tools you already use. https://t.co/MK8YvLP8zV",
+      "createdAt": "Wed Jun 17 19:17:55 +0000 2026",
+      "viewCount": 400426,
+      "likeCount": 6204,
+      "retweetCount": 419,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2067325887909884315",
+      "is_official": true
+    },
+    {
+      "id": "2067067410385883527",
+      "text": "OpenAI had a net loss of $38 billion in 2025, 8x more than in 2024\n\nvia: @edzitron https://t.co/Zj5azBU2U2",
+      "createdAt": "Wed Jun 17 02:10:49 +0000 2026",
+      "viewCount": 411635,
+      "likeCount": 1175,
+      "retweetCount": 100,
+      "author": {
+        "userName": "interesting_aIl",
+        "name": "Interesting AF",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/interesting_aIl/status/2067067410385883527",
+      "is_official": true
+    },
+    {
+      "id": "2067057137415589969",
+      "text": "Claude FULL COURSE 4 HOURS (Build &amp; Automate Anything) https://t.co/2z1O77pfKE",
+      "createdAt": "Wed Jun 17 01:30:00 +0000 2026",
+      "viewCount": 185861,
+      "likeCount": 2327,
+      "retweetCount": 475,
+      "author": {
+        "userName": "anujcodes_21",
+        "name": "Anuj",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/anujcodes_21/status/2067057137415589969",
+      "is_official": false
+    },
+    {
+      "id": "2067251442943942930",
+      "text": "OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei were among tech bosses at a G7 working lunch on AI, as the US decision to restrict access to Anthropic's most advanced models causes tension among allies https://t.co/IfdWD2xPs3 https://t.co/XSGLQWfYtX",
+      "createdAt": "Wed Jun 17 14:22:06 +0000 2026",
+      "viewCount": 1013476,
+      "likeCount": 2315,
+      "retweetCount": 377,
+      "author": {
+        "userName": "business",
+        "name": "Bloomberg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/business/status/2067251442943942930",
+      "is_official": true
+    },
+    {
+      "id": "2067346916929937827",
+      "text": "Introducing LifeSciBench, a benchmark for measuring and improving how well AI supports real-world life science research.\n\nDeveloped with 173 scientists from biotechnology and pharmaceutical research, LifeSciBench includes 750 expert-authored tasks across seven biological research workflows.\n\nhttps://t.co/JTk0wXHFrT",
+      "createdAt": "Wed Jun 17 20:41:29 +0000 2026",
+      "viewCount": 201401,
+      "likeCount": 1526,
+      "retweetCount": 145,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2067346916929937827",
+      "is_official": true
+    },
+    {
+      "id": "2067135640249209175",
+      "text": "Z ai’s GLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index scoring 51 and it sits on the Pareto frontier of Intelligence vs Cost per Task\n\n@Zai_org’s GLM-5.2 is the same size as GLM-5.1 (744B total / 40B active parameters) but scores 11 points higher on the Intelligence Index v4.1, placing ahead of MiniMax-M3 (44) and DeepSeek V4 Pro (max, 44). On the first-party API it is priced in line with GLM-5.1 at $1.4/$4.4/$0.26 per 1M input/output/cache hit tokens\n\nKey results:\n\n➤ GLM-5.2 is the leading open weights model on the Intelligence Index v4.1. At 51, it leads MiniMax-M3 (44), DeepSeek V4 Pro (max, 44) and Kimi K2.6 (43)\n\n➤ Improvements across most evaluations, particularly scientific reasoning: GLM-5.2 gains over GLM-5.1 on most evaluations, led by scientific reasoning on CritPt (+16 points to 21%) and HLE (+12 points to 40%), alongside AA-LCR (+9 points to 71%), tau3 banking (+15 points to 27%) and SciCode (+7 points to 50%). TerminalBench v2.1 also improves (+16 points to 78%) and GPQA Diamond gains 3 points to 89%\n\n➤ Leading open weights model on GDPval-AA v2 and competitive with proprietary models: GLM-5.2 scores 1524 on GDPval-AA v2, ahead of MiniMax-M3 (1418) and DeepSeek V4 Pro (max, 1328). This impressive result places GLM-5.2 in-line with proprietary models including GPT-5.5 (xhigh reasoning). GDPval-AA v2 builds on the original GDPval-AA by baselining Elo to human performance at 1000, introducing a rotating panel of frontier-model judges, and raising the turn limit from 100 to 250 for longer-horizon agent trajectories\n\n➤ GLM-5.2 uses more output tokens per task than other leading open weights models: the model uses 43k output tokens per Intelligence Index task, up from GLM-5.1 (26k) and above MiniMax-M3 (24k), Kimi K2.6 (35k) and DeepSeek V4 Pro (max, 37k)\n\n➤ On the Intelligence vs. Cost per Task Pareto Frontier: GLM-5.2 is on the Pareto frontier of the Intelligence vs Cost per Task chart, with the lowest cost per task among models at its intelligence level. GLM-5.2 costs ~$0.46 per task, compared to GLM-5.1 ($0.25), Kimi K2.6 ($0.31), MiniMax-M3 ($0.18) and DeepSeek V4 Pro (max, $0.05)\n\nAdditional Model Details:\n\n➤ License: MIT\n\n➤ Size: 744B total parameters, 40B active parameters, equivalent to GLM-5.1\n\n➤ Context window: 1M tokens, up from 200K on GLM-5.1\n\n➤ Pricing: $1.4/$0.26/$4.4 per 1M input/cache hit/output tokens\n\n➤ Availability: Alongside Z ai's first-party API, GLM-5.2 is available across third-party providers including @DeepInfra, @novita_labs, @nebiusai, @parasailnetwork , @SiliconFlowAI , @gmi_cloud  , @Baseten and @FireworksAI_HQ",
+      "createdAt": "Wed Jun 17 06:41:56 +0000 2026",
+      "viewCount": 259806,
+      "likeCount": 1752,
+      "retweetCount": 223,
+      "author": {
+        "userName": "ArtificialAnlys",
+        "name": "Artificial Analysis",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ArtificialAnlys/status/2067135640249209175",
+      "is_official": false
+    },
+    {
+      "id": "2067181377028538431",
+      "text": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.\n\nhttps://t.co/spPifB4ck3",
+      "createdAt": "Wed Jun 17 09:43:41 +0000 2026",
+      "viewCount": 1024525,
+      "likeCount": 5369,
+      "retweetCount": 492,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2067181377028538431",
+      "is_official": false
+    },
+    {
+      "id": "2067082761605648858",
+      "text": "🚨 A Netflix engineer built an open-source proxy that cuts AI token usage by 60-95%. \n\nZero code changes. \n\nBenchmarks show ±0.000 accuracy regression. \n\n✨ 29.9k stars on GitHub.\n\nIt sits between your app and the LLM, so every tool output, code block, and conversation history gets compressed in-flight. \n\n🚫 No summarization, no loss. \n😎 Just 60-95% fewer tokens with the same answers.\n\nWorks with Claude Code, Cursor, Copilot, and any OpenAI-compatible client. \n\nOne pip install, one env var, done.\n\nNetflix uses it internally. \nApache 2.0. \nBuilt by Tejas Chopra.\n\nhttps://t.co/u1OIlMF5gm",
+      "createdAt": "Wed Jun 17 03:11:49 +0000 2026",
+      "viewCount": 169105,
+      "likeCount": 1349,
+      "retweetCount": 105,
+      "author": {
+        "userName": "tonysimons_",
+        "name": "Tony Simons",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/tonysimons_/status/2067082761605648858",
+      "is_official": false
+    },
+    {
+      "id": "2067220549013524653",
+      "text": "NEW: Elon Musk says Grok will be able to make full movies by the end of this year. https://t.co/HuSl7ofZZ0",
+      "createdAt": "Wed Jun 17 12:19:20 +0000 2026",
+      "viewCount": 36527,
+      "likeCount": 1621,
+      "retweetCount": 124,
+      "author": {
+        "userName": "valuetainment",
+        "name": "Valuetainment",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/valuetainment/status/2067220549013524653",
+      "is_official": true
+    },
+    {
+      "id": "2067263498359624012",
+      "text": "Grok is now available on Amazon Bedrock.\n\nAWS developers can now build with Grok 4.3, the industry leader in hallucination rate and tool calling, powered by Bedrock’s secure inference engine. https://t.co/g3zH8Fia8R",
+      "createdAt": "Wed Jun 17 15:10:00 +0000 2026",
+      "viewCount": 94532,
+      "likeCount": 1160,
+      "retweetCount": 110,
+      "author": {
+        "userName": "xai",
+        "name": "xAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/xai/status/2067263498359624012",
+      "is_official": true
+    },
+    {
+      "id": "2067232291395661848",
+      "text": "NEW: Macron is reportedly pressing G7 leaders &amp; tech CEOs for a workaround to Trump’s restrictions on Claude models.",
+      "createdAt": "Wed Jun 17 13:06:00 +0000 2026",
+      "viewCount": 244082,
+      "likeCount": 1619,
+      "retweetCount": 107,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2067232291395661848",
+      "is_official": true
+    },
+    {
+      "id": "2067263521453224396",
+      "text": "NEW: Anthropic employees claim the Trump administration is unfairly targeting the company.",
+      "createdAt": "Wed Jun 17 15:10:06 +0000 2026",
+      "viewCount": 117509,
+      "likeCount": 1707,
+      "retweetCount": 79,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2067263521453224396",
+      "is_official": true
+    },
+    {
+      "id": "2067162868508999784",
+      "text": "🚨 Anthropic just showed a 24-minute workshop on how to actually do prompts for Claude.\n\nTaught by the people who built it.\n\nFree. No registration. No paywall.\n\nI've seen $300 courses that don't cover what they teach in the first 8 minutes.\n\nWatch it and bookmark it now. https://t.co/An1MuvIivL",
+      "createdAt": "Wed Jun 17 08:30:08 +0000 2026",
+      "viewCount": 256253,
+      "likeCount": 1598,
+      "retweetCount": 193,
+      "author": {
+        "userName": "anujcodes_21",
+        "name": "Anuj",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/anujcodes_21/status/2067162868508999784",
+      "is_official": false
+    },
+    {
+      "id": "2067313679951941686",
+      "text": "This model is insane at design.\n\nI asked GLM 5.2 (left) and Opus 4.8 (right) to build me a landing page and you can't even tell the difference.\n\nGLM cost $0.06 while opus cost $0.49. More than 6x cheaper while being faster + more token efficient.\n\nAnother win for open source AI. https://t.co/FJCYROq9Lr",
+      "createdAt": "Wed Jun 17 18:29:24 +0000 2026",
+      "viewCount": 270788,
+      "likeCount": 2036,
+      "retweetCount": 112,
+      "author": {
+        "userName": "nutlope",
+        "name": "Hassan",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/nutlope/status/2067313679951941686",
+      "is_official": false
+    },
+    {
+      "id": "2067039288491909325",
+      "text": "That's weird.. GLM 5.2 is refusing to write CUDA kernels for my b300. But, thankfully, it is happily optimizing the kernels for my Huawei ascends! And they're much cheaper anyways..",
+      "createdAt": "Wed Jun 17 00:19:04 +0000 2026",
+      "viewCount": 78894,
+      "likeCount": 1351,
+      "retweetCount": 25,
+      "author": {
+        "userName": "yacineMTB",
+        "name": "kache",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/yacineMTB/status/2067039288491909325",
+      "is_official": false
+    },
+    {
+      "id": "2067278488713798135",
+      "text": "SpaceX shareholders, this is the first chess move.\n\nAnd it’s a big one.\n\nBuckle up.\n\nThe whole internet is fixated on the $75B IPO. Almost nobody noticed what we actually did with $60B of it.\n\nWe bought a code editor. Wall Street called it impulsive. It was always the blueprint.\n\nAI isn’t a chatbot race. It’s an industrial one. And to win an industrial race, you don’t just build the cars. You own the steel mills, the assembly lines, and the dealerships.\n\nMusk just locked up all three pillars of the AI era:\n\n1.Compute (the factory): xAI’s Colossus supercomputers. The raw muscle that processes the data.\n2.The model (the engine): Grok. The intelligence.\n3.The interface (the steering wheel): Cursor. Where millions of real developers actually sit down and write code every single day.\n\nAnd here’s the kicker. Cursor is model-agnostic. Engineers use it to run OpenAI, Google, and Anthropic.\n\nMusk didn’t build a better product. He bought the infrastructure his competitors depend on.\n\nThe full stack is almost complete.",
+      "createdAt": "Wed Jun 17 16:09:34 +0000 2026",
+      "viewCount": 17945,
+      "likeCount": 1015,
+      "retweetCount": 179,
+      "author": {
+        "userName": "SoveyX",
+        "name": "Sovey",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/SoveyX/status/2067278488713798135",
+      "is_official": false
+    }
+  ]
+}

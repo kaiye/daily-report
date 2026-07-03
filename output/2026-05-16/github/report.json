@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-05-16",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是面向 AI 代理的技能框架、个人智能体与多模态本地化能力正在快速升温。",
+  "items": [
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "你的个人 AI 超级智能，私密、简单且极其强大。",
+      "language": "Rust",
+      "stars_today": 1271,
+      "stars_total": 9014
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一套有效的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1648,
+      "stars_total": 192792
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "一组可直接使用的代理技能，面向研究、科学、工程、分析、金融和写作。",
+      "language": "Python",
+      "stars_today": 646,
+      "stars_total": 22432
+    },
+    {
+      "repo": "supertone-inc/supertonic",
+      "url": "https://github.com/supertone-inc/supertonic",
+      "description": "闪电般快速的端侧多语言 TTS，通过 ONNX 原生运行。",
+      "language": "Swift",
+      "stars_today": 719,
+      "stars_total": 6024
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView 将普通 WiFi 信号转化为实时空间智能、生命体征监测和存在检测，全程无需任何视频像素。",
+      "language": "Rust",
+      "stars_today": 1859,
+      "stars_total": 57479
+    },
+    {
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Agent Skills 的公开仓库。",
+      "language": "Python",
+      "stars_today": 689,
+      "stars_total": 135106
+    },
+    {
+      "repo": "NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "url": "https://github.com/NVIDIA-AI-Blueprints/video-search-and-summarization",
+      "description": "用于构建 GPU 加速视觉代理和 AI 驱动视频分析应用的参考架构套件。",
+      "language": "Python",
+      "stars_today": 308,
+      "stars_total": 1145
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "面向真正工程师的 Skills，直接来自我的 .claude 目录。",
+      "language": "Shell",
+      "stars_today": 3132,
+      "stars_total": 84917
+    },
+    {
+      "repo": "joeseesun/qiaomu-anything-to-notebooklm",
+      "url": "https://github.com/joeseesun/qiaomu-anything-to-notebooklm",
+      "description": "Claude Skill：面向 NotebookLM 的多源内容处理器，支持微信公众号文章、网页、YouTube、PDF、Markdown、搜索查询到播客、PPT、思维导图、测验等。",
+      "language": "Python",
+      "stars_today": 438,
+      "stars_total": 2681
+    }
+  ]
+}

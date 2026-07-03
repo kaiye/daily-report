@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUN 16, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">这些帖子共同显示，AI 竞争正从单纯模型能力转向监管博弈、基础设施整合与真实工作流落地。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@Gemini</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Gemini</span>：突发：Anthropic 因 200 美元 Claude Max 计划的使用限制遭遇诉讼。
+          </p>
+          <p class="item-metric">👁 458.2K · ❤️ 1.8K</p>
+          <a class="item-link" href="https://twitter.com/Gemini/status/2066513870449958974">https://twitter.com/Gemini/status/2066513870449958974</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@Polymarket</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Polymarket</span>：新消息：白宫据称怀疑中国已接触到 Claude Mythos。
+          </p>
+          <p class="item-metric">👁 637.4K · ❤️ 7.0K</p>
+          <a class="item-link" href="https://twitter.com/Polymarket/status/2066504244111233427">https://twitter.com/Polymarket/status/2066504244111233427</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@PeterDiamandis</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Peter H. Diamandis, MD</span>：我一直在想，为什么没人用现有技术做一个真正可信的新闻源；现在看起来只有 X 的 Grok 在拼命补位，赛道几乎还是空的。
+          </p>
+          <p class="item-metric">👁 417.9K · ❤️ 3.2K</p>
+          <a class="item-link" href="https://twitter.com/PeterDiamandis/status/2066506543164432822">https://twitter.com/PeterDiamandis/status/2066506543164432822</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@ctatedev</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Chris Tate</span>：推出面向 Claude Code、Codex 和 Pi 的生成式 UI：智能体在沙盒里工作时，可同时为用户渲染图表、表单、3D 等真实界面。
+          </p>
+          <p class="item-metric">👁 78.2K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/ctatedev/status/2066555279295008908">https://twitter.com/ctatedev/status/2066555279295008908</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@a16z</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">a16z</span>：我们认为 SpaceX 吸收 xAI 后的“sentient sun”使命不是玩笑，而是在把发射、互联网与 AI 拼成通向后稀缺时代的完整技术栈。
+          </p>
+          <p class="item-metric">👁 499.5K · ❤️ 1.8K</p>
+          <a class="item-link" href="https://twitter.com/a16z/status/2066533355827683436">https://twitter.com/a16z/status/2066533355827683436</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@Polymarket</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Polymarket</span>：突发：五角大楼称，已把三分之二以上的日常 AI 工作流从 Anthropic 迁移到竞争对手供应商。
+          </p>
+          <p class="item-metric">👁 206.9K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/Polymarket/status/2066651497706737989">https://twitter.com/Polymarket/status/2066651497706737989</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@AlexanderKnigge</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Alexander Knigge</span>：Mistral AI 放出了 Le Chaton Fat 的完整论文，这可能是它的 DeepSeek 时刻。
+          </p>
+          <p class="item-metric">👁 237.5K · ❤️ 1.5K</p>
+          <a class="item-link" href="https://twitter.com/AlexanderKnigge/status/2066528515311493292">https://twitter.com/AlexanderKnigge/status/2066528515311493292</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@DanBochman</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Dan Bochman</span>：典型 Claude Opus 4.8 编程日：5 分钟讲需求、10 分钟实现，然后 13 小时反复让它承认过度工程。
+          </p>
+          <p class="item-metric">👁 381.5K · ❤️ 4.9K</p>
+          <a class="item-link" href="https://twitter.com/DanBochman/status/2066583504855449870">https://twitter.com/DanBochman/status/2066583504855449870</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@ZaiforStartups</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Z.ai for Startups</span>：GLM-5.2 开源登场，支持 100 万上下文；团队编码计划已上线，API 本周开放。
+          </p>
+          <p class="item-metric">👁 132.0K · ❤️ 2.1K</p>
+          <a class="item-link" href="https://twitter.com/ZaiforStartups/status/2066406863877636495">https://twitter.com/ZaiforStartups/status/2066406863877636495</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@MetacriticCap</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">MetaCritic Capital</span>：Satya Nadella 本只需要持续跟投 OpenAI 并保住 49% 股份，结果还是搞砸了，$MSFT。
+          </p>
+          <p class="item-metric">👁 635.4K · ❤️ 2.6K</p>
+          <a class="item-link" href="https://twitter.com/MetacriticCap/status/2066349568069894431">https://twitter.com/MetacriticCap/status/2066349568069894431</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

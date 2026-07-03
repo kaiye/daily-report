@@ -1,0 +1,159 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-05-06T00:01:10.449Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 15,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "stars_total": 7189,
+      "forks": 548,
+      "stars_today": 2434
+    },
+    {
+      "rank": 2,
+      "repo": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "language": "TypeScript",
+      "stars_total": 43579,
+      "forks": 4854,
+      "stars_today": 2432
+    },
+    {
+      "rank": 3,
+      "repo": "virattt/dexter",
+      "url": "https://github.com/virattt/dexter",
+      "description": "An autonomous agent for deep financial research",
+      "language": "TypeScript",
+      "stars_total": 23739,
+      "forks": 2895,
+      "stars_today": 659
+    },
+    {
+      "rank": 4,
+      "repo": "docusealco/docuseal",
+      "url": "https://github.com/docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "stars_total": 13989,
+      "forks": 1260,
+      "stars_today": 927
+    },
+    {
+      "rank": 5,
+      "repo": "bwya77/vscode-dark-islands",
+      "url": "https://github.com/bwya77/vscode-dark-islands",
+      "description": "VSCode theme based off the easemate IDE and Jetbrains islands theme",
+      "language": "PowerShell",
+      "stars_total": 7844,
+      "forks": 237,
+      "stars_today": 321
+    },
+    {
+      "rank": 6,
+      "repo": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 14 platforms",
+      "language": "TypeScript",
+      "stars_total": 13013,
+      "forks": 895,
+      "stars_today": 276
+    },
+    {
+      "rank": 7,
+      "repo": "cocoindex-io/cocoindex",
+      "url": "https://github.com/cocoindex-io/cocoindex",
+      "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "language": "Python",
+      "stars_total": 8373,
+      "forks": 614,
+      "stars_today": 438
+    },
+    {
+      "rank": 8,
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars_total": 93601,
+      "forks": 15404,
+      "stars_today": 1218
+    },
+    {
+      "rank": 9,
+      "repo": "jwasham/coding-interview-university",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "",
+      "stars_total": 345783,
+      "forks": 82726,
+      "stars_today": 366
+    },
+    {
+      "rank": 10,
+      "repo": "Arindam200/awesome-ai-apps",
+      "url": "https://github.com/Arindam200/awesome-ai-apps",
+      "description": "A collection of projects showcasing RAG, agents, workflows, and other AI use cases",
+      "language": "Python",
+      "stars_total": 11261,
+      "forks": 1473,
+      "stars_today": 211
+    },
+    {
+      "rank": 11,
+      "repo": "AIDC-AI/Pixelle-Video",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "language": "Python",
+      "stars_total": 11629,
+      "forks": 1796,
+      "stars_today": 691
+    },
+    {
+      "rank": 12,
+      "repo": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local &amp; Encrypted.",
+      "language": "Python",
+      "stars_total": 5148,
+      "forks": 475,
+      "stars_today": 197
+    },
+    {
+      "rank": 13,
+      "repo": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "language": "JavaScript",
+      "stars_total": 2364,
+      "forks": 153,
+      "stars_today": 311
+    },
+    {
+      "rank": 14,
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars_total": 113815,
+      "forks": 11372,
+      "stars_today": 2409
+    },
+    {
+      "rank": 15,
+      "repo": "PriorLabs/TabPFN",
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
+      "language": "Python",
+      "stars_total": 6357,
+      "forks": 638,
+      "stars_today": 57
+    }
+  ]
+}

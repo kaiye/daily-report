@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-05-02T00:00:58.352Z",
+  "source_raw": "raw.json",
+  "source_count": 9,
+  "item_count": 8,
+  "language_breakdown": {
+    "Python": 2,
+    "Rust": 2,
+    "Shell": 2,
+    "JavaScript": 1,
+    "Batchfile": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars_today": 2112,
+      "stars_total": 59820,
+      "forks": 11490
+    },
+    {
+      "rank": 2,
+      "repo": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars_today": 535,
+      "stars_total": 21625,
+      "forks": 1509
+    },
+    {
+      "rank": 3,
+      "repo": "warpdotdev/warp",
+      "url": "https://github.com/warpdotdev/warp",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "language": "Rust",
+      "stars_today": 3401,
+      "stars_total": 51418,
+      "forks": 3444
+    },
+    {
+      "rank": 4,
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars_today": 403,
+      "stars_total": 2344,
+      "forks": 206
+    },
+    {
+      "rank": 5,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars_today": 3645,
+      "stars_total": 52498,
+      "forks": 4387
+    },
+    {
+      "rank": 6,
+      "repo": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "language": "JavaScript",
+      "stars_today": 334,
+      "stars_total": 1168,
+      "forks": 81
+    },
+    {
+      "rank": 8,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1096,
+      "stars_total": 175606,
+      "forks": 15514
+    },
+    {
+      "rank": 9,
+      "repo": "Flowseal/zapret-discord-youtube",
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "description": "NEW : Ускорение Telegram Desktop - https://github.com/Flowseal/tg-ws-proxy Альтернатива https://github.com/bol-van/zapret-win-bundle Также вы можете материально поддержать оригинального разработчика zapret тут\n\nЯ не веду никакие другие страницы/группы в телеграм/ютуб каналы Если вы наткнулись на что-то вне этой страницы гитхаба, что распространяется от моего лица - ФЕЙК .",
+      "language": "Batchfile",
+      "stars_today": 145,
+      "stars_total": 26967,
+      "forks": 2107
+    }
+  ]
+}

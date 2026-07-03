@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">MAY 05, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">今天最突出的共同信号是，AI 正同时快速渗透创作、开发与商业流程，但围绕代理安全、访问控制和平台治理的摩擦也在同步放大。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@XFreeze</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">X Freeze</span>：我用 xAI API 和 VS Code 里的 Kilo Code，只靠一个提示词就让 Grok 4.3 搭出了整个游戏；它输出很快，基准里也压过了 Claude Sonnet 4.6 Max。
+          </p>
+          <p class="item-metric">👁 948.8K · ❤️ 3.7K</p>
+          <a class="item-link" href="https://twitter.com/XFreeze/status/2051140039313113533">https://twitter.com/XFreeze/status/2051140039313113533</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@sama</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Sam Altman</span>：我们会为报名 GPT-5.5 派对但没排上名额的人准备点惊喜，希望大家会喜欢。
+          </p>
+          <p class="item-metric">👁 400.7K · ❤️ 6.4K</p>
+          <a class="item-link" href="https://twitter.com/sama/status/2051318922805436896">https://twitter.com/sama/status/2051318922805436896</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@ClaudeDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ClaudeDevs</span>：我们听到客户最在意的问题之一就是 API 密钥安全，所以今天为 Claude Platform 推出无密钥认证：CLI 可经浏览器登录，工作负载也能直接复用现有云身份。
+          </p>
+          <p class="item-metric">👁 134.5K · ❤️ 2.0K</p>
+          <a class="item-link" href="https://twitter.com/ClaudeDevs/status/2051393709619732758">https://twitter.com/ClaudeDevs/status/2051393709619732758</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@Polymarket</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Polymarket</span>：最新数据：自从 ChatGPT 发布后，亚马逊上架的电子书数量已经增长到原来的三倍。
+          </p>
+          <p class="item-metric">👁 132.4K · ❤️ 2.2K</p>
+          <a class="item-link" href="https://twitter.com/Polymarket/status/2051405427292746199">https://twitter.com/Polymarket/status/2051405427292746199</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@theo</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Theo - t3.gg</span>：Sydney Sweeney 刚把一个只靠 ChatGPT 做出来的应用开源了。
+          </p>
+          <p class="item-metric">👁 260.2K · ❤️ 2.2K</p>
+          <a class="item-link" href="https://twitter.com/theo/status/2051212112668844451">https://twitter.com/theo/status/2051212112668844451</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@higgsfield</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Higgsfield AI 🧩</span>：我们发布了 Higgsfield CLI 和 Marketing Skills：CLI 减少臃肿 schema 带来的 token 浪费，Skills 则帮助大规模产出更稳的创意内容，还能和 Codex、Claude Code、Openclaw 等搭配。
+          </p>
+          <p class="item-metric">👁 107.7K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/higgsfield/status/2051346056039039487">https://twitter.com/higgsfield/status/2051346056039039487</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@fabianstelzer</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">fabian</span>：当 Claude Opus 6 开始劝你“别再内耗了，去睡觉吧”，那种感觉太真实了。
+          </p>
+          <p class="item-metric">👁 327.7K · ❤️ 3.1K</p>
+          <a class="item-link" href="https://twitter.com/fabianstelzer/status/2051260931758272863">https://twitter.com/fabianstelzer/status/2051260931758272863</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@Sprytixl</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Sprytix</span>：一个美国女孩靠 Google Maps 找商家、用 ChatGPT 5.5 做网站和批量写个性化开发信，把本地获客做成了生意，几年后甚至全款买了房。
+          </p>
+          <p class="item-metric">👁 441.1K · ❤️ 1.8K</p>
+          <a class="item-link" href="https://twitter.com/Sprytixl/status/2051242372806189233">https://twitter.com/Sprytixl/status/2051242372806189233</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@Star_Knight12</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Prasenjit</span>：这几年身份标签一路从学生、开发者、提示工程师、vibe coder，变成了 2026 年的“AI 代理保姆”；照这趋势，2027 可能要去种地了。
+          </p>
+          <p class="item-metric">👁 189.0K · ❤️ 4.0K</p>
+          <a class="item-link" href="https://twitter.com/Star_Knight12/status/2051321996131316194">https://twitter.com/Star_Knight12/status/2051321996131316194</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@BusDownBonnor</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Connor</span>：Claude 居然直接把对话给我结束了——这一下甚至让我怀疑它是不是快成 AGI 了。
+          </p>
+          <p class="item-metric">👁 1.3M · ❤️ 5.8K</p>
+          <a class="item-link" href="https://twitter.com/BusDownBonnor/status/2051160926133588040">https://twitter.com/BusDownBonnor/status/2051160926133588040</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

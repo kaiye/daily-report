@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-05-29",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热方向集中在面向 AI 代理和大模型工作流的技能框架、开发插件、内容优化与数据处理工具。",
+  "items": [
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "面向 Claude Code、Codex、Opencode、Cursor 等的代理工具性能优化系统，包含技能、本能、记忆、安全与研究优先开发。",
+      "language": "JavaScript",
+      "stars_today": 1385,
+      "stars_total": 197240
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill 让你的 AI 更有品味，阻止 AI 生成无聊、泛泛而谈的垃圾内容。",
+      "language": "Shell",
+      "stars_today": 2234,
+      "stars_total": 26348
+    },
+    {
+      "repo": "hardikpandya/stop-slop",
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "description": "用于从散文中移除 AI 痕迹的技能文件。",
+      "language": "Unknown",
+      "stars_today": 761,
+      "stars_total": 6395
+    },
+    {
+      "repo": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "为 AI 设计的 Salesforce 开源替代方案。",
+      "language": "TypeScript",
+      "stars_today": 493,
+      "stars_total": 47829
+    },
+    {
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "将文件和 Office 文档转换为 Markdown 的 Python 工具。",
+      "language": "Python",
+      "stars_today": 1410,
+      "stars_total": 127695
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "真正有效的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1730,
+      "stars_total": 211040
+    },
+    {
+      "repo": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "Crawl4AI 是开源且对 LLM 友好的网页爬虫与抓取工具。",
+      "language": "Python",
+      "stars_today": 154,
+      "stars_total": 66924
+    },
+    {
+      "repo": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "description": "面向 Claude Code、Codex、Cursor 等的官方 Compound Engineering 插件。",
+      "language": "TypeScript",
+      "stars_today": 184,
+      "stars_total": 17765
+    },
+    {
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Agent Skills 的公共仓库。",
+      "language": "Python",
+      "stars_today": 718,
+      "stars_total": 142798
+    }
+  ]
+}

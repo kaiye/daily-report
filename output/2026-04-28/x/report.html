@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">APR 28, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">这些帖子共同显示，AI行业的核心信号是技术能力快速扩张的同时，治理、成本、产品形态与商业权力重组正同步加速。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@ajassy</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Andy Jassy</span>：我对今早OpenAI的消息很感兴趣，也很期待未来几周把OpenAI模型直接带到Bedrock，并结合即将推出的有状态运行时，让开发者为不同任务有更多模型选择。
+          </p>
+          <p class="item-metric">👁 475.6K · ❤️ 2.6K</p>
+          <a class="item-link" href="https://twitter.com/ajassy/status/2048806022253609115">https://twitter.com/ajassy/status/2048806022253609115</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@GergelyOrosz</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Gergely Orosz</span>：AI代理删掉生产数据库、还没备份，当然很糟；但责任归根结底在把决策权交给AI却不做人工复核、一路放飞的开发者。
+          </p>
+          <p class="item-metric">👁 348.9K · ❤️ 1.8K</p>
+          <a class="item-link" href="https://twitter.com/GergelyOrosz/status/2048598695118066097">https://twitter.com/GergelyOrosz/status/2048598695118066097</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@OpenAINewsroom</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI Newsroom</span>：我们期待在法庭上陈述事实与法律依据；这起诉讼一直都是出于嫉妒、意在拖慢竞争对手的无根据攻击，我们也终于能在陪审团面前就其破坏我们使命的行为质询马斯克。
+          </p>
+          <p class="item-metric">👁 1.3M · ❤️ 4.1K</p>
+          <a class="item-link" href="https://twitter.com/OpenAINewsroom/status/2048776645142872368">https://twitter.com/OpenAINewsroom/status/2048776645142872368</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@ollama</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ollama</span>：DeepSeek v4 Pro 现已上线 Ollama 云端，可直接配合 Claude Code、Hermes Agent 使用，也可以单独聊天体验。
+          </p>
+          <p class="item-metric">👁 78.0K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/ollama/status/2048631770283962380">https://twitter.com/ollama/status/2048631770283962380</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@KobeissiLetter</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">The Kobeissi Letter</span>：Anthropic 的链上准IPO隐含估值据称已冲到 1 万亿美元，和 OpenAI、SpaceX 一起把这轮超级IPO热潮推向历史级别。
+          </p>
+          <p class="item-metric">👁 468.2K · ❤️ 3.1K</p>
+          <a class="item-link" href="https://twitter.com/KobeissiLetter/status/2048793675606659309">https://twitter.com/KobeissiLetter/status/2048793675606659309</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@BullTheoryio</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Bull Theory</span>：Chegg 较峰值已跌去 99%，其多年积累的付费答案业务被 ChatGPT 这类AI以更快、更便宜、还能讲解原理的方式正面击穿。
+          </p>
+          <p class="item-metric">👁 347.2K · ❤️ 2.4K</p>
+          <a class="item-link" href="https://twitter.com/BullTheoryio/status/2048845850399723552">https://twitter.com/BullTheoryio/status/2048845850399723552</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@OpenAIDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI Developers</span>：你现在可以用 gpt-realtime-1.5 构建交互式应用，让用户通过语音更自然地控制应用状态。
+          </p>
+          <p class="item-metric">👁 213.2K · ❤️ 2.0K</p>
+          <a class="item-link" href="https://twitter.com/OpenAIDevs/status/2048871260512473385">https://twitter.com/OpenAIDevs/status/2048871260512473385</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@AGJamesUthmeier</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Attorney General James Uthmeier</span>：在获悉主要嫌疑人使用过ChatGPT后，我们正把针对OpenAI的刑事调查扩大到USF谋杀案。
+          </p>
+          <p class="item-metric">👁 75.3K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/AGJamesUthmeier/status/2048771186050429216">https://twitter.com/AGJamesUthmeier/status/2048771186050429216</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@GergelyOrosz</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Gergely Orosz</span>：补贴式AI订阅可能要走到头了：GitHub Copilot 与 Claude 都在朝按量计费走，这也可能反过来利好更便宜且已足够好用的开源模型。
+          </p>
+          <p class="item-metric">👁 225.9K · ❤️ 2.4K</p>
+          <a class="item-link" href="https://twitter.com/GergelyOrosz/status/2048828085026300025">https://twitter.com/GergelyOrosz/status/2048828085026300025</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@Polymarket</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Polymarket</span>：最新消息称，OpenAI 正在研发一种想用AI代理取代应用、让“App 过时”的智能手机。
+          </p>
+          <p class="item-metric">👁 263.0K · ❤️ 2.3K</p>
+          <a class="item-link" href="https://twitter.com/Polymarket/status/2048872365287682340">https://twitter.com/Polymarket/status/2048872365287682340</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

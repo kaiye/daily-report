@@ -1,0 +1,24 @@
+{
+  "report_date": "2026-06-17",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日 AI 相关热门项目集中在多语音生成与轻量级向量数据库，显示生成式语音和向量检索基础设施仍是最受关注的方向。",
+  "items": [
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2：面向多语言语音生成、创意音色设计和逼真克隆的无分词器 TTS。",
+      "language": "Python",
+      "stars_today": 408,
+      "stars_total": 30116
+    },
+    {
+      "repo": "alibaba/zvec",
+      "url": "https://github.com/alibaba/zvec",
+      "description": "轻量、极速的进程内向量数据库。",
+      "language": "C++",
+      "stars_today": 156,
+      "stars_total": 10439
+    }
+  ]
+}

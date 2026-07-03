@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-06-23",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "今日重点新闻集中在 Anthropic、DeepSeek、DeepMind 等模型公司动向，以及智能体评测、持续运行代理和 AI 算力基础设施的扩张。",
+  "items": [
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Anthropic 与政府最新争端有三点值得关注",
+      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "published_at": "2026-06-22T18:00:00.000Z",
+      "summary": "文章围绕 Anthropic 与政府的冲突梳理后续变量，重点关注监管关系、安全政策和公司策略可能受到的影响。"
+    },
+    {
+      "source": "极客公园",
+      "title": "Jane Street 押注 Anthropic 获得约 50 倍回报",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109268&idx=1&sn=9eeca79170d11b764714b81ed458b810",
+      "published_at": "2026-06-22T04:00:00.000Z",
+      "summary": "文章将 Jane Street 类比美国版幻方量化，称其在保持量化交易主业的同时通过早期持有 Anthropic 股权获得巨额账面收益。"
+    },
+    {
+      "source": "机器之心",
+      "title": "TerminalWorld 用 8 万条终端录像构建真实 CLI 工作流基准",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651040283&idx=3&sn=cddc55f3b8a0283bc7807be994d492b8",
+      "published_at": "2026-06-22T04:32:00.000Z",
+      "summary": "UCL、南京大学和腾讯团队基于真实人类终端操作数据提出 Agent 评测体系，试图覆盖软件开发中环境配置、部署和云资源管理等复杂任务。"
+    },
+    {
+      "source": "量子位",
+      "title": "DeepSeek Harness 团队加速招聘 Agent 人才",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247898679&idx=1&sn=7e13093476268ed660ab89bfa7edc32f",
+      "published_at": "2026-06-22T04:20:00.000Z",
+      "summary": "DeepSeek Harness 负责人崔添翼公开发布研究员、工程师和产品经理岗位需求，反映其正在扩充面向 Agent 的相关团队。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google DeepMind 与 A24 达成 7500 万美元 AI 电影工具合作",
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+      "published_at": "2026-06-22T18:49:44.000Z",
+      "summary": "Google DeepMind 将与 A24 合作开发 AI 电影制作工具，把生成式技术推进到影视创作流程中。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI 芯片公司 Groq 确认融资 6.5 亿美元",
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "published_at": "2026-06-22T20:13:58.000Z",
+      "summary": "Groq 在 Nvidia 相关交易后重新补充团队并强化 neocloud 业务，显示 AI 推理芯片和云算力市场仍在吸引大额资本。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceX 与开源 AI 实验室 Reflection AI 签署算力协议",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "published_at": "2026-06-22T16:51:29.000Z",
+      "summary": "Reflection AI 将从 2026 年 7 月起按月支付 1.5 亿美元，以使用 SpaceX 位于孟菲斯附近 Colossus 2 数据中心的 Nvidia GB300 芯片及配套硬件。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI 领域正在转向持续循环运行的智能体模式",
+      "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "published_at": "2026-06-22T20:53:11.000Z",
+      "summary": "文章介绍 loop 概念如何把 agentic AI 推进一步，让一组智能体在后台持续获得授权并连续工作。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Nvidia 称新 AI 数据中心设计可用更高温运行来减少用水",
+      "url": "https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling",
+      "published_at": "2026-06-22T23:24:32.000Z",
+      "summary": "Nvidia 强调 Rubin 代参考设计通过液冷和更高运行温度降低数据中心用水，以回应外界对 AI 基础设施水电消耗的质疑。"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-05-07",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜的 AI 相关项目最热方向集中在智能体平台与基于大模型的专业研究、开发和工作流自动化。",
+  "items": [
+    {
+      "repo": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "可在终端中运行的 DeepSeek 模型编码智能体。",
+      "language": "Rust",
+      "stars_today": 6175,
+      "stars_total": 13691
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "面向 AI 编码智能体的生产级工程技能。",
+      "language": "Shell",
+      "stars_today": 800,
+      "stars_total": 30401
+    },
+    {
+      "repo": "PriorLabs/TabPFN",
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "description": "⚡ TabPFN：面向表格数据的基础模型 ⚡",
+      "language": "Python",
+      "stars_today": 218,
+      "stars_total": 6565
+    },
+    {
+      "repo": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "description": "在 SimpleQA 上约达 95%，支持所有本地与云端 LLM、10 多种搜索引擎以及你的私有文档，并且一切都可本地运行与加密。",
+      "language": "Python",
+      "stars_today": 532,
+      "stars_total": 5626
+    },
+    {
+      "repo": "InsForge/InsForge",
+      "url": "https://github.com/InsForge/InsForge",
+      "description": "InsForge 是基于 Postgres 的后端，提供认证、存储、计算、托管和 AI 网关，为编码智能体而构建。",
+      "language": "TypeScript",
+      "stars_today": 230,
+      "stars_total": 8425
+    },
+    {
+      "repo": "virattt/dexter",
+      "url": "https://github.com/virattt/dexter",
+      "description": "面向深度金融研究的自主智能体。",
+      "language": "TypeScript",
+      "stars_today": 666,
+      "stars_total": 24339
+    },
+    {
+      "repo": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "面向投资银行、股票研究、私募股权和财富管理等金融服务工作流的参考智能体、技能与数据连接器。",
+      "language": "Python",
+      "stars_today": 641,
+      "stars_total": 9101
+    },
+    {
+      "repo": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "面向 Claude 的领先智能体编排平台，可部署智能多智能体群体、协调自主工作流并构建会话式 AI 系统。",
+      "language": "TypeScript",
+      "stars_today": 2192,
+      "stars_total": 45228
+    },
+    {
+      "repo": "cheahjs/free-llm-api-resources",
+      "url": "https://github.com/cheahjs/free-llm-api-resources",
+      "description": "可通过 API 访问的免费 LLM 推理资源列表。",
+      "language": "Python",
+      "stars_today": 198,
+      "stars_total": 20475
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 234,
+      "stars_total": 23192
+    },
+    {
+      "repo": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "开源的长时程 SuperAgent 框架，能够进行研究、编码与创作。",
+      "language": "Python",
+      "stars_today": 337,
+      "stars_total": 65520
+    }
+  ]
+}

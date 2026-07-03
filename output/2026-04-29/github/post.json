@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-04-29T00:01:12.229Z",
+  "source_raw": "raw.json",
+  "source_count": 13,
+  "item_count": 13,
+  "language_breakdown": {
+    "Shell": 1,
+    "TypeScript": 1,
+    "Python": 8,
+    "JavaScript": 1,
+    "Go": 1,
+    "Kotlin": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars_today": 7321,
+      "stars_total": 37162,
+      "forks": 2917
+    },
+    {
+      "rank": 2,
+      "repo": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration",
+      "language": "TypeScript",
+      "stars_today": 1607,
+      "stars_total": 32608,
+      "forks": 3701
+    },
+    {
+      "rank": 3,
+      "repo": "ComposioHQ/awesome-codex-skills",
+      "url": "https://github.com/ComposioHQ/awesome-codex-skills",
+      "description": "A curated list of practical Codex skills for automating workflows across the Codex CLI and API.",
+      "language": "Python",
+      "stars_today": 953,
+      "stars_total": 3969,
+      "forks": 255
+    },
+    {
+      "rank": 4,
+      "repo": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars_today": 1483,
+      "stars_total": 44772,
+      "forks": 4971
+    },
+    {
+      "rank": 5,
+      "repo": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars_today": 346,
+      "stars_total": 26148,
+      "forks": 2614
+    },
+    {
+      "rank": 6,
+      "repo": "HunxByts/GhostTrack",
+      "url": "https://github.com/HunxByts/GhostTrack",
+      "description": "Useful tool to track location or mobile number",
+      "language": "Python",
+      "stars_today": 967,
+      "stars_total": 10590,
+      "forks": 1489
+    },
+    {
+      "rank": 7,
+      "repo": "fspecii/ace-step-ui",
+      "url": "https://github.com/fspecii/ace-step-ui",
+      "description": "🎵 The Ultimate Open Source Suno Alternative - Professional UI for ACE-Step 1.5 AI Music Generation. Free, local, unlimited. Stop paying for Suno!",
+      "language": "JavaScript",
+      "stars_today": 162,
+      "stars_total": 1657,
+      "forks": 258
+    },
+    {
+      "rank": 8,
+      "repo": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars_today": 644,
+      "stars_total": 428119,
+      "forks": 46749
+    },
+    {
+      "rank": 9,
+      "repo": "CJackHwang/ds2api",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "description": "Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.",
+      "language": "Go",
+      "stars_today": 417,
+      "stars_total": 2314,
+      "forks": 645
+    },
+    {
+      "rank": 10,
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "language": "Python",
+      "stars_today": 1741,
+      "stars_total": 17482,
+      "forks": 2457
+    },
+    {
+      "rank": 11,
+      "repo": "donnemartin/system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "language": "Python",
+      "stars_today": 744,
+      "stars_total": 345834,
+      "forks": 55827
+    },
+    {
+      "rank": 12,
+      "repo": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "description": "📚 Freely available programming books",
+      "language": "Python",
+      "stars_today": 147,
+      "stars_total": 386614,
+      "forks": 66157
+    },
+    {
+      "rank": 13,
+      "repo": "iamgio/quarkdown",
+      "url": "https://github.com/iamgio/quarkdown",
+      "description": "🪐 Markdown with superpowers: from ideas to papers, presentations, websites, books, and knowledge bases.",
+      "language": "Kotlin",
+      "stars_today": 699,
+      "stars_total": 11983,
+      "forks": 318
+    }
+  ]
+}

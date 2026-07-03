@@ -1,0 +1,135 @@
+{
+  "generated_at": "2026-06-07T00:01:59.253Z",
+  "source_raw": "raw.json",
+  "source_count": 18,
+  "item_count": 12,
+  "language_breakdown": {
+    "Python": 6,
+    "TypeScript": 2,
+    "JavaScript": 2,
+    "Go": 1,
+    "Shell": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars_today": 439,
+      "stars_total": 28780,
+      "forks": 2438
+    },
+    {
+      "rank": 2,
+      "repo": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "description": "The Frontend Stack for Agents &amp; Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+      "language": "TypeScript",
+      "stars_today": 631,
+      "stars_total": 33196,
+      "forks": 4238
+    },
+    {
+      "rank": 3,
+      "repo": "MemPalace/mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "description": "The best-benchmarked open-source AI memory system. And it's free.",
+      "language": "Python",
+      "stars_today": 446,
+      "stars_total": 54268,
+      "forks": 7109
+    },
+    {
+      "rank": 5,
+      "repo": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "description": "OpenAI Plugins",
+      "language": "JavaScript",
+      "stars_today": 213,
+      "stars_total": 1765,
+      "forks": 256
+    },
+    {
+      "rank": 6,
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars_today": 683,
+      "stars_total": 22304,
+      "forks": 1907
+    },
+    {
+      "rank": 9,
+      "repo": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "language": "Go",
+      "stars_today": 159,
+      "stars_total": 35998,
+      "forks": 454
+    },
+    {
+      "rank": 11,
+      "repo": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "language": "TypeScript",
+      "stars_today": 794,
+      "stars_total": 26599,
+      "forks": 3037
+    },
+    {
+      "rank": 12,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 700,
+      "stars_total": 219643,
+      "forks": 19542
+    },
+    {
+      "rank": 13,
+      "repo": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "language": "JavaScript",
+      "stars_today": 193,
+      "stars_total": 49325,
+      "forks": 10197
+    },
+    {
+      "rank": 14,
+      "repo": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "language": "Python",
+      "stars_today": 150,
+      "stars_total": 101850,
+      "forks": 12440
+    },
+    {
+      "rank": 17,
+      "repo": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "language": "Python",
+      "stars_today": 433,
+      "stars_total": 80954,
+      "forks": 10657
+    },
+    {
+      "rank": 18,
+      "repo": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars_today": 216,
+      "stars_total": 48467,
+      "forks": 5391
+    }
+  ]
+}

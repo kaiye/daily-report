@@ -1,0 +1,112 @@
+{
+  "report_date": "2026-05-31",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "本期最热趋势是围绕大模型、智能体与语音/文档处理的基础工具和工作流加速器持续升温。",
+  "items": [
+    {
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "用于将文件和 Office 文档转换为 Markdown 的 Python 工具。",
+      "language": "Python",
+      "stars_today": 2470,
+      "stars_total": 132323
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型，一键生成高清短视频。",
+      "language": "Python",
+      "stars_today": 2768,
+      "stars_total": 71924
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code 是一款驻留在终端中的智能编程工具，能理解你的代码库，并通过自然语言命令执行日常任务、解释复杂代码和处理 Git 工作流，帮助你更快编码。",
+      "language": "Python",
+      "stars_today": 592,
+      "stars_total": 128387
+    },
+    {
+      "repo": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor 插件规范和官方插件。",
+      "language": "TypeScript",
+      "stars_today": 205,
+      "stars_total": 1454
+    },
+    {
+      "repo": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "description": "适用于 Claude Code、Codex、Cursor 等的官方 Compound Engineering 插件。",
+      "language": "TypeScript",
+      "stars_today": 349,
+      "stars_total": 18414
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "面向 Claude Code、Codex、Opencode、Cursor 及更广范围的智能体运行时性能优化系统，提供技能、直觉、记忆、安全和研究优先开发。",
+      "language": "JavaScript",
+      "stars_today": 908,
+      "stars_total": 199280
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2：面向多语言语音生成、创意音色设计和逼真克隆的无分词器 TTS。",
+      "language": "Python",
+      "stars_today": 779,
+      "stars_total": 22743
+    },
+    {
+      "repo": "galilai-group/stable-worldmodel",
+      "url": "https://github.com/galilai-group/stable-worldmodel",
+      "description": "用于可复现实世界模型研究与评测的平台。",
+      "language": "Python",
+      "stars_today": 318,
+      "stars_total": 1455
+    },
+    {
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D 是一台自包含的离线生存电脑，内置关键工具、知识和 AI，可随时随地让你保持知情并获得支持。",
+      "language": "TypeScript",
+      "stars_today": 469,
+      "stars_total": 27348
+    },
+    {
+      "repo": "run-llama/liteparse",
+      "url": "https://github.com/run-llama/liteparse",
+      "description": "一款快速、实用、开源的文档解析器。",
+      "language": "Rust",
+      "stars_today": 925,
+      "stars_total": 7893
+    },
+    {
+      "repo": "FareedKhan-dev/train-llm-from-scratch",
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "description": "从下载数据到生成文本，训练你的 LLM 的直接方法。",
+      "language": "Jupyter Notebook",
+      "stars_today": 327,
+      "stars_total": 2235
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView 将普通 WiFi 信号转化为实时空间智能、生命体征监测和在场检测——全程无需任何视频像素。",
+      "language": "Rust",
+      "stars_today": 655,
+      "stars_total": 68880
+    },
+    {
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Agent Skills 的公开仓库。",
+      "language": "Python",
+      "stars_today": 454,
+      "stars_total": 144112
+    }
+  ]
+}

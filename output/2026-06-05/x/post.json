@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-06-05T00:02:45.002Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-04",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2062568862479208923",
+      "text": "Our internal data shows Claude is accelerating AI development—a possible path to recursive self-improvement, or AI autonomously building a more capable successor.\n\nIt’s happening faster than we thought, and the implications deserve greater attention. https://t.co/OVVPJO7VQx",
+      "createdAt": "Thu Jun 04 16:15:12 +0000 2026",
+      "viewCount": 4827452,
+      "likeCount": 12905,
+      "retweetCount": 1833,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2062568862479208923",
+      "is_official": true
+    },
+    {
+      "id": "2062567556524003631",
+      "text": "We’ve been researching new ways for ChatGPT memory to carry context across conversations and keep it useful over time.\n\nToday, that work is rolling out as a more capable memory system in ChatGPT. https://t.co/0MyFKCe2Mu",
+      "createdAt": "Thu Jun 04 16:10:00 +0000 2026",
+      "viewCount": 965892,
+      "likeCount": 6646,
+      "retweetCount": 647,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2062567556524003631",
+      "is_official": true
+    },
+    {
+      "id": "2062570067305570671",
+      "text": "We’re going all in on World Models.\n\nToday we’re launching the 1X World Model Lab.\n\nThe bet is simple:\n\nYou can’t fine-tune your way to AGI.\n\nAnd you definitely can’t fine-tune your way to robots that can operate in the physical world.\n\nGeneral-purpose humanoids need models that understand space, motion, objects, causality, affordances, physics, and action before they ever see a specific task.\n\nThe frontier is not better VLA wrappers.\n\nThe frontier is embodied world models.\n\nThe 1X World Model Lab will focus on large-scale embodied world model pretraining: building the most generalizable foundation model for humanoid robots from the ground up.\n\nThe next frontier in AI requires scaling: \n\nweb-scale media + egocentric human videos + sim + dexterous remote operated robot data + on-policy NEO data → real-world deployment for robot data collection and RL → abundance of data → physical AI\n\nThe robot collects data.\nThe model gets better.\nThe robot gets better.\nRepeat.\n\nTo lead this, we brought in one of the best for the mission: @_sam_sinha_ , as Head of World Models.\n\nSam was a founding research scientist at Luma AI and has been at the frontier of scaling multimodal generative video models his whole career.\n\nIf you’re the best in the world at large-scale pretraining, video models, robotics, RL, infra, or data — and you want your models to move atoms, not just pixels — join us.\n\nSend background + evidence of exceptional ability to:\n\nwmlab@1x.tech\n\nWe’re building the model that makes autonomous labor real.",
+      "createdAt": "Thu Jun 04 16:19:59 +0000 2026",
+      "viewCount": 113567,
+      "likeCount": 1415,
+      "retweetCount": 112,
+      "author": {
+        "userName": "BerntBornich",
+        "name": "Bernt Bornich",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/BerntBornich/status/2062570067305570671",
+      "is_official": false
+    },
+    {
+      "id": "2062597578626126039",
+      "text": "JUST IN: Anthropic warns Claude may be accelerating AI development toward self-improving systems “faster than we thought.”",
+      "createdAt": "Thu Jun 04 18:09:18 +0000 2026",
+      "viewCount": 169974,
+      "likeCount": 2069,
+      "retweetCount": 161,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2062597578626126039",
+      "is_official": true
+    },
+    {
+      "id": "2062580571214389510",
+      "text": "We just published internal data on how much of Claude's development is already being done by Claude:\n- Over 80% of all code merged into our codebase is now written by Claude\n- It's been months since many researchers at Anthropic hand-wrote code\n- The typical Anthropic engineer ships 8x as much code as they did in 2024\n- On the most open-ended engineering tasks, Claude's success rate jumped from ~26% to 76% in 6 months\n- When research sessions went off-track, Claude proposed a better next step than the human took 64% of the time\n\nWe're not at recursive self-improvement yet, but it could come sooner than most expect. I highly recommend reading the full blog post.",
+      "createdAt": "Thu Jun 04 17:01:43 +0000 2026",
+      "viewCount": 176796,
+      "likeCount": 1653,
+      "retweetCount": 92,
+      "author": {
+        "userName": "alexalbert__",
+        "name": "Alex Albert",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/alexalbert__/status/2062580571214389510",
+      "is_official": false
+    },
+    {
+      "id": "2062571807274602534",
+      "text": "Holy moly, Anthropic is getting very serious about recursive self-improvement!\n\nOne word: acceleration.\n\nInsane blog article. \n\nTl;dr:\n\n•We are close to an AI capable of fully autonomously designing and building its own successor\n\n•They stress this isn’t here yet and isn’t inevitable, but could arrive sooner than most institutions are ready for\n\n•Anthropic engineers now ship on average 8x as much code per quarter as they did in 2021–2025\n\n•Task length AI can reliably complete is doubling roughly every 4 months (up from every 7 months)\n\n•Opus 3 (Mar 2024) handled ~4-minute tasks; Sonnet 3.7 (a year later) ~90-minute tasks; Opus 4.6 (a year after that) 12-hour tasks\n\n•SWE-bench went from low single digits to saturated in two years; CORE-bench (research reproduction) went ~20% to saturated in 15 months\n\n•METR found Claude Mythos Preview could work “at least” 16 hours, at the top of what they can currently measure\n\n•As of May 2026, Claude authored 80%+ of code merged into Anthropic’s codebase (low single digits before Claude Code launched in Feb 2025)\n\n•A March 2026 poll of 130 research staff: median respondent estimated ~4x output with Mythos Preview\n\n•One April 2026 example: Claude shipped 800+ fixes cutting a class of API errors 1,000x, work an engineer estimated would have taken a human four years\n\n•Claude-written code quality: worse than human in late 2025, roughly at parity now, expected to be strictly better within the year\n\n•On the hardest open-ended tasks, Claude’s success rate hit 76% in May 2026, up 50 points in six months\n\n•Code-speedup test: Opus 4 averaged ~3x speedup (May 2025), Mythos Preview ~52x (April 2026); a skilled human needs 4–8 hours to hit 4x\n\n•In an AI-safety research project, Claude agents recovered 97% of a performance gap (vs ~23% for two human researchers in a week), over 800 compute-hours and ~$18K\n\n•On picking the better “next step” in research sessions, the best model beat the human choice 51% (Nov 2025, Opus 4.5) rising to 64% (April 2026, Mythos Preview)\n\n•Human comparative advantage, for now: research taste and judgment, i.e. choosing which problems matter and when an approach is a dead end\n\nThree possible futures\n\n•The trend stalls (S-curve), but today’s capabilities still diffuse widely; they consider this least likely\n\n•Compounding efficiency gains, with humans still setting direction; 100-person firms doing the work of 10,000+; they think this is the likely path\n\n•Full recursive self-improvement, where AI builds its successors and pace is set by compute; the alignment outcome here is what they’re least certain about",
+      "createdAt": "Thu Jun 04 16:26:54 +0000 2026",
+      "viewCount": 117595,
+      "likeCount": 1021,
+      "retweetCount": 101,
+      "author": {
+        "userName": "kimmonismus",
+        "name": "Chubby♨️",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/kimmonismus/status/2062571807274602534",
+      "is_official": false
+    },
+    {
+      "id": "2062568864240836995",
+      "text": "Today, Anthropic engineers on average ship 8x as much code per quarter as they did compared to 2021-2025. https://t.co/QCc9cqGgf4",
+      "createdAt": "Thu Jun 04 16:15:12 +0000 2026",
+      "viewCount": 600285,
+      "likeCount": 2390,
+      "retweetCount": 175,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2062568864240836995",
+      "is_official": true
+    },
+    {
+      "id": "2062423528927015414",
+      "text": "Lots of little vectors at OpenAI all pointing in the same direction. Excited to see it all add up and come together over the coming weeks.",
+      "createdAt": "Thu Jun 04 06:37:41 +0000 2026",
+      "viewCount": 182438,
+      "likeCount": 2426,
+      "retweetCount": 48,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2062423528927015414",
+      "is_official": false
+    },
+    {
+      "id": "2062339834526781768",
+      "text": "Look closely. There’s more in the Showcase. https://t.co/AOWtZgozDB",
+      "createdAt": "Thu Jun 04 01:05:07 +0000 2026",
+      "viewCount": 692357,
+      "likeCount": 2350,
+      "retweetCount": 80,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2062339834526781768",
+      "is_official": true
+    },
+    {
+      "id": "2062358563050131764",
+      "text": "xAI has released a blog on Partnering with Vapi for Voice https://t.co/C40M5BQkYz",
+      "createdAt": "Thu Jun 04 02:19:32 +0000 2026",
+      "viewCount": 448319,
+      "likeCount": 1111,
+      "retweetCount": 451,
+      "author": {
+        "userName": "techdevnotes",
+        "name": "Tech Dev Notes",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/techdevnotes/status/2062358563050131764",
+      "is_official": false
+    },
+    {
+      "id": "2062464183409545224",
+      "text": "Claude Code creator:\n\n\"I don't prompt Claude anymore. I write loops - and the loops do the work. My job is to write loops.\"\n\nin 30 minutes Boris reveals his actual daily Claude Code setup.\n\nClaude Code + loops + dynamic workflow  \n\nWorth more than a $500 vibe-coding course https://t.co/wf5CRlGr0G",
+      "createdAt": "Thu Jun 04 09:19:14 +0000 2026",
+      "viewCount": 264123,
+      "likeCount": 1080,
+      "retweetCount": 157,
+      "author": {
+        "userName": "0xCodez",
+        "name": "Codez",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/0xCodez/status/2062464183409545224",
+      "is_official": false
+    },
+    {
+      "id": "2062533140611277113",
+      "text": "All Paid Courses (Free for First 4500 People)\n\n 𝗣𝗮𝗶𝗱 𝗖𝗼𝘂𝗿𝘀𝗲 𝗙𝗥𝗘𝗘 (PART - 1)\n 1. Artificial Intelligence\n 2. Machine Learning\n 3. Prompt Engineering\n 4. Claude,Chatgpt,Grok\n5. Data Analytics\n6. AWS Certified\n 7. Data Science\n8. BIG DATA\n9. Python\n 10. Ethical Hacking\n\n(72 Hours only )\n\nLike + RT + comment ' Drive '\n\nMust Follow me so I can DM you.",
+      "createdAt": "Thu Jun 04 13:53:15 +0000 2026",
+      "viewCount": 118312,
+      "likeCount": 1283,
+      "retweetCount": 618,
+      "author": {
+        "userName": "heyalexmoore",
+        "name": "Alex Moore",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/heyalexmoore/status/2062533140611277113",
+      "is_official": false
+    },
+    {
+      "id": "2062571743403733069",
+      "text": "Claude Mythos speeds up training code of small AI models by 52x\n\nHumans need 4-8 hours to reach a 4x speedup https://t.co/eccAsU9knL",
+      "createdAt": "Thu Jun 04 16:26:39 +0000 2026",
+      "viewCount": 92335,
+      "likeCount": 1309,
+      "retweetCount": 57,
+      "author": {
+        "userName": "scaling01",
+        "name": "Lisan al Gaib",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/scaling01/status/2062571743403733069",
+      "is_official": true
+    },
+    {
+      "id": "2062572152826875937",
+      "text": "In case you're wondering, yes we're feeling the AGI. https://t.co/1CNxWSWqtw",
+      "createdAt": "Thu Jun 04 16:28:16 +0000 2026",
+      "viewCount": 150119,
+      "likeCount": 1062,
+      "retweetCount": 60,
+      "author": {
+        "userName": "tensor_rotator",
+        "name": "Alek Dimitriev",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/tensor_rotator/status/2062572152826875937",
+      "is_official": false
+    },
+    {
+      "id": "2062568873321513443",
+      "text": "None of this guarantees recursive self-improvement is on the horizon. It’s not yet clear that Claude is capable of research judgment—of choosing the right problems to work on.\n\nBut if these trends continue, AI systems designing and building their own successors is plausible. This could revolutionize society—medicine, technology, the economy—for the better. But it may also compound alignment issues and ultimately lead to loss of control.\n\nThe Anthropic Institute (in collaboration with external stakeholders) will conduct research to think through the implications of increasingly powerful, potentially self-improving systems—and how to create the ability for the world to make deliberate choices about the future development of the technology.\n\nRead the full post: https://t.co/XkYALsONft",
+      "createdAt": "Thu Jun 04 16:15:14 +0000 2026",
+      "viewCount": 211162,
+      "likeCount": 1068,
+      "retweetCount": 79,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2062568873321513443",
+      "is_official": true
+    },
+    {
+      "id": "2062343535144436073",
+      "text": "Step-By-Step LLM Engineering Projects Roadmap\n\n- Build a tokenizer\n- Learn embeddings\n- Implement RoPE / ALiBi\n- Hand-wire attention\n- Build MHA\n- Build a Transformer block\n- Train a mini-former\n- Compare objectives\n- Build sampling\n- Speculative decoding\n- KV cache\n- MQA / GQA / MLA\n- Long context\n- FlashAttention\n- Hardware budgets\n- Toy MoE\n- Sparse model trade-offs\n- State-space / linear attention\n- Diffusion language models\n- Data pipelines\n- Synthetic data\n- Scaling laws\n- SFT / DPO / RLHF / GRPO\n- Quantization\n- Serving stacks\n- Eval harnesses\n- RAG\n- Tool use / agents\n- Vision-language adapters\n- Interpretability\n- Red-team suite\n- Full capstone model system\n\nOne request:\n\nChoose an Opensource AI lab when you make it\n\nOpensource is where humanity gets to keep the tools\n\nDM me when you've made it ;)",
+      "createdAt": "Thu Jun 04 01:19:49 +0000 2026",
+      "viewCount": 81650,
+      "likeCount": 1172,
+      "retweetCount": 167,
+      "author": {
+        "userName": "TheAhmadOsman",
+        "name": "Ahmad",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/TheAhmadOsman/status/2062343535144436073",
+      "is_official": false
+    },
+    {
+      "id": "2062567559673856346",
+      "text": "With the new memory system, you can review and steer what ChatGPT remembers through a memory summary, with more visibility and control over how context is used. https://t.co/kXMAds0g3q",
+      "createdAt": "Thu Jun 04 16:10:01 +0000 2026",
+      "viewCount": 128689,
+      "likeCount": 1170,
+      "retweetCount": 58,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2062567559673856346",
+      "is_official": true
+    },
+    {
+      "id": "2062408623565984209",
+      "text": "Excited to share how Anthropic's data team has automated 95% of business analytics queries with Claude. Blog post covers how we approach evals, ablations, and online validation!",
+      "createdAt": "Thu Jun 04 05:38:28 +0000 2026",
+      "viewCount": 594023,
+      "likeCount": 2102,
+      "retweetCount": 75,
+      "author": {
+        "userName": "_catwu",
+        "name": "cat",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/_catwu/status/2062408623565984209",
+      "is_official": false
+    },
+    {
+      "id": "2062660086787613116",
+      "text": "big upgrade to chatgpt memory rolling out today!",
+      "createdAt": "Thu Jun 04 22:17:41 +0000 2026",
+      "viewCount": 143284,
+      "likeCount": 1676,
+      "retweetCount": 79,
+      "author": {
+        "userName": "sama",
+        "name": "Sam Altman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sama/status/2062660086787613116",
+      "is_official": false
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-06-05",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热方向集中在面向 LLM 的代理能力、上下文压缩、文档理解与多模态交互基础设施。",
+  "items": [
+    {
+      "repo": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "description": "在工具输出、日志、文件和 RAG 分块到达 LLM 之前进行压缩，减少 60-95% 的 token 且答案不变，提供库、代理和 MCP 服务器。",
+      "language": "Python",
+      "stars_today": 3142,
+      "stars_total": 12419
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "与你一同成长的智能体。",
+      "language": "Python",
+      "stars_today": 1913,
+      "stars_total": 180940
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "面向 Claude Code、Codex、Opencode、Cursor 及更多工具的智能体运行框架性能优化系统，涵盖技能、本能、记忆、安全与研究优先开发。",
+      "language": "JavaScript",
+      "stars_today": 1750,
+      "stars_total": 207198
+    },
+    {
+      "repo": "PaddlePaddle/PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "将任何 PDF 或图像文档转为供 AI 使用的结构化数据，是连接图像/PDF 与 LLM 的强大轻量级 OCR 工具包，支持 100 多种语言。",
+      "language": "Python",
+      "stars_today": 141,
+      "stars_total": 79840
+    },
+    {
+      "repo": "NVIDIA/cosmos",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "description": "NVIDIA Cosmos 是由世界模型、数据集和工具组成的开放平台，使开发者能够为机器人、自动驾驶汽车、智能基础设施等构建物理 AI。",
+      "language": "Jupyter Notebook",
+      "stars_today": 133,
+      "stars_total": 8986
+    },
+    {
+      "repo": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "Notebook LM 的开源实现，提供更多灵活性和功能。",
+      "language": "TypeScript",
+      "stars_today": 212,
+      "stars_total": 24991
+    },
+    {
+      "repo": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+      "description": "通过免提语音交互、语音打断和 Live2D 与任何 LLM 对话，并支持跨平台本地运行。",
+      "language": "Python",
+      "stars_today": 581,
+      "stars_total": 9572
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI 智能体技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网页研究任意主题，并综合成有依据的摘要。",
+      "language": "Python",
+      "stars_today": 199,
+      "stars_total": 27553
+    }
+  ]
+}

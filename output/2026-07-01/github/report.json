@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-07-01",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日热门项目集中在 AI 代理、编码助手生态与本地/多模态 AI 工具的落地应用。",
+  "items": [
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "开源 AI 渗透测试工具，用于发现并修复应用漏洞。",
+      "language": "Python",
+      "stars_today": 515,
+      "stars_total": 28090
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "触手可及的完整 AI 机构，从前端向导到 Reddit 社区高手，从奇思妙想注入者到现实校验者，每个代理都是拥有个性、流程和成熟交付物的专门专家。",
+      "language": "Shell",
+      "stars_today": 1791,
+      "stars_total": 120825
+    },
+    {
+      "repo": "altic-dev/FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "description": "最快且唯一具备设备端语音转文字和自训练 AI 增强模型的 macOS 听写应用，是本地 Wispr Flow 替代方案。",
+      "language": "Swift",
+      "stars_today": 588,
+      "stars_total": 4905
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "永不停下编码，免费 AI 网关以一个端点连接 231+ 提供商（50+ 免费），将 Claude Code、Codex、Cursor、Cline 和 Copilot 接入免费 Claude/GPT/Gemini，并提供 RTK+Caveman 堆叠压缩、智能自动回退、MCP/A2A、多模态 API、桌面端/PWA。",
+      "language": "TypeScript",
+      "stars_today": 387,
+      "stars_total": 8473
+    },
+    {
+      "repo": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "description": "用编码代理编辑视频。",
+      "language": "Python",
+      "stars_today": 721,
+      "stars_total": 12566
+    },
+    {
+      "repo": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架，融合巴菲特、芒格、段永平、李录四位大师方法论与多 Agent 对抗分析。",
+      "language": "Python",
+      "stars_today": 969,
+      "stars_total": 7469
+    },
+    {
+      "repo": "google/agents-cli",
+      "url": "https://github.com/google/agents-cli",
+      "description": "将任何编码助手转变为在 Google Cloud 上创建、评估和部署 AI 代理专家的 CLI 与技能。",
+      "language": "Python",
+      "stars_today": 445,
+      "stars_total": 4165
+    },
+    {
+      "repo": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "我们编写你的可复用计算机视觉工具。",
+      "language": "Python",
+      "stars_today": 309,
+      "stars_total": 45897
+    },
+    {
+      "repo": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "驻留在终端中的代理多路复用器。",
+      "language": "Rust",
+      "stars_today": 486,
+      "stars_total": 8992
+    },
+    {
+      "repo": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "description": "12 周、24 节课，面向所有人的 AI。",
+      "language": "Jupyter Notebook",
+      "stars_today": 252,
+      "stars_total": 49338
+    },
+    {
+      "repo": "facebook/astryx",
+      "url": "https://github.com/facebook/astryx",
+      "description": "完全可定制且已为代理准备就绪的开源设计系统。",
+      "language": "TypeScript",
+      "stars_today": 364,
+      "stars_total": 1749
+    }
+  ]
+}

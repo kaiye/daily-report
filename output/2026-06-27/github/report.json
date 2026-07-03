@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-06-27",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日 AI 相关热门项目集中在让编码代理和多智能体工作流接入设计规范、文档处理、云端工具与内容生产能力。",
+  "items": [
+    {
+      "repo": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "description": "面向编码代理描述视觉识别的格式规范，DESIGN.md 为代理提供对设计系统的持久、结构化理解。",
+      "language": "TypeScript",
+      "stars_today": 2407,
+      "stars_total": 21218
+    },
+    {
+      "repo": "opendatalab/MinerU",
+      "url": "https://github.com/opendatalab/MinerU",
+      "description": "将 PDF 和 Office 文档等复杂文档转换为适合 LLM 的 markdown/JSON，以服务你的智能体工作流。",
+      "language": "Python",
+      "stars_today": 960,
+      "stars_total": 70404
+    },
+    {
+      "repo": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架，融合巴菲特、芒格、段永平、李录四位大师方法论与多 Agent 并行研究。",
+      "language": "Python",
+      "stars_today": 1274,
+      "stars_total": 3100
+    },
+    {
+      "repo": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "世界首个开源智能体式视频生产系统，包含 12 条流水线、52 个工具和 500+ 个智能体技能，可将你的 AI 编码助手变成完整视频生产工作室。",
+      "language": "Python",
+      "stars_today": 1754,
+      "stars_total": 23587
+    },
+    {
+      "repo": "aws/agent-toolkit-for-aws",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "description": "AWS 官方支持的 MCP 服务器、技能和插件，帮助 AI 代理在 AWS 上构建。",
+      "language": "Python",
+      "stars_today": 243,
+      "stars_total": 1347
+    },
+    {
+      "repo": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "使用 Garry Tan 的 Claude Code 原样配置：23 个有明确取向的工具，分别承担 CEO、设计师、工程经理、发布经理、文档工程师和 QA 角色。",
+      "language": "TypeScript",
+      "stars_today": 950,
+      "stars_total": 116616
+    },
+    {
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "description": "使用 AI 编码代理，通过一条命令克隆任意网站。",
+      "language": "TypeScript",
+      "stars_today": 1088,
+      "stars_total": 21347
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "给你的 AI 代理一双看见整个互联网的眼睛，用一个 CLI 读取并搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书，且无需 API 费用。",
+      "language": "Python",
+      "stars_today": 1194,
+      "stars_total": 42322
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+# 媒体资讯
+
+最重要的共同趋势是头部AI公司正围绕大模型产品化、智能体落地和模型能力透明度展开新一轮竞争。
+
+### [OpenAI大幅升级Codex并将其推向Mac通用助手](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696950&idx=1&sn=21fccc2ad1d6da0a9081e392ba631c10)
+*新智元* · 2026-05-01
+
+OpenAI大幅升级Codex并将其推向Mac通用助手：这次更新将Codex从偏代码生成工具扩展为可接管整台Mac操作流程的智能体式助手。
+
+### [DeepSeek发布多模态模型及技术报告](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653105104&idx=1&sn=f3eb229530189dee0ed968392108bd66)
+*极客公园* · 2026-05-01
+
+DeepSeek发布多模态模型及技术报告：技术报告重点讨论了多模态大模型在跨感知与推理链路上的不足以及DeepSeek的对应改进方向。
+
+### [马斯克与奥特曼诉讼首周曝出xAI蒸馏OpenAI模型等说法](https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/)
+*MIT Technology Review AI* · 2026-05-01
+
+马斯克与奥特曼诉讼首周曝出xAI蒸馏OpenAI模型等说法：庭审首周围绕OpenAI创立初衷与控制权争议展开，同时马斯克还在证词中谈到AI风险并承认xAI会蒸馏OpenAI模型。
+
+### [研究尝试仅凭API黑盒估算GPT、Claude和Gemini参数量](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651031232&idx=1&sn=6ef67aad98248c27294f1be3eb80d089)
+*机器之心* · 2026-05-01
+
+研究尝试仅凭API黑盒估算GPT、Claude和Gemini参数量：相关论文提出“不可压缩知识探针”框架，试图通过事实容量测试来反向推测闭源大模型的参数规模。
+
+### [微软在Word中推出面向法律团队的AI代理](https://www.theverge.com/news/921944/microsoft-word-legal-agent-ai)
+*The Verge AI* · 2026-05-01
+
+微软在Word中推出面向法律团队的AI代理：这一代理可处理文档修改、谈判历史和复杂合同审阅，目标是让律师在专业工作流中更放心地使用AI。
+
+### [Claude Code项目模板走红并引发AI工程化讨论](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652696950&idx=2&sn=b8388fc8a9c5f6b51dbdf7e799d7f349)
+*新智元* · 2026-05-01
+
+Claude Code项目模板走红并引发AI工程化讨论：文章认为Claude Code之所以好用主要来自规则、工作流和护栏等工程体系，而不只是模型本身能力。
+
+### [ChatGPT Images 2.0在印度走红但全球表现仍不均衡](https://techcrunch.com/2026/04/30/chatgpt-images-2-0-is-a-hit-in-india-but-not-a-big-winner-elsewhere-yet/)
+*TechCrunch AI* · 2026-05-01
+
+ChatGPT Images 2.0在印度走红但全球表现仍不均衡：该功能目前在印度被大量用于头像和风格化个人视觉内容创作，但在其他市场尚未成为同等规模的爆款。
+
+### [Replit谈及Cursor收购传闻与公司独立发展取向](https://techcrunch.com/2026/05/01/replits-amjad-masad-on-the-cursor-deal-fighting-apple-and-why-hed-rather-not-sell/)
+*TechCrunch AI* · 2026-05-01
+
+Replit谈及Cursor收购传闻与公司独立发展取向：在公开活动中，Replit首席执行官回应了Cursor据传与SpaceX洽谈收购的话题，并表示自己更倾向于不出售公司。

@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-06-08T00:02:58.012Z",
+  "source_raw": "raw.json",
+  "source_count": 15,
+  "item_count": 13,
+  "language_breakdown": {
+    "Python": 3,
+    "Shell": 1,
+    "TypeScript": 4,
+    "Rust": 2,
+    "C++": 1,
+    "Roff": 1,
+    "JavaScript": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars_today": 1111,
+      "stars_total": 30867,
+      "forks": 2589
+    },
+    {
+      "rank": 3,
+      "repo": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "Shell",
+      "stars_today": 1103,
+      "stars_total": 36565,
+      "forks": 2642
+    },
+    {
+      "rank": 4,
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars_today": 1112,
+      "stars_total": 185893,
+      "forks": 31977
+    },
+    {
+      "rank": 5,
+      "repo": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "language": "TypeScript",
+      "stars_today": 554,
+      "stars_total": 27232,
+      "forks": 3096
+    },
+    {
+      "rank": 6,
+      "repo": "yikart/AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "language": "TypeScript",
+      "stars_today": 183,
+      "stars_total": 18734,
+      "forks": 2907
+    },
+    {
+      "rank": 7,
+      "repo": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars_today": 322,
+      "stars_total": 47489,
+      "forks": 5009
+    },
+    {
+      "rank": 8,
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "language": "TypeScript",
+      "stars_today": 309,
+      "stars_total": 29710,
+      "forks": 2944
+    },
+    {
+      "rank": 9,
+      "repo": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "stars_today": 158,
+      "stars_total": 115312,
+      "forks": 19300
+    },
+    {
+      "rank": 10,
+      "repo": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Python",
+      "stars_today": 1554,
+      "stars_total": 7125,
+      "forks": 695
+    },
+    {
+      "rank": 11,
+      "repo": "TapXWorld/ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "stars_today": 350,
+      "stars_total": 72426,
+      "forks": 16238
+    },
+    {
+      "rank": 12,
+      "repo": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "description": "OpenAI Plugins",
+      "language": "JavaScript",
+      "stars_today": 262,
+      "stars_total": 2022,
+      "forks": 271
+    },
+    {
+      "rank": 13,
+      "repo": "refactoringhq/tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "language": "TypeScript",
+      "stars_today": 245,
+      "stars_total": 12853,
+      "forks": 907
+    },
+    {
+      "rank": 15,
+      "repo": "microsoft/pg_durable",
+      "url": "https://github.com/microsoft/pg_durable",
+      "description": "PostgreSQL in-database durable execution",
+      "language": "Rust",
+      "stars_today": 316,
+      "stars_total": 1446,
+      "forks": 32
+    }
+  ]
+}

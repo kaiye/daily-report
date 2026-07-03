@@ -1,0 +1,40 @@
+{
+  "report_date": "2026-04-25",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日入选项目最热的共同方向是围绕大模型编码代理与生成式 AI 工作流，强调更低门槛调用、更强上下文接入和更完整的模型训练到生成落地能力。",
+  "items": [
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "可在终端、VSCode 扩展或通过 Discord 像 openclaw 一样免费使用 claude-code。",
+      "language": "Python",
+      "stars_today": 2638,
+      "stars_total": 8826
+    },
+    {
+      "repo": "huggingface/ml-intern",
+      "url": "https://github.com/huggingface/ml-intern",
+      "description": "🤗 ml-intern：一位开源 ML 工程师，能阅读论文、训练模型并交付 ML 模型。",
+      "language": "Python",
+      "stars_today": 2985,
+      "stars_total": 5304
+    },
+    {
+      "repo": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "description": "面向 Claude Code 的代码搜索 MCP，让整个代码库都成为任何编码代理的上下文。",
+      "language": "TypeScript",
+      "stars_today": 706,
+      "stars_total": 8999
+    },
+    {
+      "repo": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "对标 Higgsfield AI、Freepik AI、Krea AI、Openart AI 的无审查开源替代方案，提供免费、无限制的 AI 图像与视频生成工作室，含 200+ 模型并支持自托管。",
+      "language": "JavaScript",
+      "stars_today": 842,
+      "stars_total": 7666
+    }
+  ]
+}

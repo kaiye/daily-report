@@ -1,0 +1,112 @@
+{
+  "report_date": "2026-06-02",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI 代理与大模型应用的工具链、记忆、编码、语音和金融交易框架持续升温。",
+  "items": [
+    {
+      "repo": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "用于将文件和 Office 文档转换为 Markdown 的 Python 工具。",
+      "language": "Python",
+      "stars_today": 3034,
+      "stars_total": 138310
+    },
+    {
+      "repo": "nesquena/hermes-webui",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "description": "Hermes WebUI：从网页或手机使用 Hermes Agent 的最佳方式！",
+      "language": "Python",
+      "stars_today": 945,
+      "stars_total": 11255
+    },
+    {
+      "repo": "supermemoryai/supermemory",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "description": "极快且可扩展的记忆引擎和应用，面向 AI 时代的 Memory API。",
+      "language": "TypeScript",
+      "stars_today": 647,
+      "stars_total": 23955
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型一键生成高清短视频。",
+      "language": "Python",
+      "stars_today": 3375,
+      "stars_total": 76798
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "让你的 AI harness 更擅长设计的设计语言。",
+      "language": "JavaScript",
+      "stars_today": 485,
+      "stars_total": 32662
+    },
+    {
+      "repo": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "面向语言模型的全自动审查移除。",
+      "language": "Python",
+      "stars_today": 249,
+      "stars_total": 23020
+    },
+    {
+      "repo": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "description": "适用于 Claude Code、Codex、Cursor 等的官方 Compound Engineering 插件。",
+      "language": "TypeScript",
+      "stars_today": 417,
+      "stars_total": 19087
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents：多智能体 LLM 金融交易框架。",
+      "language": "Python",
+      "stars_today": 299,
+      "stars_total": 81747
+    },
+    {
+      "repo": "revfactory/harness",
+      "url": "https://github.com/revfactory/harness",
+      "description": "设计领域专属智能体团队、定义专门智能体并生成其所用技能的元技能。",
+      "language": "HTML",
+      "stars_today": 524,
+      "stars_total": 5129
+    },
+    {
+      "repo": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "description": "终端里的 AI 编码智能体——哈希锚定编辑、优化的工具 harness、LSP、Python、浏览器、子智能体等。",
+      "language": "TypeScript",
+      "stars_today": 335,
+      "stars_total": 9450
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2：免 tokenizer 的多语言语音生成、创意音色设计和逼真克隆 TTS。",
+      "language": "Python",
+      "stars_today": 888,
+      "stars_total": 24209
+    },
+    {
+      "repo": "FareedKhan-dev/train-llm-from-scratch",
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+      "description": "从下载数据到生成文本，训练你的 LLM 的直接方法。",
+      "language": "Jupyter Notebook",
+      "stars_today": 861,
+      "stars_total": 3690
+    },
+    {
+      "repo": "dmtrKovalenko/fff",
+      "url": "https://github.com/dmtrKovalenko/fff",
+      "description": "面向 AI 智能体、Neovim、Rust、C 和 NodeJS 的最快且最准确的文件搜索工具包。",
+      "language": "Rust",
+      "stars_today": 135,
+      "stars_total": 7160
+    }
+  ]
+}

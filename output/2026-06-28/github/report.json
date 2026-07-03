@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-06-28",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日 AI 相关热门项目集中在编码 Agent、Claude Code 工作流与可自托管生成式 AI/记忆基础设施的实用化。",
+  "items": [
+    {
+      "repo": "xbtlin/ai-berkshire",
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架，融合巴菲特、芒格、段永平、李录四位大师方法论与多 Agent 对抗分析。",
+      "language": "Python",
+      "stars_today": 685,
+      "stars_total": 4090
+    },
+    {
+      "repo": "commaai/openpilot",
+      "url": "https://github.com/commaai/openpilot",
+      "description": "openpilot 是面向机器人技术的操作系统，目前可升级 300+ 款支持车型的驾驶辅助系统。",
+      "language": "Python",
+      "stars_today": 322,
+      "stars_total": 62064
+    },
+    {
+      "repo": "google-labs-code/design.md",
+      "url": "https://github.com/google-labs-code/design.md",
+      "description": "描述视觉身份给编码 Agent 的格式规范，让 Agent 对设计系统拥有持久、结构化的理解。",
+      "language": "TypeScript",
+      "stars_today": 1541,
+      "stars_total": 22318
+    },
+    {
+      "repo": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "description": "AI 可从任意文档生成真实、可编辑的 PowerPoint，包含原生形状与动画、讲者备注语音旁白，并可沿用你自己的 .pptx 模板而非幻灯片图片。",
+      "language": "Python",
+      "stars_today": 589,
+      "stars_total": 33054
+    },
+    {
+      "repo": "JCodesMore/ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "description": "使用 AI 编码 Agent 通过一条命令克隆任意网站。",
+      "language": "TypeScript",
+      "stars_today": 750,
+      "stars_total": 22103
+    },
+    {
+      "repo": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "使用 Garry Tan 的完整 Claude Code 配置：23 个有主张的工具，分别充当 CEO、设计师、工程经理、发布经理、文档工程师和 QA。",
+      "language": "TypeScript",
+      "stars_today": 674,
+      "stars_total": 117232
+    },
+    {
+      "repo": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "不受限制的 AI 视频平台开源替代品：免费的 AI 图像与视频生成工作室，内置 200+ 模型（Flux、Midjourney、Kling、Sora、Veo），无内容过滤，可自托管，MIT 许可。",
+      "language": "JavaScript",
+      "stars_today": 255,
+      "stars_total": 21372
+    },
+    {
+      "repo": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "description": "Cognee 是面向 Agent 的开源 AI 记忆平台，通过自托管知识图谱引擎为 AI Agent 提供跨会话的持久长期记忆。",
+      "language": "Python",
+      "stars_today": 780,
+      "stars_total": 23992
+    },
+    {
+      "repo": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "Claude Code 的可视化、示例驱动指南，从基础概念到高级 Agent，并提供可复制粘贴、能立即产生价值的模板。",
+      "language": "Python",
+      "stars_today": 141,
+      "stars_total": 38615
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "开源编码 Agent。",
+      "language": "TypeScript",
+      "stars_today": 392,
+      "stars_total": 179737
+    },
+    {
+      "repo": "Fission-AI/OpenSpec",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "description": "面向 AI 编码助手的规格驱动开发（SDD）。",
+      "language": "TypeScript",
+      "stars_today": 177,
+      "stars_total": 57112
+    }
+  ]
+}

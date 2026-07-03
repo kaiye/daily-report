@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-06-15T00:02:58.349Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-14",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2066157250268237993",
+      "text": "While closed source AI is in shambles, open source is having one of the best weeks of all time.\n\nZ ai GLM 5.2\nMinimax M3\nKimi 2.7 code",
+      "createdAt": "Sun Jun 14 13:54:10 +0000 2026",
+      "viewCount": 76818,
+      "likeCount": 1344,
+      "retweetCount": 79,
+      "author": {
+        "userName": "Sentdex",
+        "name": "Harrison Kinsley",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Sentdex/status/2066157250268237993",
+      "is_official": false
+    },
+    {
+      "id": "2065985074492068001",
+      "text": "A dev got so frustrated watching his AI agent write 500 lines for a 5-line problem that he built a fix.\n\nHe called it Ponytail. Named after the guy every team has - long ponytail, oval glasses, been there longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one.\n\nNow your agent does the same. Before writing anything, it looks for a reason not to.\n\n80-94% less code. 47-77% cheaper. 3-6x faster.\n\nThe best code is the code you never wrote.\n\nGitHub Repo: https://t.co/WnFp9YNY53",
+      "createdAt": "Sun Jun 14 02:30:00 +0000 2026",
+      "viewCount": 720098,
+      "likeCount": 11970,
+      "retweetCount": 579,
+      "author": {
+        "userName": "techNmak",
+        "name": "Tech with Mak",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/techNmak/status/2065985074492068001",
+      "is_official": false
+    },
+    {
+      "id": "2066174627039031695",
+      "text": "JUST IN: EU says the Anthropic decision is a “further illustration” of why Europe needs stronger tech sovereignty.",
+      "createdAt": "Sun Jun 14 15:03:13 +0000 2026",
+      "viewCount": 134578,
+      "likeCount": 1455,
+      "retweetCount": 73,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2066174627039031695",
+      "is_official": true
+    },
+    {
+      "id": "2066271248254910785",
+      "text": "As Andrew replies below, we appreciate any critical feedback in pursuit of product perfection for Grok Build!",
+      "createdAt": "Sun Jun 14 21:27:09 +0000 2026",
+      "viewCount": 1366443,
+      "likeCount": 6631,
+      "retweetCount": 1186,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2066271248254910785",
+      "is_official": false
+    },
+    {
+      "id": "2065957276146700641",
+      "text": "Hot take: a lot of people wouldn’t be able to tell the difference if they were randomly routed between gpt-5.5, opus-4.8, or fable-5 for their day to day work",
+      "createdAt": "Sun Jun 14 00:39:32 +0000 2026",
+      "viewCount": 226040,
+      "likeCount": 3172,
+      "retweetCount": 77,
+      "author": {
+        "userName": "andrewqu",
+        "name": "Andrew Qu",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/andrewqu/status/2065957276146700641",
+      "is_official": false
+    },
+    {
+      "id": "2066028300838072729",
+      "text": "Claude just leveled up hard\n ← Yesterday | Today → https://t.co/SCfwkrA7bw",
+      "createdAt": "Sun Jun 14 05:21:46 +0000 2026",
+      "viewCount": 1018620,
+      "likeCount": 6325,
+      "retweetCount": 165,
+      "author": {
+        "userName": "Shivam25mishra",
+        "name": "Mr Shivam",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Shivam25mishra/status/2066028300838072729",
+      "is_official": false
+    },
+    {
+      "id": "2066128527989113123",
+      "text": "If I had 6 months to become an Agentic AI Engineer.\n\nI'd do this.\n\nStage 1: Python + Async Foundations\nasyncio, FastAPI, event-driven architecture, error handling, API integration patterns.\n\nStage 2: LLM Fundamentals for Agents\nContext management, model routing, token economics, latency tradeoffs, failure modes.\n\nStage 3: Tool Calling + Structured Outputs\nPydantic validation, function calling schemas, error recovery, dynamic tool discovery.\n\nStage 4: Memory + State Management\nShort-term buffers, long-term vector recall, context compression, cross-session sync.\n\nStage 5: Single Agent Workflows\nReAct loops, plan-and-execute, self-reflection, iteration limits, graceful degradation.\n\nStage 6: Multi-Agent Orchestration\nLangGraph/CrewAI, supervisor patterns, message passing, conflict resolution, handoffs.\n\nStage 7: Human-in-the-Loop Systems\nUncertainty detection, approval gates, audit trails, resume logic, intervention points.\n\nStage 8: Evaluation + Quality Assurance\nAutomated eval harnesses, LLM-as-a-judge, regression testing, hallucination metrics.\n\nStage 9: Observability + Tracing\nDistributed tracing (LangSmith/Arize), cost dashboards, latency monitoring, alerting.\n\nStage 10: Security + Guardrails\nPrompt injection defense, output filtering, PII redaction, sandboxed execution, compliance.\n\nStage 11: Production Deployment\nvLLM/SGLang, Kubernetes scaling, CI/CD for agents, canary releases, rollback strategies.\n\nStage 12: Open Source + Portfolio\nShip autonomous agents publicly, write architecture docs, record demos, contribute to libs.\n\nMost people stay stuck watching tutorials.\n\nBuilders get hired.\n\n(Bookmark it)",
+      "createdAt": "Sun Jun 14 12:00:02 +0000 2026",
+      "viewCount": 69937,
+      "likeCount": 1203,
+      "retweetCount": 176,
+      "author": {
+        "userName": "suraj_sharma14",
+        "name": "Suraj Sharma",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/suraj_sharma14/status/2066128527989113123",
+      "is_official": false
+    },
+    {
+      "id": "2066273765940396292",
+      "text": "Try the latest Grok Imagine!",
+      "createdAt": "Sun Jun 14 21:37:09 +0000 2026",
+      "viewCount": 1347926,
+      "likeCount": 6092,
+      "retweetCount": 874,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2066273765940396292",
+      "is_official": false
+    },
+    {
+      "id": "2066030588092690478",
+      "text": "🚨 Anthropic just showed a 27-minute workshop on how to actually do prompts for Claude.\n\nTaught by the people who built it.\n\nFree. No registration. No paywall.\n\nI've seen $300 courses that don't cover what they teach in the first 8 minutes.\n\nWatch it and bookmark it now. https://t.co/gMvJEkekjw",
+      "createdAt": "Sun Jun 14 05:30:51 +0000 2026",
+      "viewCount": 232951,
+      "likeCount": 1271,
+      "retweetCount": 245,
+      "author": {
+        "userName": "ai_rohitt",
+        "name": "Rohit",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ai_rohitt/status/2066030588092690478",
+      "is_official": true
+    },
+    {
+      "id": "2065947742560477189",
+      "text": "this is currently both:\n\n• the strongest bull case for crypto over the next few years\n\n• one of the most non-consensus bets in all of tech\n\nvery difficult to achieve which is why payout will be extremely asymmetric if correct",
+      "createdAt": "Sun Jun 14 00:01:39 +0000 2026",
+      "viewCount": 234959,
+      "likeCount": 1128,
+      "retweetCount": 66,
+      "author": {
+        "userName": "blknoiz06",
+        "name": "Ansem",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/blknoiz06/status/2065947742560477189",
+      "is_official": false
+    },
+    {
+      "id": "2065974230685213162",
+      "text": "it’s kinda crazy that a Canadian who did his PhD at Stanford 15 years ago, co-founded OpenAI, led AI at Tesla, and is now at anthropic is STILL not an American citizen",
+      "createdAt": "Sun Jun 14 01:46:55 +0000 2026",
+      "viewCount": 526358,
+      "likeCount": 4420,
+      "retweetCount": 138,
+      "author": {
+        "userName": "eigenron",
+        "name": "eigenron",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/eigenron/status/2065974230685213162",
+      "is_official": false
+    },
+    {
+      "id": "2066126669073510904",
+      "text": "Two days ago the US banned Claude Fable 5.\n\nYesterday China dropped GLM 5.2.\n\nToday GLM 5.2 is #1 on @bridgebench BS at 100.0,  and #1 on Reasoning at 42.8, beating Fable 5.\n\nAt 1/10th the cost and 300 tokens per second.\n\nYou cannot export control your way out of an open source race. \n\nThe ban didn't slow China down.\n\nUnban Fable 5.",
+      "createdAt": "Sun Jun 14 11:52:39 +0000 2026",
+      "viewCount": 490392,
+      "likeCount": 4758,
+      "retweetCount": 491,
+      "author": {
+        "userName": "bridgemindai",
+        "name": "BridgeMind",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/bridgemindai/status/2066126669073510904",
+      "is_official": true
+    },
+    {
+      "id": "2065955248288542963",
+      "text": "🚨BREAKING: The U.S government gave Anthropic 90 minutes to shut down Fable and Mythos\n\n“Amazon AND others” called senior administration officials to warn about models’ capabilities \n\nThen:\n1:00pm: Government calls. “Take it down.” \nCites “national security threat.” No details.\n\nAnthropic asks what the threat is so they can fix it. \nGovernment said NO.\n\n5:30pm: Commerce letter arrives with export controls.\n\nYou have 90 minutes…",
+      "createdAt": "Sun Jun 14 00:31:29 +0000 2026",
+      "viewCount": 864008,
+      "likeCount": 5822,
+      "retweetCount": 561,
+      "author": {
+        "userName": "ns123abc",
+        "name": "NIK",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ns123abc/status/2065955248288542963",
+      "is_official": false
+    },
+    {
+      "id": "2066015893075734537",
+      "text": "New Claude Skills for UI/UX Engineers 🔥 https://t.co/wNfzuVdVgg",
+      "createdAt": "Sun Jun 14 04:32:28 +0000 2026",
+      "viewCount": 72224,
+      "likeCount": 1013,
+      "retweetCount": 51,
+      "author": {
+        "userName": "UiSavior",
+        "name": "UI/UX Savior",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/UiSavior/status/2066015893075734537",
+      "is_official": false
+    },
+    {
+      "id": "2066130379841622413",
+      "text": "🚨 JUST IN:\n\nYesterday, 🇺🇸 US export controls forced Anthropic to globally disable its advanced AI models Fable 5 and Mythos 5. \r\n\nToday, 🇫🇷 President Macron &amp; 🇮🇳 PM Modi launched India-France Cooperative AI Partnership for sovereign, open &amp; inclusive innovation. https://t.co/uuMqmC4k0H",
+      "createdAt": "Sun Jun 14 12:07:24 +0000 2026",
+      "viewCount": 38662,
+      "likeCount": 1647,
+      "retweetCount": 324,
+      "author": {
+        "userName": "beatsinbrief",
+        "name": "Beats in Brief 🗞️",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/beatsinbrief/status/2066130379841622413",
+      "is_official": false
+    },
+    {
+      "id": "2066097484846203211",
+      "text": "this is f*cking gold\n\nHow to build your first AI agent (Full guide)\n\nif I had this a year ago, I would've shipped my first agent in a day instead of 2 weeks\n\nin the right hands, this changes everything: https://t.co/eWNNOL7jYn",
+      "createdAt": "Sun Jun 14 09:56:41 +0000 2026",
+      "viewCount": 296840,
+      "likeCount": 1792,
+      "retweetCount": 238,
+      "author": {
+        "userName": "eng_khairallah1",
+        "name": "Khairallah AL-Awady",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/eng_khairallah1/status/2066097484846203211",
+      "is_official": true
+    },
+    {
+      "id": "2066171817149210774",
+      "text": "The new Siri finally works as it is supposed to for the first time in 15 years and the pre-installed status is going to give Apple a competitive baseline to ChatGPT, Gemini and Claude that will steal away users of basic tasks like search, the most popular AI use case.",
+      "createdAt": "Sun Jun 14 14:52:03 +0000 2026",
+      "viewCount": 148358,
+      "likeCount": 1904,
+      "retweetCount": 69,
+      "author": {
+        "userName": "markgurman",
+        "name": "Mark Gurman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/markgurman/status/2066171817149210774",
+      "is_official": false
+    },
+    {
+      "id": "2066172819952566643",
+      "text": "AMD CEO Lisa Su just killed Nvidia’s $4,000 AI box with a $1,499 lunchbox.\n\nShe walked on stage, held it in one hand, and ran a 235 billion parameter model live. No data center. No cloud. No rented GPU.\n\nThe chip inside is something nobody saw coming. AMD’s Ryzen AI Max+ 395 is the first x86 silicon where CPU and GPU share the same 128GB of memory. That single trick lets a desktop run models that used to need a server rack.\n\nOut of those 128GB, Linux hands the GPU 110GB to play with. For context, an RTX 5090 gives you 32GB. A 4090 gives you 24. This box gives you more than three times either of them, in a chassis the size of a thick paperback.\n\nThe benchmark that broke the room: this chip beat an Nvidia RTX 5080 by more than 3x on DeepSeek R1 inference. A $1,499 lunchbox outrunning a $1,000 discrete graphics card on a real AI workload. Nvidia spent a decade convincing the world you needed their hardware for serious AI. AMD just put that on a desk for half the price.\n\nHere is what nobody is telling you. A heavy AI user right now pays $200 for Claude Code Max, $200 for ChatGPT Pro, $20 for Cursor, $20 for Gemini. That is $5,280 a year leaving your account. The box pays itself off in 9 months and then runs free for the rest of its life.\n\nInstall Ollama. Pull Qwen3 235B. Point Claude Code at localhost. Same interface you already use, except now nothing leaves your machine, nothing costs per request, and no company throttles your usage at 3am when you finally have time to build.\n\nThis is the moment every AI subscription becomes optional. Lawyers stop fearing OpenAI leaks. Developers stop watching the token meter. Founders stop renting H100s for prototypes that never ship because the bill scared them.\n\nThe first thousand people to figure this out will own the next two years of private AI consulting.\n\nSave this, and read the full breakdown article below you are watching the next shift hit before everyone else does.",
+      "createdAt": "Sun Jun 14 14:56:02 +0000 2026",
+      "viewCount": 1972658,
+      "likeCount": 7852,
+      "retweetCount": 973,
+      "author": {
+        "userName": "adiix_official",
+        "name": "AdiiX",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/adiix_official/status/2066172819952566643",
+      "is_official": true
+    },
+    {
+      "id": "2066011171967127643",
+      "text": "SOMEONE VIBE CODED A CHROME EXTENSION THAT DISGUISES CLAUDE AS A GOOGLE DOC SO YOU CAN USE AI IN PUBLIC\n\nit wraps ai in a fake google docs interface, so on your screen it just looks like youre typing a document, not prompting a chatbot\n\nwhat it does:\n\n> works with chatgpt and claude\n> you just type your question like a normal line in a doc and the answer comes back right there on the page\n> microsoft word and notion style themes too, so you can pick your disguise\n> rebuilt to properly support multiple ai models behind the doc\n> the google docs look is the default\n\nits a chrome extension called gptdisguise\n\nthis is genius.\n\na lot of people are embarrassed to be seen using ai in public (school, work, etc). someone just built the fix.",
+      "createdAt": "Sun Jun 14 04:13:42 +0000 2026",
+      "viewCount": 541204,
+      "likeCount": 4248,
+      "retweetCount": 177,
+      "author": {
+        "userName": "om_patel5",
+        "name": "Om Patel",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/om_patel5/status/2066011171967127643",
+      "is_official": false
+    },
+    {
+      "id": "2066270561081454989",
+      "text": "Codex can see and set its own /goal. Everything we build, we build also as a tool for the agent. This is a generalization of meta prompting, where you let the agent set its own task based on your intent.",
+      "createdAt": "Sun Jun 14 21:24:25 +0000 2026",
+      "viewCount": 71825,
+      "likeCount": 1223,
+      "retweetCount": 54,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2066270561081454989",
+      "is_official": false
+    }
+  ]
+}

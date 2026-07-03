@@ -1,0 +1,212 @@
+{
+  "generated_at": "2026-05-26T00:01:15.665Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 17,
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "告别多奖励跷跷板：Flow-OPD将多教师OPD带入图像生成",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034802&idx=2&sn=8073f8f1de5678cc24a4b43a269766f2",
+      "published_at": "2026-05-25T06:32:00.000Z",
+      "summary": "机器之心 2026-05-25 14:32 北京\n\n首个将 OPD 引入流匹配模型的统一多任务后训练框架\n\n本文由中国科学技术大学、加州大学洛杉矶分校、香港中文大学和小红书等机构合作完成。共同作者第一为中国科学技术大学一年级研究生方镇，他的研究方向为通用多模态智能体。\n\n今年以来，在线策略蒸馏 OPD（On-Policy Distillation）已经逐渐成为大厂 LLM 后训练中的重要组件，例如 DeepSeek-V4，GLM5 就使用了多教师 OPD 来整合不同领域专家模型的能力，相比混合奖励强化学习收敛更快、效果更好。\n\n那么这样一种高效直观的多教师 OPD 策略是否能够应用于图像生成任",
+      "priority_score": 300,
+      "matched_keywords": [
+        "DeepSeek",
+        "LLM",
+        "GLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "胜率直逼人类大师！这套Agent揭开中国AI「玄学真相」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702700&idx=1&sn=84059c912a5abdc4cbc859a0908677f3",
+      "published_at": "2026-05-25T04:45:00.000Z",
+      "summary": "ASI启示录 2026-05-25 12:45 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 没有信息泄漏的专业术数题库面前，Claude、GPT等主流模型集体「翻车」。但一个叫Tianfu Agent的系统，却一举将准确率提升至50%，逼近本届术数大赛人类Top20选手的53.5%平均水平。**\n\n把当前最先进的通用大模型，放在中国传统术数专业选择题（四选一）面前，会发生什么？\n\n需要说明的是，评测对通用模型已经做了「让步」：所有基线模型的Prompt中都提供了预计算的盘面数据，避免引入计算幻觉，而是直接考察推理能力。\n\nDestinyLinker研究团队基于术数大赛",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Claude",
+        "GPT"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "阿里云的「Agentic 时刻」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107169&idx=1&sn=a7e0318af6595eac37a62a53cca0e046",
+      "published_at": "2026-05-25T10:15:00.000Z",
+      "summary": "原创郑玄 2026-05-25 18:15 北京\n\n阿里云在 520 峰会上，交出了第一张 Agentic 答卷。\n\n**作者｜郑玄**\n\n5 月 19 日的 Google I/O 上，谷歌最重磅的发布是一款叫 Gemini Spark 的个人 Agent——跑在 Google Cloud 的专属虚拟机上，由 Gemini 3.5 和 Antigravity 框架驱动，深度接管用户的 Gmail 和 Workspace，24 小时在云端替人执行长任务。Sundar Pichai 在 keynote 上把它定义为「你的个人 AI Agent」。\n\n几个小时以后，北京时间 5 月 20 日的杭州，",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "DeepSeek V4还能更省！新工具缓存命中率高达99.82%，2折稳定到手",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892730&idx=1&sn=3da5702f8033c5ed6690bd71d90a581d",
+      "published_at": "2026-05-25T04:27:00.000Z",
+      "summary": "关注前沿科技 2026-05-25 12:27 北京\n\n专为DeepSeek打造的终端coding harness\n\n##### 鱼羊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n我悟了，DeepSeek V4系列发布1个月，价格屠夫的本色这才刚刚发力啊！\n\n官方这边，打折促销期还没过，折上折价格已官宣落定为 **永久降价** 。\n\n就这样，开源社区仍不满足。您猜怎么着？缓存命中率直接给干到 **99.82%** 了！\n\n什么概念？就是原本4亿+token、61美元 *（合人民币414元）* 的账单，能直降至12美元 *（合人民币81元）* ，2折轻松到手。\n\n老哥老姐们给这个名为 **",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "What ClickUp’s mass layoff tells us about the future of work",
+      "url": "https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/",
+      "published_at": "2026-05-25T16:00:00.000Z",
+      "summary": "The nine-year-old startup is replacing hundreds of employees with thousands of AI agents.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "微软按下 vibe coding 暂停键：烧 token 已经比员工贵了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107181&idx=1&sn=58fc8abc6447f864db5b2675f085910b",
+      "published_at": "2026-05-25T12:07:00.000Z",
+      "summary": "原创张勇毅 2026-05-25 20:07 北京\n\n烧 token 在 YC 的语境里不是支出，是替代。\n\n**作者｜张勇毅** **编辑｜ **靖宇****\n\n2026 年 5 月 14 日， **微软已经开始取消大部分员工的 Claude Code 内部许可** 。截止日期是 6 月 30 日——也是微软财年最后一天。\n\n仅仅 6 个月前，微软还在做完全相反的事——2025 年 12 月，它把 Claude Code 开放给数千名员工，包括工程师、产品经理、设计师，鼓励所有人都用 vibe coding 的方式来重塑工作流。员工很喜欢这个工具，但也许，太喜欢了。\n\n但 6 个月之后，微软",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "AI Infra入门干货总结：大模型是如何高效推理的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649801625&idx=1&sn=7c7a7d2148c6907f65c9f747717b3197",
+      "published_at": "2026-05-25T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-05-25 17:36 广东\n\n2个月深入阅读vLLM源码的心得\n\n作者：binnnliu\n看了很多的文章和视频，我以为我理解大模型的工作原理了，直到看了vLLM的代码，我发现很多地方理解的太过表面。因此花了大概2个月的业余时间，深入阅读了vLLM的源码，本文算是对于学习代码的一个总结。另外由于当前主流LLM都是 Decoder-Only 架构，本文会聚焦LLM，不会像网络上其他介绍Transformers的文章从原始论文的 Encoder-Decoder架构讲起。\n在阅读 vLLM 源码的过程中发现，追踪推理过程中每一步的张量维度变化，对于理解大模型工作原理非常有用",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Pope Leo calls for being ‘profoundly human’ in the age of AI",
+      "url": "https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare",
+      "published_at": "2026-05-25T15:05:07.000Z",
+      "summary": "Pope Leo XIV attends the presentation of his first Encyclical Letter \"Magnifica humanitas\" on May 25, 2026 in Vatican City, Vatican. | Getty Images\nPope Leo XIV warned of the risks of AI and unconstrained technological power in his first major papal document released on Monday.[Magnifica Humanitas](",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "图灵奖得主领衔，中国大模型第一梯队集结！2026智源大会，看懂AI下一程",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892730&idx=2&sn=7f4566b76dab8c4ec3e75fa2dd686b7c",
+      "published_at": "2026-05-25T04:27:00.000Z",
+      "summary": "关注前沿科技 2026-05-25 12:27 北京\n\n报名通道已开，手慢无\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n人工智能正以前所未有的速度重塑世界。\n\n当大模型从数字世界走入物理世界、重塑社会肌理，我们一直都在追问：AI的下一程，路在何方？\n\n这一年，AI的发展正在进入一个全新的阶段。而在这一跨越中， **智能体与世界模型无疑成为了今年最核心的两大技术趋势** ：\n\n智能体让大模型拥有了自主规划、调用工具与自我迭代的“行动力”，而世界模型则为AI构建了理解物理规律、预测环境演变的“世界观”……\n\n一年一度的智源大会，正是这一时代转折中的思想坐标。\n\n25场论",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "「死了么」App 被「收编」，改名「在么在么」；台积电盈利大增却传出削减奖金，员工酝酿罢工；NVIDIA 杀入 CPU 市场 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653107125&idx=1&sn=0bd5221c2f37eec77ab374070b6fd517",
+      "published_at": "2026-05-25T00:30:00.000Z",
+      "summary": "苏子华 2026-05-25 08:30 美国\n\n· 企业强推 AI 提效遇反效果\n\n## 神舟二十三号航天员乘组顺利进驻「天宫」，中国航天员完成第 8 次「太空会师」\n\n5 月 25 日消息，据中国载人航天工程办公室官方消息，在载人飞船与空间站组合体成功交会对接后，神舟二十三号航天员乘组从飞船返回舱顺利进入轨道舱。\n\n北京时间 2026 年 5 月 24 日 23 时 08 分，搭载神舟二十三号载人飞船的长征二号 F 遥二十三运载火箭在酒泉卫星发射中心点火发射，约 10 分钟后，飞船与火箭成功分离，进入预定轨道，航天员乘组状态良好，发射取得圆满成功。\n\n北京时间 2026 年 5 月 25 ",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The pope’s AI encyclical isn’t really about AI",
+      "url": "https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/",
+      "published_at": "2026-05-25T15:09:41.000Z",
+      "summary": "Pope Leo XIV's first encyclical uses AI as a lens to diagnose older problems: concentrated power, eroding democracy, and a tech elite that shapes the world to its own advantage.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Startup Battlefield 200 applications close in days: Apply before May 27",
+      "url": "https://techcrunch.com/2026/05/25/startup-battlefield-200-applications-close-in-days-apply-before-may-27/",
+      "published_at": "2026-05-25T14:30:00.000Z",
+      "summary": "The deadline to apply or nominate for Startup Battlefield 200 is May 27. This is your shot at VC access, global visibility, TechCrunch coverage, and $100,000. Apply now.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "5 days left: Save up to $410 on TechCrunch Disrupt 2026 passes before prices increase",
+      "url": "https://techcrunch.com/2026/05/25/5-days-left-save-up-to-410-on-techcrunch-disrupt-2026-passes-before-prices-increase/",
+      "published_at": "2026-05-25T14:00:00.000Z",
+      "summary": "Early Bird savings for TechCrunch Disrupt 2026 in San Francisco end May 29 at 11:59 p.m. PT. Register now to save up to $410 before prices increase.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "性能超越李飞飞，他们把10亿高斯点的3D世界装进浏览器",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651034802&idx=1&sn=aca7d8c47e9a0e86138d845b09d9e70a",
+      "published_at": "2026-05-25T06:32:00.000Z",
+      "summary": "原创关注三维世界的 2026-05-25 14:32 北京\n\n信息载体的下一站，从二维走向三维。\n\n编辑｜冷猫\n\n我们知道，世界是三维的。\n\n但互联网普及至今，受限于技术、硬件和传播载体，在几十年的时间里，都在把这个三维世界压成二维来表达。文字、图片、视频，这三种信息载体承载了我们今天在网上看到的几乎一切，都已经把这个世界降维。这是过去，互联网受限于带宽、硬件和计算能力后的「妥协」。\n\n直到 3D 高斯泼溅（3D Gaussian Splatting, 3DGS） 的出现，才第一次让「随手拍、即时重建、实时漫游」三维场景成为可能。但这项技术一直卡在「最后一百米」：怎么让普通人在浏览器里流畅地看",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "刚刚，Ilya又发神图「思考者」！AI芯片海洋上在想啥？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702700&idx=2&sn=961b1a85af782e0324032b9fca92767b",
+      "published_at": "2026-05-25T04:45:00.000Z",
+      "summary": "ASI启示录 2026-05-25 12:45 北京\n\nIlya神作：赛博「思考者」\n\n### **新智元报道**\n\n##### **【新智元导读】** 「什么都没说，却什么都说了。」Ilya用一幅Die Shot上的《思考者》引爆全网。\n\n刚刚，AI圈最神秘的精神领袖Ilya，在Instagram上传了一幅画。\n\n画面里，罗丹的「思考者」踩在悬崖边缘，凝视脚下一片由紫色晶体管和数字电路编织成的微观宇宙。\n\n那片海洋的学名叫Die Shot——芯片的显微剖面图，纯粹由硅片组成的晶体管丛林。\n\n右下角，黑色笔迹签着：IS 2026。\n\n就这样，硅谷炸了。\n\n**什么都没说，却什么都说了**\n\n他",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "新智元ALL in ASI英雄帖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652702700&idx=3&sn=9c4869434e798e8f77de020f05f231ad",
+      "published_at": "2026-05-25T04:45:00.000Z",
+      "summary": "ASI启示录 2026-05-25 12:45 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 2026年，ASI奇点之年。全球AI竞赛进入决赛圈，AI正以指数级的速度重塑世界。新智元All in ASI，现招募两个核心战位——ASI架构师（年薪50-70万）与ASI主笔（年薪50-70万），坐标北京上地，虚位以待。**\n\n全球AI竞赛进入决赛圈，每天都有大事发生。 新智元要覆盖的赛道、要打的仗也在飙升。 我们不仅要在全球AI最前沿保持绝对敏锐，更要在ASI浪潮中主动出击。 现在，新智元正式发出All in ASI英雄帖。 我们在上地AI家，召唤 **对ASI有信仰，有使",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247892730&idx=3&sn=086041a23cb72e84094f6f160b394c79",
+      "published_at": "2026-05-25T04:27:00.000Z",
+      "summary": "关注前沿科技 2026-05-25 12:27 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

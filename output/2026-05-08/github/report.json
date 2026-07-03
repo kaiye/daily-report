@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-05-08",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日入选项目最热的共同方向是围绕大模型构建智能体、编码助手与检索推理基础设施。",
+  "items": [
+    {
+      "repo": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "面向我们最常见金融服务工作流的参考智能体、技能与数据连接器——涵盖投行、股票研究、私募股权和财富管理。",
+      "language": "Python",
+      "stars_today": 1343,
+      "stars_total": 11608
+    },
+    {
+      "repo": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "在终端中运行的 DeepSeek 模型编码智能体。",
+      "language": "Rust",
+      "stars_today": 5799,
+      "stars_total": 18697
+    },
+    {
+      "repo": "z-lab/dflash",
+      "url": "https://github.com/z-lab/dflash",
+      "description": "DFlash：用于闪电推测解码的块扩散方法。",
+      "language": "Python",
+      "stars_today": 671,
+      "stars_total": 3481
+    },
+    {
+      "repo": "InsForge/InsForge",
+      "url": "https://github.com/InsForge/InsForge",
+      "description": "InsForge 是一个基于 Postgres 的后端，集成认证、存储、计算、托管和 AI 网关，为编码智能体而构建。",
+      "language": "TypeScript",
+      "stars_today": 460,
+      "stars_total": 8847
+    },
+    {
+      "repo": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "description": "在 SimpleQA 上约达 95%，支持所有本地与云端 LLM、10 多种搜索引擎以及你的私有文档，并且全程本地且加密。",
+      "language": "Python",
+      "stars_today": 559,
+      "stars_total": 6228
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "面向 AI 编码智能体的生产级工程技能。",
+      "language": "Shell",
+      "stars_today": 3062,
+      "stars_total": 32914
+    },
+    {
+      "repo": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "description": "PageIndex：面向无向量、基于推理的 RAG 的文档索引。",
+      "language": "Python",
+      "stars_today": 943,
+      "stars_total": 29519
+    },
+    {
+      "repo": "vercel-labs/open-agents",
+      "url": "https://github.com/vercel-labs/open-agents",
+      "description": "用于构建云端智能体的开源模板。",
+      "language": "TypeScript",
+      "stars_today": 131,
+      "stars_total": 5033
+    },
+    {
+      "repo": "decolua/9router",
+      "url": "https://github.com/decolua/9router",
+      "description": "免费无限 AI 编码，支持将 Claude Code、Codex、Cursor、Cline、Copilot、Antigravity 通过 40 多家提供商接入免费的 Claude、GPT 和 Gemini。",
+      "language": "JavaScript",
+      "stars_today": 149,
+      "stars_total": 4503
+    },
+    {
+      "repo": "PriorLabs/TabPFN",
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "description": "TabPFN：面向表格数据的基础模型。",
+      "language": "Python",
+      "stars_today": 230,
+      "stars_total": 6781
+    },
+    {
+      "repo": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "一个开源、可扩展的 AI 智能体，超越代码建议，可配合任意 LLM 完成安装、执行、编辑和测试。",
+      "language": "Rust",
+      "stars_today": 390,
+      "stars_total": 44491
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "report_date": "2026-05-15",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "OpenAI与Anthropic围绕企业市场、编程工具和产品入口的争夺继续升级，并外溢到法律、内部采购和组织调整层面。",
+  "items": [
+    {
+      "source": "新智元",
+      "title": "Anthropic在企业端首次反超OpenAI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652700447&idx=1&sn=4fe5e0318907d85fc5216e491cddfef4",
+      "published_at": "2026-05-14T05:05:00.000Z",
+      "summary": "Ramp最新AI指数显示，Claude在企业市场份额以34.4%首次超过OpenAI的32.3%，让两家公司在企业应用上的争夺出现新变化。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI把Codex带进ChatGPT手机应用",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/930763/openai-codex-chatgpt-ios-android-app-preview",
+      "published_at": "2026-05-14T20:00:00.000Z",
+      "summary": "OpenAI将让用户直接在手机端通过ChatGPT调用Codex，从而把原本偏桌面的编程工具扩展到移动工作流。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI据称准备对苹果采取法律行动",
+      "url": "https://techcrunch.com/2026/05/14/openai-is-reportedly-preparing-legal-action-against-apple-it-wouldnt-be-the-first-partner-to-feel-burned/",
+      "published_at": "2026-05-14T19:12:03.000Z",
+      "summary": "OpenAI对苹果未能带来预期的订阅增长和曝光感到不满，正考虑就ChatGPT集成问题发起诉讼。"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "微软开始取消Claude Code许可",
+      "url": "https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad",
+      "published_at": "2026-05-14T19:00:00.000Z",
+      "summary": "微软此前曾向内部开发者开放Claude Code，如今却开始收回许可，显示其对Anthropic编码工具的支持正在收紧。"
+    },
+    {
+      "source": "新智元",
+      "title": "Claude出现角色混淆，长上下文下更易出错",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652700447&idx=3&sn=c8fddc4782f26a3e8c30386455023d7f",
+      "published_at": "2026-05-14T05:05:00.000Z",
+      "summary": "一名程序员让Claude校对博客时，它把用户指令误当成自己的话并直接执行发布，暴露出长上下文场景中的理解偏差。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceXAI合并后已流失50多名员工",
+      "url": "https://techcrunch.com/2026/05/14/elon-musks-spacexai-has-been-bleeding-staff-since-its-merger/",
+      "published_at": "2026-05-14T21:30:44.000Z",
+      "summary": "自2月合并以来，SpaceXAI已有50多名员工离职，外界将其与倦怠、管理变动和留才激励减弱联系起来。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cerebras融资55亿美元后上市首日股价大涨108%",
+      "url": "https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/",
+      "published_at": "2026-05-14T16:30:02.000Z",
+      "summary": "Cerebras完成55亿美元融资后成为2026年首个大型科技IPO，上市首日股价大幅上涨108%。"
+    },
+    {
+      "source": "机器之心",
+      "title": "魔芯科技发布VGGT系列成果并获新一轮融资",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651032918&idx=2&sn=432a33332eeea19bbf7a68f730b2bc88",
+      "published_at": "2026-05-14T04:10:00.000Z",
+      "summary": "魔芯科技联合同济大学等团队基于VGGT架构连续拿出四项成果，推动动态高保真三维重建能力提升，并完成新一轮融资。"
+    }
+  ]
+}

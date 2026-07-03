@@ -1,0 +1,112 @@
+{
+  "report_date": "2026-04-17",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕大模型与智能体的开发基础设施快速升温，包括代码协作记忆、智能体框架、自演化能力以及推理与多模态交互。",
+  "items": [
+    {
+      "repo": "forrestchang/andrej-karpathy-skills",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "description": "单个 CLAUDE.md 文件，用于改进 Claude Code 的行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。",
+      "language": "Unknown",
+      "stars_today": 7959,
+      "stars_total": 49683
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Claude Code 插件，会自动捕获 Claude 在编码会话中的全部操作，用 AI（基于 Claude 的 agent-sdk）压缩后，再把相关上下文注入未来会话。",
+      "language": "TypeScript",
+      "stars_today": 1897,
+      "stars_total": 59654
+    },
+    {
+      "repo": "lsdefine/GenericAgent",
+      "url": "https://github.com/lsdefine/GenericAgent",
+      "description": "自我进化智能体：从 3.3K 行种子代码生长出技能树，并以少 6 倍的 token 消耗实现完整系统控制。",
+      "language": "Python",
+      "stars_today": 872,
+      "stars_total": 2745
+    },
+    {
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "开源语音合成工作室。",
+      "language": "TypeScript",
+      "stars_today": 880,
+      "stars_total": 19047
+    },
+    {
+      "repo": "vercel-labs/open-agents",
+      "url": "https://github.com/vercel-labs/open-agents",
+      "description": "用于构建云端智能体的开源模板。",
+      "language": "TypeScript",
+      "stars_today": 738,
+      "stars_total": 3179
+    },
+    {
+      "repo": "google/magika",
+      "url": "https://github.com/google/magika",
+      "description": "快速且准确的 AI 驱动文件内容类型检测。",
+      "language": "Python",
+      "stars_today": 854,
+      "stars_total": 14720
+    },
+    {
+      "repo": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "description": "只需 6 行代码即可为 AI 智能体记忆构建知识引擎。",
+      "language": "Python",
+      "stars_today": 170,
+      "stars_total": 15785
+    },
+    {
+      "repo": "z-lab/dflash",
+      "url": "https://github.com/z-lab/dflash",
+      "description": "DFlash：面向 Flash Speculative Decoding 的块扩散方法。",
+      "language": "Python",
+      "stars_today": 195,
+      "stars_total": 1590
+    },
+    {
+      "repo": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型 Dive into LLMs》系列编程实践教程。",
+      "language": "Jupyter Notebook",
+      "stars_today": 1385,
+      "stars_total": 30640
+    },
+    {
+      "repo": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "轻量而强大的多智能体工作流框架。",
+      "language": "Python",
+      "stars_today": 172,
+      "stars_total": 21212
+    },
+    {
+      "repo": "EvoMap/evolver",
+      "url": "https://github.com/EvoMap/evolver",
+      "description": "面向 AI 智能体的 GEP 驱动自我进化引擎，即 Genome Evolution Protocol。",
+      "language": "JavaScript",
+      "stars_today": 812,
+      "stars_total": 3136
+    },
+    {
+      "repo": "SimoneAvogadro/android-reverse-engineering-skill",
+      "url": "https://github.com/SimoneAvogadro/android-reverse-engineering-skill",
+      "description": "支持 Android 应用逆向工程的 Claude Code 技能。",
+      "language": "Shell",
+      "stars_today": 375,
+      "stars_total": 2208
+    },
+    {
+      "repo": "BasedHardware/omi",
+      "url": "https://github.com/BasedHardware/omi",
+      "description": "能看你的屏幕、听你的对话，并告诉你该怎么做的 AI。",
+      "language": "Dart",
+      "stars_today": 378,
+      "stars_total": 9075
+    }
+  ]
+}

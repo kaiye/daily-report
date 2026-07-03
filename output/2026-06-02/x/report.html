@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUN 02, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">最重要的共同信号是，AI 正从模型发布快速走向企业云、资本市场、本地硬件和数据中心等规模化基础设施竞争。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@AnthropicAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anthropic</span>：Anthropic 表示已向 SEC 秘密提交 S-1 草案，待审查完成后将保留推进 IPO 的选择权。
+          </p>
+          <p class="item-metric">👁 11.0M · ❤️ 17.4K</p>
+          <a class="item-link" href="https://twitter.com/AnthropicAI/status/2061478052257841495">https://twitter.com/AnthropicAI/status/2061478052257841495</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@OpenAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI</span>：OpenAI 宣布前沿模型和 Codex 已在 AWS 上全面可用，企业可通过 Bedrock 在既有安全、合规和治理流程中使用 OpenAI。
+          </p>
+          <p class="item-metric">👁 304.7K · ❤️ 2.3K</p>
+          <a class="item-link" href="https://twitter.com/OpenAI/status/2061564502160892138">https://twitter.com/OpenAI/status/2061564502160892138</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@Alibaba_Qwen</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Qwen</span>：Qwen 发布 Qwen3.7-Plus，一个统一视觉与语言的多模态智能体模型，可处理 GUI、CLI、编码、视觉推理与检索问答。
+          </p>
+          <p class="item-metric">👁 161.7K · ❤️ 2.3K</p>
+          <a class="item-link" href="https://twitter.com/Alibaba_Qwen/status/2061506641120641494">https://twitter.com/Alibaba_Qwen/status/2061506641120641494</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@xai</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">xAI</span>：xAI 宣布 Composer 2.5 已进入 Grok Build，主打快速、强推理，并擅长长期任务和复杂指令跟随。
+          </p>
+          <p class="item-metric">👁 341.7K · ❤️ 3.3K</p>
+          <a class="item-link" href="https://twitter.com/xai/status/2061510464325206163">https://twitter.com/xai/status/2061510464325206163</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@OpenAINewsroom</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI Newsroom</span>：OpenAI Newsroom 称 Stargate Michigan 开工建设，这座 1GW 数据中心采用闭环冷却，并将带来工会岗位和学生 Codex 额度。
+          </p>
+          <p class="item-metric">👁 82.7K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/OpenAINewsroom/status/2061533639138316314">https://twitter.com/OpenAINewsroom/status/2061533639138316314</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@GeminiApp</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Google Gemini</span>：Google Gemini 展示如何用 Gemini Omni 创建像自己、听起来也像自己的数字分身，并把自己加入视频创作。
+          </p>
+          <p class="item-metric">👁 116.9K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/GeminiApp/status/2061480944905982276">https://twitter.com/GeminiApp/status/2061480944905982276</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@ClaudeDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ClaudeDevs</span>：ClaudeDevs 表示已重置 Pro 和 Max 用户的 5 小时及周限额，并修复 Claude Code 过度生成并行子智能体导致用量异常的问题。
+          </p>
+          <p class="item-metric">👁 929.5K · ❤️ 14.3K</p>
+          <a class="item-link" href="https://twitter.com/ClaudeDevs/status/2061501787769893055">https://twitter.com/ClaudeDevs/status/2061501787769893055</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@Dexerto</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Dexerto</span>：Dexerto 报道 PewDiePie 推出免费自托管 AI 工作区 Odysseus，定位为可聊天、跑智能体、用工具、做研究的 ChatGPT 替代界面。
+          </p>
+          <p class="item-metric">👁 1.2M · ❤️ 11.1K</p>
+          <a class="item-link" href="https://twitter.com/Dexerto/status/2061413468549324819">https://twitter.com/Dexerto/status/2061413468549324819</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@shiri_shh</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">shirish</span>：这条观点称 NVIDIA 的 RTX Spark 让笔记本进入本地智能体时代：128GB 统一内存、1 petaflop 本地 AI，智能体可脱离云端常驻运行。
+          </p>
+          <p class="item-metric">👁 4.4M · ❤️ 20.7K</p>
+          <a class="item-link" href="https://twitter.com/shiri_shh/status/2061426931162288614">https://twitter.com/shiri_shh/status/2061426931162288614</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@MiniMax_AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">MiniMax (official)</span>：MiniMax 发布开放权重模型 M3，强调编码与智能体能力、1M 上下文稀疏注意力和原生多模态，并称权重与技术报告约 10 天后发布。
+          </p>
+          <p class="item-metric">👁 2.6M · ❤️ 7.6K</p>
+          <a class="item-link" href="https://twitter.com/MiniMax_AI/status/2061266317815296322">https://twitter.com/MiniMax_AI/status/2061266317815296322</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

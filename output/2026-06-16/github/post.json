@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-06-16T01:18:24.872Z",
+  "source_raw": "raw.json",
+  "source_count": 18,
+  "item_count": 15,
+  "language_breakdown": {
+    "TypeScript": 3,
+    "Python": 6,
+    "Ruby": 1,
+    "Unknown": 1,
+    "TeX": 1,
+    "PowerShell": 1,
+    "Dockerfile": 1,
+    "C#": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "iptv-org/iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "stars_today": 2657,
+      "stars_total": 122899,
+      "forks": 6604
+    },
+    {
+      "rank": 3,
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars_today": 1100,
+      "stars_total": 30189,
+      "forks": 2452
+    },
+    {
+      "rank": 4,
+      "repo": "meshery/meshery",
+      "url": "https://github.com/meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "language": "TypeScript",
+      "stars_today": 228,
+      "stars_total": 10630,
+      "forks": 3434
+    },
+    {
+      "rank": 5,
+      "repo": "chatwoot/chatwoot",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "language": "Ruby",
+      "stars_today": 431,
+      "stars_total": 31693,
+      "forks": 7629
+    },
+    {
+      "rank": 7,
+      "repo": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "language": "TypeScript",
+      "stars_today": 736,
+      "stars_total": 447900,
+      "forks": 44993
+    },
+    {
+      "rank": 9,
+      "repo": "jwasham/coding-interview-university",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "Unknown",
+      "stars_today": 364,
+      "stars_total": 352315,
+      "forks": 83567
+    },
+    {
+      "rank": 10,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars_today": 562,
+      "stars_total": 33091,
+      "forks": 5411
+    },
+    {
+      "rank": 11,
+      "repo": "music-assistant/server",
+      "url": "https://github.com/music-assistant/server",
+      "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+      "language": "Python",
+      "stars_today": 225,
+      "stars_total": 2385,
+      "forks": 444
+    },
+    {
+      "rank": 12,
+      "repo": "Free-TV/IPTV",
+      "url": "https://github.com/Free-TV/IPTV",
+      "description": "M3U Playlist for free TV channels",
+      "language": "Python",
+      "stars_today": 361,
+      "stars_total": 17285,
+      "forks": 2563
+    },
+    {
+      "rank": 13,
+      "repo": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "description": "Introduction to Autonomous Robots",
+      "language": "TeX",
+      "stars_today": 489,
+      "stars_total": 3069,
+      "forks": 655
+    },
+    {
+      "rank": 14,
+      "repo": "Raphire/Win11Debloat",
+      "url": "https://github.com/Raphire/Win11Debloat",
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+      "language": "PowerShell",
+      "stars_today": 112,
+      "stars_total": 48026,
+      "forks": 1938
+    },
+    {
+      "rank": 15,
+      "repo": "mikeroyal/Self-Hosting-Guide",
+      "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+      "description": "Self-Hosting Guide. Learn all about locally hosting (on premises &amp; private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+      "language": "Dockerfile",
+      "stars_today": 188,
+      "stars_total": 21036,
+      "forks": 1065
+    },
+    {
+      "rank": 16,
+      "repo": "itsfatduck/optimizerDuck",
+      "url": "https://github.com/itsfatduck/optimizerDuck",
+      "description": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
+      "language": "C#",
+      "stars_today": 340,
+      "stars_total": 3689,
+      "forks": 161
+    },
+    {
+      "rank": 17,
+      "repo": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "language": "Python",
+      "stars_today": 1079,
+      "stars_total": 6378,
+      "forks": 468
+    },
+    {
+      "rank": 18,
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars_today": 396,
+      "stars_total": 30279,
+      "forks": 5195
+    }
+  ]
+}

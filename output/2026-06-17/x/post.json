@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-06-17T00:02:37.724Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-06-16",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2066934692641956231",
+      "text": "Let’s talk about evals.\n\nWe’re always looking for better ways to measure and forecast model progress, especially as benchmarks get saturated or gamed. \n\n@tejalpatwardhan, who leads our frontier evals team, spoke to @andrewmayne about why evals matter and what models need to be judged on next.",
+      "createdAt": "Tue Jun 16 17:23:27 +0000 2026",
+      "viewCount": 138432,
+      "likeCount": 1166,
+      "retweetCount": 75,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2066934692641956231",
+      "is_official": true
+    },
+    {
+      "id": "2066926619714007115",
+      "text": "How do teams get agents into production?\n\nNew blog post from our Applied AI team on Claude Managed Agents and the challenges it solves (credentials, sandboxing, observability, &amp; more) ... https://t.co/02fp1NMZ6a",
+      "createdAt": "Tue Jun 16 16:51:22 +0000 2026",
+      "viewCount": 203880,
+      "likeCount": 2173,
+      "retweetCount": 135,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2066926619714007115",
+      "is_official": true
+    },
+    {
+      "id": "2066969532380721386",
+      "text": "Our latest economic research introduces a framework for tracking Claude Code as it scales. \n\nWho is using Claude Code, and what are they using it for? How is the value of tasks changing? And how much does domain expertise shape whether a session succeeds?\nhttps://t.co/IjjwQvrESo",
+      "createdAt": "Tue Jun 16 19:41:53 +0000 2026",
+      "viewCount": 224751,
+      "likeCount": 1488,
+      "retweetCount": 139,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2066969532380721386",
+      "is_official": true
+    },
+    {
+      "id": "2066709849350471724",
+      "text": "🚨Anthropic just showed a 24-minute workshop on how to actually do prompts for Claude.\n\nTaught by the people who built it.\n\nFree. No registration. No paywall.\n\nI've seen $300 courses that don't cover what they teach in the first 8 minutes.\n\nWatch it and bookmark it now. https://t.co/4QKMxrFzgC",
+      "createdAt": "Tue Jun 16 02:30:00 +0000 2026",
+      "viewCount": 430797,
+      "likeCount": 2928,
+      "retweetCount": 414,
+      "author": {
+        "userName": "anujcodes_21",
+        "name": "Anuj",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/anujcodes_21/status/2066709849350471724",
+      "is_official": false
+    },
+    {
+      "id": "2066870197122899980",
+      "text": "📣 Introducing the Qwen-Robot Suite — Qwen-RobotNav, Qwen-RobotManip, Qwen-RobotWorld, three foundation models, a full stack for embodied intelligence.\n\n🧭 Qwen-RobotNav — the gateway to mobility.\n• Unifies 5 navigation tasks in one model: instruction following, point-goal, object-goal, target tracking, autonomous driving\n• Controllable observation protocol\n• Tool interface for agentic systems\n\n🤖 Qwen-RobotManip —  the foundation of interaction.\n• Unified state-action space across heterogeneous robots\n• Camera-frame delta poses for coherent cross-embodiment training\n• Pretrained on a 38,100+ hour open-source corpus\n\n🌍 Qwen-RobotWorld — infinite worlds for physical agents.\n• Single world model, 20+ embodiments\n• Natural-language action interface\n• Predicts physically grounded futures across manipulation, driving, and navigation\n\nEach model is independently useful, and could be composed as physical-world tools.Together, they form the low-level toolkit for general-purpose agentic systems that don't just see the world, but act in it.\n\n📷 Blog:\nhttps://t.co/ytLcbYET26\n📖 Report：\nQwen-RobotNav: https://t.co/uPmSwDYGxg\nQwen-RobotManip: https://t.co/GeyIzJSpU8\nQwen-RobotWorld： https://t.co/SXPH1qzDFy",
+      "createdAt": "Tue Jun 16 13:07:10 +0000 2026",
+      "viewCount": 187127,
+      "likeCount": 2110,
+      "retweetCount": 312,
+      "author": {
+        "userName": "Alibaba_Qwen",
+        "name": "Qwen",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Alibaba_Qwen/status/2066870197122899980",
+      "is_official": true
+    },
+    {
+      "id": "2066938937344495629",
+      "text": "Introducing GLM-5.2: Frontier Intelligence, Open Weights\n\n- Significant improvements in coding and agentic tasks\n- Strong long-horizon capabilities with a 1M context window\n- Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong balance between performance and token efficiency\n- MIT-licensed open weights\n- Same API pricing as GLM-5.1\n\nTech Blog: https://t.co/LAsxUdN0JZ\nWeights: https://t.co/g0A1C4UWx4\nAPI: https://t.co/Kc3E22cbN7\nCoding Plan: https://t.co/Nk8Y98HNhU\nChat: https://t.co/WCqWT0qCQb",
+      "createdAt": "Tue Jun 16 17:40:19 +0000 2026",
+      "viewCount": 928111,
+      "likeCount": 4965,
+      "retweetCount": 666,
+      "author": {
+        "userName": "Zai_org",
+        "name": "Z.ai",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Zai_org/status/2066938937344495629",
+      "is_official": true
+    },
+    {
+      "id": "2066694751102107953",
+      "text": "Claude FULL COURSE 4 HOURS (Build &amp; Automate Anything) https://t.co/AOAMApSfTY",
+      "createdAt": "Tue Jun 16 01:30:00 +0000 2026",
+      "viewCount": 80955,
+      "likeCount": 1362,
+      "retweetCount": 253,
+      "author": {
+        "userName": "anujcodes_21",
+        "name": "Anuj",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/anujcodes_21/status/2066694751102107953",
+      "is_official": false
+    },
+    {
+      "id": "2066916479438930166",
+      "text": "More of Codex is rolling out across Europe this week.\n\nWe’re bringing Computer use, the Codex Chrome extension, personalized memory, and Chronicle to Codex users in the EEA, UK, and Switzerland.\n\nhttps://t.co/tsriEswcyY",
+      "createdAt": "Tue Jun 16 16:11:04 +0000 2026",
+      "viewCount": 231591,
+      "likeCount": 2922,
+      "retweetCount": 177,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2066916479438930166",
+      "is_official": true
+    },
+    {
+      "id": "2066940737011560652",
+      "text": "BREAKING: GLM-5.2 is now 1st on Design Arena.\n\nWith an Elo of 1360, GLM-5.2 has jumped ahead of the now unavailable Claude Fable 5. \n\nAnd it's open weights.\n\nThis is an improvement of 4 positions and 27 Elo points to achieve one of the highest Elo scores in our code categories since Design Arena started.\n\nHuge congratulations to the @Zai_org on the release!",
+      "createdAt": "Tue Jun 16 17:47:28 +0000 2026",
+      "viewCount": 528586,
+      "likeCount": 3061,
+      "retweetCount": 284,
+      "author": {
+        "userName": "Designarena",
+        "name": "Design Arena",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Designarena/status/2066940737011560652",
+      "is_official": true
+    },
+    {
+      "id": "2067012220832329782",
+      "text": "We're launching code storage and git hosting.\n\nOrigin gives teams and agents a place to host, review, and collaborate on code.\n\nAvailable this fall. Join the waitlist.\n\nhttps://t.co/uamaIarJXY",
+      "createdAt": "Tue Jun 16 22:31:31 +0000 2026",
+      "viewCount": 132353,
+      "likeCount": 2535,
+      "retweetCount": 237,
+      "author": {
+        "userName": "cursor_ai",
+        "name": "Cursor",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/cursor_ai/status/2067012220832329782",
+      "is_official": true
+    },
+    {
+      "id": "2066949797316350361",
+      "text": "🤯 GLM-5.2 is here — built for long-horizon coding and agentic tasks, now with a solid 1M-token context. \n\nThe strongest open-source coding model yet!\n\nAvailable now on Ollama's cloud, hosted in the US on the latest @NVIDIAAI Blackwell datacenter GPUs. Privacy policy and zero data retention apply, as always.\n\nTry it 👇\n\nClaude Code: \nollama launch claude --model glm-5.2:cloud\n\nCodex App: \nollama launch codex-app --model glm-5.2:cloud\n\nHermes Agent: \nollama launch hermes --model glm-5.2:cloud\n\nChat: \nollama run glm-5.2:cloud\n\nMore integrations and information in the model page 🧵",
+      "createdAt": "Tue Jun 16 18:23:28 +0000 2026",
+      "viewCount": 73885,
+      "likeCount": 1095,
+      "retweetCount": 91,
+      "author": {
+        "userName": "ollama",
+        "name": "ollama",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/ollama/status/2066949797316350361",
+      "is_official": true
+    },
+    {
+      "id": "2066873915717136548",
+      "text": "SpaceX has exercised the option to acquire @cursor_ai in an all-stock transaction with the goal of building the world’s most useful AI models.\n\nFor the past few months, SpaceXAI has been jointly training a model with Cursor, which will be released in Cursor and Grok Build soon.\n\nWe look forward to working closely with the Cursor team to advance our frontier AI capabilities",
+      "createdAt": "Tue Jun 16 13:21:56 +0000 2026",
+      "viewCount": 16288520,
+      "likeCount": 30289,
+      "retweetCount": 3434,
+      "author": {
+        "userName": "SpaceX",
+        "name": "SpaceX",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/SpaceX/status/2066873915717136548",
+      "is_official": true
+    },
+    {
+      "id": "2066844381504561211",
+      "text": "JUST IN: Elon Musk's SpaceX $SPCX to acquire AI coding startup Cursor for $60,000,000,000. https://t.co/ywVAI87Xqu",
+      "createdAt": "Tue Jun 16 11:24:35 +0000 2026",
+      "viewCount": 2054587,
+      "likeCount": 14952,
+      "retweetCount": 1221,
+      "author": {
+        "userName": "WatcherGuru",
+        "name": "Watcher.Guru",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/WatcherGuru/status/2066844381504561211",
+      "is_official": true
+    },
+    {
+      "id": "2066690124486787339",
+      "text": "SOMEONE BUILT A CLAUDE CODE PLUGIN THAT REFUSES TO WORK UNTIL YOU DO PUSH-UPS OR SQUATS\n\nits called workout gate and it is exactly as cursed as it sounds\n\nwhen the hook fires, it blocks your prompt, opens your webcam, and makes you exercise to keep coding\n\n> it counts your reps live through the webcam with mediapipe, no honor system rounding down\n> only releases your prompt once you actually finish the reps\n> quit halfway and the leftover reps get saved as debt for your next session\n> chill, demo and hardcore presets, plus prompt based, time based or random triggers\n> tracks stats, streaks and personal records right in the claude code statusline\n\nwe automated the coding, now we're automating the part where we actually take care of ourselves",
+      "createdAt": "Tue Jun 16 01:11:37 +0000 2026",
+      "viewCount": 432496,
+      "likeCount": 2578,
+      "retweetCount": 146,
+      "author": {
+        "userName": "om_patel5",
+        "name": "Om Patel",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/om_patel5/status/2066690124486787339",
+      "is_official": false
+    },
+    {
+      "id": "2066819453279703442",
+      "text": "BREAKING: If you're not using Claude at your job, you're already behind.\n\nCopy these 7 prompts:",
+      "createdAt": "Tue Jun 16 09:45:31 +0000 2026",
+      "viewCount": 1095917,
+      "likeCount": 1356,
+      "retweetCount": 156,
+      "author": {
+        "userName": "VermaAakash3",
+        "name": "Aakash Verma",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/VermaAakash3/status/2066819453279703442",
+      "is_official": false
+    },
+    {
+      "id": "2066969635099144682",
+      "text": "We’re sharing new research on a method for anticipating how models may behave in real-world use before release: simulating deployment with recent, de-identified user requests and studying candidate model responses. https://t.co/7RJzBfNniQ",
+      "createdAt": "Tue Jun 16 19:42:18 +0000 2026",
+      "viewCount": 126383,
+      "likeCount": 1486,
+      "retweetCount": 122,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2066969635099144682",
+      "is_official": true
+    },
+    {
+      "id": "2066970407618445655",
+      "text": "We registered the AI agent itself with the SEC as an investment advisor.\n\nIt has your complete context on your portfolio and account history. Speak to it in plain English to take action on your account. It will even prompt you with ideas you hadn’t thought of.",
+      "createdAt": "Tue Jun 16 19:45:22 +0000 2026",
+      "viewCount": 257352,
+      "likeCount": 1431,
+      "retweetCount": 109,
+      "author": {
+        "userName": "brian_armstrong",
+        "name": "Brian Armstrong",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/brian_armstrong/status/2066970407618445655",
+      "is_official": false
+    },
+    {
+      "id": "2066856692617257248",
+      "text": "SpaceX just acquired Cursor for $60B\n\n> be Cursor\n> 4 MIT students start a side project in 2022\n> build the AI coding tool developers love\n> hit a $10B valuation\n> decide copilots aren’t enough\n> move into models\n> need massive compute to compete with OpenAI, Anthropic & Google\n> meanwhile xAI is losing the coding race\n> realizes catching up could take years\n> skips the line\n> buys Cursor for $60B\n> Cursor gets compute\n> xAI gets the coding leader\n> founders become multi-billionaires",
+      "createdAt": "Tue Jun 16 12:13:30 +0000 2026",
+      "viewCount": 567101,
+      "likeCount": 9896,
+      "retweetCount": 694,
+      "author": {
+        "userName": "cgtwts",
+        "name": "CG",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/cgtwts/status/2066856692617257248",
+      "is_official": false
+    },
+    {
+      "id": "2066901579169406986",
+      "text": "New benchmark just dropped https://t.co/2qbcmH413j",
+      "createdAt": "Tue Jun 16 15:11:52 +0000 2026",
+      "viewCount": 20084,
+      "likeCount": 1187,
+      "retweetCount": 29,
+      "author": {
+        "userName": "terminaldotshop",
+        "name": "terminal",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/terminaldotshop/status/2066901579169406986",
+      "is_official": false
+    },
+    {
+      "id": "2066956441173323943",
+      "text": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans.",
+      "createdAt": "Tue Jun 16 18:49:52 +0000 2026",
+      "viewCount": 300058,
+      "likeCount": 4580,
+      "retweetCount": 170,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2066956441173323943",
+      "is_official": false
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "generated_at": "2026-06-12T00:02:27.027Z",
+  "source_raw": "raw.json",
+  "source_count": 19,
+  "item_count": 14,
+  "language_breakdown": {
+    "Swift": 1,
+    "Shell": 3,
+    "Python": 4,
+    "Unknown": 2,
+    "TypeScript": 1,
+    "Go": 2,
+    "Kotlin": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "apple/container",
+      "url": "https://github.com/apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "language": "Swift",
+      "stars_today": 2430,
+      "stars_total": 32328,
+      "forks": 906
+    },
+    {
+      "rank": 2,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars_today": 3278,
+      "stars_total": 54659,
+      "forks": 5942
+    },
+    {
+      "rank": 3,
+      "repo": "maziyarpanahi/openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "description": "open-source healthcare ai",
+      "language": "Python",
+      "stars_today": 426,
+      "stars_total": 2737,
+      "forks": 268
+    },
+    {
+      "rank": 4,
+      "repo": "phuryn/pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "language": "Unknown",
+      "stars_today": 1978,
+      "stars_total": 16184,
+      "forks": 1683
+    },
+    {
+      "rank": 5,
+      "repo": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "language": "Python",
+      "stars_today": 319,
+      "stars_total": 2619,
+      "forks": 209
+    },
+    {
+      "rank": 6,
+      "repo": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "language": "Python",
+      "stars_today": 661,
+      "stars_total": 32593,
+      "forks": 2386
+    },
+    {
+      "rank": 7,
+      "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models",
+      "language": "Unknown",
+      "stars_today": 368,
+      "stars_total": 139859,
+      "forks": 34615
+    },
+    {
+      "rank": 8,
+      "repo": "refactoringhq/tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "language": "TypeScript",
+      "stars_today": 604,
+      "stars_total": 15374,
+      "forks": 1061
+    },
+    {
+      "rank": 9,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1322,
+      "stars_total": 224789,
+      "forks": 19984
+    },
+    {
+      "rank": 11,
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars_today": 1599,
+      "stars_total": 111529,
+      "forks": 18250
+    },
+    {
+      "rank": 12,
+      "repo": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "language": "Go",
+      "stars_today": 507,
+      "stars_total": 5677,
+      "forks": 518
+    },
+    {
+      "rank": 14,
+      "repo": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+      "language": "Go",
+      "stars_today": 114,
+      "stars_total": 1623,
+      "forks": 172
+    },
+    {
+      "rank": 17,
+      "repo": "hexo-ai/sia",
+      "url": "https://github.com/hexo-ai/sia",
+      "description": "SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a benchmark task.",
+      "language": "Python",
+      "stars_today": 199,
+      "stars_total": 1280,
+      "forks": 157
+    },
+    {
+      "rank": 19,
+      "repo": "bannedbook/fanqiang",
+      "url": "https://github.com/bannedbook/fanqiang",
+      "description": "翻墙-科学上网",
+      "language": "Kotlin",
+      "stars_today": 161,
+      "stars_total": 46744,
+      "forks": 8004
+    }
+  ]
+}

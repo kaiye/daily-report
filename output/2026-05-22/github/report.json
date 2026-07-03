@@ -1,0 +1,112 @@
+{
+  "report_date": "2026-05-22",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热方向集中在面向 Claude Code、Codex、Cursor 等编码代理的技能、工具调用、本地知识图谱与托管代理平台。",
+  "items": [
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "由 Anthropic 官方管理的高质量 Claude Code 插件目录。",
+      "language": "Python",
+      "stars_today": 682,
+      "stars_total": 22355
+    },
+    {
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "面向 Claude Code、Codex、Cursor 和 OpenCode 的预索引代码知识图谱，减少 token 与工具调用，并且 100% 本地运行。",
+      "language": "TypeScript",
+      "stars_today": 4294,
+      "stars_total": 13367
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "一个 CLAUDE.md 文件，用于根据 Andrej Karpathy 对 LLM 编码陷阱的观察改进 Claude Code 行为。",
+      "language": "Unknown",
+      "stars_today": 2614,
+      "stars_total": 143106
+    },
+    {
+      "repo": "dotnet/skills",
+      "url": "https://github.com/dotnet/skills",
+      "description": "为 AI 编码代理辅助 .NET 和 C# 开发而提供的技能仓库。",
+      "language": "C#",
+      "stars_today": 129,
+      "stars_total": 2184
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "可实际运作的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1576,
+      "stars_total": 201478
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "CLI-Anything：让所有软件都成为代理原生。",
+      "language": "Python",
+      "stars_today": 656,
+      "stars_total": 39104
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "面向编码代理的 Chrome DevTools。",
+      "language": "TypeScript",
+      "stars_today": 151,
+      "stars_total": 40473
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "学习它，构建它，并为他人交付它。",
+      "language": "Python",
+      "stars_today": 1333,
+      "stars_total": 10692
+    },
+    {
+      "repo": "teng-lin/notebooklm-py",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "description": "Google NotebookLM 的非官方 Python API 与代理式技能，可通过 Python、CLI 以及 Claude Code、Codex、OpenClaw 等 AI 代理完整编程访问 NotebookLM 功能，包括网页界面未暴露的能力。",
+      "language": "Python",
+      "stars_today": 186,
+      "stars_total": 14364
+    },
+    {
+      "repo": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "description": "终端中的 AI 编码代理，支持哈希锚定编辑、优化工具框架、LSP、Python、浏览器、子代理等。",
+      "language": "TypeScript",
+      "stars_today": 500,
+      "stars_total": 5831
+    },
+    {
+      "repo": "antoinezambelli/forge",
+      "url": "https://github.com/antoinezambelli/forge",
+      "description": "面向自托管 LLM 工具调用与多步骤代理式工作流的 Python 框架。",
+      "language": "Python",
+      "stars_today": 398,
+      "stars_total": 1478
+    },
+    {
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "开源托管代理平台，将编码代理变成真正的队友，可分配任务、跟踪进度并沉淀技能。",
+      "language": "Go",
+      "stars_today": 534,
+      "stars_total": 30708
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "面向 Claude Code 的学术研究技能：研究 → 写作 → 审阅 → 修订 → 定稿。",
+      "language": "Python",
+      "stars_today": 2579,
+      "stars_total": 18147
+    }
+  ]
+}

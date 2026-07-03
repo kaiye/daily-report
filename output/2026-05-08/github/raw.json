@@ -1,0 +1,139 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-05-08T00:01:02.379Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 13,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management.\n\nEverything here is available two ways from one source : install it as a Claude Cowork plugin, or deploy it through the Claude Managed Agents API behind your own workflow engine. Same system prompt, same skills — you choose where it runs.",
+      "language": "Python",
+      "stars_total": 11608,
+      "forks": 1509,
+      "stars_today": 1343
+    },
+    {
+      "rank": 2,
+      "repo": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "language": "Rust",
+      "stars_total": 18697,
+      "forks": 1412,
+      "stars_today": 5799
+    },
+    {
+      "rank": 3,
+      "repo": "z-lab/dflash",
+      "url": "https://github.com/z-lab/dflash",
+      "description": "DFlash: Block Diffusion for Flash Speculative Decoding",
+      "language": "Python",
+      "stars_total": 3481,
+      "forks": 246,
+      "stars_today": 671
+    },
+    {
+      "rank": 4,
+      "repo": "InsForge/InsForge",
+      "url": "https://github.com/InsForge/InsForge",
+      "description": "InsForge is a Postgres-based backend with auth, storage, compute, hosting, and AI gateway. Built for coding agents.",
+      "language": "TypeScript",
+      "stars_total": 8847,
+      "forks": 732,
+      "stars_today": 460
+    },
+    {
+      "rank": 5,
+      "repo": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local &amp; Encrypted.",
+      "language": "Python",
+      "stars_total": 6228,
+      "forks": 547,
+      "stars_today": 559
+    },
+    {
+      "rank": 6,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars_total": 32914,
+      "forks": 3806,
+      "stars_today": 3062
+    },
+    {
+      "rank": 7,
+      "repo": "VectifyAI/PageIndex",
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "language": "Python",
+      "stars_total": 29519,
+      "forks": 2493,
+      "stars_today": 943
+    },
+    {
+      "rank": 8,
+      "repo": "vercel-labs/open-agents",
+      "url": "https://github.com/vercel-labs/open-agents",
+      "description": "An open source template for building cloud agents.",
+      "language": "TypeScript",
+      "stars_total": 5033,
+      "forks": 636,
+      "stars_today": 131
+    },
+    {
+      "rank": 9,
+      "repo": "docusealco/docuseal",
+      "url": "https://github.com/docusealco/docuseal",
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "language": "Ruby",
+      "stars_total": 15606,
+      "forks": 1409,
+      "stars_today": 900
+    },
+    {
+      "rank": 10,
+      "repo": "decolua/9router",
+      "url": "https://github.com/decolua/9router",
+      "description": "🆓 Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "language": "JavaScript",
+      "stars_total": 4503,
+      "forks": 978,
+      "stars_today": 149
+    },
+    {
+      "rank": 11,
+      "repo": "PriorLabs/TabPFN",
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "description": "⚡ TabPFN: Foundation Model for Tabular Data ⚡",
+      "language": "Python",
+      "stars_total": 6781,
+      "forks": 669,
+      "stars_today": 230
+    },
+    {
+      "rank": 12,
+      "repo": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "language": "Rust",
+      "stars_total": 44491,
+      "forks": 4555,
+      "stars_today": 390
+    },
+    {
+      "rank": 13,
+      "repo": "Augani/openreel-video",
+      "url": "https://github.com/Augani/openreel-video",
+      "description": "OpenReel Video - Professional browser-based video editor. Open source CapCut alternative. 100% browser-based, no installation, no cloud uploads, no watermarks.",
+      "language": "TypeScript",
+      "stars_total": 1667,
+      "forks": 250,
+      "stars_today": 233
+    }
+  ]
+}

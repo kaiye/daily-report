@@ -1,0 +1,109 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-04-21T00:01:05.867Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 10,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "Fincept-Corporation/FinceptTerminal",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal",
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "language": "Python",
+      "stars_total": 9477,
+      "forks": 1297,
+      "stars_today": 3109
+    },
+    {
+      "rank": 2,
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars_total": 48174,
+      "forks": 6445,
+      "stars_today": 713
+    },
+    {
+      "rank": 3,
+      "repo": "thunderbird/thunderbolt",
+      "url": "https://github.com/thunderbird/thunderbolt",
+      "description": "AI You Control: Choose your models. Own your data. Eliminate vendor lock-in.",
+      "language": "TypeScript",
+      "stars_total": 2798,
+      "forks": 165,
+      "stars_today": 675
+    },
+    {
+      "rank": 4,
+      "repo": "paperless-ngx/paperless-ngx",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "language": "Python",
+      "stars_total": 39408,
+      "forks": 2533,
+      "stars_today": 606
+    },
+    {
+      "rank": 5,
+      "repo": "tractorjuice/arc-kit",
+      "url": "https://github.com/tractorjuice/arc-kit",
+      "description": "Enterprise Architecture Governance &amp; Vendor Procurement Toolkit",
+      "language": "HTML",
+      "stars_total": 1328,
+      "forks": 165,
+      "stars_today": 329
+    },
+    {
+      "rank": 6,
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars_total": 50044,
+      "forks": 8144,
+      "stars_today": 316
+    },
+    {
+      "rank": 7,
+      "repo": "openai/openai-agents-python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "language": "Python",
+      "stars_total": 23916,
+      "forks": 3691,
+      "stars_today": 905
+    },
+    {
+      "rank": 8,
+      "repo": "deepseek-ai/DeepGEMM",
+      "url": "https://github.com/deepseek-ai/DeepGEMM",
+      "description": "DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling",
+      "language": "Cuda",
+      "stars_total": 6822,
+      "forks": 902,
+      "stars_today": 109
+    },
+    {
+      "rank": 9,
+      "repo": "pi-hole/pi-hole",
+      "url": "https://github.com/pi-hole/pi-hole",
+      "description": "A black hole for Internet advertisements",
+      "language": "Shell",
+      "stars_total": 57156,
+      "forks": 3041,
+      "stars_today": 196
+    },
+    {
+      "rank": 10,
+      "repo": "XTLS/Xray-core",
+      "url": "https://github.com/XTLS/Xray-core",
+      "description": "Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.",
+      "language": "Go",
+      "stars_total": 37430,
+      "forks": 5209,
+      "stars_today": 78
+    }
+  ]
+}

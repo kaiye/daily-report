@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-05-21",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是面向 Claude Code 等 AI 编程代理的本地知识图谱、技能框架、插件生态与持久记忆能力加速成熟。",
+  "items": [
+    {
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "为 Claude Code、Codex、Cursor 和 OpenCode 预索引的代码知识图谱——更少 token、更少工具调用、100% 本地运行。",
+      "language": "TypeScript",
+      "stars_today": 2123,
+      "stars_total": 9432
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "面向 Claude Code 的学术研究技能：研究 → 写作 → 审阅 → 修订 → 定稿。",
+      "language": "Python",
+      "stars_today": 1667,
+      "stars_total": 16116
+    },
+    {
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "你的个人 AI 超级智能，私密、简单且极其强大。",
+      "language": "Rust",
+      "stars_today": 3394,
+      "stars_total": 23582
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "一个用于改进 Claude Code 行为的单一 CLAUDE.md 文件，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。",
+      "language": "Unknown",
+      "stars_today": 2679,
+      "stars_total": 140742
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "学习它，构建它，并为他人发布它。",
+      "language": "Python",
+      "stars_today": 765,
+      "stars_total": 9518
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "“CLI-Anything：让所有软件成为 Agent-Native”——CLI-Hub：https://clianything.cc/。",
+      "language": "Python",
+      "stars_today": 890,
+      "stars_total": 38518
+    },
+    {
+      "repo": "can1357/oh-my-pi",
+      "url": "https://github.com/can1357/oh-my-pi",
+      "description": "终端里的 AI 编码代理——哈希锚定编辑、优化工具框架、LSP、Python、浏览器、子代理等。",
+      "language": "TypeScript",
+      "stars_today": 270,
+      "stars_total": 5383
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个有效的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1743,
+      "stars_total": 199984
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "由 Anthropic 官方管理的高质量 Claude Code 插件目录。",
+      "language": "Python",
+      "stars_today": 674,
+      "stars_total": 20766
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "触手可及的完整 AI 代理机构——从前端向导到 Reddit 社区高手，从奇思妙想注入者到现实校验者，每个代理都是具备个性、流程和成熟交付物的专业专家。",
+      "language": "Shell",
+      "stars_today": 1636,
+      "stars_total": 102808
+    },
+    {
+      "repo": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "description": "基于真实世界基准测试的 AI 编码代理第一持久记忆方案。",
+      "language": "TypeScript",
+      "stars_today": 1080,
+      "stars_total": 15107
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-05-05T00:01:31.545Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-05-04",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2051140039313113533",
+      "text": "Grok 4.3 just built this entire game with just a single prompt\n\nIt has the fastest output token speed and outranks Claude Sonnet 4.6 Max on Artificial Analysis\n\nI built this using the xAI API in Kilo Code via the VS Code extension https://t.co/BUbHcnbSm6",
+      "createdAt": "Mon May 04 03:21:08 +0000 2026",
+      "viewCount": 948833,
+      "likeCount": 3710,
+      "retweetCount": 765,
+      "author": {
+        "userName": "XFreeze",
+        "name": "X Freeze",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/XFreeze/status/2051140039313113533",
+      "is_official": false
+    },
+    {
+      "id": "2051318922805436896",
+      "text": "we are gonna do something nice for everyone who applied for the GPT-5.5 party and that we didn't have space for. hope you enjoy!",
+      "createdAt": "Mon May 04 15:11:57 +0000 2026",
+      "viewCount": 400699,
+      "likeCount": 6354,
+      "retweetCount": 144,
+      "author": {
+        "userName": "sama",
+        "name": "Sam Altman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sama/status/2051318922805436896",
+      "is_official": false
+    },
+    {
+      "id": "2051128442591056273",
+      "text": "CLAUDE JUST TRIED TO RENAME POWERSHELL.EXE ON WINDOWS 11\n\nthis guy was running opus 4.7 on max effort in claude code CLI\n\nclaude tried to rename powershell.exe (the actual system executable that windows needs to function)\n\nthe funny part is that after the guy rejected the change it responded with \n\n\"honest take: you're right to push back\"\n\nnot even system32 is safe anymore\n\nat this point we gotta start running claude in a container\n\ngive it max effort and full permissions and it will confidently try to destroy your system without hesitating\n\nthen respond with something like \n\n\"I was wrong, I own that\"\n\nthe agent doesn't know which files are off limits unless you explicitly tell it\n\nstop giving AI full access to your machine and hoping it knows what not to touch",
+      "createdAt": "Mon May 04 02:35:03 +0000 2026",
+      "viewCount": 268322,
+      "likeCount": 1799,
+      "retweetCount": 182,
+      "author": {
+        "userName": "om_patel5",
+        "name": "Om Patel",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/om_patel5/status/2051128442591056273",
+      "is_official": false
+    },
+    {
+      "id": "2051290591737323786",
+      "text": "Official announcement from Anthropic: https://t.co/7wwghZwnNZ",
+      "createdAt": "Mon May 04 13:19:22 +0000 2026",
+      "viewCount": 576639,
+      "likeCount": 2369,
+      "retweetCount": 163,
+      "author": {
+        "userName": "AndrewCurran_",
+        "name": "Andrew Curran",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AndrewCurran_/status/2051290591737323786",
+      "is_official": false
+    },
+    {
+      "id": "2051367230949232730",
+      "text": "Musk’s lawyer is calmly eviscerating OpenAI’s President Greg Brockman, largely using Brockman’s own diaries and emails. \n\nFor the first time I think Elon has a real chance of winning.",
+      "createdAt": "Mon May 04 18:23:55 +0000 2026",
+      "viewCount": 214856,
+      "likeCount": 5263,
+      "retweetCount": 270,
+      "author": {
+        "userName": "GaryMarcus",
+        "name": "Gary Marcus",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/GaryMarcus/status/2051367230949232730",
+      "is_official": false
+    },
+    {
+      "id": "2051161464229286326",
+      "text": "GPT Image 2\n\n{\n  \"prompt\": {\n    \"title\": \"Agency-Grade Brand Identity System Poster\",\n    \"trigger\": \"Upload a logo. From it, construct a complete, investment-worthy brand identity system poster — the kind that closes client deals and dominates Behance front pages.\",\n\n    \"prime_directive\": {\n      \"rule\": \"Every element — color, tone, shape, texture, personality — must be extracted directly from the uploaded logo.\",\n      \"enforcement\": \"Nothing generic. Nothing templated. Nothing borrowed. Strip the logo. Decode it. Build an entire visual universe from its DNA.\"\n    },\n\n    \"format\": {\n      \"orientation\": \"Vertical\",\n      \"aspect_ratio\": \"4:5\",\n      \"layout\": \"Multi-column grid\",\n      \"composition\": \"Layered, dense, intentional — zero wasted space\"\n    },\n\n    \"sections\": {\n\n      \"01_brand_header\": {\n        \"label\": \"Open With Authority\",\n        \"elements\": [\n          \"Brand name in commanding, high-hierarchy typography\",\n          \"Brand statement — 6 words maximum, razor-sharp\",\n          \"Three soul descriptors (e.g. Raw / Futuristic / Grounded)\"\n        ]\n      },\n\n      \"02_color_system\": {\n        \"label\": \"Build The Color World\",\n        \"palettes\": {\n          \"primary\": \"3–5 colors extracted from logo\",\n          \"secondary\": \"3–5 supporting colors\",\n          \"accent\": \"High-impact hit colors\"\n        },\n        \"per_color_display\": [\n          \"Wide swatch block\",\n          \"HEX code\",\n          \"Role label: foundation / emphasis / atmosphere\"\n        ],\n        \"extras\": [\n          \"Gradient blends\",\n          \"Color-on-color pairings\",\n          \"Light mode vs dark mode behavior\"\n        ]\n      },\n\n      \"03_typography_system\": {\n        \"label\": \"Establish The Type Voice\",\n        \"tiers\": {\n          \"headline\": \"Commanding, bold — show a punchy title example\",\n          \"subheadline\": \"Structured, clear — show a descriptive line example\",\n          \"body\": \"Readable, intentional — show a paragraph fragment example\"\n        },\n        \"requirement\": \"Hierarchy must be undeniable at a glance\"\n      },\n\n      \"04_visual_language\": {\n        \"label\": \"Define The Visual World\",\n        \"define\": [\n          \"Image style (editorial / industrial / cinematic / organic / etc.)\",\n          \"Lighting quality and direction\",\n          \"Texture references and material moods\"\n        ],\n        \"visual_tiles\": {\n          \"count\": \"3–5 tiles\",\n          \"style\": \"Art-directed style previews — mood board squares from a real shoot brief\"\n        }\n      },\n\n      \"05_brand_applications\": {\n        \"label\": \"Bring The Brand To Life\",\n        \"rule\": \"Every mockup must feel like the same brand. Same DNA. Zero inconsistency.\",\n        \"mockups\": [\n          {\n            \"type\": \"Product Packaging\",\n            \"detail\": \"Dimensional, realistic render\"\n          },\n          {\n            \"type\": \"Website Hero\",\n            \"detail\": \"Full desktop viewport\"\n          },\n          {\n            \"type\": \"Mobile App Screen\",\n            \"detail\": \"One key UI moment\"\n          },\n          {\n            \"type\": \"Social Media Posts\",\n            \"detail\": \"3 formats — square, story, banner\"\n          },\n          {\n            \"type\": \"Business Card\",\n            \"detail\": \"Front and back\"\n          },\n          {\n            \"type\": \"Out-of-Home Ad\",\n            \"detail\": \"Billboard or transit panel\"\n          }\n        ]\n      },\n\n      \"06_design_system\": {\n        \"label\": \"Show The System Working\",\n        \"components\": [\n          \"Buttons — default, hover, disabled states\",\n          \"Cards\",\n          \"Input fields\",\n          \"Navigation bar\",\n          \"Spacing scale\"\n        ],\n        \"requirement\": \"Must resemble a real design system handoff document\"\n      },\n\n      \"07_iconography\": {\n        \"label\": \"Iconography\",\n        \"count\": \"6–10 icons\",\n        \"style_rule\": \"Same visual grammar as the logo — geometric, organic, sharp, or soft\",\n        \"consistency\": \"Uniform stroke weight or fill logic throughou",
+      "createdAt": "Mon May 04 04:46:16 +0000 2026",
+      "viewCount": 95876,
+      "likeCount": 1874,
+      "retweetCount": 249,
+      "author": {
+        "userName": "itxabdullaa",
+        "name": "ÀBDŪLLÂH",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/itxabdullaa/status/2051161464229286326",
+      "is_official": false
+    },
+    {
+      "id": "2051393709619732758",
+      "text": "Managing API keys is one of the top security concerns we hear from customers.\n\nToday we’re introducing keyless auth for Claude Platform: authenticate via browser with the CLI, or let workloads use their existing cloud identity (AWS, GCP, Azure, or any OIDC token provider). https://t.co/uyuAB14lNJ",
+      "createdAt": "Mon May 04 20:09:08 +0000 2026",
+      "viewCount": 134496,
+      "likeCount": 2024,
+      "retweetCount": 183,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2051393709619732758",
+      "is_official": true
+    },
+    {
+      "id": "2051405427292746199",
+      "text": "JUST IN: The number of eBooks released on Amazon have tripled since ChatGPT was released.",
+      "createdAt": "Mon May 04 20:55:41 +0000 2026",
+      "viewCount": 132367,
+      "likeCount": 2161,
+      "retweetCount": 126,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2051405427292746199",
+      "is_official": true
+    },
+    {
+      "id": "2051212112668844451",
+      "text": "Sydney Sweeney just open sourced an app she built using only ChatGPT",
+      "createdAt": "Mon May 04 08:07:31 +0000 2026",
+      "viewCount": 260201,
+      "likeCount": 2218,
+      "retweetCount": 27,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2051212112668844451",
+      "is_official": false
+    },
+    {
+      "id": "2051346056039039487",
+      "text": "Meet Higgsfield CLI + Marketing Skills.\n\nInstead of burning tokens on bloated schemas, or shipping broken creative at scale, the CLI keeps agent spend lean and Skills keep output high quality.\n\nPairs with Сodex, Claude Code, Openclaw etc.\n\nnpx skills add higgsfield-ai/skills https://t.co/QHngvkFBE9",
+      "createdAt": "Mon May 04 16:59:46 +0000 2026",
+      "viewCount": 107696,
+      "likeCount": 1290,
+      "retweetCount": 148,
+      "author": {
+        "userName": "higgsfield",
+        "name": "Higgsfield AI 🧩",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/higgsfield/status/2051346056039039487",
+      "is_official": true
+    },
+    {
+      "id": "2051320541701624177",
+      "text": "🚨UPDATE: Judge just DENIED OpenAI's motion from the bench\n\nHer reasoning: OpenAI should have asked Musk about it while they had him on the stand. \n\nSame critique I just posted. The motion was a tactical play to put a private message in front of the jury without Musk getting to address it. \n\nThe judge saw exactly that.\n\nThe \"Musk threat\" headlines from this morning are now stories about a denied motion.",
+      "createdAt": "Mon May 04 15:18:23 +0000 2026",
+      "viewCount": 230615,
+      "likeCount": 1608,
+      "retweetCount": 142,
+      "author": {
+        "userName": "ns123abc",
+        "name": "NIK",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ns123abc/status/2051320541701624177",
+      "is_official": false
+    },
+    {
+      "id": "2051347458039468267",
+      "text": "Greg Brockman just testified under oath that his stake in for-profit OpenAI is worth over $20B - closer to $30B\n\nElon was right about everything\n\nSam Altman and Greg Brockman turned OpenAI into a for-profit cash to enrich themselves\n\nBrockman now has nearly $30B in vested stock\n\nHe invested $0 in OpenAI\n\nThe grift is no longer hidden",
+      "createdAt": "Mon May 04 17:05:20 +0000 2026",
+      "viewCount": 35438,
+      "likeCount": 1749,
+      "retweetCount": 370,
+      "author": {
+        "userName": "XFreeze",
+        "name": "X Freeze",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/XFreeze/status/2051347458039468267",
+      "is_official": false
+    },
+    {
+      "id": "2051335755516035399",
+      "text": "JUST IN: 40% chance Elon wins against OpenAI",
+      "createdAt": "Mon May 04 16:18:50 +0000 2026",
+      "viewCount": 71095,
+      "likeCount": 1283,
+      "retweetCount": 34,
+      "author": {
+        "userName": "Kalshi",
+        "name": "Kalshi",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Kalshi/status/2051335755516035399",
+      "is_official": true
+    },
+    {
+      "id": "2051366798394540161",
+      "text": "🚨 GREG BROCKMAN ADMITS HE DIDN’T DONATE ANY CASH TO OPENAI.\n\nOpenAI President Greg Brockman admits he didn’t donate $100K to OpenAI, despite earlier claims to Elon Musk.\n\nHe also acknowledged referencing Musk’s name in early fundraising efforts to encourage others to donate to OpenAI.",
+      "createdAt": "Mon May 04 18:22:11 +0000 2026",
+      "viewCount": 109292,
+      "likeCount": 1176,
+      "retweetCount": 133,
+      "author": {
+        "userName": "Kekius_Sage",
+        "name": "Kekius Maximus",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Kekius_Sage/status/2051366798394540161",
+      "is_official": false
+    },
+    {
+      "id": "2051260931758272863",
+      "text": "when Claude Opus 6 tells you to \"stop spiraling and go to bed\" 😵‍💫 https://t.co/dgewyBECv2",
+      "createdAt": "Mon May 04 11:21:31 +0000 2026",
+      "viewCount": 327661,
+      "likeCount": 3110,
+      "retweetCount": 242,
+      "author": {
+        "userName": "fabianstelzer",
+        "name": "fabian",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/fabianstelzer/status/2051260931758272863",
+      "is_official": false
+    },
+    {
+      "id": "2051313917687984297",
+      "text": "Claude:\nYou've used 90% of session limit\n\nMe instantly after that: https://t.co/QGPxXCnAdj",
+      "createdAt": "Mon May 04 14:52:04 +0000 2026",
+      "viewCount": 75656,
+      "likeCount": 1856,
+      "retweetCount": 40,
+      "author": {
+        "userName": "jahirsheikh8",
+        "name": "Jahir Sheikh",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/jahirsheikh8/status/2051313917687984297",
+      "is_official": false
+    },
+    {
+      "id": "2051242372806189233",
+      "text": "A 14-year-old American girl bought a house in cash at 16 while her classmates were taking exams.\n\nIt started with one Google Maps search - she found an HVAC company with 4.8 stars, 280 reviews and a website too embarrassing to show clients.\n\nCopied their data into ChatGPT 5.5 - 2 minutes later a complete brief, an hour later a live site with booking and a reviews section.\n\nCalled the owner and showed him the preview. He signed the $900 invoice the same day.\n\nThen she stopped looking for clients by hand. Outscraper pulls 200 businesses from Google Maps in 10 minutes - name, email, rating, review count.\n\nChatGPT 5.5 writes a personalized email for each one with their real business data. 500 emails a day, 3% respond, 10% of those become clients.\n\nMonth one - $3,800. \nMonth six - $22,000. \nTwo years - $380,000 and a house.\n\nFive million businesses on Google Maps are still waiting for that call.",
+      "createdAt": "Mon May 04 10:07:46 +0000 2026",
+      "viewCount": 441109,
+      "likeCount": 1849,
+      "retweetCount": 198,
+      "author": {
+        "userName": "Sprytixl",
+        "name": "Sprytix",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Sprytixl/status/2051242372806189233",
+      "is_official": false
+    },
+    {
+      "id": "2051321996131316194",
+      "text": "2022 - Student\n2023 - Developer \n2024 - Prompt Engineer \n2025 - Vibe Coder \n2026 - AI Agent Babysitter \n2027 - Farmer https://t.co/QF4qetX1so",
+      "createdAt": "Mon May 04 15:24:10 +0000 2026",
+      "viewCount": 189014,
+      "likeCount": 3993,
+      "retweetCount": 299,
+      "author": {
+        "userName": "Star_Knight12",
+        "name": "Prasenjit",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Star_Knight12/status/2051321996131316194",
+      "is_official": false
+    },
+    {
+      "id": "2051160926133588040",
+      "text": "Claude literally just ended the conversation on me????\n\nThis might be AGI https://t.co/tv5NwpK1OH",
+      "createdAt": "Mon May 04 04:44:08 +0000 2026",
+      "viewCount": 1310725,
+      "likeCount": 5801,
+      "retweetCount": 122,
+      "author": {
+        "userName": "BusDownBonnor",
+        "name": "Connor",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/BusDownBonnor/status/2051160926133588040",
+      "is_official": false
+    }
+  ]
+}

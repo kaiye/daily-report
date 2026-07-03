@@ -1,0 +1,120 @@
+{
+  "report_date": "2026-05-25",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日热门项目集中在 AI 编码代理生态，尤其是 Claude Code 插件、代码知识图谱、托管代理平台与本地化智能工具的快速扩展。",
+  "items": [
+    {
+      "repo": "Lum1104/Understand-Anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "能教学的图胜过只会炫技的图；把任何代码转成可探索、搜索并提问的交互式知识图谱，适配 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等。",
+      "language": "TypeScript",
+      "stars_today": 3999,
+      "stars_total": 25656
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "学习它，构建它，并把它交付给他人。",
+      "language": "Python",
+      "stars_today": 1853,
+      "stars_total": 15890
+    },
+    {
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "由 Anthropic 官方管理的高质量 Claude Code 插件目录。",
+      "language": "Python",
+      "stars_today": 1173,
+      "stars_total": 27221
+    },
+    {
+      "repo": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "开源插件仓库，主要面向知识工作者在 Claude Cowork 中使用。",
+      "language": "Python",
+      "stars_today": 550,
+      "stars_total": 14014
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "单个 CLAUDE.md 文件，用于改进 Claude Code 行为，源自 Andrej Karpathy 对 LLM 编码陷阱的观察。",
+      "language": "Unknown",
+      "stars_today": 2551,
+      "stars_total": 151993
+    },
+    {
+      "repo": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI 代理工具包：编码代理 CLI、统一 LLM API、TUI 与 Web UI 库、Slack 机器人、vLLM pods。",
+      "language": "TypeScript",
+      "stars_today": 456,
+      "stars_total": 53906
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "在终端、VSCode 扩展或类似 OpenClaw 的 Discord 中免费使用 claude-code，并支持语音。",
+      "language": "Python",
+      "stars_today": 553,
+      "stars_total": 29140
+    },
+    {
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "面向 Claude Code、Codex、Cursor、OpenCode 和 Hermes Agent 的预索引代码知识图谱——更少 token、更少工具调用、100% 本地。",
+      "language": "TypeScript",
+      "stars_today": 3003,
+      "stars_total": 21894
+    },
+    {
+      "repo": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "开源托管代理平台，把编码代理变成真正的队友——分配任务、跟踪进度、积累技能。",
+      "language": "TypeScript",
+      "stars_today": 585,
+      "stars_total": 32468
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 106,
+      "stars_total": 25783
+    },
+    {
+      "repo": "manaflow-ai/cmux",
+      "url": "https://github.com/manaflow-ai/cmux",
+      "description": "基于 Ghostty 的 macOS 终端，带有为 AI 编码代理准备的垂直标签页和通知。",
+      "language": "Swift",
+      "stars_today": 696,
+      "stars_total": 19001
+    },
+    {
+      "repo": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "简洁通用的群体智能引擎，预测万物。",
+      "language": "Python",
+      "stars_today": 197,
+      "stars_total": 62129
+    },
+    {
+      "repo": "dotnet/skills",
+      "url": "https://github.com/dotnet/skills",
+      "description": "辅助 AI 编码代理处理 .NET 和 C# 的 skills 仓库。",
+      "language": "C#",
+      "stars_today": 183,
+      "stars_total": 2954
+    },
+    {
+      "repo": "blakeblackshear/frigate",
+      "url": "https://github.com/blakeblackshear/frigate",
+      "description": "面向 IP 摄像头、带实时本地目标检测的 NVR。",
+      "language": "TypeScript",
+      "stars_today": 181,
+      "stars_total": 32827
+    }
+  ]
+}

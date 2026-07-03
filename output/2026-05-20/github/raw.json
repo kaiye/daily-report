@@ -1,0 +1,189 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-05-20T00:01:54.677Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 18,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "language": "Rust",
+      "stars_total": 21132,
+      "forks": 1857,
+      "stars_today": 3973
+    },
+    {
+      "rank": 2,
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars_total": 37680,
+      "forks": 3608,
+      "stars_today": 1038
+    },
+    {
+      "rank": 3,
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars_total": 14085,
+      "forks": 1332,
+      "stars_today": 3164
+    },
+    {
+      "rank": 4,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_total": 198339,
+      "forks": 17696,
+      "stars_today": 1623
+    },
+    {
+      "rank": 5,
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars_total": 20164,
+      "forks": 2506,
+      "stars_today": 171
+    },
+    {
+      "rank": 6,
+      "repo": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "language": "TypeScript",
+      "stars_total": 14118,
+      "forks": 1176,
+      "stars_today": 1609
+    },
+    {
+      "rank": 7,
+      "repo": "CloakHQ/CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "language": "Python",
+      "stars_total": 16557,
+      "forks": 1279,
+      "stars_today": 1463
+    },
+    {
+      "rank": 8,
+      "repo": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "language": "Rust",
+      "stars_total": 50858,
+      "forks": 3101,
+      "stars_today": 704
+    },
+    {
+      "rank": 9,
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars_total": 101568,
+      "forks": 16792,
+      "stars_today": 1120
+    },
+    {
+      "rank": 10,
+      "repo": "colbymchenry/codegraph",
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "stars_total": 6555,
+      "forks": 434,
+      "stars_today": 1850
+    },
+    {
+      "rank": 11,
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "",
+      "stars_total": 137944,
+      "forks": 14135,
+      "stars_today": 1955
+    },
+    {
+      "rank": 12,
+      "repo": "humanlayer/12-factor-agents",
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "language": "TypeScript",
+      "stars_total": 21167,
+      "forks": 1597,
+      "stars_today": 736
+    },
+    {
+      "rank": 13,
+      "repo": "Diolinux/PhotoGIMP",
+      "url": "https://github.com/Diolinux/PhotoGIMP",
+      "description": "A Patch for GIMP 3+ for Photoshop Users",
+      "language": "CSS",
+      "stars_total": 10760,
+      "forks": 373,
+      "stars_today": 493
+    },
+    {
+      "rank": 14,
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "language": "Python",
+      "stars_total": 26352,
+      "forks": 3928,
+      "stars_today": 563
+    },
+    {
+      "rank": 15,
+      "repo": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars_total": 15869,
+      "forks": 2080,
+      "stars_today": 110
+    },
+    {
+      "rank": 16,
+      "repo": "frappe/erpnext",
+      "url": "https://github.com/frappe/erpnext",
+      "description": "Free and Open Source Enterprise Resource Planning (ERP)",
+      "language": "Python",
+      "stars_total": 34261,
+      "forks": 11313,
+      "stars_today": 98
+    },
+    {
+      "rank": 17,
+      "repo": "microsoft/ai-agents-for-beginners",
+      "url": "https://github.com/microsoft/ai-agents-for-beginners",
+      "description": "12 Lessons to Get Started Building AI Agents",
+      "language": "Jupyter Notebook",
+      "stars_total": 64300,
+      "forks": 21287,
+      "stars_today": 818
+    },
+    {
+      "rank": 18,
+      "repo": "HKUDS/ViMax",
+      "url": "https://github.com/HKUDS/ViMax",
+      "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "language": "Python",
+      "stars_total": 5403,
+      "forks": 920,
+      "stars_today": 503
+    }
+  ]
+}

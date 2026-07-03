@@ -1,0 +1,64 @@
+{
+  "report_date": "2026-06-14",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI 编程代理的工程化技能、运行分析、缓存加速、统一接入与安全治理。",
+  "items": [
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "面向 AI 编程代理的生产级工程技能。",
+      "language": "Shell",
+      "stars_today": 1514,
+      "stars_total": 58330
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个可行的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 924,
+      "stars_total": 226907
+    },
+    {
+      "repo": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "面向编程代理的本地优先会话智能与分析，支持 Claude Code、Codex 以及 20 多种其他代理，也是 ccusage 快 100 倍的替代品。",
+      "language": "Go",
+      "stars_today": 190,
+      "stars_total": 2355
+    },
+    {
+      "repo": "LMCache/LMCache",
+      "url": "https://github.com/LMCache/LMCache",
+      "description": "LMCache：用最快的 KV 缓存层为你的 LLM 加速。",
+      "language": "Python",
+      "stars_today": 238,
+      "stars_total": 8883
+    },
+    {
+      "repo": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "description": "面向多个生成式 AI 提供商的简单统一接口。",
+      "language": "Python",
+      "stars_today": 127,
+      "stars_total": 14097
+    },
+    {
+      "repo": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "面向 AI 代理技能的安全扫描器，可检测漏洞、恶意模式和安全风险。",
+      "language": "Python",
+      "stars_today": 804,
+      "stars_total": 4416
+    },
+    {
+      "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "收录 Augment Code、Claude Code、Cluely、CodeBuddy、Comet、Cursor、Devin AI、Junie、Kiro、Leap.new、Lovable、Manus、NotionAI、Orchids.app、Perplexity、Poke、Qoder、Replit、Same.dev、Trae、Traycer AI、VSCode Agent、Warp.dev、Windsurf、Xcode、Z.ai Code、Dia、v0 等开源系统提示词、内部工具与 AI 模型。",
+      "language": "Unknown",
+      "stars_today": 109,
+      "stars_total": 140296
+    }
+  ]
+}
