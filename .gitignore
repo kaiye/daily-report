@@ -5,3 +5,10 @@ dist/
 build/
 node_modules/
 npm-debug.log*
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Legacy Python pipeline (migrated to src/daily_report_js/)
+src/daily_report/

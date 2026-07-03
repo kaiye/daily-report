@@ -6,7 +6,7 @@
 # Compatible with any OpenAI-compatible endpoint (SiliconFlow, DeepSeek, etc.)
 llm:
   base_url: https://cc.dingsum.com/v1
-  model: gpt-5.4
+  model: gpt-5.5
   temperature: 0.2
   proxy: ""   # optional; set empty to disable
 
@@ -42,8 +42,10 @@ media:
     For each item, rewrite title into a concise one-sentence Chinese title that faithfully preserves the original meaning.
     Shorten where possible, but do not add claims, conclusions, or framing not present in the source title.
     For each item, write summary as exactly one sentence.
+    summary should expand on title rather than repeating title in slightly different wording.
     Prefer a concise event summary grounded in the original article, not a multi-sentence industry analysis.
     Do not simply repeat the title verbatim inside the item summary.
+    Do not start the summary with the media outlet name or phrases like “TechCrunch称”“The Verge报道”, unless attribution is strictly necessary.
     Keep the media outlet's framing where possible and avoid switching into a detached third-party commentary voice.
     Do not default to outlook language unless it is clearly supported by the title/summary.
     All JSON string fields must be written in {{output_language}}.

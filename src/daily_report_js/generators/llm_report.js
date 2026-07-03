@@ -35,8 +35,10 @@ function buildNaturalRulesFromSchema(section, schema) {
     rules.push('For each media item, title must be a concise one-sentence Chinese title that faithfully translates the original meaning.');
     rules.push('Shorten the title when possible, but do not change the factual meaning or add new claims.');
     rules.push('For each media item, summary must be exactly one sentence.');
+    rules.push('summary must expand on title instead of repeating title in different words.');
     rules.push('The sentence should primarily summarize what happened in the original article, with at most a light implication if clearly supported by the title/summary.');
     rules.push('Do not simply repeat the full title verbatim inside item.summary.');
+    rules.push('Do not start item.summary with the media outlet name or phrases like “TechCrunch称” / “The Verge报道” unless that attribution is strictly necessary to understand the fact.');
     rules.push('Keep the outlet\'s framing and avoid switching into a third-party analyst voice.');
     rules.push('Avoid mechanical phrases such as "这说明" or "这显示".');
     rules.push('Do not invent outlook or predictions that are not supported by post.items.title/summary.');
@@ -123,6 +125,7 @@ async function requestJsonFromLlm(section, payload, directive, llmCfg = {}, repa
   if (/^(off|none|false|0)$/i.test(proxyUrl)) proxyUrl = '';
   const insecureProxyTls = parseBooleanLike(process.env.OPENAI_PROXY_INSECURE || llmCfg.proxy_insecure || '');
   const temperature = Number(llmCfg.temperature ?? 0.2);
+  const supportsTemperature = !/^gpt-5(\.|-|$)/i.test(model);
 
   const systemPromptBase = buildSystemPrompt(section, directive);
   const systemPrompt = repairMode ? `${systemPromptBase}\n${REPAIR_APPENDIX}` : systemPromptBase;
@@ -139,9 +142,15 @@ async function requestJsonFromLlm(section, payload, directive, llmCfg = {}, repa
         { role: 'system', content: systemPrompt },
         { role: 'user', content: JSON.stringify(payload) },
       ],
-      temperature,
+      stream: false,
     }),
   };
+
+  if (supportsTemperature) {
+    const body = JSON.parse(requestInit.body);
+    body.temperature = temperature;
+    requestInit.body = JSON.stringify(body);
+  }
 
   if (proxyUrl) {
     requestInit.dispatcher = getProxyAgent(proxyUrl, insecureProxyTls);
@@ -168,7 +177,40 @@ async function requestJsonFromLlm(section, payload, directive, llmCfg = {}, repa
     throw new Error(`LLM request failed: HTTP ${resp.status} ${body.slice(0, 500)}`);
   }
 
-  const data = await resp.json();
+  const responseText = await resp.text();
+  let data;
+  try {
+    data = JSON.parse(responseText);
+  } catch {
+    const lines = responseText.split(/\r?\n/);
+    const chunks = [];
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed.startsWith('data:')) continue;
+      const payloadText = trimmed.slice(5).trim();
+      if (!payloadText || payloadText === '[DONE]') continue;
+      try {
+        chunks.push(JSON.parse(payloadText));
+      } catch {
+        // Ignore malformed SSE lines and let empty content fail below.
+      }
+    }
+
+    if (chunks.length === 1 && chunks[0]?.choices?.[0]?.message?.content) {
+      data = chunks[0];
+    } else if (chunks.length > 0) {
+      const content = chunks.map((chunk) => (
+        chunk?.choices?.[0]?.delta?.content
+        || chunk?.choices?.[0]?.message?.content
+        || ''
+      )).join('');
+      data = { choices: [{ message: { content } }] };
+    } else {
+      const preview = responseText.slice(0, 400).replace(/\s+/g, ' ');
+      throw new Error(`LLM returned non-JSON response for section ${section}: ${preview}`);
+    }
+  }
+
   const content = data?.choices?.[0]?.message?.content || '';
   return parseJsonFromContent(content, section);
 }
