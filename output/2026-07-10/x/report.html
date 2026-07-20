@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUL 10, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">今天最强的共同信号是，前沿 AI 正从模型发布快速转向可落地的工作代理、开发工具集成和真实行业应用。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@the_cyw</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Peter Wang</span>：我做了个技能，让 Claude Code 一次性生成这种高级落地页，视频里的 3 个站点都是一次成稿，每个大约 10 到 15 美元。
+          </p>
+          <p class="item-metric">👁 213.6K · ❤️ 2.4K</p>
+          <a class="item-link" href="https://twitter.com/the_cyw/status/2075033876930724339">https://twitter.com/the_cyw/status/2075033876930724339</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@alexandr_wang</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Alexandr Wang</span>：Muse Spark 1.1 是一个具备行业竞争力的智能体与代码模型，在多项智能体评测中可对标 GPT-5.5 和 Opus-4.8，现已通过 Meta Model API 和 Meta AI 开放。
+          </p>
+          <p class="item-metric">👁 893.1K · ❤️ 3.1K</p>
+          <a class="item-link" href="https://twitter.com/alexandr_wang/status/2075218936266998230">https://twitter.com/alexandr_wang/status/2075218936266998230</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@OpenAIDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI Developers</span>：我们把 Codex 和 ChatGPT 合进同一个桌面应用：同样强大的编码智能体，现在配合 ChatGPT Work、新编码流程、Chrome 扩展、重做的内置浏览器，以及由 GPT-5.6 驱动的更快 Computer Use。
+          </p>
+          <p class="item-metric">👁 471.7K · ❤️ 2.4K</p>
+          <a class="item-link" href="https://twitter.com/OpenAIDevs/status/2075275868268789885">https://twitter.com/OpenAIDevs/status/2075275868268789885</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@steipete</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Peter Steinberger 🦞</span>：OpenAI 雇的是我，不是 OpenClaw；OpenClaw Foundation 仍然独立，由赞助方支持而非拥有，并首次有全职团队维护它的稳定。
+          </p>
+          <p class="item-metric">👁 352.4K · ❤️ 3.3K</p>
+          <a class="item-link" href="https://twitter.com/steipete/status/2075046949896736835">https://twitter.com/steipete/status/2075046949896736835</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@satyanadella</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Satya Nadella</span>：很高兴看到带 Work IQ 的 GPT-5.6 今天进入 Copilot Chat、Cowork、M365 应用、GitHub 和 Foundry，在多步智能体工作、分析和内容创作上提升推理与输出质量，同时不牺牲效率。
+          </p>
+          <p class="item-metric">👁 157.7K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/satyanadella/status/2075318015063925053">https://twitter.com/satyanadella/status/2075318015063925053</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@OpenAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI</span>：认识 Hiroki：一位用 GPT-5.6 经营农场的西兰花农。
+          </p>
+          <p class="item-metric">👁 312.9K · ❤️ 2.8K</p>
+          <a class="item-link" href="https://twitter.com/OpenAI/status/2075310019185389913">https://twitter.com/OpenAI/status/2075310019185389913</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@AnthropicAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Anthropic</span>：我们的 Long-Term Benefit Trust 任命本·伯南克博士为最新成员。
+          </p>
+          <p class="item-metric">👁 258.8K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/AnthropicAI/status/2075257492716879967">https://twitter.com/AnthropicAI/status/2075257492716879967</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@OpenAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI</span>：GPT-5.6 模型家族 Sol、Terra 和 Luna 已开始在 ChatGPT、Codex 与 API 中陆续推出。
+          </p>
+          <p class="item-metric">👁 1.4M · ❤️ 9.1K</p>
+          <a class="item-link" href="https://twitter.com/OpenAI/status/2075271421149020426">https://twitter.com/OpenAI/status/2075271421149020426</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@theo</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Theo - t3.gg</span>：Grok 4.5 是个不错的模型。
+          </p>
+          <p class="item-metric">👁 540.8K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/theo/status/2075090486403166516">https://twitter.com/theo/status/2075090486403166516</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@arcprize</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ARC Prize</span>：GPT-5.6 Sol 在 ARC-AGI-3 上达到新的 SOTA：7.8%，也是首个被验证能通关 ARC-AGI-3 游戏的前沿模型，擅长在陌生情境中定位问题。
+          </p>
+          <p class="item-metric">👁 192.0K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/arcprize/status/2075270869992264003">https://twitter.com/arcprize/status/2075270869992264003</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

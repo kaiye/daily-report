@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-07-13",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI 代理、Claude/MCP 工具链与可运行的 LLM 应用，把模型能力落到终端控制、交易、开发协作和离线知识场景中。",
+  "items": [
+    {
+      "repo": "Dicklesworthstone/destructive_command_guard",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "description": "Destructive Command Guard（dcg）用于阻止代理执行危险的 git 和 shell 命令。",
+      "language": "Rust",
+      "stars_today": 444,
+      "stars_total": 2849
+    },
+    {
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "这是面向 Claude 的 MCP 服务器，为其提供终端控制、文件系统搜索和差异文件编辑能力。",
+      "language": "TypeScript",
+      "stars_today": 210,
+      "stars_total": 7973
+    },
+    {
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "“Vibe-Trading：你的个人交易代理”。",
+      "language": "Python",
+      "stars_today": 768,
+      "stars_total": 20522
+    },
+    {
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ 个你可以实际运行的 AI Agent 与 RAG 应用——克隆、定制并发布。",
+      "language": "Python",
+      "stars_today": 408,
+      "stars_total": 118502
+    },
+    {
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "一组 notebooks/recipes，展示使用 Claude 的一些有趣且有效的方式。",
+      "language": "Jupyter Notebook",
+      "stars_today": 459,
+      "stars_total": 48383
+    },
+    {
+      "repo": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D 是一台自包含的离线生存计算机，装载关键工具、知识和 AI，让你随时随地保持知情并获得能力。",
+      "language": "TypeScript",
+      "stars_today": 125,
+      "stars_total": 33789
+    },
+    {
+      "repo": "virattt/ai-hedge-fund",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "description": "AI 对冲基金团队。",
+      "language": "Python",
+      "stars_today": 115,
+      "stars_total": 61382
+    },
+    {
+      "repo": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "用于配置和监控 Claude Code 的 CLI 工具。",
+      "language": "Python",
+      "stars_today": 274,
+      "stars_total": 29228
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "面向 Claude Code、Cursor 和 Codex 的反 AI 粗制滥造设计技能。",
+      "language": "CSS",
+      "stars_today": 155,
+      "stars_total": 4244
+    }
+  ]
+}

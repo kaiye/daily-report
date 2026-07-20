@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUL 06, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">共同信号是AI正在从模型发布走向算力扩张、代理自动化、成本套利和高风险行业落地的全面加速。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@Meituan_LongCat</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Meituan LongCat</span>：LongCat-2.0全面开源，MIT许可放出权重与推理代码，主打1.6T MoE、百万上下文和面向代理的集成。
+          </p>
+          <p class="item-metric">👁 164.0K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/Meituan_LongCat/status/2073768940078317713">https://twitter.com/Meituan_LongCat/status/2073768940078317713</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@Polymarket</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Polymarket</span>：有开发者声称利用图像与文本计费差异，可把Claude API账单最高砍掉70%。
+          </p>
+          <p class="item-metric">👁 256.6K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/Polymarket/status/2073872763404558522">https://twitter.com/Polymarket/status/2073872763404558522</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@IntCyberDigest</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">International Cyber Digest</span>：Pliny发布T3MP3ST，把Claude Code或OpenAI Codex订阅包装成多代理攻防框架，号称能自动跑完整漏洞挖掘链路。
+          </p>
+          <p class="item-metric">👁 1.6M · ❤️ 1.9K</p>
+          <a class="item-link" href="https://twitter.com/IntCyberDigest/status/2073709900820099232">https://twitter.com/IntCyberDigest/status/2073709900820099232</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@BullTheoryio</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Bull Theory</span>：北大团队的存算一体类脑芯片在特定脑表面重建任务上大幅领先A100，重点不是通用碾压，而是架构绕开内存瓶颈。
+          </p>
+          <p class="item-metric">👁 110.0K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/BullTheoryio/status/2073802393607901647">https://twitter.com/BullTheoryio/status/2073802393607901647</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@aleabitoreddit</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Serenity</span>：泄露文件被指显示Anthropic计划在澳大利亚拿下1.4GW、约216亿美元容量，澳洲主权数据中心布局突然更说得通了。
+          </p>
+          <p class="item-metric">👁 934.0K · ❤️ 2.4K</p>
+          <a class="item-link" href="https://twitter.com/aleabitoreddit/status/2073704784398528599">https://twitter.com/aleabitoreddit/status/2073704784398528599</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@EXM7777</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Machina</span>：有人整理了25个Fable 5自动化循环，覆盖营销、销售、研究和编程，还配好流程图、提示词和工具。
+          </p>
+          <p class="item-metric">👁 148.7K · ❤️ 1.0K</p>
+          <a class="item-link" href="https://twitter.com/EXM7777/status/2073689577085337884">https://twitter.com/EXM7777/status/2073689577085337884</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@DeryaTR_</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Derya Unutmaz, MD</span>：他认为GPT-5.5 Pro已经可能强过绝大多数医生，明年不用AI辅助诊疗甚至应被视为失职。
+          </p>
+          <p class="item-metric">👁 128.7K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/DeryaTR_/status/2073783047950897373">https://twitter.com/DeryaTR_/status/2073783047950897373</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@simonw</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Simon Willison</span>：Simon说让Claude Fable做发布前终审，竟找出并修掉5个发布阻塞问题，未补贴成本约149美元。
+          </p>
+          <p class="item-metric">👁 89.4K · ❤️ 1.0K</p>
+          <a class="item-link" href="https://twitter.com/simonw/status/2073574214280544746">https://twitter.com/simonw/status/2073574214280544746</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@elonmusk</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Elon Musk</span>：Elon表示Grok Imagine已经完成，暗示xAI的图像或视频生成产品即将到来。
+          </p>
+          <p class="item-metric">👁 2.1M · ❤️ 4.5K</p>
+          <a class="item-link" href="https://twitter.com/elonmusk/status/2073722073864929580">https://twitter.com/elonmusk/status/2073722073864929580</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@KobeissiLetter</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">The Kobeissi Letter</span>：美国科技公司未来数年数据中心租约承诺已达8500亿美元，Meta、微软和Oracle继续为AI基础设施加码。
+          </p>
+          <p class="item-metric">👁 464.4K · ❤️ 2.4K</p>
+          <a class="item-link" href="https://twitter.com/KobeissiLetter/status/2073562923918664058">https://twitter.com/KobeissiLetter/status/2073562923918664058</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

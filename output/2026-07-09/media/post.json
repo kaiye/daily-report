@@ -1,0 +1,436 @@
+{
+  "generated_at": "2026-07-09T00:02:08.790Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 34,
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "Why this CEO thinks video games make better training data than the internet",
+      "url": "https://techcrunch.com/video/why-this-ceo-thinks-video-games-make-better-training-data-than-the-internet/",
+      "published_at": "2026-07-08T17:47:55.000Z",
+      "summary": "When it comes to achieving artificial general intelligence (AGI), large language models just&#160;don’t&#160;have what it takes. Models like ChatGPT and Claude&#160;are great at text, but&#160;they&#8217;re&#160;less skilled at understanding how things&#160;actually move&#160;through space and time&",
+      "priority_score": 422,
+      "matched_keywords": [
+        "Claude",
+        "ChatGPT",
+        "GPT",
+        "AGI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Your gaming data could be the secret to AGI, according to this Bezos-backed startup",
+      "url": "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup/",
+      "published_at": "2026-07-08T13:00:00.000Z",
+      "summary": "When it comes to achieving artificial general intelligence (AGI), large language models just&#160;don’t&#160;have what it takes. Models like ChatGPT and Claude&#160;are great at text, but&#160;they&#8217;re&#160;less skilled at understanding how things&#160;actually move&#160;through space and time&",
+      "priority_score": 422,
+      "matched_keywords": [
+        "Claude",
+        "ChatGPT",
+        "GPT",
+        "AGI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "ChatGPT’s upgraded voice mode is better at shutting up",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+      "published_at": "2026-07-08T17:00:00.000Z",
+      "summary": "OpenAI is[overhauling ChatGPT's voice mode](https://openai.com/index/introducing-gpt-live/)with a new model that it says is more like \"talking to another person.\" The new GPT-Live-1 is designed to interrupt you less and will also wait for you to continue speaking if you pause mid-conversation.\n\nDuri",
+      "priority_score": 322,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceXAI releases Grok 4.5, which Elon describes as an ‘Opus-class model’",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "published_at": "2026-07-08T19:30:16.000Z",
+      "summary": "Elon Musk's tech company released the newest version of Grok on Wednesday, promising a cheaper, more efficient alternative to other powerful AI models.",
+      "priority_score": 250,
+      "matched_keywords": [
+        "xAI",
+        "Grok"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "This startup thinks robotics is about to have its ChatGPT moment",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "published_at": "2026-07-08T19:19:15.000Z",
+      "summary": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "提示词压缩竟成大模型新漏洞？港科大提出黑盒攻击框架COMA | ASE 2026",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043143&idx=3&sn=fae11a4bb5c730ba8d9b6a984c1a8c76",
+      "published_at": "2026-07-08T03:02:00.000Z",
+      "summary": "机器之心 2026-07-08 11:02 北京\n\nAgent 系统的安全分析，远不止 LLM 本身。\n\n这项研究成果已被软件工程领域顶会 ASE 2026 接收。论文第一作者为港科大 CSE 博士生刘泽森，通讯作者为佘东冬教授。\n\n在大语言模型 Agent 走向真实部署后，一个越来越常见的问题是：上下文太长了。\n\n现在的 AI Agent 动辄需要处理超长上下文，既要看系统提示词、工具说明，又要翻阅历史对话和检索文档。为了省钱、省算力并降低延迟，很多开发者会给系统加上 “提示词压缩”（Prompt Compression）模块，把冗长的上下文浓缩后再喂给大模型。\n\n但这招真的安全吗？\n\n香港",
+      "priority_score": 222,
+      "matched_keywords": [
+        "LLM",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "刚刚，OpenAI首席未来学家离职！曾被马斯克骂蠢驴",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902258&idx=2&sn=9255dfa6c73c1433b887448e2fb783bb",
+      "published_at": "2026-07-08T03:33:00.000Z",
+      "summary": "关注前沿科技 2026-07-08 11:33 北京\n\nTo safe AGI\n\n##### henry 发自 凹非寺 量子位 | 公众号 QbitAI\n\n刚刚，OpenAI首席未来学家 **Joshua Achiam** 在X上宣布离职。\n\n这并不是一个普通员工变动。\n\n在OpenAI内部， **首席未来学家** 这个职位夹在AI安全、政策和公司使命之间，负责研究AI继续变强之后，可能给世界带来的风险和机会。\n\n而Joshua Achiam，正是OpenAI这条安全与使命线上的核心人物之一。\n\n9年前的2017，他以实习生身份加入OpenAI。早期，他是一名专注于AI安全的研究科学家，做过深",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI releases new voice models for more natural live conversations",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+      "published_at": "2026-07-08T17:00:00.000Z",
+      "summary": "OpenAI says its new voice mode can speak and listen at the same time, a key ability for live translation.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hot French startup ZML releases free product to speed inference across lots of AI chips",
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+      "published_at": "2026-07-08T08:00:00.000Z",
+      "summary": "ZML, a hot French AI startup endorsed by Turing Award winner Yann LeCun, has now released ZML/LLMD, software that could make running AI less costly.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "published_at": "2026-07-08T16:22:38.000Z",
+      "summary": "Founded in 2024, Prime Intellect’s goal is to give organizations capabilities to train their own agentic systems without relying on frontier AI labs.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Former OpenAI exec Kevin Weil is now on the board of Stoke Space",
+      "url": "https://techcrunch.com/2026/07/08/former-openai-exec-kevin-weil-is-now-on-the-board-of-stoke-space/",
+      "published_at": "2026-07-08T12:00:00.000Z",
+      "summary": "Kevin Weil's new role at Stoke Space suggests reusable rockets are the next hot thing in Silicon Valley.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "刚刚，全球首个超高帧世界模型诞生！英伟达含量0，狂飙50帧",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711354&idx=2&sn=480b98997a82ed635e5de6e3aef31392",
+      "published_at": "2026-07-08T03:45:00.000Z",
+      "summary": "ASI启示录 2026-07-08 11:45 北京\n\n国产NPU跑穿实时世界模型，成本还砍七成。\n\n### **新智元报道**\n\n##### **【新智元导读】** 世界模型终于跑进实时时代。当行业还在为5FPS、10FPS挣扎时，一支中国团队直接把实时交互世界模型推上50FPS。更重要的是，他们没有使用英伟达GPU。\n\n专注于4D世界模型研发和产业化的魔芯科技联合浙江大学潘云鹤院士团队发布MoWorld——全球首个Flash World Model，也是首个全栈基于国产NPU构建的实时交互世界模型。\n\n从训练、蒸馏到部署，全流程跑通国产算力闭环；推理成本比同规模GPU方案降低70%。\n\n世",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "published_at": "2026-07-08T07:16:00.000Z",
+      "summary": "AI chip maker SambaNova has raised at an $11 billion valuation months after Intel was rumored to be trying to buy it for about $1.6 billion.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google Photos adds a new AI ‘Video Remix’ tool",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+      "published_at": "2026-07-08T18:30:08.000Z",
+      "summary": "The feature can do things like apply cinematic relighting to brighten up a dark clip, swap out a plain background for something fun, or add artistic styles to videos.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta wants its AI glasses to seem less creepy. Its AI strategy says otherwise.",
+      "url": "https://techcrunch.com/2026/07/08/meta-wants-its-ai-glasses-to-seem-less-creepy-its-ai-strategy-says-otherwise/",
+      "published_at": "2026-07-08T17:11:18.000Z",
+      "summary": "Meta is adding a new safeguard to stop people from secretly recording others with its AI glasses. But the update comes as the company continues to expand how much personal data its AI products collect and use.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "硬核少年技术节5.0抢鲜看！四大AI成果首发，报名即将截止",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247509988&idx=2&sn=d9bf2c3466714c8c59fd844419f90d88",
+      "published_at": "2026-07-08T11:37:00.000Z",
+      "summary": "硬核少年技术节 2026-07-08 19:37 浙江\n\n7月20日至24日，硬核少年技术节5.0将在杭州和北京两地同步启幕。\n\n7月20日至24日，横跨阿里巴巴淘天集团与 ATH事业群 的年度最大技术节日—— 硬核少年技术节5.0 将在杭州和北京两地同步启幕。为期一周的技术节涵盖技术市集、博见社、Openday、AI Hackathon等多元板块，集展示、竞技、分享与交流于一体。\n\n# 历届最大规模，四大核心成果齐发\n\n走到第五年的硬核少年技术节，本届在规模和覆盖度上均达到历届之最。围绕AIGX技术体系的持续升级，我们将一次性交出四份硬核答卷——全模态感知、内容生产、因果推断、意图理解，让A",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "3 倍于 VectorDBBench 榜首，火山 Milvus 如何把向量检索拉到新高度",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520682&idx=2&sn=4cbdb81828435ba827ee4c34532f5de3",
+      "published_at": "2026-07-08T09:00:00.000Z",
+      "summary": "火山引擎数据库 2026-07-08 17:00 北京\n\n大模型持续推高内存存储需求与硬件成本，硬件成本正成为制约向量检索规模化的最大瓶颈之一；海量向量场景下，如何在固定预算内平衡 **“吞吐、延迟、召回率与数据导入效率”** 等各项性能指标成为业务扩张核心难题。\n\n火山 Milvus 上线之初即集成业界先进的 DiskANN + RaBitQ 算法。依托该能力，其性能版较开源版本性能提升 30%以上，磁盘版性能更是领先开源版本 5 倍以上，详情可参考[5 倍性能优于开源版，火山 Milvus 集成 DiskANN + RaBitQ](https://mp.weixin.qq.com/s?__",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "国产开源新突破！5万小时真机数据，撕开行业最大痛点",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711354&idx=1&sn=702fbde8ab793f923cd6d9939f7a348c",
+      "published_at": "2026-07-08T03:45:00.000Z",
+      "summary": "ASI启示录 2026-07-08 11:45 北京\n\n### **新智元报道**\n\n##### **【新智元导读】** 当机器人后空翻刷屏时，代表小脑已经在快速进展。但你是否意识到，让机器人真正干活卡脖子的从来不是小脑，而是大脑？蚂蚁灵波刚刚开源的LingBot-VLA2.0，用同一套模型「驯服」了20种的机器人构型。行业终于有人开始认真算重复适配成本这笔账了。\n\n去年，机器人圈最热闹的画面，都是关于「身体」的。\n\n机器人能后空翻了，机器人能跑完一场半程马拉松了……\n\n每一条视频都在告诉你：看，它的胳膊多灵活，它的腿多稳，它摔倒了还能自己爬起来。\n\n热闹，好看，掌声雷动。\n\n然而，这只是精心",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "60000小时炼出新开源VLA！20多种机器人都能用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902258&idx=1&sn=09ea927102a45e58d2de764072287fc9",
+      "published_at": "2026-07-08T03:33:00.000Z",
+      "summary": "原创关注前沿科技 2026-07-08 11:33 北京\n\n蚂蚁灵波Lingbot-VLA 2.0\n\n##### 金磊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n整整 **60000小时** 的预训练数据。\n\n一个新 **VLA** （视觉-语言-动作），就这么水灵灵地被“喂”了出来，而且还是 **开源** 的那种。\n\n这就是 **蚂蚁灵波** 刚刚发布的 **LingBot-VLA 2.0** ，一个面向复杂物理世界任务的通用VLA模型。\n\n先来聊聊这60000小时真实物理数据是怎么来的。\n\n其实它包含两个部分，其中50000小时来自机器人轨迹数据，覆盖20种机器人构型；另外1000",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "20种机器人本体通吃！蚂蚁新一代VLA具身大脑刚刚开源了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043143&idx=1&sn=b76e194c2c1a4c4c7aec0a39ae8f31e6",
+      "published_at": "2026-07-08T03:02:00.000Z",
+      "summary": "原创关注VLA模型的 2026-07-08 11:02 北京\n\n具身智能不缺Demo，缺一颗能实战的通用大脑。\n\n编辑｜杜伟\n时隔 5 个月后，蚂蚁灵波亮出了自家新一代具身智能大脑。这一次，它试图把跨本体 VLA 从单点 Demo，推向可复现、可高效后训练与可部署的工程链路。\n2026 开年以来，具身智能最重要的技术路线之一 VLA（视觉-语言-动作）， 其受行业关注的程度以及向前推进的速度超出了很多人的想象。\n\n科技巨头英伟达推出专为人形机器人打造的开放 VLA 系列 GR00T N1.6 和 GR00T N1.7，具身智能独角兽 Physical Intelligence 推出的 π0.7",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "中国科学院携手全球顶尖机构发布首个十亿参数级的手术视频基础模型SurgMotion！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043143&idx=2&sn=22a3dc2927b9921240930c0e9a90dca9",
+      "published_at": "2026-07-08T03:02:00.000Z",
+      "summary": "机器之心 2026-07-08 11:02 北京\n\n从“像素重建”到“时空运动预测”跨越式进化，Hugging Face 全球下载量第一\n\n机器之心发布\n\n手术 AI 正在从 “单帧感知” 迈向 “全流程视频理解” 的全新时代 ！近日，由中国科学院香港创新研究院人工智能与机器人创新中心领衔，联合中国科学院自动化所、香港中文大学、慕尼黑工业大学、北京协和医院、中山大学附属第一医院、香港威尔斯亲王医院、香港大学深圳医院等全球顶尖机构，正式发布了 全球首个十亿级参数、最大规模数据集练成的手术视频原生基础模型 ——SurgMotion ！\n\n- 论文：SurgMotion: A Video-Nativ",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Lovable reportedly in talks to double its valuation to $13.2B",
+      "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+      "published_at": "2026-07-08T22:41:33.000Z",
+      "summary": "The $300 million round is expected to be led by Menlo Ventures, Sifted reported.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Data for Agents",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "published_at": "2026-07-08T17:16:05.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "Harness 工程实践：如何让 Agent 完成自主迭代",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247509988&idx=1&sn=077f18a5e969437efceb13f31d13bf73",
+      "published_at": "2026-07-08T11:37:00.000Z",
+      "summary": "肖汉松 2026-07-08 19:37 浙江\n\n我们需要对 Harness 工程有正确的认知\n\n这是2026年的第 32 篇文章\n\n（ 本文阅读时间：约20分钟 ）\n\n# 前言\n\n一个人一天最多跑一次迭代实验，但每周上百个 badcase 追着我们跑，这是团队今年年初的状态。\n\n我们负责一个服务大规模用户的线上业务 Agent，日常工作就是去优化它的回答效果：发现 badcase、分析原因、修改 prompt，跑评测，开实验。\n\n问题在于修改 prompt 之后，评测一次起码要两三个小时，评测完还要分析为什么答不对，琢磨 prompt 怎么改，一天最多也就跑一次迭代实验；而线上 badcas",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "竞赛编程Agent进入全球前十！南大、清华新模型CF rating超3500",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711354&idx=3&sn=657c9b119103ddb627ddc2e2aab0438a",
+      "published_at": "2026-07-08T03:45:00.000Z",
+      "summary": "新智元 2026-07-08 11:45 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 大语言模型在代码生成上的能力不断增强，但在复杂算法题，尤其是竞赛编程场景中，仍然容易因为算法选择错误、边界条件遗漏、复杂度判断失误或隐藏测试覆盖不足而失败。Solvita是一款面向竞赛编程的智能体框架，通过四个角色（Planner、Solver、Oracle、Hacker）形成闭环系统，并利用可训练的图结构知识网络积累经验。**\n\n竞赛编程并不只是「把题面翻译成代码」。一个正确解法往往需要经历多个复杂环节：理解自然语言题面、抽象出数学结构、选择合适算法范式、估计复杂度、实现代码、构造",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s deepfake detector system used to debunk McConnell hoax pic",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+      "published_at": "2026-07-08T20:37:03.000Z",
+      "summary": "Earlier this week, a picture seemed to show Kentucky Senator Mitch McConnell covered in tubes in a hospital bed in a state of extreme distress. It turned out to be an AI-generated fake.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "EmTech AI 2026: The Rise of the AI Platform",
+      "url": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
+      "published_at": "2026-07-08T16:26:10.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "These AI startups are growing  revenue at faster and faster rates",
+      "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+      "published_at": "2026-07-08T15:41:06.000Z",
+      "summary": "There are a lot of fast-growing AI startups, but some are growing even faster, they say.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "从体脂秤到薄荷健康，蚂蚁阿福的稳扎稳打",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110031&idx=1&sn=0c8710693b487b64caa5075ef7070a56",
+      "published_at": "2026-07-08T14:33:00.000Z",
+      "summary": "原创徐珊 2026-07-08 22:33 北京\n\n智能硬件+健康 AI 走得通吗？\n\n**作者｜徐珊** **编辑｜郑玄**\n\n最近，健康 AI 蚂蚁阿福狠狠刷了一波存在感。\n\n上个月，「科学减重 1 亿斤」活动刷屏网络，干成了一场现象级营销。不到一周时间，阿福联名体脂秤领取量就超过百万台，用户热情高涨、催着工厂加速出货。\n\n今天，蚂蚁集团又宣布成为薄荷健康的第一大外部股东，引发行业高度关注。这家体重管理领域的头部平台，在营养干预和减重行为管理方面有将近 20 年的积累。这让行业意识到，做体重管理，阿福是动真格的。\n\n做 AI，蚂蚁显然走的是一条和很多互联网公司不一样的路。一方面，相比于通用",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: worms fight pollution, and geoengineering faces reality",
+      "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
+      "published_at": "2026-07-08T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Why worms (and microb",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "蔚来，均价 44.3 万元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110024&idx=1&sn=c7cb132d8d57e69e260160aa781c4f06",
+      "published_at": "2026-07-08T11:58:00.000Z",
+      "summary": "原创曹思颀 2026-07-08 19:58 北京\n\n超越 BBA。\n\n**作者｜曹思颀** **编辑｜靖宇**\n\n2026 年的中国车市，打造一个爆款车型，不算一件特别稀奇的事。\n\n价格锋利、配置醒目、功能抓眼球，再配合上密集的传播节奏，都有可能把一款车迅速推到聚光灯下。\n\n但新的问题是：当所有人都不可避免地一起卷配置、卷权益的时候，爆款和定价就很难同时满足。\n\n从目前来看，蔚来似乎是一个特例：刚刚过去的 6 月，蔚来公司月度交付量超过 4 万台，创今年以来新高；其中蔚来主品牌交付 21908 台，同比增长超过 50%。\n\n更重要的是，在新上市、起售价接近 50 万的 ES9 加持下，蔚来主",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "精打细算虾养成指南： 省 Token 和把 AI 用好，从来就是一件事",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802494&idx=1&sn=b9882f78a98dd26657b573d0f14eea8a",
+      "published_at": "2026-07-08T09:36:00.000Z",
+      "summary": "腾讯技术工程 2026-07-08 17:36 广东\n\n更重要的是让 AI 的每一分注意力都用在刀刃上\n\n作者： Kario Chen\n我最开始用龙虾，也是 Opus 从头到尾，觉得这样才算是释放了最大的生产力。随着 token 越来越不够用，我开始持续探索节省 token 的方案， 越深入越发现：真正的省 token 不是削减投入、不是降低预算，而是在保证效率和产能的前提下，用结构化的方式替代蛮力输入。本质上就是学会工程化地用 AI，关键在于一个动作：在合适的时间，把合适的上下文，装载进合适的模型。这不仅省 token，更重要的是让 AI 的每一分注意力都用在刀刃上。\n# 为什么 AI 越用",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "AI生图免训练提速1000%，办法：最简洁的“三阶段流水线”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902258&idx=3&sn=ba308a43c7645e185ee3f0285fcabad0",
+      "published_at": "2026-07-08T03:33:00.000Z",
+      "summary": "关注前沿科技 2026-07-08 11:33 北京\n\nAI画图能力越来越强，但用户体感还是一个字：慢。\n\n##### MrFlow团队 投稿 量子位 | 公众号 QbitAI\n\nAI画图能力越来越强，但用户体感还是一个字： **慢。**\n\n一张1024分辨率的图像，从prompt到出图，扩散模型往往得在高分辨率空间里一遍遍采样。质量是上来了，等待时间也跟着上来了。能力越强，推理账单越厚。\n\n过往扩散模型的主流加速方法中，量化、高效Attention等方法强依赖于硬件协同；步数蒸馏依赖高成本微调，且训练时常不稳定；特征缓存类方法需要动态识别并缓存中间特征，且加速比难以超过5倍。\n\n**有没有可",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902258&idx=4&sn=95554bbcc178f217288379c68e2d9edf",
+      "published_at": "2026-07-08T03:33:00.000Z",
+      "summary": "关注前沿科技 2026-07-08 11:33 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-07-08",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日热门项目集中在 AI 代理的工作流自动化、本地化能力扩展与 Claude/OpenAI 生态工具化。",
+  "items": [
+    {
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "基于 Claude Code 构建的 AI 求职申请框架：Fork 后填写个人资料，让 Claude 评估职位、定制简历、撰写求职信并帮助准备面试。",
+      "language": "TypeScript",
+      "stars_today": 2514,
+      "stars_total": 10765
+    },
+    {
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "description": "隐私优先的 AI 会议助手，基于 Rust 提供快 4 倍的 Parakeet/Whisper 实时转录、说话人分离与 Ollama 摘要，100% 本地处理且无需云端。",
+      "language": "Rust",
+      "stars_today": 1777,
+      "stars_total": 20691
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "面向 AI 编码代理的生产级工程技能。",
+      "language": "JavaScript",
+      "stars_today": 1317,
+      "stars_total": 72108
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView 将普通 WiFi 信号转化为实时空间智能、生命体征监测与存在检测，全程无需任何视频像素。",
+      "language": "Rust",
+      "stars_today": 1129,
+      "stars_total": 78483
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "定期更新从 Anthropic、OpenAI、Google、xAI、Cursor、Copilot、VS Code、Perplexity 等产品中提取的系统提示词。",
+      "language": "JavaScript",
+      "stars_today": 1691,
+      "stars_total": 52958
+    },
+    {
+      "repo": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "面向 AI 代理的即时、并发、安全且轻量的沙箱。",
+      "language": "Rust",
+      "stars_today": 664,
+      "stars_total": 8442
+    },
+    {
+      "repo": "steipete/CodexBar",
+      "url": "https://github.com/steipete/CodexBar",
+      "description": "无需登录即可显示 OpenAI Codex 和 Claude Code 的使用统计。",
+      "language": "Swift",
+      "stars_today": 376,
+      "stars_total": 17024
+    },
+    {
+      "repo": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI 是首个且最佳的为 AI 代理读写、编辑和自动化 Word、Excel、PowerPoint 文件而打造的 Office 套件，免费开源、单二进制且无需安装 Office。",
+      "language": "C#",
+      "stars_today": 893,
+      "stars_total": 9894
+    },
+    {
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "让 Claude 具备观看任意视频的能力，/watch 会下载视频、提取帧、转录并将全部内容交给 Claude。",
+      "language": "Python",
+      "stars_today": 965,
+      "stars_total": 5137
+    },
+    {
+      "repo": "kyutai-labs/pocket-tts",
+      "url": "https://github.com/kyutai-labs/pocket-tts",
+      "description": "能装进你的 CPU（也能装进口袋）的 TTS。",
+      "language": "Python",
+      "stars_today": 531,
+      "stars_total": 6143
+    },
+    {
+      "repo": "hesreallyhim/awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "description": "精选 Claude Code 相关优质资源，涵盖顶级技能、灵活代理、状态行、开发者工具和插件。",
+      "language": "Python",
+      "stars_today": 144,
+      "stars_total": 49106
+    }
+  ]
+}

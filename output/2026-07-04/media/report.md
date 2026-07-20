@@ -1,0 +1,48 @@
+# 媒体资讯
+
+本日AI新闻集中在头部模型公司拓展应用边界、AI视频融资升温，以及大模型推理和世界模型等底层技术继续走向工程化。
+
+### [特斯拉员工AI周限额200美元，可灵获30亿美元融资，宇树IPO获批](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109751&idx=1&sn=75e4cf4eb3b2be28af0682806272b1ae)
+*极客公园* · 2026-07-03
+
+特斯拉员工AI周限额200美元，可灵获30亿美元融资，宇树IPO获批：文章还提到OpenAI正磋商向美国政府捐赠5%股份，并建议其他美国AI公司采取类似安排以分享AI收益。
+
+### [Anthropic想开发自己的药物](https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development)
+*The Verge AI* · 2026-07-03
+
+Anthropic想开发自己的药物：Anthropic在“AI for Science”活动上介绍Claude Science，并把面向科学家的AI工作台延伸到药物研发方向。
+
+### [Google DeepMind与A24宣布首个同类研究合作](https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/)
+*Google DeepMind* · 2026-07-03
+
+Google DeepMind与A24宣布首个同类研究合作：与影视公司A24建立研究伙伴关系，探索AI研究与创意内容制作之间的新合作模式。
+
+### [Midjourney医疗扫描仪幕后视频仍留下许多疑问](https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video)
+*The Verge AI* · 2026-07-03
+
+Midjourney医疗扫描仪幕后视频仍留下许多疑问：Midjourney展示其未来感医疗超声扫描仪的更多画面，但相关演示仍未充分回答证据、验证和实际能力方面的问题。
+
+### [Claude Fable 5回归后遭遇大量差评](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901356&idx=1&sn=c330bb1b767c3e607b8cfc5b7a481273)
+*量子位* · 2026-07-03
+
+Claude Fable 5回归后遭遇大量差评：用户集中质疑回归版Fable 5存在计费不透明、跑分下降、拒答普通问题以及不当回应等问题。
+
+### [可灵独立后完成最高30亿美元融资](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109764&idx=1&sn=bbcf278f62503cd2a3bc0008f66c566e)
+*极客公园* · 2026-07-03
+
+可灵独立后完成最高30亿美元融资：快手旗下可灵AI业务主体完成约20亿美元初始融资，并通过追加认购把总融资上限推至约30亿美元、投后估值约180亿美元。
+
+### [上海交大等提出HAT-4D，单目视频可生成4D交互场景](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901356&idx=3&sn=54ee94026f76691a380cd3ea214e0def)
+*量子位* · 2026-07-03
+
+上海交大等提出HAT-4D，单目视频可生成4D交互场景：该方法面向具身智能和机器人训练数据需求，用单目视频建模包含三维几何、时间变化和物理关系的交互场景。
+
+### [阿里技术解析大模型缓存命中率为何可达90%](https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247509914&idx=1&sn=504b17755ea40067d8e4f460a367cbb4)
+*阿里技术* · 2026-07-03
+
+阿里技术解析大模型缓存命中率为何可达90%：文章从KV Cache到Prefix Caching梳理大模型推理优化，并解释高频和Agent式调用如何带来稳定高缓存命中率。
+
+### [LeCun团队让世界模型实现持续学习](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247901356&idx=2&sn=75a13c63ab8edf9af8d2c2ece9b65102)
+*量子位* · 2026-07-03
+
+LeCun团队让世界模型实现持续学习：纽约大学联合LeCun初创公司AMI提出AdaJEPA，使世界模型能在部署时通过测试时自适应实时更新编码器和预测器参数。

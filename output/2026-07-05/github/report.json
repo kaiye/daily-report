@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-07-05",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕编码代理与 Claude/Codex 生态扩展，从技能、插件、浏览器控制到安全测试和本地 AI 助手全面加速落地。",
+  "items": [
+    {
+      "repo": "openai/codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "description": "在 Claude Code 中使用 Codex 来审查代码或委派任务。",
+      "language": "JavaScript",
+      "stars_today": 718,
+      "stars_total": 24383
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 为什么用很多 token，少量 token 就能办事——让 Claude Code 像穴居人一样说话、减少 65% token 的技能。",
+      "language": "JavaScript",
+      "stars_today": 1089,
+      "stars_total": 83945
+    },
+    {
+      "repo": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "description": "页面内 JavaScript GUI 代理，用自然语言控制网页界面。",
+      "language": "TypeScript",
+      "stars_today": 742,
+      "stars_total": 23088
+    },
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "开源 AI 渗透测试工具，用来发现并修复应用漏洞。",
+      "language": "Python",
+      "stars_today": 1904,
+      "stars_total": 36015
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "面向编码代理的 Chrome DevTools。",
+      "language": "TypeScript",
+      "stars_today": 304,
+      "stars_total": 45767
+    },
+    {
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "description": "隐私优先的 AI 会议助手，基于 Rust，提供快 4 倍的 Parakeet/Whisper 实时转录、说话人分离和 Ollama 总结，100% 本地处理且无需云端。",
+      "language": "Rust",
+      "stars_today": 718,
+      "stars_total": 15235
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "定期更新从 Anthropic、OpenAI、Google、xAI、Cursor、Copilot、VS Code、Perplexity 等提取的系统提示词。",
+      "language": "JavaScript",
+      "stars_today": 471,
+      "stars_total": 48900
+    },
+    {
+      "repo": "harvard-edge/cs249r_book",
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "description": "机器学习系统。",
+      "language": "Python",
+      "stars_today": 443,
+      "stars_total": 26554
+    },
+    {
+      "repo": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "驻留在终端中的代理多路复用器。",
+      "language": "Rust",
+      "stars_today": 707,
+      "stars_total": 11425
+    },
+    {
+      "repo": "agentskills/agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "description": "Agent Skills 的规范与文档。",
+      "language": "Python",
+      "stars_today": 351,
+      "stars_total": 22323
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "给真正工程师的技能，直接来自我的 .claude 目录。",
+      "language": "Shell",
+      "stars_today": 973,
+      "stars_total": 156538
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "description": "面向 Claude Code、Codex、Gemini CLI、Cursor 和更多编码代理的 337 个 Claude Code 技能、代理技能与插件，覆盖工程、营销、产品、合规、高管顾问、研究、业务运营、商业与财务以及日常生产力。",
+      "language": "Python",
+      "stars_today": 136,
+      "stars_total": 20142
+    }
+  ]
+}

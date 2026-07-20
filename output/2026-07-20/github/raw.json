@@ -1,0 +1,189 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-07-20T02:07:54.794Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 18,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "stars_total": 21327,
+      "forks": 2187,
+      "stars_today": 663
+    },
+    {
+      "rank": 2,
+      "repo": "kvcache-ai/ktransformers",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "language": "Python",
+      "stars_total": 18401,
+      "forks": 1453,
+      "stars_today": 360
+    },
+    {
+      "rank": 3,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars_total": 39717,
+      "forks": 6631,
+      "stars_today": 501
+    },
+    {
+      "rank": 4,
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "stars_total": 43403,
+      "forks": 5299,
+      "stars_today": 610
+    },
+    {
+      "rank": 5,
+      "repo": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl &amp; research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "language": "TypeScript",
+      "stars_total": 1881,
+      "forks": 114,
+      "stars_today": 595
+    },
+    {
+      "rank": 6,
+      "repo": "andrewrabert/jellium-desktop",
+      "url": "https://github.com/andrewrabert/jellium-desktop",
+      "description": "An unofficial desktop client for Jellyfin",
+      "language": "Rust",
+      "stars_total": 1298,
+      "forks": 109,
+      "stars_today": 43
+    },
+    {
+      "rank": 7,
+      "repo": "github/copilot-sdk",
+      "url": "https://github.com/github/copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "stars_total": 9968,
+      "forks": 1350,
+      "stars_today": 39
+    },
+    {
+      "rank": 8,
+      "repo": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "stars_total": 36951,
+      "forks": 3055,
+      "stars_today": 411
+    },
+    {
+      "rank": 9,
+      "repo": "microsoft/terminal",
+      "url": "https://github.com/microsoft/terminal",
+      "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+      "language": "C++",
+      "stars_total": 104192,
+      "forks": 9439,
+      "stars_today": 59
+    },
+    {
+      "rank": 10,
+      "repo": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "language": "Python",
+      "stars_total": 36716,
+      "forks": 2547,
+      "stars_today": 83
+    },
+    {
+      "rank": 11,
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars_total": 8937,
+      "forks": 1037,
+      "stars_today": 235
+    },
+    {
+      "rank": 12,
+      "repo": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "language": "HTML",
+      "stars_total": 20246,
+      "forks": 1342,
+      "stars_today": 64
+    },
+    {
+      "rank": 13,
+      "repo": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "language": "Python",
+      "stars_total": 9908,
+      "forks": 1195,
+      "stars_today": 410
+    },
+    {
+      "rank": 14,
+      "repo": "Flowseal/zapret-discord-youtube",
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "description": "NEW : Ускорение Telegram Desktop - https://github.com/Flowseal/tg-ws-proxy Альтернатива https://github.com/bol-van/zapret-win-bundle Также вы можете материально поддержать оригинального разработчика zapret тут\n\nЯ не веду никакие другие страницы/группы в телеграм/ютуб каналы Если вы наткнулись на что-то вне этой страницы гитхаба, что распространяется от моего лица - ФЕЙК .",
+      "language": "Batchfile",
+      "stars_total": 31038,
+      "forks": 2374,
+      "stars_today": 106
+    },
+    {
+      "rank": 15,
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars_total": 528960,
+      "forks": 50041,
+      "stars_today": 754
+    },
+    {
+      "rank": 16,
+      "repo": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars_total": 23645,
+      "forks": 2681,
+      "stars_today": 358
+    },
+    {
+      "rank": 17,
+      "repo": "Canner/WrenAI",
+      "url": "https://github.com/Canner/WrenAI",
+      "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
+      "language": "Python",
+      "stars_total": 16225,
+      "forks": 1842,
+      "stars_today": 121
+    },
+    {
+      "rank": 18,
+      "repo": "PKUFlyingPig/cs-self-learning",
+      "url": "https://github.com/PKUFlyingPig/cs-self-learning",
+      "description": "计算机自学指南",
+      "language": "HTML",
+      "stars_total": 74192,
+      "forks": 7941,
+      "stars_today": 134
+    }
+  ]
+}

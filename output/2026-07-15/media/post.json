@@ -1,0 +1,448 @@
+{
+  "generated_at": "2026-07-15T00:02:46.757Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 37,
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI’s first hardware device is reportedly a screenless speaker that can move",
+      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+      "published_at": "2026-07-14T22:22:24.000Z",
+      "summary": "The device is weirdly described as involving \"mechanical elements that can move on their own\" and the Bloomberg report includes the detail that the device is designed to \"feel like a companion and become a physical manifestation of OpenAI’s ChatGPT.\"",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI may announce a ChatGPT smart speaker this year",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device",
+      "published_at": "2026-07-14T21:26:32.000Z",
+      "summary": "OpenAI's first device is set to be a smart speaker that lets you talk with ChatGPT, according to a report[from, Bloomberg](https://www.bloomberg.com/news/articles/2026-07-14/openai-s-first-device-will-be-moveable-screenless-speaker-built-as-ai-companion?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVC",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Spotify expands its AI push with a ChatGPT-like music assistant",
+      "url": "https://techcrunch.com/2026/07/14/spotify-expands-its-ai-push-with-a-chatgpt-like-music-assistant/",
+      "published_at": "2026-07-14T14:06:47.000Z",
+      "summary": "Spotify is rolling out a new AI-powered conversational feature that lets Premium subscribers chat with the app to discover music, podcasts, audiobooks, and more.",
+      "priority_score": 228,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI’s new flagship model deletes files on its own, people keep warning",
+      "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+      "published_at": "2026-07-14T21:50:11.000Z",
+      "summary": "A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: Claude’s inner workings, and the future of world models",
+      "url": "https://www.technologyreview.com/2026/07/14/1140391/the-download-anthropic-claude-internal-thoughts-world-models/",
+      "published_at": "2026-07-14T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **What Anthropic’s late",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "SpaceXAIs Grok programming tool was uploading its users entire codebase to cloud storage",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "published_at": "2026-07-14T19:25:00.000Z",
+      "summary": "SpaceXAI's Grok Build AI coding tool was spotted uploading users' entire codebases to Google Cloud before it was reported, and the company turned it off.[The Register](https://www.theregister.com/ai-and-ml/2026/07/14/musk-promises-purge-after-grok-build-caught-sending-entire-repos-to-the-cloud/52711",
+      "priority_score": 200,
+      "matched_keywords": [
+        "xAI",
+        "Grok"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "AI也会「看人下菜」？Anthropic勾勒出了Claude的价值观画像",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044179&idx=3&sn=dd0da99a94a521036e5ffbda614933b2",
+      "published_at": "2026-07-14T02:31:00.000Z",
+      "summary": "机器之心 2026-07-14 10:31 北京\n\n同一个Claude，换种语言就像换了个人\n\n机器之心编辑部\n\n同一个问题，换一种语言问 Claude，得到的可能不只是措辞不同的答案。\n\n今天凌晨，Anthropic 最新研究发现，Claude 在不同模型、不同语言中，会表现出不同的价值取向。Sonnet 4.6 更温暖，更愿意顺应用户，也更简洁。Opus 4.7 更严谨、更审慎，倾向于深入分析，也更愿意坦白自己的局限。\n\n语言带来的差异更加微妙。使用阿拉伯语时，Claude 更温暖、更顺应用户；换成英语，它会表现得更加审慎和严谨。印地语中的 Claude 最具温度，俄语中的 Claude ",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "published_at": "2026-07-14T17:45:55.000Z",
+      "summary": "DeepMind CEO Demis Hassabis is proposing an AI \"standards body\" modeled after FINRA, to test frontier models and develop best practices for their release.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "二季度 iPhone 市场份额创下新高；米哈游 AI 互动产品开启抢先体验；被传探索自动驾驶，字节回应 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110477&idx=1&sn=85b90e73baa5205e5114469cc407839c",
+      "published_at": "2026-07-14T00:31:00.000Z",
+      "summary": "曹思颀 2026-07-14 08:31 北京\n\n比亚迪德国市占率超越丰田；面对苹果诉讼，OpenAI 仍计划今年发布首款硬件；阶跃星辰首款 AI 智能体手机发布。\n\n## 苹果 Q2 手机市场份额创新高\n\n调研机构 Omdia 发布的最新报告显示，在全球内存芯片持续短缺的背景下，2026 年第二季度全球智能手机出货量同比下降了 4%。但苹果在 2026 年第二季度夺得了 20% 的市场份额，创下历史新高。\n\n报告指出，这是苹果有史以来表现最好的第二季度成绩。第二季度通常是苹果的销售淡季，因为没有新品发布，此时的苹果只能依靠去年秋季发布的老机型维持市场热度。\n\n分析认为：这次苹果的市场份额能够",
+      "priority_score": 128,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI pushes back on Apple trade secret lawsuit",
+      "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+      "published_at": "2026-07-14T22:07:42.000Z",
+      "summary": "OpenAI has issued another statement on the lawsuit, this time suggesting it lacks merit.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s newest ad is creeping people out",
+      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/",
+      "published_at": "2026-07-14T19:41:27.000Z",
+      "summary": "Anthropic has consistently attempted to depict itself as the ethical foil to other AI companies. This latest marketing stunt — which leans into criticism of AI as a way to make Anthropic seem aware of the responsibility it carries — would appear to be more of the same.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Sam Altman didn’t need another lawsuit",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965294/openai-apple-trade-secrets-lawsuit-sam-altman-ipo",
+      "published_at": "2026-07-14T14:01:07.000Z",
+      "summary": "OpenAI has spent the better part of the year involved in lawsuit after lawsuit, including one from the world's richest man. But last Friday, the company was hit with one of the highest-profile legal actions yet - from Apple. OpenAI's expensive hardware bet is what's on the line.\n\nApple's lawsuit aga",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple opens its new Siri AI to everyone with the iOS 27 public beta",
+      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+      "published_at": "2026-07-14T19:42:27.000Z",
+      "summary": "If you’ve been waiting to try Apple’s revamped Siri without installing a developer beta, you now can. The company on Tuesday released the iOS 27 public beta, giving iPhone owners early access to its AI-powered assistant and other new features before the software’s official launch this fall.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Spotify is now an AI chatbot, too",
+      "url": "https://www.theverge.com/entertainment/965358/spotify-ai-chatbot-interface-music-audiobooks-podcasts",
+      "published_at": "2026-07-14T15:47:36.000Z",
+      "summary": "This is what the “Talk to Spotify” chatbox (left) looks like on the homepage. | Image: Spotify\nSpotify is experimenting with a new AI feature that allows Premium subscribers to play and explore music, audiobooks, and podcasts by having conversations with a chatbot. The \"[Talk to Spotify](https://new",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Superhuman’s new auto-draft feature almost makes me like AI replies",
+      "url": "https://techcrunch.com/2026/07/14/superhumans-new-auto-draft-feature-almost-makes-me-like-ai-replies/",
+      "published_at": "2026-07-14T14:00:00.000Z",
+      "summary": "Superhuman’s latest AI email drafting feature is its most convincing yet, generating replies that often required little to no editing in our testing.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "想到即建、不用即停 —— 火山 PostgreSQL 助力飞书妙搭的 AI 效率革新",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520827&idx=1&sn=543e0e51b78349e2c5f87c4867713da5",
+      "published_at": "2026-07-14T10:00:00.000Z",
+      "summary": "原创 火山引擎数据库 2026-07-14 18:00 北京\n\n\n“我的 APP 已经通过 AI 开发好了，怎么才能快速上生产？”——这是许多 Vibe Coding 用户感受到最真实的体验断点。当 AI 把“代码生产”的时间压缩到秒级，而“结果落地”却卡在传统数据库近 10 分钟的初始化过程中，Vibe Coding 的丝滑体验就会在此刻断崖式下跌。\n火山云数据库 PostgreSQL  Serverless 版的接入，为这些问题提供了新的解决思路。 自上线以来，火山云数据库 PostgreSQL Serverless 版 对比传统数据库，将实例创建速度压缩至 10s，提速 40 倍，分支创",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "国产卡万亿参数模型发布背后，美团的 AI 人才决心",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110534&idx=1&sn=d4169f67c08eaadf763ff45fbaefc037",
+      "published_at": "2026-07-14T09:40:00.000Z",
+      "summary": "原创李苏 2026-07-14 17:40 北京\n\n但「和现有业务结合」并非美团做大模型的唯一出发点。\n\n**作者｜李苏** **编辑｜ **郑玄****\n\n「在 AI 领域，我们的策略是进攻，而不是防守。」美团 CEO 王兴在 2026 年 3 月的美团财报会议中说。\n\n紧接着，美团 LongCat 大模型团队接连发布了两个动作：\n\n6 月 30 日，美团正式发布最新自研大模型 **LongCat-2.0** ——业界首个在五万卡国产算力集群上完成的全流程训练与推理的万亿参数模型。\n\n7 月 6 日，万亿参数大模型 LongCat-2.0 正式开源，将模型能力与推理优化成果完整开放，盘活更多",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "印奇首次揭秘：阶跃为什么要造 AI 手机",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110532&idx=1&sn=ab59570ea0af7c03e0ad5bcdcda40c9b",
+      "published_at": "2026-07-14T08:27:00.000Z",
+      "summary": "Hardwire 2026-07-14 16:27 北京\n\n大模型公司，为大模型造手机。\n\n本文转载自 Hardwire，欢迎关注，共同看见硬件行业新风向 👇\n\n大模型公司，为大模型造手机。\n\n**作者｜张勇毅** **编辑｜ **郑玄****\n\n「干晚了，就不用干了。干早了，可能会白干。不干，以后就没得干。」\n\n7 月 13 日晚上，上海，这三行字出现在阶跃星辰旗下新品牌阶跃终端发布会的大屏幕上。\n\n这场发布会一口气抛出了四样东西：AI 终端品牌 STEPX、智能体原生操作系统 Step AOS、新一代个人智能体阶跃 Amoo，以及「全球首款大模型原生智能体手机」STEPX Neo。\n\n但",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "AI越会回答，人为什么越需要深度思考？复旦发布2026人文社科智能发展蓝皮书",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044179&idx=2&sn=41f75476ca9dadd16a7d0badf7c945f9",
+      "published_at": "2026-07-14T02:31:00.000Z",
+      "summary": "原创关注AI的 2026-07-14 10:31 北京\n\nAI 时代，人文社科如何回应真实世界？\n\n机器之心编辑部\n\n曾经我们对 AI 的期待还比较朴素，写邮件、翻译论文、聊天搭子……那时候，AI 像一个初出茅庐的实习生，你指哪它打哪，但也经常一本正经地胡说八道。\n\n近两年，AI 的发展可谓势如破竹。\n\n它不再满足于替人写两段话，而是开始接手整套工作：写代码、查资料、做分析、生成方案，还能自己拆解任务、调用工具、安排步骤、检查结果。\n\n随之而来的，还有不少令人啼笑皆非的变化。程序员开发出的 AI，开始接手一部分原本由程序员完成的工作；不少白领岗位也发现，AI 已经坐到了隔壁工位。\n\n学术界的情",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The founder of Hinge raised $18M to build a new AI dating service, Overtone",
+      "url": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
+      "published_at": "2026-07-14T19:39:39.000Z",
+      "summary": "Overtone describes itself as \"a voice- and audio-forward service, enabled by AI, that provides highly curated introductions.\"",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The real AI race may no longer be at the frontier",
+      "url": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
+      "published_at": "2026-07-14T14:24:53.000Z",
+      "summary": "Hugging Face CEO Clem Delangue says enterprises increasingly want open models, due to cost, accessibility, and ownership. Do frontier models still matter if most production AI ends up running on open models?",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
+      "url": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+      "published_at": "2026-07-14T11:43:29.000Z",
+      "summary": "Demis Hassabis, during a panel session at the World Economic Forum in Davos, Switzerland. | Image: Bloomberg via Getty Images\nDemis Hassabis thinks the world needs an AI watchdog with the power to hit the brakes if frontier models become too dangerous.\n\nWriting in a[blog post](https://www.linkedin.c",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "从 Coder 到 Designer ：电商团队数据研发的 Harness Engineering 实践",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247510241&idx=1&sn=04d54633f1d91d27be6580eda8b503b2",
+      "published_at": "2026-07-14T10:08:00.000Z",
+      "summary": "原创白林林 2026-07-14 18:08 浙江\n\n让 AI 像资深数研一样思考，且比人类更稳定、更可追溯、越用越准\n\n这是2026年的第 36 篇文章\n\n（ 本文阅读时间：约 20 分钟 ）\n\n# 01\n\n# 项目背景\n\n我们团队今年在 AI Data 方向共有两个命题，一个是「 数据研发效率提升 」，另一个是「 数据价值交付 」，在项目启动之初，我们面向集团内外都做了深刻的调研，公司内 AI Data 方向的建设主要是在单点提效 Agent、NL2SQL、ChatBI 数据分析这几个方向，而且大多都是在垂直领域取得了不错的效果，但是难以推广为通用方案进行应用。在这个过程中，我们发现两个共",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "鸿蒙为何选中一家世界模型「狂想者」？拆解极顶数创的AI 3D底牌",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044179&idx=1&sn=c48e11247664eac72f69339baa6a86ea",
+      "published_at": "2026-07-14T02:31:00.000Z",
+      "summary": "原创关注AI的 2026-07-14 10:31 北京\n\n3D生成进入「所见即所得」时代！\n\n编辑｜Youli\n\n在传统认知里，制作一个高质量 3D 模型，往往意味着复杂的软件流程、昂贵的硬件设备，以及经年累月积累的专业知识。对专业设计师而言，这是日常工作；可对普通用户而言，却是「看得见，做不了」的高门槛。\n\n但如今，这一传统叙事正在被重写。\n\n打开手机，拍摄或上传一张图片，AI 自动识别主体，几十秒内生成一个可以 360° 旋转查看、保存、导出，甚至用于 3D 打印的模型…… 3D 创作似乎变得像拍照一样简单。 这正是 极顶数创（Vertex Lab）旗下核心产品 V2Fun 在做的事。\n\n",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Lorde says AI glasses are “not sexy”",
+      "url": "https://techcrunch.com/2026/07/14/lorde-says-ai-glasses-are-not-sexy/",
+      "published_at": "2026-07-14T23:10:02.000Z",
+      "summary": "\"Increasingly in our world, it gets harder and harder to know what is real,\" Lorde said on stage.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google faces another AI training lawsuit from major publishers",
+      "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+      "published_at": "2026-07-14T18:33:31.000Z",
+      "summary": "Hachette, Cengage, Elsevier, and other publishers allege that Google trained its AI on copyrighted works without the necessary permissions.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Meta accused of using biased AI targeting for mass layoffs",
+      "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
+      "published_at": "2026-07-14T17:18:11.000Z",
+      "summary": "A group of 26 former Meta employees is suing the company over claims that it used AI tools to unfairly target workers on leave with layoffs, as[reported earlier by, Reuters](https://www.reuters.com/world/meta-used-ai-target-workers-with-medical-conditions-layoffs-former-employees-2026-07-14/). In[th",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta’s Adam Mosseri says AI token budgets could soon be capped per engineer",
+      "url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+      "published_at": "2026-07-14T16:22:15.000Z",
+      "summary": "Instagram head Adam Mosseri believes companies will eventually need to manage AI token spending the same way they manage payroll or other operating expenses, predicting that engineers could soon face limits on how much they spend using AI tools.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Celebrating 25 years of visual search innovation",
+      "url": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+      "published_at": "2026-07-14T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Images_25th_hero.max-600x600.format-webp.webp\">Google Images is turning 25. Here’s a look back at some major milestones — and new ways to explore and create visual content.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The Google Images homepage will recommend photos even before you search",
+      "url": "https://www.theverge.com/tech/965138/google-images-homepage-ai-overviews-search-nano-banana",
+      "published_at": "2026-07-14T16:00:00.000Z",
+      "summary": "Google is announcing a big change to the Google Images homepage in honor of the platform's 25th anniversary this week. Instead of a mostly blank page with a search bar, the homepage will soon show you a bunch of images that it thinks you might like before you even start searching.\n\nThe[company says]",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google Images gets a Pinterest-like redesign focused on discovery",
+      "url": "https://techcrunch.com/2026/07/14/google-images-gets-a-pinterest-like-redesign-focused-on-discovery/",
+      "published_at": "2026-07-14T16:00:00.000Z",
+      "summary": "Now, when users navigate to Google Images, they'll see a \"For You\" gallery of images tailored to their interests and browsing history.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "New York State halts construction of all new data centers",
+      "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
+      "published_at": "2026-07-14T15:17:59.000Z",
+      "summary": "New York has become the first state to temporarily halt approval of large data centers, as Gov. Kathy Hochul argues the AI-driven building boom shouldn’t come at the expense of higher electricity costs, water supplies, or local control.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Reflection inks $1B compute deal with Nebius",
+      "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
+      "published_at": "2026-07-14T14:37:48.000Z",
+      "summary": "Reflection AI has signed a $1 billion deal to access Nebius' compute. Reflection was founded in 2024 and is developing open source AI technology.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "New York becomes the first state to enact a data center moratorium",
+      "url": "https://www.theverge.com/policy/965110/new-york-ai-data-center-moratorium",
+      "published_at": "2026-07-14T09:00:00.000Z",
+      "summary": "New hyperscale data centers can't set up shop in New York for up to a year now that Governor Kathy Hochul (D) has signed the nation's first statewide moratorium. But a bill passed by the state legislature that could restrict even more developments still awaits her signature.\n\nThe order blocks new en",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "PsiQuantum has a plan to make a massive quantum computer out of light",
+      "url": "https://www.technologyreview.com/2026/07/14/1140356/psiquantum-plan-massive-quantum-computer-out-of-light/",
+      "published_at": "2026-07-14T08:00:00.000Z",
+      "summary": "The machine that could change the world will be housed in a room that looks like a data center crossed with an ice cream factory. Inside will be some 100 stainless-steel cabinets, each about six feet tall and connected to a supply of liquid helium that keeps them only a few degrees above absolute ze",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Already rich, already successful, why the last wave of tech winners is grinding again",
+      "url": "https://techcrunch.com/2026/07/13/already-rich-already-successful-why-the-last-wave-of-tech-winners-is-grinding-again/",
+      "published_at": "2026-07-14T02:46:42.000Z",
+      "summary": "They're rolling up their sleeves again, seemingly out of fear of missing AI's defining moment and, presumably, the irresistible allure of making even more money -- potentially a lot more.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be ‘everything for everyone’",
+      "url": "https://techcrunch.com/2026/07/13/ubers-product-chief-on-hotels-robotaxis-and-why-the-company-doesnt-want-to-be-everything-for-everyone/",
+      "published_at": "2026-07-14T00:45:00.000Z",
+      "summary": "Uber Chief Product Officer Sachin Kansal walks TechCrunch through the company's financial services ambitions, its increasingly complicated relationship with Waymo, its new AV Labs data operation, and how AI is starting to show up in ways riders and drivers will actually notice.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

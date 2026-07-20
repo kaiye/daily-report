@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-07-11",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "共同信号是 AI 竞争正从单纯模型跑分转向浏览器、CLI、编辑器和高速推理等可直接落地的开发者工作流。",
+  "items": [
+    {
+      "id": "2075686268113916023",
+      "author_name": "Cursor",
+      "author_handle": "cursor_ai",
+      "text": "Cursor 推出 side chats，让你在不中断主对话的情况下提问和探索，并可把持久化代理对话的上下文带回主线程。",
+      "url": "https://twitter.com/cursor_ai/status/2075686268113916023",
+      "view_count": 87163,
+      "like_count": 1776
+    },
+    {
+      "id": "2075439348267577790",
+      "author_name": "Theo - t3.gg",
+      "author_handle": "theo",
+      "text": "Theo 说自己一个月用 GPT-5.6-Sol 烧掉 20 多万美元 token，不先聊跑分，而是展示用它做出的东西，正式评测稍后再来。",
+      "url": "https://twitter.com/theo/status/2075439348267577790",
+      "view_count": 202261,
+      "like_count": 2439
+    },
+    {
+      "id": "2075635283211772279",
+      "author_name": "ClaudeDevs",
+      "author_handle": "ClaudeDevs",
+      "text": "Claude Code 桌面版加入内置浏览器，可打开文档、设计稿和网站并像操作本地开发服务一样阅读、点击和交互，同时支持沙盒与会话持久化配置。",
+      "url": "https://twitter.com/ClaudeDevs/status/2075635283211772279",
+      "view_count": 1004386,
+      "like_count": 12937
+    },
+    {
+      "id": "2075375851479420951",
+      "author_name": "Perplexity",
+      "author_handle": "perplexity_ai",
+      "text": "Perplexity 宣布 GPT-5.6 Terra 和 Sol 已上线 Perplexity 与 Perplexity Computer。",
+      "url": "https://twitter.com/perplexity_ai/status/2075375851479420951",
+      "view_count": 102284,
+      "like_count": 1082
+    },
+    {
+      "id": "2075384621202878547",
+      "author_name": "Command Code",
+      "author_handle": "CommandCodeAI",
+      "text": "Command Code 用同一提示词让 Fable 5、Grok 4.5 和 GPT 5.5 做同款游戏，认为 Grok 4.5 更像成熟手游，DX 与功能评分最高。",
+      "url": "https://twitter.com/CommandCodeAI/status/2075384621202878547",
+      "view_count": 756843,
+      "like_count": 3163
+    },
+    {
+      "id": "2075611819872223385",
+      "author_name": "Elon Musk",
+      "author_handle": "elonmusk",
+      "text": "马斯克称 Grok 正在把真实世界用例的闭环补起来。",
+      "url": "https://twitter.com/elonmusk/status/2075611819872223385",
+      "view_count": 1794946,
+      "like_count": 5516
+    },
+    {
+      "id": "2075592331349430581",
+      "author_name": "Tibo",
+      "author_handle": "thsottiaux",
+      "text": "Tibo 说产品可能正经历一轮代际级增长，开发者功能还有很多在路上；流量已接近历史峰值两倍，团队正全力保证稳定。",
+      "url": "https://twitter.com/thsottiaux/status/2075592331349430581",
+      "view_count": 313447,
+      "like_count": 3588
+    },
+    {
+      "id": "2075633193718341734",
+      "author_name": "Polymarket",
+      "author_handle": "Polymarket",
+      "text": "Polymarket 称 SpaceXAI 已让 Grok 4.5 可在 Grok Build CLI 和 Cursor 中免费试用。",
+      "url": "https://twitter.com/Polymarket/status/2075633193718341734",
+      "view_count": 113383,
+      "like_count": 1730
+    },
+    {
+      "id": "2075686651482017934",
+      "author_name": "International Cyber Digest",
+      "author_handle": "IntCyberDigest",
+      "text": "International Cyber Digest 报道称，一名韩国免费用户在零 API 使用下被 Anthropic 尝试收取 1660 万美元，事件也引出 AI 账单审计与 Claude Code 相关争议。",
+      "url": "https://twitter.com/IntCyberDigest/status/2075686651482017934",
+      "view_count": 308609,
+      "like_count": 2062
+    },
+    {
+      "id": "2075596669958472146",
+      "author_name": "Tibo",
+      "author_handle": "thsottiaux",
+      "text": "Tibo 澄清说，先前展示的并不是 Cerebras 上的 GPT-5.6 Sol，只是普通 fast 模式；真正 750+ TPS 又是另一回事。",
+      "url": "https://twitter.com/thsottiaux/status/2075596669958472146",
+      "view_count": 219905,
+      "like_count": 2047
+    }
+  ]
+}

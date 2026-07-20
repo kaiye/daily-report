@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-07-09",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "当天AI新闻的主线是大模型产品继续向实时语音、智能体和物理世界能力扩展，同时围绕推理效率、芯片与企业自建智能体的基础设施投入显著升温。",
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "ChatGPT升级语音模式以减少打断并改善实时对话",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+      "published_at": "2026-07-08T17:00:00.000Z",
+      "summary": "OpenAI推出新的GPT-Live-1模型，称其能更像人与人交谈，在用户停顿时等待继续发言，并减少不必要的插话。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceXAI发布Grok 4.5，马斯克称其为“Opus级模型”",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "published_at": "2026-07-08T19:30:16.000Z",
+      "summary": "这家公司在周三推出新版Grok，主打以更低成本和更高效率提供可与强大AI模型竞争的能力。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "贝索斯支持的初创公司称游戏数据可能是通往AGI的关键",
+      "url": "https://techcrunch.com/podcast/your-gaming-data-could-be-the-secret-to-agi-according-to-this-bezos-backed-startup/",
+      "published_at": "2026-07-08T13:00:00.000Z",
+      "summary": "该公司认为ChatGPT和Claude等大语言模型擅长文本但缺乏对时空中物体运动的理解，因此视频游戏数据可能更适合训练面向通用智能的系统。"
+    },
+    {
+      "source": "机器之心",
+      "title": "港科大提出COMA黑盒攻击框架，揭示提示词压缩可能成为大模型Agent漏洞",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043143&idx=3&sn=fae11a4bb5c730ba8d9b6a984c1a8c76",
+      "published_at": "2026-07-08T03:02:00.000Z",
+      "summary": "这项被ASE 2026接收的研究指出，AI Agent为降低成本和延迟而使用的提示词压缩模块，可能在真实部署中引入新的安全风险。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Prime Intellect完成1.3亿美元A轮融资，帮助企业构建自有AI智能体",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "published_at": "2026-07-08T16:22:38.000Z",
+      "summary": "这家成立于2024年的公司希望让组织无需依赖前沿AI实验室，也能训练自己的智能体系统。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "法国AI初创公司ZML发布免费产品以加速多种AI芯片上的推理",
+      "url": "https://techcrunch.com/2026/07/08/hot-french-startup-zml-releases-free-product-to-speed-inference-across-lots-of-ai-chips/",
+      "published_at": "2026-07-08T08:00:00.000Z",
+      "summary": "获得图灵奖得主Yann LeCun认可的ZML推出ZML/LLMD软件，目标是在不同芯片上降低运行AI的成本。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SambaNova以110亿美元估值融资10亿美元",
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "published_at": "2026-07-08T07:16:00.000Z",
+      "summary": "这家AI芯片制造商在上一轮巨额融资后仅数月再次获得资金，此前曾传出英特尔试图以约16亿美元收购它。"
+    },
+    {
+      "source": "新智元",
+      "title": "中国团队发布50帧实时交互世界模型MoWorld且未使用英伟达GPU",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711354&idx=2&sn=480b98997a82ed635e5de6e3aef31392",
+      "published_at": "2026-07-08T03:45:00.000Z",
+      "summary": "魔芯科技联合浙江大学潘云鹤院士团队发布基于国产NPU构建的实时交互世界模型，称其推理成本较同规模GPU方案降低70%。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google Photos新增AI“视频混剪”工具",
+      "url": "https://techcrunch.com/2026/07/08/google-photos-adds-a-new-ai-video-remix-tool/",
+      "published_at": "2026-07-08T18:30:08.000Z",
+      "summary": "该功能可对视频应用电影级补光、更换背景或添加艺术风格，让普通用户在相册产品内完成更多AI视频编辑操作。"
+    }
+  ]
+}

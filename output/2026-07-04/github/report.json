@@ -1,0 +1,112 @@
+{
+  "report_date": "2026-07-04",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是面向编码代理与智能软件开发流程的工具、技能框架和基础设施持续升温。",
+  "items": [
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "开源 AI 渗透测试工具，可发现并修复应用漏洞。",
+      "language": "Python",
+      "stars_today": 2803,
+      "stars_total": 34587
+    },
+    {
+      "repo": "openai/codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "description": "在 Claude Code 中使用 Codex 来审查代码或委派任务。",
+      "language": "JavaScript",
+      "stars_today": 634,
+      "stars_total": 23193
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 为什么用很多 token，少量 token 也能奏效——Claude Code 技能，通过像穴居人一样说话减少 65% 的 token。",
+      "language": "JavaScript",
+      "stars_today": 2863,
+      "stars_total": 82911
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "面向编码代理的 Chrome DevTools。",
+      "language": "TypeScript",
+      "stars_today": 405,
+      "stars_total": 45481
+    },
+    {
+      "repo": "facebook/astryx",
+      "url": "https://github.com/facebook/astryx",
+      "description": "完全可定制且已为代理准备好的开源设计系统。",
+      "language": "TypeScript",
+      "stars_today": 885,
+      "stars_total": 4600
+    },
+    {
+      "repo": "harvard-edge/cs249r_book",
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "description": "机器学习系统。",
+      "language": "Python",
+      "stars_today": 793,
+      "stars_total": 26151
+    },
+    {
+      "repo": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Python 中的张量和动态神经网络，具备强大的 GPU 加速。",
+      "language": "Python",
+      "stars_today": 293,
+      "stars_total": 101426
+    },
+    {
+      "repo": "safishamsi/graphify",
+      "url": "https://github.com/safishamsi/graphify",
+      "description": "AI 编码助手技能，可将代码文件夹、SQL 架构、R 脚本、Shell 脚本、文档、论文、图片或视频转为可查询的知识图谱，并把应用代码、数据库架构和基础设施纳入同一张图。",
+      "language": "Python",
+      "stars_today": 945,
+      "stars_total": 77103
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code 是运行在终端中的代理式编码工具，能理解代码库，并通过自然语言命令执行例行任务、解释复杂代码和处理 git 工作流来帮助你更快编码。",
+      "language": "Python",
+      "stars_today": 221,
+      "stars_total": 135829
+    },
+    {
+      "repo": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "运行在终端中的代理多路复用器。",
+      "language": "Rust",
+      "stars_today": 478,
+      "stars_total": 10766
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "可行的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1209,
+      "stars_total": 245515
+    },
+    {
+      "repo": "agentskills/agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "description": "Agent Skills 的规范与文档。",
+      "language": "Python",
+      "stars_today": 406,
+      "stars_total": 21983
+    },
+    {
+      "repo": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "description": "Postgres 开发平台，Supabase 为构建 Web、移动和 AI 应用提供专用 Postgres 数据库。",
+      "language": "TypeScript",
+      "stars_today": 169,
+      "stars_total": 105464
+    }
+  ]
+}

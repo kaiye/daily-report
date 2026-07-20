@@ -1,0 +1,199 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-07-11T00:02:35.109Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 19,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "language": "TypeScript",
+      "stars_total": 7268,
+      "forks": 926,
+      "stars_today": 328
+    },
+    {
+      "rank": 2,
+      "repo": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars_total": 94207,
+      "forks": 4939,
+      "stars_today": 209
+    },
+    {
+      "rank": 3,
+      "repo": "abseil/abseil-cpp",
+      "url": "https://github.com/abseil/abseil-cpp",
+      "description": "Abseil Common Libraries (C++)",
+      "language": "C++",
+      "stars_total": 17512,
+      "forks": 3194,
+      "stars_today": 89
+    },
+    {
+      "rank": 4,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars_total": 76807,
+      "forks": 8250,
+      "stars_today": 1116
+    },
+    {
+      "rank": 5,
+      "repo": "jbeder/yaml-cpp",
+      "url": "https://github.com/jbeder/yaml-cpp",
+      "description": "A YAML parser and emitter in C++",
+      "language": "C++",
+      "stars_total": 6078,
+      "forks": 2256,
+      "stars_today": 69
+    },
+    {
+      "rank": 6,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars_total": 164585,
+      "forks": 14162,
+      "stars_today": 1712
+    },
+    {
+      "rank": 7,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_total": 251764,
+      "forks": 22464,
+      "stars_today": 1013
+    },
+    {
+      "rank": 8,
+      "repo": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "TypeScript",
+      "stars_total": 109766,
+      "forks": 13632,
+      "stars_today": 177
+    },
+    {
+      "rank": 9,
+      "repo": "catchorg/Catch2",
+      "url": "https://github.com/catchorg/Catch2",
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "language": "C++",
+      "stars_total": 20609,
+      "forks": 3409,
+      "stars_today": 76
+    },
+    {
+      "rank": 10,
+      "repo": "chriskohlhoff/asio",
+      "url": "https://github.com/chriskohlhoff/asio",
+      "description": "Asio C++ Library",
+      "language": "C++",
+      "stars_total": 6068,
+      "forks": 1500,
+      "stars_today": 92
+    },
+    {
+      "rank": 11,
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+      "language": "TypeScript",
+      "stars_total": 8222,
+      "forks": 756,
+      "stars_today": 123
+    },
+    {
+      "rank": 12,
+      "repo": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars_total": 28756,
+      "forks": 3162,
+      "stars_today": 118
+    },
+    {
+      "rank": 13,
+      "repo": "zeux/meshoptimizer",
+      "url": "https://github.com/zeux/meshoptimizer",
+      "description": "Mesh optimization library that makes meshes smaller and faster to render",
+      "language": "C++",
+      "stars_total": 8021,
+      "forks": 783,
+      "stars_today": 91
+    },
+    {
+      "rank": 14,
+      "repo": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "stars_total": 33634,
+      "forks": 2912,
+      "stars_today": 143
+    },
+    {
+      "rank": 15,
+      "repo": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stars_total": 6735,
+      "forks": 929,
+      "stars_today": 117
+    },
+    {
+      "rank": 16,
+      "repo": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "language": "C#",
+      "stars_total": 14417,
+      "forks": 979,
+      "stars_today": 1224
+    },
+    {
+      "rank": 17,
+      "repo": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "stars_total": 49156,
+      "forks": 10673,
+      "stars_today": 172
+    },
+    {
+      "rank": 18,
+      "repo": "grpc/grpc",
+      "url": "https://github.com/grpc/grpc",
+      "description": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
+      "language": "C++",
+      "stars_total": 45132,
+      "forks": 11322,
+      "stars_today": 78
+    },
+    {
+      "rank": 19,
+      "repo": "vercel/next.js",
+      "url": "https://github.com/vercel/next.js",
+      "description": "The React Framework",
+      "language": "JavaScript",
+      "stars_total": 140696,
+      "forks": 31525,
+      "stars_today": 191
+    }
+  ]
+}

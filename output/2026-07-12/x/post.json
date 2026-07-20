@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-07-12T00:02:42.724Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-07-11",
+  "source_count": 19,
+  "time_filtered_count": 19,
+  "text_filtered_count": 18,
+  "item_count": 18,
+  "items": [
+    {
+      "id": "2075939622513729787",
+      "text": "this is the reason why Anthropic extended Fable 5 https://t.co/PkbMa87525",
+      "createdAt": "Sat Jul 11 13:45:49 +0000 2026",
+      "viewCount": 132622,
+      "likeCount": 1376,
+      "retweetCount": 56,
+      "author": {
+        "userName": "tibo_maker",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/tibo_maker/status/2075939622513729787",
+      "is_official": false
+    },
+    {
+      "id": "2076029330405412878",
+      "text": "Managing X when we reach AGI and have space datacenters https://t.co/a0KhaLFNst",
+      "createdAt": "Sat Jul 11 19:42:17 +0000 2026",
+      "viewCount": 180017,
+      "likeCount": 4319,
+      "retweetCount": 209,
+      "author": {
+        "userName": "nikitabier",
+        "name": "Nikita Bier",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/nikitabier/status/2076029330405412878",
+      "is_official": false
+    },
+    {
+      "id": "2075814989953114259",
+      "text": "Grok places second after Fable on real-world software engineering",
+      "createdAt": "Sat Jul 11 05:30:35 +0000 2026",
+      "viewCount": 1980059,
+      "likeCount": 7932,
+      "retweetCount": 1322,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2075814989953114259",
+      "is_official": false
+    },
+    {
+      "id": "2075775523188547899",
+      "text": "I told you, you can’t trust Sam Altman and OpenAI… today Apple sued them for trade secret theft. Accusing OpenAI of stealing unreleased product specs, supplier info, and more to build their own devices. Apple called OpenAI’s hardware “rotten to its core.” https://t.co/9BwP9Nt8iL",
+      "createdAt": "Sat Jul 11 02:53:45 +0000 2026",
+      "viewCount": 41252,
+      "likeCount": 1165,
+      "retweetCount": 162,
+      "author": {
+        "userName": "Teslaconomics",
+        "name": "Teslaconomics",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Teslaconomics/status/2075775523188547899",
+      "is_official": false
+    },
+    {
+      "id": "2075982283509571666",
+      "text": "Upon request, here's an updated version with Grok 4.5 and Meta's Muse Spark 1.1.\n\nGrok 4.5 seems to sit at the Pareto frontier. Good bang for the buck.\n\n(Also added harness info). https://t.co/TVbKDtzVbY",
+      "createdAt": "Sat Jul 11 16:35:20 +0000 2026",
+      "viewCount": 68858,
+      "likeCount": 1042,
+      "retweetCount": 70,
+      "author": {
+        "userName": "rasbt",
+        "name": "Sebastian Raschka",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/rasbt/status/2075982283509571666",
+      "is_official": false
+    },
+    {
+      "id": "2075950195523592419",
+      "text": "Also worth noting: Apple considers OpenAI’s hardware a real threat, combining some of the best engineers with the best AI. Suing OpenAI for trade secret theft could seriously slow down or even completely alter OpenAI’s ability to compete with Apple devices.",
+      "createdAt": "Sat Jul 11 14:27:50 +0000 2026",
+      "viewCount": 173183,
+      "likeCount": 1545,
+      "retweetCount": 76,
+      "author": {
+        "userName": "markgurman",
+        "name": "Mark Gurman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/markgurman/status/2075950195523592419",
+      "is_official": false
+    },
+    {
+      "id": "2075776733626892542",
+      "text": "gpt-5.6-sol is meaningfully better in Claude Code than in Codex\n\nI'm going to crash out so badly over this",
+      "createdAt": "Sat Jul 11 02:58:34 +0000 2026",
+      "viewCount": 415941,
+      "likeCount": 5260,
+      "retweetCount": 62,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2075776733626892542",
+      "is_official": false
+    },
+    {
+      "id": "2075731830477877612",
+      "text": "744B parameters. On a laptop. With 25GB RAM.\n\nColibri runs GLM-5.2 (744B MoE) in pure C with zero dependencies. The trick: only ~40B params activate per token, so it keeps the dense part resident and streams experts from disk on demand. A single 2,400-line C file. No GPU, no BLAS, no Python at runtime.\n\nThis shouldn't work. But it does.\n\n⭐ 2.1K #AI #OpenSource\n\nhttps://t.co/W8dnCQmNnL\n\nFollow for daily dev finds 🔔",
+      "createdAt": "Sat Jul 11 00:00:08 +0000 2026",
+      "viewCount": 223168,
+      "likeCount": 2730,
+      "retweetCount": 317,
+      "author": {
+        "userName": "chenzeling4",
+        "name": "Zane Chen",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/chenzeling4/status/2075731830477877612",
+      "is_official": false
+    },
+    {
+      "id": "2075961345351307739",
+      "text": "If you were using Codex before, two things to do\n\n1. Keep using Codex. It is for you\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\n\nand tell me how it goes",
+      "createdAt": "Sat Jul 11 15:12:08 +0000 2026",
+      "viewCount": 221298,
+      "likeCount": 3598,
+      "retweetCount": 103,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2075961345351307739",
+      "is_official": false
+    },
+    {
+      "id": "2075768231403667645",
+      "text": "I would like to thank OpenAI for putting out a model exactly good enough to force Anthropic to keep bundling Fable in the Claude Code plan",
+      "createdAt": "Sat Jul 11 02:24:46 +0000 2026",
+      "viewCount": 332280,
+      "likeCount": 14352,
+      "retweetCount": 372,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2075768231403667645",
+      "is_official": false
+    },
+    {
+      "id": "2075950897029374334",
+      "text": "This was one of those impressive AI thresholds for me. I gave GPT-5.6 Sol in Codex control over my computer, and asked it to win the daily challenge for the game Slay the Spire 2 (randomized factors, so can't cheat).\n\nIt worked for 5 hours, making complex game choices... and won. https://t.co/IVsMiyNYEk",
+      "createdAt": "Sat Jul 11 14:30:37 +0000 2026",
+      "viewCount": 85281,
+      "likeCount": 1266,
+      "retweetCount": 69,
+      "author": {
+        "userName": "emollick",
+        "name": "Ethan Mollick",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/emollick/status/2075950897029374334",
+      "is_official": false
+    },
+    {
+      "id": "2075739292052463646",
+      "text": "GPT-5.6 Sol and Luna are ahead of Terra at every point on the Intelligence vs Cost per Task chart. GPT-5.6 Luna stands out as a particularly cost efficient model\n\nCharting the Artificial Analysis Intelligence Index shows the trade-off between intelligence and Cost per Intelligence Index Task. Across reasoning efforts, each GPT-5.6 model pushes past GPT-5.5 on the Pareto frontier (excluding non-reasoning).\n\nHowever, Luna and Sol are always ahead of Terra. This means for any Terra effort level, there is a Luna or Sol effort level that is more intelligent at no extra cost, or as intelligent at lower cost.",
+      "createdAt": "Sat Jul 11 00:29:47 +0000 2026",
+      "viewCount": 440843,
+      "likeCount": 2638,
+      "retweetCount": 226,
+      "author": {
+        "userName": "ArtificialAnlys",
+        "name": "Artificial Analysis",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ArtificialAnlys/status/2075739292052463646",
+      "is_official": false
+    },
+    {
+      "id": "2075866297078857861",
+      "text": "This runs beautifully on GPT 5.6 Sol (High) btw.",
+      "createdAt": "Sat Jul 11 08:54:27 +0000 2026",
+      "viewCount": 112172,
+      "likeCount": 1262,
+      "retweetCount": 44,
+      "author": {
+        "userName": "shadcn",
+        "name": "shadcn",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/shadcn/status/2075866297078857861",
+      "is_official": false
+    },
+    {
+      "id": "2075945480463466519",
+      "text": "Opus 5 Leaks \n\n- Opus 5 is targeting a launch by the end of this month.\n- A \"Honeycomb EAP\" model  appeared in Cursor for some users before disappearing, and it could be an early Opus 5 preview.\n- Honeycomb EAP has a 1M context window, making - Opus 5 most likely (Haiku is expected to have 300K context).\n- Hopefully, Opus 5 reaches Fable/Mythos-level capabilities.",
+      "createdAt": "Sat Jul 11 14:09:06 +0000 2026",
+      "viewCount": 224050,
+      "likeCount": 1509,
+      "retweetCount": 86,
+      "author": {
+        "userName": "pankajkumar_dev",
+        "name": "Pankaj Kumar",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/pankajkumar_dev/status/2075945480463466519",
+      "is_official": false
+    },
+    {
+      "id": "2075794297631158373",
+      "text": "As usual, legacy media is misrepresenting the situation. \n\nI just asked Tesla &amp; SpaceX to try out Grok 4.5 to see if it solves their task, not use it no matter what!\n\nThey should continue to use other AI models if those models outperform Grok. https://t.co/MnwIm95SNP",
+      "createdAt": "Sat Jul 11 04:08:21 +0000 2026",
+      "viewCount": 2097144,
+      "likeCount": 31290,
+      "retweetCount": 3201,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2075794297631158373",
+      "is_official": false
+    },
+    {
+      "id": "2075962605462761953",
+      "text": "🚨SCOOP:\nMY Friend at Anthropic says things are VERY tense internally. Dario's running tough meetings — GPT-5.6 Sol is strong and Grok 4.5 is right on Opus's heels. Pulling Fable from subs on July 12 would trigger mass cancellations (why keep Max for Opus 4.8?), so they're now pushing to keep Fable 5 in subs permanently.",
+      "createdAt": "Sat Jul 11 15:17:09 +0000 2026",
+      "viewCount": 123711,
+      "likeCount": 1437,
+      "retweetCount": 52,
+      "author": {
+        "userName": "ggg78g89",
+        "name": "Ali Haider",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ggg78g89/status/2075962605462761953",
+      "is_official": true
+    },
+    {
+      "id": "2075999850038956502",
+      "text": "Prediction:\n\nAnthropic will remove Fable 5 from Claude subs after July 12th.\n\nIt will seem like a terrible move, in light of how great GPT-5.6 is…\n\nUntil Tuesday, July 14th.\n\nWhen they release Opus 5 and it’s more capable and token efficient than GPT-5.6 at the same price.\n\nIt will be a distillation of the unfiltered Mythos.\n\nRumors circulated last week that Anthropic has a new model ready.\n\nMust be Opus 5.",
+      "createdAt": "Sat Jul 11 17:45:09 +0000 2026",
+      "viewCount": 152405,
+      "likeCount": 1308,
+      "retweetCount": 37,
+      "author": {
+        "userName": "daniel_mac8",
+        "name": "Dan McAteer",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/daniel_mac8/status/2075999850038956502",
+      "is_official": false
+    },
+    {
+      "id": "2075750805580214477",
+      "text": "Grok Imagine makes beautiful art https://t.co/xGcop0pZWV",
+      "createdAt": "Sat Jul 11 01:15:32 +0000 2026",
+      "viewCount": 1399032,
+      "likeCount": 7839,
+      "retweetCount": 1655,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2075750805580214477",
+      "is_official": false
+    }
+  ]
+}

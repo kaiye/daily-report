@@ -1,0 +1,120 @@
+{
+  "report_date": "2026-07-06",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日热门项目集中在本地化 AI 助手、编码代理生态、Claude/Codex 技能扩展以及面向安全、网页和创作工具的智能体能力增强。",
+  "items": [
+    {
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "description": "隐私优先的 AI 会议助手，基于 Rust，提供快 4 倍的 Parakeet/Whisper 实时转录、说话人分离和 Ollama 总结，100% 本地处理且无需云端。",
+      "language": "Rust",
+      "stars_today": 1409,
+      "stars_total": 16911
+    },
+    {
+      "repo": "openai/codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "description": "在 Claude Code 中使用 Codex 来审查代码或委派任务。",
+      "language": "JavaScript",
+      "stars_today": 1532,
+      "stars_total": 25437
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "定期更新的系统提示词提取合集，涵盖 Anthropic、OpenAI、Google、xAI、Cursor、Copilot、VS Code、Perplexity 等。",
+      "language": "JavaScript",
+      "stars_today": 981,
+      "stars_total": 49914
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill 让你的 AI 更有品味，阻止 AI 生成乏味、套路化的内容。",
+      "language": "JavaScript",
+      "stars_today": 863,
+      "stars_total": 57439
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "description": "337 个 Claude Code 技能、代理技能和插件，适用于 Claude Code、Codex、Gemini CLI、Cursor 及更多编码代理，覆盖工程、营销、产品、合规、研究、商务与日常生产力。",
+      "language": "Python",
+      "stars_today": 392,
+      "stars_total": 20541
+    },
+    {
+      "repo": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "运行在终端里的代理多路复用器。",
+      "language": "Rust",
+      "stars_today": 651,
+      "stars_total": 12041
+    },
+    {
+      "repo": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "description": "页面内 JavaScript GUI 代理，可用自然语言控制网页界面。",
+      "language": "TypeScript",
+      "stars_today": 805,
+      "stars_total": 23843
+    },
+    {
+      "repo": "harvard-edge/cs249r_book",
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "description": "机器学习系统。",
+      "language": "Python",
+      "stars_today": 329,
+      "stars_total": 26829
+    },
+    {
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "开源 AI 渗透测试工具，用于发现并修复应用漏洞。",
+      "language": "Python",
+      "stars_today": 1114,
+      "stars_total": 37076
+    },
+    {
+      "repo": "hesreallyhim/awesome-claude-code",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "description": "精选 Claude Code 资源合集，展示顶级技能、双向代理、状态行、开发者工具和插件。",
+      "language": "Python",
+      "stars_today": 148,
+      "stars_total": 48347
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "description": "面向 Claude Code 和 AI 代理的营销技能，涵盖 CRO、文案、SEO、分析和增长工程。",
+      "language": "JavaScript",
+      "stars_today": 145,
+      "stars_total": 36411
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "少用 token 也能管用的 Claude Code 技能，通过像穴居人一样说话减少 65% token。",
+      "language": "JavaScript",
+      "stars_today": 1052,
+      "stars_total": 84842
+    },
+    {
+      "repo": "CoplayDev/unity-mcp",
+      "url": "https://github.com/CoplayDev/unity-mcp",
+      "description": "Unity MCP 充当 AI 助手与 Unity Editor 之间的桥梁，让 LLM 能管理资产、控制场景、编辑脚本并在 Unity 中自动化任务。",
+      "language": "C#",
+      "stars_today": 414,
+      "stars_total": 11910
+    },
+    {
+      "repo": "facebook/astryx",
+      "url": "https://github.com/facebook/astryx",
+      "description": "完全可定制且为代理就绪的开源设计系统。",
+      "language": "TypeScript",
+      "stars_today": 522,
+      "stars_total": 5870
+    }
+  ]
+}

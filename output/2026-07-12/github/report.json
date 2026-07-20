@@ -1,0 +1,48 @@
+{
+  "report_date": "2026-07-12",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日 AI 相关热门项目集中在 Claude 与编码代理生态，重点围绕 MCP 服务器、代理技能框架和实用工作流模板展开。",
+  "items": [
+    {
+      "repo": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "用于配置和监控 Claude Code 的 CLI 工具。",
+      "language": "Python",
+      "stars_today": 232,
+      "stars_total": 29010
+    },
+    {
+      "repo": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "为 Stitch MCP 服务器设计的 Agent Skills 库，每个技能遵循 Agent Skills 开放标准，兼容 Antigravity、Gemini CLI、Claude Code、Cursor 等编码代理。",
+      "language": "TypeScript",
+      "stars_today": 340,
+      "stars_total": 7050
+    },
+    {
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "这是面向 Claude 的 MCP 服务器，赋予它终端控制、文件系统搜索和差异文件编辑能力。",
+      "language": "TypeScript",
+      "stars_today": 909,
+      "stars_total": 7765
+    },
+    {
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "一组展示 Claude 有趣且有效用法的笔记本和配方。",
+      "language": "Jupyter Notebook",
+      "stars_today": 219,
+      "stars_total": 47917
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "可用的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 740,
+      "stars_total": 252432
+    }
+  ]
+}

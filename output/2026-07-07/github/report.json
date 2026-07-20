@@ -1,0 +1,120 @@
+{
+  "report_date": "2026-07-07",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是 AI 代理能力扩展，尤其集中在编码代理技能、工具调用、本地处理、多模态理解与检索基础设施。",
+  "items": [
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "从 Anthropic、OpenAI、Google、xAI、Cursor、Copilot、VS Code、Perplexity 等提取的系统提示词，定期更新。",
+      "language": "JavaScript",
+      "stars_today": 1378,
+      "stars_total": 51480
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "面向 AI 编码代理的生产级工程技能。",
+      "language": "Shell",
+      "stars_today": 1112,
+      "stars_total": 70770
+    },
+    {
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "description": "隐私优先的 AI 会议助手，基于 Rust 提供更快的 Parakeet/Whisper 实时转写、说话人分离和 Ollama 总结，100% 本地处理且无需云端。",
+      "language": "Rust",
+      "stars_today": 2494,
+      "stars_total": 19323
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView 将普通 WiFi 信号转化为实时空间智能、生命体征监测和存在检测，全程无需任何视频像素。",
+      "language": "Rust",
+      "stars_today": 470,
+      "stars_total": 77496
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill 让你的 AI 拥有好品味，阻止 AI 生成无聊、泛泛的垃圾内容。",
+      "language": "JavaScript",
+      "stars_today": 1458,
+      "stars_total": 58895
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "description": "345 个 Claude Code 技能、代理技能和插件，覆盖 Claude Code、Codex、Gemini CLI、Cursor 等编码代理的工程、营销、产品、合规、研究、业务运营、商业财务与日常生产力场景。",
+      "language": "Python",
+      "stars_today": 610,
+      "stars_total": 21134
+    },
+    {
+      "repo": "openai/codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "description": "在 Claude Code 中使用 Codex 来审查代码或委派任务。",
+      "language": "JavaScript",
+      "stars_today": 906,
+      "stars_total": 26263
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI 代理技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网页研究任意主题，并综合出有依据的摘要。",
+      "language": "Python",
+      "stars_today": 458,
+      "stars_total": 49723
+    },
+    {
+      "repo": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "驻留在终端中的代理多路复用器。",
+      "language": "Rust",
+      "stars_today": 779,
+      "stars_total": 12852
+    },
+    {
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "赋予 Claude 观看任意视频的能力，/watch 会下载视频、提取帧、转写内容并全部交给 Claude。",
+      "language": "Python",
+      "stars_today": 427,
+      "stars_total": 4207
+    },
+    {
+      "repo": "karakeep-app/karakeep",
+      "url": "https://github.com/karakeep-app/karakeep",
+      "description": "可自托管的“收藏一切”应用，支持链接、笔记和图片，并提供基于 AI 的自动标记与全文搜索。",
+      "language": "TypeScript",
+      "stars_today": 199,
+      "stars_total": 26877
+    },
+    {
+      "repo": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "用于大规模搜索、抓取并与网页交互的 API。",
+      "language": "TypeScript",
+      "stars_today": 867,
+      "stars_total": 146224
+    },
+    {
+      "repo": "steipete/CodexBar",
+      "url": "https://github.com/steipete/CodexBar",
+      "description": "无需登录即可显示 OpenAI Codex 和 Claude Code 的使用统计。",
+      "language": "Swift",
+      "stars_today": 598,
+      "stars_total": 16722
+    },
+    {
+      "repo": "alibaba/zvec",
+      "url": "https://github.com/alibaba/zvec",
+      "description": "轻量、极速的进程内向量数据库。",
+      "language": "C++",
+      "stars_today": 382,
+      "stars_total": 13492
+    }
+  ]
+}

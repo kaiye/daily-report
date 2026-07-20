@@ -1,0 +1,612 @@
+{
+  "generated_at": "2026-07-10T00:01:49.864Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 46,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "OpenAI 发布新语音模型 GPT-Live；粉笔张小龙辞任董事长、CEO；《恋与深空》致歉并宣布退出 BW 展会 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110045&idx=1&sn=82b3c445871262b4442fbb930f2445d0",
+      "published_at": "2026-07-09T01:12:00.000Z",
+      "summary": "周永亮 2026-07-09 09:12 北京\n\n蓝色起源拟融资 100 亿美元； SpaceXAI 首个编程智能体模型 Grok 4.5 发布；全新奔驰纯电 GLC SUV 车型上市，29.99 万元起\n\n## OpenAI 发布新语音模型 GPT-Live\n\n美东时间 8 日周三，OpenAI 发布全新的语音模型GPT-Live，同步升级 ChatGPT 语音模式（ChatGPT Voice）。新模型采用原生实时架构，可实现人类与 AI 之间更加自然的双向语音交流，不仅支持打断、停顿理解、实时翻译、听写等能力，还能够在后台无缝调用 GPT-5.5 等模型完成复杂推理和联网搜索，将语音打造为",
+      "priority_score": 552,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT",
+        "xAI",
+        "Grok"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "马斯克Grok重回牌桌！新模型性能追平Opus更快还更省，Token直接砍到1/4",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902587&idx=2&sn=dc693a13d100be03f898da9508008059",
+      "published_at": "2026-07-09T04:17:00.000Z",
+      "summary": "关注前沿科技 2026-07-09 12:17 北京\n\n对标Opus4.7，剑指Fable 5\n\n##### henry 发自 凹非寺 量子位 | 公众号 QbitAI\n\n马斯克说到做到！\n\n在2026接下来的每个月，xAI都会发一款新模型，这第一弹，已经来了！\n\n刚刚，SpaceXAI发布了与Cursor联合训练的全新旗舰模型 **Grok 4.5** ，性能对标Claude旗舰Opus系列，主打 **更快、更省Token、成本更低** 。\n\nGrok 4.5是一款1.5T参数的MoE模型，参数规模较前代Grok 4.3提升至3倍，支持最高50万上下文（可配置），重点面向编程、Agent和知",
+      "priority_score": 450,
+      "matched_keywords": [
+        "Claude",
+        "xAI",
+        "Grok",
+        "Cursor"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The ChatGPT browser is already dead",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset",
+      "published_at": "2026-07-09T20:34:05.000Z",
+      "summary": "OpenAI is already shutting down ChatGPT Atlas, its browser that could do tasks for you on your behalf, less than a year after launching it. Atlas was announced[in October](https://www.theverge.com/ai-artificial-intelligence/803475/openais-ai-powered-browser-chatgpt-atlas-google-chrome-competition-ag",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+      "published_at": "2026-07-09T17:00:00.000Z",
+      "summary": "About two weeks after OpenAI's GPT-5.6 was caught up in[regulatory drama](https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview)- rolled out only to government-approved organizations during a \"limited preview\" period - the company has received the ",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "New York Times says OpenAI hid evidence in ChatGPT copyright trial",
+      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "published_at": "2026-07-09T19:05:58.000Z",
+      "summary": "News publishers say OpenAI hid tools and datasets that could identify copyrighted journalism in ChatGPT outputs, escalating their lawsuit with a new motion for sanctions.",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI launches its new family of models with GPT-5.6",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "published_at": "2026-07-09T22:24:24.000Z",
+      "summary": "OpenAI's latest family of models promises improvements across a range of areas, including cybersecurity.",
+      "priority_score": 250,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "How did the government decide OpenAI’s frontier model was safe to release?",
+      "url": "https://techcrunch.com/2026/07/09/how-did-the-government-decide-openais-frontier-model-was-safe-to-release/",
+      "published_at": "2026-07-09T18:22:39.000Z",
+      "summary": "\"Exactly what that dialog looked like between the government and Anthropic and OpenAI is unclear.\"",
+      "priority_score": 250,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "现代AI之父新作：13个大模型实测，检索agent真的可信吗？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711965&idx=3&sn=1161ef369875162fe980ce2f3c441636",
+      "published_at": "2026-07-09T04:43:00.000Z",
+      "summary": "新智元 2026-07-09 12:43 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 13个大模型在上网搜索时是否容易被虚假内容误导？结果显示，模型安全性差异显著，Claude表现最佳，但仍有沉默漂移和误拒风险；GPT在新场景中极易被攻击。这对依赖AI搜索的用户安全至关重要，提醒我们需全面评估模型及其防御机制。**\n\n2026年的央视3·15晚会上，一条名为「GEO」的灰色产业链被摆到了台前：记者虚构了一款根本不存在的智能手环，业内人士借助一款软件批量生成十余篇软文、一键发布，仅仅两个小时后，某款主流AI大模型就照搬这些虚假内容，把这款捏造的产品当成「标准答案」推荐给",
+      "priority_score": 250,
+      "matched_keywords": [
+        "Claude",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s new Claude feature is quietly selling you on AI",
+      "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
+      "published_at": "2026-07-09T14:53:09.000Z",
+      "summary": "Claude’s new Reflect dashboard doesn’t just visualize how you use AI. It also subtly reinforces how much of your daily work now depends on Anthropic’s chatbot.",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Say hello to Claude Wrapped",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963105/anthropic-claude-wrapped-reflection-ai-usage",
+      "published_at": "2026-07-09T13:30:00.000Z",
+      "summary": "The popularity of Spotify Wrapped has kicked off a wide range of year-in-review features, on apps from YouTube to Uber - and now, the lookback trend has come to AI. Anthropic on Thursday announced a \"reflect\" feature for its Claude chatbot, allowing users to see an analysis of their usage data over ",
+      "priority_score": 228,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "原力灵机发布具身 MaaS、OS，破解模型规模化进入场景",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110141&idx=1&sn=24dac72d9e86d5d4d9f1b525723a9f02",
+      "published_at": "2026-07-09T11:44:00.000Z",
+      "summary": "原创Li Yuan 2026-07-09 19:44 北京\n\n​具身智能还没到 ChatGPT 时刻，原力灵机想先把它变得能用。\n\n具身智能还没到 ChatGPT 时刻，原力灵机想先把它变得能用。\n\n**作者｜Li Yuan** **编辑｜ **郑玄****\n\n具身智能的未来，会是一个超级本体、一个超级模型笼罩一切，还是很多本体、很多模型、很多开发者、很多场景一起长出来？\n\n现实似乎在逐渐靠近后者——无数本体和模型正在世界各处寻找不同的落地场景，而每个场景，都需要不少自己的场景数据和知识。\n\n可真往这个方向走，眼下具身智能行业显然还不没有准备好：今天的模型往往和本体绑在一起训练，换一具身体，迁",
+      "priority_score": 228,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Anthropic found a hidden space where Claude puzzles over concepts",
+      "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+      "published_at": "2026-07-09T20:22:28.000Z",
+      "summary": "The AI firm Anthropic has developed a technique that has given it the clearest glimpse yet at what’s really going on inside large language models as they answer questions or carry out tasks. What they found ranges from the mundane to the unnerving.\n\nResearchers at the company built a tool called the",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Fidji Simo steps down from OpenAI’s no. 2 role",
+      "url": "https://techcrunch.com/2026/07/09/fidji-simo-steps-down-from-openais-no-2-role/",
+      "published_at": "2026-07-09T23:38:00.000Z",
+      "summary": "OpenAI's No. 2 executive, Fidji Simo, is stepping down from her full-time role after her medical leave proved longer than expected — a leadership vacuum that comes at a tricky time as the company eyes a possible IPO and races to catch Anthropic in the enterprise market.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Fidji Simo steps down from leading OpenAI’s AGI work due to illness",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor",
+      "published_at": "2026-07-09T23:24:04.000Z",
+      "summary": "OpenAI's Fidji Simo is departing her full-time role as the company's AGI chief and is transitioning to being a \"part-time advisor,\"[she said on X](https://x.com/fidjissimo/status/2075353170927304861).\n\nThe news follows Simo's original announcement[in April](https://www.theverge.com/ai-artificial-int",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic, OpenAI, and SpaceX are bigger than the last 25 years of tech exits",
+      "url": "https://techcrunch.com/2026/07/09/anthropic-openai-and-spacex-are-bigger-than-the-last-25-years-of-tech-exits/",
+      "published_at": "2026-07-09T14:51:00.000Z",
+      "summary": "Three big AI IPOs are set to generate more value than all the U.S. VC-backed exits since 2000.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "Transformer能通向AGI吗？布林：能，但它已经变了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043310&idx=2&sn=73a45152feabc4b9830747112268d132",
+      "published_at": "2026-07-09T04:40:00.000Z",
+      "summary": "机器之心 2026-07-09 12:40 北京\n\n谢尔盖·布林亲口承认：谷歌落后了。\n\n编辑｜杨文\n\n谢尔盖・布林很少公开发言。\n\n6 月初，Google DeepMind Build Day 活动期间，他坐下来，接受了一场完全没有脚本的现场问答，主题是「前沿 AI」。\n\n提问者轮番上阵，布林借此聊到了 AI 在科学计算中的融合趋势、超级智能的边界、Transformer 的极限，以及 Gemini 在编程赛道上的得与失。\n\n整场对话，布林表现得格外诚实和谦虚。\n\n他坦率承认，即便是亲手打造 Gemini 的人，也依然在摸索这些模型到底有多强、边界在哪里、该怎么用。这种不确定性，贯穿了整场对",
+      "priority_score": 200,
+      "matched_keywords": [
+        "DeepMind",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI is shutting down Atlas, but its AI browser ambitions are still growing",
+      "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+      "published_at": "2026-07-09T22:03:54.000Z",
+      "summary": "OpenAI is sunsetting its AI-powered browser after less than a year. But it's moving some agentic browsing features to its desktop app and a Chrome extension.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "An AI agent startup just let its agent run its $100M fundraise",
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "published_at": "2026-07-09T22:08:58.000Z",
+      "summary": "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Elon Musk praises Mythos/Fable, promises not to ‘cut off’ Anthropic",
+      "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
+      "published_at": "2026-07-09T21:57:42.000Z",
+      "summary": "Should Anthropic trust Elon Musk to host its models? With about $40 billion in revenue at stake, Musk insists that the company can.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Popular open source AI developer tool Ollama raises $65M, grows to nearly 9M users",
+      "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+      "published_at": "2026-07-09T13:00:00.000Z",
+      "summary": "Benchmark-backed Ollama has amassed 176,000 stars, and nearly 17,000 forks on GitHub by helping developers easily run AI on their PCs.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "Llama"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "AI 时代的编程语言，这次是来自中国的底层创新",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043310&idx=1&sn=05a1ee9e200a7b25273e56fb1372b5f2",
+      "published_at": "2026-07-09T04:40:00.000Z",
+      "summary": "机器之心 2026-07-09 12:40 北京\n\n这次的底层技术创新来自中国\n\n机器之心发布\n\nAI 对软件行业最直接的影响，是重塑整个软件工程链路。当所有开发工具都在走向 AI 原生化，编程语言作为软件生产的入口，自然也值得重新审视。\n\nOpenAI 联合创始人 Greg Brockman 也曾写道：“Rust 是代理的完美语言，因为如果它能编译通过，它就几乎是正确的”。\n\n近期知名高性能开源项目 Bun 将核心代码大规模重写为 Rust ，则给出了一个更具体的产业信号：当 AI 降低迁移成本之后，软件基础设施正在重新向更强约束、更高性能、更易被机器检查的语言迁移。但 Rust 毕竟诞生于",
+      "priority_score": 128,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "大三本科生一作，交出7.92倍加速的投机解码新答卷！DeepSeek和阶跃星辰双双引用",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902587&idx=3&sn=879066ecce663ab9daba5d73fe2dc27b",
+      "published_at": "2026-07-09T04:17:00.000Z",
+      "summary": "关注前沿科技 2026-07-09 12:17 北京\n\n并行draft的速度优势已经很明显，下一步要补上的，是block内部的因果一致性。\n\n##### Domino团队 投稿 量子位 | 公众号 QbitAI\n\nDeepSeek的投机解码框架DSpark，让“如何把大模型推理做得更快”再次成为热点。\n\n论文中仍有不少细节可挖。比如，作者提到了约一个月前来自上海交通大学等机构的工作 **Domino** ，并指出其CausalEncoder的设计与DSpark的理念相似。此外，Domino算法也在阶跃星辰发布的JetSpec中被提及。\n\n而这篇论文的第一作者 **黄佳诺** ，目前还是一名 *",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Character.AI wants a piece of the microdrama pie",
+      "url": "https://www.theverge.com/entertainment/962897/character-ai-series-microdrama-vertical-video",
+      "published_at": "2026-07-09T13:11:53.000Z",
+      "summary": "Character.AI's plan to become more than just[an LLM-powered chatbot platform](https://www.theverge.com/ai-artificial-intelligence/951461/character-ai-is-adding-new-tools-for-chatbot-creators)is going beyond[interactive books](https://www.theverge.com/ai-artificial-intelligence/912997/character-ai-bo",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "Mythos 对企业安全架构影响的思考",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520712&idx=1&sn=9797b24f86ed53691b75dd9968918496",
+      "published_at": "2026-07-09T09:32:00.000Z",
+      "summary": "原创火山引擎 AI 安全 2026-07-09 17:32 北京\n\n**核心观点：**\n\n**运营和处置要更快** - Claude Mythos 第一次将 “自主发现并武器化漏洞”的能力，提升到超越人类顶尖专家的水平，将漏洞 **\"从公开披露到被规模化利用\"** 的窗口，从数月/数天压缩到数分钟，倒逼安全从 **\"人类节奏\"切换到\"机器速度\"** 。\n\n**安全边界需要更牢** - 更便捷的 AI 攻击手段，并未改变安全防护体系的本质，更好地构建信任边界，包括网络的物理边界、身份的信任边界、以及智能体应用可能带来的意图和行为治理，都是“零信任”理念下的不同实践。\n\n**考虑架构的“韧性”**",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Meta says its new AI model is ready to compete on coding",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963193/meta-muse-spark-model-api",
+      "published_at": "2026-07-09T14:00:00.000Z",
+      "summary": "After reentering the AI race with its[first in-house Muse Spark model](https://www.theverge.com/tech/908769/meta-muse-spark-ai-model-launch-rollout)in April, Meta is now opening up the doors to developers with a new model that can plug into AI coding software with the new Meta Model API.\n\nMeta says ",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "阿里云发布 AgentTeams 与 AgentLoop",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247510000&idx=2&sn=5f98b8388f28b455b3d1e1d208c96803",
+      "published_at": "2026-07-09T10:08:00.000Z",
+      "summary": "阿里技术 2026-07-09 18:08 浙江\n\n针对企业智能体规模化落地两大难题\n\n**近日，阿里云正式发布两款面向企业 AI 落地的核心产品—— 多智能体协作治理平台 AgentTeams 与智能体观测优化平台 AgentLoop。** 两款产品分别解决企业在大规模部署 AI 智能体时面临的两大难题，即如何让多个智能体有序配合完成复杂任务，以及如何让智能体在实际运行中越用越好。目前， 两款产品已全面开启公测。\n\n当企业开始用 AI 智能体替代重复性工作时，最先遇到的问题往往不是 AI 够不够聪明，而是多个 AI 之间怎么配合。一个复杂业务流程需要多个 Agent 各司其职 ： 有的负责理",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "全球首个小时级世界模型来了！中国造，已开源",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711965&idx=1&sn=fc50af04d4f723844a7e6a73ffabe53d",
+      "published_at": "2026-07-09T04:43:00.000Z",
+      "summary": "ASI启示录 2026-07-09 12:43 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 一个永不结束的AI世界正式开服。720p/60fps满血输出，内置双Agent让场景彻底「活」了，人人皆可当造物主。**\n\n这个夏天，一部叫《后室》的电影，成了现象级爆款。\n\n没有超级英雄、没有大场面，甚至几乎不靠台词推进。全片仅靠一个空间撑起：\n\n霉旧的地毯、嘶嘶作响的日光灯、令人窒息的黄色墙纸，构成了一条看不见尽头的长廊。\n\n然而，就在《后室》席卷全球院线的同一时刻，另一群人做成了一件更疯狂的事——\n\n他们用AI实时「生成」了这个走不到头的黄色房间，还让你能亲自走进去。\n\n",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft’s patch Tuesdays are about to get bigger",
+      "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+      "published_at": "2026-07-09T17:00:00.000Z",
+      "summary": "Windows 11 updates could soon include fixes for more security issues at once. Microsoft said in[a blog post](https://blogs.windows.com/windowsexperience/?p=180398)on Thursday that it's now using AI to \"identify potential issues earlier,\" which means \"customers will see a higher volume of security up",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nandan Nilekani leaves GP role at Fundamentum as it launches $200M third fund",
+      "url": "https://techcrunch.com/2026/07/09/nandan-nilekani-leaves-gp-role-at-his-vc-firm-as-it-launches-third-200m-fund/",
+      "published_at": "2026-07-09T12:00:00.000Z",
+      "summary": "Nilekani remains Fundamentum's anchor investor as the firm expands its leadership team and targets AI and fintech startups in India.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "刚刚，全球首个具身专属的MoE视频模型，开源了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902587&idx=1&sn=eeb66b375d0e1bf534adcb789ffd5ace",
+      "published_at": "2026-07-09T04:17:00.000Z",
+      "summary": "原创关注前沿科技 2026-07-09 12:17 北京\n\n视频生成的下一站，或是机器人大脑\n\n##### 金磊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n终于，专属 **具身智能** 的视频模型来了！\n\n话不多说，直接来看生成的效果：\n\n这就是 **蚂蚁灵波** 刚刚正式 **开源** 的 **LingBot-Video** ——\n\n**全球首个** 面向具身智能的大规模 **MoE** 视频基础模型、视频物理引擎。\n\n或许有小伙伴要问了，像刚才视频里的机器人切西红柿、吸床单和收纳口红，目前很多视频生成的AI不也能搞出来吗？\n\n确实。\n\n但既然说了LingBot-Video是具身版的",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Paris-based AI voice startup Gradium raises $100M seed, backed by Nvidia",
+      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+      "published_at": "2026-07-09T18:34:35.000Z",
+      "summary": "The company is using the cash to open an office in the Bay Area and compete for talent there, \"strengthening its position at the heart of the world's leading AI ecosystem.\"",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta enters the crowded AI coding battle with Muse Spark 1.1",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "published_at": "2026-07-09T19:40:45.000Z",
+      "summary": "Meta's pitch to users is Spark's ability to handle large agentic workloads, fix bugs, and help with large code migrations — the kind of automation that enterprises are increasingly turning to AI companies to provide.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta’s new AI chips will begin production in September",
+      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+      "published_at": "2026-07-09T17:17:37.000Z",
+      "summary": "The company is taking a modular approach to designing these chips, anticipating that their needs will change as AI evolves rapidly by the time the chips are in production.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: a nuclear landmark, and China eyes Nvidia chips",
+      "url": "https://www.technologyreview.com/2026/07/09/1140283/the-download-nuclear-power-milestone-nvidia-china-ai-chips/",
+      "published_at": "2026-07-09T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Four nuclear reactors",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "Cloud Use：当 Agent 开始真正使用云",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247510000&idx=1&sn=f055ab32a27f479101b8c0f65c79dde9",
+      "published_at": "2026-07-09T10:08:00.000Z",
+      "summary": "原创泮圣伟 2026-07-09 18:08 浙江\n\n关于 Cloud Use 和普通 Tool Use 的差别，本文或许能提供一些实践样本和思考\n\n这是2026年的第 33 篇文章\n\n（ 本文阅读时间：约25分钟 ）\n\n# 前言\nQoder Cloud Agents 工程实践系列：如果 Agent 的边界是工具调用，那么 Cloud Use 的边界则是云原生执行。前者让 AI 帮人操作软件，后者让 Agent 成为云上的新型工作负载。读完这篇文章，我们会看到 Cloud Use 和普通 Tool Use 的差别其实不在「能不能调 API」，在于 Agent 是否能以受治理的身份、凭证、环境、",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "拿葡萄牙语喂AI，半夜C罗竟用「方言」喊我看球，太魔幻了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652711965&idx=2&sn=eee2bfab24552f9b9a01b8a9d3507670",
+      "published_at": "2026-07-09T04:43:00.000Z",
+      "summary": "ASI启示录 2026-07-09 12:43 北京\n\n### **新智元报道**\n\n##### **【新智元导读】与其说摩尔线程创造了一个新物种 AICUBE，不如说它将 AIPC、NAS 与 Agent 能力深度熔炼，进而锻造出的全新形态。**\n\n凌晨四点，手机屏幕亮了——微信弹出一条消息，居然是某足球 GOAT 的 **中文信息** ：「起床了，世界杯八强战今夜打响，别错过！」\n\n我揉着眼睛看向客厅电视柜上那个铝合金小立方，它正安静地闪着柔白灯带。\n\n这不是愚人节玩笑，是我亲手把「GOAT」的数字分身训练进了 **摩尔线程 AICUBE** ，然后它真的会说「闽南口音」的中文，因为我训练",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Can AI answer the $3 trillion question?",
+      "url": "https://techcrunch.com/2026/07/09/can-ai-answer-the-3-trillion-question/",
+      "published_at": "2026-07-09T21:47:50.000Z",
+      "summary": "The AI ROI debate has returned and the numbers are even bigger, as are, perhaps, the consequences.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google will now tell you if an ad was made with AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+      "published_at": "2026-07-09T20:11:38.000Z",
+      "summary": "You can see if ads on Google Search, Google Discover, and YouTube were[made or edited using AI](https://blog.google/products/ads-commerce/google-ads-ai-transparency-labels/)from a new section in Google's \"My Ad Center,\" as reported earlier by[TechCrunch](https://techcrunch.com/2026/07/09/google-will",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google will now disclose which ads are made with AI",
+      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+      "published_at": "2026-07-09T18:40:51.000Z",
+      "summary": "While Google prohibits misleading and deceptive ads, an ad can still leverage AI to create some type of synthetic or digitally altered content. Until now, that's something Google only required election ads to disclose.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Instagram users: Here’s how to stop Meta’s AI from using your photos",
+      "url": "https://techcrunch.com/2026/07/09/how-to-stop-metas-ai-image-generator-from-using-your-instagram-photos/",
+      "published_at": "2026-07-09T17:56:47.000Z",
+      "summary": "Muse Image allows users to generate AI images using photos from public Instagram accounts. As long as a person's profile is public, another user can tag that account and use their images as part of an AI-generated creation.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia is a victim of the compute marketplace it created",
+      "url": "https://techcrunch.com/2026/07/09/nvidia-is-a-victim-of-the-compute-marketplace-it-created/",
+      "published_at": "2026-07-09T17:06:11.000Z",
+      "summary": "Having proven how valuable compute can be, the company finds itself at the center of a market everyone wants to be in — while simpler technologies and less interesting companies get rich on the sidelines.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "FL Studio 2026 turns its AI chatbot into your assistant engineer",
+      "url": "https://www.theverge.com/tech/963052/fl-studio-2026-music-daw-ai-chatbot",
+      "published_at": "2026-07-09T13:00:00.000Z",
+      "summary": "Gopher can’t play the piano for you, but it can bury it in the mix. | Image: Image Line\nLast year, Image Line introduced[Gopher](https://gopher-fls.image-line.com/)for[FL Studio](https://www.theverge.com/entertainment/846562/fl-studio-web-daw), an AI chatbot that was basically a glorified instructio",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Character.AI enters the microdrama arena with its own productions, but there’s a twist",
+      "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
+      "published_at": "2026-07-09T13:00:00.000Z",
+      "summary": "In an interesting twist that takes advantage of the company's core product, users can chat with these shows' characters, ask them questions, and even roleplay different storylines.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Four nuclear reactors hit a big milestone in the US",
+      "url": "https://www.technologyreview.com/2026/07/09/1140235/nuclear-reactor-milestone-criticality/",
+      "published_at": "2026-07-09T08:00:00.000Z",
+      "summary": "I was really looking forward to July 4, and not just because I love a poolside barbecue. This year the American holiday also marked a big symbolic deadline for US nuclear power.\n\nLast year the Trump administration set a goal to see three new microreactors achieve criticality, a technical milestone e",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "不登顶，只刷新：大疆珠峰十七年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110058&idx=1&sn=0f0057efda9f58a65fbff62183edbaa9",
+      "published_at": "2026-07-09T04:29:00.000Z",
+      "summary": "原创张勇毅 2026-07-09 12:29 北京\n\n不为登顶珠峰，为把技术做成普惠工具。\n\n**作者｜张勇毅** **编辑｜郑玄**\n\n在珠峰南坡的昆布冰川，有一条被夏尔巴人称为「死亡陷阱」的路。往年，他们要给登山队送补给、清运垃圾，就得背着几十公斤的重物，在随时可能崩塌的冰裂缝之间往返七八个小时，一趟又一趟，用命去趟。\n\n今年，这条路上出现了新帮手——大疆的运载无人机 FC100。原本要人工冒险攀爬七八个小时的一趟，现在它飞 8 分钟就能完成。\n\n这不是从零开始的。2024 年，大疆的运载机 FC30 第一次在南坡做高海拔运输测试，把 15 公斤的氧气瓶从大本营送到 C1 营地，返程再把垃",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247902587&idx=4&sn=65710dca70e2dbb5bea64a1e08db57bb",
+      "published_at": "2026-07-09T04:17:00.000Z",
+      "summary": "关注前沿科技 2026-07-09 12:17 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

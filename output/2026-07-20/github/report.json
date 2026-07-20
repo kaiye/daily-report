@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-07-20",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "最热的共同方向是围绕 AI 代理与大模型工作流的本地化、推理优化、语音交互和数据分析基础设施正在快速升温。",
+  "items": [
+    {
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "面向 MCP 和 CLI 的本地优先代码智能图谱，构建代码库的持久化映射，让 AI 编码工具只读取真正重要的内容，并在评审与大型仓库工作流中实现经基准验证的上下文缩减。",
+      "language": "Python",
+      "stars_today": 663,
+      "stars_total": 21327
+    },
+    {
+      "repo": "kvcache-ai/ktransformers",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "description": "用于体验异构 LLM 推理与微调优化的灵活框架。",
+      "language": "Python",
+      "stars_today": 360,
+      "stars_total": 18401
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "学习它，构建它，把它交付给别人。",
+      "language": "Python",
+      "stars_today": 501,
+      "stars_total": 39717
+    },
+    {
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "开源 AI 语音工作室，可用于克隆、口述与创作。",
+      "language": "TypeScript",
+      "stars_today": 610,
+      "stars_total": 43403
+    },
+    {
+      "repo": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "description": "面向 AI 编码代理的首选 Web 层——基于 MCP 的本地优先搜索、抓取、爬取与研究，无需 API Key、无需云端、每次查询 0 美元，现已公开测试。",
+      "language": "TypeScript",
+      "stars_today": 595,
+      "stars_total": 1881
+    },
+    {
+      "repo": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "PostHog 是构建自驾驶产品的领先平台，我们的开发者工具——AI 可观测性、分析、会话回放、标志、实验、错误追踪、日志等——捕获代理诊断问题、发现机会和交付修复所需的全部上下文。",
+      "language": "Python",
+      "stars_today": 411,
+      "stars_total": 36951
+    },
+    {
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "编码代理测试框架。",
+      "language": "Rust",
+      "stars_today": 235,
+      "stars_total": 8937
+    },
+    {
+      "repo": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "Kimi Code CLI 是你的下一代 CLI 代理。",
+      "language": "Python",
+      "stars_today": 410,
+      "stars_total": 9908
+    },
+    {
+      "repo": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 可在单张 4GB GPU 上运行 70B 推理。",
+      "language": "Jupyter Notebook",
+      "stars_today": 358,
+      "stars_total": 23645
+    },
+    {
+      "repo": "Canner/WrenAI",
+      "url": "https://github.com/Canner/WrenAI",
+      "description": "面向 AI 代理的 GenBI（生成式商业智能），通过开放上下文层实现开源且受治理的 text-to-SQL，把自然语言问题转化为可信的仪表板、图表和 SQL，并支持 20 多种数据源。",
+      "language": "Python",
+      "stars_today": 121,
+      "stars_total": 16225
+    }
+  ]
+}

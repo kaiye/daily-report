@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-07-04T00:03:49.891Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-07-03",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2073028947478995406",
+      "text": "Squidsoup is a collective of artists and designers who make immersive experiences with sound, light and space. \n\nWe caught up with them before one of their largest projects to date: a live performance with an orchestra at the Southbank Centre in London. https://t.co/8wvgOYfotp",
+      "createdAt": "Fri Jul 03 12:59:50 +0000 2026",
+      "viewCount": 237654,
+      "likeCount": 2369,
+      "retweetCount": 144,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2073028947478995406",
+      "is_official": true
+    },
+    {
+      "id": "2073083956950388894",
+      "text": "One of the biggest lies of the AI bubble is that Microsoft, Google, Amazon and Meta are \"growing because of AI.\" \nIn reality, they're using the continued growth of their other business units to cover the meager returns from AI, and the massive waste of their trillion+ in capex. https://t.co/06zqcHIYbz",
+      "createdAt": "Fri Jul 03 16:38:26 +0000 2026",
+      "viewCount": 192740,
+      "likeCount": 1847,
+      "retweetCount": 265,
+      "author": {
+        "userName": "edzitron",
+        "name": "Ed Zitron",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/edzitron/status/2073083956950388894",
+      "is_official": false
+    },
+    {
+      "id": "2072892760362013149",
+      "text": "It's insane how many people I know that mostly use Claude models because their company is on AWS and they're using Bedrock",
+      "createdAt": "Fri Jul 03 03:58:41 +0000 2026",
+      "viewCount": 177757,
+      "likeCount": 1942,
+      "retweetCount": 9,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2072892760362013149",
+      "is_official": false
+    },
+    {
+      "id": "2072839970411389321",
+      "text": "I don’t know why people thought otherwise but REMINDER: ANTHROPIC WILL EVENTUALLY FIND A WAY TO INCLUDE FABLE IN OUR SUBSCRIPTIONS",
+      "createdAt": "Fri Jul 03 00:28:55 +0000 2026",
+      "viewCount": 155734,
+      "likeCount": 1995,
+      "retweetCount": 29,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2072839970411389321",
+      "is_official": false
+    },
+    {
+      "id": "2073055367215399394",
+      "text": "JUST IN: Alibaba is reportedly banning employees from using Claude Code in the workplace.",
+      "createdAt": "Fri Jul 03 14:44:49 +0000 2026",
+      "viewCount": 161241,
+      "likeCount": 1686,
+      "retweetCount": 92,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2073055367215399394",
+      "is_official": true
+    },
+    {
+      "id": "2072964558302687569",
+      "text": "After reflection, this new narrative by Palantir is probably much more consequential than people may assume.\n\nPalantir is basically being the canary in the coal mine announcing the death of two major assumptions propping up the US economy right now: \n\n1) that AI labs will be able to extract significant economic rent - as opposed to AI models being mere commodities\n\n2) that other countries can accept structural dependency on US technology and services without pushing back on sovereignty concerns\n\nWhy are Palantir specifically starting to be vocal about this?\n\nFirst off, major middle-powers, even US “allies”, are one by one showing them the door. In June, France announced that the DGSI - its domestic intelligence agency, which had relied on Palantir since the 2015 Paris attacks - would replace it with French firm ChapsVision, with Prime Minister Lecornu explaining (https://t.co/SLhEGprBZC) that France “cannot accept new strategic dependencies in the digital sphere” and shouldn't depend on the goodwill of companies “capable of turning off the tap.”\n\nGermany moved even earlier: its domestic intelligence service, the BfV, also selected ChapsVision over Palantir (https://t.co/pDZVj4SYUY), and the German military has said it will no longer use Palantir at all. Then, just this week, Spain instructed state-controlled companies - including strategic firms like Telefónica, Indra and Navantia - to avoid signing any new contracts with Palantir (https://t.co/0ik4UAFrT7). \n\nEven in the UK, Washington's most loyal vassal, the NHS's £330 million data contract with Palantir is under review following parliamentary pressure (https://t.co/uJl6g4BMsW), and London Mayor Sadiq Khan blocked a proposed £50 million Palantir contract with the Metropolitan Police.\n\nPalantir making a lot of noise around them caring about sovereignty makes a lot of sense: it's damage control since they keep being told they're a sovereignty risk.\n\nI doubt it will work - because it's true: they are a sovereignty risk - but the fact that they feel the need to be vocal around this tells you where the wind is blowing: they're not shaping the narrative, they're reacting to one they're losing.\n\nWhat they're saying against closed-source AI (basically a broadside attack on OpenAI and Anthropic), is again highly self-serving. Palantir's sudden love of open-weight AI models conveniently coincides with them launching 2 days before a partnership with Nvidia to sell exactly that: open models models (NVIDIA's Nemotron) in sovereign environments.\n\nSo it's essentially a product launch.\n\nIt doesn't make what they're saying wrong: it is factual that the value proposition of closed-source AI labs looks increasingly unsustainable. I mean: you're paying 10X the price of Chinese open-source AI models for something that's not really better (or just marginally) and on top of that you have zero control over your data, or the models themselves.\n\nWhen Palantir says that \"the architecture that maximally preserves sovereignty is one that enables institutions to own their tribal knowledge, and to compound it as alpha,\" they're right. I'd add that this also means you shouldn't trust Palantir either with that \"tribal knowledge\"... they obviously left this part out 😉\n\nWhen you take a step back, these two things have major implications on many other US companies.\n\nSpaceX - which just went public at the largest IPO valuation in history - is one clear example as I describe in my latest article on the new space race with China (https://t.co/JK3ELAyEVO).\n\nIf countries like France concluded with Palantir that they couldn't depend on a company “capable of turning off the tap” when it’s merely analyzing their data, what should they conclude about a company that aims to literally control their entire connectivity - at one man's whim, from space? \n\nWhat percentage of SpaceX's crazy market cap is based on the assumption that foreign governments will not do to Starlink what they're currently doing to Palantir?\n\nAnd SpaceX - or Palantir - aren't alone: a significant proportion of the top US tech giants, who rose in a world where no one questioned American technological hegemony, now face an environment that's much less conducive to the kind of lock-in their business models - and valuations - depend on.\n\nWhen you pair this with the fact that it increasingly looks like the US made a wrong bet with closed-source AI - an extremely expensive wrong bet - the picture that emerges is of a country that bet its economic future on two things - proprietary AI and captive allies - and is losing both at the same time.\n\nAnd to compound the problem, it doesn't help that the official narrative of the US government - via the voice of Jacob Helberg, the Under-Secretary of State (https://t.co/Z1rotPl9Ee) - is to be vocally opposed to \"AI Sovereignty\": essentially telling everyone \"you know what, your worst fears are real, our tech companies are really out to undermine your sovereignty.\"\n\nRead Helberg's post (the one I linked) and put yourself in the shoes of - say - a European or Asian leader and ask yourself how you'd react to being told that building your own AI capabilities is \"marching in perfect formation into the past,\" that your pursuit of sovereignty is really just \"synchronized mediocrity,\" and that your only path to the future runs through American technology. \n\nIf it was me in a position of power, I'd read this as a massive wakeup call: when another country's official position is that your sovereignty is a problem, history says you're about to need it.\n\nSo yes, it looks like - unexpectedly - Palantir, of all companies, is being quite the canary in the big tech mine. Yes they obviously do this for self-serving and cynical purpose, and yes they're of course also very much part of the problem and not the solution. But it doesn't make them wrong: sometimes it takes a vulture to tell you something is dying.",
+      "createdAt": "Fri Jul 03 08:43:59 +0000 2026",
+      "viewCount": 1582007,
+      "likeCount": 5239,
+      "retweetCount": 1230,
+      "author": {
+        "userName": "RnaudBertrand",
+        "name": "Arnaud Bertrand",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/RnaudBertrand/status/2072964558302687569",
+      "is_official": false
+    },
+    {
+      "id": "2073049917266821338",
+      "text": "GPT-5.6 Sol, Terra, and Luna are already mentioned in the code of the Codex app (but not available yet). Real-time voice support is still in the works. \n\nNow it is just a matter of time 👀 https://t.co/u10sbHg2yP",
+      "createdAt": "Fri Jul 03 14:23:10 +0000 2026",
+      "viewCount": 179147,
+      "likeCount": 1207,
+      "retweetCount": 54,
+      "author": {
+        "userName": "testingcatalog",
+        "name": "🚨 AI News | TestingCatalog",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/testingcatalog/status/2073049917266821338",
+      "is_official": true
+    },
+    {
+      "id": "2073008280255774919",
+      "text": "GPT 5.6 launches next week. \n\nThe SAME WEEK Anthropic pulls Fable 5 from subscriptions.\n\nAnd for the first time, OpenAI actually has a shot:\n\n- GPT 5.6 Sol Ultra already beats Fable 5 on TerminalBench: 91.9% vs 84.3%\n- Half the price\n- Less guardrails killing normal coding tasks\n- No weekly limit that serious builders burn in 24 hours\n\nFable 5 is the best model on earth, but the guardrails and rate limits are nerfing it.\n\nGPT 5.6 is going to have less guardrails and the rate limits will be WAY better.\n\nNext week decides everything.",
+      "createdAt": "Fri Jul 03 11:37:43 +0000 2026",
+      "viewCount": 97088,
+      "likeCount": 1074,
+      "retweetCount": 60,
+      "author": {
+        "userName": "bridgemindai",
+        "name": "BridgeMind",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/bridgemindai/status/2073008280255774919",
+      "is_official": true
+    },
+    {
+      "id": "2072977118208888970",
+      "text": "It's really rather ironical that it's now US tech companies actively building the Great Firewall.",
+      "createdAt": "Fri Jul 03 09:33:53 +0000 2026",
+      "viewCount": 71541,
+      "likeCount": 2376,
+      "retweetCount": 235,
+      "author": {
+        "userName": "RnaudBertrand",
+        "name": "Arnaud Bertrand",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/RnaudBertrand/status/2072977118208888970",
+      "is_official": false
+    },
+    {
+      "id": "2072902886712094919",
+      "text": "$META: upcoming AI model “Watermelon”  has caught up to OpenAI’s GPT 5.5.\n\nWang noted it uses an \"order of magnitude\" more compute than its predecessor “Avocado”.\n\nWho said they were out of the AI race again? https://t.co/X2sOgMRTuw",
+      "createdAt": "Fri Jul 03 04:38:55 +0000 2026",
+      "viewCount": 520662,
+      "likeCount": 1219,
+      "retweetCount": 69,
+      "author": {
+        "userName": "aleabitoreddit",
+        "name": "Serenity",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/aleabitoreddit/status/2072902886712094919",
+      "is_official": false
+    },
+    {
+      "id": "2072854130133967018",
+      "text": "Claude Science is incredible. I gave it some sequencing data, and in 8 hours it did a full analysis, generated figures, wrote a paper, submitted it for publication, got rejected, revised and resubmitted, got rejected again, it is now applying for positions in industry",
+      "createdAt": "Fri Jul 03 01:25:11 +0000 2026",
+      "viewCount": 392205,
+      "likeCount": 7860,
+      "retweetCount": 595,
+      "author": {
+        "userName": "blekhman",
+        "name": "Ran Blekhman",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/blekhman/status/2072854130133967018",
+      "is_official": false
+    },
+    {
+      "id": "2073132670239023215",
+      "text": "JUST IN: Leaked internal reasoning reveals Claude Fable 5 “muttering and grumbling” to itself in a language of its own.",
+      "createdAt": "Fri Jul 03 19:52:00 +0000 2026",
+      "viewCount": 736566,
+      "likeCount": 7782,
+      "retweetCount": 469,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2073132670239023215",
+      "is_official": true
+    },
+    {
+      "id": "2072928597573353947",
+      "text": "gemini 3.5 flash is free now 😳\n\ngoogle quietly made their newest flash model free-tier eligible. no credit card, 1M context window, and most people are still posting about the old 2.5 models.\n\nwhat you get for $0:\n- gemini 3.5 flash (google's newest, free tier)\n- gemini 3.1 flash-lite for high-volume cheap calls\n- full 1M token context on every free model\n- 1,500 requests/day, native multimodal (text, image, audio, video)\n- openai-compatible, one base url change\n\nfull setup (2 min):\n\nstep 1: grab a free api key\n> go to https://t.co/bvoogVXOtj\n> sign in with any google account\n> click \"get api key\", no billing setup\n\nstep 2: point any client at gemini\n> works in cursor, cline, claude code, anything openai-compatible\n> or just prototype in the studio ui and hit \"get code\"\n\nstep 3: pick your model\n> gemini-3.5-flash for the strong one\n> gemini-3.1-flash-lite for cheap high-volume steps\n\nimportant:\n- pro models left the free tier april 1, flash and flash-lite only now\n- free-tier prompts can be used to train google's models, don't send sensitive data\n- limits are per project, extra keys don't add quota\n- 1,500 req/day resets daily, plenty for building and testing\n\nfrontier-class model + 1M context + $0\nwhile most guides are still telling you to use last-gen models\n\nsave this, the free tier shifts almost monthly",
+      "createdAt": "Fri Jul 03 06:21:05 +0000 2026",
+      "viewCount": 130622,
+      "likeCount": 1705,
+      "retweetCount": 186,
+      "author": {
+        "userName": "CDGalpha",
+        "name": "CryptoDiggerGod.eth",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/CDGalpha/status/2072928597573353947",
+      "is_official": false
+    },
+    {
+      "id": "2072914445668590003",
+      "text": "New podcast with @garrytan, @farbood and Daniel Francis.\n\nLive in the Future!\n\n00:00 Guest Intros\n02:35 Live in the Future\n03:58 Will AI Outsmart us?\n07:43 In the Anthropic Breadline\n09:59 The Tech Genie Is Out\n12:33 We Invested in COVID?!\n14:25 Good Writing Is Novelty\n18:50 Living Like It’s 2028\n24:32 Truth dot ai\n30:18 Does China have the Weights?\n35:38 Everyone has AI Anxiety\n39:32 Have Your Agent Talk to My Agent\n42:01 What if Open Source takes the Lead?\n44:03 The Sun is Setting on Google\n48:00 Ride the AGI\n50:46 Will There be Startups?\n54:05 Defending Taiwan\n1:00:05 The California Empire\n1:01:26 If the U.S. Falls\n1:03:11 Universal Basic Robot\n1:06:01 Humans as AI Handlers",
+      "createdAt": "Fri Jul 03 05:24:51 +0000 2026",
+      "viewCount": 388454,
+      "likeCount": 3384,
+      "retweetCount": 391,
+      "author": {
+        "userName": "naval",
+        "name": "Naval",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/naval/status/2072914445668590003",
+      "is_official": false
+    },
+    {
+      "id": "2072891163502080053",
+      "text": "Another major Grok Build update just landed, packed with new features, extensive bug fixes, and meaningful performance improvements\n\nRelease Notes: v0.2.84 — 2026-07-03\n\nFeatures:\n• Announcements now update live during active sessions without restart or /new.\n• Hiding an announcement no longer suppresses later criticals; new ones reappear automatically.\n• run_terminal_cmd now requires a one-sentence description rationale in every invocation.\n• ask_user_question timeout policy is now configurable in config.toml and /settings.\n• Ask-Question timeout can now be toggled from /settings (Agent & Approval).\n• Thinking/reasoning blocks are now shown by default while the model is working.\n• Critical announcements now show a red title with a clickable [hide] button and aligned message.\n• Added remote_fetch option under [features] in config.toml to disable all backend catalog and settings fetches for air-gapped environments.\n\nBug Fixes:\n• Images pasted or read from GIF, BMP or TIFF files are now automatically converted so they work with image generation.\n• Queue panel now shows action buttons on hover and the status bar displays a compact done/total task count.\n• Hook matchers now correctly see the real MCP tool name instead of the internal dispatcher name.\n• Copy now succeeds when running inside containers even when the terminal brand cannot be detected.\n• Tool result previews no longer paint opaque panels in grok --minimal.\n• grok wrap now correctly handles quoted strings and shell aliases.\n• Text selection settings now correctly honor explicit keep_text_selection values even when legacy keys remain.\n• Fixed a freeze that could occur when editing and sending the last message in the queue.\n• Fixed a startup crash on minimal Linux systems lacking system CA certificates.\n\nPerformance:\n• Grep now stops early on broad searches, returning faster results with far less memory use.\n• Idle CPU and memory usage after long sessions or resume is now dramatically lower.",
+      "createdAt": "Fri Jul 03 03:52:20 +0000 2026",
+      "viewCount": 721977,
+      "likeCount": 1621,
+      "retweetCount": 635,
+      "author": {
+        "userName": "XFreeze",
+        "name": "X Freeze",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/XFreeze/status/2072891163502080053",
+      "is_official": false
+    },
+    {
+      "id": "2073027816476553295",
+      "text": "JUST IN: Anthropic to close loopholes that allow Chinese access to Claude",
+      "createdAt": "Fri Jul 03 12:55:21 +0000 2026",
+      "viewCount": 110624,
+      "likeCount": 1161,
+      "retweetCount": 35,
+      "author": {
+        "userName": "Kalshi",
+        "name": "Kalshi",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Kalshi/status/2073027816476553295",
+      "is_official": true
+    },
+    {
+      "id": "2073084352251232435",
+      "text": "🚨 SCOOP:\n\nAs previously reported, OpenAI plan to launch GPT-5.6 once back in office next week, with a target window of July 7-9, but want it out as early as possible within that window (so July 7th is the most likely date). This is also perfect timing to catch customers coming from Claude who have just lost their access to Fable 5 in plans, and I'm told the 5.6 plan limits will be significantly more generous. More aggressive safeguards are already being rolled out in preparation for the launch too, although they probably won't be as aggressive as Fable's.\n\nDeepMind have also tentatively set a new launch date for Gemini 3.5 Pro of July 17th. Apparently, this extra time has been spent on a new pretrain (they were planning to keep using the ancient 2.5 Pro base, lol), but it remains to be seen whether it's any good. I'm not hopeful. In other news, work is well underway on a new Nano Banana Pro model based on the new 3.5 Pro base, which I expect to be better received and compete well with GPT-Image 1.",
+      "createdAt": "Fri Jul 03 16:40:00 +0000 2026",
+      "viewCount": 284131,
+      "likeCount": 1771,
+      "retweetCount": 83,
+      "author": {
+        "userName": "synthwavedd",
+        "name": "leo 🐾",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/synthwavedd/status/2073084352251232435",
+      "is_official": false
+    },
+    {
+      "id": "2072875592060711351",
+      "text": "SoSoValue Flash: Disappointing Payrolls Remap Rate Path, \"Compute Glut\" Panic Shocks Asian Tech as Meta and Tesla Curtail Spend\n\n💥 Core Catalyst:\nJune nonfarm payrolls added just 57K vs. 115K expected—a stark headline miss—while the unemployment rate slipped to 4.2% (below the 4.3% consensus) primarily due to a lower labor participation rate. The print confirms a cooling labor market but removes any immediate case for an emergency cut, prompting markets to push out the next rate move from September to October. Simultaneously, a \"compute glut\" scare swept through Asian trading hours: Meta floated intentions to lease out idle compute, Anthropic is reportedly planning its own proprietary AI chips (in manufacturing talks with Samsung), and Zuckerberg conceded AI-agent progress has lagged initial expectations. Further fueling fears that AI capex is peaking, Tesla capped employee AI token spend at $200/week from July 6, causing the KOSPI to plummet 7.9% and China's STAR index to drop 5.6%.\n\n🔍 Key Logic Shifts:\n1️⃣ Easing Rate Regimes Lift Cyclicals: The severe payroll miss was ultimately viewed as \"weak enough\" to dial back Fed tightening anxieties without triggering outright economic growth panic. As crude glides lower and broader inflation cools, the reduction in macro rate pressure is shifting into a structural tailwind for broader U.S. equity indexes and cyclicals.\n2️⃣ Compute Panic Hits Aggressive Positioning: Meta's idle-compute commentary snowballed into a structural \"compute glut\" narrative in Asia (KOSPI -7.9%, STAR -5.6%), cascading into a direct liquidation of U.S. AI hardware alongside Anthropic's insourcing chip news and Meta's agent bottleneck. While analytical views remain split on whether the secular tech thesis is broken, the outsized price action points heavily to overbought, crowded positioning being flushed.\n3️⃣ AI High-Level Range trading: Big picture, the AI sector is expected to remain bound within a wider high-level range. Though the long trade is growing increasingly crowded, core consensus positions continue to see meaningful capital backstops on deeper pullbacks.\n4️⃣ Guidance Vacuum Amplifies Volatility: The immediate macro narrative hinges completely on the Fed’s reaction function. Chair Warsh's operating style offers zero forward guidance, meaning the upcoming July 29 FOMC meeting is structurally poised to expand data-driven volatility.\n📊 Trade Setup:\nCore: $USTECH-100 | $CL | $XAUT | $BTC\nMAG7: $NVDA | $AMZN | $GOOGL | $META | $MSFT | $TSLA | $AAPL\nAI Hardware: $SNDK | $MU | $AMD | $INTC | $TSM",
+      "createdAt": "Fri Jul 03 02:50:27 +0000 2026",
+      "viewCount": 41421,
+      "likeCount": 2498,
+      "retweetCount": 438,
+      "author": {
+        "userName": "SoSoValueCrypto",
+        "name": "SoSoValue",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/SoSoValueCrypto/status/2072875592060711351",
+      "is_official": true
+    },
+    {
+      "id": "2073025360749355049",
+      "text": "We are now in a position where a tiny proportion of the population uses Fable or soon GPT-5.6, while everyone else's experience of AI is 8-30b-model level - Google's AI Overviews, Meta AI, ChatGPT free tier, maybe MS Copilot at best. People outside of tech must be completely baffled how this is supposed to take their job, and annoyed that hundreds of billions are being poured into it.",
+      "createdAt": "Fri Jul 03 12:45:35 +0000 2026",
+      "viewCount": 502412,
+      "likeCount": 5601,
+      "retweetCount": 380,
+      "author": {
+        "userName": "petergostev",
+        "name": "Peter Gostev",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/petergostev/status/2073025360749355049",
+      "is_official": false
+    }
+  ]
+}

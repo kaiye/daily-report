@@ -1,0 +1,88 @@
+{
+  "report_date": "2026-07-09",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 AI Agent 的工程能力、长期记忆、办公自动化、技能框架与安全沙箱等基础设施快速升温。",
+  "items": [
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "面向 AI 编码 Agent 的生产级工程技能。",
+      "language": "JavaScript",
+      "stars_today": 1297,
+      "stars_total": 73990
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView 将普通 WiFi 信号转化为实时空间智能、生命体征监测和存在检测，全程无需任何视频像素。",
+      "language": "Rust",
+      "stars_today": 799,
+      "stars_total": 79122
+    },
+    {
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory 通过四层渐进式流水线为 AI Agent 提供完全本地的长期记忆，且零外部 API 依赖。",
+      "language": "TypeScript",
+      "stars_today": 318,
+      "stars_total": 7615
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI Agent 技能，可跨 Reddit、X、YouTube、HN、Polymarket 和网页研究任意主题，并综合出有依据的摘要。",
+      "language": "Python",
+      "stars_today": 352,
+      "stars_total": 50727
+    },
+    {
+      "repo": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI 是首个也是最好的专为 AI Agent 读取、编辑和自动化 Word、Excel、PowerPoint 文件而打造的 Office 套件，免费、开源、单二进制且无需安装 Office。",
+      "language": "C#",
+      "stars_today": 1717,
+      "stars_total": 11742
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "定期更新从 Anthropic、OpenAI、Google、xAI、Cursor、Copilot、VS Code、Perplexity 等提取的系统提示词。",
+      "language": "JavaScript",
+      "stars_today": 1218,
+      "stars_total": 54151
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一个可行的 Agentic 技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 1116,
+      "stars_total": 249797
+    },
+    {
+      "repo": "alibaba/zvec",
+      "url": "https://github.com/alibaba/zvec",
+      "description": "轻量、闪电般快速的进程内向量数据库。",
+      "language": "C++",
+      "stars_today": 395,
+      "stars_total": 14383
+    },
+    {
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "赋予 Claude 观看任意视频的能力，/watch 会下载视频、提取帧、转录并把全部内容交给 Claude。",
+      "language": "Python",
+      "stars_today": 951,
+      "stars_total": 6037
+    },
+    {
+      "repo": "TencentCloud/CubeSandbox",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "description": "面向 AI Agent 的即时、并发、安全、轻量级沙箱。",
+      "language": "Rust",
+      "stars_today": 564,
+      "stars_total": 8915
+    }
+  ]
+}

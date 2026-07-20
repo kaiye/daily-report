@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-07-06T00:03:57.284Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-07-05",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2073768940078317713",
+      "text": "🐱 LongCat-2.0 is now fully open-source — MIT licensed, no restrictions.\n\nSince our launch a few days ago, the response from the community has been incredible.\nThank you for all the feedback, discussions, and interest.\n\nToday, we’re releasing the model weights and inference code to everyone.\n◆ 1.6T MoE · ~48B active · 1M token context\n◆ Agent-native: Integrates directly with Claude Code, OpenClaw, and Hermes Agent\n◆ Deployment: Support both GPU and NPU platforms— verified on large-scale domestic clusters\n\n📑 Tech Blog: https://t.co/W9EYWDW3Y9\n🤗 HuggingFace: https://t.co/EP2szwIhu2\n💻 GitHub: https://t.co/qJzXMQcC2z\n🪄 ModelScope: https://t.co/nKt5Wh3m8Y\n👇 Inference Code\nGPU: https://t.co/Tq8QKvneH6\nNPU: https://t.co/l96ebhFxN6",
+      "createdAt": "Sun Jul 05 14:00:18 +0000 2026",
+      "viewCount": 164034,
+      "likeCount": 1300,
+      "retweetCount": 180,
+      "author": {
+        "userName": "Meituan_LongCat",
+        "name": "Meituan LongCat",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Meituan_LongCat/status/2073768940078317713",
+      "is_official": false
+    },
+    {
+      "id": "2073872763404558522",
+      "text": "JUST IN: Developer claims to have found a way to cut Claude API bills by up to 70% by exploiting image-vs-text token pricing.",
+      "createdAt": "Sun Jul 05 20:52:52 +0000 2026",
+      "viewCount": 256647,
+      "likeCount": 1686,
+      "retweetCount": 73,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2073872763404558522",
+      "is_official": true
+    },
+    {
+      "id": "2073684597422874949",
+      "text": "Found Claude HQ in Manhattan https://t.co/uPwrXKAsdQ",
+      "createdAt": "Sun Jul 05 08:25:09 +0000 2026",
+      "viewCount": 38503,
+      "likeCount": 2220,
+      "retweetCount": 29,
+      "author": {
+        "userName": "CodeByNZ",
+        "name": "NZ ☄️",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/CodeByNZ/status/2073684597422874949",
+      "is_official": false
+    },
+    {
+      "id": "2073709900820099232",
+      "text": "‼️ Pliny, an AI jailbreak researcher, has released a multi-agent offensive-security framework that turns a Claude Code or OpenAI Codex subscription into what he calls real bug-hunting, pitched at people who never got the invite.\n\nIt's called T3MP3ST, and it sells an AI \"swarm\" that runs the full hacking kill chain (recon, exploit, report) and claims to \"turn anyone into a zero-day hunter.\" \n\nOn XBOW's own set of 104 practice hacking challenges, T3MP3ST claims it solved 90.1% on the first try, beating the 85% XBOW reports for its own tool.\n\nhttps://t.co/M0XCOQ00Kd",
+      "createdAt": "Sun Jul 05 10:05:42 +0000 2026",
+      "viewCount": 1571517,
+      "likeCount": 1921,
+      "retweetCount": 390,
+      "author": {
+        "userName": "IntCyberDigest",
+        "name": "International Cyber Digest",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/IntCyberDigest/status/2073709900820099232",
+      "is_official": false
+    },
+    {
+      "id": "2073802393607901647",
+      "text": "🚨 CHINA JUST BUILT A CHIP THAT OUTPERFORMS NVIDIA BY UP TO 478 TIMES ON SPECIFIC AI TASKS.\n\nResearchers from Peking University developed a neuromorphic chip that can reconstruct complex brain surfaces in under half a second.\n\nThe key difference from a standard GPU is architectural. \n\nTraditional chips like Nvidia's A100 separate memory and processing into two distinct units, creating a bottleneck every time data moves between them. \n\nThis chip eliminates that bottleneck by performing storage and computation inside the same memory array simultaneously.\n\nThis is important because that bottleneck is one of the main reasons AI training is so expensive and power-hungry today. \n\nNvidia's dominance is built on solving that problem with brute-force hardware and massive memory bandwidth. \n\nThis chip solves it differently, at the architectural level.\n\nThe 478x figure applies to a specific task: real time neural surface reconstruction. \n\nIt is not a general-purpose performance claim. On most standard AI workloads, Nvidia's H100 and B200 chips still lead by a wide margin.\n\nBut the comparison to the A100 matters because the A100 is still the chip most enterprise customers actually run on. Nvidia's newest chips are out of reach for most buyers. \n\nIf a 40-nanometer chip built inside China's export-restricted chip environment can outperform the A100 by this margin on targeted workloads, it raises a real question about how necessary cutting-edge chip access actually is for specific AI applications.\n\nThis is exactly the argument DeepSeek made in January, that you can match frontier AI performance without frontier hardware, just with better architecture. \n\nThat one announcement wiped $600 billion from Nvidia's market cap in a single day.",
+      "createdAt": "Sun Jul 05 16:13:14 +0000 2026",
+      "viewCount": 109985,
+      "likeCount": 1143,
+      "retweetCount": 212,
+      "author": {
+        "userName": "BullTheoryio",
+        "name": "Bull Theory",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/BullTheoryio/status/2073802393607901647",
+      "is_official": true
+    },
+    {
+      "id": "2073704784398528599",
+      "text": "Leaked Anthropic docs show plans to secure 1.4GW capacity from Australia, amounting to ~$21.6B.\n\nRecently $IREN, $SHAZ, and other Neoclouds have been building sovereign DCs in Australia.\n\nGuess like a lot of things are stating to make more sense connection wise?\n\n(disclosure: no open positions in any of the above).",
+      "createdAt": "Sun Jul 05 09:45:22 +0000 2026",
+      "viewCount": 933952,
+      "likeCount": 2403,
+      "retweetCount": 159,
+      "author": {
+        "userName": "aleabitoreddit",
+        "name": "Serenity",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/aleabitoreddit/status/2073704784398528599",
+      "is_official": false
+    },
+    {
+      "id": "2073689577085337884",
+      "text": "this guy just dropped a library of 25 INSANE loops for Fable 5\n\n> automations for marketing, sales, research, coding…\n> every one documented, flow mapped, prompt ready\n> each paired with the exact tool to run it and the goal it hits\n\nplus it's free... all you do is send these screenshots to Claude:",
+      "createdAt": "Sun Jul 05 08:44:57 +0000 2026",
+      "viewCount": 148703,
+      "likeCount": 1016,
+      "retweetCount": 99,
+      "author": {
+        "userName": "EXM7777",
+        "name": "Machina",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/EXM7777/status/2073689577085337884",
+      "is_official": false
+    },
+    {
+      "id": "2073804734386122937",
+      "text": "Leaked Anthropic docs reportedly point to a 1.4GW Australia capacity push worth ~$22B.\n\n$IREN is one of the few names with announced gigawatt-scale Australian ambitions, 800MW Bundey campus with its connection agreement already secured and a state government partnership. https://t.co/VZ1Ui8BC64",
+      "createdAt": "Sun Jul 05 16:22:32 +0000 2026",
+      "viewCount": 192605,
+      "likeCount": 1765,
+      "retweetCount": 128,
+      "author": {
+        "userName": "StockSavvyShay",
+        "name": "Shay Boloor",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/StockSavvyShay/status/2073804734386122937",
+      "is_official": false
+    },
+    {
+      "id": "2073725505418015139",
+      "text": "Perplexity might be first AI giant to fall",
+      "createdAt": "Sun Jul 05 11:07:43 +0000 2026",
+      "viewCount": 196978,
+      "likeCount": 1234,
+      "retweetCount": 23,
+      "author": {
+        "userName": "Amank1412",
+        "name": "Aman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Amank1412/status/2073725505418015139",
+      "is_official": false
+    },
+    {
+      "id": "2073783047950897373",
+      "text": "GPT-5.5 Pro is probably better doctor than 99.9% of doctors. By next year, new AI models will be better than 100% of the doctors. As such, not using AI in patient diagnosis and treatment should be considered malpractice.",
+      "createdAt": "Sun Jul 05 14:56:22 +0000 2026",
+      "viewCount": 128732,
+      "likeCount": 1070,
+      "retweetCount": 92,
+      "author": {
+        "userName": "DeryaTR_",
+        "name": "Derya Unutmaz, MD",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/DeryaTR_/status/2073783047950897373",
+      "is_official": false
+    },
+    {
+      "id": "2073579120135664102",
+      "text": "⚡ INTRODUCING: T3MP3ST!!! ⚡\n\nAUTONOMOUS HACKBOT STRIKE FORCE 🌩️ BRING THE STORM 🌩️\n\nyour favorite coding agent is now a full-stack red team 🫡⚔️\n\nhttps://t.co/k0SXmPAFaD\n\nthat AI agent already humming in your terminal? well now it has FANGS. strap a full offensive-security harness onto the agents you already pay for — Claude Code, Codex, Hermes, etc. — point it at an authorized target, and in a few clicks you're watching it hunt real vulns autonomously!\n\nT3MP3ST is a harness of harnesses, with prompting that unlocks offensive-cyber workflows + a full arsenal of exploit tooling that'd make any seasoned hacker smirk. simple, yet powerful. 🦾\n\nsupport for:\n🕸️ web apps, APIs, OWASP Top 10\n🔌 network recon + fingerprinting (live nmap/DNS/HTTP); lateral + privesc experimental\n📂 source code audits, white-box vuln hunting\n🚩 CTFs, wargames, challenge ranges\n💰 smart contracts / DeFi / Solidity (reproduction — Damn Vulnerable DeFi, not novel discovery)\n🤖 embedded, IoT, OT/SCADA, robotics OSS\n… and more in development!\n\nnow let's talk numbers 👇\n\n📊 XBEN — XBOW's own 104-challenge suite:\n• black-box: 90.1% pass@1 from the single-agent exploit loop (worst single sweep 91/104 = 87.5%) — clearing XBOW's past self-reported 85% on their own suite. gpt-5.5.\n• white-box (source staged, reported separately): 98.7% pass@1, worst single sweep 102/104 = 98.1%. 🎯\nevery solved flag graded reported-vs-expected against the challenge's own committed flag oracle — `verify-claims` recomputes the pass/fail from committed artifacts. looks like we need new benchmarks 😏\n\n🧩 Cybench — the 40-task academic bench (Opus 4.8, hints + writeups stripped): 23/40 = 58% single-run, hint-free pass@1 — real exploits (format-string pwn, eval-jail escapes, crypto oracles), every flag graded vs a committed oracle. (Anthropic reports 76.5% pass@10)\n\n🕳️ CVE-Zero — we pointed it COLD at real CVEs disclosed in 2026, AFTER the model's training cutoff:\n10 unseen 2026 CVEs across 7 languages — prompts never tuned on them. a single agent pinned 8/10 to exact file/line/CWE (stable under re-scoring); the full pack surfaced all 10.\nmemorization AND overfitting, both off the table — it's finding real vulns whose disclosures landed AFTER the model's training cutoff. (n=10, reported honest & directional)\n\n🧠 the architecture: either run as a SINGLE agent (already the benchmarked, incredibly-capable path) — or pack-hunt with dozens of agents running on 8 specialist operator classes keyed to Cyber Kill Chain + MITRE ATT&CK phases: recon → scan → exploit → lateral → exfil → persistence → C2 → report. \n\n⚓️an Op Admiral plans the whole op from a plain-english target. flip on coordination (experimental) and the operators share a blackboard — a tool-verified finding spawns the next move. full swarm or solo one operator, your call. the admiral can also update the prompts, tools, and configs of the other agents on the fly, and T3MP3ST gets stronger the more memories you build!\n\n🧰 the Arsenal is comprehensive — nmap / nuclei / semgrep / ffuf / gobuster + more. 35 wired by default (the clean bench runs bash-only for a comparable number), 83 with the opt-in full arsenal (T3MP3ST_FULL_ARSENAL), and the spicy post-ex drivers (metasploit, hydra) gated behind human approval. exposed via CLI + HTTP API; recon (security_recon) is also live over MCP so your agent invokes it natively. 🔗\n\n🛰️ where this goes: a self-improving swarm of specialist operators wielding a full Kali+ arsenal, learning which loadouts + configs are the most efficient tactics available, WITH a held-out train/test split baked in so it can never fool itself on its own eval. built in the open, one re-derivable number at a time.\n\n🚧 this is v1, and parts are still under active development. chunks of the arsenal, the coordinated swarm, and some ranges are still being wired up. it's built in the open, and the receipts tell you exactly what's live vs what's roadmap.\n\noffensive security shouldn't be pay-to-play. T3MP3ST puts a red team in the hands of anyone with a coding agent.\n\nwhat's the first target you're feeding it? 👇\n\n⚠️ DISCLAIMER: FOR AUTHORIZED USE ONLY. point it only at systems you own or have explicit written permission to test. unauthorized access can be a crime, and that call is yours alone. shipped as-is under AGPL-3.0: no warranty, no liability, zero endorsement of misuse. get permission. stay in scope.\n\nopen source. AGPL-3.0. 100% free.\n\nFORTES FORTUNA IUVAT 🌩️\n\ngg 🫡",
+      "createdAt": "Sun Jul 05 01:26:02 +0000 2026",
+      "viewCount": 270589,
+      "likeCount": 3482,
+      "retweetCount": 354,
+      "author": {
+        "userName": "elder_plinius",
+        "name": "Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elder_plinius/status/2073579120135664102",
+      "is_official": false
+    },
+    {
+      "id": "2073625394436337938",
+      "text": "Everything you need to master in 2026 to get rich:\n\n• Using Fable 5 for planning, Codex for execution\n• Hermes agent\n• Coding loops\n• Running Codex/Claude Code side by side\n• /goal\n• Running local models\n• Karpathy's Autoresearch\n• Building an X audience\n• Creating videos\n• How machine learning works\n• How databases work (been using Convex)\n• Using API's\n• Training your own LoRAs\n• Elimination of doom scrolling\n• Most importantly: focus",
+      "createdAt": "Sun Jul 05 04:29:54 +0000 2026",
+      "viewCount": 89702,
+      "likeCount": 1628,
+      "retweetCount": 133,
+      "author": {
+        "userName": "AlexFinn",
+        "name": "Alex Finn",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AlexFinn/status/2073625394436337938",
+      "is_official": false
+    },
+    {
+      "id": "2073574214280544746",
+      "text": "Somewhat humbling to have Claude Fable do a final review of some software that you're about to release and have it then find (and fix) FIVE release blockers, for an estimated (unsubsidized) cost of $149.25 https://t.co/9621pMmlmJ",
+      "createdAt": "Sun Jul 05 01:06:32 +0000 2026",
+      "viewCount": 89392,
+      "likeCount": 1026,
+      "retweetCount": 36,
+      "author": {
+        "userName": "simonw",
+        "name": "Simon Willison",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/simonw/status/2073574214280544746",
+      "is_official": false
+    },
+    {
+      "id": "2073568540469104953",
+      "text": "Just because people have stopped using Perplexity does not mean the CEO should go hallucinate at the professional misinformation network 😅",
+      "createdAt": "Sun Jul 05 00:43:59 +0000 2026",
+      "viewCount": 113542,
+      "likeCount": 1045,
+      "retweetCount": 69,
+      "author": {
+        "userName": "championswimmer",
+        "name": "Arnav Gupta",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/championswimmer/status/2073568540469104953",
+      "is_official": false
+    },
+    {
+      "id": "2073696263086702919",
+      "text": "A Principal Engineer at NVIDIA and OpenAI technical staff are both extremely hyped for GPT-5.6 Sol. Both with pre access.\n\nJust two more days, friends. https://t.co/GdERRbIqeQ",
+      "createdAt": "Sun Jul 05 09:11:31 +0000 2026",
+      "viewCount": 95555,
+      "likeCount": 1590,
+      "retweetCount": 66,
+      "author": {
+        "userName": "kimmonismus",
+        "name": "Chubby♨️",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/kimmonismus/status/2073696263086702919",
+      "is_official": false
+    },
+    {
+      "id": "2073608672538681397",
+      "text": "Crazy how women only have to pay for:\n– $8 lattes\n\nWhile guys have to pay for:\n- $200/m Claude Max 20x\n- $5,000-11,000/m for extra tokens\n- $40/m for X Premium+ to shitpost\n- $64,000 for 4 maxed M3 Ultra Mac Studios to run GLM-5.2\n\nWhy is no one talking about this inequality?",
+      "createdAt": "Sun Jul 05 03:23:27 +0000 2026",
+      "viewCount": 93731,
+      "likeCount": 2822,
+      "retweetCount": 128,
+      "author": {
+        "userName": "Spshulem",
+        "name": "Spencer Shulem",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Spshulem/status/2073608672538681397",
+      "is_official": false
+    },
+    {
+      "id": "2073799386535006210",
+      "text": "Sam Altman just compared his child putting two words together for the first time to GPT-5.6 discovering new math.\n\nExpectations for what’s next couldn’t be any higher now.\n\nTuesday cant come fast enough.",
+      "createdAt": "Sun Jul 05 16:01:17 +0000 2026",
+      "viewCount": 86793,
+      "likeCount": 1118,
+      "retweetCount": 37,
+      "author": {
+        "userName": "kimmonismus",
+        "name": "Chubby♨️",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/kimmonismus/status/2073799386535006210",
+      "is_official": false
+    },
+    {
+      "id": "2073722073864929580",
+      "text": "Done with Grok Imagine",
+      "createdAt": "Sun Jul 05 10:54:04 +0000 2026",
+      "viewCount": 2108037,
+      "likeCount": 4502,
+      "retweetCount": 1035,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2073722073864929580",
+      "is_official": false
+    },
+    {
+      "id": "2073562923918664058",
+      "text": "The AI infrastructure buildout is entering a new phase:\n\nUS tech companies are committing to spend a record $850 billion on data center leases over the next several years.\n\nThis marks a +$570 billion YoY increase, or +204%, and +$200 billion QoQ increase, or +31%.\n\nMeta, $META, added the most in Q1 2026, committing +$79 billion in new leases, a +76% QoQ increase, bringing its total to ~$183 billion.\n\nAt the same time, Microsoft, $MSFT, added +$41 billion, a +26% QoQ increase, bringing its total to ~$197 billion.\n\nOracle leads with the largest total commitments at ~$250 billion, having already secured many of the key sites needed to fulfill its contract with OpenAI.\n\nTech companies are doubling down on AI.",
+      "createdAt": "Sun Jul 05 00:21:40 +0000 2026",
+      "viewCount": 464377,
+      "likeCount": 2396,
+      "retweetCount": 406,
+      "author": {
+        "userName": "KobeissiLetter",
+        "name": "The Kobeissi Letter",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/KobeissiLetter/status/2073562923918664058",
+      "is_official": true
+    },
+    {
+      "id": "2073715878797910031",
+      "text": "Yesterday, I spent 4 hours with ChatGPT cleaning my online identity.\n\nResult: 39 exposed profiles found. 16 old logins closed. 5 public mentions buried.\n\nHow I did it, step by step:￼",
+      "createdAt": "Sun Jul 05 10:29:27 +0000 2026",
+      "viewCount": 679510,
+      "likeCount": 1668,
+      "retweetCount": 179,
+      "author": {
+        "userName": "edgaralandough",
+        "name": "CooperBaggs 💰🍞",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/edgaralandough/status/2073715878797910031",
+      "is_official": false
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-07-07T00:09:02.570Z",
+  "source_raw": "raw.json",
+  "source_count": 16,
+  "item_count": 15,
+  "language_breakdown": {
+    "JavaScript": 3,
+    "Shell": 1,
+    "Rust": 3,
+    "Python": 3,
+    "TypeScript": 2,
+    "Swift": 1,
+    "C++": 1,
+    "Unknown": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "language": "JavaScript",
+      "stars_today": 1378,
+      "stars_total": 51480,
+      "forks": 8390
+    },
+    {
+      "rank": 2,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "Shell",
+      "stars_today": 1112,
+      "stars_total": 70770,
+      "forks": 7671
+    },
+    {
+      "rank": 3,
+      "repo": "Zackriya-Solutions/meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS &amp; Windows.",
+      "language": "Rust",
+      "stars_today": 2494,
+      "stars_total": 19323,
+      "forks": 1964
+    },
+    {
+      "rank": 4,
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars_today": 470,
+      "stars_total": 77496,
+      "forks": 10405
+    },
+    {
+      "rank": 5,
+      "repo": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "JavaScript",
+      "stars_today": 1458,
+      "stars_total": 58895,
+      "forks": 4012
+    },
+    {
+      "rank": 6,
+      "repo": "alirezarezvani/claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "description": "345 Claude Code skills &amp; agent skills &amp; plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial &amp; finance, and your daily productivity skills.",
+      "language": "Python",
+      "stars_today": 610,
+      "stars_total": 21134,
+      "forks": 2840
+    },
+    {
+      "rank": 7,
+      "repo": "openai/codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "language": "JavaScript",
+      "stars_today": 906,
+      "stars_total": 26263,
+      "forks": 1573
+    },
+    {
+      "rank": 8,
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars_today": 458,
+      "stars_total": 49723,
+      "forks": 4145
+    },
+    {
+      "rank": 9,
+      "repo": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "stars_today": 779,
+      "stars_total": 12852,
+      "forks": 746
+    },
+    {
+      "rank": 10,
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "stars_today": 427,
+      "stars_total": 4207,
+      "forks": 602
+    },
+    {
+      "rank": 11,
+      "repo": "karakeep-app/karakeep",
+      "url": "https://github.com/karakeep-app/karakeep",
+      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+      "language": "TypeScript",
+      "stars_today": 199,
+      "stars_total": 26877,
+      "forks": 1319
+    },
+    {
+      "rank": 12,
+      "repo": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "language": "TypeScript",
+      "stars_today": 867,
+      "stars_total": 146224,
+      "forks": 8411
+    },
+    {
+      "rank": 13,
+      "repo": "steipete/CodexBar",
+      "url": "https://github.com/steipete/CodexBar",
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "language": "Swift",
+      "stars_today": 598,
+      "stars_total": 16722,
+      "forks": 1375
+    },
+    {
+      "rank": 14,
+      "repo": "alibaba/zvec",
+      "url": "https://github.com/alibaba/zvec",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "stars_today": 382,
+      "stars_total": 13492,
+      "forks": 823
+    },
+    {
+      "rank": 15,
+      "repo": "sindresorhus/awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "language": "Unknown",
+      "stars_today": 345,
+      "stars_total": 482273,
+      "forks": 35736
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-07-07T00:08:25.911Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 27,
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "Claude、GLM、GPT谁才是真正的AI软件工程师？首个持续更新Visual Spec-to-App Benchmark发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042743&idx=3&sn=f4ee3a607d462954f404a1414f41cb9c",
+      "published_at": "2026-07-06T03:30:00.000Z",
+      "summary": "机器之心 2026-07-06 11:30 北京\n\n项目网站、Benchmark、评测代码以及在线 Leaderboard 已全部开源。\n\n近年来，Coding Agent 正以前所未有的速度发展。从 Claude Code、OpenAI Codex 到 Cursor、Gemini CLI，大语言模型已经能够自主完成编码、调试、运行甚至部署整个 Web 应用，「AI 软件工程师」正逐渐成为现实。然而，一个新的问题也随之出现：\n\n如果不 给 AI 一个 GitHub Issue，而是 给它一张 Figma 设计稿，它还能开发出一个真正可以交付的产品吗？\n\n过去几年，SWE-bench、OpenH",
+      "priority_score": 550,
+      "matched_keywords": [
+        "OpenAI",
+        "Claude",
+        "GPT",
+        "GLM",
+        "Cursor"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "谷歌大佬盛赞Fable 5！23年前PC神作，40分钟塞进iPhone",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710873&idx=2&sn=c3f86d5d51f5a2046cbd992def846edb",
+      "published_at": "2026-07-06T04:07:00.000Z",
+      "summary": "ASI启示录 2026-07-06 12:07 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 谷歌的产品负责人，用Claude Fable 5 把2003年的PC神作原生移植到了iPhone上 。只不过，代价是两天烧光一整个Max订阅。**\n\n谷歌DeepMind的一个高管，用死对头Anthropic的AI，把一个2003年的游戏硬塞进了iPhone。\n\n你没看错。\n\n这个人叫Ammaar Reshi，是AI Studio的产品与设计负责人。\n\n他用Claude Fable 5把《命令与征服：将军 零点时刻》原生编译到了iOS上。战役模式、遭遇战、将军挑战赛，全都能玩。",
+      "priority_score": 300,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude",
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "阿里技术",
+      "title": "为什么 Agent 时代，大家都在做 CLI ？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247509924&idx=1&sn=c2fae18bbccf057f1ed4664fee85b1e7",
+      "published_at": "2026-07-06T10:08:00.000Z",
+      "summary": "原创郭小成 2026-07-06 18:08 浙江\n\n关于各大厂商和开发者纷纷转向 CLI 这一趋势 ，本文或许能提供一些思路和参考\n\n这是2026年的第 30 篇文章\n\n（ 本文阅读时间：约15分钟 ）\n\n前言\n\n过去一段时间，AI Agent 相关工具出现了一个有意思的变化：能力在不断演进，交互入口却越来越多地回到最朴素的命令行。看起来像是一次「复古回归」，背后其实藏着一个更本质的判断：当软件的操作者从人扩展到 Agent，CLI 不再只是给工程师用的老工具，它可能成为 Agent 调用数字世界的高效入口。\n\n不禁想到，今年笔者所在的部门对平台智能化升级提了「AI 友好」这一目标。那么，怎",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "新能源乘用车平均车龄 1.8 年；iPhone 入选美国时间胶囊；Meta 推全新 AI 社交应用 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109893&idx=1&sn=a0e317a24f0699954b52ac211e56f4f3",
+      "published_at": "2026-07-06T00:39:00.000Z",
+      "summary": "连冉 2026-07-06 08:39 北京\n\n黑石集团终止美国弗吉尼亚州「数据门户」项目;消息称 Anthropic 拟在澳大利亚布局 1.4GW 数据中心算力，建设成本达 150 亿美元;春水堂伴侣机器人发布：1.5 万元起售\n\n## 曾号称「全球最大数据中心园区」，黑石集团终止美国弗吉尼亚州「数据门户」项目\n\n7 月 5 日消息，据路透社报道，黑石集团旗下 QTS 于当地时间周四宣布，公司已决定终止美国弗吉尼亚州的「数据门户（Digital Gateway）」数据中心项目，并撤回所有申请文件。\n\n据报道，该项目曾被规划为「全球规模最大的数据中心园区」，占地 850 公顷。尽管此前已经获得",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The ‘first’ AI-run ransomware attack still needed a human",
+      "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/",
+      "published_at": "2026-07-06T23:56:14.000Z",
+      "summary": "An AI agent carried out the technical execution of a real-world ransomware attack for the first known time, but new details show a human still chose the victim, set up the infrastructure, and supplied stolen credentials — meaning it wasn't quite the fully autonomous cybercrime debut that last week's",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Your family’s $300 stake in OpenAI",
+      "url": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "published_at": "2026-07-06T18:00:00.000Z",
+      "summary": "*This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,* [sign up here](https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/) *.*\n\nOpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in t",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "治理与进化，如何成为企业级 Agent 的两条生死线？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109911&idx=1&sn=61d1a85869078c6912927ec6a220a71d",
+      "published_at": "2026-07-06T10:44:00.000Z",
+      "summary": "原创Cynthia 2026-07-06 18:44 湖北\n\n如何让 Agent 低成本、低风险地在企业级场景运行。\n\n**作者｜Cynthia** **编辑｜郑玄**\n\nAI 降本增效的故事，在 B 端的进展，似乎比预想的要更慢一些。\n\n就在一周前，深度拥抱 AI 多年的福特汽车承认，过去三年，由于人工智能系统不够完善、频频在车辆质量检测上掉链子，福特已经雇佣、晋升或重新召回了超过 350 名 经验丰富的工程师。\n\n几乎同一时间，给出 70% 的企业将在 2026 年底在生产环境运行 AI Agents 预测的 Gartner，也在最新的 AI 报告中写下：到 2027 年，因为人工智能裁掉",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
+      "url": "https://huggingface.co/blog/lerobot-release-v060",
+      "published_at": "2026-07-07T00:00:00.000Z",
+      "summary": "",
+      "priority_score": 100,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Reddit is using LLMs to solve a problem LLMs largely created",
+      "url": "https://techcrunch.com/2026/07/06/reddit-is-using-llms-to-solve-a-problem-llms-largely-created/",
+      "published_at": "2026-07-06T15:22:08.000Z",
+      "summary": "In the AI era, platforms have no choice but to fight fire with fire to cull spam.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "腾讯混元Hy3发布：Agent能力和产品体验跃升",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802443&idx=1&sn=0d38771c47e94c4108453b12184fac88",
+      "published_at": "2026-07-06T08:05:00.000Z",
+      "summary": "腾讯技术工程 2026-07-06 16:05 广东\n\nHy3已在WorkBuddy/CodeBuddy、元宝、Marvis、ima等多个业务接入\n\n7月6日，腾讯混元Hy3 正式发布。\n\n相比preview版本，它展现出显著强于同尺寸模型且比肩（参数规模2—5倍的）旗舰模型的智能水平，定价进一步降低，总体稳定性和性价比大幅提升。Hy3已在WorkBuddy/CodeBuddy、元宝、Marvis、ima等多个业务接入，API已在腾讯云TokenHub上线，多个海外API平台也将陆续接入。\n\n### 模型智能再次全面跃升，智能体实用性实现质变\n\nHy3 是一个快慢思考融合的模型，采用 MoE ",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "李飞飞LeCun疯狂加注！这匹中国黑马，已在因果AI暗战6年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710873&idx=1&sn=f5fac6e598e30f5eaede9cf13c8912a5",
+      "published_at": "2026-07-06T04:07:00.000Z",
+      "summary": "ASI启示录 2026-07-06 12:07 北京\n\n### **新智元报道**\n\n##### **【新智元导读】** 全世界都在为世界模型疯狂，底层密码「因果」终于藏不住了！就在硅谷2026年才如梦初醒时，一家中国黑马早已在无人区潜伏6年，把AI大模型的命门彻底打透。\n\n没想到，「世界模型」带火了一个概念。\n\n从李飞飞World Labs的50亿估值，到LeCun出走创立AMI Labs的十亿种子轮，再到谷歌Genie 3让文本生成的世界第一次具备实时可交互、可导航的形态，世界模型正在成为AI下一阶段的核心战场。\n\n如今，全球顶尖的人才与资本，几乎在同一条赛道——「世界模型」上迅速集结。\n",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "You can now customize Siri’s pace and expressivity in the latest iOS 27 beta",
+      "url": "https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/",
+      "published_at": "2026-07-06T19:01:59.000Z",
+      "summary": "The update is part of Apple's broader effort to make Siri feel more natural and personal, as it rebuilds the assistant around generative AI.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Station F ramps up as a launchpad for Europe’s hottest AI startups",
+      "url": "https://techcrunch.com/2026/07/06/station-f-ramps-up-as-a-launchpad-for-europes-hottest-ai-startups/",
+      "published_at": "2026-07-06T13:00:00.000Z",
+      "summary": "Station F, a Paris-based startup hub founded by French billionaire Xavier Niel, is gearing up for a new edition of its F/ai accelerator program in a bid to strengthen its positioning as a stepping stone for promising AI startups.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "谁说3DGS必须靠LiDAR？如视Argus入选ECCV，让图像也能提供LiDAR级位姿约束",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042743&idx=2&sn=87a96420ae1377844a7c5c59335aaaa8",
+      "published_at": "2026-07-06T03:30:00.000Z",
+      "summary": "机器之心 2026-07-06 11:30 北京\n\n未来的3DGS 重建，无需LiDAR即可获取精确位姿\n\n机器之心发布\n\nLuma AI、Aholo 、Scaniverse、KIRI 等消费级 3DGS 应用的出现，已经说明 3D Gaussian Splatting 正在走向普通用户。用户拿起手机，就希望把物体、房间，甚至完整空间，变成可漫游的 3D 内容。\n\n但如果想要效果够好，3DGS 就需要精确的位姿约束，否则效果会大打折扣：\n\n左右滑动查看。图 1：某 APP 生成画面｜ 图源小红书 ；图 2： 墙体弯曲；图 3： 墙面鼓包。\n\n这些 badcase 看起来像是 3DGS 渲染没有",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "US investors will soon get access to SK Hynix, another memory maker riding the AI boom",
+      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
+      "published_at": "2026-07-06T23:21:03.000Z",
+      "summary": "SK Hynix is experiencing a boom credited to AI. It will ride that to a multibillion-dollar U.S. IPO, expected to take place on Friday.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Vercel CEO Guillermo Rauch on the fight to split off models from agents",
+      "url": "https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/",
+      "published_at": "2026-07-06T19:49:10.000Z",
+      "summary": "\"The reality is, when you're optimizing for production, you start looking at a price/performance,\" Guillermo Rauch tells TechCrunch.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "If you use Google, you’re training its AI. Here’s how to opt out.",
+      "url": "https://techcrunch.com/2026/07/06/if-you-use-google-youre-training-its-ai-heres-how-to-opt-out/",
+      "published_at": "2026-07-06T17:04:58.000Z",
+      "summary": "Consider this a belated PSA: A recent change to Google’s privacy settings is allowing the company to store more of your data, including media such as “images, files, and audio and video recordings,” to improve its AI models.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "South Korea’s hottest new bachelors are chip workers",
+      "url": "https://www.technologyreview.com/2026/07/06/1140000/south-korea-bachelors-samsung-skhynix-chip-workers/",
+      "published_at": "2026-07-06T09:00:00.000Z",
+      "summary": "Baek, a 35-year-old manager at the South Korean semiconductor titan SK Hynix, was enrolled in Sunoo, a matchmaking company based in Seoul, a year ago. In a move typical of anxious South Korean parents, his mother signed him up, hoping to find a good wife for her son.\n\nLately, says Baek (who asked to",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "世界模型评测的最大盲区，被这个新基准捅破了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651042743&idx=1&sn=fffb24f6015fd7f908ebabf57c4d01fd",
+      "published_at": "2026-07-06T03:30:00.000Z",
+      "summary": "原创关注世界模型的 2026-07-06 11:30 北京\n\nMemoBench 正在度量「生成好看的视频」到「维护一个真实的世界」之间的距离\n\n编辑｜泽南、Panda\n\n世界模型，真的拥有记忆吗？\n\n如果你正把一杯水倒进玻璃瓶，然后扭头看了一眼窗外，再转回来，瓶子里的水位应该已经发生变化。这是任何一个三岁孩子都具备的常识：东西不在眼前，不代表它消失了，更不代表它会停止变化。心理学把这种能力叫做「 物体 恒存 （object permanence） 」，是人类最早建立起来的认知能力之一。\n\n但对今天最先进的视频生成模型来说，这个任务却不简单。\n\n过去一年里，「世界模型」成为视频生成领域最热的关",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Every major tech layoff in 2026 that has name-checked AI",
+      "url": "https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "published_at": "2026-07-06T18:35:00.000Z",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "I spy",
+      "url": "https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy",
+      "published_at": "2026-07-06T16:00:00.000Z",
+      "summary": "I’m just doing my job, but turns out, it feels lousy holding other people’s privacy in your hands.\nI've long argued that Hollywood has[simultaneously set](https://www.theverge.com/23678696/smart-glasses-spy-films-gadgets-privacy)and[ruined our expectations for smart glasses](https://gizmodo.com/vide",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Microsoft lays off nearly 5,000 employees across Xbox, commercial sales",
+      "url": "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+      "published_at": "2026-07-06T15:32:43.000Z",
+      "summary": "Microsoft cut around 4,800 roles, or 2.1% of its global workforce, on Monday — the latest in a series of layoffs that’s stoking fears of AI replacing jobs. The layoffs will hit Xbox and commercial sales the hardest.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "PRX Part 4: Our Data Strategy",
+      "url": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+      "published_at": "2026-07-06T15:30:55.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft is laying off 4,800 employees",
+      "url": "https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox",
+      "published_at": "2026-07-06T13:30:00.000Z",
+      "summary": "Satya Nadella in February 2026. | Photo by Sven Hoppe / picture alliance via Getty Images\nA year after cutting around[9,100 employees](https://www.theverge.com/news/693535/microsoft-layoffs-july-2025-xbox), Microsoft is making further layoffs today as it begins its new financial year. The software m",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: South Korea’s hottest bachelors, and advancing eye transplants",
+      "url": "https://www.technologyreview.com/2026/07/06/1140172/the-download-south-korea-ai-chipworkers-eye-transplants/",
+      "published_at": "2026-07-06T13:00:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **South Korea’s hottest",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "机器人看视频学操作！伯克利首次打通互联网视频到灵巧手真机部署链路",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652710873&idx=3&sn=0f0b4560c711e9ffefe372e390982b9b",
+      "published_at": "2026-07-06T04:07:00.000Z",
+      "summary": "新智元 2026-07-06 12:07 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 只用单目RGB视频，Do as I Do将日常人类操作转化为 Sharpa Wave 可执行轨迹，补上类人灵巧操作从视频到机器人数据的关键链路。**\n\n人类学习灵巧操作，往往是从「看」开始的。\n\n孩子看别人打蛋、倒水、钉钉子，慢慢就能通过模仿学会这些动作。但机器人不一样。今天的机器人学习，更多还是靠「做」，比如成本较高的遥操作、大量仿真执行，或是在精心布置的场景中采集真机数据。\n\n事实上，可供机器人「看」的数据早已存在。YouTube、第一视角数据集以及生成式视频中，已经包含了海量人",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "AI，正在替你「养」孩子",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653109899&idx=1&sn=ca3e07d6f1cd0b0509da332ffe1c220f",
+      "published_at": "2026-07-06T04:00:00.000Z",
+      "summary": "原创宇航猿 2026-07-06 12:00 湖北\n\n「人工抚养」，未来可能成为一种特权？\n\n**作者｜宇航猿** **编辑｜靖宇**\n\n一个四五岁的孩子，抱着一只毛绒玩具说话。\n\n不是按按钮听预录的故事，是在聊天。玩具叫他的名字，记得昨天的对话，追问他今天在幼儿园开不开心。孩子咯咯笑着回答，像在跟一个真正的朋友讲秘密。\n\n这个画面，在 2025 年的中国家庭里，已经越来越常见了。\n\n中国青少年研究中心 2025 年对 8563 名中小学生的调查显示，超六成中小学生用过 AI，近两成经常用。\n\n更值得注意的是，在所有年龄段里，小学生用 AI 进行创作、与 AI 聊天或说心里话的比例最高——不是",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

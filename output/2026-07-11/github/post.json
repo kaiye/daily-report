@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-07-11T00:02:35.111Z",
+  "source_raw": "raw.json",
+  "source_count": 19,
+  "item_count": 13,
+  "language_breakdown": {
+    "TypeScript": 4,
+    "Rust": 1,
+    "JavaScript": 2,
+    "Shell": 2,
+    "Python": 1,
+    "Go": 2,
+    "C#": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "language": "TypeScript",
+      "stars_today": 328,
+      "stars_total": 7268,
+      "forks": 926
+    },
+    {
+      "rank": 2,
+      "repo": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars_today": 209,
+      "stars_total": 94207,
+      "forks": 4939
+    },
+    {
+      "rank": 4,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars_today": 1116,
+      "stars_total": 76807,
+      "forks": 8250
+    },
+    {
+      "rank": 6,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "stars_today": 1712,
+      "stars_total": 164585,
+      "forks": 14162
+    },
+    {
+      "rank": 7,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1013,
+      "stars_total": 251764,
+      "forks": 22464
+    },
+    {
+      "rank": 8,
+      "repo": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "TypeScript",
+      "stars_today": 177,
+      "stars_total": 109766,
+      "forks": 13632
+    },
+    {
+      "rank": 11,
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+      "language": "TypeScript",
+      "stars_today": 123,
+      "stars_total": 8222,
+      "forks": 756
+    },
+    {
+      "rank": 12,
+      "repo": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars_today": 118,
+      "stars_total": 28756,
+      "forks": 3162
+    },
+    {
+      "rank": 14,
+      "repo": "tailscale/tailscale",
+      "url": "https://github.com/tailscale/tailscale",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "language": "Go",
+      "stars_today": 143,
+      "stars_total": 33634,
+      "forks": 2912
+    },
+    {
+      "rank": 15,
+      "repo": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stars_today": 117,
+      "stars_total": 6735,
+      "forks": 929
+    },
+    {
+      "rank": 16,
+      "repo": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "language": "C#",
+      "stars_today": 1224,
+      "stars_total": 14417,
+      "forks": 979
+    },
+    {
+      "rank": 17,
+      "repo": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "stars_today": 172,
+      "stars_total": 49156,
+      "forks": 10673
+    },
+    {
+      "rank": 19,
+      "repo": "vercel/next.js",
+      "url": "https://github.com/vercel/next.js",
+      "description": "The React Framework",
+      "language": "JavaScript",
+      "stars_today": 191,
+      "stars_total": 140696,
+      "forks": 31525
+    }
+  ]
+}

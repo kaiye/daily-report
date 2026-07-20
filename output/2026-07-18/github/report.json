@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-07-18",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜项目最热的共同方向是围绕 AI 智能体与开发工作流的工具、平台和学习资源持续升温。",
+  "items": [
+    {
+      "repo": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog 是构建自驱动产品的领先平台，我们的开发者工具——AI 可观测性、分析、会话回放、开关、实验、错误追踪、日志等——捕获智能体诊断问题、发现机会并交付修复所需的全部上下文。",
+      "language": "Python",
+      "stars_today": 438,
+      "stars_total": 36178
+    },
+    {
+      "repo": "HenryNdubuaku/maths-cs-ai-compendium",
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "description": "成为顶尖的 AI/ML 研究工程师。",
+      "language": "TypeScript",
+      "stars_today": 200,
+      "stars_total": 6602
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "面向 Claude Code、Cursor 和 Codex 的反 AI 糊弄式设计能力。",
+      "language": "CSS",
+      "stars_today": 1485,
+      "stars_total": 11990
+    },
+    {
+      "repo": "github/copilot-sdk",
+      "url": "https://github.com/github/copilot-sdk",
+      "description": "用于将 GitHub Copilot Agent 集成到应用和服务中的多平台 SDK。",
+      "language": "Java",
+      "stars_today": 233,
+      "stars_total": 9789
+    },
+    {
+      "repo": "PrismML-Eng/Bonsai-demo",
+      "url": "https://github.com/PrismML-Eng/Bonsai-demo",
+      "description": "Bonsai 演示。",
+      "language": "Shell",
+      "stars_today": 278,
+      "stars_total": 1705
+    },
+    {
+      "repo": "openinterpreter/openinterpreter",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "description": "面向 Kimi K3 等开放模型的编码智能体。",
+      "language": "Rust",
+      "stars_today": 431,
+      "stars_total": 66346
+    },
+    {
+      "repo": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "基于 TurboQuant 构建的向量索引，使用 Rust 编写并提供 Python 绑定。",
+      "language": "Python",
+      "stars_today": 280,
+      "stars_total": 13292
+    },
+    {
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor：终身个性化辅导。",
+      "language": "Python",
+      "stars_today": 531,
+      "stars_total": 27345
+    }
+  ]
+}

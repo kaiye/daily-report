@@ -1,0 +1,117 @@
+{
+  "generated_at": "2026-07-18T00:03:02.956Z",
+  "source_raw": "raw.json",
+  "source_count": 14,
+  "item_count": 10,
+  "language_breakdown": {
+    "Markdown": 1,
+    "Python": 3,
+    "TypeScript": 2,
+    "CSS": 1,
+    "Java": 1,
+    "Shell": 1,
+    "Rust": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars_today": 1068,
+      "stars_total": 527317,
+      "forks": 49903
+    },
+    {
+      "rank": 2,
+      "repo": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "stars_today": 438,
+      "stars_total": 36178,
+      "forks": 3010
+    },
+    {
+      "rank": 3,
+      "repo": "HenryNdubuaku/maths-cs-ai-compendium",
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium",
+      "description": "Become a cracked AI/ML Research Engineer",
+      "language": "TypeScript",
+      "stars_today": 200,
+      "stars_total": 6602,
+      "forks": 810
+    },
+    {
+      "rank": 4,
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "stars_today": 1485,
+      "stars_total": 11990,
+      "forks": 602
+    },
+    {
+      "rank": 5,
+      "repo": "github/copilot-sdk",
+      "url": "https://github.com/github/copilot-sdk",
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "language": "Java",
+      "stars_today": 233,
+      "stars_total": 9789,
+      "forks": 1329
+    },
+    {
+      "rank": 7,
+      "repo": "PrismML-Eng/Bonsai-demo",
+      "url": "https://github.com/PrismML-Eng/Bonsai-demo",
+      "description": "Bonsai Demo",
+      "language": "Shell",
+      "stars_today": 278,
+      "stars_total": 1705,
+      "forks": 167
+    },
+    {
+      "rank": 11,
+      "repo": "openinterpreter/openinterpreter",
+      "url": "https://github.com/openinterpreter/openinterpreter",
+      "description": "A coding agent for open models like Kimi K3",
+      "language": "Rust",
+      "stars_today": 431,
+      "stars_total": 66346,
+      "forks": 5705
+    },
+    {
+      "rank": 12,
+      "repo": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Python",
+      "stars_today": 280,
+      "stars_total": 13292,
+      "forks": 1179
+    },
+    {
+      "rank": 13,
+      "repo": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "stars_today": 531,
+      "stars_total": 27345,
+      "forks": 3644
+    },
+    {
+      "rank": 14,
+      "repo": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars_today": 1074,
+      "stars_total": 74837,
+      "forks": 7544
+    }
+  ]
+}

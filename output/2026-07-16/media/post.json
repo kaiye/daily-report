@@ -1,0 +1,481 @@
+{
+  "generated_at": "2026-07-16T00:02:53.964Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 37,
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "3步推理生成加速20+倍！CoLT教会多模态大模型用「潜思维链」思考",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044420&idx=3&sn=df13d7f8f1e20f5078af81241e87ae5f",
+      "published_at": "2026-07-15T00:03:00.000Z",
+      "summary": "机器之心 2026-07-15 08:03 北京\n\nCoLT：Chain of Latent Thoughts，潜思维链\n\n一、研究背景：当 CoT 遇上「慢」与「窄」\n\n近年来，多模态大语言模型（MLLM）在视觉问答、图表理解、科学推理等任务上取得了令人瞩目的进展。Qwen3-VL、InternVL3、Step3-VL 等模型不断刷新开源榜单，而支撑其复杂推理能力的关键技术之一，正是 Chain-of-T hough t（CoT，思维链） ：让模型在给出最终答案之前，先以自然语言逐步展开中间推理过程。\n\n从 Wei 等人提出的 CoT 提示，到 DeepSeek-R1、OpenAI o1 所",
+      "priority_score": 428,
+      "matched_keywords": [
+        "OpenAI",
+        "DeepSeek",
+        "LLM",
+        "Qwen"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+      "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+      "published_at": "2026-07-15T17:09:37.000Z",
+      "summary": "OpenAI has built an[LLM super-hacker called GPT-Red](https://openai.com/index/unlocking-self-improvement-gpt-red/)that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. Ope",
+      "priority_score": 350,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT",
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI finally launches hardware… for Codex",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch",
+      "published_at": "2026-07-15T16:00:00.000Z",
+      "summary": "OpenAI is finally releasing some hardware. No, it isn't the mysterious AI-powered device the company is[developing with former Apple designer Jony Ive](https://www.theverge.com/news/827607/openai-hardware-prototype-chatgpt-jony-ive-sam-altman), a project already[tangled up in a messy lawsuit](https:",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "奥特曼又送GPT-5.6了！800万人挤爆ChatGPT，用量一天一清零",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652713046&idx=2&sn=df1e8082092d34291012516c9a5681d4",
+      "published_at": "2026-07-15T05:32:00.000Z",
+      "summary": "ASI启示录 2026-07-15 13:32 北京\n\n### **新智元报道**\n\n又送了！\n\n就在刚刚，Codex与ChatGPT Work的活跃用户大军，合体突破800万大关。\n\nOpenAI大手一挥，把全员额度统统清零重置。\n\n这什么神仙速度？\n\nGPT-5.6发布满打满算才6天，活跃用户就一路狂奔——\n\n12日冲到600万，13日破700万，到今天15日，直接飙上800万。\n\n然后每涨一波，官方就清零一波。\n\n对此，已经有网友给编成了顺口溜： 「一天一重置，限额远离我。」 **限速高墙轰然倒塌** **重置之神狂踩油门**\n\n干出这等好事的，正是Codex和ChatGPT的掌门人Ti",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "不是吧OpenAI首款硬件吹半天就是个AI音箱？？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903875&idx=2&sn=4f3d06b4a2b69c5f63f8ef38093f7e80",
+      "published_at": "2026-07-15T04:30:00.000Z",
+      "summary": "关注前沿科技 2026-07-15 12:30 北京\n\n难怪苹果急眼了\n\n##### 鱼羊 发自 凹非寺 量子位 | 公众号 QbitAI\n\nChatGPT的第一个物理身体被爆出来了： **一款音箱** 。\n\n移动式、无屏幕，可以用ChatGPT语音控制智能家居设备。\n\n听上去，它肯定不能是长这样吧：\n\n###### **△** 图片由AI生成\n\n尽管实际产品尚未亮相，但从目前的爆料来看，这确实很「Openpod」。难怪苹果急着要锤OpenAI窃密了。\n\n## 居家AI伴侣\n\n还是来看看这次OpenAI的首款硬件产品都有什么料。\n\n按照彭博社的说法，虽然看上去是音箱，但OpenAI真正想要打造",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
+      "published_at": "2026-07-15T23:59:44.000Z",
+      "summary": "Microsoft is looking to sell its in-house AI models as more efficient and cost-effective than its competitors' models.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "xAI sues a man for using Grok to generate CSAM deepfakes",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+      "published_at": "2026-07-15T21:33:20.000Z",
+      "summary": "The Elon Musk-owned xAI is suing a South Carolina man who allegedly used the company's Grok AI chatbot to generate child sexual abuse material (CSAM). In[a lawsuit](https://www.documentcloud.org/documents/28483528-spacexai-v-harwood/)reported[earlier by, Reuters](https://www.reuters.com/legal/litiga",
+      "priority_score": 200,
+      "matched_keywords": [
+        "xAI",
+        "Grok"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Inside Ode with Anthropic, the startup betting AI services are the future of enterprise",
+      "url": "https://techcrunch.com/video/inside-ode-with-anthropic-the-startup-betting-ai-services-are-the-future-of-enterprise/",
+      "published_at": "2026-07-15T15:00:00.000Z",
+      "summary": "Can a handful of engineers really do the work of an army of consultants?&#160;That’s&#160;the bet behind Ode with Anthropic —&#160;the joint venture dedicated to embedding forward-deployed engineers in enterprise firms, backed by&#160;Anthropic, Blackstone, Hellman &#38; Friedman, Goldman&#160;Sachs",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI researcher Miles Wang in talks to launch AI drug discovery startup valued at $2B",
+      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
+      "published_at": "2026-07-15T00:27:04.000Z",
+      "summary": "The funding discussions point to investor interest in applying AI to make breakthroughs in life sciences.",
+      "priority_score": 174,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Amid hardware legal battle, OpenAI releases a $230 keyboard for Codex",
+      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "published_at": "2026-07-15T19:41:38.000Z",
+      "summary": "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models",
+      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+      "published_at": "2026-07-15T13:10:47.000Z",
+      "summary": "Anthropic-backed Ode launches as AI labs bet that embedding forward-deployed engineers inside enterprises is the key to accelerating enterprise AI adoption.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple Intelligence approved for launch in China with Alibaba’s Qwen AI",
+      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "published_at": "2026-07-15T15:29:33.000Z",
+      "summary": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Qwen"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "OpenAI 首款硬件或为无屏智能音箱；梁文峰成 AI 公司新首富；内存涨价利好，iPhone 在华市场份额大幅提高 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110581&idx=1&sn=98da92ccba863bf32d98494883a5ef01",
+      "published_at": "2026-07-15T01:00:00.000Z",
+      "summary": "苏子华 2026-07-15 09:00 美国\n\n「妈祖」大模型落地全球\n\n## iPhone 在华市场份额增长，涨价冲击 Android 竞争对手\n\n根据市场调研机构 IDC 在 2026 年 7 月 14 日发布的最新报告显示，在第二季度，中国智能 手机市场出货量为 6600 万部，这已是该市场连续第五个季度出现下滑，同比降幅达到 4.3%。\n\n在这一充满挑战的宏观环境下，苹果与华为成为前十大厂商中仅有的两家实现增长的企业。其中，华为以 22.6% 的市场份额稳居第一，同比增长 19.4%；苹果则紧随其后，市场份额从去年同期的 13.9% 上升至 18.1%，实现了 24.9% 的大幅增长",
+      "priority_score": 128,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
+      "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
+      "published_at": "2026-07-15T12:00:00.000Z",
+      "summary": "The guy behind TCP/IP is working on a standard for identifying AI agents in the wild.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "超越OpenAI，中国00后团队攻破「记忆」难题！打造下一个AI互联网时刻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652713046&idx=1&sn=b203a8daf29fea55355a50e3b883f32f",
+      "published_at": "2026-07-15T05:32:00.000Z",
+      "summary": "ASI启示录 2026-07-15 13:32 北京\n\n### **新智元报道**\n\n80年前，阿根廷作家博尔赫斯写过一个寓言，叫《博闻强记的富内斯》。博尔赫斯笔下的富内斯，拥有过目不忘、堪称完美的记忆，却无法思考，因为思考依赖于遗忘和抽象。\n\n正如神经科学家Oliver Sacks在《意识的河流》中所言，创造要求遗忘：当我们回看旧笔记本，尘封多年的想法反而能重获新生，从新的视角被重新关照。这正是富内斯所不具备的能力。\n\n而「意识的河流」这个词来源于美国心理学奠基人William James的《心理学原理》。 他将记忆拆分为两个环节：\n\n保持（Retention）：经验在神经中留下痕迹；\n\n回",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "视频通用模型来了！DeepMind 再证「生成即理解」，何恺明参与",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044420&idx=2&sn=a3a01083258cc80a1c1c78fc4c3446c0",
+      "published_at": "2026-07-15T00:03:00.000Z",
+      "summary": "关注AI的 2026-07-15 08:03 北京\n\n能生成，就能理解。\n\n编辑｜山辉\n\n如果想开发一个视频理解应用，你会怎么做？\n\n一种常见的思路，是把视频中的信息逐层剥离。例如动作理解，原始像素转化为人体关键点，连续动作经过时序分割变成片段，整个过程要尽可能抛弃与任务无关的干扰信息。\n\n问题也随之出现：不同阶段依赖不同的数据标注和表示，数据之间难以对齐，误差的传递与累积，抛弃的干扰信息可能在下游重新变重要……\n\n理解世界，是否一定要从「做减法」开始？\n\n在几个月前，谷歌 DeepMind 放出了一篇重量级论文《Image Generators are Generalist Vision L",
+      "priority_score": 100,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Whatnot acquires Shaped to power real-time live shopping recommendations",
+      "url": "https://techcrunch.com/2026/07/15/whatnot-acquires-shaped-to-power-real-time-live-shopping-recommendations/",
+      "published_at": "2026-07-15T17:00:00.000Z",
+      "summary": "Livestream shopping platform Whatnot has acquired AI startup Shaped, a machine learning company focused on real-time recommendations and search. The deal will bolster Whatnot’s personalization and discovery features as it expands into new product categories.",
+      "priority_score": 52,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "10000小时人类数据，练出全球首个全身移动操作隐式世界动作模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044420&idx=1&sn=011101891539d31a417d203360357b6d",
+      "published_at": "2026-07-15T00:03:00.000Z",
+      "summary": "原创关注AI的 2026-07-15 08:03 北京\n\n这是全球首个面向人形机器人全身移动操作的隐式世界动作模型\n\n编辑｜杨文\n\n过去两年，人形机器人赛道的竞争焦点，正从整机硬件进一步延伸到模型能力。\n\n整机厂商密集发布新品，翻跟头、跳舞、跑马拉松的视频轮番刷屏。但在喧嚣背后，行业也逐渐形成一个共识：决定人形机器人能力上限的，已经不只是关节与电机。能否理解环境、预测变化，并协调全身完成任务，正在成为其走向通用的关键。\n\n世界模型、VLA 与人形机器人基础模型，也由此成为近两年这一领域最重要的技术方向之一。\n\n热闹之下，三道难题始终摆在整个行业面前。\n\n其一，人形机器人的真机演示数据采集成本高",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceX falls to $135 IPO price ahead of Starship launch",
+      "url": "https://techcrunch.com/2026/07/15/spacex-falls-to-135-ipo-price-ahead-of-starship-launch/",
+      "published_at": "2026-07-15T18:06:05.000Z",
+      "summary": "The stock has steadily fallen from the euphoric post-IPO high, showing that markets may be sobering up to the promises CEO Elon Musk made before and after SpaceX went public.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+      "published_at": "2026-07-15T16:20:18.000Z",
+      "summary": "Microsoft's monthly release of security fixes, dubbed Patch Tuesday, resolved a record 570 security vulnerabilities across the company's product line, thanks to discoveries with AI.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "首次，统一建模视角下的扩散语言模型后门威胁",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652713046&idx=3&sn=b0cd67c9e2394cb878ac2d3f4ff6ffc4",
+      "published_at": "2026-07-15T05:32:00.000Z",
+      "summary": "新智元 2026-07-15 13:32 北京\n\n### **新智元报道**\n\n扩散语言模型（DLM）正逐渐成为自回归（Autoregressive, AR）语言模型之外一种新兴的建模范式。\n\n不同于AR模型严格从左到右逐词生成，DLM通过 **迭代去噪** 对整条序列并行地逐步精修，从而天然支持并行生成、双向上下文建模与更灵活的解码控制。\n\nGemini Diffusion、SEED Diffusion以及LLaDA、Dream等开源模型的出现，使其受到学界与工业界的广泛关注。\n\n然而，与高期待相伴的是被忽视的安全风险。由于从零训练一个高质量 DLM 成本高昂，使用者通常会下载第三方开源的模",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "Xmax AI 发布 X2.0，把视频变成可以「玩」的界面",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110540&idx=1&sn=3284eec8b7872981af4ee1c067201951",
+      "published_at": "2026-07-15T01:40:00.000Z",
+      "summary": "原创汤一涛 2026-07-15 09:40 北京\n\n对着摄像头比了个手势，桌上凭空多了只企鹅\n\n**作者｜汤一涛** **编辑｜ 郑玄**\n\n在屏幕上拖拽一只小猫的照片，它跟着你的手指跑了起来。\n\n把手机摄像头对准一起吃饭的同事，屏幕里的他变成了狐耳少年。\n\n打开自由模式，输入一句「我手上有个火球」，掌心真的燃起了火焰。\n\n这些画面没有经过后期，也不是预渲染的特效， **每一帧都是 AI 根据摄像头捕捉的实时画面和你的操作即时生成的** 。\n\n实现这套技术方案的是本土团队 Xmax AI，创始人史佳欣为清华计算机本博，博士就读于清华 KEG 实验室。团队核心研发人员也大多出自清华大学 KEG",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling",
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "published_at": "2026-07-15T18:04:06.000Z",
+      "summary": "It's the company's first public proof point after a year and a half spent building AI infrastructure largely out of public view.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "What building Shippy taught us about building agents",
+      "url": "https://huggingface.co/blog/allenai/shippy-tech-blog",
+      "published_at": "2026-07-15T17:29:41.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Model Routing Is Simple. Until It Isn’t.",
+      "url": "https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt",
+      "published_at": "2026-07-15T17:27:01.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "阿里荣膺 ACL 2026 最佳资源论文 | HSCodeComp 揭开智能体「分层规则应用」的能力鸿沟",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247510248&idx=1&sn=bf7c5cc932df692cbf3ba61e3bfc973e",
+      "published_at": "2026-07-15T10:08:00.000Z",
+      "summary": "原创兰天 2026-07-15 18:08 浙江\n\nHSCodeComp揭示了当前Agent的能力边界，也为构建真正可靠的专业AI系统提供了科学的评测标杆。\n\n这是2026年的第 36 篇文章\n\n（ 本文阅读时间：约 15 分钟 ）\n开篇\n当 Deep Search Agent\n\n撞上真实世界的专家规则\n\n过去两年，大模型 Agent 在深度搜索（Deep Search）方向进展飞速——BrowseComp、GAIA 等基准不断被刷新，Agent 学会调用搜索、浏览等工具，多步迭代地解决问题。但当我们把目光投向 法律、医疗、税务、跨境电商 这些真正的高价值垂类场景任务时，会发现先进 Agent",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "你选择的基础架构，决定你能长成什么样的 AI 公司",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110598&idx=1&sn=1b906a7ba56d18ce877374d39f9d5a1b",
+      "published_at": "2026-07-15T06:00:00.000Z",
+      "summary": "原创极客公园 2026-07-15 14:00 湖北\n\n​当 Agent 走向生产，云与数据库需要被一起重新考虑。\n\n当 Agent 走向生产，云与数据库需要被一起重新考虑。\n\n**作者｜李粒、王黎黎、吴嘉程、鲁超** **编辑｜ **郑玄、 Cynthia****\n\n你有没有想过一个问题：一次大模型问答只需 15 秒，可为何一个执行了 20 轮思考的 Agent，完成一项任务有时却要半小时乃至数小时，甚至中途直接失败？\n\n**答案是：用户在等模型响应，而模型在等 CPU 调度的一系列 Infra 组件。**\n\n行业的多份分析显示，当一个 Agent 在执行任务时，核心推理虽然由 GPU 承担",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "手握英伟达宁德时代相同剧本，具身智能的第一个「基建商」出现了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903875&idx=1&sn=7b4310fb18c59407f80da2adaff1aedc",
+      "published_at": "2026-07-15T04:30:00.000Z",
+      "summary": "原创关注前沿科技 2026-07-15 12:30 北京\n\n“Robotaxi第一股”文远知行孵化\n\n##### 贾浩楠 发自 凹非寺 量子位 | 公众号 QbitAI\n\n2026年中，一家看似处于AI产业链“中游”的公司—— **景烁科技** ，在独立运营后，引发了行业热议。\n\n它的背景足够硬核： **文远知行内部孵化，CEO是文远001号员工** 。赛道也足够有故事、被追捧： **具身智能** 。\n\n但景烁选择的切入点，在喧嚣的赛道里显得格外冷静：不做整机，不做单纯的大脑，而是押注物理AI的基础设施——数据和世界模型技术体系。\n\n在这个言必称“大脑”和“通用模型”的时代，景烁被频繁讨论，揭",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "7.17 WAIC首夜，一线AI从业者真话局：AI聪明够了，行动呢？｜线下报名",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903875&idx=3&sn=fda3051a38bd6af4642f59b178246ed1",
+      "published_at": "2026-07-15T04:30:00.000Z",
+      "summary": "量子位 2026-07-15 12:30 北京\n\n一场小范围、更聚焦的真话局\n\n##### 林樾 发自 凹非寺 量子位 | 公众号 QbitAI\n\n就在下周， **世界人工智能大会（WAIC）** 就要在上海启动了。\n\n每年这种重磅的AI大会，量子位自然不会缺席。今年量子位的报道团，也会来到线下，为大家带来一手的科技大会讯息。\n\n但在展台之外，我们想办一场小范围、更聚焦的“真话局”，追问一个问题： **AI聪明够了，行动呢？**\n\n一方面， Agent正在走出聊天框，进入工作流、与人协同完成任务。\n\n另一方面， AI正在走向物理世界，学习理解环境、与世界交互。\n\n从“会回答”到“能完成”，从“",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "AI slop movies are the new direct-to-video cash grabs",
+      "url": "https://www.theverge.com/entertainment/965616/ash-koosha-odysseus-the-fall-foundtain-zero-tilly-norwood",
+      "published_at": "2026-07-15T20:00:00.000Z",
+      "summary": "This weekend, cinephiles across the world will march to their local theaters to feast their eyes on Christopher Nolan's new adaptation of[The Odyssey](https://www.theverge.com/entertainment/849026/the-trailer-for-christopher-nolans-the-odyssey-dropped-this-morning) *.*It's on track to[rake in anywhe",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Suno snatched millions of songs from YouTube, Genius, and Deezer",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
+      "published_at": "2026-07-15T17:48:01.000Z",
+      "summary": "So when is fair use actually just stealing? | Cath Virginia / The Verge | Photo from Getty Images\nSuno data obtained in a hacking incident has exposed that the AI music generator was trained by scraping millions of songs and lyrics from online audio platforms, including YouTube Music, Deezer, and Ge",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hack suggests AI music generator Suno scraped YouTube for training data",
+      "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+      "published_at": "2026-07-15T17:00:34.000Z",
+      "summary": "The hacker used an employee's credentials to access source code, which revealed how Suno scraped decades of audio.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Reelful’s AI turns your camera roll into short-form videos for social media",
+      "url": "https://techcrunch.com/2026/07/15/reelfuls-ai-turns-your-camera-roll-into-short-form-videos-for-social-media/",
+      "published_at": "2026-07-15T13:00:00.000Z",
+      "summary": "The app is designed for people who want to create social content, but find traditional video editing tools too complex or time-consuming.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Rime picks up $24M Series A to help enterprises field customer calls",
+      "url": "https://techcrunch.com/2026/07/15/rime-picks-up-24m-series-a-to-help-enterprises-field-customer-calls/",
+      "published_at": "2026-07-15T13:00:00.000Z",
+      "summary": "Rime is handling over 100 million calls each month across multiple companies.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: a useful quantum machine and a record-breaking subsea tunnel",
+      "url": "https://www.technologyreview.com/2026/07/15/1140498/the-download-useful-quantum-computer-subsea-tunnel/",
+      "published_at": "2026-07-15T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **PsiQuantum has a plan",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
+      "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
+      "published_at": "2026-07-15T12:00:00.000Z",
+      "summary": "The startup has reached a $120 million annualized revenue run rate and more than 200,000 paying customers.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247903875&idx=4&sn=c4f6e29297fcf260161d260fa6f80d71",
+      "published_at": "2026-07-15T04:30:00.000Z",
+      "summary": "关注前沿科技 2026-07-15 12:30 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

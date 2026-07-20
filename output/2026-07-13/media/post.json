@@ -1,0 +1,129 @@
+{
+  "generated_at": "2026-07-13T00:02:00.023Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 10,
+  "items": [
+    {
+      "source": "新智元",
+      "title": "给多智能体LLM装上「图记忆工作流路由器」，搞定调用、协作规划",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712432&idx=3&sn=16ed508986e394a232ff179f9b6f6847",
+      "published_at": "2026-07-12T01:07:00.000Z",
+      "summary": "新智元 2026-07-12 09:07 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 GraphPlanner通过引入图记忆网络，将多智能体LLM的路由过程升级为动态工作流生成。不仅选择调用哪个模型，还决定每个模型应承担的角色，实现任务分解与协作规划。**\n\n当大语言模型从「单模型回答」走向「多模型协作」，一个新的问题正在浮现：\n\n系统不只需要知道该调用哪个LLM，还需要知道该让这个LLM扮演什么角色、在什么步骤调用、如何与其他模型协作。\n\n现有LLM Router大多关注query-level的模型选择：给定一个问题，判断该交给Qwen、LLaMA、Gemma、Mi",
+      "priority_score": 328,
+      "matched_keywords": [
+        "Llama",
+        "LLM",
+        "Qwen"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "全网骂Claude变笨，Anthropic下场揭秘：坑你的不是模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712432&idx=2&sn=b54298542d95ea1f2c6b5ab8d0a17c04",
+      "published_at": "2026-07-12T01:07:00.000Z",
+      "summary": "ASI启示录 2026-07-12 09:07 北京\n\n### **新智元报道**\n\n##### **【新智元导读】** 换更大的模型就等于更聪明？这可能是Claude Code用户最深的误会。很多人为此一路换到最贵的Fable，近日，Anthropic，亲手澄清了这个误区。\n\n你有没有过这种时刻：Claude Code写代码写砸了，第一反应，就是赶紧换个更强的模型。\n\n但这一招，很多时候并不管用，甚至是在白花钱。\n\n近日，Anthropic官方发了一篇长文专门来讲这件事。\n\n起因是太多人把Claude Code里的两个选项搞混了：\n\n一个是模型选择（Model），一个是努力度（Effort）",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "SpaceX 星舰第 13 次试飞定于当地时间 7 月 16 日；OpenAI 招聘家庭产品经理；小米汽车澎程 N90 MAX 去伪装后实车图曝光 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110416&idx=1&sn=704462d2c4520de1f11b64b71cb0ae39",
+      "published_at": "2026-07-12T00:32:00.000Z",
+      "summary": "美漪 2026-07-12 08:32 上海\n\n华为寻求多方力量筹建 DRAM 晶圆厂；Meta 正开发多款下一代 VR 头显；吉利银河 TT Ultra 全球竞速版公布\n\n## SpaceX 星舰第 13 次试飞定于当地时间 7 月 16 日\n\n7 月 12 日消息，SpaceX 今日宣布，「星舰」（Starship）第 13 次试飞最快将于当地时间 7 月 16 日（周四）进行，发射窗口长达 90 分钟，将于美国中部时间下午 5:45 开启（北京时间 7 月 17 日 6:45）。\n\nSpaceX 将在发射前约 30 分钟开始直播，用户可通过官网及 X 平台 @SpaceX 观看。与所有研",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "98年哈工大教授带队，破晓智能要把触觉写进机器人基础模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043906&idx=1&sn=f8bd8f3ee9b7bb634d9a4dea3eeb3545",
+      "published_at": "2026-07-12T03:33:00.000Z",
+      "summary": "机器之心 2026-07-12 11:33 新加坡\n\n视觉告诉机器人动作像不像成功，触觉决定成功是否真的发生。\n\n机器之心发布\n\n机器人伸出食指，按向喷壶上的扳机。镜头里，指尖已经贴上去了，机器人也 “认为” 自己完成了动作，但水没有喷出来。\n\n从画面上看，似乎一切都对。但问题在于，指尖只是碰到了按钮，却没有真正把它压下去。对摄像头来说，“手指贴在按钮上” 和 “按钮已经被按下”，可能几乎是同一幅画面；触觉却能直接告诉机器人：有没有接触、压在了哪里、力到底够不够。\n\n瞄准这类 “看起来做对了，物理上却没完成” 的失败。破晓智能（PHANES AI）创始人、哈工大（深圳）长聘教授杨朔及其团队发布",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Apple’s failed self-driving car program left a legacy of powerful AI chips",
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "published_at": "2026-07-12T16:27:06.000Z",
+      "summary": "Apple's self-driving car program[never really got off the ground](https://www.theverge.com/2024/3/3/24085995/apple-car-project-titan-timeline-driverless-ev-doomed), but it may have been what made the company's chips the powerful AI performers they are. Early in the development of the self-driving pl",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "ICML 2026｜让奖励模型更准更高效，TikTok、NUS提出置信度门控",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651043906&idx=2&sn=b664726db41281efe1ba814d26ae887c",
+      "published_at": "2026-07-12T03:33:00.000Z",
+      "summary": "机器之心 2026-07-12 11:33 新加坡\n\n不要让模型无差别地思考，而要把计算花在真正困难的地方。\n\n本文第一作者朱子瑞为新加坡国立大学四年级博士生，本科毕业于清华大学，研究方向为多模态大模型和后训练优化。通信作者为 TikTok 的 Kanchan Sarkar 和 Kun Xu，以及新加坡国立大学校长青年教授尤洋老师。\n\n文章速览\n\n- 奖励模型（Reward Model, RM）是大语言模型对齐的核心组件，负责为模型输出提供符合人类偏好的评价信号。现有方法各有短板：标量判别式 RM 高效稳定但可解释性有限；生成式 judge 能给出判断理由，却需为每个样本生成长 reasoni",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Lorde says Ray-Ban Meta AI glasses are ‘not sexy’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy",
+      "published_at": "2026-07-12T20:10:19.000Z",
+      "summary": "Lorde performing at the 2026 Governors Ball. | Photo: Siegfried Anthony/Billboard via Getty Images\nLorde was performing at the Real Cool Festival in Madrid on Thursday and took some time during her set to[speak out against AI glasses](https://stereogum.com/2504954/lorde-speaks-out-against-fucked-up-",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The fight against AI data centers is just beginning",
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "published_at": "2026-07-12T12:00:00.000Z",
+      "summary": "A yard sign opposing a planned data center is displayed along Route 54 in Mount Carmel Township Northumberland County. | Image: Getty Images\n*This is* [The Stepback](https://www.theverge.com/the-stepback-newsletter) *, a weekly newsletter breaking down one essential story from the tech world. For mo",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "比亚迪，怎么把车卖给英国人？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110421&idx=1&sn=fb8749d3fb1dffb02922b05c3e66091d",
+      "published_at": "2026-07-12T09:22:00.000Z",
+      "summary": "原创靖宇 2026-07-12 17:22 湖北\n\n手法重要，心法更重要。\n\n**作者｜靖宇**\n\n三年前，比亚迪在英国的品牌认知度几乎为零。\n\n三年后的今天，比亚迪一年卖掉超过 5 万台车，成为英国市场增速最快的汽车品牌，超越特斯拉、宝马、大众，登顶英国新能源车销量第一。\n\n**更重要的是，一个中国品牌，在老牌汽车工业国家做到这件事，并不是因为「便宜」。** [在古德伍德速度节结束后](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653110360&amp;idx=1&amp;sn=4e9c6e91a100132ba3",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "全球最大数据中心黄了！美国电网卡住AI，GobiX在中国戈壁破局",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652712432&idx=1&sn=b14efc98f2c0867f6e0008816e3c0580",
+      "published_at": "2026-07-12T01:07:00.000Z",
+      "summary": "ASI启示录 2026-07-12 09:07 北京\n\n### **新智元报道**\n\n##### **【新智元导读】马斯克向天要电、孙正义向地烧气，当全球都在为AI的电发愁时，远景把答案写在了戈壁滩上。**\n\n37.7°C，干趴了一台国家级AI超算。\n\n6月底，英国遭遇有记录以来最热的六月。剑桥大学的Dawn——全英最快的AI超算之一——冷却系统当场热瘫，上千块GPU被迫休了一周多的高温假，350多个科研项目全线急刹。\n\n最魔幻的是，这台超算上跑着的项目，就包括气候变化模拟。\n\n**用来预测全球变暖的机器，被全球变暖热晕了。**\n\n几乎同一时间，大西洋对岸，美国人的电费账单也在发烫。\n\n俄亥俄",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

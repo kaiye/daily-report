@@ -1,0 +1,147 @@
+{
+  "generated_at": "2026-07-20T02:07:54.796Z",
+  "source_raw": "raw.json",
+  "source_count": 18,
+  "item_count": 13,
+  "language_breakdown": {
+    "Python": 6,
+    "TypeScript": 2,
+    "Rust": 1,
+    "Batchfile": 1,
+    "Markdown": 1,
+    "Jupyter Notebook": 1,
+    "HTML": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "stars_today": 663,
+      "stars_total": 21327,
+      "forks": 2187
+    },
+    {
+      "rank": 2,
+      "repo": "kvcache-ai/ktransformers",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "language": "Python",
+      "stars_today": 360,
+      "stars_total": 18401,
+      "forks": 1453
+    },
+    {
+      "rank": 3,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars_today": 501,
+      "stars_total": 39717,
+      "forks": 6631
+    },
+    {
+      "rank": 4,
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "language": "TypeScript",
+      "stars_today": 610,
+      "stars_total": 43403,
+      "forks": 5299
+    },
+    {
+      "rank": 5,
+      "repo": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl &amp; research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "language": "TypeScript",
+      "stars_today": 595,
+      "stars_total": 1881,
+      "forks": 114
+    },
+    {
+      "rank": 8,
+      "repo": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "language": "Python",
+      "stars_today": 411,
+      "stars_total": 36951,
+      "forks": 3055
+    },
+    {
+      "rank": 11,
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "language": "Rust",
+      "stars_today": 235,
+      "stars_total": 8937,
+      "forks": 1037
+    },
+    {
+      "rank": 13,
+      "repo": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "language": "Python",
+      "stars_today": 410,
+      "stars_total": 9908,
+      "forks": 1195
+    },
+    {
+      "rank": 14,
+      "repo": "Flowseal/zapret-discord-youtube",
+      "url": "https://github.com/Flowseal/zapret-discord-youtube",
+      "description": "NEW : Ускорение Telegram Desktop - https://github.com/Flowseal/tg-ws-proxy Альтернатива https://github.com/bol-van/zapret-win-bundle Также вы можете материально поддержать оригинального разработчика zapret тут\n\nЯ не веду никакие другие страницы/группы в телеграм/ютуб каналы Если вы наткнулись на что-то вне этой страницы гитхаба, что распространяется от моего лица - ФЕЙК .",
+      "language": "Batchfile",
+      "stars_today": 106,
+      "stars_total": 31038,
+      "forks": 2374
+    },
+    {
+      "rank": 15,
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars_today": 754,
+      "stars_total": 528960,
+      "forks": 50041
+    },
+    {
+      "rank": 16,
+      "repo": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars_today": 358,
+      "stars_total": 23645,
+      "forks": 2681
+    },
+    {
+      "rank": 17,
+      "repo": "Canner/WrenAI",
+      "url": "https://github.com/Canner/WrenAI",
+      "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
+      "language": "Python",
+      "stars_today": 121,
+      "stars_total": 16225,
+      "forks": 1842
+    },
+    {
+      "rank": 18,
+      "repo": "PKUFlyingPig/cs-self-learning",
+      "url": "https://github.com/PKUFlyingPig/cs-self-learning",
+      "description": "计算机自学指南",
+      "language": "HTML",
+      "stars_today": 134,
+      "stars_total": 74192,
+      "forks": 7941
+    }
+  ]
+}

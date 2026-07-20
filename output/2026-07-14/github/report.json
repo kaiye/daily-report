@@ -1,0 +1,48 @@
+{
+  "report_date": "2026-07-14",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今天保留下来的热门项目主要集中在 AI 代理、LLM 应用与面向 Claude Code、Codex、Cursor 等工具链的 AI 开发技能增强。",
+  "items": [
+    {
+      "repo": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "《Vibe-Trading：你的个人交易代理》。",
+      "language": "Python",
+      "stars_today": 1153,
+      "stars_total": 21711
+    },
+    {
+      "repo": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ 个你真的可以运行的 AI Agent 与 RAG 应用——克隆、定制、发布。",
+      "language": "Python",
+      "stars_today": 996,
+      "stars_total": 119562
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "url": "https://github.com/Nutlope/hallmark",
+      "description": "面向 Claude Code、Cursor 和 Codex 的反 AI 低质设计技能。",
+      "language": "CSS",
+      "stars_today": 794,
+      "stars_total": 5108
+    },
+    {
+      "repo": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "AI 编码助手技能（支持 Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等），可将任意代码、SQL schema、R 脚本、Shell 脚本、文档、论文、图片或视频文件夹转成可查询的知识图谱。",
+      "language": "Python",
+      "stars_today": 1095,
+      "stars_total": 84666
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "description": "面向 Claude Code 和 AI 代理的营销技能，涵盖 CRO、文案、SEO、分析与增长工程。",
+      "language": "JavaScript",
+      "stars_today": 299,
+      "stars_total": 38532
+    }
+  ]
+}

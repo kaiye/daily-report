@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-07-10",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热方向集中在面向 Claude 和其他 AI 代理的开发、办公、网页抓取、渗透测试与多模态能力扩展。",
+  "items": [
+    {
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "基于 Claude Code 构建的 AI 求职申请框架：Fork 后填写个人资料，让 Claude 评估职位、定制简历、撰写求职信并帮助准备面试。",
+      "language": "TypeScript",
+      "stars_today": 3716,
+      "stars_total": 18916
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "面向 AI 编码代理的生产级工程技能。",
+      "language": "JavaScript",
+      "stars_today": 2554,
+      "stars_total": 75842
+    },
+    {
+      "repo": "VoltAgent/awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "description": "收集并分析流行品牌设计系统的 DESIGN.md 文件，放入项目后可让编码代理生成匹配的 UI。",
+      "language": "Unknown",
+      "stars_today": 1391,
+      "stars_total": 99635
+    },
+    {
+      "repo": "iOfficeAI/OfficeCLI",
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "description": "OfficeCLI 是首个也是最好的专为 AI 代理读取、编辑和自动化 Word、Excel、PowerPoint 文件而构建的 Office 套件，免费、开源、单二进制且无需安装 Office。",
+      "language": "C#",
+      "stars_today": 1929,
+      "stars_total": 13391
+    },
+    {
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "这是 Claude 的 MCP 服务器，赋予其终端控制、文件系统搜索和差异文件编辑能力。",
+      "language": "TypeScript",
+      "stars_today": 185,
+      "stars_total": 6567
+    },
+    {
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "一组展示 Claude 有趣且有效用法的笔记本和食谱。",
+      "language": "Jupyter Notebook",
+      "stars_today": 194,
+      "stars_total": 47140
+    },
+    {
+      "repo": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "能够执行复杂渗透测试任务的全自主 AI 代理系统。",
+      "language": "Go",
+      "stars_today": 535,
+      "stars_total": 19375
+    },
+    {
+      "repo": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "🚀🤖 Crawl4AI：开源、适合 LLM 的网页爬虫与抓取器，欢迎加入：https://discord.gg/jP8KfhDhyN。",
+      "language": "Python",
+      "stars_today": 215,
+      "stars_total": 71809
+    },
+    {
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "让 Claude 能观看任何视频：/watch 会下载视频、提取帧、转录并将全部内容交给 Claude。",
+      "language": "Python",
+      "stars_today": 718,
+      "stars_total": 6679
+    },
+    {
+      "repo": "kyutai-labs/pocket-tts",
+      "url": "https://github.com/kyutai-labs/pocket-tts",
+      "description": "能装进你的 CPU（和口袋）的 TTS。",
+      "language": "Python",
+      "stars_today": 235,
+      "stars_total": 6966
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "提取自 Anthropic、OpenAI、Google、xAI、Cursor、Copilot、VS Code、Perplexity 等的系统提示词，并定期更新。",
+      "language": "JavaScript",
+      "stars_today": 1125,
+      "stars_total": 55136
+    }
+  ]
+}

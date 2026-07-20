@@ -1,0 +1,138 @@
+{
+  "generated_at": "2026-07-12T00:02:25.307Z",
+  "source_raw": "raw.json",
+  "source_count": 24,
+  "item_count": 12,
+  "language_breakdown": {
+    "C++": 3,
+    "Python": 1,
+    "TypeScript": 2,
+    "Go": 1,
+    "Rust": 2,
+    "JavaScript": 1,
+    "Jupyter Notebook": 1,
+    "Shell": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "catchorg/Catch2",
+      "url": "https://github.com/catchorg/Catch2",
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "language": "C++",
+      "stars_today": 113,
+      "stars_total": 21023,
+      "forks": 3430
+    },
+    {
+      "rank": 2,
+      "repo": "abseil/abseil-cpp",
+      "url": "https://github.com/abseil/abseil-cpp",
+      "description": "Abseil Common Libraries (C++)",
+      "language": "C++",
+      "stars_today": 118,
+      "stars_total": 17794,
+      "forks": 3211
+    },
+    {
+      "rank": 3,
+      "repo": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "language": "Python",
+      "stars_today": 232,
+      "stars_total": 29010,
+      "forks": 3183
+    },
+    {
+      "rank": 4,
+      "repo": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "stars_today": 340,
+      "stars_total": 7050,
+      "forks": 945
+    },
+    {
+      "rank": 5,
+      "repo": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "language": "Go",
+      "stars_today": 229,
+      "stars_total": 49357,
+      "forks": 10681
+    },
+    {
+      "rank": 6,
+      "repo": "zeux/meshoptimizer",
+      "url": "https://github.com/zeux/meshoptimizer",
+      "description": "Mesh optimization library that makes meshes smaller and faster to render",
+      "language": "C++",
+      "stars_today": 110,
+      "stars_total": 8134,
+      "forks": 788
+    },
+    {
+      "rank": 8,
+      "repo": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "language": "TypeScript",
+      "stars_today": 909,
+      "stars_total": 7765,
+      "forks": 966
+    },
+    {
+      "rank": 10,
+      "repo": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "language": "Rust",
+      "stars_today": 658,
+      "stars_total": 94556,
+      "forks": 4959
+    },
+    {
+      "rank": 15,
+      "repo": "vercel/next.js",
+      "url": "https://github.com/vercel/next.js",
+      "description": "The React Framework",
+      "language": "JavaScript",
+      "stars_today": 334,
+      "stars_total": 140943,
+      "forks": 31548
+    },
+    {
+      "rank": 17,
+      "repo": "malisper/pgrust",
+      "url": "https://github.com/malisper/pgrust",
+      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "language": "Rust",
+      "stars_today": 774,
+      "stars_total": 2035,
+      "forks": 50
+    },
+    {
+      "rank": 20,
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "language": "Jupyter Notebook",
+      "stars_today": 219,
+      "stars_total": 47917,
+      "forks": 5673
+    },
+    {
+      "rank": 21,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 740,
+      "stars_total": 252432,
+      "forks": 22530
+    }
+  ]
+}

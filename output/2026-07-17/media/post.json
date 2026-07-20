@@ -1,0 +1,459 @@
+{
+  "generated_at": "2026-07-17T00:02:11.526Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 36,
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "How a former DeepMind researcher raised at a $300M pre-seed valuation before launching a product",
+      "url": "https://techcrunch.com/2026/07/16/how-a-former-deepmind-researcher-raised-at-a-300m-pre-seed-valuation-before-launching-a-product/",
+      "published_at": "2026-07-16T15:02:00.000Z",
+      "summary": "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence.",
+      "priority_score": 352,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT",
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Why is OpenAI selling a ChatGPT basketball?",
+      "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+      "published_at": "2026-07-16T15:31:09.000Z",
+      "summary": "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball.",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Claude can now use your 1Password credentials for you",
+      "url": "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration",
+      "published_at": "2026-07-16T13:00:00.000Z",
+      "summary": "1Password has launched a new browser integration for Claude that allows the Anthropic chatbot to access stored security credentials like usernames and passwords. The 1Password for Claude feature means that users can authorize Claude to complete multi-step tasks like booking travel and managing onlin",
+      "priority_score": 328,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude",
+        "AGI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: OpenAI unveils GPT-Red and heat pumps rise in the US",
+      "url": "https://www.technologyreview.com/2026/07/16/1140600/the-download-openai-unveils-gpt-red-heat-pumps-rise-us/",
+      "published_at": "2026-07-16T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Meet GPT-Red: an LLM ",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT",
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "OpenAI官方教你8招玩透ChatGPT！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904149&idx=2&sn=4defdcfe6a2c177cd00738e9c870990e",
+      "published_at": "2026-07-16T04:28:00.000Z",
+      "summary": "原创关注前沿科技 2026-07-16 12:28 北京\n\n轻松驾驭ChatGPT不是梦。\n\n##### 葛文婷 发自 凹非寺 量子位 | 公众号 QbitAI\n\n**号外号外，OpenAI最新提示词指南更新了！**\n\n如果你还没驯服ChatGPT ，\n\n或者还在被它像毛线团一样越理越乱的回答折腾得苦不堪言，\n\n那么今天这篇 OpenAI 最新提示词指南， 你一定要好好收藏！\n\n我们不仅从官网总结了 八个 能让你的ChatGPT乖乖听话、生成准确内容的提示词小妙招；\n\n还教你用官方的 “一键生成”功能 ，让AI自动帮你写出一套专业、好用的指令，从此告别设计提示词的痛苦。\n\n一起来看看吧！\n\n#",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "Lychee-FD：哈工大张民教授团队在全双工语音大模型领域取得重要突破，斩获ACL 2026杰出论文奖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044730&idx=3&sn=f62cd93208613e626722624d195fd062",
+      "published_at": "2026-07-16T04:53:00.000Z",
+      "summary": "机器之心 2026-07-16 12:53 新加坡\n\n原生端到端全双工语音大模型 Lychee-FD。\n\n导读\n\n全双工语音对话是人类最自然的交流方式，是语音对话研究的梦想。相比文本输入，语音天然更接近人的交流方式，但现有语音对话常常停留在 “一问一答、听完再说” 的轮次式交互范式。\n\n近期，OpenAI 发布的 GPT-Live 又一次将实时语音交互推至聚光灯下，也进一步印证了一个趋势：语音交互正在从轮次式问答，走向连续、双向、实时的自然交流。\n\n但要真正实现这一目标，真正的难点，不只是让系统 “看起来可以被打断”，而是让持续倾听、语义理解、语音生成和节奏控制成为模型内部原生具备的能力。如何",
+      "priority_score": 228,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "国行苹果 AI 终于来了，千问将作底层模型；美团、青桔、哈啰集体涨价；曝 DeepSeek 筹备 IPO｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110633&idx=1&sn=9ca95c022ae4dac14321e76cecae2b7e",
+      "published_at": "2026-07-16T00:23:00.000Z",
+      "summary": "Moonshot 2026-07-16 08:23 重庆\n\n英伟达 CEO 黄仁勋：Vera Rubin 计算平台进展顺利，已投入生产；\n\n谷歌图片服务上线 25 周年，AI 概览新增 Nano Banana 生图功能；\n\n谷歌 DeepMind CEO 哈萨比斯呼吁美国牵头建立全球 AI 监管机构\n\n## 国行苹果 AI 终于来了：「AI 手机」首批备案名单公布\n\n7 月 15 日下午，「网信中国」公众号发出一份公告：网信部门会同有关部门按照《生成式人工智能服务管理暂行办法》要求，有序开展生成式人工智能服务备案工作，现将新增的「Apple 智能」等 7 款提供手机端侧生成式人工智能服务备案信",
+      "priority_score": 228,
+      "matched_keywords": [
+        "DeepMind",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+      "published_at": "2026-07-16T14:26:29.000Z",
+      "summary": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Anthropic",
+        "Kimi"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "AI人才战最疯的一年：HR盯论文抢人，秋招大幅提前，顶级毕业生第一站该去哪儿？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044730&idx=1&sn=de462f6e542a9cb263625ec21e8a4eb4",
+      "published_at": "2026-07-16T04:53:00.000Z",
+      "summary": "原创机器之心 2026-07-16 12:53 新加坡\n\n不止要 Offer，还要「事业」\n\n编辑｜张倩\n\n过去一年，AI 人才市场仿佛进入了自己的「乱纪元」。\n\n去年，Meta 开出的天价薪酬包，几乎重新定义了整个行业对于顶尖 AI 人才的市场预期，人才争夺战也因此变得前所未有地激烈。今年，我们更是看到，这些人才在 OpenAI、Anthropic、谷歌、Meta 等机构之间快速流动，仿佛每天都有大佬官宣新去向。\n\n在国内，传统的招聘时钟也已经不再适用。春节还没到，字节、华为、拼多多、腾讯等多家大厂便提前启动春招；秋招也不断前移，传统意义上的「金九银十」已然变成「金七银八」或者更早。听说还有",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Yes, you can now order DoorDash from the command line",
+      "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "published_at": "2026-07-16T15:38:55.000Z",
+      "summary": "DoorDash is opening a limited beta of dd-cli, a command-line tool that lets developers and AI agents search stores, build carts, and place orders from the terminal, marking another step toward software designed for AI agents instead of just humans.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "Agent 治理：用 Hook 堵住 LLM 的偷懒、越权与失忆",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802659&idx=1&sn=8c2b4c6e4501a69632fe05b2e6e8e3b0",
+      "published_at": "2026-07-16T09:52:00.000Z",
+      "summary": "原创腾讯程序员 2026-07-16 17:52 广东\n\nprompt 管不住的，框架来堵\n\n作者： xiangnzhang\n本文是 DECO（一个跑在生产上的数仓 Agent 引擎）实践系列之一，聚焦 **护栏层** ：怎么用 Agent 框架的 Hook 切面，把 LLM 处理长文本时的\"偷懒\"（截断、略写、残缺）、对生产环境的\"越权\"（未确认发布、回刷）以及上下文传递中的\"失忆\"（改了表不查风险、产出了物不知汇报），在代码层确定性兜底——prompt 管不住的，框架来堵。\n\nDECO 作为腾讯一站式数据工程 Agent 智能协作平台，以业务数仓知识库为基础，致力于解决从需求到数据交付全过",
+      "priority_score": 150,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’",
+      "url": "https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/",
+      "published_at": "2026-07-16T14:40:00.000Z",
+      "summary": "While everyone in AI is chasing \"superintelligence,\" Alexandre LeBrun, CEO of Yann LeCun’s world model startup, AMI Labs, dismisses the word.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Our approach to bioresilience",
+      "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "published_at": "2026-07-16T09:30:42.000Z",
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "从 Data Lake 到 State Lake：面向 Agent 时代的存储基础设施重构",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520930&idx=1&sn=bd7a4aa7ed7ce2d4ca65e807f53392f6",
+      "published_at": "2026-07-16T10:59:00.000Z",
+      "summary": "原创 火山引擎存储 2026-07-16 18:59 北京\n\n\n\n核心观点：Agent 正在把 AI 从\"回答问题\"推向\"完成任务\"，存储也随之从\"提供容量、承载文件\"的资源层，升级为贯穿 Agent 运行、协作与持续优化的关键底座。火山引擎存储团队以 Storage Agent Infra 为载体，围绕 Sandbox Store、Artifact Store、Agent 观测 & 评测三大能力方向，重新组织存储能力，支撑 Agent 时代的真实业务。\n\n\n过去几年，AI 应用的形态正在快速变化。从早期的模型调用，到对话式助手，再到具备工具调用、任务执行、环境交互和长期记忆能力的 Agent",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Applied Computing wants to give oil and gas operators an AI model for the entire plant",
+      "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+      "published_at": "2026-07-16T04:00:00.000Z",
+      "summary": "Applied Computing has raised a $20M Series A to build a foundation AI model for the oil, gas and petrochemical industry.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Roblox launches an AI-powered game-creation feature in its mobile app",
+      "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+      "published_at": "2026-07-16T18:22:06.000Z",
+      "summary": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+      "published_at": "2026-07-16T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/omni-blog-header_OarEe2t.max-600x600.format-webp.webp\">Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s AI Mode now lets you link and interact with select apps",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
+      "published_at": "2026-07-16T16:00:00.000Z",
+      "summary": "With this new update, Google is expanding AI Mode beyond answering questions and into completing tasks across the apps they use regularly.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+      "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "published_at": "2026-07-16T13:17:59.000Z",
+      "summary": "The deal, which was rumored to be in the works last year, marks an important step for Apple's AI ambitions in a key market.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "7月18日，150位全球AI顶流青年齐聚张江AI小镇，这场派对只发「船票」不发「门票」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651044730&idx=2&sn=437545ebc327dc179e7ad0709e902732",
+      "published_at": "2026-07-16T04:53:00.000Z",
+      "summary": "机器之心 2026-07-16 12:53 新加坡\n\n云帆第七年：这个派对里的150人，正在重新定义AI的边界\n\n机器之心发布\n\n7 月 18 日，周六晚。 上海浦东，张江 AI 创新小镇。\n\n这不是一场正襟危坐的论坛，也不是一次互换名片的峰会。\n\n而是一场只属于 AI 青年伙伴的 派对 。 150 张 “船票” ，只发给真正掌舵 AI 未来的人。 这里没有观众席，也没有 “围观者”，只有 150 位被选中的同行者 ，共同奔赴一场真诚、开放、不设防的 AI 之夜。\n\n2026 WAIC 青年伙伴派对暨云帆奖之夜定于 7 月 18 日（周六）18:30 至 21:30 在上海浦东张江 AI 创新",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "published_at": "2026-07-16T16:01:21.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Newer Models, Same Advantage",
+      "url": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "published_at": "2026-07-16T11:49:48.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "9.9 元/月，用 AgentPlan + OpenViking 给销售团队配一个不会忘事的 AI 助手",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520930&idx=2&sn=d28d61e9a893bc39fdbe6797404755cb",
+      "published_at": "2026-07-16T10:59:00.000Z",
+      "summary": "原创OpenViking 2026-07-16 18:59 北京\n\n你的销售团队是不是也这样？\n\n销售小王下午 3 点打开飞书，准备跟进 A 公司。\n\n他需要先翻两周前的群聊找客户口头提过的预算范围，再翻上周的会议纪要确认对接人换了谁，再去云文档里看产品经理写的需求分析，最后打开 Excel 查一下上个月录入的跟进记录——四个窗口，来回切换，20 分钟过去了，还没开始打电话。\n\n这不是小王一个人的问题。\n\n几乎所有销售团队都面临同一个困境：\n\n**客户的资料散落在飞书群聊、会议纪要、云文档、客户需求表和手动上传的材料里** ，全靠人肉整理。\n\n我们做了一件事：\n\n**用火山方舟 AgentPl",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "腾讯PCG联合深圳河套学院：在全双工语音大模型领域取得重要突破，获 ACL 2026 杰出论文奖",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802659&idx=2&sn=d7eb836cbf1c5d47f8d6c2ea645375d8",
+      "published_at": "2026-07-16T09:52:00.000Z",
+      "summary": "腾讯技术工程 2026-07-16 17:52 广东\n\n从语言理解延伸到语音交互领域\n\n近日，自然语言处理领域顶级国际学术会议 ACL 2026 公布获奖结果，腾讯PCG技术线-AI创新应用中心联合深圳河套学院AI训练平台张民教授团队凭借全双工语音大模型研究成果 《Hierarchical Acoustic-Semantic Modeling: Modality Separation and Semantic Coherence for Full-Duplex SLMs》 斩获大会杰出论文奖。ACL(国际计算语言学协会年会)迄今 64 届，是 NLP 领域历史最悠久、学术地位最高的国际顶会，被",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google Vids now lets you star in your own AI videos",
+      "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+      "published_at": "2026-07-16T18:32:54.000Z",
+      "summary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "New York governor says shes using AI to analyze every single rule in the state",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+      "published_at": "2026-07-16T17:58:37.000Z",
+      "summary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an[interview with, Bloomberg, 's, Odd Lots](https://www.bloomberg.com/news/videos/2026-07-15/ny-gov-on-using-ai-to-clean-up-the-state-s-l",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Connect more of your apps to Search",
+      "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+      "published_at": "2026-07-16T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ConnectedAppshero.max-600x600.format-webp.webp\">You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google is renaming NotebookLM to Gemini Notebook",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+      "published_at": "2026-07-16T16:00:00.000Z",
+      "summary": "Google is giving its AI note-taking app a new name. The[company announced on Thursday](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/)that NotebookLM is becoming Gemini Notebook, but will remain a standalone app even as it integrates more deeply across Gem",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google ordered to open Android and Search to rivals in Europe",
+      "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+      "published_at": "2026-07-16T12:06:51.000Z",
+      "summary": "Google must give rival AI assistants and search engines greater access to key parts of Android and Google Search after the European Union ordered the company to comply with the bloc's digital antitrust rules.\n\nThe two[decisions](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1634), hand",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Computer cops",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965066/ai-police-cops",
+      "published_at": "2026-07-16T11:00:00.000Z",
+      "summary": "I stood before a hulking glass and brick structure in the heart of Fort Worth, Texas. Thousands gathered inside to see what had been[billed](https://www.policechiefmagazine.org/presidents-message-policing-edge-innovation/)as \"the future of policing in the digital age.\" As press, I was prohibited fro",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "AI 创业者，涌向张江 AI 创新小镇",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110644&idx=1&sn=fcaf6a9f8d00e06ab2c09a6705e254a3",
+      "published_at": "2026-07-16T10:40:00.000Z",
+      "summary": "原创徐珊 2026-07-16 18:40 湖北\n\n钱在哪里，客户在哪里？在这两平方公里，每个创业阶段的难题都有人陪着解。\n\n**作者｜徐珊** **编辑｜郑玄**\n\n在张江人工智能创新小镇，一个创业团队起步的成本可以低到什么程度。进入人才驿站后，免费的共享工位坐半年，公司注册不花一分钱，搬进独立办公室之后，房租最低一块钱一平方米一天。\n\n构序科技就是这么开始创业的。半年前，他们几个人挤在东塔五楼的共享工位上，四周坐着一群和他们一样刚出来创业的人。第一款产品 AI 剪辑工具 AIScar，五分钟剪出一个长视频。不到半年，他们搬进了八楼，有了自己的门牌。「最爽的是终于不用再约会议室了。」创始人丁",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Why heat pumps are still so hot in the US",
+      "url": "https://www.technologyreview.com/2026/07/16/1140505/heat-pump-sales-us/",
+      "published_at": "2026-07-16T10:00:00.000Z",
+      "summary": "It feels as if it should be illegal to even think about heating appliances during the height of summer—seriously, these heat waves in New York have been brutal—but we need to talk about heat pumps.\n\nThe appliances use electricity for heating, they’re incredibly efficient, and they’re on the rise. (F",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "一个 152 年的家电品牌，给出 AI 营销落地新解法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110641&idx=1&sn=9f69f75061251fc8e2694746e67865ac",
+      "published_at": "2026-07-16T07:30:00.000Z",
+      "summary": "原创徐珊 2026-07-16 15:30 湖北\n\n​AI 营销的主导权，正重回企业手里。\n\nAI 营销的主导权，正重回企业手里。\n\n**作者｜ 徐珊** **编辑｜ **郑玄****\n\n一个 152 年的家电品牌，最近用 AI 技术，让每一位直销员都成了传递品牌价值的「超级媒介」。\n\n这个成果听起来有点夸张。要知道，过去做一条像样的营销视频，从找外包、拍摄到剪辑，一整套下来是笔不小的开销；而如今，同样质量的一条，几乎可以忽略不计。更关键的是，过去同样一笔预算只能做几条，如今却能做出成百上千条，而且每一条视频的效果，并不打折。\n\n就在一众同行还在观望 AI 营销落地的时候，A.O. 史密斯，一",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "一位失忆患者，揭开了AI记忆的误区",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904149&idx=1&sn=c6d2288659f65f4e8aa149c633b8e424",
+      "published_at": "2026-07-16T04:28:00.000Z",
+      "summary": "原创关注前沿科技 2026-07-16 12:28 北京\n\n记忆能够独立成层\n\n##### 闻乐 发自 凹非寺 量子位 | 公众号 QbitAI\n\n1953年， **亨利·莫莱森（简称H.M.）** 走进了一间实验室。\n\n彼时的他不会想到，往后自己会成为神经科学发展史上标志性的案例。\n\n为根治从小反复发作的癫痫，医生切除了他大脑内侧颞叶的部分组织。\n\n手术成功控制住了癫痫，但也带来了无法逆转的副作用：他再也无法形成长期的全新记忆。\n\n童年的往事、旧日的住所他记忆犹新；可几分钟前刚聊过的人和事，转瞬便会彻底清零。\n\n科研人员短暂离开再折返回来，H.M.总会像初次见面一样，礼貌地重新问候眼前这个人",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "WAIC'26探展召集令！和量子位一起逛展、直播、聊AI",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904149&idx=3&sn=6e2a6c19cfdae7439a6fda04dde64184",
+      "published_at": "2026-07-16T04:28:00.000Z",
+      "summary": "关注前沿科技 2026-07-16 12:28 北京\n\n7.17-20日，上海见！\n\n7月17日至20日，世界人工智能大会WAIC 2026将在上海举行。\n\n量子位报道小队即将来上海啦！我们将围绕前沿技术、创新产品与产业趋势，带来一线探展、论坛直播、产品体验和现场报道。\n\n## 来量子位展位，线下见面\n\n今年量子位在WAIC现场展位在这里 👇\n\n📍 展位地址：世博展览馆 H1-A134\n\n欢迎各位合作伙伴、开发者和读者来到展位，与量子位报道小队线下见面，交流产品、技术和行业动态。\n\n## 现场报道计划\n\n大会期间，量子位将策划 **多轮探展直播** 和 **论坛直播** ，走进重点展区和企",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247904149&idx=4&sn=a5a7e9a7813b0d5d4ced3e8fe12305a1",
+      "published_at": "2026-07-16T04:28:00.000Z",
+      "summary": "关注前沿科技 2026-07-16 12:28 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-07-04T00:02:56.308Z",
+  "source_raw": "raw.json",
+  "source_count": 20,
+  "item_count": 15,
+  "language_breakdown": {
+    "Python": 7,
+    "JavaScript": 2,
+    "TypeScript": 4,
+    "Rust": 1,
+    "Shell": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "usestrix/strix",
+      "url": "https://github.com/usestrix/strix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "stars_today": 2803,
+      "stars_total": 34587,
+      "forks": 3546
+    },
+    {
+      "rank": 2,
+      "repo": "openai/codex-plugin-cc",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "language": "JavaScript",
+      "stars_today": 634,
+      "stars_total": 23193,
+      "forks": 1403
+    },
+    {
+      "rank": 3,
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "JavaScript",
+      "stars_today": 2863,
+      "stars_total": 82911,
+      "forks": 4626
+    },
+    {
+      "rank": 5,
+      "repo": "actions/checkout",
+      "url": "https://github.com/actions/checkout",
+      "description": "Action for checking out a repo",
+      "language": "TypeScript",
+      "stars_today": 129,
+      "stars_total": 8260,
+      "forks": 2535
+    },
+    {
+      "rank": 6,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars_today": 405,
+      "stars_total": 45481,
+      "forks": 2955
+    },
+    {
+      "rank": 8,
+      "repo": "facebook/astryx",
+      "url": "https://github.com/facebook/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars_today": 885,
+      "stars_total": 4600,
+      "forks": 269
+    },
+    {
+      "rank": 9,
+      "repo": "rommapp/romm",
+      "url": "https://github.com/rommapp/romm",
+      "description": "A beautiful, powerful, self-hosted rom manager and player.",
+      "language": "Python",
+      "stars_today": 239,
+      "stars_total": 9802,
+      "forks": 475
+    },
+    {
+      "rank": 10,
+      "repo": "harvard-edge/cs249r_book",
+      "url": "https://github.com/harvard-edge/cs249r_book",
+      "description": "Machine Learning Systems",
+      "language": "Python",
+      "stars_today": 793,
+      "stars_total": 26151,
+      "forks": 3120
+    },
+    {
+      "rank": 11,
+      "repo": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "language": "Python",
+      "stars_today": 293,
+      "stars_total": 101426,
+      "forks": 28249
+    },
+    {
+      "rank": 13,
+      "repo": "safishamsi/graphify",
+      "url": "https://github.com/safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "language": "Python",
+      "stars_today": 945,
+      "stars_total": 77103,
+      "forks": 7635
+    },
+    {
+      "rank": 14,
+      "repo": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "Python",
+      "stars_today": 221,
+      "stars_total": 135829,
+      "forks": 21855
+    },
+    {
+      "rank": 15,
+      "repo": "ogulcancelik/herdr",
+      "url": "https://github.com/ogulcancelik/herdr",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "stars_today": 478,
+      "stars_total": 10766,
+      "forks": 637
+    },
+    {
+      "rank": 16,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 1209,
+      "stars_total": 245515,
+      "forks": 21761
+    },
+    {
+      "rank": 17,
+      "repo": "agentskills/agentskills",
+      "url": "https://github.com/agentskills/agentskills",
+      "description": "Specification and documentation for Agent Skills",
+      "language": "Python",
+      "stars_today": 406,
+      "stars_total": 21983,
+      "forks": 1394
+    },
+    {
+      "rank": 18,
+      "repo": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "language": "TypeScript",
+      "stars_today": 169,
+      "stars_total": 105464,
+      "forks": 12970
+    }
+  ]
+}

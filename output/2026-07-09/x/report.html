@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUL 09, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">共同信号是 AI 正从通用聊天快速走向语音交互、编码代理、销售自动化和机器人导航等可直接落地的产品形态。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@OpenAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI</span>：OpenAI 推出新一代语音模型 GPT-Live，今天起在 ChatGPT 中上线，主打更自然的人机对话体验。
+          </p>
+          <p class="item-metric">👁 2.5M · ❤️ 15.8K</p>
+          <a class="item-link" href="https://twitter.com/OpenAI/status/2074907025537224840">https://twitter.com/OpenAI/status/2074907025537224840</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@SpaceXAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">SpaceXAI</span>：SpaceXAI 发布 Grok 4.5，这是首个专为编码和智能体训练的模型，强调与 Cursor 训练、前沿智能、高速度和高性价比。
+          </p>
+          <p class="item-metric">👁 7.4M · ❤️ 15.4K</p>
+          <a class="item-link" href="https://twitter.com/SpaceXAI/status/2074915721684086811">https://twitter.com/SpaceXAI/status/2074915721684086811</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@Av1dlive</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Avid</span>：作者分享把 Fable 5 在 Claude Code 里的智能体工作流整理成 9 张可编辑图，覆盖日常循环、信任账本、长期目标和验证脚本，建议直接收藏。
+          </p>
+          <p class="item-metric">👁 246.9K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/Av1dlive/status/2074796427595874636">https://twitter.com/Av1dlive/status/2074796427595874636</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@opencode</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenCode</span>：OpenCode 宣布已接入 Grok 4.5，SuperGrok 订阅用户也可以直接在 OpenCode 中使用。
+          </p>
+          <p class="item-metric">👁 72.4K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/opencode/status/2074949468093313500">https://twitter.com/opencode/status/2074949468093313500</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@origamichat</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Origami</span>：Origami 推出面向 Claude 的 Sales API，让 Claude Fable 能直接找线索、创建触达序列并获取验证过的联系人信息，称这是获客方式的重大变化。
+          </p>
+          <p class="item-metric">👁 936.4K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/origamichat/status/2074693302662893759">https://twitter.com/origamichat/status/2074693302662893759</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@india_plus_</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">India Plus</span>：Perplexity AI CEO Aravind Srinivas 直言，比尔·盖茨塑造 9 点到 5 点的办公桌生活方式，是为了销售微软软件。
+          </p>
+          <p class="item-metric">👁 111.5K · ❤️ 2.7K</p>
+          <a class="item-link" href="https://twitter.com/india_plus_/status/2074780780526543038">https://twitter.com/india_plus_/status/2074780780526543038</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@AiswaryaVenkit1</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Aiswarya Venkitesh</span>：一位 Anthropic 工程师强调，不该只是提示 Claude，而要构建会自我提示的系统；她用 45 分钟讲解能记忆、纠错并越跑越聪明的智能体架构。
+          </p>
+          <p class="item-metric">👁 197.9K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/AiswaryaVenkit1/status/2074682383069032800">https://twitter.com/AiswaryaVenkit1/status/2074682383069032800</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@MistralAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Mistral AI</span>：Mistral 发布 Robostral Navigate，这是其首个具身导航模型，用 8B 模型和单个 RGB 摄像头，让机器人按自然语言自主完成导航任务。
+          </p>
+          <p class="item-metric">👁 159.3K · ❤️ 1.9K</p>
+          <a class="item-link" href="https://twitter.com/MistralAI/status/2074856309438980145">https://twitter.com/MistralAI/status/2074856309438980145</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@OpenAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI</span>：OpenAI 宣布 GPT-5.6 Sol 以及 Terra、Luna 将于本周四公开发布，并正在全球扩大预览访问。
+          </p>
+          <p class="item-metric">👁 6.8M · ❤️ 44.2K</p>
+          <a class="item-link" href="https://twitter.com/OpenAI/status/2074704958419792299">https://twitter.com/OpenAI/status/2074704958419792299</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>
