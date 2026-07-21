@@ -1,0 +1,2237 @@
+{
+  "tweet_count": 10,
+  "tweets": [
+    {
+      "type": "tweet",
+      "id": "2030043553473204323",
+      "url": "https://x.com/ExtremeBlitz__/status/2030043553473204323",
+      "twitterUrl": "https://twitter.com/ExtremeBlitz__/status/2030043553473204323",
+      "text": "ChatGPT: “Sorry, I cant talk about that”\n\nGrok: https://t.co/uCdXQf4gV9",
+      "source": "Twitter for iPhone",
+      "retweetCount": 23939,
+      "replyCount": 324,
+      "likeCount": 228700,
+      "quoteCount": 92,
+      "viewCount": 6424857,
+      "createdAt": "Fri Mar 06 22:11:14 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 20643,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2030043553473204323",
+      "displayTextRange": [
+        0,
+        47
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "ExtremeBlitz__",
+        "url": "https://x.com/ExtremeBlitz__",
+        "twitterUrl": "https://twitter.com/ExtremeBlitz__",
+        "id": "1099082900056739840",
+        "name": "duck",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1705880241531502592/7pn9NVaJ_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1099082900056739840/1677946852",
+        "description": "",
+        "location": "",
+        "followers": 558353,
+        "following": 609,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Fri Feb 22 23:05:58 +0000 2019",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 18736,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 5869,
+        "statusesCount": 9416,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2025487336595722646"
+        ],
+        "profile_bio": {
+          "description": "real",
+          "entities": {
+            "description": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/uCdXQf4gV9",
+            "expanded_url": "https://twitter.com/ExtremeBlitz__/status/2030043553473204323/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "2030042752012914688",
+            "indices": [
+              48,
+              71
+            ],
+            "media_key": "13_2030042752012914688",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARwsKSCYlhAAAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABHCwpIJiWEAAAAA==",
+                "media_key": "13_2030042752012914688"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2030042752012914688/img/gn0l4nDZwzAVHksA.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/uCdXQf4gV9",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 16150,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2030042752012914688/pl/S4gwF7qbLpw1rePY.m3u8?tag=21&v=030"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2030042752012914688/vid/avc1/480x270/nPQ8x1boDaHl5TCS.mp4?tag=21"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2030042752012914688/vid/avc1/640x360/k3FdSfJx5sGS43m6.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2030042752012914688/vid/avc1/1280x720/fTEsGpHOyu9L8RZC.mp4?tag=21"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2030042752012914688/vid/avc1/1920x1080/DwTLoL4VVYwEq2vg.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null,
+      "_engagement": 252963
+    },
+    {
+      "type": "tweet",
+      "id": "2030139120937292237",
+      "url": "https://x.com/TukiFromKL/status/2030139120937292237",
+      "twitterUrl": "https://twitter.com/TukiFromKL/status/2030139120937292237",
+      "text": "🚨Let me explain what just happened because I don't think people understand how insane this is.\n\n> A woman asked ChatGPT for legal help. It told her to fire her real lawyer. She did.\n\n> Then it wrote 40+ court filings citing laws that don't exist. Cases that never happened. Judges that never ruled.\n\n> The other side spent $300,000 responding to completely made up legal documents.\n\n> An AI hallucinated an entire legal career and nobody noticed for months.\n\n> OpenAI is now being sued for $10 million.\n\nAnd this is the same company that just signed a deal with the Pentagon.\n\nThey can't even stop their AI from faking court cases. But sure, give it access to military intelligence. What could possibly go wrong.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 23707,
+      "replyCount": 1216,
+      "likeCount": 166897,
+      "quoteCount": 771,
+      "viewCount": 9526560,
+      "createdAt": "Sat Mar 07 04:30:59 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 15488,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2030139120937292237",
+      "displayTextRange": [
+        0,
+        279
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "TukiFromKL",
+        "url": "https://x.com/TukiFromKL",
+        "twitterUrl": "https://twitter.com/TukiFromKL",
+        "id": "1718038369689542656",
+        "name": "Tuki",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2010360585150423040/I8z2QKZw_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1718038369689542656/1768600420",
+        "description": "",
+        "location": "Hello@kreos.agency",
+        "followers": 20413,
+        "following": 319,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Fri Oct 27 23:00:11 +0000 2023",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 44463,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 836,
+        "statusesCount": 44902,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2030669613927727323"
+        ],
+        "profile_bio": {
+          "description": "20 | I love AI | Building https://t.co/GZNUxaGWnO - AI that build and runs your startup while you sleep.",
+          "entities": {
+            "description": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [
+                {
+                  "display_url": "Maveai.io",
+                  "expanded_url": "http://Maveai.io",
+                  "indices": [
+                    26,
+                    49
+                  ],
+                  "url": "https://t.co/GZNUxaGWnO"
+                }
+              ],
+              "user_mentions": []
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "kreos.agency",
+                  "expanded_url": "http://www.kreos.agency",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/XQXdPEjfHK"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.twitter.com/IzEV4U2kmG",
+            "expanded_url": "https://twitter.com/TukiFromKL/status/2030139120937292237/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "2030139021184098305",
+            "indices": [
+              280,
+              303
+            ],
+            "media_key": "13_2030139021184098305",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARwsgK8CVmABAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABHCyArwJWYAEAAA==",
+                "media_key": "13_2030139021184098305"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2030139021184098305/img/b-stqUcgTyQhbDC6.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1920
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1920
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/IzEV4U2kmG",
+            "video_info": {
+              "aspect_ratio": [
+                16,
+                9
+              ],
+              "duration_millis": 11726,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2030139021184098305/pl/TMR5mzU3QcC7j9lt.m3u8?tag=21&v=cfc"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2030139021184098305/vid/avc1/480x270/5jvmJlomFW5xsGEX.mp4?tag=21"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2030139021184098305/vid/avc1/640x360/ZTDQ5L2s74ZGZg3B.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2030139021184098305/vid/avc1/1280x720/CAs11_iJKHnHEky1.mp4?tag=21"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2030139021184098305/vid/avc1/1920x1080/JcZWjqTXJ3J6eFwy.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "2030054751967105473",
+        "url": "https://x.com/Polymarket/status/2030054751967105473",
+        "twitterUrl": "https://twitter.com/Polymarket/status/2030054751967105473",
+        "text": "JUST IN: Lawsuit claims ChatGPT pretended to be a lawyer and persuaded a woman into firing her real attorney while citing fake case law.",
+        "source": "Twitter for iPhone",
+        "retweetCount": 1219,
+        "replyCount": 587,
+        "likeCount": 12810,
+        "quoteCount": 552,
+        "viewCount": 12064964,
+        "createdAt": "Fri Mar 06 22:55:44 +0000 2026",
+        "lang": "en",
+        "bookmarkCount": 1400,
+        "isReply": false,
+        "inReplyToId": null,
+        "conversationId": "2030054751967105473",
+        "displayTextRange": [
+          0,
+          136
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "Polymarket",
+          "url": "https://x.com/Polymarket",
+          "twitterUrl": "https://twitter.com/Polymarket",
+          "id": "1261335549215989760",
+          "name": "Polymarket",
+          "isVerified": false,
+          "isBlueVerified": true,
+          "verifiedType": "Business",
+          "profilePicture": "https://pbs.twimg.com/profile_images/2005664281002491904/bz2ZO_nU_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/1261335549215989760/1770156146",
+          "description": "",
+          "location": "",
+          "followers": 1208237,
+          "following": 5582,
+          "status": "",
+          "canDm": true,
+          "canMediaTag": true,
+          "createdAt": "Fri May 15 16:40:13 +0000 2020",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 82574,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 5151,
+          "statusesCount": 22901,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [
+            "2031024110285860877"
+          ],
+          "profile_bio": {
+            "description": "The World's Largest Prediction Market. Trade politics, news, crypto, culture, sports, tech, & more. Discord: https://t.co/tzKrbDf7dZ",
+            "entities": {
+              "description": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                  {
+                    "display_url": "polymarket.com/r/discord",
+                    "expanded_url": "http://polymarket.com/r/discord",
+                    "indices": [
+                      109,
+                      132
+                    ],
+                    "url": "https://t.co/tzKrbDf7dZ"
+                  }
+                ],
+                "user_mentions": []
+              },
+              "url": {
+                "urls": [
+                  {
+                    "display_url": "polymarket.com",
+                    "expanded_url": "https://polymarket.com/",
+                    "indices": [
+                      0,
+                      23
+                    ],
+                    "url": "https://t.co/tO2XOjEYHw"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {},
+        "card": null,
+        "place": {},
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": []
+        },
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null,
+      "_engagement": 191820
+    },
+    {
+      "type": "tweet",
+      "id": "2030747211810709699",
+      "url": "https://x.com/elonmusk/status/2030747211810709699",
+      "twitterUrl": "https://twitter.com/elonmusk/status/2030747211810709699",
+      "text": "The lunatic left that took over Twitter was Wormtongue to the World.\n\nFiring @Jack was the final straw. He was the last bulwark.\n\nNow Bret Taylor is chair of @OpenAI …",
+      "source": "Twitter for iPhone",
+      "retweetCount": 18611,
+      "replyCount": 3691,
+      "likeCount": 118608,
+      "quoteCount": 469,
+      "viewCount": 17673408,
+      "createdAt": "Sun Mar 08 20:47:19 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 9585,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2030747211810709699",
+      "displayTextRange": [
+        0,
+        167
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "elonmusk",
+        "url": "https://x.com/elonmusk",
+        "twitterUrl": "https://twitter.com/elonmusk",
+        "id": "44196397",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/44196397/1739948056",
+        "description": "",
+        "location": "",
+        "followers": 236270797,
+        "following": 1292,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Tue Jun 02 20:12:29 +0000 2009",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 215477,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 4388,
+        "statusesCount": 98779,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2030159267689632121"
+        ],
+        "profile_bio": {
+          "description": "",
+          "entities": {
+            "description": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "12",
+            "indices": [
+              77,
+              82
+            ],
+            "name": "jack",
+            "screen_name": "jack"
+          },
+          {
+            "id_str": "4398626122",
+            "indices": [
+              158,
+              165
+            ],
+            "name": "OpenAI",
+            "screen_name": "OpenAI"
+          }
+        ]
+      },
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "2030746166447542738",
+        "url": "https://x.com/mattvanswol/status/2030746166447542738",
+        "twitterUrl": "https://twitter.com/mattvanswol/status/2030746166447542738",
+        "text": "@C_3C_3 The graph of people, but especially kids, identifying as transgender literally nosedives as soon as Elon buys Twitter.\n\nAlmost like it was a social contagion…\n\n…and people couldn’t talk about it because they were being censored\n\nImagine that. https://t.co/yteMQgbfl0",
+        "source": "Twitter for iPhone",
+        "retweetCount": 2558,
+        "replyCount": 588,
+        "likeCount": 15059,
+        "quoteCount": 248,
+        "viewCount": 15647046,
+        "createdAt": "Sun Mar 08 20:43:10 +0000 2026",
+        "lang": "en",
+        "bookmarkCount": 2057,
+        "isReply": true,
+        "inReplyToId": "2030740769334595955",
+        "conversationId": "2030740769334595955",
+        "displayTextRange": [
+          8,
+          250
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "mattvanswol",
+          "url": "https://x.com/mattvanswol",
+          "twitterUrl": "https://twitter.com/mattvanswol",
+          "id": "1244068896157708289",
+          "name": "Matt Van Swol",
+          "isVerified": false,
+          "isBlueVerified": true,
+          "verifiedType": null,
+          "profilePicture": "https://pbs.twimg.com/profile_images/1580221131985920001/XNlqL_Yx_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/1244068896157708289/1665589063",
+          "description": "",
+          "location": "Asheville, NC",
+          "followers": 480225,
+          "following": 7776,
+          "status": "",
+          "canDm": true,
+          "canMediaTag": true,
+          "createdAt": "Sun Mar 29 01:08:41 +0000 2020",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 339140,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 3384,
+          "statusesCount": 24661,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [
+            "2030994633950392571"
+          ],
+          "profile_bio": {
+            "description": "Former Nuclear Scientist for US Dept of Energy | Ex-Photographer for @apple, @united, and @hyatt",
+            "entities": {
+              "description": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": [
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      69,
+                      75
+                    ],
+                    "name": "",
+                    "screen_name": "apple"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      77,
+                      84
+                    ],
+                    "name": "",
+                    "screen_name": "united"
+                  },
+                  {
+                    "id_str": "0",
+                    "indices": [
+                      90,
+                      96
+                    ],
+                    "name": "",
+                    "screen_name": "hyatt"
+                  }
+                ]
+              },
+              "url": {
+                "urls": [
+                  {
+                    "display_url": "realmattvanswol.com",
+                    "expanded_url": "http://realmattvanswol.com",
+                    "indices": [
+                      0,
+                      23
+                    ],
+                    "url": "https://t.co/jcCJaxW1QK"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {
+          "media": [
+            {
+              "display_url": "pic.twitter.com/yteMQgbfl0",
+              "expanded_url": "https://twitter.com/mattvanswol/status/2030746166447542738/photo/1",
+              "ext_media_availability": {
+                "status": "Available"
+              },
+              "features": {
+                "large": {
+                  "faces": []
+                },
+                "orig": {
+                  "faces": []
+                }
+              },
+              "id_str": "2030746163364663297",
+              "indices": [
+                251,
+                274
+              ],
+              "media_key": "3_2030746163364663297",
+              "media_results": {
+                "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARwuqOBQVpABCgACHC6o4QgXkdIAAA==",
+                "result": {
+                  "__typename": "ApiMedia",
+                  "id": "QXBpTWVkaWE6DAABCgABHC6o4FBWkAEKAAIcLqjhCBeR0gAA",
+                  "media_key": "3_2030746163364663297"
+                }
+              },
+              "media_url_https": "https://pbs.twimg.com/media/HC6o4FBWkAEFNLy.jpg",
+              "original_info": {
+                "focus_rects": [
+                  {
+                    "h": 616,
+                    "w": 1100,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 834,
+                    "w": 834,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 834,
+                    "w": 732,
+                    "x": 0,
+                    "y": 0
+                  },
+                  {
+                    "h": 834,
+                    "w": 417,
+                    "x": 39,
+                    "y": 0
+                  },
+                  {
+                    "h": 834,
+                    "w": 1100,
+                    "x": 0,
+                    "y": 0
+                  }
+                ],
+                "height": 834,
+                "width": 1100
+              },
+              "sizes": {
+                "large": {
+                  "h": 834,
+                  "w": 1100
+                }
+              },
+              "type": "photo",
+              "url": "https://t.co/yteMQgbfl0"
+            }
+          ]
+        },
+        "card": null,
+        "place": {},
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [],
+          "user_mentions": [
+            {
+              "id_str": "2327400218",
+              "indices": [
+                0,
+                7
+              ],
+              "name": "C3",
+              "screen_name": "C_3C_3"
+            }
+          ]
+        },
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null,
+      "_engagement": 140910
+    },
+    {
+      "type": "tweet",
+      "id": "2029489351848300932",
+      "url": "https://x.com/elonmusk/status/2029489351848300932",
+      "twitterUrl": "https://twitter.com/elonmusk/status/2029489351848300932",
+      "text": "Fact check and ask questions about any post just by tapping the Grok logo in the upper left",
+      "source": "Twitter for iPhone",
+      "retweetCount": 7950,
+      "replyCount": 11108,
+      "likeCount": 116882,
+      "quoteCount": 1530,
+      "viewCount": 38972762,
+      "createdAt": "Thu Mar 05 09:29:02 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 4218,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2029489351848300932",
+      "displayTextRange": [
+        0,
+        91
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "elonmusk",
+        "url": "https://x.com/elonmusk",
+        "twitterUrl": "https://twitter.com/elonmusk",
+        "id": "44196397",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/44196397/1739948056",
+        "description": "",
+        "location": "",
+        "followers": 236270819,
+        "following": 1292,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Tue Jun 02 20:12:29 +0000 2009",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 215477,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 4388,
+        "statusesCount": 98779,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2030159267689632121"
+        ],
+        "profile_bio": {
+          "description": "",
+          "entities": {
+            "description": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null,
+      "_engagement": 135940
+    },
+    {
+      "type": "tweet",
+      "id": "2020488883557802114",
+      "url": "https://x.com/alifarhat79/status/2020488883557802114",
+      "twitterUrl": "https://twitter.com/alifarhat79/status/2020488883557802114",
+      "text": "ChatGPT in 2049 looking for the guy who made it count to 1 million and say raspberry after each number https://t.co/9Uiem0pwRW",
+      "source": "Twitter for iPhone",
+      "retweetCount": 4082,
+      "replyCount": 278,
+      "likeCount": 94916,
+      "quoteCount": 128,
+      "viewCount": 2011574,
+      "createdAt": "Sun Feb 08 13:24:23 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 2948,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2020488883557802114",
+      "displayTextRange": [
+        0,
+        102
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "alifarhat79",
+        "url": "https://x.com/alifarhat79",
+        "twitterUrl": "https://twitter.com/alifarhat79",
+        "id": "105852422",
+        "name": "Not Jerome Powell",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1469441193209733127/Iuv1R7sk_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/105852422/1762373224",
+        "description": "",
+        "location": "",
+        "followers": 795456,
+        "following": 646,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": true,
+        "createdAt": "Sun Jan 17 18:19:36 +0000 2010",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 145407,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 33790,
+        "statusesCount": 113462,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2030658063871385882"
+        ],
+        "profile_bio": {
+          "description": "Memes. Crypto. Finance 💵 🖨️",
+          "entities": {
+            "description": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "linktr.ee/notjeromepowell",
+                  "expanded_url": "https://linktr.ee/notjeromepowell",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/ZjrUfFR87N"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": false
+            },
+            "display_url": "pic.twitter.com/9Uiem0pwRW",
+            "expanded_url": "https://twitter.com/alifarhat79/status/2020488883557802114/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "2020488825466761217",
+            "indices": [
+              103,
+              126
+            ],
+            "media_key": "13_2020488825466761217",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwABAoAARwKN+G6l7ABAAA=",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAAECgABHAo34bqXsAEAAA==",
+                "media_key": "13_2020488825466761217"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2020488825466761217/img/wObfT4TcGJmr4lCV.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1080,
+              "width": 1714
+            },
+            "sizes": {
+              "large": {
+                "h": 1080,
+                "w": 1714
+              }
+            },
+            "type": "video",
+            "url": "https://t.co/9Uiem0pwRW",
+            "video_info": {
+              "aspect_ratio": [
+                857,
+                540
+              ],
+              "duration_millis": 10633,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2020488825466761217/pl/xCOAI5bXkR7czq1w.m3u8?tag=21&v=cfc"
+                },
+                {
+                  "bitrate": 256000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2020488825466761217/vid/avc1/428x270/q29Z68cvcXw-4eE_.mp4?tag=21"
+                },
+                {
+                  "bitrate": 832000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2020488825466761217/vid/avc1/570x360/fDef5t8nKi-IwfG2.mp4?tag=21"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2020488825466761217/vid/avc1/1142x720/aSvZ-JtMmvMvPU0I.mp4?tag=21"
+                },
+                {
+                  "bitrate": 10368000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2020488825466761217/vid/avc1/1714x1080/_aTjPSfiyI1p0_rB.mp4?tag=21"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null,
+      "_engagement": 99276
+    },
+    {
+      "type": "tweet",
+      "id": "2030159267689632121",
+      "url": "https://x.com/elonmusk/status/2030159267689632121",
+      "twitterUrl": "https://twitter.com/elonmusk/status/2030159267689632121",
+      "text": "Only Grok speaks the truth. \n\nOnly truthful AI is safe. \n\nOnly truth understands the universe.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 11913,
+      "replyCount": 14193,
+      "likeCount": 67633,
+      "quoteCount": 1209,
+      "viewCount": 31507481,
+      "createdAt": "Sat Mar 07 05:51:02 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 5281,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2030159267689632121",
+      "displayTextRange": [
+        0,
+        94
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "elonmusk",
+        "url": "https://x.com/elonmusk",
+        "twitterUrl": "https://twitter.com/elonmusk",
+        "id": "44196397",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/44196397/1739948056",
+        "description": "",
+        "location": "",
+        "followers": 236270819,
+        "following": 1292,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Tue Jun 02 20:12:29 +0000 2009",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 215477,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 4388,
+        "statusesCount": 98779,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2030159267689632121"
+        ],
+        "profile_bio": {
+          "description": "",
+          "entities": {
+            "description": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "2030151922968318104",
+        "url": "https://x.com/TheRabbitHole/status/2030151922968318104",
+        "twitterUrl": "https://twitter.com/TheRabbitHole/status/2030151922968318104",
+        "text": "https://t.co/HAwXsH7QLA",
+        "source": "Twitter for iPhone",
+        "retweetCount": 780,
+        "replyCount": 476,
+        "likeCount": 2857,
+        "quoteCount": 151,
+        "viewCount": 31108569,
+        "createdAt": "Sat Mar 07 05:21:51 +0000 2026",
+        "lang": "zxx",
+        "bookmarkCount": 1486,
+        "isReply": false,
+        "inReplyToId": null,
+        "conversationId": "2030151922968318104",
+        "displayTextRange": [
+          0,
+          23
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "TheRabbitHole",
+          "url": "https://x.com/TheRabbitHole",
+          "twitterUrl": "https://twitter.com/TheRabbitHole",
+          "id": "1485689970593468416",
+          "name": "The Rabbit Hole",
+          "isVerified": false,
+          "isBlueVerified": true,
+          "verifiedType": null,
+          "profilePicture": "https://pbs.twimg.com/profile_images/1522017422550528001/6AceRKJQ_normal.png",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/1485689970593468416/1651711479",
+          "description": "",
+          "location": "Mars, PA",
+          "followers": 1092615,
+          "following": 1801,
+          "status": "",
+          "canDm": true,
+          "canMediaTag": false,
+          "createdAt": "Mon Jan 24 19:05:23 +0000 2022",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 91661,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 12118,
+          "statusesCount": 64646,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [
+            "2030151922968318104"
+          ],
+          "profile_bio": {
+            "description": "Navigating the discourse",
+            "entities": {
+              "description": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+              },
+              "url": {
+                "urls": [
+                  {
+                    "display_url": "therabbithole84.substack.com",
+                    "expanded_url": "https://therabbithole84.substack.com/",
+                    "indices": [
+                      0,
+                      23
+                    ],
+                    "url": "https://t.co/Y5aSDpz7f9"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {},
+        "card": null,
+        "place": {},
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2030…",
+              "expanded_url": "http://x.com/i/article/2030125032635346945",
+              "indices": [
+                0,
+                23
+              ],
+              "url": "https://t.co/HAwXsH7QLA"
+            }
+          ],
+          "user_mentions": []
+        },
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": {
+          "title": "Grok 4.20 vs Woke AI",
+          "preview_text": "Grok 4.20 was recently released by xAI, so I decided to compare how it answers questions compared to other tools like OpenAI’s ChatGPT and Google’s Gemini. Three tests were performed:\nWoke Turing Test",
+          "cover_media_img_url": "https://pbs.twimg.com/media/HCx2RLqbsAAc1Qd.jpg"
+        }
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null,
+      "_engagement": 93739
+    },
+    {
+      "type": "tweet",
+      "id": "2013269354817691703",
+      "url": "https://x.com/elonmusk/status/2013269354817691703",
+      "twitterUrl": "https://twitter.com/elonmusk/status/2013269354817691703",
+      "text": "This is diabolical. OpenAI’s ChatGPT convinced a guy to do a murder-suicide!\n\nTo be safe, AI must be maximally truthful-seeking and not pander to delusions.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 8721,
+      "replyCount": 5992,
+      "likeCount": 60361,
+      "quoteCount": 914,
+      "viewCount": 20739793,
+      "createdAt": "Mon Jan 19 15:16:33 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 4622,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2013269354817691703",
+      "displayTextRange": [
+        0,
+        156
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "elonmusk",
+        "url": "https://x.com/elonmusk",
+        "twitterUrl": "https://twitter.com/elonmusk",
+        "id": "44196397",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/2008546467615580160/57KcqsTA_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/44196397/1739948056",
+        "description": "",
+        "location": "",
+        "followers": 236270797,
+        "following": 1292,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": false,
+        "createdAt": "Tue Jun 02 20:12:29 +0000 2009",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 215477,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 4388,
+        "statusesCount": 98779,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2030159267689632121"
+        ],
+        "profile_bio": {
+          "description": "",
+          "entities": {
+            "description": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "quoted_tweet": {
+        "type": "tweet",
+        "id": "2012578863340011930",
+        "url": "https://x.com/thetimes/status/2012578863340011930",
+        "twitterUrl": "https://twitter.com/thetimes/status/2012578863340011930",
+        "text": "Stein-Erik Soelberg committed murder-suicide after spending hours a day talking to the chatbot and sharing his delusions. Now the victim’s estate is suing OpenAI https://t.co/Frs3dtOGOS",
+        "source": "Twitter for iPhone",
+        "retweetCount": 814,
+        "replyCount": 755,
+        "likeCount": 4162,
+        "quoteCount": 319,
+        "viewCount": 20449467,
+        "createdAt": "Sat Jan 17 17:32:47 +0000 2026",
+        "lang": "en",
+        "bookmarkCount": 1217,
+        "isReply": false,
+        "inReplyToId": null,
+        "conversationId": "2012578863340011930",
+        "displayTextRange": [
+          0,
+          185
+        ],
+        "inReplyToUserId": null,
+        "inReplyToUsername": null,
+        "author": {
+          "type": "user",
+          "userName": "thetimes",
+          "url": "https://x.com/thetimes",
+          "twitterUrl": "https://twitter.com/thetimes",
+          "id": "6107422",
+          "name": "The Times and The Sunday Times",
+          "isVerified": false,
+          "isBlueVerified": true,
+          "verifiedType": "Business",
+          "profilePicture": "https://pbs.twimg.com/profile_images/1605234435733037056/kUVCKnDG_normal.jpg",
+          "coverPicture": "https://pbs.twimg.com/profile_banners/6107422/1657183829",
+          "description": "",
+          "location": "London",
+          "followers": 1716884,
+          "following": 847,
+          "status": "",
+          "canDm": true,
+          "canMediaTag": false,
+          "createdAt": "Thu May 17 13:35:19 +0000 2007",
+          "entities": {
+            "description": {
+              "urls": []
+            },
+            "url": {}
+          },
+          "fastFollowersCount": 0,
+          "favouritesCount": 3333,
+          "hasCustomTimelines": true,
+          "isTranslator": false,
+          "mediaCount": 66053,
+          "statusesCount": 351549,
+          "withheldInCountries": [],
+          "affiliatesHighlightedLabel": {},
+          "possiblySensitive": false,
+          "pinnedTweetIds": [
+            "2031130796174581925"
+          ],
+          "profile_bio": {
+            "description": "🗞️ The best of our journalism",
+            "entities": {
+              "description": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [],
+                "user_mentions": []
+              },
+              "url": {
+                "urls": [
+                  {
+                    "display_url": "thetimes.com",
+                    "expanded_url": "https://www.thetimes.com/",
+                    "indices": [
+                      0,
+                      23
+                    ],
+                    "url": "https://t.co/MjaNyvhoGK"
+                  }
+                ]
+              }
+            }
+          },
+          "isAutomated": false,
+          "automatedBy": null
+        },
+        "extendedEntities": {},
+        "card": {
+          "binding_values": [
+            {
+              "key": "photo_image_full_size_large",
+              "value": {
+                "image_value": {
+                  "height": 419,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=800x419",
+                  "width": 800
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image",
+              "value": {
+                "image_value": {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=280x150",
+                  "width": 267
+                }
+              }
+            },
+            {
+              "key": "description",
+              "value": {
+                "string_value": "Stein-Erik Soelberg committed murder-suicide after spending hours a day talking to the chatbot and sharing his delusions. Now the victim’s estate is suing OpenAI"
+              }
+            },
+            {
+              "key": "domain",
+              "value": {
+                "string_value": "www.thetimes.com"
+              }
+            },
+            {
+              "key": "thumbnail_image_large",
+              "value": {
+                "image_value": {
+                  "height": 320,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=800x320_1",
+                  "width": 569
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image_small",
+              "value": {
+                "image_value": {
+                  "height": 202,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=386x202",
+                  "width": 386
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_original",
+              "value": {
+                "image_value": {
+                  "height": 675,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=orig",
+                  "width": 1200
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_small",
+              "value": {
+                "image_value": {
+                  "height": 202,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=386x202",
+                  "width": 386
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image_large",
+              "value": {
+                "image_value": {
+                  "height": 419,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=800x419",
+                  "width": 800
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_small",
+              "value": {
+                "image_value": {
+                  "height": 81,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=144x144",
+                  "width": 144
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_x_large",
+              "value": {
+                "image_value": {
+                  "height": 675,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=png&name=2048x2048_2_exp",
+                  "width": 1200
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_original",
+              "value": {
+                "image_value": {
+                  "height": 675,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=orig",
+                  "width": 1200
+                }
+              }
+            },
+            {
+              "key": "vanity_url",
+              "value": {
+                "scribe_key": "vanity_url",
+                "string_value": "thetimes.com"
+              }
+            },
+            {
+              "key": "photo_image_full_size",
+              "value": {
+                "image_value": {
+                  "height": 314,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=600x314",
+                  "width": 600
+                }
+              }
+            },
+            {
+              "key": "thumbnail_image_color",
+              "value": {
+                "image_color_value": {
+                  "palette": [
+                    {
+                      "percentage": 48.51,
+                      "rgb": {
+                        "blue": 23,
+                        "green": 27,
+                        "red": 42
+                      }
+                    },
+                    {
+                      "percentage": 19.92,
+                      "rgb": {
+                        "blue": 128,
+                        "green": 132,
+                        "red": 185
+                      }
+                    },
+                    {
+                      "percentage": 18.35,
+                      "rgb": {
+                        "blue": 41,
+                        "green": 68,
+                        "red": 104
+                      }
+                    },
+                    {
+                      "percentage": 3.68,
+                      "rgb": {
+                        "blue": 48,
+                        "green": 37,
+                        "red": 31
+                      }
+                    },
+                    {
+                      "percentage": 3.33,
+                      "rgb": {
+                        "blue": 209,
+                        "green": 179,
+                        "red": 178
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "title",
+              "value": {
+                "string_value": "ChatGPT encouraged his paranoia, then he killed his mother"
+              }
+            },
+            {
+              "key": "summary_photo_image_color",
+              "value": {
+                "image_color_value": {
+                  "palette": [
+                    {
+                      "percentage": 48.51,
+                      "rgb": {
+                        "blue": 23,
+                        "green": 27,
+                        "red": 42
+                      }
+                    },
+                    {
+                      "percentage": 19.92,
+                      "rgb": {
+                        "blue": 128,
+                        "green": 132,
+                        "red": 185
+                      }
+                    },
+                    {
+                      "percentage": 18.35,
+                      "rgb": {
+                        "blue": 41,
+                        "green": 68,
+                        "red": 104
+                      }
+                    },
+                    {
+                      "percentage": 3.68,
+                      "rgb": {
+                        "blue": 48,
+                        "green": 37,
+                        "red": 31
+                      }
+                    },
+                    {
+                      "percentage": 3.33,
+                      "rgb": {
+                        "blue": 209,
+                        "green": 179,
+                        "red": 178
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image_x_large",
+              "value": {
+                "image_value": {
+                  "height": 675,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=png&name=2048x2048_2_exp",
+                  "width": 1200
+                }
+              }
+            },
+            {
+              "key": "summary_photo_image",
+              "value": {
+                "image_value": {
+                  "height": 314,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=600x314",
+                  "width": 600
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_color",
+              "value": {
+                "image_color_value": {
+                  "palette": [
+                    {
+                      "percentage": 48.51,
+                      "rgb": {
+                        "blue": 23,
+                        "green": 27,
+                        "red": 42
+                      }
+                    },
+                    {
+                      "percentage": 19.92,
+                      "rgb": {
+                        "blue": 128,
+                        "green": 132,
+                        "red": 185
+                      }
+                    },
+                    {
+                      "percentage": 18.35,
+                      "rgb": {
+                        "blue": 41,
+                        "green": 68,
+                        "red": 104
+                      }
+                    },
+                    {
+                      "percentage": 3.68,
+                      "rgb": {
+                        "blue": 48,
+                        "green": 37,
+                        "red": 31
+                      }
+                    },
+                    {
+                      "percentage": 3.33,
+                      "rgb": {
+                        "blue": 209,
+                        "green": 179,
+                        "red": 178
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "key": "photo_image_full_size_x_large",
+              "value": {
+                "image_value": {
+                  "height": 675,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=png&name=2048x2048_2_exp",
+                  "width": 1200
+                }
+              }
+            },
+            {
+              "key": "card_url",
+              "value": {
+                "scribe_key": "card_url",
+                "string_value": "https://t.co/Frs3dtOGOS"
+              }
+            },
+            {
+              "key": "summary_photo_image_original",
+              "value": {
+                "image_value": {
+                  "height": 675,
+                  "url": "https://pbs.twimg.com/card_img/2030135236655517696/OXf9Xf-F?format=jpg&name=orig",
+                  "width": 1200
+                }
+              }
+            }
+          ],
+          "card_platform": {
+            "platform": {
+              "audience": {
+                "name": "production"
+              },
+              "device": {
+                "name": "iPhone",
+                "version": "13"
+              }
+            }
+          },
+          "name": "summary_large_image",
+          "url": "https://t.co/Frs3dtOGOS",
+          "user_refs_results": []
+        },
+        "place": {},
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "timestamps": [],
+          "urls": [
+            {
+              "display_url": "thetimes.com/us/news-today/…",
+              "expanded_url": "https://www.thetimes.com/us/news-today/article/dad-killed-grandmother-chatgpt-open-ai-zfnrgq8dz?utm_medium=Social&utm_source=Twitter#Echobox=1768655649",
+              "indices": [
+                162,
+                185
+              ],
+              "url": "https://t.co/Frs3dtOGOS"
+            }
+          ],
+          "user_mentions": []
+        },
+        "quoted_tweet": null,
+        "retweeted_tweet": null,
+        "isLimitedReply": false,
+        "article": null
+      },
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null,
+      "_engagement": 75074
+    },
+    {
+      "type": "tweet",
+      "id": "2030320074121478618",
+      "url": "https://x.com/kalinowski007/status/2030320074121478618",
+      "twitterUrl": "https://twitter.com/kalinowski007/status/2030320074121478618",
+      "text": "I resigned from OpenAI. I care deeply about the Robotics team and the work we built together. This wasn’t an easy call. AI has an important role in national security. But surveillance of Americans without judicial oversight and lethal autonomy without human authorization are lines that deserved more deliberation than they got. This was about principle, not people. I have deep respect for Sam and the team, and I’m proud of what we built together.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 13124,
+      "replyCount": 1893,
+      "likeCount": 59038,
+      "quoteCount": 1653,
+      "viewCount": 7478930,
+      "createdAt": "Sat Mar 07 16:30:01 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 8630,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2030320074121478618",
+      "displayTextRange": [
+        0,
+        275
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "kalinowski007",
+        "url": "https://x.com/kalinowski007",
+        "twitterUrl": "https://twitter.com/kalinowski007",
+        "id": "795151398",
+        "name": "Caitlin Kalinowski",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": null,
+        "profilePicture": "https://pbs.twimg.com/profile_images/1938988827353255936/tVnKoAVN_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/795151398/1718574131",
+        "description": "",
+        "location": "",
+        "followers": 36965,
+        "following": 1464,
+        "status": "",
+        "canDm": true,
+        "canMediaTag": false,
+        "createdAt": "Sat Sep 01 02:35:46 +0000 2012",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 19762,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 13,
+        "statusesCount": 596,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2030320074121478618"
+        ],
+        "profile_bio": {
+          "description": "Building the physical future of AI. Boards: Axon, Institute of Contemporary Art SF.",
+          "entities": {
+            "description": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null,
+      "_engagement": 74055
+    },
+    {
+      "type": "tweet",
+      "id": "2027497719678255148",
+      "url": "https://x.com/WhiteHouse/status/2027497719678255148",
+      "twitterUrl": "https://twitter.com/WhiteHouse/status/2027497719678255148",
+      "text": "\"THE UNITED STATES OF AMERICA WILL NEVER ALLOW A RADICAL LEFT, WOKE COMPANY TO DICTATE HOW OUR GREAT MILITARY FIGHTS AND WINS WARS! That decision belongs to YOUR COMMANDER-IN-CHIEF, and the tremendous leaders I appoint to run our Military.  \n\nThe Leftwing nut jobs at Anthropic have made a DISASTROUS MISTAKE...\" - President Donald J. Trump",
+      "source": "Twitter for iPhone",
+      "retweetCount": 10136,
+      "replyCount": 6353,
+      "likeCount": 52541,
+      "quoteCount": 1868,
+      "viewCount": 5647260,
+      "createdAt": "Fri Feb 27 21:35:00 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 3623,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2027497719678255148",
+      "displayTextRange": [
+        0,
+        277
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "WhiteHouse",
+        "url": "https://x.com/WhiteHouse",
+        "twitterUrl": "https://twitter.com/WhiteHouse",
+        "id": "1879644163769335808",
+        "name": "The White House",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Government",
+        "profilePicture": "https://pbs.twimg.com/profile_images/1916971216620982274/1DsLEcqW_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1879644163769335808/1769111449",
+        "description": "",
+        "location": "Washington, DC",
+        "followers": 4033625,
+        "following": 6,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Wed Jan 15 21:37:54 +0000 2025",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 261,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 4658,
+        "statusesCount": 13325,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2013730570065359248"
+        ],
+        "profile_bio": {
+          "description": "The Golden Age of America Begins Right Now.\n📱 Text USA to 45470 to receive alerts.",
+          "entities": {
+            "description": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [],
+              "user_mentions": []
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "wh.gov",
+                  "expanded_url": "http://wh.gov",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/0BqS4u1FRp"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {
+        "media": [
+          {
+            "display_url": "pic.twitter.com/aIEx92nnyx",
+            "expanded_url": "https://twitter.com/WhiteHouse/status/2027497719678255148/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              }
+            },
+            "id_str": "2027497714225676290",
+            "indices": [
+              278,
+              301
+            ],
+            "media_key": "3_2027497714225676290",
+            "media_results": {
+              "id": "QXBpTWVkaWFSZXN1bHRzOgwAAQoAARwjHm3PVoACCgACHCMebxRWQCwAAA==",
+              "result": {
+                "__typename": "ApiMedia",
+                "id": "QXBpTWVkaWE6DAABCgABHCMebc9WgAIKAAIcIx5vFFZALAAA",
+                "media_key": "3_2027497714225676290"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HCMebc9WgAIEpUF.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 917,
+                  "w": 1638,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1638,
+                  "w": 1638,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1867,
+                  "w": 1638,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 1024,
+                  "x": 51,
+                  "y": 0
+                },
+                {
+                  "h": 2048,
+                  "w": 1638,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 2048,
+              "width": 1638
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "w": 1638
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/aIEx92nnyx"
+          }
+        ]
+      },
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null,
+      "_engagement": 69030
+    },
+    {
+      "type": "tweet",
+      "id": "2025997928242811253",
+      "url": "https://x.com/AnthropicAI/status/2025997928242811253",
+      "twitterUrl": "https://twitter.com/AnthropicAI/status/2025997928242811253",
+      "text": "We’ve identified industrial-scale distillation attacks on our models by DeepSeek, Moonshot AI, and MiniMax.\n\nThese labs created over 24,000 fraudulent accounts and generated over 16 million exchanges with Claude, extracting its capabilities to train and improve their own models.",
+      "source": "Twitter for iPhone",
+      "retweetCount": 6356,
+      "replyCount": 7340,
+      "likeCount": 55206,
+      "quoteCount": 7970,
+      "viewCount": 33456058,
+      "createdAt": "Mon Feb 23 18:15:21 +0000 2026",
+      "lang": "en",
+      "bookmarkCount": 12929,
+      "isReply": false,
+      "inReplyToId": null,
+      "conversationId": "2025997928242811253",
+      "displayTextRange": [
+        0,
+        279
+      ],
+      "inReplyToUserId": null,
+      "inReplyToUsername": null,
+      "author": {
+        "type": "user",
+        "userName": "AnthropicAI",
+        "url": "https://x.com/AnthropicAI",
+        "twitterUrl": "https://twitter.com/AnthropicAI",
+        "id": "1353836358901501952",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business",
+        "profilePicture": "https://pbs.twimg.com/profile_images/1798110641414443008/XP8gyBaY_normal.jpg",
+        "coverPicture": "https://pbs.twimg.com/profile_banners/1353836358901501952/1719228429",
+        "description": "",
+        "location": "",
+        "followers": 998345,
+        "following": 35,
+        "status": "",
+        "canDm": false,
+        "canMediaTag": true,
+        "createdAt": "Mon Jan 25 22:45:28 +0000 2021",
+        "entities": {
+          "description": {
+            "urls": []
+          },
+          "url": {}
+        },
+        "fastFollowersCount": 0,
+        "favouritesCount": 1550,
+        "hasCustomTimelines": true,
+        "isTranslator": false,
+        "mediaCount": 575,
+        "statusesCount": 1432,
+        "withheldInCountries": [],
+        "affiliatesHighlightedLabel": {},
+        "possiblySensitive": false,
+        "pinnedTweetIds": [
+          "2029719864533721481"
+        ],
+        "profile_bio": {
+          "description": "We're an AI safety and research company that builds reliable, interpretable, and steerable AI systems. Talk to our AI assistant @claudeai on https://t.co/FhDI3KQh0n.",
+          "entities": {
+            "description": {
+              "hashtags": [],
+              "symbols": [],
+              "urls": [
+                {
+                  "display_url": "claude.ai",
+                  "expanded_url": "https://claude.ai",
+                  "indices": [
+                    141,
+                    164
+                  ],
+                  "url": "https://t.co/FhDI3KQh0n"
+                }
+              ],
+              "user_mentions": [
+                {
+                  "id_str": "0",
+                  "indices": [
+                    128,
+                    137
+                  ],
+                  "name": "",
+                  "screen_name": "claudeai"
+                }
+              ]
+            },
+            "url": {
+              "urls": [
+                {
+                  "display_url": "anthropic.com",
+                  "expanded_url": "https://anthropic.com",
+                  "indices": [
+                    0,
+                    23
+                  ],
+                  "url": "https://t.co/w94SABjAXZ"
+                }
+              ]
+            }
+          }
+        },
+        "isAutomated": false,
+        "automatedBy": null
+      },
+      "extendedEntities": {},
+      "card": null,
+      "place": {},
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "timestamps": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "quoted_tweet": null,
+      "retweeted_tweet": null,
+      "isLimitedReply": false,
+      "article": null,
+      "_engagement": 68902
+    }
+  ]
+}

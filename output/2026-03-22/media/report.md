@@ -1,0 +1,22 @@
+# 📰 媒体资讯 · 2026-03-22
+
+- **The Verge AI** — Gemini 任务自动化功能在 Pixel 10 与 Galaxy S26 上首发，可自动操控 Uber、DoorDash 等 App，体验迟缓但效果令人印象深刻
+  > https://www.theverge.com/tech/898282/gemini-task-automation-uber-doordash-hands-on
+
+- **极客公园** — OpenAI 曝光内部「北极星」项目，计划 9 月前打造出可独立做科研的 AI 实习生，再度引发 2028 年 AI 大失业讨论
+  > https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653101793&idx=1&sn=4a1a023b7c63db114758cebdb94a924f
+
+- **机器之心** — 英伟达 GTC 推出 DLSS 5，自称图形领域八年最大突破，但业内批评是"AI 整容"而非真实画质提升，老黄亲自下场论战
+  > https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651022945&idx=2&sn=dd6270da69aeca762d147ee234a77672
+
+- **TechCrunch AI** — 华尔街对英伟达 GTC 大会反应平淡，股价未现预期拉升，分析师担忧 AI 数据中心资本支出已超出合理区间
+  > https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/
+
+- **TechCrunch AI** — 法庭文件披露：特朗普宣布与 Anthropic 关系告吹一周后，五角大楼仍告知 Anthropic 谈判接近一致，两方说法直接矛盾
+  > https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/
+
+- **极客公园** — 陪审团裁定马斯克收购推特前误导投资者，或面临 26 亿美元赔偿；贝索斯筹集 1000 亿美元计划以 AI 改造制造业
+  > https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653101788&idx=1&sn=c5480b0036f4c8c6a1b8e621a3096143
+
+- **机器之心** — 黄仁勋 GTC 宣言「Token 是 AI 时代货币」，腾讯广告算法大赛随即开启，奖金池 600 万元，验证高效推理与广告算法能力
+  > https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651022945&idx=1&sn=cffe9b496ae04a400bba539f772dfbf6

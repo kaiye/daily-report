@@ -1,0 +1,22 @@
+# 📰 媒体资讯 · 2026-03-16
+
+1. **[TechCrunch AI]** 谷歌320亿美元收购云安全独角兽 Wiz，创下科技史上最大网络安全收购记录。投资人分析此举将助谷歌在多云安全领域与微软竞争，预计监管审查仍是关键变量。
+   > https://techcrunch.com/2026/03/15/wiz-investor-unpacks-googles-32b-acquisition/
+
+2. **[TechCrunch AI]** 字节跳动据报暂停视频生成模型 Seedance 2.0 的全球发布计划，此前已在中国市场上线，暂停原因尚未对外说明，引发业界对其海外扩张策略的猜测。
+   > https://techcrunch.com/2026/03/15/bytedance-reportedly-pauses-global-launch-of-its-seedance-2-0-video-generator/
+
+3. **[极客公园]** 消息称 DeepSeek V4 与腾讯新混元模型将于4月同期发布，国产大模型竞争进一步白热化；Kimi 新一轮融资估值据报已涨至180亿美元，商业化节奏明显提速。
+   > https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653101152&idx=1&sn=8c668377549a4fff56b1669b1e4cd8ef
+
+4. **[新智元]** OpenAI 解雇一名员工，因其利用公司核心机密在 Polymarket 等预测市场内幕押注套利。调查发现过去一年多共有60个神秘钱包进行77次精准押注，事件引发行业对内控机制的广泛讨论。
+   > https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683211&idx=2&sn=f1ef88eab4015ab0095ebad7abeda154
+
+5. **[新智元]** TiDB 联合创始人兼CTO推出 mem9.ai，为 Claude 等AI助手提供开箱即用的永续记忆服务，直接解决大模型上下文「失忆」痛点，发布一周即引爆开发者社区。
+   > https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683211&idx=1&sn=03aaece4e7a0fd149f30205ce0a40875
+
+6. **[量子位]** 一位科技创业者用 ChatGPT 结合基因检测数据为爱犬定制癌症疫苗，肿瘤缩小约50%，案例引发对AI辅助个性化医疗潜力的广泛关注，也推动更多人尝试将AI用于宠物和人类的癌症治疗。
+   > https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247874486&idx=1&sn=0f60078e24cbdf12a40345ace334435c
+
+7. **[机器之心]** 预印本平台 arXiv 宣布脱离康奈尔大学独立，转型为独立非营利组织并公开招聘首任CEO，引发科研社区对其开放获取政策能否延续的广泛担忧与讨论。
+   > https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651021511&idx=1&sn=cb3ab9cb9de227e10b337643099ca960

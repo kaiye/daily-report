@@ -1,0 +1,52 @@
+date: '2026-04-06'
+items:
+- name: google-ai-edge/gallery
+  description: Google 的端侧 AI 体验应用，集中展示本地大模型与多模态能力，并支持手机离线试玩。
+  stars: 16,902
+  today: '389'
+  url: https://github.com/google-ai-edge/gallery
+- name: Blaizzy/mlx-vlm
+  description: 基于 MLX 的 Mac 端视觉语言模型推理与微调工具包，覆盖多种 VLM 与全模态模型。
+  stars: 3,910
+  today: '416'
+  url: https://github.com/Blaizzy/mlx-vlm
+- name: siddharthvaddem/openscreen
+  description: 开源录屏演示工具，用来制作产品讲解视频，本身并非 AI 项目。
+  stars: 22,484
+  today: 2,749
+  url: https://github.com/siddharthvaddem/openscreen
+- name: block/goose
+  description: 可接任意 LLM 的开源本地 AI 代理，支持写码、执行命令、调试和自动化工程任务。
+  stars: 36,986
+  today: '882'
+  url: https://github.com/block/goose
+- name: onyx-dot-app/onyx
+  description: 开源企业级 AI 知识与聊天平台，可接多模型、企业数据源和检索增强工作流。
+  stars: 25,004
+  today: '998'
+  url: https://github.com/onyx-dot-app/onyx
+- name: badlogic/pi-mono
+  description: 面向编码代理的 TypeScript 工具链，整合 CLI、统一 LLM API、TUI/Web UI 与 Slack 机器人。
+  stars: 31,907
+  today: '355'
+  url: https://github.com/badlogic/pi-mono
+- name: dmtrKovalenko/fff.nvim
+  description: 给 AI 代理和 Neovim 用的高速文件搜索工具，主打精确检索、MCP 集成与 Rust 性能。
+  stars: 3,687
+  today: '76'
+  url: https://github.com/dmtrKovalenko/fff.nvim
+- name: google-ai-edge/LiteRT-LM
+  description: Google 开源的边缘端大模型推理框架，面向手机、桌面与 IoT 设备部署 LLM。
+  stars: 1,546
+  today: '124'
+  url: https://github.com/google-ai-edge/LiteRT-LM
+- name: telegramdesktop/tdesktop
+  description: Telegram 官方桌面客户端源码，属于通用通信软件，本次并非 AI 趋势项目。
+  stars: 31,063
+  today: '287'
+  url: https://github.com/telegramdesktop/tdesktop
+- name: freeCodeCamp/freeCodeCamp
+  description: freeCodeCamp 的开源课程平台，含机器学习课程，但主体仍是通用编程教育项目。
+  stars: 441,489
+  today: '335'
+  url: https://github.com/freeCodeCamp/freeCodeCamp

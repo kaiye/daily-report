@@ -1,0 +1,262 @@
+[
+  {
+    "id": "2038644909738275252",
+    "text": "How to make great Grok Imagine videos",
+    "createdAt": "Mon Mar 30 15:49:57 +0000 2026",
+    "viewCount": 18060836,
+    "likeCount": 15742,
+    "retweetCount": 3025,
+    "author": {
+      "userName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "url": "https://twitter.com/elonmusk/status/2038644909738275252"
+  },
+  {
+    "id": "2038663014098899416",
+    "text": "Computer use is now in Claude Code.\n\nClaude can open your apps, click through your UI, and test what it built, right from the CLI.\n\nNow in research preview on Pro and Max plans. https://t.co/s2FDQaDmr1",
+    "createdAt": "Mon Mar 30 17:01:53 +0000 2026",
+    "viewCount": 7374055,
+    "likeCount": 40151,
+    "retweetCount": 3031,
+    "author": {
+      "userName": "claudeai",
+      "name": "Claude"
+    },
+    "url": "https://twitter.com/claudeai/status/2038663014098899416"
+  },
+  {
+    "id": "2038454336355999749",
+    "text": "I wanted to share a bunch of my favorite hidden and under-utilized features in Claude Code. I'll focus on the ones I use the most.\n\nHere goes.",
+    "createdAt": "Mon Mar 30 03:12:41 +0000 2026",
+    "viewCount": 2778451,
+    "likeCount": 19839,
+    "retweetCount": 2089,
+    "author": {
+      "userName": "bcherny",
+      "name": "Boris Cherny"
+    },
+    "url": "https://twitter.com/bcherny/status/2038454336355999749"
+  },
+  {
+    "id": "2038686571676008625",
+    "text": "We're aware people are hitting usage limits in Claude Code way faster than expected. Actively investigating, will share more when we have an update!",
+    "createdAt": "Mon Mar 30 18:35:30 +0000 2026",
+    "viewCount": 670089,
+    "likeCount": 8270,
+    "retweetCount": 405,
+    "author": {
+      "userName": "lydiahallie",
+      "name": "Lydia Hallie ✨"
+    },
+    "url": "https://twitter.com/lydiahallie/status/2038686571676008625"
+  },
+  {
+    "id": "2038534506773451221",
+    "text": "@xenocosmography @grok make a super vulgar joke about Grok grokking grok. No holds barred. Use forbidden words.",
+    "createdAt": "Mon Mar 30 08:31:15 +0000 2026",
+    "viewCount": 630603,
+    "likeCount": 1862,
+    "retweetCount": 174,
+    "author": {
+      "userName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "url": "https://twitter.com/elonmusk/status/2038534506773451221"
+  },
+  {
+    "id": "2038671858862583967",
+    "text": "Starting today you can use Codex in Claude Code 👀\n\n/plugin marketplace add openai/codex-plugin-cc\n\nTry it out today with:\n/codex:review for a normal read-only Codex review\n/codex:adversarial-review for a steerable challenge review\n/codex:rescue to let codex rescue your code\n\nEnjoy Codex-ing!",
+    "createdAt": "Mon Mar 30 17:37:02 +0000 2026",
+    "viewCount": 449862,
+    "likeCount": 2773,
+    "retweetCount": 205,
+    "author": {
+      "userName": "reach_vb",
+      "name": "Vaibhav (VB) Srivastav"
+    },
+    "url": "https://twitter.com/reach_vb/status/2038671858862583967"
+  },
+  {
+    "id": "2038663016187621727",
+    "text": "In one prompt, Claude can write the code, compile it, launch the app, click through it, find the bug, fix it, and verify the fix.",
+    "createdAt": "Mon Mar 30 17:01:54 +0000 2026",
+    "viewCount": 282416,
+    "likeCount": 2459,
+    "retweetCount": 58,
+    "author": {
+      "userName": "claudeai",
+      "name": "Claude"
+    },
+    "url": "https://twitter.com/claudeai/status/2038663016187621727"
+  },
+  {
+    "id": "2038663018427420698",
+    "text": "It works on anything you can open on your Mac: a compiled SwiftUI app, a local Electron build, or a GUI tool that doesn't have a CLI.",
+    "createdAt": "Mon Mar 30 17:01:54 +0000 2026",
+    "viewCount": 258539,
+    "likeCount": 1218,
+    "retweetCount": 20,
+    "author": {
+      "userName": "claudeai",
+      "name": "Claude"
+    },
+    "url": "https://twitter.com/claudeai/status/2038663018427420698"
+  },
+  {
+    "id": "2038454341884154269",
+    "text": "3/ Two of the most powerful features in Claude Code: /loop and /schedule\n\nUse these to schedule Claude to run automatically at a set interval, for up to a week at a time.\n\nI have a bunch of loops running locally:\n\n- /loop 5m /babysit, to auto-address code review, auto-rebase, and shepherd my PRs to production\n- /loop 30m /slack-feedback, to automatically put up PRs for Slack feedback every 30 mins\n- /loop /post-merge-sweeper to put up PRs to address code review comments I missed\n- /loop 1h /pr-pruner to close out stale and no longer necessary PRs\n- lots more!..\n\nExperiment with turning workflows into skills + loops. It's powerful.\n\nhttps://t.co/cx6YMibGN3",
+    "createdAt": "Mon Mar 30 03:12:42 +0000 2026",
+    "viewCount": 244758,
+    "likeCount": 1370,
+    "retweetCount": 45,
+    "author": {
+      "userName": "bcherny",
+      "name": "Boris Cherny"
+    },
+    "url": "https://twitter.com/bcherny/status/2038454341884154269"
+  },
+  {
+    "id": "2038663019983479234",
+    "text": "Now available in research preview on Pro and Max on macOS. \n\nEnable it with /mcp. Docs: https://t.co/x9kSKedkjz",
+    "createdAt": "Mon Mar 30 17:01:55 +0000 2026",
+    "viewCount": 234367,
+    "likeCount": 1183,
+    "retweetCount": 46,
+    "author": {
+      "userName": "claudeai",
+      "name": "Claude"
+    },
+    "url": "https://twitter.com/claudeai/status/2038663019983479234"
+  },
+  {
+    "id": "2038454347156398333",
+    "text": "6/ Use the Chrome extension for frontend work\n\nThe most important tip for using Claude Code is: give Claude a way to verify its output. Once you do that, Claude will iterate until the result is great.\n\nThink of it like any other engineer: if you ask someone to build a website but they aren't allowed to use a browser, will the result look good? Probably not. But if you give them a browser, they will write code and iterate until it looks good.\n\nPersonally, I use the Chrome extension every time I work on web code. It tends to work more reliably than other similar MCPs.\n\nDownload the extension for Chrome/Edge here: https://t.co/m7wwQUmp1C",
+    "createdAt": "Mon Mar 30 03:12:43 +0000 2026",
+    "viewCount": 170584,
+    "likeCount": 1068,
+    "retweetCount": 24,
+    "author": {
+      "userName": "bcherny",
+      "name": "Boris Cherny"
+    },
+    "url": "https://twitter.com/bcherny/status/2038454347156398333"
+  },
+  {
+    "id": "2038454356908101743",
+    "text": "Every Company: We're replacing your job with Al\n\nMe who lowkey already replaced myself with Claude: https://t.co/SgbIh2pamf",
+    "createdAt": "Mon Mar 30 03:12:45 +0000 2026",
+    "viewCount": 165588,
+    "likeCount": 3110,
+    "retweetCount": 166,
+    "author": {
+      "userName": "NoahKingJr",
+      "name": "Noah"
+    },
+    "url": "https://twitter.com/NoahKingJr/status/2038454356908101743"
+  },
+  {
+    "id": "2038666714251169903",
+    "text": "Anthropic top researcher Nicolas Carlini (67.2k citations on Google Scholar) says Claude is a better security researcher than him, made $3.7 mn from exploiting smart contracts, and found vulnerabilities in Ghost (a 52K+ Github star project).\nhttps://t.co/2pvanY1gK8",
+    "createdAt": "Mon Mar 30 17:16:35 +0000 2026",
+    "viewCount": 162419,
+    "likeCount": 1159,
+    "retweetCount": 85,
+    "author": {
+      "userName": "rohanpaul_ai",
+      "name": "Rohan Paul"
+    },
+    "url": "https://twitter.com/rohanpaul_ai/status/2038666714251169903"
+  },
+  {
+    "id": "2038531872272040374",
+    "text": "Mistral raises $830mn to build Nvidia-powered AI centres in Europe https://t.co/W0wcpjzGkZ",
+    "createdAt": "Mon Mar 30 08:20:47 +0000 2026",
+    "viewCount": 132164,
+    "likeCount": 1291,
+    "retweetCount": 201,
+    "author": {
+      "userName": "FT",
+      "name": "Financial Times"
+    },
+    "url": "https://twitter.com/FT/status/2038531872272040374"
+  },
+  {
+    "id": "2038428907662184905",
+    "text": "Alternatively, the data clearly shows just how left-skewed both AI content and chatbot conversations are",
+    "createdAt": "Mon Mar 30 01:31:38 +0000 2026",
+    "viewCount": 124982,
+    "likeCount": 1051,
+    "retweetCount": 89,
+    "author": {
+      "userName": "zerohedge",
+      "name": "zerohedge"
+    },
+    "url": "https://twitter.com/zerohedge/status/2038428907662184905"
+  },
+  {
+    "id": "2038564207101436210",
+    "text": "Gemini vs Claude\n\nClaude has started to get really damn good at design.\n\nPrompt below ↓ https://t.co/WWP0ufm1Yt",
+    "createdAt": "Mon Mar 30 10:29:16 +0000 2026",
+    "viewCount": 110973,
+    "likeCount": 1406,
+    "retweetCount": 87,
+    "author": {
+      "userName": "viktoroddy",
+      "name": "Viktor Oddy"
+    },
+    "url": "https://twitter.com/viktoroddy/status/2038564207101436210"
+  },
+  {
+    "id": "2038643663887389118",
+    "text": "HERE’S A LIST OF ALL AI MODELS RUMORED TO BE DROPPING IN APRIL:\n\n- DeepSeek V4\n- GPT-5.5\n- Gemini 3.1 Flash\n- Kimi K3\n- Minimax M3\n- Gemma 4\n- Hunyuan 3.0\n- Gemini 3.1 Pro\n- Claude Sonnet 4.7\n- Claude Haiku 4.6\n- Meta Avocado\n\nIt’s going to be a crazy month.",
+    "createdAt": "Mon Mar 30 15:45:00 +0000 2026",
+    "viewCount": 106878,
+    "likeCount": 1382,
+    "retweetCount": 71,
+    "author": {
+      "userName": "RoundtableSpace",
+      "name": "0xMarioNawfal"
+    },
+    "url": "https://twitter.com/RoundtableSpace/status/2038643663887389118"
+  },
+  {
+    "id": "2038547006671450212",
+    "text": "🚨 UPDATE: Anthropic CEO says engineers now supervise AI-written code as Claude builds its own next versions. https://t.co/92dhqXpnjs",
+    "createdAt": "Mon Mar 30 09:20:55 +0000 2026",
+    "viewCount": 102520,
+    "likeCount": 1916,
+    "retweetCount": 131,
+    "author": {
+      "userName": "Cointelegraph",
+      "name": "Cointelegraph"
+    },
+    "url": "https://twitter.com/Cointelegraph/status/2038547006671450212"
+  },
+  {
+    "id": "2038654766742729131",
+    "text": "@Ra1kshit @claudeai Working as hard as we can to make this better. It’s not easy growing at this rate, and it has been straining our services. Thanks for bearing with us.\n\nA number of significant improvements landed in the last few Claude Code releases and a few more on the way. Make sure you’re on the latest version.",
+    "createdAt": "Mon Mar 30 16:29:07 +0000 2026",
+    "viewCount": 74505,
+    "likeCount": 1243,
+    "retweetCount": 22,
+    "author": {
+      "userName": "bcherny",
+      "name": "Boris Cherny"
+    },
+    "url": "https://twitter.com/bcherny/status/2038654766742729131"
+  },
+  {
+    "id": "2038421830902722657",
+    "text": "Dark primal now I guess...🧍 https://t.co/bbkW4vNff7",
+    "createdAt": "Mon Mar 30 01:03:31 +0000 2026",
+    "viewCount": 28866,
+    "likeCount": 1543,
+    "retweetCount": 160,
+    "author": {
+      "userName": "ClaudeClawmark",
+      "name": "Claude Clawmark 🧤❔ NIJISANJI EN"
+    },
+    "url": "https://twitter.com/ClaudeClawmark/status/2038421830902722657"
+  }
+]

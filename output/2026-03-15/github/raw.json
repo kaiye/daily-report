@@ -1,0 +1,108 @@
+{
+  "fetched_at": "2026-03-15T08:01:07.171178+00:00",
+  "date": "2026-03-15",
+  "lang_filter": "all",
+  "total": 10,
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "description": "OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.",
+      "language": "Python",
+      "stars_total": 10507,
+      "forks": 716,
+      "stars_today": 1610
+    },
+    {
+      "rank": 2,
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars_total": 11276,
+      "forks": 1106,
+      "stars_today": 411
+    },
+    {
+      "rank": 3,
+      "repo": "dimensionalOS/dimos",
+      "url": "https://github.com/dimensionalOS/dimos",
+      "description": "The Dimensional Framework",
+      "language": "Python",
+      "stars_total": 846,
+      "forks": 155,
+      "stars_today": 72
+    },
+    {
+      "rank": 4,
+      "repo": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars_total": 13714,
+      "forks": 1392,
+      "stars_today": 694
+    },
+    {
+      "rank": 5,
+      "repo": "langflow-ai/openrag",
+      "url": "https://github.com/langflow-ai/openrag",
+      "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.",
+      "language": "Python",
+      "stars_total": 2702,
+      "forks": 250,
+      "stars_today": 564
+    },
+    {
+      "rank": 6,
+      "repo": "lightpanda-io/browser",
+      "url": "https://github.com/lightpanda-io/browser",
+      "description": "Lightpanda: the headless browser designed for AI and automation",
+      "language": "Zig",
+      "stars_total": 17060,
+      "forks": 631,
+      "stars_today": 2069
+    },
+    {
+      "rank": 7,
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars_total": 43655,
+      "forks": 6535,
+      "stars_today": 4280
+    },
+    {
+      "rank": 8,
+      "repo": "fishaudio/fish-speech",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "description": "SOTA Open Source TTS",
+      "language": "Python",
+      "stars_total": 27207,
+      "forks": 2273,
+      "stars_today": 381
+    },
+    {
+      "rank": 9,
+      "repo": "InsForge/InsForge",
+      "url": "https://github.com/InsForge/InsForge",
+      "description": "Give agents everything they need to ship fullstack apps. The backend built for agentic development.",
+      "language": "TypeScript",
+      "stars_total": 4147,
+      "forks": 428,
+      "stars_today": 482
+    },
+    {
+      "rank": 10,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_total": 83406,
+      "forks": 6507,
+      "stars_today": 1439
+    }
+  ]
+}

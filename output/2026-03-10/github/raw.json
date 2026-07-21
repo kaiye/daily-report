@@ -1,0 +1,128 @@
+{
+  "fetched_at": "2026-03-10T08:01:09.368233+00:00",
+  "date": "2026-03-10",
+  "lang_filter": "all",
+  "total": 12,
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "GoogleCloudPlatform/generative-ai",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai",
+      "description": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI",
+      "language": "Jupyter Notebook",
+      "stars_total": 15257,
+      "forks": 3962,
+      "stars_today": 1282
+    },
+    {
+      "rank": 2,
+      "repo": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars_total": 289803,
+      "forks": 54959,
+      "stars_today": 9164
+    },
+    {
+      "rank": 3,
+      "repo": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars_total": 10728,
+      "forks": 1121,
+      "stars_today": 2294
+    },
+    {
+      "rank": 4,
+      "repo": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "description": "The best ChatGPT that $100 can buy.",
+      "language": "Python",
+      "stars_total": 45477,
+      "forks": 6017,
+      "stars_today": 355
+    },
+    {
+      "rank": 5,
+      "repo": "666ghj/BettaFish",
+      "url": "https://github.com/666ghj/BettaFish",
+      "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+      "language": "Python",
+      "stars_total": 37312,
+      "forks": 7031,
+      "stars_today": 514
+    },
+    {
+      "rank": 6,
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars_total": 2944,
+      "forks": 404,
+      "stars_today": 377
+    },
+    {
+      "rank": 7,
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars_total": 2929,
+      "forks": 109,
+      "stars_today": 1288
+    },
+    {
+      "rank": 8,
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars_total": 19033,
+      "forks": 2955,
+      "stars_today": 4415
+    },
+    {
+      "rank": 9,
+      "repo": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "stars_total": 2536,
+      "forks": 199,
+      "stars_today": 465
+    },
+    {
+      "rank": 10,
+      "repo": "alirezarezvani/claude-skills",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "description": "169 production-ready skills &amp; plugins for Claude Code, OpenAI Codex, and OpenClaw — engineering, marketing, product, compliance, C-level advisory, and more. Install via /plugin marketplace.",
+      "language": "Python",
+      "stars_total": 3309,
+      "forks": 401,
+      "stars_today": 259
+    },
+    {
+      "rank": 11,
+      "repo": "Raphire/Win11Debloat",
+      "url": "https://github.com/Raphire/Win11Debloat",
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+      "language": "PowerShell",
+      "stars_total": 41190,
+      "forks": 1600,
+      "stars_today": 104
+    },
+    {
+      "rank": 12,
+      "repo": "teng-lin/notebooklm-py",
+      "url": "https://github.com/teng-lin/notebooklm-py",
+      "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+      "language": "Python",
+      "stars_total": 4213,
+      "forks": 521,
+      "stars_today": 457
+    }
+  ]
+}

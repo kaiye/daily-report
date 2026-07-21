@@ -1,0 +1,37 @@
+date: "2026-03-19"
+items:
+  - name: "jarrodwatts/claude-hud"
+    description: "Claude Code插件，实时显示上下文使用量、当前激活工具和Agent运行状态的可视化HUD面板"
+    stars: "6,894"
+    today: "1,038"
+    url: "https://github.com/jarrodwatts/claude-hud"
+
+  - name: "obra/superpowers"
+    description: "面向Agentic开发的技能框架与软件开发方法论，帮助构建可复用的AI能力模块"
+    stars: "96,102"
+    today: "4,089"
+    url: "https://github.com/obra/superpowers"
+
+  - name: "unslothai/unsloth"
+    description: "统一Web UI，支持Qwen、DeepSeek、GPT等开源模型的训练与本地推理，大幅降低显存消耗"
+    stars: "55,776"
+    today: "1,005"
+    url: "https://github.com/unslothai/unsloth"
+
+  - name: "newton-physics/newton"
+    description: "基于NVIDIA Warp的开源GPU加速物理仿真引擎，面向机器人和具身AI场景"
+    stars: "2,905"
+    today: "26"
+    url: "https://github.com/newton-physics/newton"
+
+  - name: "shadps4-emu/shadPS4"
+    description: "用C++编写的PlayStation 4模拟器，支持Windows、Linux和macOS，已可运行多款商业游戏"
+    stars: "29,852"
+    today: "237"
+    url: "https://github.com/shadps4-emu/shadPS4"
+
+  - name: "langchain-ai/open-swe"
+    description: "LangChain出品的开源异步编程Agent，支持长时任务并行处理和多步骤代码工程自动化"
+    stars: "6,317"
+    today: "481"
+    url: "https://github.com/langchain-ai/open-swe"

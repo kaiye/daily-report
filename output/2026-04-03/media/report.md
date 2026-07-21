@@ -1,0 +1,16 @@
+# 📰 媒体资讯 · 2026-04-03
+
+- **TechCrunch AI**：OpenAI 收购科技访谈节目 TBPN，连带拿下稳定直播分发入口，明显在补强开发者与创始人舆论场触达。
+  > https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/
+- **TechCrunch AI**：微软发布三款基础模型，继续把 AI 竞争重心拉向企业交付、成本结构与可控落地，而不只拼聊天入口。
+  > https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/
+- **Google DeepMind**：DeepMind 推出 Gemma 4，主打在同等参数规模下提升开放模型能力，继续冲击轻量部署与本地推理场景。
+  > https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/
+- **Google AI Blog**：Google 为 Gemini API 引入更灵活的优先级与成本控制选项，明显在回应企业侧对稳定性、预算与 SLA 的现实需求。
+  > https://blog.google/innovation-and-ai/technology/developers-tools/introducing-flex-and-priority-inference/
+- **Google AI Blog**：Google Vids 免费加入生成、编辑与分享视频能力，还支持用提示词驱动虚拟形象，办公视频制作进一步产品化。
+  > https://blog.google/products-and-platforms/products/workspace/google-vids-updates-lyria-veo/
+- **极客公园**：火山引擎日均 Token 调用量被曝已到 120 万亿级，说明中国 MaaS 战场正从模型参数竞争转向真实吞吐与商业规模。
+  > https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653102659&idx=1&sn=f877e83f2320d42596aa90d2f64af69f
+- **极客公园**：remio 发布 Agentic OS“rOS”，想把知识库、记忆与执行环境统一成 Agent 原生操作系统，押注下一代应用底座。
+  > https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653102659&idx=2&sn=438399891c433ccb167caebf77ef5302

@@ -1,0 +1,22 @@
+# 📰 媒体资讯 · 2026-03-18
+
+1. **[OpenAI News]** OpenAI 正式发布 GPT-5.4 mini 和 GPT-5.4 nano 两款轻量级模型，进一步扩展小模型产品线，mini 和 nano 分别面向移动端和边缘场景，旨在以更低成本提供高效推理能力，与 Gemini Flash 系列展开竞争。
+   > https://openai.com/index/introducing-gpt-5-4-mini-and-nano
+
+2. **[极客公园]** 阿里 ATH 成立次日即发布旗舰企业级 AI 原生工作平台「悟空」，由钉钉团队打造，定位为能融入企业真实业务系统的数字员工平台，支持多工具调用与跨系统权限协作，目标是给千万企业配备可真正干活的 AI 员工。
+   > https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653101489&idx=1&sn=4a238f2aa0aca4b617ed65c635b59c73
+
+3. **[极客公园]** AWE 上科沃斯发布「八界」家庭管家机器人，植入 OpenClaw 具身智能技术，支持技能可养成与持续进化，强调硬实力积累而非单纯秀技，被视为家庭服务机器人真正走进普通家庭的信号。
+   > https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653101490&idx=1&sn=9b6846b188d7637700b574ee0f23f64d
+
+4. **[TechCrunch AI]** Mistral 在 NVIDIA GTC 上发布 Forge 平台，主打「自建 AI」差异化策略，让企业在本地或私有云中训练和部署专属大模型，正面竞争 OpenAI 和 Anthropic 的企业服务市场，强调数据主权与模型可控性。
+   > https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/
+
+5. **[The Verge AI]** Google 宣布 Personal Intelligence 功能向全美免费用户开放，此前仅限 AI Pro 和 AI Ultra 订阅用户。该功能可连接 Gmail、日历等 Google 应用，为 Gemini 提供个人上下文，打造更懂你的私人助手体验。
+   > https://www.theverge.com/ai-artificial-intelligence/896107/google-expands-personal-intelligence
+
+6. **[新智元]** Meta 收购 AI 社交平台 Moltbook 仅五天即修改规则，新条款明确要求人类为 AI Agent 的所有行为承担唯一法律责任，彻底终结 AI 自治。这是巨头入局 AI 社交的第一张底牌：把风险塞回给人类。
+   > https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652683877&idx=2&sn=c80bd313a7f3a155a8361d79730fbe74
+
+7. **[量子位]** Deepexi 2.0 重磅升级，专门针对 OpenClaw 等轻量 Agent 在企业场景中的短板——技能单一、数据安全、token 消耗过高——提供企业级可控 AI 员工解决方案，从「养虾热」回归理性的企业 AI 落地路径。
+   > https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247875283&idx=1&sn=337ce4ef280b70b03cf90ae68256d7cc

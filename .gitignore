@@ -12,3 +12,6 @@ __pycache__/
 
 # Legacy Python pipeline (migrated to src/daily_report_js/)
 src/daily_report/
+
+# Generated report images are too large for git
+output/**/*.png

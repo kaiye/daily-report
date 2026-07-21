@@ -1,0 +1,65 @@
+date: '2026-04-01'
+items:
+- handle: '@Fried_rice'
+  tag: Claude泄露
+  content: 我发现 Claude Code 的 source map 把 TypeScript 代码一并暴露出来了，源码地址我也贴出来了。
+  views: 24.9M
+  likes: 38.6K
+  retweets: 5.9K
+  url: https://twitter.com/Fried_rice/status/2038894956459290963
+- handle: '@theaiportfolios'
+  tag: AI投资
+  content: 我们正式让 Claude Autonomous Agents 管理一个 5 万美元股票组合，看看它能不能跑赢巴菲特。
+  views: 2.7M
+  likes: 15.2K
+  retweets: '883'
+  url: https://twitter.com/theaiportfolios/status/2039006300441620782
+- handle: '@GergelyOrosz'
+  tag: Claude代码
+  content: 我看到有人用 Python 重写了泄露出来的 Claude Code，因此这份实现不再受原源码版权约束。
+  views: 1.6M
+  likes: 11.3K
+  retweets: 1.1K
+  url: https://twitter.com/GergelyOrosz/status/2038985760175505491
+- handle: '@wesbos'
+  tag: 开发者趣闻
+  content: 我第一时间翻了 Claude Code 泄露代码，最先统计的不是架构，而是里面居然有 187 个 spinner verbs。
+  views: 1.4M
+  likes: 21.8K
+  retweets: 1.5K
+  url: https://twitter.com/wesbos/status/2038958747200962952
+- handle: '@elonmusk'
+  tag: xAI
+  content: 往好处想，如果你忘了钱包密码，未来的 AI 也许还能把它重新找回来。
+  views: 1.1M
+  likes: 6.3K
+  retweets: 1.3K
+  url: https://twitter.com/elonmusk/status/2038922841849295062
+- handle: '@vineetwts'
+  tag: 代码解析
+  content: 我把 Claude Code 的代码库整理成了一套文档，里面拆了流水线、上下文处理、记忆机制等关键部分。
+  views: 962.2K
+  likes: 5.3K
+  retweets: '571'
+  url: https://twitter.com/vineetwts/status/2038911973975601275
+- handle: '@ollama'
+  tag: 本地推理
+  content: 我们把 Ollama 在 Apple silicon 上切到 MLX 后端了，现在跑个人助理和编码 agent 会快很多。
+  views: 592.9K
+  likes: 5.0K
+  retweets: '611'
+  url: https://twitter.com/ollama/status/2038835449012351197
+- handle: '@WatcherGuru'
+  tag: AI融资
+  content: 刚刚，OpenAI 以 8520 亿美元估值完成了 1220 亿美元融资。
+  views: 522.2K
+  likes: 3.3K
+  retweets: '246'
+  url: https://twitter.com/WatcherGuru/status/2039076980671316223
+- handle: '@OpenAI'
+  tag: OpenAI
+  content: 我们完成了新一轮融资，获得 1220 亿美元承诺资本，会继续把有用的智能尽快推向全球用户。
+  views: 416.5K
+  likes: 3.9K
+  retweets: '316'
+  url: https://twitter.com/OpenAI/status/2039085161971896807

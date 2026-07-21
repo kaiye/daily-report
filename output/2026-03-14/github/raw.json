@@ -1,0 +1,168 @@
+{
+  "fetched_at": "2026-03-14T08:01:16.274120+00:00",
+  "date": "2026-03-14",
+  "lang_filter": "all",
+  "total": 16,
+  "projects": [
+    {
+      "rank": 1,
+      "repo": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "language": "Python",
+      "stars_total": 33930,
+      "forks": 2864,
+      "stars_today": 2227
+    },
+    {
+      "rank": 2,
+      "repo": "langflow-ai/openrag",
+      "url": "https://github.com/langflow-ai/openrag",
+      "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch.",
+      "language": "Python",
+      "stars_total": 2233,
+      "forks": 207,
+      "stars_today": 905
+    },
+    {
+      "rank": 3,
+      "repo": "lightpanda-io/browser",
+      "url": "https://github.com/lightpanda-io/browser",
+      "description": "Lightpanda: the headless browser designed for AI and automation",
+      "language": "Zig",
+      "stars_total": 15370,
+      "forks": 538,
+      "stars_today": 2093
+    },
+    {
+      "rank": 4,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_total": 81880,
+      "forks": 6356,
+      "stars_today": 2106
+    },
+    {
+      "rank": 5,
+      "repo": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars_total": 409423,
+      "forks": 44238,
+      "stars_today": 892
+    },
+    {
+      "rank": 6,
+      "repo": "promptfoo/promptfoo",
+      "url": "https://github.com/promptfoo/promptfoo",
+      "description": "Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.",
+      "language": "TypeScript",
+      "stars_total": 15238,
+      "forks": 1353,
+      "stars_today": 1668
+    },
+    {
+      "rank": 7,
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars_total": 39939,
+      "forks": 6006,
+      "stars_today": 5745
+    },
+    {
+      "rank": 8,
+      "repo": "dolthub/dolt",
+      "url": "https://github.com/dolthub/dolt",
+      "description": "Dolt – Git for Data",
+      "language": "Go",
+      "stars_total": 21062,
+      "forks": 670,
+      "stars_today": 60
+    },
+    {
+      "rank": 9,
+      "repo": "google/A2UI",
+      "url": "https://github.com/google/A2UI",
+      "description": "",
+      "language": "TypeScript",
+      "stars_total": 13038,
+      "forks": 979,
+      "stars_today": 635
+    },
+    {
+      "rank": 10,
+      "repo": "fishaudio/fish-speech",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "description": "SOTA Open Source TTS",
+      "language": "Python",
+      "stars_total": 26854,
+      "forks": 2248,
+      "stars_today": 559
+    },
+    {
+      "rank": 11,
+      "repo": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "language": "TypeScript",
+      "stars_total": 7470,
+      "forks": 571,
+      "stars_today": 1468
+    },
+    {
+      "rank": 12,
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars_total": 10771,
+      "forks": 1074,
+      "stars_today": 654
+    },
+    {
+      "rank": 13,
+      "repo": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "Agentic IM Chatbot infrastructure that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "language": "Python",
+      "stars_total": 23790,
+      "forks": 1620,
+      "stars_today": 1128
+    },
+    {
+      "rank": 14,
+      "repo": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "stars_total": 3612,
+      "forks": 255,
+      "stars_today": 595
+    },
+    {
+      "rank": 15,
+      "repo": "InsForge/InsForge",
+      "url": "https://github.com/InsForge/InsForge",
+      "description": "Give agents everything they need to ship fullstack apps. The backend built for agentic development.",
+      "language": "TypeScript",
+      "stars_total": 3627,
+      "forks": 342,
+      "stars_today": 766
+    },
+    {
+      "rank": 16,
+      "repo": "google-ai-edge/LiteRT",
+      "url": "https://github.com/google-ai-edge/LiteRT",
+      "description": "LiteRT, successor to TensorFlow Lite. is Google's On-device framework for high-performance ML &amp; GenAI deployment on edge platforms, via efficient conversion, runtime, and optimization",
+      "language": "C++",
+      "stars_total": 1855,
+      "forks": 228,
+      "stars_today": 211
+    }
+  ]
+}

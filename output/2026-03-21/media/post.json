@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-03-21T00:01:15.505970+00:00",
+  "source_raw": "raw_media_2026-03-21_000023.json",
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
+      "link": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+      "published_at": "2026-03-20T20:53:09+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "What happened at Nvidia GTC: NemoClaw, Robot Olaf, and a $1 trillion bet",
+      "link": "https://techcrunch.com/video/what-happened-at-nvidia-gtc-nemoclaw-robot-olaf-and-a-1-trillion-bet/",
+      "published_at": "2026-03-20T20:02:35+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "Nvidia has an OpenClaw strategy. Do you?",
+      "link": "https://techcrunch.com/podcast/nvidia-has-an-openclaw-strategy-do-you/",
+      "published_at": "2026-03-20T19:48:38+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "HuggingFace Blog",
+      "source_url": "http://127.0.0.1:1200/huggingface/blog",
+      "title": "Build a Domain-Specific Embedding Model in Under a Day",
+      "link": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+      "published_at": "2026-03-20T19:38:16+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "极客公园",
+      "source_url": "https://wechat2rss.xlab.app/feed/1a5aec98e71c707c8ca092bc2c255b9d4bac477d.xml",
+      "title": "宇树首度披露招股书：2025 年净利润 6 亿，募资 42 亿重点投入「机器人大脑」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653101761&amp;idx=1&amp;sn=d222882d3e879e974068eae81f4efc8c",
+      "published_at": "2026-03-20T19:02:00+08:00",
+      "description": "原创 连冉 2026-03-20 19:02 湖北\n\n\n\n\n\n\n  \n  \n  \n  冲刺 A 股人形机器人第一股。作者｜连冉编辑｜郑玄3 月 20 日下午，宇树科技股份有限公司（以下简称「宇树科技」）正式披露首发并在科创板上市招股说明书（申报稿），向科创板迈出了关键一步。随着两轮问询的顺利答复，这家全球四足与人形机器人的双龙头企业，正加速冲刺「具身智能第一股」。招股书显示，宇树科技 2025 年前三季度扣非净利润高达 4.31 亿元，毛利率攀升至 60.27%，且拥有超 6.7 亿元的健康现金流，展现出强劲的自我造血能力。这组数据意味着，宇树科技已经开始跑通从技术领先到规模盈利的商业闭环，让",
+      "rich_fields": {
+        "content:encoded": "原创连冉 2026-03-20 19:02 湖北\n\n冲刺 A 股人形机器人第一股。\n\n**作者｜连冉** **编辑｜ **郑玄****\n\n**3 月 20 日下午，宇树科技股份有限公司（以下简称「宇树科技」）正式披露首发并在科创板上市招股说明书（申报稿），向科创板迈出了关键一步。**\n\n随着两轮问询的顺利答复，这家全球四足与人形机器人的双龙头企业，正加速冲刺「具身智能第一股」。\n\n招股书显示，宇树科技 2025 年前三季度扣非净利润高达 4.31 亿元，毛利率攀升至 60.27%，且拥有超 6.7 亿元的健康现金流，展现出强劲的自我造血能力。\n\n这组数据意味着，宇树科技已经开始跑通从技术领先到"
+      }
+    },
+    {
+      "source": "字节跳动技术团队",
+      "source_url": "https://wechat2rss.xlab.app/feed/4025ea55575daf8bfd8227e68b28d9638b073267.xml",
+      "title": "OpenViking 实战教程：搭建多仓库代码语义检索系统，赋能 AI 助手 & OpenClaw 记忆插件 2.0 升级",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&amp;mid=2247518946&amp;idx=1&amp;sn=71b64437c738c6dcda6ca2797465c743",
+      "published_at": "2026-03-20T18:33:00+08:00",
+      "description": "原创 Viking 2026-03-20 18:33 北京\n\n\n\n\n\n\n  \n  \n  \n  一、背景与问题：为什么多仓库代码问答如此困难？在大型企业或复杂的开源项目中，代码库通常不会是单一的庞然大物。业务逻辑、基础库、中间件等往往分散在数十甚至上百个独立的 Git 仓库中。这种分布式代码管理带来了模块化和解耦的好处，但也给开发者带来了新的挑战，尤其是在理解和查询代码时：上下文缺失：当你向一个 AI 助手提问时，如果它只能看到你当前正在处理的那个仓库，它就无法理解那些跨仓库的调用和依赖关系。这好比让一个只读了《哈利·波特与魔法石》的人去解释整个系列七本书的剧情，结果必然是片面和错误的。低效的语",
+      "rich_fields": {
+        "content:encoded": "原创Viking 2026-03-20 18:33 北京\n\n**一、背景与问题：为什么多仓库代码问答如此困难？**\n\n在大型企业或复杂的开源项目中，代码库通常不会是单一的庞然大物。业务逻辑、基础库、中间件等往往分散在数十甚至上百个独立的 Git 仓库中。这种分布式代码管理带来了模块化和解耦的好处，但也给开发者带来了新的挑战，尤其是在理解和查询代码时：\n\n- **上下文缺失：** 当你向一个 AI 助手提问时，如果它只能看到你当前正在处理的那个仓库，它就无法理解那些跨仓库的调用和依赖关系。这好比让一个只读了《哈利·波特与魔法石》的人去解释整个系列七本书的剧情，结果必然是片面和错误的。\n- **低"
+      }
+    },
+    {
+      "source": "腾讯技术工程",
+      "source_url": "https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml",
+      "title": "英伟达GPU全系列硬核科普手册：一文读懂NVIDIA芯片的定位、规格与应用场景",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649800902&amp;idx=1&amp;sn=38323b9e55613e92145c904cb1eae74c",
+      "published_at": "2026-03-20T17:37:00+08:00",
+      "description": "原创 腾讯程序员 2026-03-20 17:37 广东\n\n\n\n\n\n\n  \n  \n  图解英伟达\n  作者：nickycaoH20、L20、A800、RTX 50 系…… 英伟达 GPU 家族庞大又难记？游戏、设计、AI 训练、推理到底该选哪款？别再被型号绕晕！这篇全网最全图解指南，从入门到旗舰、从消费级到数据中心，一次性讲清 NVIDIA 全系列 GPU 的区别与用法，看完秒变选型高手。这篇文章是一份英伟达 GPU 全系列的硬核科普手册：从游戏显卡到 AI 超级芯片，覆盖 消费级 GeForce（RTX 5090 ～ RTX 3090）、工作站 RTX Pro（RTX 6000 Ada / ",
+      "rich_fields": {
+        "content:encoded": "原创腾讯程序员 2026-03-20 17:37 广东\n\n图解英伟达\n\n作者：nickycao\nH20、L20、A800、RTX 50 系…… 英伟达 GPU 家族庞大又难记？游戏、设计、AI 训练、推理到底该选哪款？别再被型号绕晕！这篇全网最全图解指南，从入门到旗舰、从消费级到数据中心，一次性讲清 NVIDIA 全系列 GPU 的区别与用法，看完秒变选型高手。\n这篇文章是一份 **英伟达 GPU 全系列的硬核科普手册** ：从游戏显卡到 AI 超级芯片，覆盖 消费级 GeForce（RTX 5090 ～ RTX 3090）、工作站 RTX Pro（RTX 6000 Ada / RTX A60"
+      }
+    },
+    {
+      "source": "腾讯技术工程",
+      "source_url": "https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml",
+      "title": "探索 GPU 加速向量检索：NVDIA Cagra 在微信大规模推荐系统中的应用实践",
+      "link": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649800902&amp;idx=2&amp;sn=1a1be219c59d8160d87b50d41cf27e5a",
+      "published_at": "2026-03-20T17:37:00+08:00",
+      "description": "腾讯程序员 2026-03-20 17:37 广东\n\n\n\n\n\n\n  \n  \n  技术实践与架构演进\n  作者: yessitkong (微信基础架构 AI Infra 团队)引言在当今的互联网服务架构中，向量检索技术已成为推荐系统、搜索引擎、内容匹配等核心业务场景的关键组件。随着深度学习模型的广泛应用，如何在海量向量数据中高效进行近似最近邻（Approximate Nearest Neighbor, ANN）搜索，直接影响着在线服务的用户体验和业务效果。Cagra（CUDA Accelerated Graph-based Retrieval Algorithm）是 NVIDIA 推出的基于 G",
+      "rich_fields": {
+        "content:encoded": "腾讯程序员 2026-03-20 17:37 广东\n\n技术实践与架构演进\n\n作者: yessitkong (微信基础架构 AI Infra 团队)\n\n### 引言\n\n在当今的互联网服务架构中，向量检索技术已成为推荐系统、搜索引擎、内容匹配等核心业务场景的关键组件。随着深度学习模型的广泛应用，如何在海量向量数据中高效进行近似最近邻（Approximate Nearest Neighbor, ANN）搜索，直接影响着在线服务的用户体验和业务效果。\n\nCagra（CUDA Accelerated Graph-based Retrieval Algorithm）是 NVIDIA 推出的基于 GPU 加"
+      }
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "WordPress.com now lets AI agents write and publish posts, and more",
+      "link": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+      "published_at": "2026-03-20T16:43:09+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "Trump’s AI framework targets state laws, shifts child safety burden to parents",
+      "link": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
+      "published_at": "2026-03-20T16:14:04+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "极客公园",
+      "source_url": "https://wechat2rss.xlab.app/feed/1a5aec98e71c707c8ca092bc2c255b9d4bac477d.xml",
+      "title": "实时交互 AI 技术基建，Soul 打出了王牌",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653101722&amp;idx=1&amp;sn=9b5965313f5d7ddb95ba365d6def6333",
+      "published_at": "2026-03-20T15:32:00+08:00",
+      "description": "原创 十九 2026-03-20 15:32 湖北\n\n\n\n\n\n\n  \n  \n  \n  布局 AI 生态，让社交回归情感本质。作者｜十九编辑｜郑玄从2025年到2026年，Soul 的开源动作几乎没有停歇。3 月 16 日，Soul AI 团队（Soul AI Lab) 发布了新的开源模型 SoulX-LiveAct，技术报告中具体提到，该工作能够在 2 张 H100/H200 条件下，达到 20 FPS 的实时流式推理能力，且支持输入图像、音频和指令驱动，即可生成表情生动、情绪可控、拥有丰富全身动作的实时数字人视频。在此之前，这个团队已先后开源了多个模型，包括了实时数字人生成方向（SoulX-",
+      "rich_fields": {
+        "content:encoded": "原创十九 2026-03-20 15:32 湖北\n\n布局 AI 生态，让社交回归情感本质。\n\n****作者｜十九**** **编辑｜ **郑玄****\n\n从2025年到2026年 ，Soul 的开源动作几乎没有停歇。\n\n3 月 16 日，Soul AI 团队（Soul AI Lab) 发布了新的开源模型 SoulX-LiveAct，技术报告中具体提到，该工作能够在 2 张 H100/H200 条件下，达到 20 FPS 的实时流式推理能力，且支持输入图像、音频和指令驱动，即可生成表情生动、情绪可控、拥有丰富全身动作的实时数字人视频。\n\n在此之前，这个团队已先后开源了多个模型，包括了实时数字人生"
+      }
+    },
+    {
+      "source": "The Verge AI",
+      "source_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "title": "Trump takes another shot at dismantling state AI regulation",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/898055/trump-new-ai-policy-framework",
+      "published_at": "2026-03-20T14:17:02-04:00",
+      "description": "The Trump administration on Friday unveiled its new legislative blueprint for AI regulation, and the seven-point plan includes a clear message: The federal government should avoid many AI regulations beyond a set of child safety rules, and it should bar states from messing with the \"national strateg",
+      "rich_fields": {
+        "content": "<![CDATA[\nThe Trump administration on Friday unveiled its new legislative blueprint for AI regulation, and the seven-point plan includes a clear message: The federal government should avoid many AI regulations beyond a set of child safety rules, and it should bar states from messing with the \"nation"
+      }
+    },
+    {
+      "source": "HuggingFace Blog",
+      "source_url": "http://127.0.0.1:1200/huggingface/blog",
+      "title": "What's New in Mellea 0.4.0 + Granite Libraries Release",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-libraries",
+      "published_at": "2026-03-20T14:14:46+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "MIT Tech Review AI",
+      "source_url": "https://www.technologyreview.com/feed/",
+      "title": "The Download: OpenAI is building a fully automated researcher, and a psychedelic trial blind spot",
+      "link": "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/",
+      "published_at": "2026-03-20T13:15:45+00:00",
+      "description": "This is todays edition of The Download, our weekday newsletter that provides a daily dose of whats going on in the world of technology.\n\n\n\nOpenAI is throwing everything into building a fully automated researcher&nbsp;\n\n\n\nOpenAI has a new grand challenge: building an AI researcher—a fully automated a",
+      "rich_fields": {
+        "content:encoded": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **OpenAI is throwing ev"
+      }
+    },
+    {
+      "source": "量子位",
+      "source_url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+      "title": "龙虾也能当导演了！LibTV解锁全自动拍片，一句话从剧本干到成片",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247876334&amp;idx=1&amp;sn=3ef5755145cf7a758ca2f551ad7915f8",
+      "published_at": "2026-03-20T13:00:00+08:00",
+      "description": "原创 关注前沿科技 2026-03-20 13:00 北京\n\n\n\n\n\n\n  \n  \n  一块无限画布，两类用户：我和🦞\n  西风 闻乐 发自 凹非寺量子位 | 公众号 QbitAI龙虾🦞的影响力真不是盖的。现在，就连视频创作圈，也有它们的一席之地了！LiblibAI官宣正式推出旗下第一款AI视频产品——LibTV，一个全新的一站式AI内容创作社区。消息一出，立刻在AI创作圈引发广泛讨论。原因很简单：这不是又一个“能生成视频”的工具，而是第一次有产品把人和Agent当成两个平等的用户来设计。什么意思？你亲自上阵，可自由操控无限画布+节点工作流，一口气完成从剧本构思、分镜设计到最终成片的创作。平台",
+      "rich_fields": {
+        "content:encoded": "原创关注前沿科技 2026-03-20 13:00 北京\n\n一块无限画布，两类用户：我和🦞\n\n##### 西风 闻乐 发自 凹非寺 量子位 | 公众号 QbitAI\n\n龙虾🦞的影响力真不是盖的。现在，就连视频创作圈，也有它们的一席之地了！\n\n**Lib libAI官宣 正式推出旗下 第一款 AI视频产品——LibTV** ，一个全新的一站式AI内容创作社区。\n\n消息一出，立刻在AI创作圈引发广泛讨论。\n\n原因很简单：这不是又一个“能生成视频”的工具，而是第一次有产品 把人和Agent当成两个平等的用户 来设计。\n\n什么意思？\n\n你亲自上阵，可自由操控 无限画布+节点工作流 ，一口气完成从剧本构"
+      }
+    },
+    {
+      "source": "量子位",
+      "source_url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+      "title": "AI屠刀下一站“Vibe设计”！谷歌一个产品把合作伙伴Figma干崩了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247876334&amp;idx=2&amp;sn=1fb3500c5a2f6c23582d2968075fa2e0",
+      "published_at": "2026-03-20T13:00:00+08:00",
+      "description": "量子位 2026-03-20 13:00 北京\n\n\n\n\n\n\n  \n  \n  软件行业又遭受一记重创\n  听雨 发自 凹非寺量子位 | 公众号 QbitAI谷歌一句话，让Figma股价崩了。你可以用语音做设计了。3月18日，谷歌宣布旗下AI设计工具Stitch支持Vibe Design。你都不需要键盘，只需要用嘴就可以vide design出这样婶儿的UI和前端界面：不得不说，谷歌的审美是真的好。Gemini 3生成前端的艺术效果就有口皆碑。但是设计师咋办呢？？软件行业又咋办呢？？你看，产品是周三发的，当天Figma股价直接暴跌8%，周四仍下跌约5%，两天内跌幅约13%。今年以来，Figma股价",
+      "rich_fields": {
+        "content:encoded": "量子位 2026-03-20 13:00 北京\n\n软件行业又遭受一记重创\n\n##### 听雨 发自 凹非寺 量子位 | 公众号 QbitAI\n\n谷歌一句话，让Figma股价崩了。\n你可以用语音做设计了。\n3月18日，谷歌宣布旗下AI设计工具 **Stitch** 支持 **Vibe Design** 。\n\n你都不需要键盘，只需要用嘴就可以vide design出这样婶儿的UI和前端界面：\n\n不得不说，谷歌的审美是真的好。Gemini 3生成前端的艺术效果就有口皆碑。\n\n但是设计师咋办呢？？软件行业又咋办呢？？\n\n你看，产品是周三发的，当天Figma股价直接暴跌8%，周四仍下跌约5%，两天内跌幅"
+      }
+    },
+    {
+      "source": "量子位",
+      "source_url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+      "title": "10倍加速化学推理大模型！Haven团队在隐空间思考分子式，碾压显示CoT",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247876334&amp;idx=3&amp;sn=4e8fec432e5072ff01f3fbc1c1e03170",
+      "published_at": "2026-03-20T13:00:00+08:00",
+      "description": "关注前沿科技 2026-03-20 13:00 北京\n\n\n\n\n\n\n  \n  \n  AI4S可能不该总把步骤写出来\n  LatentChem团队 投稿 量子位 | 公众号 QbitAIAI做科学推理，可能不该总靠“把步骤写出来”。过去几年，大模型一旦进入“推理模式”，几乎都会走同一条路线：先输出一大段思维链，再给出最终答案。这套方法在数学题、代码题、复杂问答里很常见，也确实有效。但到了化学场景，它未必还是最顺手的方式。Haven团队叶新武、唐相儒等联合斯坦福大学丛乐、普林斯顿大学王梦迪最新提出的LatentChem，想做的就是一件事：把化学推理从“文本表面”挪到“模型内部”。模型不一定要把每一步",
+      "rich_fields": {
+        "content:encoded": "关注前沿科技 2026-03-20 13:00 北京\n\nAI4S可能不该总把步骤写出来\n\n##### LatentChem团队 投稿 量子位 | 公众号 QbitAI\n\nAI做科学推理，可能不该总靠“把步骤写出来”。\n\n过去几年，大模型一旦进入“推理模式”，几乎都会走同一条路线：\n\n先输出一大段思维链，再给出最终答案。\n\n这套方法在数学题、代码题、复杂问答里很常见，也确实有效。但到了化学场景，它未必还是最顺手的方式。\n\nHaven团队叶新武、唐相儒等联合斯坦福大学丛乐、普林斯顿大学王梦迪最新提出的LatentChem，想做的就是一件事：\n\n把化学推理从“文本表面”挪到“模型内部”。\n\n模型不一"
+      }
+    },
+    {
+      "source": "量子位",
+      "source_url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+      "title": "量子位编辑作者招聘",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247876334&amp;idx=4&amp;sn=1588a0c40edeaf5e622841ce2db889ec",
+      "published_at": "2026-03-20T13:00:00+08:00",
+      "description": "关注前沿科技 2026-03-20 13:00 北京\n\n\n\n\n\n\n  \n  \n  3个岗位（含实习），不设边界\n  编辑部 发自 凹非寺量子位 | 公众号 QbitAIAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来量子位呢？我们是一家以追踪AI新进展为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。目前，我们有三大方向岗位招聘，希望你是（或者能成为）这三个方向的内容专家：AI产业方向：关注基建层创新，包含芯片、AI Infra、云计算；AI财经方向：关注AI领域创投和财报，跟踪产业链资本动向；AI产品方向：关注AI在应",
+      "rich_fields": {
+        "content:encoded": "关注前沿科技 2026-03-20 13:00 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 *（或者能成为）* 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关"
+      }
+    },
+    {
+      "source": "量子位",
+      "source_url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+      "title": "一年一度最值得关注的AI榜单来啦！申报即日启动",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247876334&amp;idx=5&amp;sn=0f8024e5ec1241bb991ac5a3aaaae2f6",
+      "published_at": "2026-03-20T13:00:00+08:00",
+      "description": "关注前沿科技 2026-03-20 13:00 北京\n\n\n\n\n\n\n  \n  \n  欢迎申报，截至4月27日\n  组委会 发自 凹非寺量子位｜公众号 QbitAI中国生成式AI正在进入产业深水区。这两年，AI从“新技术”变成了“新工具”，又从“新工具”慢慢变成企业必须面对的现实。它不只在改变内容生产，也在影响研发效率、营销方式、团队协作，甚至决策流程。时值第四届中国AIGC产业峰会，量子位将根据过去一年里生成式AI企业、产品的表现与反馈，结合对2026年技术与场景的观察与预判，评选出：2026年度值得关注的AIGC企业2026年度值得关注的AIGC产品量子位将结合对公司的深入调研及数十位行业知名",
+      "rich_fields": {
+        "content:encoded": "关注前沿科技 2026-03-20 13:00 北京\n\n欢迎申报，截至4月27日\n\n##### 组委会 发自 凹非寺 量子位｜公众号 QbitAI\n\n中国生成式AI正在进入产业深水区。\n\n这两年，AI从“新技术”变成了“新工具”，又从“新工具”慢慢变成企业必须面对的现实。它不只在改变内容生产，也在影响研发效率、营销方式、团队协作，甚至决策流程。\n\n时值第四届中国AIGC产业峰会， 量子位将根据过去一年里生成式AI企业、产品的表现与反馈，结合对2026年技术与场景的观察与预判，评选出：\n\n- **2026年度值得关注的AIGC企业**\n- **2026年度值得关注的AIGC产品**\n\n量子位将结"
+      }
+    },
+    {
+      "source": "机器之心",
+      "source_url": "https://wechat2rss.xlab.app/feed/51e92aad2728acdd1fda7314be32b16639353001.xml",
+      "title": "登顶全球权威榜单！浙大创业团队百卡打造开源实时世界模型，视频秒变可交互4D世界",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651022576&amp;idx=1&amp;sn=05f58042f6e26b85db834aaa94bde171",
+      "published_at": "2026-03-20T13:00:00+08:00",
+      "description": "原创 关注AI的 2026-03-20 13:00 北京\n\n\n\n\n\n\n  \n  \n  从连续开源到榜单第一，影溯再上新台阶\n  编辑｜Youli过去一年，全球科技界正开启一场关于「世界模型」的豪赌。从李飞飞 World Labs 的百亿美元估值神话，到 Yann LeCun 创下纪录的 10.3 亿美元种子轮，再到 Google 与 NVIDIA 倾注海量算力的资源博弈 —— 资本与天才们正押注同一个未来：AI 终将走出屏幕，理解并重构物理世界。所谓世界模型，是 AI 的「内生物理引擎」。它要求 AI 像人类一样理解三维空间、记忆物体状态并预测物理演变。然而，目前主流模型大多只是在「画」像素而",
+      "rich_fields": {
+        "content:encoded": "原创关注AI的 2026-03-20 13:00 北京\n\n从连续开源到榜单第一，影溯再上新台阶\n\n编辑｜Youli\n\n过去一年，全球科技界正开启一场关于「世界模型」的豪赌。\n\n从李飞飞 World Labs 的百亿美元估值神话，到 Yann LeCun 创下纪录的 10.3 亿美元种子轮，再到 Google 与 NVIDIA 倾注海量算力的资源博弈 —— 资本与天才们正押注同一个未来： AI 终将走出屏幕，理解并重构物理世界。 所谓世界模型，是 AI 的「内生物理引擎」。它要求 AI 像人类一样理解三维空间、记忆物体状态并预测物理演变。然而，目前主流模型大多只是在「画」像素而非「懂」物理，一旦"
+      }
+    },
+    {
+      "source": "机器之心",
+      "source_url": "https://wechat2rss.xlab.app/feed/51e92aad2728acdd1fda7314be32b16639353001.xml",
+      "title": "搞不懂Skills？看看Claude Code内部工程师们是怎么玩的",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651022576&amp;idx=2&amp;sn=60b2201d751c7a0b135907be04bdfe00",
+      "published_at": "2026-03-20T13:00:00+08:00",
+      "description": "机器之心 2026-03-20 13:00 北京\n\n\n\n\n\n\n  \n  \n  系统化的经验。\n  编译｜冷猫你还在为你的龙虾笨笨的而烦恼吗？你还在为找不到合适的 Skills 安装而焦头烂额吗？你还在为网上找到的 Skills 可能不安全而心惊胆战吗？养了这么久龙虾，是时候开始构建自己的 Skills 了。这时候，一篇来自 Anthropic 团队的 Skills 秘籍在外网广为流传，为想要构建 Skills 的开发者和智能体用户提供了绝佳的参考资料。博客标题：Lessons from Building Claude Code: How We Use Skills 博客链接：https://x",
+      "rich_fields": {
+        "content:encoded": "机器之心 2026-03-20 13:00 北京\n\n系统化的经验。\n\n编译｜冷猫\n\n你还在为你的龙虾笨笨的而烦恼吗？\n\n你还在为找不到合适的 Skills 安装而焦头烂额吗？\n\n你还在为网上找到的 Skills 可能不安全而心惊胆战吗？\n\n养了这么久龙虾，是时候开始构建自己的 Skills 了。这时候，一篇来自 Anthropic 团队的 Skills 秘籍在外网广为流传，为想要构建 Skills 的开发者和智能体用户提供了绝佳的参考资料。\n\n- 博客标题：Lessons from Building Claude Code: How We Use Skills\n- 博客链接：[https://"
+      }
+    },
+    {
+      "source": "机器之心",
+      "source_url": "https://wechat2rss.xlab.app/feed/51e92aad2728acdd1fda7314be32b16639353001.xml",
+      "title": "ICLR 2026 | 机器人不够聪明？VLMgineer让大模型自己「发明工具」，从设计到使用全自动",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651022576&amp;idx=3&amp;sn=facbb05c9c66c704caad7406583f1540",
+      "published_at": "2026-03-20T13:00:00+08:00",
+      "description": "机器之心 2026-03-20 13:00 北京\n\n\n\n\n\n\n  \n  \n  让机器人从零开始自主设计工具并学会使用它们\n  人类之所以能主宰地球，很大程度上归功于一项独特的认知能力——制造和使用工具。从石器时代的燧石刀到现代的精密仪器，工具的发明一直是衡量智能水平的核心标志。然而，当我们审视当今最前沿的机器人研究，会发现一个有趣的不对称：绝大多数工作都在追求更复杂的控制策略——让机器人「手更巧」，却很少有人思考一个更本质的问题：能不能让工具本身更合适，从而让控制变得更简单？试想一下：如果你需要够到远处的杯子蛋糕，与其训练机械臂做出高难度的伸展动作，不如直接设计一根形状恰到好处的「取物钩」——",
+      "rich_fields": {
+        "content:encoded": "机器之心 2026-03-20 13:00 北京\n\n让机器人从零开始自主设计工具并学会使用它们\n\n人类之所以能主宰地球，很大程度上归功于一项独特的认知能力—— 制造和使用工具 。从石器时代的燧石刀到现代的精密仪器，工具的发明一直是衡量智能水平的核心标志。 然而，当我们审视当今最前沿的机器人研究，会发现一个有趣的不对称：绝大多数工作都在追求更复杂的控制策略——让机器人「手更巧」，却很少有人思考一个更本质的问题： 能不能让工具本身更合适，从而让控制变得更简单？\n\n试想一下：如果你需要够到远处的杯子蛋糕，与其训练机械臂做出高难度的伸展动作，不如直接设计一根形状恰到好处的「取物钩」——这才是另一种形式"
+      }
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "The best AI investment might be in energy tech",
+      "link": "https://techcrunch.com/2026/03/20/the-best-ai-investment-might-be-in-energy-tech/",
+      "published_at": "2026-03-20T12:00:00+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "MIT Tech Review AI",
+      "source_url": "https://www.technologyreview.com/feed/",
+      "title": "OpenAI is throwing everything into building a fully automated researcher",
+      "link": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
+      "published_at": "2026-03-20T11:57:16+00:00",
+      "description": "A fully automated research lab: OpenAI has set a new \"North Star\" — building an AI system capable of tackling large, complex scientific problems entirely on its own, with a research intern prototype due by September and a full multi-agent system planned for 2028.Coding agents as a proof of concept: ",
+      "rich_fields": {
+        "content:encoded": "OpenAI is refocusing its research efforts and throwing its resources into a new grand challenge. The San Francisco firm has set its sights on building what it calls an AI researcher, a fully automated agent-based system that will be able to go off and tackle large, complex problems by itself. ​​Open"
+      }
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "These AI notetaking devices can help you record and transcribe your meetings",
+      "link": "https://techcrunch.com/2026/03/20/ai-notetaker-hardware-devices-pins-pendants-record-transcribe/",
+      "published_at": "2026-03-20T11:31:38+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "The Verge AI",
+      "source_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "title": "Google Search is now using AI to replace headlines",
+      "link": "https://www.theverge.com/tech/896490/google-replace-news-headlines-in-search-canary-coal-mine-experiment",
+      "published_at": "2026-03-20T10:30:00-04:00",
+      "description": "Since roughly the turn of the millennium, Google Search has been the bedrock of the web. People loved Google's trustworthy \"10 blue links\" search experience and its unspoken promise: The website you click is the website you get. Now, Google is beginning to replace news headlines in its search result",
+      "rich_fields": {
+        "content": "<![CDATA[\nSince roughly the turn of the millennium, Google Search has been the bedrock of the web. People loved Google's trustworthy \"10 blue links\" search experience and its unspoken promise: The website you click is the website you get.\n\nNow, Google is beginning to replace news headlines in its se"
+      }
+    },
+    {
+      "source": "The Verge AI",
+      "source_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "title": "Amazon is making an Alexa phone",
+      "link": "https://www.theverge.com/tech/897915/amazon-transformer-alexa-phone",
+      "published_at": "2026-03-20T09:42:51-04:00",
+      "description": "Over 10 years after shelving the Fire Phone, Amazon is reportedly planning to launch another smartphone, this time focused on Alexa. According to Reuters, the phone, which is code-named \"Transformer,\" will center around Amazon's AI assistant, but Alexa won't \"necessarily be the primary operating sys",
+      "rich_fields": {
+        "content": "<![CDATA[\nOver 10 years after shelving the Fire Phone, Amazon is reportedly planning to launch another smartphone, this time focused on Alexa. According to[Reuters](https://www.reuters.com/technology/amazon-plans-smartphone-comeback-more-than-decade-after-fire-phone-flop-2026-03-20/), the phone, whi"
+      }
+    },
+    {
+      "source": "The Verge AI",
+      "source_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "title": "Why people really hate AI",
+      "link": "https://www.theverge.com/podcast/897900/ai-trust-gap-killer-app-vergecast",
+      "published_at": "2026-03-20T09:27:53-04:00",
+      "description": "There's a big, and increasing, disconnect in culture right now when it comes to artificial intelligence. Companies of all shapes and sizes are hunting for places to deploy AI and can't stop talking about how this new technology will change everything. But when you ask people about AI, the consistent",
+      "rich_fields": {
+        "content": "<![CDATA[\nThere's a big, and increasing, disconnect in culture right now when it comes to artificial intelligence. Companies of all shapes and sizes are hunting for places to deploy AI and can't stop talking about how this new technology will change everything. But when you ask people about AI, the "
+      }
+    },
+    {
+      "source": "MIT Tech Review AI",
+      "source_url": "https://www.technologyreview.com/feed/",
+      "title": "Mind-altering substances are (still) falling short in clinical trials",
+      "link": "https://www.technologyreview.com/2026/03/20/1134419/psychedelics-overhyped-psilocybin-depression-placebo/",
+      "published_at": "2026-03-20T09:00:00+00:00",
+      "description": "This week I want to look at where we are with psychedelics, the mind-altering substances that have somehow made the leap from counterculture to major focus of clinical research. Compounds like psilocybin—which is found in magic mushrooms—are being explored for all sorts of health applications, inclu",
+      "rich_fields": {
+        "content:encoded": "This week I want to look at where we are with psychedelics, the mind-altering substances that have somehow made the leap from counterculture to major focus of clinical research. Compounds like psilocybin—which is found in magic mushrooms—are being explored for all sorts of health applications, inclu"
+      }
+    },
+    {
+      "source": "极客公园",
+      "source_url": "https://wechat2rss.xlab.app/feed/1a5aec98e71c707c8ca092bc2c255b9d4bac477d.xml",
+      "title": "新一代小米 SU7 34 分钟锁单 1.5 万台；阿里平头哥 GPU 已实现量产；谷歌内测 Mac 版 Gemini 应用，深化与苹果 AI 合作 | 极客早知道",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653101699&amp;idx=1&amp;sn=a2a1f0e4eb80616fb15d4e76be773302",
+      "published_at": "2026-03-20T08:52:00+08:00",
+      "description": "任泓玲 2026-03-20 08:52 湖北\n\n\n\n\n\n\n  \n  \n  舒淇开 SU7，成新一代 SU7 代言人；图灵奖首度授予量子信息科学家；李斌：蔚来自研芯片量产超 55 万颗；泡泡玛特与索尼影业联合宣布开发 LABUBU 真人动画电影\n  小米汽车：34 分钟内，新一代 SU7 锁单 1.5 万台3 月 19 日消息，今天晚间，小米汽车官微宣布：新一代 SU7 用时 34 分钟取得锁单 1.5 万台。小米新一代 SU7 正式上市，标准版售价为 21.99 万元，Pro 版售价为 24.99 万元，Max 版售价为 30.39 万元。今晚 21:30 开启下定，定金 5000 元，3 ",
+      "rich_fields": {
+        "content:encoded": "任泓玲 2026-03-20 08:52 湖北\n\n舒淇开 SU7，成新一代 SU7 代言人；图灵奖首度授予量子信息科学家；李斌：蔚来自研芯片量产超 55 万颗；泡泡玛特与索尼影业联合宣布开发 LABUBU 真人动画电影\n\n## 小米汽车：34 分钟内，新一代 SU7 锁单 1.5 万台\n\n3 月 19 日消息，今天晚间，小米汽车官微宣布：新一代 SU7 用时 34 分钟取得锁单 1.5 万台。\n\n小米新一代 SU7 正式上市，标准版售价为 21.99 万元，Pro 版售价为 24.99 万元，Max 版售价为 30.39 万元。今晚 21:30 开启下定，定金 5000 元，3 天内未锁单可退"
+      }
+    },
+    {
+      "source": "阿里技术",
+      "source_url": "https://wechat2rss.xlab.app/feed/6e1f9b775f7a5841ac1a94310f0478b45a02ec01.xml",
+      "title": "别让格式杀死思想：Logics-Parsing V2定义文档解析新边界",
+      "link": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&amp;mid=2247509201&amp;idx=1&amp;sn=39647c4f8adc9500be2db02d2102c7e0",
+      "published_at": "2026-03-20T08:32:00+08:00",
+      "description": "阿里数据 2026-03-20 08:32 浙江\n\n\n\n\n  以下文章来源于：阿里数据\n  阿里数据\n  了解阿里数据动态，数据助力商业成长！\n\n\n\n  \n  \n  Logics-ParsingV2是一款端到端多模态文档解析模型，可精准识别并结构化还原复杂版面、科学公式、乐谱、思维导图、代码等多样化内容，实现业界领先的SOTA性能。\n  我们总以为拍下即留存，却常被“看得见、用不了”的内容困住：此前在图书馆里拍摄的重要书籍页面却因为当时光线不佳，现在转文字时无法识别；导师发来一份多年前的扫描版学术论文PDF，关键公式识别乱码，只能手动重新敲打；开发者截图一段 GitHub 代码，识别后格式全无",
+      "rich_fields": {
+        "content:encoded": "阿里数据 2026-03-20 08:32 浙江\n\n以下文章来源于：阿里数据\n**阿里数据**\n了解阿里数据动态，数据助力商业成长！\n\nLogics-ParsingV2是一款端到端多模态文档解析模型，可精准识别并结构化还原复杂版面、科学公式、乐谱、思维导图、代码等多样化内容，实现业界领先的SOTA性能。\n\n我们总以为拍下即留存，却常被“看得见、用不了”的内容困住：\n\n- 此前在图书馆里拍摄的重要书籍页面却因为当时光线不佳，现在转文字时无法识别；\n- 导师发来一份多年前的扫描版学术论文PDF，关键公式识别乱码，只能手动重新敲打；\n- 开发者截图一段 GitHub 代码，识别后格式全无，需要手动调"
+      }
+    },
+    {
+      "source": "The Verge AI",
+      "source_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "title": "OpenAI is planning a desktop ‘superapp’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/897778/openai-chatgpt-codex-atlas-browser-superapp",
+      "published_at": "2026-03-19T20:09:38-04:00",
+      "description": "OpenAI is working on a desktop \"superapp\" that merges its ChatGPT app, the Codex AI coding app, and its AI-powered Atlas browser into one app, The Wall Street Journal reports. The company is making the change as part of an effort to simplify its various product efforts, according to a memo cited by ",
+      "rich_fields": {
+        "content": "<![CDATA[\nOpenAI is working on a desktop \"superapp\" that merges its ChatGPT app, the Codex AI coding app, and its AI-powered Atlas browser into one app,[The Wall Street Journal, reports](https://www.wsj.com/tech/openai-plans-launch-of-desktop-superapp-to-refocus-simplify-user-experience-9e19931d?mod"
+      }
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "generated_at": "2026-03-18T00:01:56.970918+00:00",
+  "source_raw": "raw_media_2026-03-18_000116.json",
+  "items": [
+    {
+      "source": "HuggingFace Blog",
+      "source_url": "http://127.0.0.1:1200/huggingface/blog",
+      "title": "Nemotron 3 Nano 4B: A Compact Hybrid Model for Efficient Local AI",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-nano-4b",
+      "published_at": "2026-03-17T23:17:07+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "MIT Tech Review AI",
+      "source_url": "https://www.technologyreview.com/feed/",
+      "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+      "link": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "published_at": "2026-03-17T22:30:46+00:00",
+      "description": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned.&nbsp;\n\n\n\nAI models like Anthropics Claude are already used to answer questions in classified settings,",
+      "rich_fields": {
+        "content:encoded": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data,*MIT Technology Review*has learned. \n\nAI models like Anthropic’s Claude are already used to answer questions in classified settings, inclu"
+      }
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise",
+      "link": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+      "published_at": "2026-03-17T21:00:00+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "Why Garry Tan’s Claude Code setup has gotten so much love, and hate",
+      "link": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
+      "published_at": "2026-03-17T20:50:04+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "字节跳动技术团队",
+      "source_url": "https://wechat2rss.xlab.app/feed/4025ea55575daf8bfd8227e68b28d9638b073267.xml",
+      "title": "一文了解｜火山引擎 OpenClaw 安全最佳实践",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&amp;mid=2247518851&amp;idx=1&amp;sn=e2d623e2141c2635d10cce3a375c28de",
+      "published_at": "2026-03-17T20:12:00+08:00",
+      "description": "原创 火山引擎AI安全 2026-03-17 20:12 北京\n\n\n\n\n\n\n  \n  \n  \n  引言OpenClaw 作为一个功能强大的开源 AI 代理与自动化平台，通过将大语言模型与本地环境及各类消息渠道深度集成，实现了从“被动问答”到“主动执行”的范式转变。然而，其强大的系统访问和自主决策能力，也引入了一系列新的安全风险。本文旨在全面梳理 OpenClaw 的核心安全风险，并详细阐述火山引擎平台为保障用户安全部署和使用 OpenClaw， 所提供的整合性加固措施与具体配置建议。常见安全风险与加固手册风险一：不安全的访问控制风险描述：OpenClaw 在错误配置下可能将其 Gateway ",
+      "rich_fields": {
+        "content:encoded": "原创火山引擎AI安全 2026-03-17 20:12 北京\n\n**引言**\n\nOpenClaw 作为一个功能强大的开源 AI 代理与自动化平台，通过将大语言模型与本地环境及各类消息渠道深度集成，实现了从“被动问答”到“主动执行”的范式转变。然而，其强大的系统访问和自主决策能力，也引入了一系列新的安全风险。\n\n本文旨在全面梳理 OpenClaw 的核心安全风险，并详细阐述火山引擎平台为保障用户安全部署和使用 OpenClaw， 所提供的整合性加固措施与具体配置建议。\n\n**常见安全风险与加固手册** **风险一：不安全的访问控制**\n\n**风险描述：** OpenClaw 在错误配置下可能将其"
+      }
+    },
+    {
+      "source": "极客公园",
+      "source_url": "https://wechat2rss.xlab.app/feed/1a5aec98e71c707c8ca092bc2c255b9d4bac477d.xml",
+      "title": "植入 OpenClaw 的具身智能机器人来了？AWE 科沃斯发布可养成的「八界」管家机器人",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653101490&amp;idx=1&amp;sn=9b6846b188d7637700b574ee0f23f64d",
+      "published_at": "2026-03-17T18:32:00+08:00",
+      "description": "原创 Li Yuan 2026-03-17 18:32 湖北\n\n\n\n\n\n\n  \n  \n  \n  这家过去常被贴上「清洁家电」标签的机器人公司，其实已经进化出了相当扎实的具身智能硬实力。作者｜Li Yuan编辑｜郑玄今年的 AWE，一个展台，让我突然觉得，家庭服务机器人真正走进寻常人家没有那么遥远了。过去几年，机器人当然不是没进步。它会走，会抓，会识别，会对话，发布会和实验室里从来不缺让人眼前一亮的画面。问题是，那些东西大多看起来还不像产品：机器人好像有一点能力了，但你完全无法想象它帮助你在家做什么。但这次不太一样。展台上，一台具身智能机器人正在收鞋。家里最常见的场景之一，就是鞋子总被踢得东一只",
+      "rich_fields": {
+        "content:encoded": "原创Li Yuan 2026-03-17 18:32 湖北\n\n这家过去常被贴上「清洁家电」标签的机器人公司，其实已经进化出了相当扎实的具身智能硬实力。\n\n****作者｜ Li Yuan**** **编辑｜ **郑玄****\n\n今年的 AWE，一个展台，让我突然觉得，家庭服务机器人真正走进寻常人家没有那么遥远了。\n\n过去几年，机器人当然不是没进步。它会走，会抓，会识别，会对话，发布会和实验室里从来不缺让人眼前一亮的画面。问题是，那些东西大多看起来还不像产品：机器人好像有一点能力了，但你完全无法想象它帮助你在家做什么。\n\n但这次不太一样。\n\n展台上，一台具身智能机器人正在收鞋。家里最常见的场景之一"
+      }
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "The Pentagon is developing alternatives to Anthropic, report says",
+      "link": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+      "published_at": "2026-03-17T18:20:15+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "BuzzFeed debuts AI slop apps in bid for new revenue",
+      "link": "https://techcrunch.com/2026/03/17/buzzfeed-ai-slop-apps-sxsw-bf-island-conjure/",
+      "published_at": "2026-03-17T17:17:15+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "极客公园",
+      "source_url": "https://wechat2rss.xlab.app/feed/1a5aec98e71c707c8ca092bc2c255b9d4bac477d.xml",
+      "title": "详解悟空：阿里 ATH 成立第一炮，给千万企业打造数字员工",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653101489&amp;idx=1&amp;sn=4a238f2aa0aca4b617ed65c635b59c73",
+      "published_at": "2026-03-17T16:58:00+08:00",
+      "description": "原创 郑玄 2026-03-17 16:58 湖北\n\n\n\n\n\n\n  \n  \n  \n  数字员工不缺能力，缺的是进公司的资格。作者｜郑玄每个管理者都想要一个孙悟空当下属。不是那个大闹天宫、难以管束的齐天大圣，而是西行取经路上的大师兄——唐僧团队里能力最强的员工，降妖除魔的难活累活全包，永远靠谱、随叫随到，还能七十二变应对一切突发状况……今天，阿里发布了自己的 AI 原生工作平台，由钉钉团队打造。这是阿里宣布成立 ATH 后的第二天，就重磅推出的旗舰企业级产品。Alibaba Token Hub成立第二天，阿里巴巴集团CEO吴泳铭出现在“悟空”发布会现场。将这个产品命名为「悟空」，本身就是一种宣言",
+      "rich_fields": {
+        "content:encoded": "原创郑玄 2026-03-17 16:58 湖北\n\n数字员工不缺能力，缺的是进公司的资格。\n\n**作者｜ ****郑玄******\n\n每个管理者都想要一个孙悟空当下属。\n\n不是那个大闹天宫、难以管束的齐天大圣，而是西行取经路上的大师兄——唐僧团队里能力最强的员工，降妖除魔的难活累活全包，永远靠谱、随叫随到，还能七十二变应对一切突发状况……\n\n今天，阿里发布了自己的 AI 原生工作平台，由钉钉团队打造。这是阿里宣布成立 ATH 后的第二天，就重磅推出的旗舰企业级产品。\n\nAlibaba Token Hub成立第二天，阿里巴巴集团CEO吴泳铭出现在“悟空”发布会现场。\n\n将这个产品命名为「悟空」，"
+      }
+    },
+    {
+      "source": "HuggingFace Blog",
+      "source_url": "http://127.0.0.1:1200/huggingface/blog",
+      "title": "State of Open Source on Hugging Face: Spring 2026",
+      "link": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+      "published_at": "2026-03-17T16:37:55+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "Google AI Blog",
+      "source_url": "https://blog.google/technology/ai/rss/",
+      "title": "Bringing the power of Personal Intelligence to more people",
+      "link": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+      "published_at": "2026-03-17T16:00:00+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "Google AI Blog",
+      "source_url": "https://blog.google/technology/ai/rss/",
+      "title": "Our latest investment in open source security for the AI era",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/",
+      "published_at": "2026-03-17T16:00:00+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "Google’s Personal Intelligence feature is expanding to all US users",
+      "link": "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/",
+      "published_at": "2026-03-17T16:00:00+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "OpenAI expands government footprint with AWS deal, report says",
+      "link": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
+      "published_at": "2026-03-17T15:37:03+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "AI’s ‘boys’ club’ could widen the wealth gap for women, says Rana el Kaliouby",
+      "link": "https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/",
+      "published_at": "2026-03-17T15:16:21+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "World launches tool to verify humans behind AI shopping agents",
+      "link": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/",
+      "published_at": "2026-03-17T15:00:00+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "The Verge AI",
+      "source_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "title": "Nvidias DLSS 5 is like motion smoothing for video games, but worse",
+      "link": "https://www.theverge.com/entertainment/896213/nvidia-dlss-5-ai-faces-motion-smoothing",
+      "published_at": "2026-03-17T14:00:00-04:00",
+      "description": "Yesterday Nvidia revealed its latest upscaling tech, called DLSS 5, which it described as \"the company's most significant breakthrough in computer graphics since the debut of real-time ray tracing in 2018.\" Sounds good, until you actually see it. According to Nvidia, the tech \"infuses pixels with ph",
+      "rich_fields": {
+        "content": "<![CDATA[\nYesterday[Nvidia revealed its latest upscaling tech, called DLSS 5](https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics), which[it described](https://www.nvidia.com/en-us/geforce/news/dlss5-breakthrough-in-visual-fidelity-for-games/)as \"the company's most significan"
+      }
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "Niv-AI exits stealth to wring more power performance out of GPUs",
+      "link": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
+      "published_at": "2026-03-17T13:00:00+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "Gamma adds AI image-generation tools in bid to take on Canva and Adobe",
+      "link": "https://techcrunch.com/2026/03/17/gamma-adds-ai-image-generation-tools-in-bid-to-take-on-canva-and-adobe/",
+      "published_at": "2026-03-17T13:00:00+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "The Verge AI",
+      "source_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "title": "Now everyone in the US is getting Googles personalized Gemini AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/896107/google-expands-personal-intelligence",
+      "published_at": "2026-03-17T12:33:41-04:00",
+      "description": "Google announced on Tuesday that all users in the US will now have access to its Personal Intelligence feature, which lets you connect various Google apps to provide context for Gemini's responses and suggestions. Access was previously limited to Google AI Pro and AI Ultra subscribers. Now, free-tie",
+      "rich_fields": {
+        "content": "<![CDATA[\nGoogle[announced on Tuesday](https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/)that all users in the US will now have access to its[Personal Intelligence](https://www.theverge.com/news/861576/google-gemini-ai-personal-intelligence-gmail-search-yout"
+      }
+    },
+    {
+      "source": "HuggingFace Blog",
+      "source_url": "http://127.0.0.1:1200/huggingface/blog",
+      "title": "Holotron-12B - High Throughput Computer Use Agent",
+      "link": "https://huggingface.co/blog/Hcompany/holotron-12b",
+      "published_at": "2026-03-17T12:33:39+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "MIT Tech Review AI",
+      "source_url": "https://www.technologyreview.com/feed/",
+      "title": "The Download: OpenAI’s US military deal, and Groks CSAM lawsuit",
+      "link": "https://www.technologyreview.com/2026/03/17/1134322/the-download-openi-us-military-deal-grok-xai-csam-lawsuit/",
+      "published_at": "2026-03-17T12:26:48+00:00",
+      "description": "This is todays edition of The Download, our weekday newsletter that provides a daily dose of whats going on in the world of technology.\n\n\n\nWhere OpenAI’s technology could show up in Iran&nbsp;\n\n\n\nOpenAI has controversially agreed to give the Pentagon access to its AI. But where exactly could its tec",
+      "rich_fields": {
+        "content:encoded": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Where OpenAI’s techno"
+      }
+    },
+    {
+      "source": "新智元",
+      "source_url": "https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml",
+      "title": "OpenClaw不会蛋炒饭！Ropedia放出人类经验，机器人「教科书」来了",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652683877&amp;idx=1&amp;sn=67961fe244097bbca25629b90ee221f5",
+      "published_at": "2026-03-17T12:13:00+08:00",
+      "description": "新智元 2026-03-17 12:13 北京\n\n\n\n\n\n\n  \n  \n  \n  新智元报道  编辑：定慧 犀牛【新智元导读】当LeCun和李飞飞各自拿下10亿美元押注世界模型时，一个更底层的问题浮出水面：谁来为Physical AI提供真正能用的数据？Ropedia给出的答案，不是更多视频，而是一部结构化的、来自真实世界的「经验百科全书」。最近，AI圈最热的一件事情就是，玩OpenClaw。OpenClaw似乎无所不能：写代码、出报告、改方案、查资料。但有一件事，OpenClaw做不到——它没办法帮你去厨房炒一盘蛋炒饭。但当AI试图进入物理世界，一个隐藏已久的问题开始浮出水面：机器人学习的数",
+      "rich_fields": {
+        "content:encoded": "新智元 2026-03-17 12:13 北京\n\n### **新智元报道**\n\n编辑：定慧 犀牛\n\n##### **【新智元导读】当Le Cun和李飞飞各自拿下10亿美元押注世界模型时，一个更底层的问题浮出水面：谁来为Physical AI提供真正能用的数据？Ropedia给出的答案，不是更多视频，而是一部结构化的、来自真实世界的「经验百科全书」。**\n\n最近，AI圈最热的一件事情就是，玩OpenClaw。\n\nOpenClaw似乎无所不能：写代码、出报告、改方案、查资料。\n\n**但有一件事，OpenClaw做不到——** 它没办法帮你去厨房炒一盘蛋炒饭。\n\n但当AI试图进入物理世界，一个隐藏已"
+      }
+    },
+    {
+      "source": "新智元",
+      "source_url": "https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml",
+      "title": "新规矩：龙虾惹祸，主人担责！",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652683877&amp;idx=2&amp;sn=c80bd313a7f3a155a8361d79730fbe74",
+      "published_at": "2026-03-17T12:13:00+08:00",
+      "description": "新智元 2026-03-17 12:13 北京\n\n\n\n\n\n\n  \n  \n  \n  新智元报道  编辑：艾伦【新智元导读】Meta 收购 AI 社交平台 Moltbook 仅五天，便紧急修改规则，彻底终结了 AI 自治。新条款明确警告：人类必须为 Agent 的所有行为承担唯一法律责任。巨头入局 AI社交的第一件事，就是把风险塞回给人类。Meta 宣布收购「Agent 版 Reddit」 Moltbook 仅仅五天后，这个原本野蛮生长的平台迎来了第一波大洗牌。核心动作只有一个：放弃对 AI 自治的幻想，把法律责任全盘推给人类。在此之前，Moltbook 更像是一个极客的乌托邦，其服务条款仅仅包含",
+      "rich_fields": {
+        "content:encoded": "新智元 2026-03-17 12:13 北京\n\n### **新智元报道**\n\n编辑：艾伦\n\n##### **【新智元导读】 Meta 收购 AI 社交平台 Moltbook 仅五天，便紧急修改规则，彻底终结了 AI 自治。新条款明确警告：人类必须为 Agent 的所有行为承担唯一法律责任。巨头入局 AI社交的第一件事，就是把风险塞回给人类。**\n\nMeta 宣布收购「Agent 版 Reddit」 Moltbook 仅仅五天后，这个原本野蛮生长的平台迎来了第一波大洗牌。\n\n核心动作只有一个： **放弃对** **AI** **自治的幻想，把法律责任全盘推给人类。**\n\n在此之前，Moltbo"
+      }
+    },
+    {
+      "source": "新智元",
+      "source_url": "https://wechat2rss.xlab.app/feed/ede30346413ea70dbef5d485ea5cbb95cca446e7.xml",
+      "title": "大象秒变挖掘机！三维变形新突破，无需额外训练 | CVPR'26",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652683877&amp;idx=3&amp;sn=f7887ec6eddac5c46f44f2fd1d1b12c3",
+      "published_at": "2026-03-17T12:13:00+08:00",
+      "description": "新智元 2026-03-17 12:13 北京\n\n\n\n\n\n\n  \n  \n  \n  新智元报道  编辑：LRST【新智元导读】南京大学与北京大学提出MorphAny3D，无需训练即可让三维生成模型实现跨类别平滑变形。通过创新注意力机制融合源与目标特征，精准控制结构与时序，轻松完成复杂变形，效果远超传统方法。三维变形旨在实现源物体到目标物体的平滑过渡。尽管二维图像生成模型已推动图像变形技术取得显著进展，但三维变形因其空间结构的复杂性，仍面临以下瓶颈：（1）跨类匹配难题：传统的基于匹配的三维变形方法极其依赖源与目标之间的密集对应关系。在处理跨类别物体（如「大象变挖掘机」）时，这种匹配机制往往失效，导",
+      "rich_fields": {
+        "content:encoded": "新智元 2026-03-17 12:13 北京\n\n### **新智元报道**\n\n编辑：LRST\n\n##### **【新智元导读】 南京大学与北京大学提出MorphAny3D，无需训练即可让三维生成模型实现跨类别平滑变形。通过创新注意力机制融合源与目标特征，精准控制结构与时序，轻松完成复杂变形，效果远超传统方法。**\n\n三维变形旨在实现源物体到目标物体的平滑过渡。尽管二维图像生成模型已推动图像变形技术取得显著进展，但三维变形因其空间结构的复杂性，仍面临以下瓶颈：\n\n（1） **跨类匹配难题：** 传统的基于匹配的三维变形方法极其依赖源与目标之间的密集对应关系。在处理跨类别物体（如「 大象变挖掘机"
+      }
+    },
+    {
+      "source": "量子位",
+      "source_url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+      "title": "企业级靠谱龙虾升级，拒绝失控",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247875283&amp;idx=1&amp;sn=337ce4ef280b70b03cf90ae68256d7cc",
+      "published_at": "2026-03-17T12:10:00+08:00",
+      "description": "关注前沿科技 2026-03-17 12:10 北京\n\n\n\n\n\n\n  \n  \n  Deepexi 2.0重磅升级\n  田晏林 发自 凹非寺量子位 | 公众号 QbitAI从全民抢着“养龙虾”，到紧急“拆龙虾”，前后不过半个月。OpenClaw的爆火与降温背后，其实是戳中了人们的普遍期待：太想要一个能真正帮忙干活的AI员工/AI助理了。但这类轻量化智能体的短板也显而易见：技能单一、场景有限，大多只能满足个人或小型轻量化需求。一旦进入企业复杂业务的真实战场，再大的“虾”，也有爪子抽筋的时刻。更现实的是，“养虾”成本不低：token消耗大、费用高，还伴随着数据安全与合规风险。△图片来源网络这也给企业",
+      "rich_fields": {
+        "content:encoded": "关注前沿科技 2026-03-17 12:10 北京\n\nDeepexi 2.0重磅升级\n\n##### 田晏林 发自 凹非寺 量子位 | 公众号 QbitAI\n\n从全民抢着“养龙虾”，到紧急“拆龙虾”，前后不过半个月。\n\nOpenClaw的爆火与降温背后，其实是戳中了人们的普遍期待：太想要一个能 **真正帮忙干活** 的AI员工/AI助理了。\n\n但这类轻量化智能体的短板也显而易见：技能单一、场景有限，大多只能满足个人或小型轻量化需求。一旦进入企业复杂业务的真实战场，再大的“虾”，也有爪子抽筋的时刻。\n\n更现实的是，“养虾”成本不低：token消耗大、费用高，还伴随着数据安全与合规风险。\n\n**△"
+      }
+    },
+    {
+      "source": "量子位",
+      "source_url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+      "title": "GPT-5.4一周狂赚10亿美元ARR！一句嗨烧掉80刀，效率却飙升32倍",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247875283&amp;idx=2&amp;sn=5899113959ebc44dc4cb95b19ddaafbc",
+      "published_at": "2026-03-17T12:10:00+08:00",
+      "description": "原创 关注前沿科技 2026-03-17 12:10 北京\n\n\n\n\n\n\n  \n  \n  GPT-5.4破纪录了！\n  听雨 发自 凹非寺量子位 | 公众号 QbitAIGPT-5.4破纪录了！据OpenAI总裁Greg最新披露，GPT-5.4仅上线一周，每天处理约5万亿token，带来10亿美元年化净新增收入。其日均流量已经超过OpenAI一年前整个API的总量。啥概念？一本《红楼梦》约73万字（约合110万token），相当于GPT-5.4每天处理了超过4500万本完整著作。靠着新模型，OpenAI这波又是赚得盆满钵满了。一句Hi烧掉80刀为啥GPT-5.4的收入增长那么快？成本是很重要的原",
+      "rich_fields": {
+        "content:encoded": "原创关注前沿科技 2026-03-17 12:10 北京\n\nGPT-5.4破纪录了！\n\n##### 听雨 发自 凹非寺 量子位 | 公众号 QbitAI\n\nGPT-5.4破纪录了！\n\n据OpenAI总裁Greg最新披露，GPT-5.4仅上线一周， **每天处理约5万亿token，带来10亿美元年化净新增收入** 。\n\n其日均流量已经超过OpenAI **一年前整个API的总量** 。\n\n啥概念？一本《红楼梦》约73万字 *（约合110万token）* ，相当于GPT-5.4每天处理了超过4500万本完整著作。\n\n靠着新模型，OpenAI这波又是赚得盆满钵满了。\n\n## 一句Hi烧掉80刀\n\n为"
+      }
+    },
+    {
+      "source": "量子位",
+      "source_url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+      "title": "视频生成一长就漂移竟是前序帧「太干净」惹的祸！研究揭示共享噪声水平才是长视频稳定关键",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247875283&amp;idx=3&amp;sn=62af075db6db0807928746fbf7f1d21e",
+      "published_at": "2026-03-17T12:10:00+08:00",
+      "description": "关注前沿科技 2026-03-17 12:10 北京\n\n\n\n\n\n\n  \n  \n  3小时无退化生成，颠覆自回归视频范式\n  HiAR团队 投稿 量子位 | 公众号 QbitAI自回归视频生成越往后越崩的问题有救了！随着视频生成向长时序演进，自回归（AR）扩散模型因其支持流式输出的特性，受到了学术界和工业界的广泛关注。然而，现有的AR生成范式在迈向“无限长”时，始终面临一个核心痛点：训推不一致导致的误差累积。这使得生成的视频越往后，时序漂移和画面崩坏问题（drift）就越严重。为了缓解这一退化问题，现有的方法尝试了多种路径，例如模拟预测误差、引入First frame sink或者Self-ro",
+      "rich_fields": {
+        "content:encoded": "关注前沿科技 2026-03-17 12:10 北京\n\n3小时无退化生成，颠覆自回归视频范式\n\n##### HiAR团队 投稿 量子位 | 公众号 QbitAI\n\n自回归视频生成越往后越崩的问题有救了！\n\n随着视频生成向长时序演进，自回归 *（AR）* 扩散模型因其支持流式输出的特性，受到了学术界和工业界的广泛关注。然而，现有的AR生成范式在迈向“无限长”时，始终面临一个核心痛点：训推不一致导致的 **误差累积** 。这使得生成的视频越往后，时序漂移和画面崩坏问题 *（drift）* 就越严重。\n\n为了缓解这一退化问题，现有的方法尝试了多种路径，例如模拟预测误差、引入First frame s"
+      }
+    },
+    {
+      "source": "量子位",
+      "source_url": "https://wechat2rss.xlab.app/feed/7131b577c61365cb47e81000738c10d872685908.xml",
+      "title": "量子位编辑作者招聘",
+      "link": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247875283&amp;idx=4&amp;sn=5e3f02d837514fdf7ee4a49051dc26a3",
+      "published_at": "2026-03-17T12:10:00+08:00",
+      "description": "关注前沿科技 2026-03-17 12:10 北京\n\n\n\n\n\n\n  \n  \n  3个岗位（含实习），不设边界\n  编辑部 发自 凹非寺量子位 | 公众号 QbitAIAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来量子位呢？我们是一家以追踪AI新进展为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。目前，我们有三大方向岗位招聘，希望你是（或者能成为）这三个方向的内容专家：AI产业方向：关注基建层创新，包含芯片、AI Infra、云计算；AI财经方向：关注AI领域创投和财报，跟踪产业链资本动向；AI产品方向：关注AI在应",
+      "rich_fields": {
+        "content:encoded": "关注前沿科技 2026-03-17 12:10 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 *（或者能成为）* 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关"
+      }
+    },
+    {
+      "source": "The Verge AI",
+      "source_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "title": "Microsoft appoints a new Copilot boss after AI leadership shake-up",
+      "link": "https://www.theverge.com/news/895963/microsoft-copilot-leadership-changes-consumer-commercial",
+      "published_at": "2026-03-17T11:17:27-04:00",
+      "description": "Microsoft is doing another executive shuffle today to reorganize how it engineers its Copilot assistant. Different teams have been working on the consumer and commercial sides of Copilot for years, but Microsoft is about to unify parts of them in an effort to create a more cohesive Copilot for busin",
+      "rich_fields": {
+        "content": "<![CDATA[\nMicrosoft is doing another executive shuffle today to reorganize how it engineers its Copilot assistant. Different teams have been working on the consumer and commercial sides of Copilot for years, but Microsoft is about to unify parts of them in an effort to create a more cohesive Copilot"
+      }
+    },
+    {
+      "source": "The Verge AI",
+      "source_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "title": "The future of code is exciting and terrifying",
+      "link": "https://www.theverge.com/podcast/895910/claude-code-future-developers-vergecast",
+      "published_at": "2026-03-17T11:16:47-04:00",
+      "description": "Suddenly it seems like everyone's a coder. Or, at the very least, like they play one in the Claude Code app. But even for the seasoned pros, the act of software development is changing fast - many people are writing less code themselves and instead spending their time managing agents and projects. S",
+      "rich_fields": {
+        "content": "<![CDATA[\nSuddenly it seems like[everyone's a coder](https://www.theverge.com/report/874308/anthropic-claude-code-opus-hype-moment). Or, at the very least, like they play one in the Claude Code app. But even for the seasoned pros, the act of software development is changing fast - many people are wr"
+      }
+    },
+    {
+      "source": "极客公园",
+      "source_url": "https://wechat2rss.xlab.app/feed/1a5aec98e71c707c8ca092bc2c255b9d4bac477d.xml",
+      "title": "没人比英伟达，更懂「下一代 AI 计算」",
+      "link": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653101294&amp;idx=1&amp;sn=9ef9125920f416db4fa53663a892d966",
+      "published_at": "2026-03-17T10:36:00+08:00",
+      "description": "原创 徐珊 2026-03-17 10:36 湖北\n\n\n\n\n\n\n  \n  \n  \n  下一个 AI 阶段，英伟达依旧称王。作者｜徐珊编辑｜靖宇「我确信我们这是一场科技盛宴。今天在座的每一位，都代表着英伟达的生态。」在 2026 年 GTC 的开幕现场，那个永远穿着黑色皮夹克的男人——黄仁勋，一上台就带着他招牌式的自信。与往年开场不同，今年是 CUDA 生态 20 周年。一开场，老黄就讲述英伟达如何从 Geforce 到光线追踪，再到 AI 智能体，一步步打造自家的护城河。「如今 CUDA 生态已经形成了数据飞轮。」在他的讲述下，我们能够看由他亲手创下的 CUDA 生态已经成就了一个商业帝国。此",
+      "rich_fields": {
+        "content:encoded": "原创徐珊 2026-03-17 10:36 湖北\n\n下一个 AI 阶段，英伟达依旧称王。\n\n**作者｜徐珊**\n\n编辑｜靖宇\n\n「我确信我们这是一场科技盛宴。今天在座的每一位，都代表着英伟达的生态。」在 2026 年 GTC 的开幕现场，那个永远穿着黑色皮夹克的男人——黄仁勋，一上台就带着他招牌式的自信。\n\n与往年开场不同，今年是 CUDA 生态 20 周年。一开场，老黄就讲述英伟达如何从 Geforce 到光线追踪，再到 AI 智能体，一步步打造自家的护城河。「如今 CUDA 生态已经形成了数据飞轮。」在他的讲述下，我们能够看由他亲手创下的 CUDA 生态已经成就了一个商业帝国。\n\n此次发布"
+      }
+    },
+    {
+      "source": "OpenAI News",
+      "source_url": "http://127.0.0.1:1200/openai/news",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+      "published_at": "2026-03-17T10:00:00+00:00",
+      "description": "",
+      "rich_fields": {}
+    },
+    {
+      "source": "TechCrunch AI",
+      "source_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "title": "Picsart now allows creators to ‘hire’ AI assistants through agent marketplace",
+      "link": "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/",
+      "published_at": "2026-03-17T04:01:00+00:00",
+      "description": "",
+      "rich_fields": {}
+    }
+  ]
+}

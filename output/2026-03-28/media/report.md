@@ -1,0 +1,22 @@
+# 📰 媒体资讯日报 · 2026-03-28
+
+1. **TechCrunch AI** — Anthropic 就 Trump 政府将其从 DoD 供应链中剔除一事申请禁令，联邦法院裁定支持 Anthropic，暂时阻止五角大楼禁令生效。
+   > https://techcrunch.com/2026/03/26/anthropic-wins-injunction-against-trump-administration-over-defense-department-saga/
+
+2. **TechCrunch AI** — SoftBank 向 OpenAI 提供 400 亿美元贷款，分析人士认为此举预示 OpenAI 最快将于 2026 年推进 IPO 进程。
+   > https://techcrunch.com/2026/03/27/why-softbanks-new-40b-loan-points-to-a-2026-openai-ipo/
+
+3. **极客公园** — 传月之暗面计划赴港 IPO；全球首个 AI 失业补助项目上线，每月发放 1000 美元；大疆发布全景无人机 Avata 360，售价 2788 元。
+   > https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653102155&idx=1&sn=8547ca4f4211c8d1e185624c7f159efd
+
+4. **量子位** — 港股 AGI 第一股发布首份年报：大模型收入同比暴涨 1076%，全年营收超 12 亿元，商业化落地成效显著。
+   > https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247878293&idx=1&sn=c84c86135ecbb9aa95a1dbfc2636638b
+
+5. **机器之心** — 清华大学与无问芯穹联合发布多智能体系统 WideSeek-R1，4B 参数小模型推理能力比肩 671B 大模型，强调宽度而非深度。
+   > https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024218&idx=3&sn=a92f925bdc0bc92fdec546ebc4f17278
+
+6. **TechCrunch AI** — David Sacks 卸任美国 AI 沙皇一职，转型投入个人投资事业，其政策倡导角色将由白宫内部其他官员接手。
+   > https://techcrunch.com/2026/03/26/david-sacks-is-done-as-ai-czar-heres-what-hes-doing-instead/
+
+7. **机器之心** — 中科第五纪创始人黄岩专访：具身智能赛道热潮下，该团队选择聚焦底层运动控制技术，拒绝追风口、坚持技术实干路线。
+   > https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651024218&idx=1&sn=6a90e9ddaf9b09ed2239bb4818a03736

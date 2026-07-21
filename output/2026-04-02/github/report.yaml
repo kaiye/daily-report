@@ -1,0 +1,37 @@
+date: '2026-04-02'
+items:
+- name: anthropics/claude-code
+  description: Anthropic 开源命令行编程代理，能在终端理解代码库并执行改码、解释与 Git 工作流。
+  stars: 100,546
+  today: 10,749
+  url: https://github.com/anthropics/claude-code
+- name: microsoft/VibeVoice
+  description: 微软开源语音 AI 项目，覆盖前沿 TTS、实时语音合成与长音频 ASR 能力。
+  stars: 34,395
+  today: 1,685
+  url: https://github.com/microsoft/VibeVoice
+- name: google-research/timesfm
+  description: Google 的时间序列基础模型，用预训练方式统一处理预测任务与多场景时序数据。
+  stars: 12,057
+  today: '380'
+  url: https://github.com/google-research/timesfm
+- name: luongnv89/claude-howto
+  description: 面向 Claude Code 的可视化教程与模板库，覆盖 commands、memory、skills、hooks 和 MCP。
+  stars: 15,529
+  today: 3,301
+  url: https://github.com/luongnv89/claude-howto
+- name: axios/axios
+  description: 经典 HTTP 客户端库，本身并非 AI 项目，本次上榜更多是被 AI 工具链与示例仓库间接带热。
+  stars: 108,859
+  today: '93'
+  url: https://github.com/axios/axios
+- name: openai/codex
+  description: OpenAI 的本地终端编程代理 CLI，支持在命令行里执行代码任务与多步协作。
+  stars: 71,672
+  today: 2,390
+  url: https://github.com/openai/codex
+- name: f/prompts.chat
+  description: 开源提示词库与站点，支持收集、检索、分享并自托管多模型通用 prompts。
+  stars: 155,982
+  today: '398'
+  url: https://github.com/f/prompts.chat
