@@ -5,8 +5,8 @@
 # API key: set OPENAI_API_KEY environment variable
 # Compatible with any OpenAI-compatible endpoint (SiliconFlow, DeepSeek, etc.)
 llm:
-  base_url: https://cc.dingsum.com/v1
-  model: gpt-5.5
+  base_url: https://cf.api.fan/v1
+  model: deepseek-v4-flash
   temperature: 0.2
   proxy: ""   # optional; set empty to disable
 
