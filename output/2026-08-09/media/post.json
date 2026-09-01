@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-08-09T00:03:30.957Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 11,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "王兴兴回应 DeepSeek 投资宇树：将展开重点合作；微信内测朋友圈 AI 新功能；美国科学家首次用AI设计出新型病毒 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111701&idx=1&sn=ae12691e75b0add00fde5a58ac09027a",
+      "published_at": "2026-08-08T00:40:00.000Z",
+      "summary": "Li Yuan 2026-08-08 08:40 中国台湾\n\nAnthropic 为自研 AI 芯片开出高薪；iPhone 18 Pro 系列价格预测\n\n## OpenAI 因 Astra 模型的网络安全能力而放缓其发布进程\n\n据报道，OpenAI 表示，不能排除其即将推出的模型 Astra 具备「关键性」网络能力，这促使 OpenAI 扩大安全测试范围，并暂停不符合更严格安全要求的内部活动。这是人工智能模型网络能力快速提升的最新迹象。\n\nOpenAI 表示，在对即将推出的模型之一 Astra 进行内部评估后，「我们无法排除其具备关键性网络能力」。在发布 Astra 之前，OpenAI 将扩大",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "published_at": "2026-08-08T19:41:13.000Z",
+      "summary": "NextSlide says its team members are now working on ChatGPT.",
+      "priority_score": 324,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "贵57.1倍的Claude Opus 4.8五项全输，赢它的不是模型，是Harness",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651049201&idx=1&sn=f8110edb2ca6e5ca038bf0e8196394b0",
+      "published_at": "2026-08-08T04:30:00.000Z",
+      "summary": "机器之心 2026-08-08 12:30 山东\n\n如何计量 Harness ？\n\n机器之心发布\n\n在很多人的印象里，AOE Tech Labs 是一家以产品创新见长的公司。\n\n2026 年 1 月，Floatboat 客户端把文件管理器、编辑器和浏览器直接做成 Agent 的运行环境，开创了 Agent 桌面工作台这一形态；4 月，FloatIM 把人与 Agent、Agent 与 Agent 接成一张办公网络，任务可以跨人、跨 Agent 交接而上下文不断；5 月，FloatSchedule 让 Agent 不必等人下指令，按日程自己开工。三次发布，三个此前市面上没有的东西，全部围绕真实办",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "让生成式模型「画」出空间智能，而非强迫LLM输出「坐标」! 浙大提出Agentic空间认知评估框架",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651049201&idx=3&sn=0d392ccc606293b0469161d091a1d940",
+      "published_at": "2026-08-08T04:30:00.000Z",
+      "summary": "机器之心 2026-08-08 12:30 山东\n\nShow, Don't tell.\n\n如果你问一个人 “杯子在哪？”，他通常会直接用手指给你看，而不是面无表情地回答：“目标位于屏幕横坐标 345 至 412、纵坐标 512 至 600 的边界框内”。然而，在现有空 间认知评测 中，我们却一直在强迫 AI 用这种 “反直觉” 的坐标方式来证明自己的空间认知能力。\n\n空间判断本来就活在连续的视觉场景里，但现有 benchmark 几乎都要求模型用坐标、选项或文字作答。这对文本 VLM 已不够自然，天然工作在像素空间、本可直接 “画” 出答案的图像生成模型更是被挡在门外。\n\n生成式模型会不会是承",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "都学坏了！奥特曼亲手封锁最强模型Astra，重蹈Mythos覆辙",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910812&idx=2&sn=19274ba091daef41ccac22b079c22468",
+      "published_at": "2026-08-08T04:12:00.000Z",
+      "summary": "量子位 2026-08-08 12:12 北京\n\n「太危险」被延期\n\n##### Jay 发自 凹非寺 量子位 | 公众号 QbitAI\n\n不er，闹呢？\n\n刚刚，奥特曼发文，宣布推迟最强模型 **Astra** 的发布。\nAstra是一个强大的模型，我们正努力让它向所有用户开放。\n\n我们认为，把强大的模型只提供给少数特定人群使用，并不是一个好的策略。\n\n不过，考虑到Astra具备网络安全方面的能力，我们还需要多花一点时间，以确保能够安全地开放它。\n是的，被「囚禁」了，哈哈哈哈（无力）…… **又要走一遍Mythos的流程** 。\n\n## Astra的披露之旅\n\n所以Astra，究竟是个啥？\n",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "中国NeoLab时刻：EverMind用3篇论文，交出全栈自进化首份答卷",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910812&idx=1&sn=1be36c772024fb1001416a99bdc7ec3a",
+      "published_at": "2026-08-08T04:12:00.000Z",
+      "summary": "关注前沿科技 2026-08-08 12:12 北京\n\n从技能、harness到模型，层层递进\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n2026年夏天，注定是 **自进化AI** 的历史一刻。\n\n当海外NeoLab还忙于靠叙事拿下数亿美元融资时，一家中国团队用连续三篇论文，交出了自进化AI领域 **第一份** 全栈答案。\n\n它就是 **EverMind** ，由 盛大集团孵化，延袭当年创新院研究基因 。\n\n其实回顾中国互联网史，盛大创新院的存在几乎算得上 「异类」 。\n\n2008年，陈天桥在盛大集团内部创立该机构，其定位不是做产品、也不追KPI，就是纯粹地探索技术",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "published_at": "2026-08-08T21:24:02.000Z",
+      "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "An Amazon data center could have the worst polluting power plant in the country",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant",
+      "published_at": "2026-08-08T17:53:34.000Z",
+      "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the[New York Times](https://www.nytimes.com/2026/08/08/climate/amazon-data-center-texas-pollution.html).",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "谷歌AI重组：创始人布林亲自盯Gemini，哈萨比斯交权",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651049201&idx=2&sn=8a27a26d25acedc9665fe59d19f41e5a",
+      "published_at": "2026-08-08T04:30:00.000Z",
+      "summary": "机器之心 2026-08-08 12:30 山东\n\n谷歌AI权力重组。\n\n机器之心编辑部\n\nJeff Dean 正式跟谷歌 Say Goodbye，不少人纷纷致敬这位「活着的传奇」。\n\n图片来源：小红书博主 Kaz\n\n甚至有网友戏称「大佬有一种下班的快乐。」\n\n图片来源：小红书博主 BlueberryLatte\n\n社交媒体上关于 Jeff Dean 的美谈还在流传。\n\nX 网友 @yoonseok_yang 回忆起自己当年「瞎猫碰上死耗子」，成功约到 Jeff Dean 一对一见面的事。\n\n2022 年他还是谷歌实习生的时候，随手给 Jeff Dean 发了个日历邀请（因为 Jeff 的日历对",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910812&idx=3&sn=3a76c26212311d1d06e45591eeca5d8d",
+      "published_at": "2026-08-08T04:12:00.000Z",
+      "summary": "关注前沿科技 2026-08-08 12:12 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "美国本土直播带货，长出一头 200 亿美元「巨兽」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111706&idx=1&sn=2508469aebff543507db5bfa649c770f",
+      "published_at": "2026-08-08T04:00:00.000Z",
+      "summary": "原创Wildcard 2026-08-08 12:00 浙江\n\n直播带货，在美国长成了一个完全不同的物种。\n\n**作者｜Wildcard** **编辑｜靖宇**\n\n当直播带货，在中国已经近乎成为网民购物基本操作时候，习惯了 Copy From China 的硅谷大厂，不是没动心过。\n\n2022 年 10 月，Facebook 关闭了直播购物功能。五个月后，Instagram 跟进。Amazon Live 则更惨，被行业分析师评价为「内容质量令人尴尬，大多数用户甚至不知道它的存在」。\n\n硅谷大厂一系列失败，得出一个结论—— **直播电商在美国做不起来。**\n\n中国有李佳琦和 4.5 万亿的直播电",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

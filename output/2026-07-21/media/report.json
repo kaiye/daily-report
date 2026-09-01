@@ -1,0 +1,71 @@
+{
+  "report_date": "2026-07-21",
+  "section": "media",
+  "title": "媒体资讯",
+  "summary": "最重要的趋势是中美头部AI公司正围绕模型能力、开放生态、算力供给与底层芯片加速展开更直接的竞争。",
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "中国AI模型接连出击美国主导地位",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen",
+      "published_at": "2026-07-20T10:16:33.000Z",
+      "summary": "报道称月之暗面和阿里巴巴接连发布新模型，并宣称能以更低成本与OpenAI和Anthropic的顶级系统竞争。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI担忧开源权重模型，美国也该担心吗",
+      "url": "https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/",
+      "published_at": "2026-07-20T19:33:25.000Z",
+      "summary": "文章围绕限制中国开源权重LLM的讨论，指出这也暴露出AI商业化与开放模型扩散之间的紧张关系。"
+    },
+    {
+      "source": "极客公园",
+      "title": "月之暗面Kimi因算力压力暂停C端新用户订阅",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110811&idx=1&sn=cdfa78cec4b4d444f0c3a305bb36c894",
+      "published_at": "2026-07-20T00:13:00.000Z",
+      "summary": "公告称公司将现有算力优先用于保障已订阅用户体验，此举发生在Kimi K3模型上线后不久。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "谷歌正研发新AI芯片以提升Gemini效率",
+      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+      "published_at": "2026-07-20T21:21:15.000Z",
+      "summary": "报道援引消息称Alphabet在推进一款新芯片，希望让Gemini模型运行得更高效。"
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "AI在招聘中比人类更容易形成偏见",
+      "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "published_at": "2026-07-20T08:39:01.000Z",
+      "summary": "最新研究显示，除了继承训练数据中的人类偏见外，LLM在招聘筛选场景中还可能自行形成新的偏差。"
+    },
+    {
+      "source": "极客公园",
+      "title": "Meshy完成近4亿美元B轮融资且估值超百亿元",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653110845&idx=1&sn=b44fd031c676146109344dc12fe71f1a",
+      "published_at": "2026-07-20T02:33:00.000Z",
+      "summary": "公司披露这轮融资刷新了AI 3D赛道的单轮融资规模与估值纪录，并计划推进实时互动的多模态内容体验。"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI最重要的协议正变得更易使用",
+      "url": "https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/",
+      "published_at": "2026-07-20T20:50:40.000Z",
+      "summary": "新方案将在服务器端对会话ID采用更宽松的无状态处理方式，以降低这一协议的使用复杂度。"
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "Storage Agent Family试图重构Agent时代的云存储交互",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247520980&idx=1&sn=3473de7e69a0d88739c1684a4abfff7e",
+      "published_at": "2026-07-20T10:00:00.000Z",
+      "summary": "该文将其定位为面向Agent时代的存储基础设施续篇，继续讨论围绕人机交互重组云存储体系的设计。"
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "腾讯称用一个Skill跑通需求开发全流程并实现94%代码生成率",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802727&idx=1&sn=631188a7c6711314ff2febbe5cb721e5",
+      "published_at": "2026-07-20T09:36:00.000Z",
+      "summary": "文章介绍企业微信团队如何把需求、设计与代码上下文串联进一套AI化开发流水线，以改善业务代码生成落地效果。"
+    }
+  ]
+}

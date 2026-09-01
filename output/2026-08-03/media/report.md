@@ -1,0 +1,48 @@
+# 媒体资讯
+
+今日媒体重点集中在超级智能开放策略、AI 基础设施瓶颈、数学与安全基准突破，以及 Agent 记忆和 AI 视频产品进展。
+
+### [小扎炮轰AI末日论！超级智能要人人可用，少数人控制才危险](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652715877&idx=2&sn=6431b5756d84afd70c1c11a6eadca80c)
+*新智元* · 2026-08-02
+
+小扎炮轰AI末日论！超级智能要人人可用，少数人控制才危险：ASI启示录 2026-08-02 08:10 北京 ### **新智元报道** 最强的AI太危险，不能随便放出来
+
+### [年薪百万抢电工，Meta急到自己办技校](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908954&idx=2&sn=674ccf46383a460196ba2a2a8bb6fa67)
+*量子位* · 2026-08-02
+
+年薪百万抢电工，Meta急到自己办技校：原创关注前沿科技 2026-08-02 10:00 北京 AI竞赛，电还有，电工快不够了
+
+### [突发！OpenAI下一代AI攻克10项菲尔兹奖级难题](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652715877&idx=1&sn=c2cf1454e36668597ce66d46166c7f96)
+*新智元* · 2026-08-02
+
+突发！OpenAI下一代AI攻克10项菲尔兹奖级难题：ASI启示录 2026-08-02 08:10 北京 ### **新智元报道** OpenAI还有大招
+
+### [从11.9%飙到95.95%！微软屠榜网安基准，真正王牌不是大模型](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652715877&idx=3&sn=371026d82aec58a04d89117998d4af59)
+*新智元* · 2026-08-02
+
+从11.9%飙到95.95%！微软屠榜网安基准，真正王牌不是大模型：ASI启示录 2026-08-02 08:10 北京 ### **新智元报道** 95.95%
+
+### [马斯克和 Altman 达成共识：人类已迈入 AI 奇点时代；小米手机多款涨价 300 元起；苹果警告 AI 算力短缺或导致产品延期发布 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111456&idx=1&sn=ba7f1bc4e123c2df2000fe7039497272)
+*极客公园* · 2026-08-02
+
+马斯克和 Altman 达成共识：人类已迈入 AI 奇点时代；小米手机多款涨价 300 元起；苹果警告 AI 算力短缺或导致产品延期发布 | 极客早知道：美漪 2026-08-02 09:15 上海 Google 或将推出智能追踪器「Pixel Tag」；高通完成收购 Modular，加速 AI 计算布局；谷歌、微软、Meta、亚马逊「四巨头」未来数年投入 2.4 万亿美元，豪赌 AI 基础
+
+### [Agent终于不再「用完即忘」：华为诺亚开源MindMemOS，让记忆和Skill一起进化](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908954&idx=1&sn=0e7346cc609105e6c314ad0732fd41ad)
+*量子位* · 2026-08-02
+
+Agent终于不再「用完即忘」：华为诺亚开源MindMemOS，让记忆和Skill一起进化：量子位 2026-08-02 10:00 北京 记忆能带走、会成长，还能反向纠错 ##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI Agent的能力越来越强，但使用体验仍有一个尴尬之处： **每换一个Agent甚至换一个se
+
+### [Seedance 2.5 实测：从「片段」到「叙事」，AI 视频的下半场开始了｜AI 上新](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111492&idx=1&sn=ab85b0aa989fc3a362384575336aa365)
+*极客公园* · 2026-08-02
+
+Seedance 2.5 实测：从「片段」到「叙事」，AI 视频的下半场开始了｜AI 上新：原创张勇毅 2026-08-02 12:32 山东 30 秒视频直出不是参数升级，是创作方式的切换
+
+### [阿里22B模型实现实时分钟级稳定数字人生成，自定义角色流式交互模型开源](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908954&idx=3&sn=1f4f3bf12d5fa00e2c37a4dcb7f71de9)
+*量子位* · 2026-08-02
+
+阿里22B模型实现实时分钟级稳定数字人生成，自定义角色流式交互模型开源：关注前沿科技 2026-08-02 10:00 北京 22B模型实现实时数字人，长视频生成告别漂移 ##### TaoMate团队 投稿 量子位 | 公众号 QbitAI 当数字人视频从数秒扩展到数分钟，生成系统面对的核心问题不再只是单帧质
+
+### [Is paying artists enough to convince them to embrace AI?](https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties)
+*The Verge AI* · 2026-08-02
+
+Is paying artists enough to convince them to embrace AI?：Illustrators have spent years sounding the alarm about generative artificial intelligence startups training their models

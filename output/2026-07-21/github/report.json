@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-07-21",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜项目最热的共同方向是围绕 AI 智能体与编码助手构建本地优先的代码理解、模型接入、长期记忆与多模态工作流基础设施。",
+  "items": [
+    {
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "面向 MCP 和 CLI 的本地优先代码智能图谱，构建你的代码库持久地图，让 AI 编码工具只读取真正重要的内容。",
+      "language": "Python",
+      "stars_today": 1833,
+      "stars_total": 23099
+    },
+    {
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "面向代码场景的最智能智能体运行框架。",
+      "language": "Rust",
+      "stars_today": 568,
+      "stars_total": 9612
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "永久免费 MIT AI 网关：单一端点连接 268+ 提供商与 500+ 模型，可与 Claude Code、Codex、Cursor、Cline 和 Copilot 协同工作。",
+      "language": "TypeScript",
+      "stars_today": 1107,
+      "stars_total": 21758
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "学会它，构建它，把它交付给他人。",
+      "language": "Python",
+      "stars_today": 823,
+      "stars_total": 40500
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "触手可及的完整 AI 智能体团队——从前端向导到 Reddit 社区高手，每个智能体都是具备个性、流程和已验证交付物的专项专家。",
+      "language": "Shell",
+      "stars_today": 862,
+      "stars_total": 134688
+    },
+    {
+      "repo": "kvcache-ai/ktransformers",
+      "url": "https://github.com/kvcache-ai/ktransformers",
+      "description": "用于体验异构 LLM 推理与微调优化的灵活框架。",
+      "language": "Python",
+      "stars_today": 458,
+      "stars_total": 18727
+    },
+    {
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "开源 AI 语音工作室，可进行克隆、口述与创作。",
+      "language": "TypeScript",
+      "stars_today": 821,
+      "stars_total": 44144
+    },
+    {
+      "repo": "topoteretes/cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "description": "Cognee 是面向智能体的开源 AI 记忆平台，通过自托管知识图谱引擎为 AI 智能体提供跨会话的持久长期记忆。",
+      "language": "Python",
+      "stars_today": 234,
+      "stars_total": 28775
+    },
+    {
+      "repo": "Robbyant/lingbot-map",
+      "url": "https://github.com/Robbyant/lingbot-map",
+      "description": "用于从流式数据重建场景的前馈式 3D 基础模型。",
+      "language": "Python",
+      "stars_today": 565,
+      "stars_total": 14208
+    },
+    {
+      "repo": "MoonshotAI/kimi-cli",
+      "url": "https://github.com/MoonshotAI/kimi-cli",
+      "description": "Kimi Code CLI 是你的下一代 CLI 智能体。",
+      "language": "Python",
+      "stars_today": 410,
+      "stars_total": 10225
+    },
+    {
+      "repo": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "集成众多 IM 平台、LLM、插件与 AI 功能的 AI Agent 助手和开发框架，也可作为 openclaw 的替代方案。",
+      "language": "Python",
+      "stars_today": 317,
+      "stars_total": 37073
+    },
+    {
+      "repo": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "description": "面向 AI 编码智能体的首选 Web 能力，通过 MCP 提供本地优先的搜索、抓取、爬取与研究。",
+      "language": "TypeScript",
+      "stars_today": 689,
+      "stars_total": 2523
+    }
+  ]
+}

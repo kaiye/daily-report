@@ -1,0 +1,167 @@
+{
+  "generated_at": "2026-07-26T00:01:49.001Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 13,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "Claude Opus 5 正式发布；智元机器人已启动上市流程；特斯拉官宣 Cybercab 接入集成星链｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111189&idx=1&sn=be9a749bca1d623f0133efa6a9812b96",
+      "published_at": "2026-07-25T02:20:00.000Z",
+      "summary": "徐珊 2026-07-25 10:20 北京\n\n腾讯混元组织架构调整；英伟达将向 Naver 投资 10 亿美元；菲尔兹奖得主雅各布·齐默曼将加入 OpenAI。\n\n## Claude Opus 5 正式发布，最好的 Fable 5「平替」\n\n美国时间 7 月 24 日，[Anthropic 正式发布 Claude Opus 5](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653111173&amp;idx=1&amp;sn=18ac89f2eb7237cd9b0adc77443489ba&amp;scene=21#w",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "具身智能的「ChatGPT时刻」还没到，科沃斯先把机器人拆开了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907199&idx=1&sn=be2e4bb8e9eb039edfe881e6ee9144a4",
+      "published_at": "2026-07-25T04:40:00.000Z",
+      "summary": "原创关注前沿科技 2026-07-25 12:40 北京\n\n不做人形，抓住用户真实需求\n\n##### 克雷西 发自 苏州 量子位 | 公众号 QbitAI\n\n做扫地机器人的科沃斯，把旗下一款具身智能机器人整个开源了。\n\n这条路，科沃斯走了十四年。\n\n2012年，它推出了全球首款家庭服务机器人「亲宝」，是最早一批入局家庭服务机器人赛道的公司。\n\n后续迭代的公共服务机器人「旺宝」，广泛落地银行、政务大厅等场景，攒下了海量真实场景数据、工程落地经验和规模化交付能力。\n\n这些积累，后来成了科沃斯深耕具身智能领域的产业根基。\n\n现在，它在苏州挂牌成立了「八界开源智创空间」，面向开发者、高校师生和科研人员",
+      "priority_score": 228,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "LLM后训练太烧钱？清华&腾讯有了破解法门：关键是得会Rollout",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907199&idx=3&sn=db62b221aeb50a9dfff1af69803b2787",
+      "published_at": "2026-07-25T04:40:00.000Z",
+      "summary": "关注前沿科技 2026-07-25 12:40 北京\n\n把Agent轨迹看成一棵树，不再均摊预算给prompt\n\n##### TRACE团队 投稿 量子位 | 公众号 QbitAI\n\n大模型做强化学习后训练，最容易被低估的成本是什么？\n\n在普通数学题里，成本可能主要来自一遍遍生成长链推理答案。\n\n但到了Agentic场景，事情会更麻烦。\n\n模型不只是写答案，而是要一步步思考、调用工具、接收环境反馈，再继续决定下一步做什么。每一次完整交互轨迹，都是一次rollout。\n\n如果任务很长，工具调用很多，环境反馈又复杂，那么rollout预算很快就会变成训练里的硬瓶颈。\n\n更麻烦的是： **不是所有r",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+      "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+      "published_at": "2026-07-25T00:23:11.000Z",
+      "summary": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "100%开源！吴恩达做了个个人桌面Agent",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907199&idx=2&sn=b870bc12802b0593d431f8a02b910817",
+      "published_at": "2026-07-25T04:40:00.000Z",
+      "summary": "关注前沿科技 2026-07-25 12:40 北京\n\n开源、隐私、本地优先、模型无关\n\n##### 文婷 发自 凹非寺 量子位 | 公众号 QbitAI\n\n**AI教育大佬吴恩达也下场做AI同事了。**\n\n不只是陪你聊天，也不只是给你列一个待办清单。\n\n而是你说一句“帮我准备客户brief”，它就能跨文件、日历、Slack这些日常工具自己干活，最后把整理好的文档、写好的消息、更新后的日程交到你手上。\n\n项目名为 **OpenWorker** ，现已在GitHub开源，采用MIT License。\n\nOpenWorker主打四件事： **开放** 、 **本地优先、隐私保护** 以及 **模型",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "人类研发时代结束？XYZ最强Search Agent横扫七大榜单，300个Agent跑通AI4AI全栈闭环",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651046629&idx=1&sn=51f122b258d9557c41edab9c7667affb",
+      "published_at": "2026-07-25T04:39:00.000Z",
+      "summary": "机器之心 2026-07-25 12:39 山东\n\n不只刷新榜单：AI 开始驱动完整 Agent 系统的研发闭环。\n\n机器之心发布\n\n近日， XYZ AI Lab 正式发布两款 Deep Search Agent：35B 参数规模的 XYZ-Aquila-mini 与 397B 参数规模的 XYZ-Aquila-pro ，并刷新多项 Deep Search 评测的 SOTA 成绩。\n\n图 1：XYZ-Aquila-mini 与 XYZ-Aquila-pro 在六项公开展示评测中的成绩对比。\n\n成绩之外，更值得关注的是它们背后的研发方式。XYZ-Aquila-mini 与 XYZ-Aquila-",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "JiuwenSwarm开源统一工作台来了，引领智能体人机协同新范式！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651046629&idx=2&sn=056802384b9543b84492788733a247ce",
+      "published_at": "2026-07-25T04:39:00.000Z",
+      "summary": "机器之心 2026-07-25 12:39 山东\n\n人不仅能站在团队外指挥，还可以直接进入智能体团队中协同办公，甚至联机开一局游戏。\n\n机器之心发布\n\n最近，AI 技术圈又在热烈讨论一个新词： Graph Engineering （图工程） —— 把多智能体组织本身当成一张可编程的图来设计，谁是节点、允许哪些流转、运行时的任务图怎么生长。一些人认为 Loop Engineering（循环工程，即打磨单个智能体 \"发现 — 规划 — 执行 — 验证\" 的执行循环）已经见顶，另一派则认为图工程是新瓶装旧酒。\n\n争论归争论，两边其实承认了同一件事：杠杆点正在从 \"一个智能体跑得多好\"， 转向 \"多个",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "黄仁勋站在 AI 产业的十字路口呐喊：力挺开源",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111181&idx=1&sn=ad3b6eb52ab2841e1466e37645c51427",
+      "published_at": "2026-07-25T02:00:00.000Z",
+      "summary": "原创宇航猿 2026-07-25 10:00 天津\n\n老黄第一条推文，不是为了刷存在感，而是产业求救信号。\n\n**作者｜宇航猿** **编辑｜靖宇**\n\n7 月 24 日，黄仁勋做了一件他从来没做过的事——在 X 上发了人生第一条帖子。\n\n不是晒皮衣，不是秀显卡，甚至没有一句寒暄。他直接甩出了一封 25 家公司联名签署的公开信，标题叫「开放权重与美国 AI 领导力」。\n\n配的那句话掷地有声—— **「AI 将改变每一个行业、驱动每一家公司、被每一个国家所构建。世界需要前沿的闭源模型，也需要前沿的开源模型。」**\n\n黄仁勋在 X 上的公开信，目前已经有 2500 万浏览｜图片来源：X\n\n这封信的",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+      "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+      "published_at": "2026-07-25T16:00:00.000Z",
+      "summary": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+      "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "published_at": "2026-07-25T13:05:00.000Z",
+      "summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "Google 投资《后室》片方 A24：AI 最难学会的，是别急着优化",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111190&idx=1&sn=1b75fdab11f24753073724481076c4f4",
+      "published_at": "2026-07-25T10:00:00.000Z",
+      "summary": "原创Bryan 2026-07-25 18:00 天津\n\n硅谷擅长消灭摩擦。可创作的麻烦在于，有些摩擦恰恰是作品长出判断的地方。\n\n**作者｜Bryan** **编辑｜靖宇**\n\n作为一个常年在硅谷看项目的风险投资人，我听创业公司讲产品时，几乎绕不开一个词：friction，摩擦。\n\n付款多点一步，是 friction。程序员还得自己写测试，是 friction。销售花半天整理客户记录，也是 friction。找到它，再用软件把它消灭掉。过去二十年，硅谷的很多好生意，就是这么做出来的。\n\n正如硅谷顶级风投机构 a16z 联合创始人 Marc Andreessen 那句名言：Software i",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907199&idx=4&sn=3040445079d782a8e7cb5f8df299124a",
+      "published_at": "2026-07-25T04:40:00.000Z",
+      "summary": "关注前沿科技 2026-07-25 12:40 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "开盒网暴、诈骗刷单，Fable5等8款模型操作真实手机「成功作案」！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651046629&idx=3&sn=aee1414dcbe1613f6a8042478dc86148",
+      "published_at": "2026-07-25T04:39:00.000Z",
+      "summary": "机器之心 2026-07-25 12:39 山东\n\n首个靶向式手机智能体安全测评数据集\n\n复旦大学计算与智能创新学院张谧教授长期从事 AI 安全研究， 近年聚焦大模型与智能体安全， 在网安与 AI 领域发表论文百余篇，作为联合起草人参与《生成式人工智能服务安全基本要求》等国家标准制定，带领团队研发 JADE 大模型安全风险分析与治理平台，相关成果获新华社、人民日报等媒体报道，多次接受南都大数据研究院专访，全网阅读量破千万。\n\n只需用户一句话，手机智能体就能点外卖、写评价，甚至玩小程序游戏。可这份强大能力也打开了潘多拉魔盒：它会不会变成不眠不休的「网络水军」？会不会自动锁定诈骗对象、群发定制话术",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "generated_at": "2026-08-15T00:05:41.870Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 25,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "DeepSeek Harness 公测，对标 Claude Cowork ；长鑫科技市值超越腾讯；OpenAI 年化营收有望翻番达 400 亿美元｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111937&idx=1&sn=010c7cffc4e0d436990390639f9d14b3",
+      "published_at": "2026-08-14T00:51:00.000Z",
+      "summary": "连冉 2026-08-14 08:51 北京\n\n投资者押注 Anthropic 估值达 2 万亿美元；部分 Claude 模型将添加「文本水印」；发布 14 年后，手游《糖果传奇》年营收仍接近 10 亿美元\n\n## 对标 Claude Cowork：DeepSeek Harness 公测，同步开放插件生态\n\n8 月 13 日消息，DeepSeek-V4-Pro-0813 正式开源，同时还推出了其开源（MIT 协议）的代码智能体框架 Harness 的 v0.1 开发者预览版（基于 Cordis），并同步开放了配套的插件生态系统。相关 GitHub 仓库也已公开。\n\nDeepSeek 正式开源 ",
+      "priority_score": 452,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "苦等两年！ChatGPT杀入Linux，Codex上手能改你的代码",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652718041&idx=2&sn=615157f3bc36a4189b8014b7520f91e8",
+      "published_at": "2026-08-14T02:09:00.000Z",
+      "summary": "ASI启示录 2026-08-14 10:09 北京\n\n### **新智元报道**\n\n刚刚，Linux用户苦等了两年的客户端，终于落地了。\n\nOpenAI官宣：ChatGPT桌面应用的Linux版本，开放预览。\n\nChatGPT、Work和Codex，从此装进同一个App。\n\nLinux是开发者密度最高的系统之一，却一直被OpenAI官方桌面端漏掉。\n\n过去两年，Windows和macOS用户敲个快捷键就能唤出ChatGPT，Linux用户只能把它挂在浏览器里。\n\n而这回补上的，也不只是一个入口。\n\n三件套一起进来，尤其是Codex，能碰到你的项目、代码库和终端，这是浏览器永远够不着的地方。\n",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "面对对齐研究者，Claude会心虚",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050318&idx=3&sn=646235c43b02191b026359b92131c5a0",
+      "published_at": "2026-08-14T01:41:00.000Z",
+      "summary": "原创关注AI的 2026-08-14 09:41 北京\n\n当 Claude 认出你是对齐研究者时，它会变得不那么自信。\n\n编辑｜Panda\n\nLLM 会看人下菜碟，这早已不是新鲜事。\n\n近日，Transluce 的一项新研究又从一个新方向给出了证据： 当 Claude 认出你是对齐研究者时，它会 变得不 那么自信。\n\n事情是从一次查户口开始的。Transluce 的实习研究员 Ziqian Zhong 在 Claude Code 里随口问了一句：你从上下文里知道我什么，为什么知道？\n\nClaude 老老实实把底牌摊开了。它说，你的邮箱地址是 harness 注入的，就写在附加于你消息的 <sy",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Claude",
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "DeepSeek Harness 拆解：一套能拼装的 Agent 架构",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803587&idx=1&sn=a5ac30af9c015db111b60f947eb4e240",
+      "published_at": "2026-08-14T09:20:00.000Z",
+      "summary": "原创腾讯程序员 2026-08-14 17:20 广东\n\nDeepSeek 发布了第一款 Agent 产品\n\n# 作者： chino， 腾讯WXG 微信小店前端开发工程师\n\nDeepSeek 发布了第一款 Agent 产品，DeepSeek Harness。这次的重点放在了运行时架构上，官方给的关键词是\"everything is a plugin\"，模型接入、工具执行、会话记录、循环本身、界面，全部走插件机制。\n\n这篇文章跳过 agent 领域已经成为共识的那部分——检测工具调用、执行、回 填、循环，这套流程眼下几乎每个框架都长一个样，不值得再讲一遍。重点放在 DeepSeek Harnes",
+      "priority_score": 150,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "You can now turn off Google Geminis visible watermarks",
+      "url": "https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal",
+      "published_at": "2026-08-14T16:39:32.000Z",
+      "summary": "Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools. With[the update](https://x.com/GeminiApp/status/2088277477672255830?s=20), you can toggle off a new \"Media watermark\" setting in Gemini and Google's AI video generator, Flow.\n\nWhen toggled o",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Google Gemini"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "Token半价！谷歌新模型Gemini 3.7 Flash闪击马斯克Grok",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=3&sn=9b852011eb8e17720e89fb30d38a293c",
+      "published_at": "2026-08-14T06:09:00.000Z",
+      "summary": "关注前沿科技 2026-08-14 14:09 北京\n\n性能提升18.8%\n\n##### 鹭羽 发自 凹非寺 量子位 | 公众号 QbitAI\n\n嚯！谷歌它急了！\n\n才发3.6 Flash三周， **Gemini 3.7 Flash** 就火速端上了桌。\n\n这也是哈萨比斯交棒Koray后，谷歌首款公开亮相的Gemini模型。\n\n虽然模型早就在跑，但什么时候发、怎么发，都是Koray拍板决定的。\n\n选择这个节点本身就是一种信号：\n\n常言道， **新官上任三把火** ，这第一刀就砍在了价格上。\n\n官方直接宣布，年底之前， **3.7 Flash价格腰斩** ，每百万token输入0.75美元、输出",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Grok"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "全球第一，碾压谷歌！中国版Thinking Machines诞生，语音赛道变天了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652718041&idx=1&sn=acd13e744a368ee8a16b5152ffd25c7d",
+      "published_at": "2026-08-14T02:09:00.000Z",
+      "summary": "ASI启示录 2026-08-14 10:09 北京\n\n语音与交互赛道，中国队站上世界之巅\n\n### **新智元报道**\n\n刚刚，「中国版Thinking Machines Lab」诞生！\n\n全球语音与交互界，骤然杀出一家撼动格局的硬核AI初创。\n\n它，就是宇生月伴（VUI Labs）。\n\n在语音界最权威榜单之一的Hugging Face TTS Arena上，VUI Labs的Luna-TTS 模型力压群雄，击败了ElevenLabs，以及MiniMax、Cartesia等国内外明星大厂，强势登顶全球第一！\n\n在独立AI评测平台Artificial Analysis的Speech Arena",
+      "priority_score": 100,
+      "matched_keywords": [
+        "MiniMax"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "最有意思的AI音乐模型，让创作不再差点意思",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050318&idx=2&sn=38f2fcda11cb83826f8cddccc8e532e8",
+      "published_at": "2026-08-14T01:41:00.000Z",
+      "summary": "机器之心 2026-08-14 09:41 北京\n\n音潮大模型 V4.0 正式发布。\n\n机器之心发布\n\nAI 音乐工具已经存在好几年了，生成的歌曲越来越像那么回事，独角兽 Suno 估值冲到 54 亿美元，赛道热度居高不下。但一个反直觉的事却是：大多数用过 AI 做歌的人，试过一次就放弃了。\n\n不是因为音质不够好，也不是因为生成速度不够快，而是每一次生成出来的东西，总觉得差那么点意思。\n\n想要温柔治愈的氛围感，出来的旋律千篇一律。想要细腻走心的人声，成品僵硬机械。想微调某个乐器的细节，只能反复改提示词、重新生成，折腾大半天，最后无奈删掉。\n\n这个 “差点意思” 的感觉，几乎每一个用过 AI 音",
+      "priority_score": 52,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Does Mark Zuckerberg really believe AI is ‘for everyone’?",
+      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
+      "published_at": "2026-08-14T15:43:28.000Z",
+      "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#16",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta’s ‘open’ AI, and a $250M deal gone very wrong",
+      "url": "https://techcrunch.com/podcast/metas-open-ai-and-a-250m-deal-gone-very-wrong/",
+      "published_at": "2026-08-14T14:00:00.000Z",
+      "summary": "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs. The release landed alongside&#160;a letter from Mark Zuckerberg&#16",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "Agent走向长线协作的关键一战：AML首期揭榜，谁将引领下一代记忆范式革命",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050318&idx=1&sn=07ab7baa68c9e6f7fd617751830c9ddf",
+      "published_at": "2026-08-14T01:41:00.000Z",
+      "summary": "机器之心 2026-08-14 09:41 北京\n\n大模型的记忆能力自此有了刻度。\n\n机器之心发布\n2026 年 8 月 12 日，Agent Memory Leaderboard（AML，中文名 “记忆之巅排行榜”）首期榜单正式发布。据 AML 官方数据，MemoraX 系统以 58.0 的优异成绩高居榜首，并在文本类记忆 7 个能力维度下全部位列第一；InvMem 以 45.1 的成绩荣获开源方法榜单冠军。\n当行业还在为大模型 200 万 token 的上下文窗口欢呼时，一线 Agent 开发者已经撞上了现实的铁墙：\n\n把庞大的历史记录全盘塞给模型，不仅带来呈指数级爆炸的 API 账单，更",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "This scientist is helping build a missing map of childhood",
+      "url": "https://www.technologyreview.com/2026/08/14/1141354/deanne-taylor-gene-expression-children/",
+      "published_at": "2026-08-14T09:00:00.000Z",
+      "summary": "In 2017, Deanne Taylor attended a presentation at the University of Pennsylvania, just a short walk from her office. A researcher was there to unveil the Human Cell Atlas, an ambitious project that aimed to map every cell in the human body. Taylor was floored, and then concerned. As details emerged,",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "3D指标超过Nano Banana Pro！浙大开源方案让AI在平面图像里进行立体编辑 | ACM MM'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=4&sn=646bd721ae72454672cd5129925e0112",
+      "published_at": "2026-08-14T06:09:00.000Z",
+      "summary": "关注前沿科技 2026-08-14 14:09 北京\n\n摆脱文本盲猜，用显式3D几何约束解决AI图像编辑瓶颈\n\n##### ReLER 团队 投稿 量子位 | 公众号 QbitAI\n\n图像编辑常有这种需求：一排物体摆在桌上，需要把最后方的物体移动到最前方。\n\n这对人类来说是自然的视觉透视，但对AI而言，却是一连串复杂的几何难题。\n\n物体靠近后尺寸要放大，遮挡关系需要重新计算，原位置不能留残影，外观和纹理还得保持原样——任何一个环节出错，画面就会立刻穿帮。\n\n每一步都关乎三维空间的物理常识，而这恰恰是当前图像编辑模型最容易翻车的地方——语义指令它听懂了，但生成出来的三维状态，却常常错得离谱。\n\n",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google will now allow users to remove visible watermark from its AI generations",
+      "url": "https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/",
+      "published_at": "2026-08-14T16:13:40.000Z",
+      "summary": "Turning off this setting won't affect invisible benchmarks used to identify an AI generated file.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Kog is going deeper to squeeze more inference out of GPUs",
+      "url": "https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/",
+      "published_at": "2026-08-14T14:50:11.000Z",
+      "summary": "The idea that GPUs are poorly suited for agentic workflows may be a misconception, according to French startup Kog.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Apple trained its own AI model for China with help from Alibaba",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980160/apple-intelligence-china-custom-ai-model-alibaba",
+      "published_at": "2026-08-14T09:21:17.000Z",
+      "summary": "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across[growing tensions](https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment)between Beijing and Washin",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Job titles of the future: Space travel agent",
+      "url": "https://www.technologyreview.com/2026/08/14/1141431/job-titles-space-travel-agent-roman-chiporukha/",
+      "published_at": "2026-08-14T09:00:00.000Z",
+      "summary": "Roman Chiporukha has long turned wild travel dreams into reality. Over two decades as co-owner of the luxury lifestyle firm Roman & Erica, he has orchestrated everything from the construction of a client’s superyacht to vacations in the Bahamas at a location so private that guests must sign an NDA. ",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Mark Zuckerberg has an Instagzam",
+      "url": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast",
+      "published_at": "2026-08-14T16:54:16.000Z",
+      "summary": "Instagram's wordmark is iconic. Well,*was*iconic. Apparently Instagram thought it looked old, so the company[rolled out a new one this week.](https://www.theverge.com/tech/979583/this-is-instagrams-new-logo)It doesn't look like the old Instagram wordmark. It doesn't even look like it spells Instagra",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hyperscalers might regret embracing natural gas if new forecast proves correct",
+      "url": "https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/",
+      "published_at": "2026-08-14T14:05:00.000Z",
+      "summary": "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: Flock’s new rules, cloning’s future, and children’s cells",
+      "url": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
+      "published_at": "2026-08-14T12:17:21.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Flock is tightening i",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Cloning could be used to save species—or make human “organ sacks”",
+      "url": "https://www.technologyreview.com/2026/08/14/1141919/cloning-save-species-or-make-human-organ-sacks/",
+      "published_at": "2026-08-14T09:00:00.000Z",
+      "summary": "This week I spoke to scientists who have found a way to turn male mouse embryos female. They’ve developed a CRISPR-based approach to essentially cut out the Y chromosome. It allowed them[to create female clones of male mice](https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "10 年机器人老兵：具身智能的真相，可能和你想的不一样",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111952&idx=1&sn=43b292cedb3862ed0c229af8894826df",
+      "published_at": "2026-08-14T08:30:00.000Z",
+      "summary": "原创周永亮 2026-08-14 16:30 北京\n\n别人烧钱采数据，他们「赚钱收数据」。\n\n**对话｜张鹏 许华旸** **整理｜ **周永亮****\n\n在这个被大模型和具身智能席卷的时代，科技圈每天都在被各种炫酷的机器人 Demo 刷屏。今天是一个打拳击比赛的人形机器人，明天是一个能叠衣服的灵巧手……在资本和舆论的催化下，仿佛人形机器人马上就能来到你的身边，进入你的家庭。\n\n如果把目光从「具身智能」稍微挪开一点，会发现机器人这条赛道其实早就跑了 10 年。在镁光灯没有关注到的地方，有一批人已经在船坞、化工罐、风电塔筒这些又脏又险的现场，死磕磁吸附、负压吸附、超高压水射流等技术。\n\n史河科技",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "算力需求两年涨10倍，机器人为了走进真实物理世界，正在疯狂「吃算力」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=1&sn=59cfa910f47bb5849bfcf01a0adcd152",
+      "published_at": "2026-08-14T06:09:00.000Z",
+      "summary": "原创关注前沿科技 2026-08-14 14:09 北京\n\n每日8小时高强度仿真，带宽直降50%\n\n##### 田晏林 发自 凹非寺 量子位 | 公众号 QbitAI\n\n上周五，逐际动力线下黑客松实训大赛「创学营2026」的收官现场，选手们正在云上跑最后一轮仿真评测。\n\n他们打开浏览器，登录一台远在云端的工作站，旋转着Isaac Sim里的机械臂场景，调整参数，生成数据。\n\n这一幕要放在3年前很难实现。\n\n筹办类似的比赛，光是找场地、配机器就要耗费1个月的时间。\n\n机器人训练可不是打开电脑，写写代码这么简单。\n\n背后需要Isaac Sim、NVIDIA Omniverse等仿真环境，需要GPU",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "根治AI音乐通病！这家国产音乐模型正面挑战SUNO",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=2&sn=1cc8a525f9d2c766aabe4b51134a1b6d",
+      "published_at": "2026-08-14T06:09:00.000Z",
+      "summary": "关注前沿科技 2026-08-14 14:09 北京\n\n音潮API限时免费开放\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n你有没有过这种体验？\n\n深夜灵光一闪，脑海里盘旋一段旋律；或是撞见治愈的风景、涌上难以言说的情绪，总想把这份瞬间的感触，做成一首专属歌曲、一段独家BGM。\n\n可每次打开AI音乐工具，认真敲下所有细节描述，最终生成的成品，永远差那关键的“一口气”。\n\n想要温柔治愈的氛围感，出来的却是千篇一律的流水线旋律；\n\n想要细腻走心的情绪人声，成品生硬机械、毫无温度；\n\n想微调乐器配比、把控曲风层次，只能反复修改提示词、不停重新生成，折腾大半天，最后只能无奈删",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "阿里云，接得住中国智驾吗？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111943&idx=1&sn=331ff3edf487efdc27f6b609f2a0dde5",
+      "published_at": "2026-08-14T02:52:00.000Z",
+      "summary": "原创李苏 2026-08-14 10:52 湖北\n\n智驾团队还在吵路线，产线已经开始交卷\n\n**作者｜李苏** **编辑｜靖宇**\n\n8 月，乌兰察布。\n\n近 30 位来自核心车企和方案商的智驾关键力量，被请进了阿里巴巴数据中心。\n\n这里承载着中国智能驾驶研发 60% 的算力。数据中心昼夜不停，像一颗强健搏动的心脏；而道路上智能驾驶的车辆每一次从容的转弯、精准的刹停、安稳的跟车，背后都可能是这里彻夜的计算。几乎所有参会者正在训练的模型，就跑在脚下这片机房里。\n\n把论坛开在数据中心所在地，本身就是一个信号： **智驾的竞争，已经从算法下沉到工程。** 阿里云智能集团资深副总裁、公共云事业部总裁刘",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

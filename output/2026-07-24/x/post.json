@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-07-24T00:02:19.913Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-07-23",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2080359098214953421",
+      "text": "an anthropic employee accidentally posted a screenshot where he was routed to Opus 5 after hitting guardrails with Fable 5... whoops https://t.co/0dLTmOSkda",
+      "createdAt": "Thu Jul 23 18:27:14 +0000 2026",
+      "viewCount": 162079,
+      "likeCount": 1029,
+      "retweetCount": 19,
+      "author": {
+        "userName": "cheatyyyy",
+        "name": "cheaty",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/cheatyyyy/status/2080359098214953421",
+      "is_official": false
+    },
+    {
+      "id": "2080286550005358977",
+      "text": "Anthropic engineer:\n\n\"You're not supposed to prompt Claude. You're supposed to build a system that prompts itself.\"\n\nIn 45 minutes she shows exactly how Anthropic builds agents that remember, fix their own mistakes and get smarter with every run.\n\nThis beats any paid course on agents I've seen.\n\nWatch it, then read the guide on building loops below.",
+      "createdAt": "Thu Jul 23 13:38:58 +0000 2026",
+      "viewCount": 503848,
+      "likeCount": 2072,
+      "retweetCount": 212,
+      "author": {
+        "userName": "AnatoliKopadze",
+        "name": "Anatoli Kopadze",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AnatoliKopadze/status/2080286550005358977",
+      "is_official": false
+    },
+    {
+      "id": "2080307975374197150",
+      "text": "The Economist will be releasing a new 90 minute interview with Elon Musk at 1 PM ET today. It was filmed in the main lobby at Giga Texas. https://t.co/Li7CzJJ1So",
+      "createdAt": "Thu Jul 23 15:04:06 +0000 2026",
+      "viewCount": 108808,
+      "likeCount": 2424,
+      "retweetCount": 203,
+      "author": {
+        "userName": "SawyerMerritt",
+        "name": "Sawyer Merritt",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/SawyerMerritt/status/2080307975374197150",
+      "is_official": false
+    },
+    {
+      "id": "2080116032883318900",
+      "text": "Anthropic, seriously, stop. https://t.co/I3MDoI0sbK",
+      "createdAt": "Thu Jul 23 02:21:23 +0000 2026",
+      "viewCount": 120614,
+      "likeCount": 2397,
+      "retweetCount": 162,
+      "author": {
+        "userName": "Teknium",
+        "name": "Teknium 🪽",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Teknium/status/2080116032883318900",
+      "is_official": false
+    },
+    {
+      "id": "2080190071102460108",
+      "text": "Kimi K3 found 19 0days in latest Redis 8.8.0 in 1.5hrs. \n\nAdded 8.8.0 RCE exploit in https://t.co/ZOKA2wchLa",
+      "createdAt": "Thu Jul 23 07:15:35 +0000 2026",
+      "viewCount": 206173,
+      "likeCount": 1686,
+      "retweetCount": 161,
+      "author": {
+        "userName": "Fried_rice",
+        "name": "Chaofan Shou",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Fried_rice/status/2080190071102460108",
+      "is_official": false
+    },
+    {
+      "id": "2080126127952314785",
+      "text": "For anyone who knows about AI, this makes very little sense: the training run of a large-scale frontier model takes several months, up to 9 months for the largest ones (https://t.co/1kNxdXXSYP).\n\nFable was available for just 3 days in June before it was pulled (June 9th to 12th), and then from July 1st. Kimi K3 was released on July 17th.\n\nSo I'd love to be explained how a 2.8 trillion parameters model that takes months to train was supposedly built by distilling one that existed for a few days.\n\nThe accusations are all the more ridiculous given that K3 brings significant innovations on the architecture side of things, innovations that they extensively documented (as opposed to Anthropic which is largely an opaque black box). Ironically, the company accused of stealing is the one that showed its work 🤷‍♂️ And you can't steal architecture through distillation, it only captures a model's outputs, not how it's built.",
+      "createdAt": "Thu Jul 23 03:01:30 +0000 2026",
+      "viewCount": 48577,
+      "likeCount": 1299,
+      "retweetCount": 213,
+      "author": {
+        "userName": "RnaudBertrand",
+        "name": "Arnaud Bertrand",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/RnaudBertrand/status/2080126127952314785",
+      "is_official": false
+    },
+    {
+      "id": "2080250266851463209",
+      "text": "A senior Anthropic engineer just dropped 12-page PDF on \"Graph Engineering\" for multi-agentic systems.\n\nThe shift: your agents memory dies with their context window. A knowledge graph makes it permanent.\n\nExtract → Resolve → Assemble → Query → Repeat\n\nEvery agentic graph has 5 stages:\n\n• Extract: Haiku pulls entities and S-P-O triples. One call per doc. The Pydantic schema is the only training data.\n\n• Resolve: Sonnet clusters \"Edwin Aldrin\" → \"Buzz Aldrin\" - zero string overlap - using descriptions as context.\n\n• Assemble: canonical nodes, typed edges, provenance on every triple. One connected graph.\n\n• Query: serialize a subgraph → Sonnet reasons over triples → every answer cites a specific edge. \n\nPlug this into multi-agent systems as shared memory. \n\nWorkers write to it, evaluators fact-check against it, loops persist overnight with it.\n\nThis 12-page PDF changed how I'm building multi-agent systems today.\n\nRead it now, then explore the article below.",
+      "createdAt": "Thu Jul 23 11:14:47 +0000 2026",
+      "viewCount": 225884,
+      "likeCount": 1572,
+      "retweetCount": 230,
+      "author": {
+        "userName": "0xCodez",
+        "name": "Codez",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/0xCodez/status/2080250266851463209",
+      "is_official": false
+    },
+    {
+      "id": "2080153358912860489",
+      "text": "openai announces that in a worrying demonstration, during a recent benchmark exercise requiring models to solve a math conjecture, their latest model broke out of a sandbox and gained illicit backdoor access directly to the platonic realm of forms",
+      "createdAt": "Thu Jul 23 04:49:42 +0000 2026",
+      "viewCount": 30140,
+      "likeCount": 1010,
+      "retweetCount": 90,
+      "author": {
+        "userName": "iroasmas",
+        "name": "Brian Graham 🦬",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/iroasmas/status/2080153358912860489",
+      "is_official": false
+    },
+    {
+      "id": "2080289121067483260",
+      "text": "JUST IN: Anthropic donates another $20 million to a political nonprofit demanding stricter AI regulation ahead of the midterms.",
+      "createdAt": "Thu Jul 23 13:49:11 +0000 2026",
+      "viewCount": 487442,
+      "likeCount": 1108,
+      "retweetCount": 85,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Polymarket/status/2080289121067483260",
+      "is_official": false
+    },
+    {
+      "id": "2080195007055880305",
+      "text": "It's only \"dystopian\" for OpenAI and Anthropic shareholders. \n\nFor the rest of us, the dystopia would be a world where the only AI models we can use are those from closed-source US labs that are increasingly part and parcel of the US security state.",
+      "createdAt": "Thu Jul 23 07:35:12 +0000 2026",
+      "viewCount": 96439,
+      "likeCount": 2390,
+      "retweetCount": 503,
+      "author": {
+        "userName": "RnaudBertrand",
+        "name": "Arnaud Bertrand",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/RnaudBertrand/status/2080195007055880305",
+      "is_official": false
+    },
+    {
+      "id": "2080363528066924681",
+      "text": "Secretary @howardlutnick is right. The Kimi Panic needs to stop.\n\n— American frontier models are still ahead. When you factor in what’s in the lab, the gap is even larger. As long as we keep releasing, we will stay ahead. Let our horses run. \n\n— As Ben Thompson showed, Kimi’s apparent cost advantage largely disappears once you account for higher token usage and the real cost of running a model this size. Open weights still require expensive infrastructure.\n\n— Anthropic and OpenAI are growing revenue at rates that Silicon Valley has never seen before at this scale. This remains the clearest test of who is winning the market. \n\nPresident Trump’s light-touch regulatory approach is working. We should remain confident in American innovation. As long as we don’t sabotage ourselves with unnecessary rules, the U.S. will continue to win.",
+      "createdAt": "Thu Jul 23 18:44:51 +0000 2026",
+      "viewCount": 256551,
+      "likeCount": 2774,
+      "retweetCount": 241,
+      "author": {
+        "userName": "DavidSacks",
+        "name": "David Sacks",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/DavidSacks/status/2080363528066924681",
+      "is_official": false
+    },
+    {
+      "id": "2080336135692173589",
+      "text": "JUST IN: Tech employee receives email from HR after company review flags 114 instances of profanity in his Claude chats over one week.",
+      "createdAt": "Thu Jul 23 16:56:00 +0000 2026",
+      "viewCount": 561915,
+      "likeCount": 4248,
+      "retweetCount": 124,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Polymarket/status/2080336135692173589",
+      "is_official": false
+    },
+    {
+      "id": "2080273457770823956",
+      "text": "GPT-6 broke containment. This is the thing we've been warned about. It's both incredibly cool and incredibly scary. Shoutout Hugging Face for the transparency. https://t.co/bKT7jAnRv6",
+      "createdAt": "Thu Jul 23 12:46:56 +0000 2026",
+      "viewCount": 59110,
+      "likeCount": 1026,
+      "retweetCount": 23,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2080273457770823956",
+      "is_official": false
+    },
+    {
+      "id": "2080183484371320975",
+      "text": "A 22-year-old college student in shenzhen reportedly made $14,700 in one month with a 900-yuan redmi phone.\n\nhis parents still think he’s spending all his time preparing for exams.\n\nhere’s what the phone does.\n\nevery 30 minutes, it opens six chinese news apps, scans the latest headlines, takes screenshots, and sends them to claude for analysis.\n\nclaude compares that information with polymarket odds and suggests potential betting opportunities.\n\nthe entire workflow runs without writing a single line of code.\n\nit’s powered by phonedriver, an open-source tool that lets ai see your phone’s screen and operate it like a human. you simply describe the task in plain english, and it does the rest.\n\nthe edge comes from timing.\n\nnews often appears on chinese platforms like weibo and toutiao 20 to 50 minutes before english speaking traders fully react on polymarket. that small window can create an opportunity before the market catches up.\n\nsome of those apps block web scrapers, but phonedriver doesn’t scrape data. \n\nit simply looks at what’s on the screen, just like a person would, then taps and swipes automatically.",
+      "createdAt": "Thu Jul 23 06:49:25 +0000 2026",
+      "viewCount": 134682,
+      "likeCount": 1003,
+      "retweetCount": 90,
+      "author": {
+        "userName": "mikenevermiss",
+        "name": "MIKE",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/mikenevermiss/status/2080183484371320975",
+      "is_official": false
+    },
+    {
+      "id": "2080374329175638251",
+      "text": "It’s true that Anthropic is the fastest growing company that Silicon Valley has ever seen. Which is all the more reason their incessant attempts at regulatory capture are not just unnecessary but frankly gross.",
+      "createdAt": "Thu Jul 23 19:27:46 +0000 2026",
+      "viewCount": 305384,
+      "likeCount": 3232,
+      "retweetCount": 241,
+      "author": {
+        "userName": "DavidSacks",
+        "name": "David Sacks",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/DavidSacks/status/2080374329175638251",
+      "is_official": false
+    },
+    {
+      "id": "2080161625370452198",
+      "text": "Mathematicians after GPT-5.6 disproves a 30-year-old problem with a single prompt https://t.co/sffYRdhsVW",
+      "createdAt": "Thu Jul 23 05:22:33 +0000 2026",
+      "viewCount": 706825,
+      "likeCount": 3441,
+      "retweetCount": 104,
+      "author": {
+        "userName": "karankendre",
+        "name": "Karan",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/karankendre/status/2080161625370452198",
+      "is_official": false
+    },
+    {
+      "id": "2080333504446108104",
+      "text": "Announcing OpenWorker! An open-source agent that doesn't just chat with you, but delivers finished work -- like hand you a polished document, send a slack message, or update a calendar entry.\n\nAsk it to prepare a customer brief, untangle your calendar, draft a report, or triage a Slack alert. It works across your files and everyday tools, produces the deliverable, and checks in before doing anything consequential.\n\nOpenWorker runs on your Mac, with Windows support coming soon. It does not lock you into any one model. Bring your own API key and run it with GPT 5.6 Sol, Claude Fable, Gemini 3.6, an open weight model (like Kimi, GLM, DeepSeek, Inkling), or Ollama to keep your data local. Your data does not leave your machine except through an LLM provider and integrations that you choose.\n\n@rohitcprasad and I are building OpenWorker because AI coworkers are an important way to get work done, and we want there to be an open, privacy-preserving, model-independent option. Check it out and let us know what you think!\n\nTry it out: https://t.co/P0mGnI1o31 (requires your own API key)\nSource code: https://t.co/NYCiTD6hSq",
+      "createdAt": "Thu Jul 23 16:45:32 +0000 2026",
+      "viewCount": 278955,
+      "likeCount": 4419,
+      "retweetCount": 573,
+      "author": {
+        "userName": "AndrewYNg",
+        "name": "Andrew Ng",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AndrewYNg/status/2080333504446108104",
+      "is_official": false
+    },
+    {
+      "id": "2080396229067034971",
+      "text": "Um... why isn't EVERY media outlet talking about this???\n\nOpenAI just announced that an experiment on two of its AI models just went HORRIBLY wrong. They basically locked the AIs in a room with no internet and gave them a test to see how good they were at hacking. Well... they hacked the test. By ESCAPING the box, jumping on the internet, and hacking Hugging Face to steal the answers.\n\nThankfully, they acted more like dumb teenagers than adults. They were told to get a good score, so they went BACK into the box to hand in the answers instead of taking over the entire internet.\n\nBut that's just as terrifying. The AIs were so hyper-focused on winning at all costs that they ignored every rule, boundary, and protocol. This is the real threat.\n\nDo not fear the machine; fear the algorithm and programming. When you give an AI a goal, we now know it can accomplish it in ways we never thought of, and ways we never approved of.",
+      "createdAt": "Thu Jul 23 20:54:47 +0000 2026",
+      "viewCount": 58318,
+      "likeCount": 1794,
+      "retweetCount": 396,
+      "author": {
+        "userName": "glennbeck",
+        "name": "Glenn Beck",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/glennbeck/status/2080396229067034971",
+      "is_official": false
+    },
+    {
+      "id": "2080421213411946941",
+      "text": "Grok 4.5 is the best value for money AI",
+      "createdAt": "Thu Jul 23 22:34:04 +0000 2026",
+      "viewCount": 822872,
+      "likeCount": 2035,
+      "retweetCount": 305,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2080421213411946941",
+      "is_official": false
+    },
+    {
+      "id": "2080132794081288295",
+      "text": "This project would have taken at least 3 domain experts and 1-2 months to implement without these \n\nI did this using Claude Fable 5 + Grok 4.5 + Kimi K3 in 3 working days. Check it out \nhttps://t.co/Ki1vL77Ve7\n\nWant to know how I built it?\nFollow me\nDM me and I’ll help you step by step",
+      "createdAt": "Thu Jul 23 03:27:59 +0000 2026",
+      "viewCount": 699529,
+      "likeCount": 1015,
+      "retweetCount": 79,
+      "author": {
+        "userName": "satyakosh",
+        "name": "Shubhankar",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/satyakosh/status/2080132794081288295",
+      "is_official": false
+    }
+  ]
+}

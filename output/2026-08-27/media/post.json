@@ -1,0 +1,531 @@
+{
+  "generated_at": "2026-08-27T00:03:02.268Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 42,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "苹果发布 M6 与 M5 Ultra 与新款 Mac Mini；字节发布 AI 办公产品「豆包工作」；SpaceX 拟千亿美元建设第二座「星际基地」｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112679&idx=1&sn=3ac9b356709f03ef3ef1ed32f9e185d0",
+      "published_at": "2026-08-26T00:11:00.000Z",
+      "summary": "Moonshot 2026-08-26 08:11 重庆\n\n英伟达宣布推出 Jetson Orin Nano 2 机器人计算机；\n\nOpenAI 恢复 ChatGPT Plus 用户 5 小时使用限额；\n\nAnthropic 更新 Claude 记忆机制，打通 Cowork 与聊天的记忆功能；\n\n谷歌扩展 Gemini AI 平台，推出面向律师和律所的新工具\n\n## 苹果突袭发布 M6 与 M5 Ultra 芯片，新 Mac mini、Mac Studio 全面押注本地 AI\n\n8 月 25 日，苹果未举办发布会，直接上架了两款全新自研芯片 M6 与 M5 Ultra，以及搭载它们的新款 Ma",
+      "priority_score": 528,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI’s rogue AI model incident was worse than we thought",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985385/openais-rogue-ai-model-hugging-face-cybersecurity-incident-reports-metr",
+      "published_at": "2026-08-26T21:36:06.000Z",
+      "summary": "OpenAI released a report breaking down how people use ChatGPT and who they are. | Image: The Verge\nIn July, an unreleased OpenAI model broke out of a restricted environment, figured out how to get access to the internet, allowed AI agents to talk to each other using a secret \"message board,\" and hac",
+      "priority_score": 450,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "published_at": "2026-08-26T19:00:00.000Z",
+      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an[OpenAI technical report released today](https://cdn.openai.com/pdf/67869394-cb91-4c12-888c-5cbd85c7814c/OpenAI-Hugging-Face%20Incident-Techni",
+      "priority_score": 250,
+      "matched_keywords": [
+        "OpenAI",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "Shopify CEO考虑禁用Claude Code，因其不兼容AGENTS.md",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651052471&idx=2&sn=e243403e1ae25a94cb0822e80332c0fc",
+      "published_at": "2026-08-26T09:30:00.000Z",
+      "summary": "原创关注编程的 2026-08-26 17:30 北京\n\nAnthropic：正在让 Claude Code 更加灵活\n\n机器之心编辑部\n\nShopify CEO Tobi Lütke 考虑在 Shopify 禁用 Claude Code，直到其支持读取 `AGENTS.md` 、 `.agents/skills` 等文件。\n\n他认为，Claude Code 坚持读取 `CLAUDE.md` ，在团队成员使用不同 AI 编程工具时，可能导致同一个代码仓库里的开发者获得不同的项目规则和操作指令。\n\n随着 AI coding agent 进入软件开发流程，越来越多代码仓库开始加入专门面向 AI 的",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "疯了，A社IPO大饼画到30万亿美元！一个美国的GDP",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652720695&idx=2&sn=be6796f5ecb259d5889da9741c660476",
+      "published_at": "2026-08-26T03:45:00.000Z",
+      "summary": "ASI启示录 2026-08-26 11:45 北京\n\n### **新智元报道**\n\n太夸张了！\n\n**30万亿美元。** 这是Anthropic准备写进招股书的数字。\n\n30,000,000,000,000美元。\n\n就在昨天，华尔街日报爆料，Claude的缔造者将告诉投资人，它面对的潜在收入机会 **超过30万亿美元** 。\n\nAnthropic在6月1日已经向美国证券交易委员会秘密递交了IPO草案，公开版本最快这个月底就会公开。\n\n美国全年GDP约32.4万亿。换句话说，一家成立五年、员工不到四千人的公司，把自己的营收天花板画到了一整个美国那么大。\n\n三个月前，马斯克的SpaceX在招股里",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "Claude一天3崩！API、App、Cowork全挂，打工人集体抓瞎",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652720695&idx=3&sn=0d7c35c2a5a0be120356424b622af3fb",
+      "published_at": "2026-08-26T03:45:00.000Z",
+      "summary": "ASI启示录 2026-08-26 11:45 北京\n\n### **新智元报道**\n\n哎，这谁顶得住啊。\n\n8月24日这一天，Claude连着崩了三次。\n\nAnthropic的状态页当天接连亮起三次刺眼的红灯，官方也三次跳出来宣布服务已经全面恢复。\n\n可每一次页面刚变绿，X上依然哀嚎一片，一大批用户还在喊自己这边根本打不开。\n\n这是Anthropic在8月里第13个留下事故记录的日子。\n\n好家伙，这个月总共才过去24天。\n\n结果你告诉我Claude有一多半的日子，都是躺在病床上的。\n\n有位Reddit老哥更是吐槽，自己有个自动化流程辛辛苦苦跑了九个小时，硬生生断在这次大宕机里，直接全部白干。\n",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "一篇讲透Agent自进化飞轮怎么搭：评测→记忆→落地→控制",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803847&idx=1&sn=abe5cab137aac47cb042b6baa1a24191",
+      "published_at": "2026-08-26T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-08-26 17:36 广东\n\n完整可落地的工程闭环。\n\n作者：yannisyang、ethanytzhou\n你的 Agent 上线半年了。回头看看——它比第一天聪明了吗？它可能还在犯三个月前就犯过的错。还在重复三个月前就走过的弯路。还在对三个月前就见过的场景表现得像个新手。半年的线上流量喂过去，它一点经验都没攒下来。问题不在模型不够强。问题在于——没有人给它搭一条从\"做过\"到\"记住\"到\"变好\"的路。这篇文章基于对 Anthropic 递归自改进报告、斯坦福 CS329A 课程、EvoAgentX 等开源框架的深度研读，结合业界多个团队已验证的优秀实践，提炼出一套评测",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Arga Labs is building a better way to train enterprise AI agents",
+      "url": "https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents/",
+      "published_at": "2026-08-26T12:55:28.000Z",
+      "summary": "Arga has raised $10 million in a seed funding round that was led by General Catalyst, with participation from Box Group, Emergence, Gradient and SV Angel.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI releases its official report on the Hugging Face breach",
+      "url": "https://techcrunch.com/2026/08/26/openai-releases-its-official-report-on-the-hugging-face-breach/",
+      "published_at": "2026-08-26T19:05:22.000Z",
+      "summary": "The report, which spans several discrete cybersecurity compromises, is the most complete accounting of the incident to date.",
+      "priority_score": 128,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "QueryStory wants you to believe what AI is telling you",
+      "url": "https://techcrunch.com/2026/08/26/querystory-wants-you-to-believe-what-ai-is-telling-you/",
+      "published_at": "2026-08-26T13:00:00.000Z",
+      "summary": "The startup came out of stealth with $6 million in seed funding and a plan to use LLMs and cybersecurity know-how to make AI queries coherent.",
+      "priority_score": 124,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Radar makes podcasts searchable — and usable by AI agents",
+      "url": "https://techcrunch.com/2026/08/26/radar-makes-podcasts-searchable-and-usable-by-ai-agents/",
+      "published_at": "2026-08-26T15:47:28.000Z",
+      "summary": "Particle’s new podcast intelligence platform transcribes and analyzes more than 130,000 podcasts, making their conversations searchable on the web and accessible to AI agents through an API and MCP.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Runable hits $21M to bet AI agents can go from building businesses to growing them",
+      "url": "https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them/",
+      "published_at": "2026-08-26T11:00:00.000Z",
+      "summary": "Runable says 60% to 70% of its 1 trillion-plus token usage in the last 90 days came from paying customers.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Nvidia is about to be a hundred-billion-dollar-a-quarter company",
+      "url": "https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue",
+      "published_at": "2026-08-26T21:40:53.000Z",
+      "summary": "Nvidia's predicting it will pull in $108 billion in revenue within just a few months. It wouldn't be the first company to rake in over $100 billion in quarterly revenue - Amazon, Apple, and[Alphabet](https://fortune.com/2026/07/22/anthropic-spacex-investments-google-earnings-biggest-ever-profit-quar",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic continues compute-gobbling streak in $45B deal with Nscale",
+      "url": "https://techcrunch.com/2026/08/26/anthropic-continues-compute-gobbling-streak-in-45-billion-deal-with-nscale/",
+      "published_at": "2026-08-26T21:37:39.000Z",
+      "summary": "The new deal with the infrastructure provider is the latest example of Anthropic's white-hot compute-gobbling streak.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "How do we explain OpenAI’s executive exodus?",
+      "url": "https://techcrunch.com/2026/08/26/how-do-we-explain-openais-executive-exodus/",
+      "published_at": "2026-08-26T19:34:04.000Z",
+      "summary": "Was Greg Brockman the right executive all along?",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Robot brain builders are pushing out of their GPT-2 era",
+      "url": "https://techcrunch.com/2026/08/26/robot-brain-builders-are-pushing-out-of-their-gpt-2-era/",
+      "published_at": "2026-08-26T13:30:00.000Z",
+      "summary": "Robot bodies are waiting for their AI brains to catch up.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI loses a top data center exec as stream of high-profile departures continues",
+      "url": "https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues/",
+      "published_at": "2026-08-26T00:06:20.000Z",
+      "summary": "In a statement to TechCrunch about Malone's departure, OpenAI said it had \"recently reorganized\" its \"infrastructure organization to support the scale and pace of our work.\"",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google’s new AI transcription edits out your ums and ahs",
+      "url": "https://www.theverge.com/tech/985186/google-gemini-3-5-transcribe-audio-ai",
+      "published_at": "2026-08-26T17:00:00.000Z",
+      "summary": "Google has updated Gemini Audio with new transcription capabilities that automatically detect specialized jargon and more than 85 languages.[Gemini 3.5 Transcribe](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/)is a new addition to the Gemini family th",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Surprise: Z.ai is the AI lab behind the mysterious Ox Alpha model",
+      "url": "https://techcrunch.com/2026/08/26/surprise-z-ai-is-the-ai-lab-behind-the-mysterious-ox-alpha-model/",
+      "published_at": "2026-08-26T14:19:29.000Z",
+      "summary": "Z.ai confirms it is behind Ox Alpha, the mysterious open AI model topping benchmarks and leaderboards, and its weights are set to be released soon.",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "字节实践 | Agent 提示词注入攻击：一场需要长期应对的安全挑战",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521453&idx=1&sn=a43b95ca00458d532f29d70e80f0d118",
+      "published_at": "2026-08-26T11:14:00.000Z",
+      "summary": "原创火山引擎AI安全 2026-08-26 19:14 北京\n\n基于字节内部 AI 安全治理最佳实践，火山引擎近日发布 **[《智能体安全能力图谱》](https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&amp;mid=2247521412&amp;idx=2&amp;sn=13f3b66275413073d26d50f789829d7e&amp;scene=21#wechat_redirect)** ，系统梳理了智能体安全建设的 10 大能力维度，60 项核心技术要素。本篇为技术实践篇，分享针对 Agent 提示词注入攻击的防护实践。\n\n**一",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "突破遥操瓶颈！全新无本体数据世界动作模型Noe-0发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651052471&idx=1&sn=d3b4a21fc8f28738b7e9fd7606a75d83",
+      "published_at": "2026-08-26T09:30:00.000Z",
+      "summary": "原创关注具身智能的 2026-08-26 17:30 北京\n\n真实，多样，广泛，通用：一个广阔的未来。\n\n编辑｜冷猫\n\n我们理想中的具身智能模型，是什么样的？\n\n或许可以归结为几个关键词：足够通用，理解真实世界，具备自主决策与行动能力，同时还能自然、高效地与人和环境持续交互。\n\n这些关键词共同指向了一类模型：世界动作模型（WAM）。视频生成模型正在变成机器人世界模型底座，而想要真正让具身智能模型 Scaling 起来，对真实物理世界的理解深度就格外重要。\n\n而这，是具身世界动作模型的新进展，机械手能够稳健地完成相对复杂、精细的现实任务：\n\n刚刚，穹彻智能发布具身智能预训练模型 Noe-0 ，一",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "刚刚，全网最猛AI视频模型免费了！我们手搓了一段「牛来」，效果绝了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652720695&idx=1&sn=75a0f98f526da06511bae51d10e5e58a",
+      "published_at": "2026-08-26T03:45:00.000Z",
+      "summary": "ASI启示录 2026-08-26 11:45 北京\n\n一个人，就是一整个剧组\n\n### **新智元报道**\n\n最近，AI短剧的风刮遍了所有平台。\n\n各种疯狂吸金的AI短剧和漫剧，是数不胜数，更不用提最近火爆的现场级神作《云上天宫》了。\n\n「云上天宫」的作者，正是使用Pavo制作出了现象级的大爆视频\n\n可是，当自己真正想要上手，用AI做出个爆款视频，却发现抽卡太贵、一致性太差、工作流稀碎，仿佛在抽盲盒。\n\n高频AI视频创作者，如今最大的痛点是——AI生成一部完整视频的成本，到底能不能承受？\n\n就在刚刚，一个重磅消息来了——\n\nAgnes Video 2.5系列模型，正式上线Pavo平台！\n\n这",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "米哈游半夜发布新游戏！3A写实大制作，logo一出现都不睡了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247915217&idx=2&sn=4862ccb4ab5707c111919534cdc3ccb2",
+      "published_at": "2026-08-26T03:33:00.000Z",
+      "summary": "关注前沿科技 2026-08-26 11:33 北京\n\n「最不米哈游」的新作\n\n##### 闻乐 发自 凹非寺 量子位 | 公众号 QbitAI\n\n好家伙，半夜三点，米哈游突然把自己最不像米哈游的一款游戏，端上来了。\n\n没有二次元纸片人。\n\n没有熟悉的卡通渲染。\n\n甚至第一眼看过去，你都很难把它和《原神》《崩坏：星穹铁道》《绝区零》放进同一个厂牌里。\n\n一条巨龙横在荒野，巨型泰坦顶着火焰脑袋从地面爬起来，角色拎着大剑直接冲上去开砍——\n\n**米哈游，开始做写实暗黑奇幻了。**\n\n新作名叫 **《源初之结》** ，海外名 **Nodusfall** 。\n\n而且米哈游挑的出场位置也相当有排面：\n\n",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Raised on AI",
+      "url": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
+      "published_at": "2026-08-26T09:00:00.000Z",
+      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creating her digital footprint long before she could stand on her own two feet. \n\nFast-",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "离开剪映后创业，她想把一支设计团队装进 AI 工作台",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112706&idx=1&sn=6d1ed815f93c59edc3f0c2dd555968ef",
+      "published_at": "2026-08-26T06:42:00.000Z",
+      "summary": "原创连冉 2026-08-26 14:42 北京\n\n已于近日完成首轮融资，由顺为资本、联想创投联合投资。\n\n**作者｜连冉** **编辑｜ **郑玄****\n\n极客公园获悉，前剪映中国负责人张琪智已离职创业，创办 AI 产品原型设计工作台 OJO，并于近日完成近亿元首轮融资，由顺为资本、联想创投联合投资，高鹄资本担任独家财务顾问。\n\n这是张琪智离开字节跳动后的第一个创业项目。她于 2017 年加入脸萌担任产品经理，2018 年随团队进入字节，此后长期参与剪映相关产品与业务。\n\n在外界看来，她在剪映的经历是理解这次创业的重要背景：经历了一款工具产品从 0 到 1、再到大规模增长后寻找新曲线的完整",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "India’s Ringg gets backing from Peak XV as it pushes voice AI past the phone call",
+      "url": "https://techcrunch.com/2026/08/25/indias-ringg-gets-backing-from-peak-xv-as-it-pushes-voice-ai-past-the-phone-call/",
+      "published_at": "2026-08-26T03:30:00.000Z",
+      "summary": "Ringg has raised $10 million from Peak XV as a part of its Series A extension.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Robotics startup Generalist reaches $3B valuation, sources say",
+      "url": "https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say/",
+      "published_at": "2026-08-26T00:40:59.000Z",
+      "summary": "The $200 million extension comes just months after the physical AI startup reached a $2 billion valuation.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Amazon just tripled its order of Nvidia chips over ‘surging demand’",
+      "url": "https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/",
+      "published_at": "2026-08-26T23:47:18.000Z",
+      "summary": "Amazon is adding another 2 million Nvidia GPU chips to its data centers over the next two years. But this extended partnerships stretches beyond buying more chips.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Ex-Meta scientists want to bring visual AI to the factory floor",
+      "url": "https://techcrunch.com/2026/08/26/ex-meta-scientists-want-to-bring-visual-ai-to-the-factory-floor/",
+      "published_at": "2026-08-26T15:00:00.000Z",
+      "summary": "Perceptron offers an AI model that it says can help machines navigate the world while also providing in-depth visual intelligence.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "启发学习：让大模型认知从外化到内生",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651052471&idx=3&sn=3620ae20330d3e78adc45de5ca500ab5",
+      "published_at": "2026-08-26T09:30:00.000Z",
+      "summary": "机器之心 2026-08-26 17:30 北京\n\n从旧经验里 “启发” 出新知识\n\n过去两年，大模型几乎重写了人机协作的默认想象：写代码、查资料、做分析，似乎都能 “一问即答”。但仔细看会发现，当下很多能力并不是模型自己长出来的，而是人为地在外面包了一层又一层框架。\n\n人类先定流程、写 Skills、建知识库；参数继续变大，工具链继续变厚。Agent、Skills、Function Calling、RAG、Harness 轮番上场，把临时判断固化成可调用的工作流。这套做法有效，也撑起了眼下的繁荣。\n\n问题在于，能力上限往往卡在脚手架上。换场景就要重写流程，换工具就要重排提示和权限。系统看起来",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "AI models flub these intelligence tests. Can you fare any better?",
+      "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "published_at": "2026-08-26T09:00:00.000Z",
+      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IB",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s Gemini has a branding problem, and so does the rest of AI",
+      "url": "https://techcrunch.com/2026/08/26/googles-gemini-has-a-branding-problem-and-so-does-the-rest-of-ai/",
+      "published_at": "2026-08-26T19:37:34.000Z",
+      "summary": "Consumer AI apps need to stop making users learn their product architecture.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "published_at": "2026-08-26T17:01:00.000Z",
+      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Bill Gates wants to see a robot tax and ‘Human Reserved’ jobs to mitigate harms from AI",
+      "url": "https://techcrunch.com/2026/08/26/bill-gates-wants-to-see-a-robot-tax-and-human-reserved-jobs-to-mitigate-harms-from-ai/",
+      "published_at": "2026-08-26T14:37:01.000Z",
+      "summary": "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: the Kids issue arrives, and Bill Gates reveals his AI fears",
+      "url": "https://www.technologyreview.com/2026/08/26/1143000/the-download-kids-issue-launch-bill-gates-ai-fears/",
+      "published_at": "2026-08-26T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### Introducing: the Kids i",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hearing tech startup Legato emerges from stealth with $12M and a peek at its AI hearing glasses",
+      "url": "https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses/",
+      "published_at": "2026-08-26T12:00:00.000Z",
+      "summary": "The glasses, called Legato Frames, integrate the company’s patented hearing-assistance technology into the arms of eyewear frames.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Bill Gates is deeply worried about AI, and he’s no longer staying quiet",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet",
+      "published_at": "2026-08-26T11:07:40.000Z",
+      "summary": "Bill Gates, chair of the Gates Foundation, speaks during a 2024 conference. | Bloomberg via Getty Images\nBill Gates has been reflecting a lot on AI lately, and the process has triggered a stark awakening. Once a staunch AI optimist, the Microsoft cofounder is now deeply pessimistic about what AI mea",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "AI 硬件创业者，开始研究黄金和宝石了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112708&idx=1&sn=882ac8efd563effc7a5d9a714a968cca",
+      "published_at": "2026-08-26T10:50:00.000Z",
+      "summary": "Hardwire 2026-08-26 18:50 北京\n\nAI 产品最新的「套路」。\n\n本文转载自 Hardwire，欢迎关注，共同看见硬件行业新风向 👇\n\nAI 产品最新的「套路」。\n\n**作者｜苏子华** **编辑｜ **靖宇****\n\n去年，被视作「小众玩具」的 AI 可穿戴品类爆发了。\n\n智能戒指全球出货量首次突破了 400 万台，两年翻了近五倍；AI 眼镜出货量 870 万副， 同比涨 232%；无屏手环 Whoop 的订阅会员已经超过 250 万。\n\n但比起销量，另一个值得玩味的隐蔽变化是：\n\n**这些产品都在往「饰品」上做，甚至开始「珠宝化」。**\n\n玫瑰金的 AI 戒指。意",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
+      "url": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
+      "published_at": "2026-08-26T07:01:00.000Z",
+      "summary": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gates Ventures conference room overlooks the Carillon Point Marina, where a flotilla ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247915217&idx=1&sn=b7c683cbcfd306e289d0d4dda63ab9a5",
+      "published_at": "2026-08-26T03:33:00.000Z",
+      "summary": "原创关注前沿科技 2026-08-26 11:33 北京\n\n到底是哪里来的神仙啊？\n\n##### 诺亚 发自 凹非寺 量子位 | 公众号 QbitAI\n\n现在的具身智能公司，把Demo演示片拍得像广告一样精良和夸张，但一刀未剪的真实视频，你看过吗？\n\n前几天，有业内朋友给我发来一条10分钟的Demo，全程一镜到底，无剪辑，无场外遥控，无人工指令，甚至有些粗糙，但呈现的内容却让我直接瘫坐，心情久久不能平静（doge）。\n\n视频中，机器人会把手臂伸出窗外擦窗户，够不到高处时知道自己搬箱子踩在上面，长程任务中途被打断还能精准恢复……\n\n更炸的是，视频中同时出现了宇树和智元的机器人本体，这两款硬件架构",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "把PLC仿真搬进浏览器，小参数模型也能实现高工程通过率",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247915217&idx=3&sn=298aa218a476e3e498aff368fd43e6c6",
+      "published_at": "2026-08-26T03:33:00.000Z",
+      "summary": "关注前沿科技 2026-08-26 11:33 北京\n\n让AI编程从“能生成”走向“可交付”\n\n##### SemaPLC 团队 投稿 量子位 | 公众号 QbitAI\n\nAI正在改变软件开发方式。过去需要从零编写的程序，现在可以用自然语言描述需求，再由AI生成代码初稿。\n\nPLC开发中也是如此，工程师只需描述一个电机启停逻辑、一套水箱液位控制，或者一个四层电梯控制器，AI就能生成相应的PLC程序。\n\n但从工业现场的角度看，问题并没有到此结束。\n\nPLC控制的是产线、设备、阀门、电梯和安全联锁。它不是“代码看起来对”就可以交差，而是必须确认：程序能不能编译，运行时是否符合需求，异常场景下会不会",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247915217&idx=4&sn=db646758133c024632476ba1a1c640a9",
+      "published_at": "2026-08-26T03:33:00.000Z",
+      "summary": "关注前沿科技 2026-08-26 11:33 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

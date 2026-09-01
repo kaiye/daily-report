@@ -1,0 +1,219 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-07-22T00:02:35.906Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 21,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars_total": 65309,
+      "forks": 10183,
+      "stars_today": 1295
+    },
+    {
+      "rank": 2,
+      "repo": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "stars_total": 14346,
+      "forks": 1343,
+      "stars_today": 4624
+    },
+    {
+      "rank": 3,
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "stars_total": 24516,
+      "forks": 2349,
+      "stars_today": 1925
+    },
+    {
+      "rank": 4,
+      "repo": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "language": "",
+      "stars_total": 6808,
+      "forks": 279,
+      "stars_today": 1866
+    },
+    {
+      "rank": 5,
+      "repo": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "language": "JavaScript",
+      "stars_total": 9087,
+      "forks": 1024,
+      "stars_today": 291
+    },
+    {
+      "rank": 6,
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "The most intelligent agent harness for code",
+      "language": "Rust",
+      "stars_total": 10292,
+      "forks": 1133,
+      "stars_today": 843
+    },
+    {
+      "rank": 7,
+      "repo": "oblien/openship",
+      "url": "https://github.com/oblien/openship",
+      "description": "Self-hosted deployment platform",
+      "language": "TypeScript",
+      "stars_total": 6187,
+      "forks": 448,
+      "stars_today": 1562
+    },
+    {
+      "rank": 8,
+      "repo": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "language": "Python",
+      "stars_total": 37448,
+      "forks": 2611,
+      "stars_today": 416
+    },
+    {
+      "rank": 9,
+      "repo": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "stars_total": 6573,
+      "forks": 711,
+      "stars_today": 849
+    },
+    {
+      "rank": 10,
+      "repo": "tradesdontlie/tradingview-mcp",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+      "language": "JavaScript",
+      "stars_total": 4825,
+      "forks": 2173,
+      "stars_today": 114
+    },
+    {
+      "rank": 11,
+      "repo": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models &amp; providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "stars_total": 30179,
+      "forks": 1842,
+      "stars_today": 129
+    },
+    {
+      "rank": 12,
+      "repo": "hyprwm/Hyprland",
+      "url": "https://github.com/hyprwm/Hyprland",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "language": "C++",
+      "stars_total": 37025,
+      "forks": 1860,
+      "stars_today": 58
+    },
+    {
+      "rank": 13,
+      "repo": "chrislgarry/Apollo-11",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "stars_total": 69951,
+      "forks": 7839,
+      "stars_today": 1235
+    },
+    {
+      "rank": 14,
+      "repo": "DioxusLabs/dioxus",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "stars_total": 37638,
+      "forks": 1774,
+      "stars_today": 271
+    },
+    {
+      "rank": 15,
+      "repo": "langchain-ai/open_deep_research",
+      "url": "https://github.com/langchain-ai/open_deep_research",
+      "description": "Deep research has broken out as one of the most popular agent applications. This is a simple, configurable, fully open source deep research agent that works across many model providers, search tools, and MCP servers. It's performance is on par with many popular deep research agents ( see Deep Research Bench leaderboard ).\n\nAugust 14, 2025 : See our free course here (and course repo here ) on building open deep research.",
+      "language": "Python",
+      "stars_total": 12219,
+      "forks": 1740,
+      "stars_today": 23
+    },
+    {
+      "rank": 16,
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "language": "TypeScript",
+      "stars_total": 23556,
+      "forks": 3151,
+      "stars_today": 2034
+    },
+    {
+      "rank": 17,
+      "repo": "agegr/pi-web",
+      "url": "https://github.com/agegr/pi-web",
+      "description": "Web UI for the pi coding agent",
+      "language": "TypeScript",
+      "stars_total": 1712,
+      "forks": 277,
+      "stars_today": 298
+    },
+    {
+      "rank": 18,
+      "repo": "schollz/croc",
+      "url": "https://github.com/schollz/croc",
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "language": "Go",
+      "stars_total": 36779,
+      "forks": 1459,
+      "stars_today": 361
+    },
+    {
+      "rank": 19,
+      "repo": "microsoft/Ontology-Playground",
+      "url": "https://github.com/microsoft/Ontology-Playground",
+      "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
+      "language": "TypeScript",
+      "stars_total": 1994,
+      "forks": 245,
+      "stars_today": 355
+    },
+    {
+      "rank": 20,
+      "repo": "dottxt-ai/outlines",
+      "url": "https://github.com/dottxt-ai/outlines",
+      "description": "Structured Outputs",
+      "language": "Python",
+      "stars_total": 14826,
+      "forks": 800,
+      "stars_today": 65
+    },
+    {
+      "rank": 21,
+      "repo": "KnockOutEZ/wigolo",
+      "url": "https://github.com/KnockOutEZ/wigolo",
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl &amp; research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "language": "TypeScript",
+      "stars_total": 3130,
+      "forks": 190,
+      "stars_today": 642
+    }
+  ]
+}

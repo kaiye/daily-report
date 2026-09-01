@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-08-17T00:03:39.875Z",
+  "source_raw": "raw.json",
+  "source_count": 7,
+  "item_count": 7,
+  "language_breakdown": {
+    "TypeScript": 2,
+    "Shell": 1,
+    "Python": 3,
+    "JavaScript": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "language": "TypeScript",
+      "stars_today": 720,
+      "stars_total": 4703,
+      "forks": 246
+    },
+    {
+      "rank": 2,
+      "repo": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "description": "Beautiful, Modern &amp; Opinionated Linux",
+      "language": "Shell",
+      "stars_today": 270,
+      "stars_total": 25362,
+      "forks": 2588
+    },
+    {
+      "rank": 3,
+      "repo": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "language": "Python",
+      "stars_today": 572,
+      "stars_total": 72554,
+      "forks": 6543
+    },
+    {
+      "rank": 4,
+      "repo": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars_today": 150,
+      "stars_total": 83868,
+      "forks": 8281
+    },
+    {
+      "rank": 5,
+      "repo": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars_today": 1588,
+      "stars_total": 461713,
+      "forks": 50999
+    },
+    {
+      "rank": 6,
+      "repo": "ToolJet/ToolJet",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "language": "JavaScript",
+      "stars_today": 452,
+      "stars_total": 40009,
+      "forks": 5329
+    },
+    {
+      "rank": 7,
+      "repo": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "stars_today": 443,
+      "stars_total": 6552,
+      "forks": 432
+    }
+  ]
+}

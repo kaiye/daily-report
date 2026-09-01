@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-07-21T00:04:36.263Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-07-20",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2079289658622738481",
+      "text": "Was very cool to hear about the reasons people love Sol. We're doing the promotion again, except this time for ChatGPT Work:\n\nTweet what you love about ChatGPT Work, claim $100 in free credits, get more work done.\n\nFirst 10k get the free tokens: https://t.co/w7QrPBYkrh",
+      "createdAt": "Mon Jul 20 19:37:40 +0000 2026",
+      "viewCount": 348107,
+      "likeCount": 2221,
+      "retweetCount": 255,
+      "author": {
+        "userName": "gdb",
+        "name": "Greg Brockman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/gdb/status/2079289658622738481",
+      "is_official": false
+    },
+    {
+      "id": "2079256626771665098",
+      "text": "We're offering grants of up to $50,000 in Claude usage credits to researchers accelerating cures for rare diseases.\n\nThis is our first focused call within AI for Science, our program supporting scientists using Claude to speed up discovery. https://t.co/rZEmwh07cd",
+      "createdAt": "Mon Jul 20 17:26:25 +0000 2026",
+      "viewCount": 404859,
+      "likeCount": 3817,
+      "retweetCount": 453,
+      "author": {
+        "userName": "AnthropicAI",
+        "name": "Anthropic",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/AnthropicAI/status/2079256626771665098",
+      "is_official": true
+    },
+    {
+      "id": "2079253388211183970",
+      "text": "OpenAI had to pause internal deployment of the unreleased model that disproved the Erdős unit distance conjecture after it repeatedly used novel ways to escape containment. https://t.co/nfK2PglVGm",
+      "createdAt": "Mon Jul 20 17:13:33 +0000 2026",
+      "viewCount": 131562,
+      "likeCount": 1774,
+      "retweetCount": 157,
+      "author": {
+        "userName": "AndrewCurran_",
+        "name": "Andrew Curran",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AndrewCurran_/status/2079253388211183970",
+      "is_official": false
+    },
+    {
+      "id": "2079233333893185876",
+      "text": "Grok for Excel is live.\n\nUse Grok 4.5 to build financial models, analyze market data, and generate charts and graphs.\n\nTry it now https://t.co/DeIpX4KkvO https://t.co/0KkyRtOf1D",
+      "createdAt": "Mon Jul 20 15:53:51 +0000 2026",
+      "viewCount": 1559816,
+      "likeCount": 3260,
+      "retweetCount": 423,
+      "author": {
+        "userName": "grok",
+        "name": "Grok",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/grok/status/2079233333893185876",
+      "is_official": true
+    },
+    {
+      "id": "2079256614238814551",
+      "text": "We had a team of agents rebuild SQLite from its 835-page manual.\n\nIt created a replica in Rust which passed 100% of a held-out test suite.\n\nInterestingly, cost varied 15x depending on which model mix we used. https://t.co/d7dAxDBYyB",
+      "createdAt": "Mon Jul 20 17:26:22 +0000 2026",
+      "viewCount": 539847,
+      "likeCount": 7960,
+      "retweetCount": 497,
+      "author": {
+        "userName": "cursor_ai",
+        "name": "Cursor",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/cursor_ai/status/2079256614238814551",
+      "is_official": true
+    },
+    {
+      "id": "2079253211077300736",
+      "text": "Exciting update: Kimi K3 has landed at #4 on the Agent Arena leaderboard, matching Claude Opus 4.8 and GPT-5.6 Sol. If Kimi K3's weights are released on schedule by July 27, it will become the #1 open-weight model.\n\nThis release marks a major leap in agentic performance over Kimi K2.7 Code (#23 to #4). Based on 8K+ live agentic sessions, Kimi K3 leads on confirmed task success rate (#1). It also posts a strong +20.6% on praise vs. complaint (#3). It currently lags the field in steerability (#14) and bash recovery (#17).\n\nAgent Arena measures models on millions of real-world, long-horizon agentic tasks. Models get web search, filesystem, and terminal tools to complete complex workflows: writing code, creating slide decks, researching the web, building apps, and analyzing documents.\n\nWe use causal tracing methodology to measure a model's net improvement, which indicates how much it improves outcomes relative to the average model.\n\nHere's a primer on the 5 signals:\n\nUser-satisfaction proxies\n- Confirmed Success: an explicit \"yes that worked\" feedback from the user\n- Praise vs. Complaint: implicit sentiment in users reactions\n- Steerability: can the model course-correct when you push back?\n\nTool-use proxies\n- Bash Recovery: how it recovers from CLI errors (primary signal for tool use)\n- Tool Hallucination: does it call tools that don't exist\n\nBelow we break down how Kimi K3 scored across the 5 signals, drawn from tasks submitted by a global community of users.\n\nCongrats @Kimi_Moonshot on another big milestone!",
+      "createdAt": "Mon Jul 20 17:12:50 +0000 2026",
+      "viewCount": 114779,
+      "likeCount": 1135,
+      "retweetCount": 131,
+      "author": {
+        "userName": "arena",
+        "name": "Arena.ai",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/arena/status/2079253211077300736",
+      "is_official": true
+    },
+    {
+      "id": "2079207457788952944",
+      "text": "Introducing Unsloth for AMD 🚀\nYou can now train & run LLMs on your AMD hardware\n\n• We collaborated with AMD to enable you to train & run 500+ models on AMD GPUs\n• Works on Windows, WSL, Linux\n• Train Qwen, Gemma on 3GB VRAM\n\nGitHub: https://t.co/2kXqhhvLsb\n\nWorks on Radeon, Instinct, Ryzen and data center GPUs with up to 2× faster with 70% less VRAM and no accuracy loss via our custom Triton kernels and math algorithms. We also support optimized ROCm builds for GGUF & Safetensors inference.\n\nUnsloth is an open-source local UI for faster LLM training and inference, with tool-call healing, code execution, secure web search, remote APIs, and HTTPS deployment. Connect local models to Claude Code, Codex agents and run the latest Kimi, GLM, DeepSeek, Qwen3.6, and Gemma 4 models.\n\n🔗Blog + Guide: https://t.co/U9LqyRjFdj",
+      "createdAt": "Mon Jul 20 14:11:02 +0000 2026",
+      "viewCount": 138978,
+      "likeCount": 1566,
+      "retweetCount": 216,
+      "author": {
+        "userName": "UnslothAI",
+        "name": "Unsloth AI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/UnslothAI/status/2079207457788952944",
+      "is_official": true
+    },
+    {
+      "id": "2079048442073280524",
+      "text": "Someone just created an ADHD agent skill for Claude Code. 100% Opensource. https://t.co/YEiHT3cyxL",
+      "createdAt": "Mon Jul 20 03:39:10 +0000 2026",
+      "viewCount": 82162,
+      "likeCount": 1443,
+      "retweetCount": 93,
+      "author": {
+        "userName": "Saboo_Shubham_",
+        "name": "Shubham Saboo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Saboo_Shubham_/status/2079048442073280524",
+      "is_official": false
+    },
+    {
+      "id": "2079261553136734239",
+      "text": "Grok for Excel is now live",
+      "createdAt": "Mon Jul 20 17:45:59 +0000 2026",
+      "viewCount": 1702407,
+      "likeCount": 9885,
+      "retweetCount": 1615,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2079261553136734239",
+      "is_official": false
+    },
+    {
+      "id": "2079195918595764300",
+      "text": "Robinhood is now open to AI agents.\n\nYou can open an agentic account and connect an AI agent to it. From there, you can let it research, trade, and manage a portfolio on your behalf.\n\nHere's how to get started. 🧵",
+      "createdAt": "Mon Jul 20 13:25:11 +0000 2026",
+      "viewCount": 1328436,
+      "likeCount": 6198,
+      "retweetCount": 601,
+      "author": {
+        "userName": "RobinhoodApp",
+        "name": "Robinhood",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/RobinhoodApp/status/2079195918595764300",
+      "is_official": true
+    },
+    {
+      "id": "2079240370576146875",
+      "text": "Grok 4.5 is really good at React.\n\nIt's also very affordable and token efficient! https://t.co/1Dg24rLsoW",
+      "createdAt": "Mon Jul 20 16:21:49 +0000 2026",
+      "viewCount": 421208,
+      "likeCount": 2640,
+      "retweetCount": 366,
+      "author": {
+        "userName": "leerob",
+        "name": "Lee Robinson",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/leerob/status/2079240370576146875",
+      "is_official": false
+    },
+    {
+      "id": "2079299754056614289",
+      "text": "For the small teams with big plans: Claude Team plans now start at just 2 seats instead of 5.\n\nGet shared projects, admin controls, centralized billing, SSO, and enterprise search across all your team's tools, all under one plan.",
+      "createdAt": "Mon Jul 20 20:17:47 +0000 2026",
+      "viewCount": 452406,
+      "likeCount": 4692,
+      "retweetCount": 186,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2079299754056614289",
+      "is_official": true
+    },
+    {
+      "id": "2079103743535280508",
+      "text": "if you've run into this, please restart Claude Code, fix should be propogating",
+      "createdAt": "Mon Jul 20 07:18:54 +0000 2026",
+      "viewCount": 298857,
+      "likeCount": 1287,
+      "retweetCount": 104,
+      "author": {
+        "userName": "trq212",
+        "name": "Thariq",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/trq212/status/2079103743535280508",
+      "is_official": false
+    },
+    {
+      "id": "2079179252033818989",
+      "text": "🚨 BREAKING: Jacobian Conjecture Proven False By AI\n\nOne of the central open problems in algebraic geometry for 87 years has just been disproved by Anthropic researcher Levent Alpöge with Claude Fable 5\n\nWe're in a new age of science and progress. https://t.co/kT7Z035ZBq",
+      "createdAt": "Mon Jul 20 12:18:57 +0000 2026",
+      "viewCount": 126607,
+      "likeCount": 1142,
+      "retweetCount": 85,
+      "author": {
+        "userName": "ns123abc",
+        "name": "NIK",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ns123abc/status/2079179252033818989",
+      "is_official": false
+    },
+    {
+      "id": "2079163861362483711",
+      "text": "JUST IN: 🇺🇸🇨🇳 Trump administration weighs strict curbs on Chinese AI models after Moonshot Kimi K3 launch, including U.S. host liability and backlist threats​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​. https://t.co/tJrnwKBgpm",
+      "createdAt": "Mon Jul 20 11:17:48 +0000 2026",
+      "viewCount": 271266,
+      "likeCount": 1614,
+      "retweetCount": 153,
+      "author": {
+        "userName": "WhaleInsider",
+        "name": "Whale Insider",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/WhaleInsider/status/2079163861362483711",
+      "is_official": false
+    },
+    {
+      "id": "2079229342811603445",
+      "text": "This might be the best time yet to subscribe to the GLM Coding Plan 🔜",
+      "createdAt": "Mon Jul 20 15:38:00 +0000 2026",
+      "viewCount": 141804,
+      "likeCount": 1395,
+      "retweetCount": 30,
+      "author": {
+        "userName": "ZixuanLi_",
+        "name": "Zixuan Li",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ZixuanLi_/status/2079229342811603445",
+      "is_official": false
+    },
+    {
+      "id": "2079058139207573541",
+      "text": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the team smile.\n\nWhat’s a time you saw ChatGPT have a deeply positive impact on your or someone’s life?",
+      "createdAt": "Mon Jul 20 04:17:42 +0000 2026",
+      "viewCount": 476098,
+      "likeCount": 3410,
+      "retweetCount": 83,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2079058139207573541",
+      "is_official": false
+    },
+    {
+      "id": "2079202168448659764",
+      "text": "The Trump administration is considering an executive order, and other means, to ban Chinese open-source models within in the United States. Kimi K3 has reignited this debate. Reporting this morning by Axios. Commerce is also considering adding Chinese AI labs to the Entity List. https://t.co/R1QvpDBtE6",
+      "createdAt": "Mon Jul 20 13:50:01 +0000 2026",
+      "viewCount": 960440,
+      "likeCount": 2361,
+      "retweetCount": 375,
+      "author": {
+        "userName": "AndrewCurran_",
+        "name": "Andrew Curran",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AndrewCurran_/status/2079202168448659764",
+      "is_official": false
+    },
+    {
+      "id": "2079083675824898513",
+      "text": "hey @thsottiaux \nthe ''show pet'' button in the chatgpt app always appears a bit late and every time i wanna check my usage i end up clicking the ''show pet'' button instead\njust a minor bug but i hope it gets fixed soon! https://t.co/OaAdEBO6z5",
+      "createdAt": "Mon Jul 20 05:59:10 +0000 2026",
+      "viewCount": 78248,
+      "likeCount": 2145,
+      "retweetCount": 59,
+      "author": {
+        "userName": "jhao941",
+        "name": "Hao",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/jhao941/status/2079083675824898513",
+      "is_official": false
+    }
+  ]
+}

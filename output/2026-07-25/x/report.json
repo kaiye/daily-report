@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-07-25",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "共同信号是AI正在从模型发布转向可落地的工作流、企业工具和高价值专业场景，并且成本效率成为扩散速度的核心变量。",
+  "items": [
+    {
+      "id": "2080468063548543454",
+      "author_name": "Simplifying AI",
+      "author_handle": "simplifyinAI",
+      "text": "RAG可能要被重写：PageIndex不靠向量库、嵌入、切块或相似度搜索，而是让LLM沿树状索引像读书一样推理文档，并在FinanceBench拿到98.7%。",
+      "url": "https://twitter.com/simplifyinAI/status/2080468063548543454",
+      "view_count": 91099,
+      "like_count": 1343
+    },
+    {
+      "id": "2080703243722854516",
+      "author_name": "ClaudeDevs",
+      "author_handle": "ClaudeDevs",
+      "text": "Opus 5今天已上线Claude Code和Claude Platform，这里整理了开发者需要先知道的几个重点。",
+      "url": "https://twitter.com/ClaudeDevs/status/2080703243722854516",
+      "view_count": 575504,
+      "like_count": 5474
+    },
+    {
+      "id": "2080707685448847418",
+      "author_name": "OpenAI Developers",
+      "author_handle": "OpenAIDevs",
+      "text": "ChatGPT Work代理现在能处理需要登录的网站：你先接管云浏览器完成登录，之后代理可继续任务且会保留登录状态。",
+      "url": "https://twitter.com/OpenAIDevs/status/2080707685448847418",
+      "view_count": 143647,
+      "like_count": 2404
+    },
+    {
+      "id": "2080716512009343207",
+      "author_name": "Grok",
+      "author_handle": "grok",
+      "text": "Grok进入Google Workspace：一个插件覆盖Sheets、Slides和Docs，可把研究变报告、由大纲生成演示文稿并就地起草文档。",
+      "url": "https://twitter.com/grok/status/2080716512009343207",
+      "view_count": 169960,
+      "like_count": 1269
+    },
+    {
+      "id": "2080652886204100638",
+      "author_name": "Raoul Pal",
+      "author_handle": "RaoulGMI",
+      "text": "AI看似昂贵，但每月200美元就能买到覆盖所有学科的博士级智能；相比养成和维持一个人类大脑，机器智能的经济性太强了。",
+      "url": "https://twitter.com/RaoulGMI/status/2080652886204100638",
+      "view_count": 124417,
+      "like_count": 1108
+    },
+    {
+      "id": "2080699495453528290",
+      "author_name": "Claude",
+      "author_handle": "claudeai",
+      "text": "Claude正式推出Opus 5：一个更深思熟虑、主动性更强的模型，接近Fable 5的前沿智能，但价格只有一半。",
+      "url": "https://twitter.com/claudeai/status/2080699495453528290",
+      "view_count": 9528551,
+      "like_count": 49621
+    },
+    {
+      "id": "2080455925089927275",
+      "author_name": "Polymarket",
+      "author_handle": "Polymarket",
+      "text": "最新消息：用户去睡了一觉，ChatGPT顺手推翻了一个悬而未决22年的图论猜想。",
+      "url": "https://twitter.com/Polymarket/status/2080455925089927275",
+      "view_count": 341345,
+      "like_count": 3355
+    },
+    {
+      "id": "2080701299637858721",
+      "author_name": "OpenAI Newsroom",
+      "author_handle": "OpenAINewsroom",
+      "text": "一名患者借助ChatGPT读懂影像报告并回溯活检记录，发现关键IDH1突变；医生确认后，诊断和长期治疗规划都发生了改变。",
+      "url": "https://twitter.com/OpenAINewsroom/status/2080701299637858721",
+      "view_count": 108134,
+      "like_count": 1588
+    },
+    {
+      "id": "2080578327786746242",
+      "author_name": "Kanika",
+      "author_handle": "KanikaBK",
+      "text": "Anthropic花300万美元和30个月让AI代理跑真实公司任务，结果显示在合适记忆和循环下，常规工作可自动化63%、工程产出可放大三倍；别只是收藏这份免费研究。",
+      "url": "https://twitter.com/KanikaBK/status/2080578327786746242",
+      "view_count": 213675,
+      "like_count": 1105
+    },
+    {
+      "id": "2080711105349906786",
+      "author_name": "Gavin Baker",
+      "author_handle": "GavinSBaker",
+      "text": "新的帕累托前沿包括Grok 4.5、SWE-1.7和Opus 5；长期看，每美元智能量会成为唯一真正重要的指标。",
+      "url": "https://twitter.com/GavinSBaker/status/2080711105349906786",
+      "view_count": 313615,
+      "like_count": 1441
+    }
+  ]
+}

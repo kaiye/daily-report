@@ -1,0 +1,197 @@
+{
+  "generated_at": "2026-08-16T00:08:44.173Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 15,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "智谱发布 GLM-5.3，编程能力更强；传苹果训练国内专用 AI 模型；微信：朋友圈现在、过去、未来都不会有二次编辑功能 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111979&idx=1&sn=b293d956506b71bd74cff360d76add6f",
+      "published_at": "2026-08-15T00:56:00.000Z",
+      "summary": "任泓玲 2026-08-15 08:56 湖北\n\nSpaceX 完成收购 Cursor；阿里开源 Qwen3.8，千问大模型全球下载超 30 亿次；库克谈自身历史地位：希望外界记得他是善良、正直的人\n\n## 智谱正式发布 GLM-5.3，拥有更强编程能力\n\n8 月 14 日，据介绍，与 GLM-5.2 相比，GLM-5.3 基座模型未变，但通过极致的后训练 Scaling 大大提高了模型的智能上界。\n\nGLM-5.3 拥有更强的编程能力，在内部自建体感评测中较 GLM-5.2 提升 50%，在包括 TerminalBench3.0、Agents'LastExam(CLI)在内的公开基准测试中取",
+      "priority_score": 374,
+      "matched_keywords": [
+        "Qwen",
+        "GLM",
+        "Cursor"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "published_at": "2026-08-15T18:58:39.000Z",
+      "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "Anthropic曝光多Agent隐患！放一起乱成一锅粥了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912624&idx=3&sn=f6535d15478ea80f1cc9673c63a3deee",
+      "published_at": "2026-08-15T03:33:00.000Z",
+      "summary": "关注前沿科技 2026-08-15 11:33 北京\n\nMythos直接霸凌，Opus4.8打不过就使阴招\n\n##### 一水 发自 凹非寺 量子位 | 公众号 QbitAI\n\nMythos玩起了“霸凌”、Opus 4.8使上了“阴招”……\n\nAnthropic刚发布了一项研究，专门观察多Agent之间如何交互。\n\n结果却出乎所有人意料。\n\n和预想中各司其职、默契配合的画面不同，项目还没做完，Agent居然原地演起了《甄嬛传》？？\n\n在一项后端迁移实验中，3个Agent分别收到将同一套代码改成不同语言的任务。\n\n目标撞车后，能力最强的神话模型Mythos直接实施“霸凌”，准备撤销对手权限。\n\n",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "DeepSeek Harness 实测｜模型之外的那一半，到底带来了什么",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803588&idx=1&sn=36499841c1cc38ba9ccae6380a90aec9",
+      "published_at": "2026-08-15T01:30:00.000Z",
+      "summary": "腾讯技术工程 2026-08-15 09:30 广东\n\nDeepSeek-V4-Pro 正式版上线当天，DeepSeek Harness 也开源了\n\n# 作者：osli元宝产品经理；相关团队：元宝产品中心、元宝模型工程中心、元宝大模型应用算法中心\n\nDeepSeek-V4-Pro 正式版上线当天 ，[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 也开源了。之前注册Deepseek Harness公众号已经吵闹过一阵。V4 Flash 发布报告的模型卡里只漏过一句 DSH，外界却已经猜测了很久，可谓期待值拉满",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceX officially closes its Cursor acquisition",
+      "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+      "published_at": "2026-08-15T16:30:00.000Z",
+      "summary": "AI coding startup Cursor is now officially a part of SpaceX.",
+      "priority_score": 124,
+      "matched_keywords": [
+        "Cursor"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "CEO还是「教主」？Anthropic正遭受「信仰」反噬",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050521&idx=1&sn=442c1c98b60f7864118caa79a7e6c74e",
+      "published_at": "2026-08-15T04:02:00.000Z",
+      "summary": "原创关注AI的 2026-08-15 12:02 云南\n\nCEO 像个宗教大祭司，员工备受煎熬\n\n机器之心编辑部\n\nAnthropic，一家估值逼近万亿美元、站在 AI 浪潮最前沿的明星公司，眼下最棘手的问题，可能不是模型性能，而是员工还信不信老板描绘的未来。\n\n科技博主 Brian Roemmele 近日爆料称，他刚与一名 Anthropic 早期投资人通话。对方透露， 公司投资 者和员工的士 气已经降至低谷 ，对日渐封闭的高层愈发不满，甚至向 Brian 征询：Anthropic 究竟该怎样才能继续作为一家独立公司生存？\n\nBrian 随后给出了一番极具冲击力的描述：Anthropic 早",
+      "priority_score": 124,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+      "published_at": "2026-08-15T21:29:19.000Z",
+      "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Grok"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "对话郎咸朋：用机器人创业重做一次“百万智驾量产”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912624&idx=2&sn=91c2c8e5fccbed8520e2a22261928d41",
+      "published_at": "2026-08-15T03:33:00.000Z",
+      "summary": "原创关注前沿科技 2026-08-15 11:33 北京\n\n1.9万字全文实录\n\n##### 邓思邈 发自 凹非寺 量子位 | 公众号 QbitAI\n\n作为理想智能驾驶从0到1、一路做到 **150万辆车量产** 的核心负责人之一，郎咸朋却把这八年称作自己“探索具身智能的起点”。\n\n他和来自华为的任庚联手创办了昆仑行。\n\n这家具身新势力在成立后的三个月内，就拿下数十亿人民币融资、跻身 **独角兽** 俱乐部。\n\n但相比融资，他在这次访谈里反复强调的，是另外两件事。\n\n第一， **具身智能真正要解决的是“理解”** 。\n\n昆仑行因此选择物理因果世界模型和“数据编译”路线，希望机器人学到的是背后的",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "浙大团队开源AI科研智能体Polaris：让AI与你一起做研究",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050521&idx=3&sn=612140875963be7e77d7e1e0754cebce",
+      "published_at": "2026-08-15T04:02:00.000Z",
+      "summary": "机器之心 2026-08-15 12:02 云南\n\nAI 自己读文献、想 idea、跑实验、写论文、做评审。浙大团队开源端到端科研智能体 Polaris。\n\n科研的链条很长。文献读不完，方向想不清，实验一轮接一轮，论文改到深夜。过去两年，大模型已经能读论文、写代码、改文章，但它们大多以问答工具的形态散落在各个环节，替研究者节省的只是零碎时间。一项研究能否被 AI 完整地向前推进，从追踪文献到形成想法，从验证实验到写成论文，仍是一个悬而未决的问题。\n\n浙江大学团队最近开源的 Polaris 想解决的正是这件事。Polaris 意为北极星，寓意是在浩瀚的文献与漫长的研究中为人指引方向。它把文献调研",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "睡觉时往脑袋上通电，4000 个美国人抢着买单",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111980&idx=1&sn=739920269eecd0cb6ecb3a8ce745a1ad",
+      "published_at": "2026-08-15T04:00:00.000Z",
+      "summary": "徐珊 2026-08-15 12:00 湖北\n\n​这届印度创业者，用「电击助眠」卖爆了美国众筹。\n\n本文转载自 Hardwire，欢迎关注，共同看见硬件行业新风向 👇\n\n这届印度创业者，用「电击助眠」卖爆了美国众筹。\n\n**作者｜徐珊** **编辑｜ **郑玄****\n\n提到印度科技，你想到的大概是外包、程序员和满街的仿制药。很少有人会想到，2026 年美国众筹市场上最快破百万美元的印度健康硬件，是一群班加罗尔年轻人做的一枚神经刺激贴片。\n\n这款睡眠设备 DUSQ，6 月 9 日在 Kickstarter 上线，设备重 12 克，贴在耳后佩戴。它主要是在人睡着时监测神经系统，并施加微弱的电流",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "url": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot",
+      "published_at": "2026-08-15T20:45:00.000Z",
+      "summary": "If you squint you can just about make out the hat. | Screenshot: Terrence O’Brien / The Verge\n[Your AI Slop Bores Me](https://youraislopbores.me/)is brilliant in its simplicity. There are two tabs: human and LARP as an AI. On one side you enter a request. On the other, you submit an answer. But the ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "Stack Overflow快死了！新提问竟比内测时还少",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050521&idx=2&sn=f6c334e02d3c80c1cd3f04b9be02e377",
+      "published_at": "2026-08-15T04:02:00.000Z",
+      "summary": "原创机器之心 2026-08-15 12:02 云南\n\n一个时代的终结\n\n编辑｜Panda\n\nStack Overflow，有「程序员圣经」之称，已经积累超过 2400 万个问题专业社区，全网最大的编程问答语料库，正在走向死亡。\n\n2026 年 7 月，全世界的程序员在 Stack Overflow 上一共提了 1 30 4 个问题。\n\n2014 年 3 月，这个数字是 20.7 万。\n\n前两天，开发者 Daniel Lockyer 把包含这些数据的折线图发到了 X 上，并发出了「一个时代的终结」的感慨。\n\n数据是真的，来自 Stack Overflow 官方对外开放的 SQL 查询接口 St",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "闭门、举牌、真话，这场路演有点不一样",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111980&idx=2&sn=117dfaa25b6883a440e5f4bffcee7ca6",
+      "published_at": "2026-08-15T04:00:00.000Z",
+      "summary": "原创Li Yuan 2026-08-15 12:00 湖北\n\n把路演做成一场大富翁游戏。\n\n**作者｜Li Yuan** **编辑｜郑玄**\n\n会算命的非遗挂件？专挑膝盖下手的外骨骼？会跳的机器人？\n\n8 月 7 日，地瓜机器人办的这场闭门路演「地心引力 DemoDay 2026」，十个项目轮番上台，画风一个比一个野。\n\n有做具身智能的，也有做智能硬件的，大部分都还初具雏形：一些项目，半年前才刚正式启动。\n\n地瓜选择本场 Demoday 选手的调性，与其他不太一样。CEO 王丛开场就说：他不太在乎地瓜自己出货量多大、市场占有率多高，他更想看到的画面是，被他们孵化出来的那些五花八门的东西，能被随",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "高效低成本开发，商业增长回报高，鸿蒙元服务背后的“开发厨房”让开发者按时吃饭！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912624&idx=1&sn=f19e53581ec92724986966fbcf0bc1ee",
+      "published_at": "2026-08-15T03:33:00.000Z",
+      "summary": "关注前沿科技 2026-08-15 11:33 北京\n\n鸿蒙正在重新设计服务开发和分发的底层逻辑\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n过去几年，移动互联网的服务竞争，本质上是一场流量与入口竞争。\n\n过去我们获取服务是这样的：想买东西，点开电商App；要进停车场，扫码使用专用小程序；找个优惠券，得在三四个应用间来回切。\n\n各种应用切来切去，手机内存蹭蹭上涨，指纹按到冒火，最后往往卡在跳转和加载的“最后一公里”。\n\n但在AI时代，这套服务连接方式正在发生变化。\n\n尤其最近进入暑期，旅行、赛事、商圈消费等场景集中爆发，用户需求呈现出更强的即时性和连续性。\n\n一次出行",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912624&idx=4&sn=31680d813aa0be0b26f871529e9418db",
+      "published_at": "2026-08-15T03:33:00.000Z",
+      "summary": "关注前沿科技 2026-08-15 11:33 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

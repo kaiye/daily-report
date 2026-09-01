@@ -1,0 +1,11 @@
+{
+  "source": "x_twitter",
+  "collected_at": "2026-08-04T00:10:38.773Z",
+  "utc_date": "2026-08-03",
+  "query": "(OpenAI OR Anthropic OR Claude OR ChatGPT OR GPT OR \"Google Gemini\" OR \"Google AI\" OR DeepMind OR Llama OR xAI OR Grok OR Perplexity OR DeepSeek OR LLM OR AGI OR \"AI Agent\" OR Qwen OR GLM OR Kimi OR MiniMax OR Mistral OR Cursor) lang:en since:1785715200 until:1785801599 min_faves:1000 -filter:nativeretweets",
+  "query_hash": "KE9wZW5B",
+  "raw_count": 0,
+  "raw_tweets": [],
+  "item_count": 0,
+  "items": []
+}

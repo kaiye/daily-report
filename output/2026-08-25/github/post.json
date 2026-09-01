@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-08-25T00:03:11.996Z",
+  "source_raw": "raw.json",
+  "source_count": 19,
+  "item_count": 15,
+  "language_breakdown": {
+    "Python": 6,
+    "Rust": 3,
+    "Unknown": 1,
+    "TypeScript": 4,
+    "Shell": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "language": "Python",
+      "stars_today": 891,
+      "stars_total": 48938,
+      "forks": 7994
+    },
+    {
+      "rank": 2,
+      "repo": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "language": "Rust",
+      "stars_today": 1994,
+      "stars_total": 117017,
+      "forks": 17841
+    },
+    {
+      "rank": 3,
+      "repo": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "language": "Python",
+      "stars_today": 434,
+      "stars_total": 34042,
+      "forks": 11886
+    },
+    {
+      "rank": 4,
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": "Unknown",
+      "stars_today": 588,
+      "stars_total": 206486,
+      "forks": 21085
+    },
+    {
+      "rank": 5,
+      "repo": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "language": "TypeScript",
+      "stars_today": 243,
+      "stars_total": 57913,
+      "forks": 5487
+    },
+    {
+      "rank": 6,
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars_today": 896,
+      "stars_total": 235779,
+      "forks": 47573
+    },
+    {
+      "rank": 7,
+      "repo": "anthropics/claude-plugins-community",
+      "url": "https://github.com/anthropics/claude-plugins-community",
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "language": "Python",
+      "stars_today": 489,
+      "stars_total": 1342,
+      "forks": 151
+    },
+    {
+      "rank": 8,
+      "repo": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "stars_today": 1097,
+      "stars_total": 15848,
+      "forks": 429
+    },
+    {
+      "rank": 9,
+      "repo": "apache/maka",
+      "url": "https://github.com/apache/maka",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "language": "TypeScript",
+      "stars_today": 411,
+      "stars_total": 2888,
+      "forks": 305
+    },
+    {
+      "rank": 11,
+      "repo": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "language": "TypeScript",
+      "stars_today": 173,
+      "stars_total": 387433,
+      "forks": 81348
+    },
+    {
+      "rank": 12,
+      "repo": "AgriciDaniel/claude-obsidian",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "language": "Python",
+      "stars_today": 310,
+      "stars_total": 11876,
+      "forks": 1327
+    },
+    {
+      "rank": 13,
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "stars_today": 349,
+      "stars_total": 48268,
+      "forks": 8501
+    },
+    {
+      "rank": 14,
+      "repo": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "description": "Beautiful, Modern &amp; Opinionated Linux",
+      "language": "Shell",
+      "stars_today": 1056,
+      "stars_total": 30091,
+      "forks": 3058
+    },
+    {
+      "rank": 15,
+      "repo": "tashfeenahmed/freellmapi",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "language": "TypeScript",
+      "stars_today": 174,
+      "stars_total": 19766,
+      "forks": 2876
+    },
+    {
+      "rank": 16,
+      "repo": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "language": "Rust",
+      "stars_today": 175,
+      "stars_total": 66125,
+      "forks": 3139
+    }
+  ]
+}

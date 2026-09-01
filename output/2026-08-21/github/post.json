@@ -1,0 +1,148 @@
+{
+  "generated_at": "2026-08-21T00:03:36.267Z",
+  "source_raw": "raw.json",
+  "source_count": 17,
+  "item_count": 13,
+  "language_breakdown": {
+    "Mojo": 1,
+    "Shell": 2,
+    "Rust": 3,
+    "TypeScript": 2,
+    "JavaScript": 1,
+    "Python": 2,
+    "Kotlin": 1,
+    "Go": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "modular/modular",
+      "url": "https://github.com/modular/modular",
+      "description": "The Modular Platform (includes MAX &amp; Mojo)",
+      "language": "Mojo",
+      "stars_today": 268,
+      "stars_total": 27915,
+      "forks": 3000
+    },
+    {
+      "rank": 2,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars_today": 2192,
+      "stars_total": 226408,
+      "forks": 19414
+    },
+    {
+      "rank": 3,
+      "repo": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "stars_today": 1545,
+      "stars_total": 11830,
+      "forks": 322
+    },
+    {
+      "rank": 4,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 727,
+      "stars_total": 274927,
+      "forks": 24604
+    },
+    {
+      "rank": 5,
+      "repo": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars_today": 449,
+      "stars_total": 4074,
+      "forks": 340
+    },
+    {
+      "rank": 6,
+      "repo": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "language": "JavaScript",
+      "stars_today": 816,
+      "stars_total": 66653,
+      "forks": 12816
+    },
+    {
+      "rank": 7,
+      "repo": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars_today": 332,
+      "stars_total": 3583,
+      "forks": 280
+    },
+    {
+      "rank": 8,
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars_today": 2761,
+      "stars_total": 112910,
+      "forks": 17112
+    },
+    {
+      "rank": 10,
+      "repo": "chaitanyagiri/munder-difflin",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "stars_today": 507,
+      "stars_total": 3122,
+      "forks": 351
+    },
+    {
+      "rank": 12,
+      "repo": "mahlernim/google-timeline-visualizer",
+      "url": "https://github.com/mahlernim/google-timeline-visualizer",
+      "description": "Visualize your year in travel using your Google Location History (Timeline) data",
+      "language": "Kotlin",
+      "stars_today": 657,
+      "stars_total": 1522,
+      "forks": 173
+    },
+    {
+      "rank": 13,
+      "repo": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "language": "Python",
+      "stars_today": 950,
+      "stars_total": 31008,
+      "forks": 2392
+    },
+    {
+      "rank": 14,
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "Go",
+      "stars_today": 258,
+      "stars_total": 99620,
+      "forks": 5768
+    },
+    {
+      "rank": 17,
+      "repo": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "language": "Rust",
+      "stars_today": 230,
+      "stars_total": 15933,
+      "forks": 1384
+    }
+  ]
+}

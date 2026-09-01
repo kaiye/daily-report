@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-07-24",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "这些推文共同显示，AI讨论的重心正从单纯模型能力转向可执行代理、开放生态、安全边界和监管权力的现实博弈。",
+  "items": [
+    {
+      "id": "2080359098214953421",
+      "author_name": "cheaty",
+      "author_handle": "cheatyyyy",
+      "text": "一名Anthropic员工疑似不小心晒出截图：Fable 5触发护栏后被路由到Opus 5，场面有点尴尬。",
+      "url": "https://twitter.com/cheatyyyy/status/2080359098214953421",
+      "view_count": 162079,
+      "like_count": 1029
+    },
+    {
+      "id": "2080286550005358977",
+      "author_name": "Anatoli Kopadze",
+      "author_handle": "AnatoliKopadze",
+      "text": "Anthropic工程师的核心观点是：别只会提示Claude，要搭一个能自我提示、记忆、纠错并越跑越聪明的系统。",
+      "url": "https://twitter.com/AnatoliKopadze/status/2080286550005358977",
+      "view_count": 503848,
+      "like_count": 2072
+    },
+    {
+      "id": "2080190071102460108",
+      "author_name": "Chaofan Shou",
+      "author_handle": "Fried_rice",
+      "text": "Kimi K3据称在1.5小时内找出Redis 8.8.0的19个0day，并已加入一个RCE利用。",
+      "url": "https://twitter.com/Fried_rice/status/2080190071102460108",
+      "view_count": 206173,
+      "like_count": 1686
+    },
+    {
+      "id": "2080126127952314785",
+      "author_name": "Arnaud Bertrand",
+      "author_handle": "RnaudBertrand",
+      "text": "他质疑Kimi K3“蒸馏Fable”的指控：前沿大模型训练要数月，时间线对不上，架构创新也不是靠蒸馏能偷来的。",
+      "url": "https://twitter.com/RnaudBertrand/status/2080126127952314785",
+      "view_count": 48577,
+      "like_count": 1299
+    },
+    {
+      "id": "2080250266851463209",
+      "author_name": "Codez",
+      "author_handle": "0xCodez",
+      "text": "一份Anthropic工程师的“图工程”PDF让他改了多智能体系统设计：用知识图谱把代理记忆从上下文窗口里解放出来。",
+      "url": "https://twitter.com/0xCodez/status/2080250266851463209",
+      "view_count": 225884,
+      "like_count": 1572
+    },
+    {
+      "id": "2080289121067483260",
+      "author_name": "Polymarket",
+      "author_handle": "Polymarket",
+      "text": "突发：Anthropic又向一个要求更严格AI监管的政治非营利组织捐出2000万美元，时间点正值中期选举前。",
+      "url": "https://twitter.com/Polymarket/status/2080289121067483260",
+      "view_count": 487442,
+      "like_count": 1108
+    },
+    {
+      "id": "2080195007055880305",
+      "author_name": "Arnaud Bertrand",
+      "author_handle": "RnaudBertrand",
+      "text": "他认为真正反乌托邦的不是开放模型，而是只能使用美国闭源实验室、且越来越嵌入安全国家体系的AI。",
+      "url": "https://twitter.com/RnaudBertrand/status/2080195007055880305",
+      "view_count": 96439,
+      "like_count": 2390
+    },
+    {
+      "id": "2080363528066924681",
+      "author_name": "David Sacks",
+      "author_handle": "DavidSacks",
+      "text": "David Sacks说“Kimi恐慌”该停了：美国前沿模型仍领先，开源成本优势被夸大，轻监管才会让美国继续赢。",
+      "url": "https://twitter.com/DavidSacks/status/2080363528066924681",
+      "view_count": 256551,
+      "like_count": 2774
+    },
+    {
+      "id": "2080183484371320975",
+      "author_name": "MIKE",
+      "author_handle": "mikenevermiss",
+      "text": "一个深圳学生据称用红米手机、Claude和PhoneDriver自动读中文新闻并对照Polymarket赔率，靠信息时差赚钱。",
+      "url": "https://twitter.com/mikenevermiss/status/2080183484371320975",
+      "view_count": 134682,
+      "like_count": 1003
+    },
+    {
+      "id": "2080333504446108104",
+      "author_name": "Andrew Ng",
+      "author_handle": "AndrewYNg",
+      "text": "Andrew Ng发布OpenWorker：一个开源、本地运行、模型无关的AI工作代理，目标是直接交付文档、Slack消息和日程更新等成品。",
+      "url": "https://twitter.com/AndrewYNg/status/2080333504446108104",
+      "view_count": 278955,
+      "like_count": 4419
+    }
+  ]
+}

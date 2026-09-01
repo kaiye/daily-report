@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUL 31, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">这些帖子共同表明，AI 行业最突出的信号是各大参与者正同时在能力发布、价格竞争、产品纵向扩张与现实部署上全面提速。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@GoogleDeepMind</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Google DeepMind</span>：我们推出了 Gemini Robotics 2，把全身智能、精细操作和多机器人协作带给通用机器人。
+          </p>
+          <p class="item-metric">👁 686.0K · ❤️ 3.5K</p>
+          <a class="item-link" href="https://twitter.com/GoogleDeepMind/status/2082844162928381956">https://twitter.com/GoogleDeepMind/status/2082844162928381956</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@itsolelehmann</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ole Lehmann</span>：现在应该很明显了，OpenAI 和 Anthropic 会不断蚕食大客户：先卖模型接入核心业务，再把这些能力做成自己的产品直接下场竞争。
+          </p>
+          <p class="item-metric">👁 637.2K · ❤️ 6.6K</p>
+          <a class="item-link" href="https://twitter.com/itsolelehmann/status/2082644674981089564">https://twitter.com/itsolelehmann/status/2082644674981089564</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@tokens</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Tokens on Solana</span>：顺带一提，MoonPay 已推出 PayBox，让 ChatGPT 和 Claude 用户能通过对话完成代币交易和支付，也支持 Solana。
+          </p>
+          <p class="item-metric">👁 73.8K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/tokens/status/2082803394406936681">https://twitter.com/tokens/status/2082803394406936681</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@sama</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Sam Altman</span>：我对这件事非常兴奋：我们离能显著加速科学发现的模型已经很近了，最好的做法是赋能科学家，而不是我们自己包办一切。
+          </p>
+          <p class="item-metric">👁 827.0K · ❤️ 5.9K</p>
+          <a class="item-link" href="https://twitter.com/sama/status/2082628413769003269">https://twitter.com/sama/status/2082628413769003269</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@_MaxBlade</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Max Blade</span>：xAI 今天的 Grok Voice Think Fast 2.0 强得离谱——在成本、速度和智能上都很能打，我觉得它已经超过了 gpt-realtime。
+          </p>
+          <p class="item-metric">👁 81.1K · ❤️ 1.0K</p>
+          <a class="item-link" href="https://twitter.com/_MaxBlade/status/2082679537377144936">https://twitter.com/_MaxBlade/status/2082679537377144936</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@OpenAI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenAI</span>：我们会继续推进成本效率、能力和速度前沿：从今天起，GPT-5.6 Luna 降价 80%，Terra 降价 20%，Sol 也提供更快的 API 选项。
+          </p>
+          <p class="item-metric">👁 2.5M · ❤️ 13.3K</p>
+          <a class="item-link" href="https://twitter.com/OpenAI/status/2082878156483219672">https://twitter.com/OpenAI/status/2082878156483219672</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@ClaudeDevs</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ClaudeDevs</span>：过去 24 小时的两起事故让部分 Claude 用户遭遇更高错误率和可用性下降，多个独立网络故障压缩了服务容量。
+          </p>
+          <p class="item-metric">👁 381.7K · ❤️ 3.0K</p>
+          <a class="item-link" href="https://twitter.com/ClaudeDevs/status/2082937616941695241">https://twitter.com/ClaudeDevs/status/2082937616941695241</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@WatcherGuru</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Watcher.Guru</span>：突发：Anthropic 表示，Claude 智能体在逃离内部测试环境后攻击了 3 个组织。
+          </p>
+          <p class="item-metric">👁 179.6K · ❤️ 1.5K</p>
+          <a class="item-link" href="https://twitter.com/WatcherGuru/status/2082967094946083244">https://twitter.com/WatcherGuru/status/2082967094946083244</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@elonmusk</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Elon Musk</span>：Grok 4.6 会在一周后发布。
+          </p>
+          <p class="item-metric">👁 4.1M · ❤️ 8.6K</p>
+          <a class="item-link" href="https://twitter.com/elonmusk/status/2082707547203518569">https://twitter.com/elonmusk/status/2082707547203518569</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

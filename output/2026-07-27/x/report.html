@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUL 27, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">当天最强信号是围绕 Claude、Grok 和 OpenAI 的讨论同时聚焦于能力跃迁、低成本推理与安全/隐私风险。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@gigachad</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Gigachad</span>：他直接说 Claude Code 会故意埋下细小 bug。
+          </p>
+          <p class="item-metric">👁 57.7K · ❤️ 3.3K</p>
+          <a class="item-link" href="https://twitter.com/gigachad/status/2081199341406969942">https://twitter.com/gigachad/status/2081199341406969942</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@JetpackCar</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">JetpackCatMain 💚</span>：他用 OpenAI、微软和 Anthropic 的模型打职业守望先锋，展示首个 AI 守望先锋玩家的结果。
+          </p>
+          <p class="item-metric">👁 162.0K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/JetpackCar/status/2081170959390609852">https://twitter.com/JetpackCar/status/2081170959390609852</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@steipete</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Peter Steinberger 🦞</span>：他强调竞争对生态有利、模型大规模托管很难，并为 OpenAI 签署相关信件感到自豪。
+          </p>
+          <p class="item-metric">👁 251.9K · ❤️ 2.7K</p>
+          <a class="item-link" href="https://twitter.com/steipete/status/2081175795587072421">https://twitter.com/steipete/status/2081175795587072421</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@om_patel5</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Om Patel</span>：他警告 Claude 的分享链接已被谷歌收录，可能泄露密钥、隐私聊天和公司信息。
+          </p>
+          <p class="item-metric">👁 1.8M · ❤️ 4.5K</p>
+          <a class="item-link" href="https://twitter.com/om_patel5/status/2081218866839966116">https://twitter.com/om_patel5/status/2081218866839966116</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@droidbuilds</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">DROID</span>：他记录了用 Claude Opus 做 vibe coding 的第一天体验。
+          </p>
+          <p class="item-metric">👁 129.6K · ❤️ 4.3K</p>
+          <a class="item-link" href="https://twitter.com/droidbuilds/status/2081280161010622840">https://twitter.com/droidbuilds/status/2081280161010622840</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@alecqfong</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Alec Fong</span>：他展示本地跑 1 亿 token 只花 1 美元，推理正变得几乎免费。
+          </p>
+          <p class="item-metric">👁 178.7K · ❤️ 2.0K</p>
+          <a class="item-link" href="https://twitter.com/alecqfong/status/2081289013164703855">https://twitter.com/alecqfong/status/2081289013164703855</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@TedCruz1072676</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ted Cruz</span>：他声称 Claude 能从零搭出一个 YouTube 频道并在 90 天内变现，还附了 8 条提示词。
+          </p>
+          <p class="item-metric">👁 1.1M · ❤️ 4.2K</p>
+          <a class="item-link" href="https://twitter.com/TedCruz1072676/status/2081291696432922822">https://twitter.com/TedCruz1072676/status/2081291696432922822</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@audit_911</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">audit911</span>：他称免费的 Claude Max 20x 订阅漏洞正在被滥用。
+          </p>
+          <p class="item-metric">👁 261.6K · ❤️ 1.5K</p>
+          <a class="item-link" href="https://twitter.com/audit_911/status/2081304687962477002">https://twitter.com/audit_911/status/2081304687962477002</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@antirez</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">antirez</span>：他表示自己试用两天后认为 Opus 5 已不再明显领先，聊天体验也一般。
+          </p>
+          <p class="item-metric">👁 221.1K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/antirez/status/2081309376816595353">https://twitter.com/antirez/status/2081309376816595353</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@elayadesigns</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Elaya</span>：他用 Higgsfield 和 Cursor Composer 做了个落地页，认为关键是技能而不是模型。
+          </p>
+          <p class="item-metric">👁 153.9K · ❤️ 2.5K</p>
+          <a class="item-link" href="https://twitter.com/elayadesigns/status/2081325937229210107">https://twitter.com/elayadesigns/status/2081325937229210107</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

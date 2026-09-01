@@ -1,0 +1,139 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-08-19T00:03:40.620Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 13,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars_total": 108495,
+      "forks": 16473,
+      "stars_today": 2304
+    },
+    {
+      "rank": 2,
+      "repo": "chaitanyagiri/munder-difflin",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "stars_total": 2008,
+      "forks": 238,
+      "stars_today": 306
+    },
+    {
+      "rank": 3,
+      "repo": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "stars_total": 2702,
+      "forks": 232,
+      "stars_today": 648
+    },
+    {
+      "rank": 4,
+      "repo": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "language": "Python",
+      "stars_total": 29354,
+      "forks": 2304,
+      "stars_today": 213
+    },
+    {
+      "rank": 5,
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
+      "language": "Python",
+      "stars_total": 29167,
+      "forks": 3494,
+      "stars_today": 730
+    },
+    {
+      "rank": 6,
+      "repo": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars_total": 464515,
+      "forks": 51312,
+      "stars_today": 1005
+    },
+    {
+      "rank": 7,
+      "repo": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "description": "Beautiful, Modern &amp; Opinionated Linux",
+      "language": "Shell",
+      "stars_total": 26407,
+      "forks": 2688,
+      "stars_today": 356
+    },
+    {
+      "rank": 8,
+      "repo": "agalwood/Motrix",
+      "url": "https://github.com/agalwood/Motrix",
+      "description": "A full-featured download manager.",
+      "language": "TypeScript",
+      "stars_total": 53647,
+      "forks": 4948,
+      "stars_today": 609
+    },
+    {
+      "rank": 9,
+      "repo": "NawfalMotii79/PLFM_RADAR",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "language": "PLSQL",
+      "stars_total": 24286,
+      "forks": 5585,
+      "stars_today": 192
+    },
+    {
+      "rank": 10,
+      "repo": "jundot/omlx",
+      "url": "https://github.com/jundot/omlx",
+      "description": "LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "stars_total": 19386,
+      "forks": 1669,
+      "stars_today": 370
+    },
+    {
+      "rank": 11,
+      "repo": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "stars_total": 39097,
+      "forks": 4310,
+      "stars_today": 543
+    },
+    {
+      "rank": 12,
+      "repo": "genlayerlabs/genlayer-project-boilerplate",
+      "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+      "description": "This project includes the boilerplate code for a GenLayer use case implementation, specifically a football bets game.\n\nAn example intelligent contract (Football Bets) with web access and LLM integration Direct mode tests — fast, in-memory unit tests with web/LLM mocking (~ms per test) Integration tests — full end-to-end tests against GenLayer Studio Contract linting — static analysis to catch common contract issues before deployment CI pipeline — GitHub Actions workflow for linting and direct tests A production-ready Next.js 15 frontend with TypeScript, TanStack Query, and Radix UI Configuration file template and deployment scripts Requirements Python >= 3.12 GenLayer CLI globally installed: npm install -g genlayer GenLayer Studio (for integration tests and deployment): Install from Docs or use the hosted GenLayer Studio Project Structure contracts/ # Python intelligent contracts tests/ direct/ # Fast in-memory tests (no Studio required) test_create_bet.py # Bet creation logic test_resolve_bet.py # Bet resolution with web/LLM mocks test_views.py # Read-only view methods integration/ # Full tests against GenLayer Studio test_football_bets.py fixtures.py # Expected state fixtures frontend/ # Next.js 15 app (TypeScript, TanStack Query, Radix UI) deploy/ # TypeScript deployment scripts gltest.config.yaml # Test runner network configuration pyproject.toml # Python/pytest configuration .github/workflows/ # CI pipeline Quick Start 1. Set up Python environment python3 -m venv .venv source .venv/bin/activate pip install -r requirements.txt 2. Lint your contracts Run the GenVM linter to catch issues before deployment:",
+      "language": "TypeScript",
+      "stars_total": 15914,
+      "forks": 801,
+      "stars_today": 535
+    },
+    {
+      "rank": 13,
+      "repo": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "language": "TypeScript",
+      "stars_total": 84758,
+      "forks": 8351,
+      "stars_today": 192
+    }
+  ]
+}

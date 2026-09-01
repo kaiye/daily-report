@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-07-23",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "本期热点集中在面向大模型与编码代理的开发工具、工作流和基础模型周边生态。",
+  "items": [
+    {
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "实时全球情报看板，将 AI 驱动的新闻聚合、地缘政治监测和基础设施追踪统一到一个态势感知界面中。",
+      "language": "TypeScript",
+      "stars_today": 4139,
+      "stars_total": 68893
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "一个防止编码代理把答案埋起来的技能，面向 ADHD 友好的输出。",
+      "language": "Python",
+      "stars_today": 1699,
+      "stars_total": 8247
+    },
+    {
+      "repo": "jamiepine/voicebox",
+      "url": "https://github.com/jamiepine/voicebox",
+      "description": "开源 AI 语音工作室，可用于克隆、口述和创作。",
+      "language": "TypeScript",
+      "stars_today": 557,
+      "stars_total": 45738
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "免费 MIT AI 网关：一个端点，268+ 提供方、500+ 模型，支持 Claude Code、Codex、Cursor、OpenCode、Cline 和 Copilot。",
+      "language": "TypeScript",
+      "stars_today": 1651,
+      "stars_total": 25218
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 137,
+      "stars_total": 32588
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "精选的 Claude Skills、资源和工具列表，用于自定义 Claude AI 工作流。",
+      "language": "Python",
+      "stars_today": 163,
+      "stars_total": 68756
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "先学会，再构建，再把它交付给他人。",
+      "language": "Python",
+      "stars_today": 652,
+      "stars_total": 42238
+    },
+    {
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "面向 MCP 和 CLI 的本地优先代码智能图，构建代码库的持久映射，让 AI 编码工具只读取真正重要的内容，并在评审和大仓库工作流中给出经过基准测试的上下文压缩效果。",
+      "language": "Python",
+      "stars_today": 882,
+      "stars_total": 25300
+    },
+    {
+      "repo": "agegr/pi-web",
+      "url": "https://github.com/agegr/pi-web",
+      "description": "pi 编码代理的 Web 界面。",
+      "language": "TypeScript",
+      "stars_today": 314,
+      "stars_total": 2061
+    }
+  ]
+}

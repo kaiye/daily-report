@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-08-30T00:02:46.223Z",
+  "source_raw": "raw.json",
+  "source_count": 19,
+  "item_count": 14,
+  "language_breakdown": {
+    "JavaScript": 3,
+    "Python": 5,
+    "Go": 3,
+    "TypeScript": 2,
+    "C++": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "language": "JavaScript",
+      "stars_today": 3902,
+      "stars_total": 31019,
+      "forks": 1933
+    },
+    {
+      "rank": 2,
+      "repo": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "language": "JavaScript",
+      "stars_today": 1855,
+      "stars_total": 12610,
+      "forks": 2497
+    },
+    {
+      "rank": 3,
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "language": "Python",
+      "stars_today": 1587,
+      "stars_total": 37929,
+      "forks": 3572
+    },
+    {
+      "rank": 4,
+      "repo": "tailscale/tailcat",
+      "url": "https://github.com/tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "language": "Go",
+      "stars_today": 789,
+      "stars_total": 3474,
+      "forks": 103
+    },
+    {
+      "rank": 5,
+      "repo": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "language": "TypeScript",
+      "stars_today": 907,
+      "stars_total": 22205,
+      "forks": 4306
+    },
+    {
+      "rank": 6,
+      "repo": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "language": "Python",
+      "stars_today": 150,
+      "stars_total": 28688,
+      "forks": 3163
+    },
+    {
+      "rank": 8,
+      "repo": "JetBrains/go-modern-guidelines",
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "description": "Help AI coding agents write modern Go",
+      "language": "Go",
+      "stars_today": 303,
+      "stars_total": 2867,
+      "forks": 81
+    },
+    {
+      "rank": 10,
+      "repo": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "stars_today": 806,
+      "stars_total": 54058,
+      "forks": 6714
+    },
+    {
+      "rank": 11,
+      "repo": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "stars_today": 517,
+      "stars_total": 14637,
+      "forks": 1756
+    },
+    {
+      "rank": 13,
+      "repo": "abi/screenshot-to-code",
+      "url": "https://github.com/abi/screenshot-to-code",
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "language": "Python",
+      "stars_today": 550,
+      "stars_total": 76037,
+      "forks": 9261
+    },
+    {
+      "rank": 14,
+      "repo": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "language": "Python",
+      "stars_today": 358,
+      "stars_total": 35398,
+      "forks": 3958
+    },
+    {
+      "rank": 15,
+      "repo": "google/googletest",
+      "url": "https://github.com/google/googletest",
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "language": "C++",
+      "stars_today": 128,
+      "stars_total": 39319,
+      "forks": 10878
+    },
+    {
+      "rank": 18,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars_today": 196,
+      "stars_total": 90709,
+      "forks": 9709
+    },
+    {
+      "rank": 19,
+      "repo": "workweave/router",
+      "url": "https://github.com/workweave/router",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in &lt;50ms. Cut costs 40-70% with just an endpoint change.",
+      "language": "Go",
+      "stars_today": 284,
+      "stars_total": 2709,
+      "forks": 77
+    }
+  ]
+}

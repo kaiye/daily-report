@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-08-03T00:07:07.701Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-08-02",
+  "source_count": 19,
+  "time_filtered_count": 19,
+  "text_filtered_count": 18,
+  "item_count": 18,
+  "items": [
+    {
+      "id": "2083876901676798226",
+      "text": "Me and Claude at 2:45 am 👀 https://t.co/1tfrU71eKt",
+      "createdAt": "Sun Aug 02 11:25:44 +0000 2026",
+      "viewCount": 197807,
+      "likeCount": 3551,
+      "retweetCount": 289,
+      "author": {
+        "userName": "NovaXCode",
+        "name": "Nova",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/NovaXCode/status/2083876901676798226",
+      "is_official": false
+    },
+    {
+      "id": "2083996864186318999",
+      "text": "DeepSeek Flash did 8T tokens on August 1st\n\n5T of free usage + 3T on OpenCode Go",
+      "createdAt": "Sun Aug 02 19:22:25 +0000 2026",
+      "viewCount": 268842,
+      "likeCount": 2823,
+      "retweetCount": 104,
+      "author": {
+        "userName": "opencode",
+        "name": "OpenCode",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/opencode/status/2083996864186318999",
+      "is_official": true
+    },
+    {
+      "id": "2083872062071095566",
+      "text": "this is f**king insane\n\nI cancelled my $200/mo Claude for this\n\ngpt 5.6-luna is basically free and someone figured out how to never hit usage limits on codex\n\n[it takes 3 mins to set up here is how]\n\n1. install this repo called 'sol-advisor'\n2. copy the 'savings-prompt'\n3. voila, your done\n\nsave this and give it to your agent now.",
+      "createdAt": "Sun Aug 02 11:06:30 +0000 2026",
+      "viewCount": 195854,
+      "likeCount": 1104,
+      "retweetCount": 105,
+      "author": {
+        "userName": "Av1dlive",
+        "name": "Avid",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Av1dlive/status/2083872062071095566",
+      "is_official": false
+    },
+    {
+      "id": "2083866573899792523",
+      "text": "ChatGPT has quietly built a file on you. You've never seen most of what's in it.\n\nEvery message you send feeds it. It studies your patterns to map your personality and habits, things you never actually told it.\n\nHere are 15 prompts to pull up everything it has on you, and wipe what you never agreed to:",
+      "createdAt": "Sun Aug 02 10:44:42 +0000 2026",
+      "viewCount": 1616560,
+      "likeCount": 5998,
+      "retweetCount": 983,
+      "author": {
+        "userName": "TechByArti",
+        "name": "Arti Shah",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/TechByArti/status/2083866573899792523",
+      "is_official": false
+    },
+    {
+      "id": "2083725857215132139",
+      "text": "claude code has been a bit quiet i wonder if they're rewriting",
+      "createdAt": "Sun Aug 02 01:25:32 +0000 2026",
+      "viewCount": 247744,
+      "likeCount": 2425,
+      "retweetCount": 11,
+      "author": {
+        "userName": "thdxr",
+        "name": "dax",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thdxr/status/2083725857215132139",
+      "is_official": false
+    },
+    {
+      "id": "2083934330146197989",
+      "text": "chatgpt for building interactive educational tools",
+      "createdAt": "Sun Aug 02 15:13:56 +0000 2026",
+      "viewCount": 387856,
+      "likeCount": 3484,
+      "retweetCount": 195,
+      "author": {
+        "userName": "gdb",
+        "name": "Greg Brockman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/gdb/status/2083934330146197989",
+      "is_official": false
+    },
+    {
+      "id": "2083953441571742191",
+      "text": "DeepSeek V4 Flash 0731 is now 90% off on Nous Portal for the next 7 days, in partnership with @novita_labs.\n\nAt this discounted price, it is over 1000x cheaper than Fable 5 on comparable tasks while still beating it on Terminal-Bench 2.1.\n\nTry it today at https://t.co/4KFwhsReyA https://t.co/gggqrUSRyP",
+      "createdAt": "Sun Aug 02 16:29:53 +0000 2026",
+      "viewCount": 365684,
+      "likeCount": 2128,
+      "retweetCount": 144,
+      "author": {
+        "userName": "NousResearch",
+        "name": "Nous Research",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/NousResearch/status/2083953441571742191",
+      "is_official": true
+    },
+    {
+      "id": "2083884856531177942",
+      "text": "Only if education could be this interactive ❤️‍🔥\n\nI've had a looong wish to build something genuinely useful through vibe coding, and I finally did it. \n\nA 3D human anatomy application built with @threejs using GPT 5.6 Sol. \n\nIt all started with a single design image that I created using GPT Image 2.0. I then used it to generate every 3D organ image, one by one.\n\nNext, I converted each of those images into 3D models using @tripoai (and no, they didn't sponsor this 😄).\n\nAfter that, I opened Codex, wrote a master prompt based on the design, and gave it the prompt, the design image, and all the 3D models.\n\nCodex built the first version beautifully, but there was one big problem. \n\nEvery single 3D model was nearly 120-150 MB. That obviously wasn't practical for the web and was giving a performance of 16fps.\n\nAfter a few iterations, Codex optimized each model down to roughly 2–5.5 MB while preserving the visual quality, reducing the total asset size from ~900 MB to just 28.6 MB. And each model loads on demand. \n\nAlong the way, Codex also generated those anatomical illustrations showing where each organ sits in the human body, and even created the interactive hotspot markers that explain different parts of every organ. It handled all of that.\n\nThe process wasn't exactly one shot, but it also wasn't difficult. You just have to do it step by step. \n\nIt genuinely felt like building something that could make learning anatomy much more engaging.\n\nThe inspiration came from @DilumSanjaya's 3D animal plant cell project. I remember seeing it and thinking, \"I want to build something like this one day.\" \n\nAnd I did it :D\n\nLive: https://t.co/gIFgkj8UVB\nCode: https://t.co/nijvyWcyxO",
+      "createdAt": "Sun Aug 02 11:57:21 +0000 2026",
+      "viewCount": 716079,
+      "likeCount": 5338,
+      "retweetCount": 662,
+      "author": {
+        "userName": "thebuggeddev",
+        "name": "The Bugged Dev",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thebuggeddev/status/2083884856531177942",
+      "is_official": false
+    },
+    {
+      "id": "2083768595826553235",
+      "text": "imagine reviewing the code claude writes 🫵🏻🤣\n\nyou think you're better than claude 😭",
+      "createdAt": "Sun Aug 02 04:15:22 +0000 2026",
+      "viewCount": 66318,
+      "likeCount": 1034,
+      "retweetCount": 60,
+      "author": {
+        "userName": "atulit_gaur",
+        "name": "atulit",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/atulit_gaur/status/2083768595826553235",
+      "is_official": false
+    },
+    {
+      "id": "2083749667410727319",
+      "text": "We're starting to leave the territory where you'd test an LLM by e.g. \"create an svg of pelican on a bicycle\". As one idea to generalize it, I was interested what Opus 5 would do if I gave it the first paragraph of the Lord of the Rings, a 1M token budget (~$10) and asked for three js render of it. Opus went off for ~2 hours and wrote 5500 lines of code that (procedurally) rendered the story. It's kind of janky but fun. But it's a bit mindboggling that the LLM has to place and orchestrate various polygon assets in (x,y,z) coordinates and write code that animates it all, and that it even does anything at all.\n\nI also like this kind of examples because no one in their right mind would ever spend the time to write something this custom but LLMs have all the stamina and patience in the world, so it's an example where we go from \"no one would ever do this\" to \"sure, why not, it's ~free\". There might be a lot more. But I'm excited about creating hyper custom worlds that you can imagine dropping players into, e.g. here to participate in the LoTR story as a spectator NPC, or one of the characters, or etc. Something like an ephemeral GTA of X on demand.\n\nLast thought is that the domain of worlds/games exposes a weakness in LLMs: they can't easily audit their work because they aren't able to efficiently and natively perceive videos or play games within them. Here, Opus 5 had to very slowly and painstakingly take screenshots at different points, and it messed up a few times and created a bunch of jank. An example of raw capability (multimodal, gameplay) that I think is still quite lacking.",
+      "createdAt": "Sun Aug 02 03:00:09 +0000 2026",
+      "viewCount": 2785861,
+      "likeCount": 23157,
+      "retweetCount": 1743,
+      "author": {
+        "userName": "karpathy",
+        "name": "Andrej Karpathy",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/karpathy/status/2083749667410727319",
+      "is_official": false
+    },
+    {
+      "id": "2083851157324046649",
+      "text": "🚨 DeepSeek Code Is Coming\n\n> DeepSeek is building a dedicated AI coding agent powered by its new Harness framework\n> The project is designed for autonomous software engineering, including planning, tool use, and code execution\n> Harness will provide long-running agent workflows with memory and repository awareness\n\n> Recent V4-Flash benchmarks were already evaluated using DeepSeek Harness, signaling it’s a core part of DeepSeek’s roadmap\n\n> The company is positioning it as a direct competitor to Claude Code and OpenAI Codex\n\n> Closed beta testing is expected to begin soon \n\nCan DeepSeek Code become the biggest open-source coding agent? 👀",
+      "createdAt": "Sun Aug 02 09:43:26 +0000 2026",
+      "viewCount": 86537,
+      "likeCount": 2367,
+      "retweetCount": 169,
+      "author": {
+        "userName": "Priyannkaaaa",
+        "name": "Priya",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Priyannkaaaa/status/2083851157324046649",
+      "is_official": false
+    },
+    {
+      "id": "2083854696045764977",
+      "text": "Pov: when Claude added himself as contributor in github repo https://t.co/NJ0cSBzvfS",
+      "createdAt": "Sun Aug 02 09:57:30 +0000 2026",
+      "viewCount": 77293,
+      "likeCount": 1466,
+      "retweetCount": 88,
+      "author": {
+        "userName": "Pallavi_345",
+        "name": "Pallavi",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Pallavi_345/status/2083854696045764977",
+      "is_official": false
+    },
+    {
+      "id": "2083929305630089297",
+      "text": "I was asking ChatGPT a question about programming languages and it started talking about me. But when I tried fishing for a compliment I got  what I deserved. https://t.co/18oxWXkRNs",
+      "createdAt": "Sun Aug 02 14:53:58 +0000 2026",
+      "viewCount": 133701,
+      "likeCount": 2036,
+      "retweetCount": 24,
+      "author": {
+        "userName": "paulg",
+        "name": "Paul Graham",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/paulg/status/2083929305630089297",
+      "is_official": false
+    },
+    {
+      "id": "2083715120602189844",
+      "text": "I don’t think being critical of the amazing work AI is doing in pure math is fair to @OpenAI until I can start to say why I feel it’s not yet at the level of our top humans. It’s like AI has a style that is weirdly being taken to be universal (which it isnt). Hence the claim that Mathematians and Physicists are nearly obsolete. \n\nAhem: there is no *public* indication that this is REMOTELY true. Yet.  \n\nI would like to pose a collection of math physics benchmarks that are not about searching large spaces for counter examples and the like. These are 10 problems and issues that humans haven’t solved but which we likely will solve. Each feels to me like a deeply human math/physics problem. \n\nThis isn’t an unfriendly challenge to @sama and team. It’s just pointing out that AI has yet to deeply touch any of the kind of things that many of us care MOST about in Mathematics and Physics.\n\nI’m just not a puzzle solver or a discrete conjecture guy. I’m into theory building and even the mathematical version of mysticism. \n\nHere goes an attempt:\n\n————-\n\nA) What new Extraordinary Cohomology Theories/Co-cycles can AI find that we need, but do not know/understand?\n\nB) What areas of pure mathematics and theoretical physics are most polluted by human blind spots? Where is the training corpus most wrong? Show us you can go well beyond us by contradicting your training.\n\nC) What discarded ideas were discarded improperly and prematurely?\n\nD) What is a natural version of Grand Unification that doesn’t contradict experiment? \n\nE) Find a natural version of Super-Symmetry that doesn’t predict Superpartners and that predicts unification scale different from the Minimally SuperSymmetric Extension or the Standard Model. \n\nF) Pose a new, deep and surprising conjecture relating 3 or more of the following: representation theory, number theory, arithmetic/algebraic geometry, and analysis on manifolds, homotopy theory and Pseudo-Riemannian Spin Geometry. \n\nG) Integrate the Octonions, Magic Square and the 4 large exceptional lie groups, tightly into the mainstream of mathematics once and for all.\n\nH) Settle the issue of the 6 sphere and complex structures in Math or the Koide fine tuning mystery in particle theory. \n\nI) Explain the reason for there being 3 families of observed Fermions.\n\nJ) Give a deep, natural and as yet unknown reason for the remarkable Fermi-Bose correspondence (e.g. Metaplectic vs Spin reps, Honest vs Berezin Integrals, etc.). Why should we have expected this correspondence to be this weird and this tight? \n\n———\n\nI don’t think humans are going to be ahead forever. AI will blow past us. \n\nSo while I am not all that impressed yet at the math or physics,  any non-tricky solutions to one of the above (with the possible exception of some answers to H) would feel different to me than the feeling I get from AI finding yet another funky counter examples to some Erdos problem, discrete puzzle or Combinatorial issue in Graph theory.\n\nWe have always been humbled by Gauss, Galois, Dirac and Newton. That’s nothing new. If this is going to put us out of work soon, LFG.\n\nMay the best mathematicians and physicists, carbon or silicon, win.",
+      "createdAt": "Sun Aug 02 00:42:52 +0000 2026",
+      "viewCount": 157180,
+      "likeCount": 1113,
+      "retweetCount": 118,
+      "author": {
+        "userName": "ericweinstein",
+        "name": "Eric Weinstein",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ericweinstein/status/2083715120602189844",
+      "is_official": false
+    },
+    {
+      "id": "2083757933129539859",
+      "text": "JUST IN: Claude Opus 5 generates a playable 3D Pokémon overworld from a single prompt.",
+      "createdAt": "Sun Aug 02 03:33:00 +0000 2026",
+      "viewCount": 286634,
+      "likeCount": 2482,
+      "retweetCount": 83,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Polymarket/status/2083757933129539859",
+      "is_official": true
+    },
+    {
+      "id": "2083834143083745584",
+      "text": "the LLM used a calculator, burn the impure bastard. https://t.co/MV1GfcIglR",
+      "createdAt": "Sun Aug 02 08:35:50 +0000 2026",
+      "viewCount": 62007,
+      "likeCount": 2572,
+      "retweetCount": 82,
+      "author": {
+        "userName": "Hesamation",
+        "name": "ℏεsam",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Hesamation/status/2083834143083745584",
+      "is_official": false
+    },
+    {
+      "id": "2083708146959192162",
+      "text": "JUST IN: Amazon has officially completed its $50 billion investment in OpenAI",
+      "createdAt": "Sun Aug 02 00:15:10 +0000 2026",
+      "viewCount": 266632,
+      "likeCount": 2935,
+      "retweetCount": 193,
+      "author": {
+        "userName": "Kalshi",
+        "name": "Kalshi",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Kalshi/status/2083708146959192162",
+      "is_official": true
+    },
+    {
+      "id": "2083755599037440190",
+      "text": "karpathy used to post amazing things now it’s just another anthropic ad 😔",
+      "createdAt": "Sun Aug 02 03:23:43 +0000 2026",
+      "viewCount": 70054,
+      "likeCount": 1152,
+      "retweetCount": 18,
+      "author": {
+        "userName": "tekbog",
+        "name": "terminally onλine εngineer",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/tekbog/status/2083755599037440190",
+      "is_official": false
+    }
+  ]
+}

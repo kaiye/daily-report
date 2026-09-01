@@ -1,0 +1,129 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-08-10T00:03:40.308Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 12,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "stars_total": 11002,
+      "forks": 1147,
+      "stars_today": 2356
+    },
+    {
+      "rank": 2,
+      "repo": "vitali87/code-graph-rag",
+      "url": "https://github.com/vitali87/code-graph-rag",
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "language": "Python",
+      "stars_total": 2971,
+      "forks": 519,
+      "stars_today": 96
+    },
+    {
+      "rank": 3,
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "stars_total": 140637,
+      "forks": 22976,
+      "stars_today": 858
+    },
+    {
+      "rank": 4,
+      "repo": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "language": "Go",
+      "stars_total": 20626,
+      "forks": 726,
+      "stars_today": 210
+    },
+    {
+      "rank": 5,
+      "repo": "google-deepmind/weathernext",
+      "url": "https://github.com/google-deepmind/weathernext",
+      "description": "WeatherNext 2 This repo contains the code for WeatherNext 2 (WN2), the global, medium-range atmospheric and cyclone forecasting model developed by Google DeepMind and Google Research.\n\nIt also contains code for prior generation models GraphCast and GenCast .",
+      "language": "Python",
+      "stars_total": 7070,
+      "forks": 936,
+      "stars_today": 86
+    },
+    {
+      "rank": 6,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars_total": 85116,
+      "forks": 9159,
+      "stars_today": 680
+    },
+    {
+      "rank": 7,
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "language": "Python",
+      "stars_total": 61168,
+      "forks": 51991,
+      "stars_today": 306
+    },
+    {
+      "rank": 8,
+      "repo": "goauthentik/authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "stars_total": 24263,
+      "forks": 1858,
+      "stars_today": 310
+    },
+    {
+      "rank": 9,
+      "repo": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars_total": 17208,
+      "forks": 1390,
+      "stars_today": 528
+    },
+    {
+      "rank": 10,
+      "repo": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "language": "Python",
+      "stars_total": 125481,
+      "forks": 14839,
+      "stars_today": 365
+    },
+    {
+      "rank": 11,
+      "repo": "harveyai/harvey-labs",
+      "url": "https://github.com/harveyai/harvey-labs",
+      "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
+      "language": "Python",
+      "stars_total": 817,
+      "forks": 176,
+      "stars_today": 47
+    },
+    {
+      "rank": 12,
+      "repo": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app ( iOS , Android ), web app and Electron-based desktop app .\n\nWorks with your subscriptions on Claude Code, Codex, Cursor, Grok Build, and OpenCode. If they're set up on your computer, T3 Code can control them.",
+      "language": "TypeScript",
+      "stars_total": 17645,
+      "forks": 4009,
+      "stars_today": 163
+    }
+  ]
+}

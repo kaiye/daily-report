@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-07-27",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜的 AI 相关项目最集中的方向是围绕大模型代理的开发接口、代码协作、自动化执行与专业场景落地工具链。",
+  "items": [
+    {
+      "repo": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "面向 AI 代理运行网页自动化的最快浏览器，支持把你已登录的浏览器状态共享给像 Codex 或 Claude Code 这样的 AI 代理而不打扰你，零成本、零配置。",
+      "language": "JavaScript",
+      "stars_today": 900,
+      "stars_total": 4469
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "T3 Code 是一个面向编程代理的极简 Web GUI，目前支持 Codex、Claude、Cursor 和 OpenCode。",
+      "language": "TypeScript",
+      "stars_today": 149,
+      "stars_total": 15037
+    },
+    {
+      "repo": "CoreBunch/Instatic",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "description": "Webflow、Framer 和 WordPress 的开源替代方案，具备代理式自托管可视化 CMS，输出干净的静态页面。",
+      "language": "TypeScript",
+      "stars_today": 888,
+      "stars_total": 5648
+    },
+    {
+      "repo": "OtterMind/Chat2DB",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "description": "AI 驱动的数据库工具和 SQL 客户端，支持 MySQL、Oracle、PostgreSQL、DB2、SQL Server、SQLite、H2、ClickHouse 等多种数据库。",
+      "language": "Java",
+      "stars_today": 398,
+      "stars_total": 27092
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "让你的 AI harness 更擅长设计的设计语言。",
+      "language": "JavaScript",
+      "stars_today": 413,
+      "stars_total": 50638
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：面向金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 321,
+      "stars_total": 34160
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "开源且免费、经阿里巴巴规模验证的混合架构代码评审工具，结合确定性流水线与 LLM Agent，提供精确到行级的评论与内置微调规则集。",
+      "language": "Go",
+      "stars_today": 832,
+      "stars_total": 13774
+    },
+    {
+      "repo": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "description": "面向多个生成式 AI 提供商的简单统一接口。",
+      "language": "Python",
+      "stars_today": 187,
+      "stars_total": 15393
+    },
+    {
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "一组笔记本与实践配方，展示一些有趣且高效的 Claude 使用方式。",
+      "language": "Jupyter Notebook",
+      "stars_today": 379,
+      "stars_total": 50218
+    }
+  ]
+}

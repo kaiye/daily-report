@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-08-16T00:08:47.596Z",
+  "source_raw": "raw.json",
+  "source_count": 13,
+  "item_count": 13,
+  "language_breakdown": {
+    "TypeScript": 2,
+    "HTML": 1,
+    "Python": 7,
+    "Swift": 1,
+    "JavaScript": 2
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "language": "TypeScript",
+      "stars_today": 599,
+      "stars_total": 4057,
+      "forks": 198
+    },
+    {
+      "rank": 2,
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "language": "HTML",
+      "stars_today": 1607,
+      "stars_total": 18587,
+      "forks": 1119
+    },
+    {
+      "rank": 3,
+      "repo": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "stars_today": 149,
+      "stars_total": 2950,
+      "forks": 233
+    },
+    {
+      "rank": 4,
+      "repo": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "stars_today": 547,
+      "stars_total": 6060,
+      "forks": 402
+    },
+    {
+      "rank": 5,
+      "repo": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "language": "Python",
+      "stars_today": 434,
+      "stars_total": 72039,
+      "forks": 6492
+    },
+    {
+      "rank": 6,
+      "repo": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "language": "Python",
+      "stars_today": 2260,
+      "stars_total": 460158,
+      "forks": 50852
+    },
+    {
+      "rank": 7,
+      "repo": "MakazhanAlpamys/Soup",
+      "url": "https://github.com/MakazhanAlpamys/Soup",
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "language": "Python",
+      "stars_today": 297,
+      "stars_total": 1648,
+      "forks": 262
+    },
+    {
+      "rank": 8,
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "language": "Python",
+      "stars_today": 892,
+      "stars_total": 129184,
+      "forks": 11548
+    },
+    {
+      "rank": 9,
+      "repo": "megadose/holehe",
+      "url": "https://github.com/megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "language": "Python",
+      "stars_today": 382,
+      "stars_total": 13112,
+      "forks": 1742
+    },
+    {
+      "rank": 10,
+      "repo": "altic-dev/FluidVoice",
+      "url": "https://github.com/altic-dev/FluidVoice",
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp",
+      "language": "Swift",
+      "stars_today": 104,
+      "stars_total": 10316,
+      "forks": 699
+    },
+    {
+      "rank": 11,
+      "repo": "ToolJet/ToolJet",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "language": "JavaScript",
+      "stars_today": 544,
+      "stars_total": 39532,
+      "forks": 5294
+    },
+    {
+      "rank": 12,
+      "repo": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "stars_today": 118,
+      "stars_total": 47344,
+      "forks": 4393
+    },
+    {
+      "rank": 13,
+      "repo": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "language": "JavaScript",
+      "stars_today": 545,
+      "stars_total": 10954,
+      "forks": 557
+    }
+  ]
+}

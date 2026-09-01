@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">AUG 09, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">LLM 网关当前返回 packyapi EOF，本报告由已清洗数据按原始排序降级生成。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@gdb</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Greg Brockman</span>：luna is such a special model, incredible price performance。
+          </p>
+          <p class="item-metric">👁 153.1K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/gdb/status/2085927739559911627">https://twitter.com/gdb/status/2085927739559911627</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@shawn_pana</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">shawn</span>：Claude Code can use your iPhone!
+          </p>
+          <p class="item-metric">👁 246.6K · ❤️ 2.0K</p>
+          <a class="item-link" href="https://twitter.com/shawn_pana/status/2085953331751776745">https://twitter.com/shawn_pana/status/2085953331751776745</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@Krishnasagrawal</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Krishna Agrawal</span>：INSTEAD OF WATCHING NETFLIX TONIGHT.
+          </p>
+          <p class="item-metric">👁 362.4K · ❤️ 3.3K</p>
+          <a class="item-link" href="https://twitter.com/Krishnasagrawal/status/2085891471165808809">https://twitter.com/Krishnasagrawal/status/2085891471165808809</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@ravikiran_dev7</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ray🫧</span>：How me and claude work together : https://t.
+          </p>
+          <p class="item-metric">👁 163.4K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/ravikiran_dev7/status/2086010482788618737">https://twitter.com/ravikiran_dev7/status/2086010482788618737</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@opencode</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">OpenCode</span>：9T tokens on a Friday https://t.
+          </p>
+          <p class="item-metric">👁 100.0K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/opencode/status/2086063078613889447">https://twitter.com/opencode/status/2086063078613889447</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@gdb</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Greg Brockman</span>：ChatGPT team is shipping:。
+          </p>
+          <p class="item-metric">👁 209.6K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/gdb/status/2085901941838844369">https://twitter.com/gdb/status/2085901941838844369</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@jahirsheikh8</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Jahir Sheikh</span>：When I have to kill the long-running session with all the good context because Claude starts getting context window dementia https://t.
+          </p>
+          <p class="item-metric">👁 48.4K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/jahirsheikh8/status/2086070646141014201">https://twitter.com/jahirsheikh8/status/2086070646141014201</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@thsottiaux</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Tibo</span>：That&#39;s right, GPT-5.
+          </p>
+          <p class="item-metric">👁 1.1M · ❤️ 9.6K</p>
+          <a class="item-link" href="https://twitter.com/thsottiaux/status/2086188036493344823">https://twitter.com/thsottiaux/status/2086188036493344823</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@neerajjj6785</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Neeraj</span>：Me and Claude working together 😂 https://t.
+          </p>
+          <p class="item-metric">👁 123.4K · ❤️ 1.9K</p>
+          <a class="item-link" href="https://twitter.com/neerajjj6785/status/2085931405494919234">https://twitter.com/neerajjj6785/status/2085931405494919234</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@ollama</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ollama</span>：Currently serving 200 tps+ output speed for DeepSeek-V4-Flash on Ollama&#39;s cloud with zero data retention (ZDR).
+          </p>
+          <p class="item-metric">👁 116.6K · ❤️ 1.5K</p>
+          <a class="item-link" href="https://twitter.com/ollama/status/2085975426321858799">https://twitter.com/ollama/status/2085975426321858799</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,270 @@
+{
+  "generated_at": "2026-08-11T00:03:56.850Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 22,
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "As AI-led attacks multiply, OpenAI launches a new cyber model",
+      "url": "https://techcrunch.com/2026/08/10/as-ai-led-attacks-multiply-openai-launches-a-new-cyber-model/",
+      "published_at": "2026-08-10T23:56:15.000Z",
+      "summary": "OpenAI is expanding its AI cybersecurity defense program Daybreak, and rolling out a new cyber-trained AI model with it.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Tech industry is buzzing after a Claude agent hacked into a gym",
+      "url": "https://techcrunch.com/2026/08/10/tech-industry-is-buzzing-after-a-claude-agent-hacked-into-a-gym/",
+      "published_at": "2026-08-10T20:04:24.000Z",
+      "summary": "An OpenClaw agent hacked into a gym's reservation system to bump its human boss higher on a class' waitlist. And the tech industry took notice.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: AI agents for science, and the “censorship-industrial complex”",
+      "url": "https://www.technologyreview.com/2026/08/10/1141526/the-download-ai-agents-science-censorship-industrial-complex/",
+      "published_at": "2026-08-10T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### AI for science needs re",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI reportedly completed a $7 billion employee tender offer",
+      "url": "https://techcrunch.com/2026/08/10/openai-reportedly-completed-a-7-billion-employee-tender-offer/",
+      "published_at": "2026-08-11T00:03:18.000Z",
+      "summary": "San Francisco's housing market is in trouble again.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "These startups are chasing the next big thing in LLMs",
+      "url": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
+      "published_at": "2026-08-10T09:00:00.000Z",
+      "summary": "MIT Technology Review*’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them * [here](https://www.technologyreview.com/tag/whats-next-in-tech/?) *.*\n\nWay back in the summer of 2017, AI researchers at Google put ou",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "对话影溯章国锋：互联网数据才是空间智能最需要的「太阳能」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111787&idx=1&sn=098fcd191e0f13de2671f2c866d0385c",
+      "published_at": "2026-08-10T11:00:00.000Z",
+      "summary": "原创张鹏 2026-08-10 19:00 湖北\n\n从 SLAM 的空间计算到世界模型的空间智能，数据上的根本性突破，到底从何而来。\n\n**作者｜张鹏** **整理｜ **徐珊****\n\n世界模型的牌桌上，坐着的已经全是重量级玩家。Yann LeCun 离开 Meta 亲自下场，李飞飞的 World Labs 发布 Marble，NVIDIA 用 Cosmos 拉起联盟，国内的大厂与创业公司也在密集进场。让 AI 理解物理世界，已经是今年的主流方向。\n\n但模型智能的上限，最终取决于喂给它的数据。 语言模型和视频模型的成长，都建立在互联网三十年的积累上；而这一次，世界模型的牌桌上，没有任何一家的",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "火山引擎 SenseFlow 重磅发布：突破存储边界，洞见数据价值",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521212&idx=1&sn=819993bfc75955779785e4aaad7dcd89",
+      "published_at": "2026-08-10T10:30:00.000Z",
+      "summary": "火山引擎存储 2026-08-10 18:30 北京\n\n**能力速览：** 火山引擎对象存储 TOS 推出 SenseFlow（内容感知与处理），作为内建于 TOS 中的多模态智能处理工作台，仅配置一条规则即可启用。以往，多模态大模型、向量检索、媒体处理能力均需独立搭建，如今这些能力统一集成至存储侧。桶内图片、视频、音频无需导出，即可就地完成理解、检索与加工。\n\n对象存储是 AI 时代的数据底座。近年来 Data+AI、多模态 AIGC 与 Agent 应用集中爆发，客户存入 TOS 的图片、视频、音频数量快速增长，新的业务难题也随之而来：数据虽然已经存下，却看不懂、找不到，更难以直接使用。例",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Discovered Materials is playing AI whack-a-mole to hunt cooler chips",
+      "url": "https://techcrunch.com/2026/08/10/discovered-materials-is-playing-ai-whack-a-mole-to-hunt-cooler-chips/",
+      "published_at": "2026-08-10T12:00:00.000Z",
+      "summary": "Discovered Materials raised $9 million to fund the hunt for more novel materials to build more efficient chips.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "10万+Skill 背后：腾讯SkillHub如何帮用户找到真正好用的那20%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803078&idx=1&sn=13cad02f15d9addef06e2a31fb3a3f93",
+      "published_at": "2026-08-10T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-08-10 17:36 广东\n\nAI 时代下，如何做社区内容治理与分发\n\n作者：赵秀雯\n\n导语：AI 时代下，平台如何做内容治理与分发？SkillHub 作为国内最大的 Skill 社区之一，与小红书、知乎、App Store 这些传统内容社区做推广搜有什么不同？SkillHub 是如何帮助用户快速找到那 20% 值得被看见的 Skill 的？本文将通过深度解读 SkillHub 针对这些命题的思考与实践，来逐一为大家解答。\n\n**SkillHub 是专为中国用户优化的 AI Skills 社区，自今年 3 月上线以来，跟随 OpenClaw 生态的快速发展获得了广泛",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "Seedance 2.5 上线后，LibTV 先帮创作者「学会」了新模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111786&idx=1&sn=caa1627311bd02df582cc15c662d807a",
+      "published_at": "2026-08-10T09:23:00.000Z",
+      "summary": "原创甘德 2026-08-10 17:23 北京\n\n模型能力决定视频的上限，但工作流决定创意兑现的效率、确定性和成本。\n\n**作者｜甘德** **编辑｜ **郑玄****\n\nSeedance 2.5 发布的时候，身边几乎所有 AI 视频或者 AI 影视相关的朋友都很兴奋。\n\n「模型能力已经溢出了」。\n\n一位在做 AI 短剧导演的朋友这样评价。他的体验是，现在有一个好故事，有专业的电影制作经验，或者一支足够专业的抽卡师团队，以及比较充足的资金，Seedance 2.5 已经能够稳定制作出业界工业水准之上的视频内容了。\n\n但这样专业而无后顾之忧的创作者仍然是少数。\n\n过去一年，视频模型的生成能力大",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "宇树科技今日申购，中一签或赚 20 万元；钟睒睒：电商平台把零售商杀光了；原字节跳动机器人一号位加入小米｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111760&idx=1&sn=0a8d52d576a81d8725621ba6b35c5e34",
+      "published_at": "2026-08-10T02:15:00.000Z",
+      "summary": "Moonshot 2026-08-10 10:15 重庆\n\n苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知；\n\n消息称 WorkBuddy 已成腾讯 AI 应用战略优先级最高产品之一；\n\n微软 Google 亚马逊 Meta 甲骨文 2027 年负现金流将达到 1250 亿美元\n\n## 宇树科技今日申购，中一签或赚 20 万元\n\n8 月 10 日，A 股「人形机器人第一股」宇树科技将在科创板正式开启申购。考虑到宇树科技本次发行流通盘规模较小，又叠加「第一股」的题材光环，多家券商综合测算显示，其预计中签率在万分之二至万分之三之间，远低于长鑫科技 0.47% 的中签率水平。\n\n数据显示",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "AI professors are negotiating the new realities of academic research",
+      "url": "https://www.technologyreview.com/2026/08/10/1141597/ai-professors-are-negotiating-the-new-realities-of-academic-research/",
+      "published_at": "2026-08-10T20:00:00.000Z",
+      "summary": "*This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,[sign up here](https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/).*\n\nLast week, I headed 30 miles south of San Francisco to a hotel in Mountain View,",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "published_at": "2026-08-10T16:25:36.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta’s new Glimmer AI model offers a hint at Zuckerberg’s personal intelligence vision",
+      "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
+      "published_at": "2026-08-10T16:20:13.000Z",
+      "summary": "Meta’s new open-weight Muse Glimmer model offers a glimpse of Mark Zuckerberg’s personal superintelligence vision, as well as  the emerging divide between AI users can own and access.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Evolve your marketing with new AI tools",
+      "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "published_at": "2026-08-10T14:30:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp\">Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Mark Zuckerberg doesn’t understand how to live",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision",
+      "published_at": "2026-08-10T22:00:00.000Z",
+      "summary": "Recently, a man I was rock climbing with told me about how he'd used AI to make a motivational poster for himself, which he'd hung on his bedroom wall: a bear, walking a slackline over a canyon, holding a sign that said, \"Do cool shit.\" I made what I hoped was a polite noise. What reaction was this ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Mark Zuckerberg’s AI manifesto is exactly why people don’t like AI",
+      "url": "https://techcrunch.com/2026/08/10/mark-zuckerbergs-ai-manifesto-is-exactly-why-people-dont-like-ai/",
+      "published_at": "2026-08-10T20:53:02.000Z",
+      "summary": "On Monday, Mark Zuckerberg published a 6,500-word manifesto about personal AI, largely about the possibilities for the \"personal superintelligence\" systems Meta AI is building.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Four takeaways from Mark Zuckerbergs massive AI manifesto",
+      "url": "https://www.theverge.com/tech/977395/meta-mark-zuckerberg-superintelligent-ai-ramble",
+      "published_at": "2026-08-10T15:19:05.000Z",
+      "summary": "Meta CEO Mark Zuckerberg has a lot to say about the idealized future he now envisions for humanity co-existing with artificial intelligence - his latest essay spans more than 6,500 words on the matter. The lengthy[manifesto Zuckerberg published](https://about.fb.com/news/2026/08/the-future-is-for-ev",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "What happens to Bose when headphones become AI?",
+      "url": "https://www.theverge.com/podcast/975732/bose-ceo-lila-snyder-ai-wearables-licensing-headphones-audio",
+      "published_at": "2026-08-10T14:00:00.000Z",
+      "summary": "Today, I’m talking with Lila Snyder, who is the CEO of Bose.\n\nYou certainly know Bose — it’s one of the most famous brands in all of consumer tech. The company started 60 years ago selling speakers to consumers, and its focus on research and development has led it to be a leader in both car audio an",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Ford’s new AI assistant can check your fuel levels and tire pressure",
+      "url": "https://www.theverge.com/transportation/976748/ford-ai-assistant-mobile-app",
+      "published_at": "2026-08-10T11:00:00.000Z",
+      "summary": "Ford is rolling out a new AI-powered assistant that can answer questions about your Ford or Lincoln vehicle, such as how much fuel you'll need for your next road trip or whether your truck can tow that new motor boat.\n\nThe app is rolling out first to the Ford and Lincoln mobile apps, where it will w",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "published_at": "2026-08-10T10:05:36.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "AI for science needs reasoning, not just data",
+      "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+      "published_at": "2026-08-10T09:00:00.000Z",
+      "summary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson[wrote](https://archive.org/details/lightwavestheiru00michrich/page/22/mode/2up)that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking[predicted",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

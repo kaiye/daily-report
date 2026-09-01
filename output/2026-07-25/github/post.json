@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-07-25T00:02:35.371Z",
+  "source_raw": "raw.json",
+  "source_count": 16,
+  "item_count": 15,
+  "language_breakdown": {
+    "Rust": 4,
+    "TypeScript": 4,
+    "Python": 2,
+    "JavaScript": 1,
+    "Go": 1,
+    "Assembly": 1,
+    "Shell": 1,
+    "Jupyter Notebook": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "language": "Rust",
+      "stars_today": 3270,
+      "stars_total": 9909,
+      "forks": 770
+    },
+    {
+      "rank": 2,
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars_today": 2184,
+      "stars_total": 73245,
+      "forks": 10983
+    },
+    {
+      "rank": 3,
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "language": "Python",
+      "stars_today": 663,
+      "stars_total": 70037,
+      "forks": 7900
+    },
+    {
+      "rank": 4,
+      "repo": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "language": "Rust",
+      "stars_today": 473,
+      "stars_total": 9328,
+      "forks": 633
+    },
+    {
+      "rank": 5,
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars_today": 499,
+      "stars_total": 33479,
+      "forks": 5678
+    },
+    {
+      "rank": 6,
+      "repo": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "language": "Rust",
+      "stars_today": 876,
+      "stars_total": 13029,
+      "forks": 481
+    },
+    {
+      "rank": 7,
+      "repo": "likec4/likec4",
+      "url": "https://github.com/likec4/likec4",
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "language": "TypeScript",
+      "stars_today": 337,
+      "stars_total": 5013,
+      "forks": 334
+    },
+    {
+      "rank": 8,
+      "repo": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "language": "JavaScript",
+      "stars_today": 880,
+      "stars_total": 2544,
+      "forks": 121
+    },
+    {
+      "rank": 9,
+      "repo": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars_today": 338,
+      "stars_total": 19560,
+      "forks": 596
+    },
+    {
+      "rank": 10,
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars_today": 1022,
+      "stars_total": 85917,
+      "forks": 11447
+    },
+    {
+      "rank": 11,
+      "repo": "CoreBunch/Instatic",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "language": "TypeScript",
+      "stars_today": 201,
+      "stars_total": 4273,
+      "forks": 409
+    },
+    {
+      "rank": 12,
+      "repo": "chrislgarry/Apollo-11",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "stars_today": 409,
+      "stars_total": 71400,
+      "forks": 7932
+    },
+    {
+      "rank": 13,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars_today": 2251,
+      "stars_total": 186674,
+      "forks": 16017
+    },
+    {
+      "rank": 14,
+      "repo": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "language": "Jupyter Notebook",
+      "stars_today": 328,
+      "stars_total": 44988,
+      "forks": 5386
+    },
+    {
+      "rank": 15,
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "language": "TypeScript",
+      "stars_today": 1841,
+      "stars_total": 28802,
+      "forks": 3776
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-08-08T00:03:32.097Z",
+  "source_raw": "raw.json",
+  "source_count": 17,
+  "item_count": 15,
+  "language_breakdown": {
+    "TypeScript": 2,
+    "JavaScript": 1,
+    "Shell": 2,
+    "Python": 5,
+    "Rust": 2,
+    "Java": 1,
+    "Unknown": 1,
+    "Go": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "stars_today": 2293,
+      "stars_total": 6450,
+      "forks": 515
+    },
+    {
+      "rank": 2,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars_today": 1131,
+      "stars_total": 83882,
+      "forks": 8965
+    },
+    {
+      "rank": 3,
+      "repo": "cloudflare/computer",
+      "url": "https://github.com/cloudflare/computer",
+      "description": "Give your agent a computer 👾",
+      "language": "TypeScript",
+      "stars_today": 872,
+      "stars_total": 5678,
+      "forks": 286
+    },
+    {
+      "rank": 4,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars_today": 2152,
+      "stars_total": 208785,
+      "forks": 18021
+    },
+    {
+      "rank": 5,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 782,
+      "stars_total": 268729,
+      "forks": 23998
+    },
+    {
+      "rank": 6,
+      "repo": "goauthentik/authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "stars_today": 530,
+      "stars_total": 23578,
+      "forks": 1805
+    },
+    {
+      "rank": 7,
+      "repo": "semantica-agi/semantica",
+      "url": "https://github.com/semantica-agi/semantica",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "language": "Python",
+      "stars_today": 122,
+      "stars_total": 2340,
+      "forks": 305
+    },
+    {
+      "rank": 8,
+      "repo": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "language": "Python",
+      "stars_today": 141,
+      "stars_total": 70498,
+      "forks": 10987
+    },
+    {
+      "rank": 10,
+      "repo": "jdx/mise",
+      "url": "https://github.com/jdx/mise",
+      "description": "dev tools, env vars, task runner",
+      "language": "Rust",
+      "stars_today": 135,
+      "stars_total": 32066,
+      "forks": 1332
+    },
+    {
+      "rank": 11,
+      "repo": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "language": "Python",
+      "stars_today": 355,
+      "stars_total": 186313,
+      "forks": 46060
+    },
+    {
+      "rank": 12,
+      "repo": "google/guava",
+      "url": "https://github.com/google/guava",
+      "description": "Google core libraries for Java",
+      "language": "Java",
+      "stars_today": 152,
+      "stars_total": 51759,
+      "forks": 11173
+    },
+    {
+      "rank": 14,
+      "repo": "denoland/celld",
+      "url": "https://github.com/denoland/celld",
+      "description": "self-hosted, distributed Durable Objects",
+      "language": "Rust",
+      "stars_today": 516,
+      "stars_total": 2196,
+      "forks": 60
+    },
+    {
+      "rank": 15,
+      "repo": "K2SOsint/Legendary_OSINT",
+      "url": "https://github.com/K2SOsint/Legendary_OSINT",
+      "description": "A list of OSINT tools &amp; resources for (fraud-)investigators, CTI-analysts, KYC, AML and more.",
+      "language": "Unknown",
+      "stars_today": 109,
+      "stars_total": 1421,
+      "forks": 187
+    },
+    {
+      "rank": 16,
+      "repo": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI.",
+      "language": "Go",
+      "stars_today": 234,
+      "stars_total": 19727,
+      "forks": 637
+    },
+    {
+      "rank": 17,
+      "repo": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars_today": 327,
+      "stars_total": 16237,
+      "forks": 1289
+    }
+  ]
+}

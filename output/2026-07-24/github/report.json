@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-07-24",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的 AI 方向集中在智能体工作流、模型网关与面向垂直场景的基础模型和自动化工具。",
+  "items": [
+    {
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "实时全球情报仪表盘，将 AI 驱动的新闻聚合、地缘政治监测和基础设施跟踪整合到统一的态势感知界面中。",
+      "language": "TypeScript",
+      "stars_today": 3175,
+      "stars_total": 71532
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos 是面向金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 401,
+      "stars_total": 33040
+    },
+    {
+      "repo": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "面向你和 AI 智能体并行工作的最佳浏览器。",
+      "language": "JavaScript",
+      "stars_today": 247,
+      "stars_total": 1610
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "免费 MIT AI 网关，提供单一端点接入 290 多个提供商和 500 多个模型，并支持配额感知自动回退、令牌压缩、MCP/A2A、桌面端与 PWA。",
+      "language": "TypeScript",
+      "stars_today": 1929,
+      "stars_total": 27129
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "精选 Claude Skills、资源和工具清单，用于定制 Claude AI 工作流。",
+      "language": "Python",
+      "stars_today": 636,
+      "stars_total": 69407
+    },
+    {
+      "repo": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "面向 CAD、机器人和硬件设计的一组智能体技能集合。",
+      "language": "JavaScript",
+      "stars_today": 230,
+      "stars_total": 9963
+    },
+    {
+      "repo": "agegr/pi-web",
+      "url": "https://github.com/agegr/pi-web",
+      "description": "pi 编码智能体的 Web UI。",
+      "language": "TypeScript",
+      "stars_today": 315,
+      "stars_total": 2349
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "开源免费的混合架构代码审查工具，结合确定性流水线与 LLM Agent，支持精准行级评论、内置微调规则集并兼容 OpenAI 和 Anthropic。",
+      "language": "Go",
+      "stars_today": 180,
+      "stars_total": 11487
+    }
+  ]
+}

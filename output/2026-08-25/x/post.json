@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-08-25T00:03:17.656Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-08-24",
+  "source_count": 19,
+  "time_filtered_count": 19,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2091688655828246890",
+      "text": "Good Sunday. Reset has been propagated to accounts and we landed some fixes to usage for things mentioned yesterday as issues we found. You should feel a positive difference. More to come tomorrow and will keep communicating.",
+      "createdAt": "Mon Aug 24 00:46:51 +0000 2026",
+      "viewCount": 1213429,
+      "likeCount": 9900,
+      "retweetCount": 368,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2091688655828246890",
+      "is_official": false
+    },
+    {
+      "id": "2091957125941543034",
+      "text": "Try Grok 4.6 in Hermes, now with a 50% discount through the @NousResearch portal\n\nOr, use your existing SuperGrok and X Premium+ paid subscription.",
+      "createdAt": "Mon Aug 24 18:33:40 +0000 2026",
+      "viewCount": 130321,
+      "likeCount": 1318,
+      "retweetCount": 111,
+      "author": {
+        "userName": "SpaceXAI",
+        "name": "SpaceXAI",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/SpaceXAI/status/2091957125941543034",
+      "is_official": true
+    },
+    {
+      "id": "2091987538999197752",
+      "text": "Grok Voice Think Fast 2.0 is now #1 on the Artificial Analysis Speech-to-Speech Index.\n\nThis index measures whether voice agents can reason over the speech it hears, resolve real customer issues, and correctly complete tasks using agent tools. https://t.co/KnZ9udioNa",
+      "createdAt": "Mon Aug 24 20:34:31 +0000 2026",
+      "viewCount": 828938,
+      "likeCount": 1122,
+      "retweetCount": 107,
+      "author": {
+        "userName": "SpaceXAI",
+        "name": "SpaceXAI",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/SpaceXAI/status/2091987538999197752",
+      "is_official": true
+    },
+    {
+      "id": "2092006814804214163",
+      "text": "Long answers on Claude on web and desktop now stream ~4x smoother.\n\nWe rebuilt the streaming renderer to only touch what's still changing, so a long reply stalls 9x less on a slower laptop, its worst freeze is 4.5x shorter, and on a 120Hz MacBook it holds 120fps start to finish. https://t.co/huomk33lMb",
+      "createdAt": "Mon Aug 24 21:51:06 +0000 2026",
+      "viewCount": 149142,
+      "likeCount": 2799,
+      "retweetCount": 94,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2092006814804214163",
+      "is_official": true
+    },
+    {
+      "id": "2091953609185657251",
+      "text": "Enterprise-managed auth for MCP connectors is now generally available.\n\nFor Claude Team and Enterprise admins, authorization is centralized through your identity provider.\n\nFor users, tools and data are connected automatically, without the need for individual OAuth. https://t.co/83768WvXdH",
+      "createdAt": "Mon Aug 24 18:19:41 +0000 2026",
+      "viewCount": 190077,
+      "likeCount": 1988,
+      "retweetCount": 119,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2091953609185657251",
+      "is_official": true
+    },
+    {
+      "id": "2091946932037906774",
+      "text": "i gave Elon's Grok Bot $50 and told it \"pay for yourself or you die\"\n\n48 hours later it's holding $5,273\n\nand it's still alive\n\nautonomous trading agent on polymarket\n\nzero code this time. the bot has its own computer in the cloud, its own browser, its own terminal. it trades with my laptop shut\n\nevery 10 minutes it:\n\n→ scans 500-1000 markets\n→ reads live X sentiment (it's grok, it sees every post on this app)\n→ builds fair value, flags mispricing > 8%\n→ calculates position size (kelly criterion, max 6% bankroll)\n→ executes in its own browser\n→ pays its own $200 subscription from profits\n\nif the balance hits $0, i cancel the subscription. the bot dies\n\nday one it dipped to $11. it dropped crypto and moved to weather markets, front-running NOAA updates\n\nso it learned to survive\n\nsetup took one evening: create the bot, run one trade on your screen while it watches, put the skill on a schedule, connect telegram\n\nno VPS. no API keys. no rust\n\nlast winter i built this exact system by hand. 3 weeks of rust. it made $2,980 in its first 48 hours\n\ngrok bot beat my own code in one evening\n\n$50 → $5,273 in 48 hours\n\nhow much do u think it'll have in a week?",
+      "createdAt": "Mon Aug 24 17:53:09 +0000 2026",
+      "viewCount": 760924,
+      "likeCount": 3431,
+      "retweetCount": 217,
+      "author": {
+        "userName": "Argona0x",
+        "name": "Argona",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Argona0x/status/2091946932037906774",
+      "is_official": false
+    },
+    {
+      "id": "2091688235235680505",
+      "text": "So let me get this straight.\n\nA used M1 Pro w/32GB that I can buy on eBay for $900...\n\n...can make $150/month serving Qwen...\n\nI can make my money back in 6 months? Why aren't people arbing this? https://t.co/xWlQ61iu9T",
+      "createdAt": "Mon Aug 24 00:45:11 +0000 2026",
+      "viewCount": 845457,
+      "likeCount": 1847,
+      "retweetCount": 47,
+      "author": {
+        "userName": "rickmanelius",
+        "name": "Rick Manelius",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/rickmanelius/status/2091688235235680505",
+      "is_official": false
+    },
+    {
+      "id": "2091728854616547573",
+      "text": "This is absolutely god damn ridiculous at this point. NVIDIA is effectively bailing out anyone in the AI industry as a means of inflating their valuations and keeping them buying compute. Sorry, perplexity is not worth $30 billion in anything other than the circularverse https://t.co/5ZlwhmwysK",
+      "createdAt": "Mon Aug 24 03:26:36 +0000 2026",
+      "viewCount": 149445,
+      "likeCount": 2035,
+      "retweetCount": 281,
+      "author": {
+        "userName": "edzitron",
+        "name": "Ed Zitron",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/edzitron/status/2091728854616547573",
+      "is_official": false
+    },
+    {
+      "id": "2091763858054516987",
+      "text": "Hey @grok, remove the worst bat-man from this picture !! https://t.co/z4pLHDsgq3",
+      "createdAt": "Mon Aug 24 05:45:41 +0000 2026",
+      "viewCount": 1400741,
+      "likeCount": 7176,
+      "retweetCount": 721,
+      "author": {
+        "userName": "xmliisu",
+        "name": "Melisa♡",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/xmliisu/status/2091763858054516987",
+      "is_official": false
+    },
+    {
+      "id": "2091709473824129059",
+      "text": "It is so weird that when asked “where is all the revenue coming from” the answer becomes a two minute long diatribe about bad branding, an outright lie about Codex “doing any kind of work” and what ChatGPT might do in the future lol",
+      "createdAt": "Mon Aug 24 02:09:35 +0000 2026",
+      "viewCount": 166089,
+      "likeCount": 2080,
+      "retweetCount": 190,
+      "author": {
+        "userName": "edzitron",
+        "name": "Ed Zitron",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/edzitron/status/2091709473824129059",
+      "is_official": false
+    },
+    {
+      "id": "2091821230404059309",
+      "text": "🚨 BREAKING: Google Gemini can now analyze any stock like a Wall Street analyst (for free).\n\nHere are 09 insane Gemini prompts that replace $4,000/month Bloomberg terminals:\n\n[ Save for later 🔖 ]",
+      "createdAt": "Mon Aug 24 09:33:40 +0000 2026",
+      "viewCount": 281183,
+      "likeCount": 1210,
+      "retweetCount": 241,
+      "author": {
+        "userName": "Kawsar_Ai",
+        "name": "Kawsar",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Kawsar_Ai/status/2091821230404059309",
+      "is_official": true
+    },
+    {
+      "id": "2091934682594128252",
+      "text": "By the way, https://t.co/3tMzhIlC1s was 100% built with Grok 4.6 in Cursor.",
+      "createdAt": "Mon Aug 24 17:04:29 +0000 2026",
+      "viewCount": 119994,
+      "likeCount": 1007,
+      "retweetCount": 16,
+      "author": {
+        "userName": "jonathan_wilke",
+        "name": "Jonathan Wilke",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/jonathan_wilke/status/2091934682594128252",
+      "is_official": false
+    },
+    {
+      "id": "2091968024370897102",
+      "text": "Grok Bot makes clipping YouTube podcasts ridiculously easy.\n\nI just send it a link and say:\n\n“Cut from 16:43 to 18:17.”\n\nA few minutes later, the exact HD clip is ready in the chat.\n\nMy Clipper bot has already sent it to my Researcher and Writer bots, which pull the best quotes and prepare the caption.\n\nI didn’t code any of this.\n\nI literally just logged into my Google account on Grok Bot and asked it to clip a YouTube video.\n\nI’ve wanted this for years: tell an AI which part of a podcast you want, and it automatically cuts the HD clip, transcribes it, and starts preparing the post.\n\nGrok Bot makes workflows like this incredibly simple for a non-coder.",
+      "createdAt": "Mon Aug 24 19:16:58 +0000 2026",
+      "viewCount": 395023,
+      "likeCount": 1840,
+      "retweetCount": 241,
+      "author": {
+        "userName": "KanekoaTheGreat",
+        "name": "KanekoaTheGreat",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/KanekoaTheGreat/status/2091968024370897102",
+      "is_official": false
+    },
+    {
+      "id": "2091784431962935428",
+      "text": "is that page claude vibecoded? https://t.co/TvMMGOLBGM",
+      "createdAt": "Mon Aug 24 07:07:26 +0000 2026",
+      "viewCount": 294151,
+      "likeCount": 1743,
+      "retweetCount": 17,
+      "author": {
+        "userName": "TinaDebove",
+        "name": "Tina Debove ᯅ",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/TinaDebove/status/2091784431962935428",
+      "is_official": false
+    },
+    {
+      "id": "2091941626717569460",
+      "text": "Grok @Bot ported Doom to a new device in 10 mins",
+      "createdAt": "Mon Aug 24 17:32:04 +0000 2026",
+      "viewCount": 2850494,
+      "likeCount": 5375,
+      "retweetCount": 660,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2091941626717569460",
+      "is_official": false
+    },
+    {
+      "id": "2091752587100086328",
+      "text": "You think that's bad? These guys accidentally left the whole T3 Code Github repo public 💀 https://t.co/UepXCcDT4I",
+      "createdAt": "Mon Aug 24 05:00:54 +0000 2026",
+      "viewCount": 337362,
+      "likeCount": 2212,
+      "retweetCount": 24,
+      "author": {
+        "userName": "theo",
+        "name": "Theo - t3.gg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/theo/status/2091752587100086328",
+      "is_official": false
+    },
+    {
+      "id": "2091728084093272217",
+      "text": "It seems possible that Anthropic ends up losing entirely at this point",
+      "createdAt": "Mon Aug 24 03:23:32 +0000 2026",
+      "viewCount": 329691,
+      "likeCount": 2291,
+      "retweetCount": 41,
+      "author": {
+        "userName": "Austen",
+        "name": "Austen Allred",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Austen/status/2091728084093272217",
+      "is_official": false
+    },
+    {
+      "id": "2091869420230787157",
+      "text": "🚨BREAKING: ChatGPT can now fix your photos so well people will think you hired a pro.\n\nIt keeps your face and your identity the same.\n\nHere are the 5 prompts:￼👇",
+      "createdAt": "Mon Aug 24 12:45:09 +0000 2026",
+      "viewCount": 919354,
+      "likeCount": 4011,
+      "retweetCount": 781,
+      "author": {
+        "userName": "TawohAwa",
+        "name": "Awa K. Penn",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/TawohAwa/status/2091869420230787157",
+      "is_official": false
+    },
+    {
+      "id": "2091781468620001625",
+      "text": "Excited to share that I've joined @OpenAI!\n\nI'm joining the Applied AI Engineering team, focusing on startups across the Nordics. I'll also be the first person on the ground in Stockholm getting our new office set up 🇸🇪\n\nI kicked things off with a week in San Francisco. The pace, the people, and the sense of purpose are unlike anything I've experienced at this scale.\n\nIf you're building in the Nordics, I'd love to connect!",
+      "createdAt": "Mon Aug 24 06:55:40 +0000 2026",
+      "viewCount": 122770,
+      "likeCount": 2214,
+      "retweetCount": 55,
+      "author": {
+        "userName": "phiandersson",
+        "name": "Philip",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/phiandersson/status/2091781468620001625",
+      "is_official": false
+    }
+  ]
+}

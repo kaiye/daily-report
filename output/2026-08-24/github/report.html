@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Github 趋势</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #111827;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #91caff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #cfe2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #e9f2ff 0%, #f6f9ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #d6e4ff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #d6e4ff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #91caff 88%, white) 0%,
+      color-mix(in srgb, #91caff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #d6e4ff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">GitHub Trending Snapshot</p>
+        </div>
+        <p class="date-chip">AUG 24, 2026</p>
+      </div>
+      <h1 class="hero-title">Github 趋势</h1>
+      <p class="hero-summary">LLM 网关当前返回 packyapi EOF，本报告由已清洗数据按原始排序降级生成。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">Rust</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">openai/codex</span>：Lightweight coding agent that runs in your terminal。
+          </p>
+          <p class="item-metric">⭐ +2.7K today · 115.1K total</p>
+          <a class="item-link" href="https://github.com/openai/codex">https://github.com/openai/codex</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">JavaScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">freestylefly/awesome-gpt-image-2</span>：Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中。
+          </p>
+          <p class="item-metric">⭐ +401 today · 12.7K total</p>
+          <a class="item-link" href="https://github.com/freestylefly/awesome-gpt-image-2">https://github.com/freestylefly/awesome-gpt-image-2</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">Shell</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">mattpocock/skills</span>：Skills for Real Engineers.
+          </p>
+          <p class="item-metric">⭐ +2.4K today · 233.8K total</p>
+          <a class="item-link" href="https://github.com/mattpocock/skills">https://github.com/mattpocock/skills</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">Shell</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">basecamp/omarchy</span>：Beautiful, Modern &amp;amp; Opinionated Linux。
+          </p>
+          <p class="item-metric">⭐ +750 today · 29.1K total</p>
+          <a class="item-link" href="https://github.com/basecamp/omarchy">https://github.com/basecamp/omarchy</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">Rust</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">AprilNEA/OpenLogi</span>：⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++.
+          </p>
+          <p class="item-metric">⭐ +1.0K today · 14.9K total</p>
+          <a class="item-link" href="https://github.com/AprilNEA/OpenLogi">https://github.com/AprilNEA/OpenLogi</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">Rust</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">block/buzz</span>：A hive mind communication platform。
+          </p>
+          <p class="item-metric">⭐ +410 today · 30.1K total</p>
+          <a class="item-link" href="https://github.com/block/buzz">https://github.com/block/buzz</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Alishahryar1/free-claude-code</span>：Use Claude Code, Codex, Pi, and OpenCode for free (1.
+          </p>
+          <p class="item-metric">⭐ +1.1K today · 47.9K total</p>
+          <a class="item-link" href="https://github.com/Alishahryar1/free-claude-code">https://github.com/Alishahryar1/free-claude-code</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">JavaScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">affaan-m/ECC</span>：The agent harness performance optimization system.
+          </p>
+          <p class="item-metric">⭐ +427 today · 242.5K total</p>
+          <a class="item-link" href="https://github.com/affaan-m/ECC">https://github.com/affaan-m/ECC</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">TypeScript</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ruvnet/ruflo</span>：🌊 The original agent meta-harness.
+          </p>
+          <p class="item-metric">⭐ +131 today · 69.1K total</p>
+          <a class="item-link" href="https://github.com/ruvnet/ruflo">https://github.com/ruvnet/ruflo</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">Unknown</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">VoltAgent/awesome-agent-skills</span>：A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
+          </p>
+          <p class="item-metric">⭐ +156 today · 31.3K total</p>
+          <a class="item-link" href="https://github.com/VoltAgent/awesome-agent-skills">https://github.com/VoltAgent/awesome-agent-skills</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">11</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">virgiliojr94/book-to-skill</span>：Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
+          </p>
+          <p class="item-metric">⭐ +417 today · 24.6K total</p>
+          <a class="item-link" href="https://github.com/virgiliojr94/book-to-skill">https://github.com/virgiliojr94/book-to-skill</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">12</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">anthropics/claude-plugins-community</span>：Community plugin marketplace for Claude Cowork and Claude Code.
+          </p>
+          <p class="item-metric">⭐ +225 today · 932 total</p>
+          <a class="item-link" href="https://github.com/anthropics/claude-plugins-community">https://github.com/anthropics/claude-plugins-community</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">13</span>
+            <span class="item-badge">HTML</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ripienaar/free-for-dev</span>：A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev。
+          </p>
+          <p class="item-metric">⭐ +615 today · 134.4K total</p>
+          <a class="item-link" href="https://github.com/ripienaar/free-for-dev">https://github.com/ripienaar/free-for-dev</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">14</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Comfy-Org/ComfyUI</span>：The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
+          </p>
+          <p class="item-metric">⭐ +201 today · 129.4K total</p>
+          <a class="item-link" href="https://github.com/Comfy-Org/ComfyUI">https://github.com/Comfy-Org/ComfyUI</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-info">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">15</span>
+            <span class="item-badge">Python</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">NousResearch/hermes-agent</span>：The agent that grows with you。
+          </p>
+          <p class="item-metric">⭐ +454 today · 235.0K total</p>
+          <a class="item-link" href="https://github.com/NousResearch/hermes-agent">https://github.com/NousResearch/hermes-agent</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

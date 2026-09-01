@@ -1,0 +1,351 @@
+{
+  "generated_at": "2026-07-25T00:03:02.795Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-07-24",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 20,
+  "item_count": 20,
+  "items": [
+    {
+      "id": "2080714470175674783",
+      "text": "Me and Claude Opus 5 tonight https://t.co/RUNxgvW0oB",
+      "createdAt": "Fri Jul 24 17:59:22 +0000 2026",
+      "viewCount": 177391,
+      "likeCount": 1767,
+      "retweetCount": 138,
+      "author": {
+        "userName": "alex_prompter",
+        "name": "Alex Prompter",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/alex_prompter/status/2080714470175674783",
+      "is_official": false
+    },
+    {
+      "id": "2080468063548543454",
+      "text": "The entire RAG industry is about to get cooked.\n\nResearchers built a new RAG approach that skips almost everything traditional RAG relies on.\n\n- No vector DB\n- No embedding your data\n- No chunking\n- No similarity search\n\nIt's called PageIndex. \n\nInstead of chopping your docs and stuffing them into Pinecone, it builds a tree index and lets the LLM reason through your documents like a human reading a book.\n\n98.7% on FinanceBench. Beats every vector RAG on the leaderboard.\n\n100% Free. Open Source.",
+      "createdAt": "Fri Jul 24 01:40:14 +0000 2026",
+      "viewCount": 91099,
+      "likeCount": 1343,
+      "retweetCount": 157,
+      "author": {
+        "userName": "simplifyinAI",
+        "name": "Simplifying AI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/simplifyinAI/status/2080468063548543454",
+      "is_official": true
+    },
+    {
+      "id": "2080710971228918066",
+      "text": "We removed ~80% of the Claude Code system prompt for our newest models, this is what we've learned about writing system prompts, skills and Claude.MDs for them. https://t.co/6DZwSrZjE9",
+      "createdAt": "Fri Jul 24 17:45:27 +0000 2026",
+      "viewCount": 918744,
+      "likeCount": 6818,
+      "retweetCount": 654,
+      "author": {
+        "userName": "trq212",
+        "name": "Thariq",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/trq212/status/2080710971228918066",
+      "is_official": false
+    },
+    {
+      "id": "2080731979528679617",
+      "text": "Just over 6 months later, Opus 5 now produces near-superhuman level spreadsheets and slide decks that match what a consultant would make. Things are changing fast. https://t.co/HKpFPP4hrM",
+      "createdAt": "Fri Jul 24 19:08:56 +0000 2026",
+      "viewCount": 138824,
+      "likeCount": 1477,
+      "retweetCount": 83,
+      "author": {
+        "userName": "alexalbert__",
+        "name": "Alex Albert",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/alexalbert__/status/2080731979528679617",
+      "is_official": false
+    },
+    {
+      "id": "2080703243722854516",
+      "text": "Opus 5 is live in Claude Code and the Claude Platform today.\n\nA few things worth knowing: 🧵\nhttps://t.co/jAdUagXt9C",
+      "createdAt": "Fri Jul 24 17:14:45 +0000 2026",
+      "viewCount": 575504,
+      "likeCount": 5474,
+      "retweetCount": 398,
+      "author": {
+        "userName": "ClaudeDevs",
+        "name": "ClaudeDevs",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ClaudeDevs/status/2080703243722854516",
+      "is_official": true
+    },
+    {
+      "id": "2080747505474736162",
+      "text": "Your Pet is ready to meet other builders.\n\nOn ChatGPT web, create a shareable link for your custom pet and send it to a friend to adopt. https://t.co/OrCulNuQTF",
+      "createdAt": "Fri Jul 24 20:10:38 +0000 2026",
+      "viewCount": 262437,
+      "likeCount": 1234,
+      "retweetCount": 121,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2080747505474736162",
+      "is_official": true
+    },
+    {
+      "id": "2080707685448847418",
+      "text": "Your ChatGPT Work agent can now use websites that require you to sign in.\n\nTake over the cloud browser to log in, then let your agent continue the task. Your login persists across sessions, so you only have to sign in once. https://t.co/Jh8uPqNscX",
+      "createdAt": "Fri Jul 24 17:32:24 +0000 2026",
+      "viewCount": 143647,
+      "likeCount": 2404,
+      "retweetCount": 168,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2080707685448847418",
+      "is_official": true
+    },
+    {
+      "id": "2080716512009343207",
+      "text": "Grok is now in Google Workspace.\n\nInstall one add-on for Sheets, Slides, and Docs. Turn research into reports, build decks from outlines, and draft documents in place with Grok.\n\nhttps://t.co/9MJNlpQ17S https://t.co/e9X5v7rIEO",
+      "createdAt": "Fri Jul 24 18:07:28 +0000 2026",
+      "viewCount": 169960,
+      "likeCount": 1269,
+      "retweetCount": 141,
+      "author": {
+        "userName": "grok",
+        "name": "Grok",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/grok/status/2080716512009343207",
+      "is_official": true
+    },
+    {
+      "id": "2080652886204100638",
+      "text": "People say AI is expensive.\n\nLet me break it down. I pay $200 a month for Claude and get PhD-level intelligence on every subject known to humanity.\n\nNow price a human. Globally, on average, maybe $10,000 a year in food to run one brain. Plus the twenty odd years it takes to grow it first.\n\nSo it's $10,000 a year for human-level compute, versus $200 a month for intelligence that clears any human on any topic.\n\nThat's why it's scaling this fast. The price of human intelligence is just uneconomical compared to machines.",
+      "createdAt": "Fri Jul 24 13:54:39 +0000 2026",
+      "viewCount": 124417,
+      "likeCount": 1108,
+      "retweetCount": 88,
+      "author": {
+        "userName": "RaoulGMI",
+        "name": "Raoul Pal",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/RaoulGMI/status/2080652886204100638",
+      "is_official": false
+    },
+    {
+      "id": "2080703339306913985",
+      "text": "Opus 5 rounds out our Claude 5 family beautifully.\n\nI think it’s an incredible daily driver, pair it with Fable for planning,  brainstorming or fixing the hardest bugs.",
+      "createdAt": "Fri Jul 24 17:15:08 +0000 2026",
+      "viewCount": 223837,
+      "likeCount": 3107,
+      "retweetCount": 83,
+      "author": {
+        "userName": "trq212",
+        "name": "Thariq",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/trq212/status/2080703339306913985",
+      "is_official": false
+    },
+    {
+      "id": "2080699495453528290",
+      "text": "Introducing Claude Opus 5.\n\nIt's a thoughtful and proactive model that comes close to the frontier intelligence of Fable 5 at half the price. https://t.co/GQWhcq2CQL",
+      "createdAt": "Fri Jul 24 16:59:51 +0000 2026",
+      "viewCount": 9528551,
+      "likeCount": 49621,
+      "retweetCount": 5964,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2080699495453528290",
+      "is_official": true
+    },
+    {
+      "id": "2080661080230314018",
+      "text": "Remember the 2 frontier companies who didn’t sign this\n\nOpenai\nAnthropic https://t.co/75oDwZQAoG",
+      "createdAt": "Fri Jul 24 14:27:12 +0000 2026",
+      "viewCount": 318079,
+      "likeCount": 4057,
+      "retweetCount": 226,
+      "author": {
+        "userName": "HarveenChadha",
+        "name": "Harveen Singh Chadha",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/HarveenChadha/status/2080661080230314018",
+      "is_official": false
+    },
+    {
+      "id": "2080455925089927275",
+      "text": "JUST IN: ChatGPT disproves a graph theory conjecture that was open for 22 years while user “went to have a nap.”",
+      "createdAt": "Fri Jul 24 00:52:00 +0000 2026",
+      "viewCount": 341345,
+      "likeCount": 3355,
+      "retweetCount": 127,
+      "author": {
+        "userName": "Polymarket",
+        "name": "Polymarket",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Polymarket/status/2080455925089927275",
+      "is_official": false
+    },
+    {
+      "id": "2080467752897146898",
+      "text": "Humans try hard things, fail, learn, and get better through repetition.\n\nAI models aren't as different as you might think.\n\nHere's how models \"learn\" explained in simple terms. https://t.co/gFaNuyVliT",
+      "createdAt": "Fri Jul 24 01:39:00 +0000 2026",
+      "viewCount": 148356,
+      "likeCount": 1657,
+      "retweetCount": 171,
+      "author": {
+        "userName": "leerob",
+        "name": "Lee Robinson",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/leerob/status/2080467752897146898",
+      "is_official": false
+    },
+    {
+      "id": "2080445551921746379",
+      "text": "life as a claude in 2026 https://t.co/wx9TiXEwHq",
+      "createdAt": "Fri Jul 24 00:10:47 +0000 2026",
+      "viewCount": 43701,
+      "likeCount": 1439,
+      "retweetCount": 28,
+      "author": {
+        "userName": "MarkovMagnifico",
+        "name": "Markov",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/MarkovMagnifico/status/2080445551921746379",
+      "is_official": false
+    },
+    {
+      "id": "2080700057892815114",
+      "text": "BREAKING: Claude Opus 5 is OUT NOW!\n\nAnd…it’s a hard model to love.\n\nWe’ve spent the last week @every testing it across coding, writing, knowledge work, and our internal agent.\n\nIt argued with instructions, stopped before the work was finished, and generally didn’t play well with our existing skills and plugins like Compound Engineering. Our first reaction was: What have they done to my boy?\n\nThen we deleted our existing skills and started from scratch.\n\nWithout the elaborate workflows we had built for earlier models, Opus 5 got dramatically better, and even showed flashes of brilliance.\n\nHere’s our Day 0 vibe check:\n\n- It’s a poor man’s Fable. It has many of Fable’s personality quirks without Fable’s genius.\n- It breaks backward compatibility. If you’re using it with existing skills and workflows, watch out. It will often stop early or otherwise miss your instructions.\n- If you start from scratch, you’ll have better results. @KieranKlaassen figured out that if he just started from scratch without his existing skills, he could get dramatically better results. This is a model that takes some time to rebuild your workflows around—but if you do, there’s a payoff waiting.\n- Medium or low effort works better. @KieranKlassenn also found better results using Opus 5 on lower thinking levels. It seems that the more time you give it to think, the more likely it is to do the more annoying behaviors. Don’t just switch to Sonnet for a faster response! Try low thinking.\n\nI have two slots in my workflow:\n\n1. The genius model I use for my biggest hardest tasks, currently Fable.\n2. The smart, fast generalist I use for everything else, currently GPT-5.6.\n\nOpus 5 has the personality of the genius, but doesn’t have its top end. So that puts it in a strange middle ground that doesn’t really have a home in my day to day. I think I’ll use it mostly when I run out of Fable tokens.\n\nfull vibe check on @every in the next tweet 👇",
+      "createdAt": "Fri Jul 24 17:02:05 +0000 2026",
+      "viewCount": 475121,
+      "likeCount": 1999,
+      "retweetCount": 117,
+      "author": {
+        "userName": "danshipper",
+        "name": "Dan Shipper 📧",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/danshipper/status/2080700057892815114",
+      "is_official": false
+    },
+    {
+      "id": "2080701299637858721",
+      "text": "After Kiley was diagnosed with glioblastoma, an aggressive form of brain cancer, doctors told her she might have only months to live. At 18, she wrote a will, chose a casket, and began living scan to scan.\n\nBut, over the next five years, she kept on living, defying expectations. Her scans stayed stable. Why? How?\n\nAfter a recent MRI, her husband @ColeLemasters used ChatGPT to help make sense of the dense language in her radiology report. That conversation led him back to Kiley’s original biopsy records, where ChatGPT helped surface a crucial detail: an IDH1 mutation.\n\nIn partnership with her neuro-oncologist, he then confirmed what that meant. Under updated medical standards, Kiley’s tumor was not glioblastoma, but an IDH-mutant astrocytoma: still serious, but with a very different prognosis.\n\nInstead of bracing for the worst, Kiley and her doctors began focusing her treatment plan on long-term care. Now, after years of uncertainty, she and Cole are planning for a future.",
+      "createdAt": "Fri Jul 24 17:07:02 +0000 2026",
+      "viewCount": 108134,
+      "likeCount": 1588,
+      "retweetCount": 134,
+      "author": {
+        "userName": "OpenAINewsroom",
+        "name": "OpenAI Newsroom",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/OpenAINewsroom/status/2080701299637858721",
+      "is_official": true
+    },
+    {
+      "id": "2080578327786746242",
+      "text": "WAIT... WHAT!!\n\nAnthropic burned $3 million and 30 months running AI agents against real tasks in real companies and published everything in 12 pages and the people who read those 12 pages this week are going to make decisions about how they build and work that are fundamentally different from the people who scroll past it thinking they already understand what AI can do.\n\n1,287 real tasks. 2.4 million lines of code. AI outperforming humans on their own projects. 63% of routine work automated. Engineer output multiplied three times with the right memory and the right cycles.\n\nSomeone paid $3 million so you could read that for free and most people are going to bookmark it and never open it again which is the most expensive free resource in the history of AI research.\n\nBut here is the gap that the 12 pages do not close.\n\nKnowing that the right system multiplies output three times and knowing how to build that system are two completely different things and the second one is where everyone gets stuck and stays stuck while the people who figured it out quietly operate at a different level.\n\nMy article is the bridge between the $3 million research and the actual system build and it is the thing you read immediately after you bookmark those 12 pages.\n\nDo not let this be another thing you meant to act on.\n\nFull guide below.",
+      "createdAt": "Fri Jul 24 08:58:23 +0000 2026",
+      "viewCount": 213675,
+      "likeCount": 1105,
+      "retweetCount": 125,
+      "author": {
+        "userName": "KanikaBK",
+        "name": "Kanika",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/KanikaBK/status/2080578327786746242",
+      "is_official": false
+    },
+    {
+      "id": "2080760584572706906",
+      "text": "everyone should internalize this\n\nall those tricks to make the tool work better aren't going to do much\n\nthere's way more magic to be found in novel ways to apply the tool to your work",
+      "createdAt": "Fri Jul 24 21:02:36 +0000 2026",
+      "viewCount": 145548,
+      "likeCount": 1025,
+      "retweetCount": 39,
+      "author": {
+        "userName": "thdxr",
+        "name": "dax",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thdxr/status/2080760584572706906",
+      "is_official": false
+    },
+    {
+      "id": "2080711105349906786",
+      "text": "New Pareto Frontier: Grok 4.5, SWE-1.7 and Opus 5.\n\nIntelligence per $ will be the only metric that matters over time.\n\nK3 probably joins the frontier once available on the inference clouds. https://t.co/jdMFn2Vya8",
+      "createdAt": "Fri Jul 24 17:45:59 +0000 2026",
+      "viewCount": 313615,
+      "likeCount": 1441,
+      "retweetCount": 182,
+      "author": {
+        "userName": "GavinSBaker",
+        "name": "Gavin Baker",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/GavinSBaker/status/2080711105349906786",
+      "is_official": false
+    }
+  ]
+}

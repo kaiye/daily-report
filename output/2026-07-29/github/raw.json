@@ -1,0 +1,129 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-07-29T00:04:16.323Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 12,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars_total": 18674,
+      "forks": 2526,
+      "stars_today": 341
+    },
+    {
+      "rank": 2,
+      "repo": "jenkinsci/jenkins",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "stars_total": 26065,
+      "forks": 9687,
+      "stars_today": 180
+    },
+    {
+      "rank": 3,
+      "repo": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars_total": 44736,
+      "forks": 4447,
+      "stars_today": 797
+    },
+    {
+      "rank": 4,
+      "repo": "andrewyng/aisuite",
+      "url": "https://github.com/andrewyng/aisuite",
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "language": "Python",
+      "stars_total": 15675,
+      "forks": 1656,
+      "stars_today": 62
+    },
+    {
+      "rank": 5,
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars_total": 234786,
+      "forks": 35774,
+      "stars_today": 636
+    },
+    {
+      "rank": 6,
+      "repo": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "stars_total": 7210,
+      "forks": 954,
+      "stars_today": 227
+    },
+    {
+      "rank": 7,
+      "repo": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "stars_total": 11319,
+      "forks": 1338,
+      "stars_today": 423
+    },
+    {
+      "rank": 8,
+      "repo": "opengeos/GeoLibre",
+      "url": "https://github.com/opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "language": "TypeScript",
+      "stars_total": 3380,
+      "forks": 390,
+      "stars_today": 607
+    },
+    {
+      "rank": 9,
+      "repo": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "stars_total": 9563,
+      "forks": 1290,
+      "stars_today": 309
+    },
+    {
+      "rank": 10,
+      "repo": "microsoft/agent-governance-toolkit",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+      "language": "Python",
+      "stars_total": 5181,
+      "forks": 833,
+      "stars_today": 46
+    },
+    {
+      "rank": 11,
+      "repo": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars_total": 21463,
+      "forks": 695,
+      "stars_today": 662
+    },
+    {
+      "rank": 12,
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "stars_total": 12072,
+      "forks": 1212,
+      "stars_today": 988
+    }
+  ]
+}

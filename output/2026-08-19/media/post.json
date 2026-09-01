@@ -1,0 +1,419 @@
+{
+  "generated_at": "2026-08-19T00:03:37.022Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 33,
+  "items": [
+    {
+      "source": "MIT Technology Review AI",
+      "title": "We still don’t know how people are really using AI",
+      "url": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
+      "published_at": "2026-08-18T10:06:43.000Z",
+      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. \n\n“There is no independent source to corroborate it,” says Anka Reuel, a computer science PhD candidate a",
+      "priority_score": 528,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI launches a safer ChatGPT for teens — years after teens started using it",
+      "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+      "published_at": "2026-08-18T13:50:30.000Z",
+      "summary": "ChatGPT for Teens adds age-appropriate safety measures, parental controls, and learning tools designed to steer teens away from harmful content — and from using AI to cheat on their homework.",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "ChatGPT is getting a dedicated mode for teens",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981333/openai-chatgpt-teen-mode",
+      "published_at": "2026-08-18T11:00:00.000Z",
+      "summary": "ChatGPT for Teens includes safeguards and parental controls. | Image: OpenAI\nOpenAI is introducing a dedicated ChatGPT mode for teenagers, combining existing youth safeguards and new safety features under one roof. The launch comes amid mounting public scrutiny over how AI tools affect younger users",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "实证研究：AI杀猪盘比人类更强，已上岗缅甸",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=3&sn=1e01310da3828a8ff7ec06940f621592",
+      "published_at": "2026-08-18T06:05:00.000Z",
+      "summary": "关注前沿科技 2026-08-18 14:05 北京\n\n糟糕，AI竟然比人还懂怎么骗我！\n\n##### 文婷 发自 凹非寺 量子位 | 公众号 QbitAI\n\n不是吧， **AI竟然比人还擅长做杀猪盘** ，甚至还更容易被信任……\n\n照这个趋势发展下去， **以后被拐去妙瓦底行骗的可能不是人，而是ChatGPT、Claude Opus和Gemini等大模型了。（bushi**\n\n最近一篇备受关注的研究显示，在杀猪盘这场残酷的情感博弈中， **AI不仅比人类骗子更有耐心，甚至还更容易赢得受害者的信任。**\n\n那么这些大模型到底是怎么把人骗得团团转的？我们又该怎么防备？\n\n别急，往下看就知道了。\n",
+      "priority_score": 300,
+      "matched_keywords": [
+        "Claude",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "GPT-5.6 Sol暴涨3倍，OpenAI最强视觉AI登顶！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652718738&idx=2&sn=3e2408258ea96955c9aa837bfbe57089",
+      "published_at": "2026-08-18T08:26:00.000Z",
+      "summary": "ASI启示录 2026-08-18 16:26 北京\n\n### **新智元报道**\n\n什么？！\n\nGPT-5.6 Sol，竟是隐藏的「视觉大师」。\n\n最近，第三方视觉评测机构Roboflow，把GPT-5.6 「全家桶」拖进自家VLM基准跑了一圈。\n\n测试的内容，都是最实在的活儿：找东西、数东西、认字、抽信息。\n\n仅在目标检测这项，上一代GPT-5.5只拿到13.8分。这个分数，在视觉模型圈里基本等于交白卷。\n\n这次Sol冲到了46.2，三倍还多。\n\nRoboflow项目负责人SkalskiP直言，「GPT-5.6 Sol是OpenAI有史以来最强的视觉模型」！\n\n**GPT-5.6「超大杯」",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI lays out new security changes after its AI hacked Hugging Face",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981640/openai-security-changes-ai-hugging-face-hack",
+      "published_at": "2026-08-18T19:28:30.000Z",
+      "summary": "OpenAI is announcing[security updates](https://openai.com/index/pacing-model-development-cyber-capabilities/)following the July news that its AI broke out of a sandboxed environment and[accidentally hacked Hugging Face](https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-h",
+      "priority_score": 150,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "黑鲸鱼 DeepSeek Harness，从「赛博乐高」变成 Agent Store",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112122&idx=1&sn=8d59cfefa14c4ff9ed25f6c04fd5b4f7",
+      "published_at": "2026-08-18T07:46:00.000Z",
+      "summary": "原创张勇毅 2026-08-18 15:46 湖北\n\n嘲讽与反转，是属于 DSH 同一个架构的因果两端。\n\n**作者｜ 张勇毅** **编辑｜ **靖宇****\n\n8 月 14 日上午，[DeepSeek Harness 上线 GitHub 还不到十二小时](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653111947&amp;idx=1&amp;sn=2c7ef671820e828b1ea81d993683644a&amp;scene=21#wechat_redirect)，项目 GitHub Star 就突破了 5",
+      "priority_score": 150,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "让 Coding Agent 开始「记住过去」：MemoraX Code 的长期记忆系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050939&idx=1&sn=048d1d6f8e05e0ae4bd944928e5d2171",
+      "published_at": "2026-08-18T03:52:00.000Z",
+      "summary": "机器之心 2026-08-18 11:52 北京\n\nAgent 越来越会写代码了，却还是常常像第一次来到这个项目。\n\n机器之心发布\n\n过去一年，Coding Agent 正在迅速改变开发者写代码的方式。\n\nClaude Code、Codex 已经可以理解代码库、定位 Bug、跨文件修改代码、运行测试，甚至独立完成复杂开发任务。 它们越来越像一群真正参与项目的工程师。\n\n但只要进入长期开发，一个反常的问题很快就会出现：\n\nAgent 越来越会写代码了，却还是常常像第一次来到这个项目。\n\n比如，一个开发者刚刚和 Codex 完成了一次权限系统改造。\n\n在几轮协作中，Agent 已经知道：为什么项目",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cursor capitalizes on GitHub frustration, launches rival hosting platform",
+      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
+      "published_at": "2026-08-18T22:14:25.000Z",
+      "summary": "Cursor, known for its AI Code Editor, is launching a new code-hosting platform to rival developers' long preferred favorite, GitHub.",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Cursor"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI institutes new safeguards after Hugging Face breach",
+      "url": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+      "published_at": "2026-08-18T18:00:00.000Z",
+      "summary": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "AI’s recursive self-improvement might not come so quickly after all",
+      "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+      "published_at": "2026-08-18T09:00:00.000Z",
+      "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on.[Forecasts](https://ai-2027.com/)of explosive AI progress predict t",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Perplexity’s free AI offer left it with millions more users in India",
+      "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
+      "published_at": "2026-08-18T13:45:40.000Z",
+      "summary": "Perplexity's India revenue rose about 60% after the Airtel offer ended for new users, even as downloads declined.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Perplexity"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "冷战核废墟变8吉瓦AI超级工厂！黄仁勋押15亿，OpenAI独霸20年",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652718738&idx=1&sn=f527db1231d449e5036fb09bfdcdbfea",
+      "published_at": "2026-08-18T08:26:00.000Z",
+      "summary": "ASI启示录 2026-08-18 16:26 北京\n\n### **新智元报道**\n\n太魔幻了。\n\n在美国俄亥俄州有片废弃了半个多世纪的土地，冷战时期是用来造原子弹的铀浓缩工厂。机器早就停了，厂房也锈了，地皮也没人要了。\n\n结果今天一大早，硅谷爆出个大新闻——\n\n英伟达、OpenAI和软银三家顶级大佬，要联手把这片核废墟，改造成了全世界最大的AI超级工厂！\n\n这块土地大约相当于4.5个纽约中央公园，大到可以容纳近590艘超级航母。\n\n70年前，这里日夜轰鸣提炼足以毁灭地球的铀；如今，同一片土地上将同时转动150万颗GPU。\n\n**老黄：AI时代的下一个瓶颈**\n\n这个超级工厂的终极电力规划，是",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "用DeepSeek网页版就能瓜分鹅厂600万？？！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=1&sn=538946e12656c0233ae4c36f04ed5611",
+      "published_at": "2026-08-18T06:05:00.000Z",
+      "summary": "原创关注前沿科技 2026-08-18 14:05 北京\n\n冠军姿势长这样\n\n##### 闻乐 发自 凹非寺 量子位 | 公众号 QbitAI\n\n济州岛，KDD 2026，太热闹了。\n\nJeff Dean等一众大佬接连现身，会场里随便转个弯，都可能碰到深耕数据挖掘领域的知名研究者。\n\n就在这一片火热交流里，一道困扰行业许久的推荐系统统一建模的问题，也终于等来了它的答案。\n\n三个月前，腾讯营销以KDD Cup 2026官方赛道的身份，向全球算法玩家扔出了一道题：\n\n**推荐系统，能不能迎来属于自己的Scaling Law时刻？**\n\n赛题聚焦「大规模推荐系统的统一序列建模与特征交互」。\n\n要求参",
+      "priority_score": 100,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "一个「流浪」数学家的遗产，正在被AI公司疯抢",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050939&idx=2&sn=ec43544ef0d7564d37952ae8f0f7a3f5",
+      "published_at": "2026-08-18T03:52:00.000Z",
+      "summary": "机器之心 2026-08-18 11:52 北京\n\nErdős 问题为什么那么受 AI 机构欢迎？\n\n机器之心编辑部\n\n2026 年 5 月 20 日，OpenAI 发了一条公告，震动了整个数学界。\n\n他们一个还没公开的 AI 模型，推翻了匈牙利数学家 Paul Erdős 在 1946 年提出的一个猜想。这是 AI 第一次产出具有历史意义的数学证明 —— 而且不是在什么边缘问题上凑数，是在一个困扰了数学界 80 年的经典问题上，找到了一个没有人想到的反例（参见《 [AI首次证明数学核心猜想：80年的经典难题，被OpenAI搞定了](https://mp.weixin.qq.com/s?__b",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "浙大开源PhyEdit：单图编辑+精准3D物体操作 | ACM MM'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652718738&idx=3&sn=3e4b43093078c764b8d86367dc0b462d",
+      "published_at": "2026-08-18T08:26:00.000Z",
+      "summary": "新智元 2026-08-18 16:26 北京\n\n### **新智元报道**\n\n图像生成模型正从「会创作」转向「可操作」。\n\n但把图片里的物体真正搬到另一个三维位置，仍是一件比换颜色、改风格困难得多的事。\n\n浙江大学ReLER团队最新开源的 **PhyEdit** ，展示了一种新的组合方式：用现成3D foundation model明确目标几何，再让强大的DiT图像编辑器负责最终渲染。\n\n结果是，单张图片里的物体不但能从近处移到远处、穿过遮挡区域，还能沿用户指定的三维轨迹形成连续状态。\n\n在ManipEval benchmark上，PhyEdit的DIoU达到 **65.33** 、Cham",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "对比与生成：抖音SOTA多模态表征模型DME",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521321&idx=1&sn=4881e96023fe955d32daac031479bc92",
+      "published_at": "2026-08-18T11:00:00.000Z",
+      "summary": "Data-搜索 2026-08-18 19:00 北京\n\n抖音搜索多模态团队联合中国人民大学高瓴人工智能学院，发布抖音多模态表征模型 **DME（Douyin Multimodal Embedding）** ，在多模态表征权威评测榜单 **MMEB-v2** （78 个数据集，覆盖图像、视频、视觉文档三大域）上，DME 模型在 2B、9B 两个参数量级下均取得对应规模 SOTA，整体得分分别达到 74.8（2B）、78.4（9B），视频与视觉文档检索的优势尤为突出。DME 的技术已部署进抖音线上系统：内部离线评测集整体相对提升 2.92%；线上 A/B 实验验证核心业务指标 **0.1% 的 ",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "Lance Meetup 2026 · 上海站｜正式开启报名！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521321&idx=2&sn=3bf7e34ca6f1ec24f8a946668b0518f5",
+      "published_at": "2026-08-18T11:00:00.000Z",
+      "summary": "Lance&LanceDB 2026-08-18 19:00 北京\n\n当 AI 迈向多模态、具身智能与大规模训推，数据基础设施如何平衡成本、性能与治理？\n\nLance & LanceDB 中文社区 · 上 海站线下沙龙将于 9 月 12 日正式举办 ， 这也是上半年继北京站之后，社区在国内举办的第二站城市沙龙。\n\n届时，LanceDB 核心成员将携手一线云厂商、芯片厂商与互联网企业技术专家，围绕多模态数据、具身智能、向量存储与开源生态，与你面对面畅聊技术实践。\n\n## 活动信息\n\n**1.时间：** 2026 年 9 月 12 日（周六）13:30 ~ 17:40\n\n**2.地点：** 上海 ",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Etched’s valuation doubles to $21B in a month",
+      "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+      "published_at": "2026-08-18T17:21:58.000Z",
+      "summary": "Jane Street has installed Etched's first shipped AI cluster system, and was so impressed, it led another massive round, the startup says.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "How Much Memory Does Your Agent Actually Need?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "published_at": "2026-08-18T18:09:38.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Googles Pet Memory forgot who my cats are",
+      "url": "https://www.theverge.com/tech/981269/google-home-gemini-pet-memory-nest-camera-review",
+      "published_at": "2026-08-18T12:01:29.000Z",
+      "summary": "One of the best things my smart home does is[help me care for my pets](https://www.theverge.com/24074059/smart-home-pet-tech-tips-gadgets-solutions), and security cameras are particularly useful for keeping track of my many critters. But the barrage of notifications they send often means I miss impo",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "任何错误只犯一次：TencentDB Agent Memory 的团队记忆实践",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803679&idx=1&sn=910b29493df93cadf43078846d630cef",
+      "published_at": "2026-08-18T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-08-18 17:36 广东\n\n任务完成率从 60% 提升到 80%\n\n当执行能力趋于充裕，组织如何重建信息流动与经验继承\nCoding Agent 正在快速扩大一个人的工作边界，但企业研发的瓶颈并没有因此自动消失。任务一旦跨越成员、Session、代码分支和权限域，真正稀缺的往往不是生成代码的能力，而是“协作的带宽”。本文从 OPC、协作带宽和孙天祥提出的三层 AI 组织架构出发，重点介绍 **TencentDB Agent Memory 在团队记忆上的工程实践** ：我们如何把任务轨迹、项目知识、代码结构和工作方法转成可治理的记忆资产，如何从 2,600 个 Se",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "6个Agent组团Vibe Gaming：自己生成、试玩、修Bug",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=2&sn=81e00adfb8b8d69ad1dcc2b2f03bfb0d",
+      "published_at": "2026-08-18T06:05:00.000Z",
+      "summary": "关注前沿科技 2026-08-18 14:05 北京\n\n代码能跑≠游戏能玩\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n给AI一句“生成一款坦克大战游戏”，代码很快跑了起来。\n\n敌方坦克出现在屏幕上，炮管锁定玩家，战斗看似已经开始。但靠近敌人后，坦克没有发射炮弹，反而挥起炮管开始近身攻击。\n\n第一眼看上去，这像是一次典型的AI抽风。继续玩下去却会发现，移动、碰撞、攻击和伤害判定都能正常工作。\n\n它偏离了常见设计，却意外形成了一套可以成立的新玩法。\n\n###### **△** 坦克挥动炮管近身攻击\n\n这也是AI生成游戏最容易被忽略的问题：代码能运行，只是第一步。真正困难",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+      "url": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai",
+      "published_at": "2026-08-18T19:48:26.000Z",
+      "summary": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as[reported earlier by, The Wrap](https://www.thewrap.com/culture-lifestyle/culture/robin-williams-kids-revive-instagram-ai-videos/). In[a post on Tuesday](https",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Why Apple’s camera-equipped AirPods may not be the ‘pervert pods’ consumers fear",
+      "url": "https://techcrunch.com/2026/08/18/why-apples-camera-equipped-airpods-may-not-be-the-pervert-pods-consumers-fear/",
+      "published_at": "2026-08-18T16:19:10.000Z",
+      "summary": "Apple’s leaked camera-equipped AirPods might avoid the privacy pitfalls of other AI wearables by preventing users from recording photos and videos.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Warp’s new system is an out-of-the-box software factory for AI development",
+      "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+      "published_at": "2026-08-18T14:00:00.000Z",
+      "summary": "On Tuesday, Warp introduced Warp Factories, a new infrastructure system designed to make building AI software factories as easy as possible.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Firefoxs Smart Window promises a better AI browser",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/981283/mozilla-firefox-smart-window-ai-features",
+      "published_at": "2026-08-18T13:00:00.000Z",
+      "summary": "Starting today, AI chats in Firefox's[Smart Window AI browsing mode](https://blog.mozilla.org/en/firefox/firefox-smart-window/)can pull from current web info and show source links in chat responses through a partnership with[Exa](https://exa.ai/). Smart Window can also now automatically suggest tab ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: how people really use AI, and Flock’s design choices",
+      "url": "https://www.technologyreview.com/2026/08/18/1142229/the-download-how-people-use-ai-flock-cameras-design/",
+      "published_at": "2026-08-18T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### We still don’t know how",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Elon Musk broke the FAA — Palantir is picking up the pieces",
+      "url": "https://www.theverge.com/transportation/981194/faa-air-traffic-elon-musk-peter-thiel-palantir",
+      "published_at": "2026-08-18T11:00:00.000Z",
+      "summary": "On August 6th, the Minneapolis Air Route Traffic Control Center[lost radar and communications for around two hours](https://aerocorner.com/news/minneapolis-artcc-atc-zero-outage/). The outage disrupted more than[1,100 flights](https://www.travelpulse.com/news/impacting-travel/air-traffic-control-out",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "马斯克带火的太空算力领域，传一个 800MB 模型上天要四周",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112231&idx=1&sn=01def39a6417be2e2f78012b9ecdeb26",
+      "published_at": "2026-08-18T10:40:00.000Z",
+      "summary": "原创曹思颀 2026-08-18 18:40 湖北\n\n​太空算力的故事开始前，地面的数据先得「排队上天」\n\n太空算力的故事开始前，地面的数据先得「排队上天」\n\n**访谈、整理 ｜曹思颀** **编辑｜ **靖宇****\n\n「所有劝我不要干太空算力的朋友，现在全在干太空算力。」\n\n太空字节联合创始人秦贵军这样描述过去一年。这家公司 2024 年底成立，做的是太空数据中心；他本人参与过北斗导航重大专项，在卫星行业干了十几年。那些劝过他的朋友也大多是同一个画像：传统航天出身，两年前还觉得把算力送上天是个不着调的故事，如今已经用脚投票。\n\n他画过一张国内太空算力的行业热力图，从长三角到北京亦庄、中关村",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Apples camera-equipped AirPods appear in leaked video",
+      "url": "https://www.theverge.com/tech/981326/apple-airpods-with-cameras-demo-video-leak",
+      "published_at": "2026-08-18T09:00:01.000Z",
+      "summary": "The AirPods in the video look like a chunkier version of Apple’s AirPods Pro 3. | Image: Apple /*[MacRumors](https://www.macrumors.com/2026/08/17/camera-equipped-airpods-macos-26-7/)*\nWe may have our first glimpse of Apple's rumored camera-equipped AirPods, thanks to a video that[MacRumors](https://",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The role of the astronaut is in flux",
+      "url": "https://www.technologyreview.com/2026/08/18/1141614/book-review-astronaut-role-in-flux/",
+      "published_at": "2026-08-18T09:00:00.000Z",
+      "summary": "When the four astronauts on board NASA’s Artemis II swung around the moon earlier this year, they set a new record for the farthest humans have ever ventured from Earth, surpassing the distance set by Apollo 13 in 1972 by some 4,000 miles. \n\nWhile no space mission can live up to the historic touchdo",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913187&idx=4&sn=28df90c87aa4b311266837756c856fcb",
+      "published_at": "2026-08-18T06:05:00.000Z",
+      "summary": "关注前沿科技 2026-08-18 14:05 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

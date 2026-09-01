@@ -1,0 +1,434 @@
+{
+  "generated_at": "2026-08-14T00:03:48.965Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 35,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "Deepseek V4 Pro 正式版 API 上线，百万 Token 仅 6 元；腾讯计划近期发布 HY4 大模型；曝 iPhone18 至少涨价 2000 元起 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111877&idx=1&sn=9011e62a8f063d1d6e7ac9a9421ccb44",
+      "published_at": "2026-08-13T00:19:00.000Z",
+      "summary": "于程程 2026-08-13 08:19 北京\n\nSpaceXAI 推出 GrokBot，对标 Anthropic 与 OpenAI；全球首款机器人手机：荣耀 Robot Phone 官宣，搭载行业最小全钛云台架构；马斯克最新 SpaceX 讲话，称必须赢得 AI 竞争\n\n## DeepSeek V4 Pro 正式版 API 更新上线，多项测试性能接近 Fable 5\n\n8 月 13 日消息，DeepSeek V4 Pro 正式版正式发布，已更新至 API，调用模型名不变。\n\n新版本增强了 Agent 能力，支持 Responses API 和 Codex 接入。\n\n从官方群放出的评测对比表可",
+      "priority_score": 550,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "xAI",
+        "Grok",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "马斯克Grok 4.6重回一梯队！更低价格反超Fable 5，这Cursor是真没白收购",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912028&idx=2&sn=43b22bbdbd9ed96c9d1afb0ce298b2db",
+      "published_at": "2026-08-13T07:38:00.000Z",
+      "summary": "关注前沿科技 2026-08-13 15:38 北京\n\nGrok 4.7也在路上了\n\n##### 克雷西 发自 凹非寺 量子位 | 公众号 QbitAI\n\n马斯克带着Grok 4.6，让SpaceXAI重新回到了大模型牌桌。\n\n它跑分反超了GPT-5.6 Sol和Fable 5 Max，价格却只要每百万token输入2美元、输出6美元，比两个对手便宜不少。\n\n衡量真实工作能力的GDPVal-AA v2上，Grok 4.6拿到了全场最高分1753，把它们都甩在了后面；AA-Briefcase和Harvey LAB两项测试，它同样排第一。\n\n目前，新模型已经同步接入Grok Build、Curso",
+      "priority_score": 452,
+      "matched_keywords": [
+        "GPT",
+        "xAI",
+        "Grok",
+        "Cursor"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "刚刚，中国AI交卷！40年难题56分钟破局，AI不再「学习」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652717902&idx=1&sn=c26d683f59d20bea28e334f3350e4022",
+      "published_at": "2026-08-13T03:36:00.000Z",
+      "summary": "ASI启示录 2026-08-13 11:36 北京\n\n### **新智元报道**\n\nAI颠覆科研，真不是闹着玩的！\n\n短短两个月，Claude、ChatGPT接连杀入数学最前沿。\n\n从雅可比猜想、十大菲尔兹奖级难题，到黎曼猜想，一路闯进人类尚未攻克的未知区。\n\n产业界另一边，AlphaFold拿下诺奖不到两年，DeepMind「明星团队」重新洗牌。\n\n核心成员转战Gemini、AI编程和其他科学项目，Hassabis则转向一个更大的目标：\n\n用AI重构药物研发，最终消除人类疾病。\n\n谷歌并未放弃AI4S，反而将目标拔到了更高的维度。\n\nAI过去学的是人类已经知道的知识；现在，它开始搜索人类还",
+      "priority_score": 400,
+      "matched_keywords": [
+        "Claude",
+        "ChatGPT",
+        "GPT",
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI introduces ‘Ultrafast,’ a new mode that makes GPT-5.6 Sol work at 14x the speed",
+      "url": "https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/",
+      "published_at": "2026-08-13T19:22:40.000Z",
+      "summary": "OpenAI is launching a preview of a sped up version of its latest, most powerful model, in an effort to court enterprise users.",
+      "priority_score": 250,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "published_at": "2026-08-13T18:28:14.000Z",
+      "summary": "Anthropic researchers found AI agents can clash, collude, and coordinate in unexpected ways, raising new questions about whether today’s safety tests capture the risks of multi-agent systems.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Anthropic",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "困扰数学圈22年的难题，居然被协和实习医生解决了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652717902&idx=2&sn=bfec895c922b7afe9d3742cfbb811867",
+      "published_at": "2026-08-13T03:36:00.000Z",
+      "summary": "ASI启示录 2026-08-13 11:36 北京\n\n### **新智元报道**\n\n刚刚，数学圈炸了。\n\n一个折磨了全球顶尖数学家22年的核心猜想，竟然被一位协和 **神经外科医生** 给解决了？\n\n他通过自学数学，用ChatGPT 5.6自主跑16小时，终结了这个22年的数学悬案。这简直太魔幻了。\n\n2026年7月30日，美国华盛顿大学应用数学系教授Alex Townsend像往常一样，打开了arXiv。\n\n在此前的一年里，Townsend几乎形成强迫症式的习惯：他每隔一段时间就会向GPT 5.6提问，试图让它证明数值线性代数领域那个著名的悬案—— **Crouzeix猜想** 。\n\n在过",
+      "priority_score": 200,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "真卷啊，AI编程老祖Devin估值反超Cursor了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912028&idx=3&sn=9d6b4fabce80f7a333ca1b97721036fc",
+      "published_at": "2026-08-13T07:38:00.000Z",
+      "summary": "关注前沿科技 2026-08-13 15:38 北京\n\n3秒配好一套开发环境\n\n##### 程浅 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI编程赛道已经卷的人麻木了。\n\n刚刚，Devin的开发商Cognition交出一份新成绩单： **年化收入（ARR）逼近10亿美元** ，比上一轮融资时几乎翻了一倍。\n\n成绩单背后，是一轮还没正式官宣的新融资——估值目标直奔 **400亿美元** 。\n\n三个月前，这个数字还停留在260亿美元，涨幅54%……\n\n这意味着Cognition将正式反超Cursor被SpaceX收购前在私募市场拿到的293亿美元估值。\n\n要知道在此前，Cursor曾被称",
+      "priority_score": 124,
+      "matched_keywords": [
+        "Cursor"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+      "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+      "published_at": "2026-08-13T21:13:24.000Z",
+      "summary": "Built as a post-training variation on Z.ai's open source model GLM-5.2, Writer says the new system should provide deployment-ready capabilities at a much lower price.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "GLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "Agent 越改越乱之后，我用评测和轨迹把它拉回来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511106&idx=1&sn=e3e481953f140ab1a9afb73f7c40221f",
+      "published_at": "2026-08-13T11:21:00.000Z",
+      "summary": "原创孙成心 2026-08-13 19:21 浙江\n\n关于如何把「改 skill」这件事变成一套可重复的流程，本文或许能够提供一些经验和参考\n\n这是2026年的第 51 篇文章\n\n（ 本文阅读时间：约 25 分钟 ）\n\n01\n\n解决什么问题\n\n现在很多人都在用 AI agent 干活：写一份 skill（也就是 SKILL.md 这份「工作手册」）告诉它一类任务该怎么一步步进行，然后让 skill 自己跑。比如一个做安全审计的 agent，skill 里写着「先定位接口、再追调用链、最后判断有没有漏洞」。这份 skill 像是一套结构化的方法论，会直接影响 agent 处理这一类任务的上限。\n",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI is losing its second executive this week",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/979815/openai-denise-dresser-leaving-executive-departure",
+      "published_at": "2026-08-13T19:28:39.000Z",
+      "summary": "Another OpenAI executive is departing. Denise Dresser, who joined OpenAI as its chief revenue officer[in December](https://www.theverge.com/news/841540/openai-slack-ceo-denise-dresser-chief-revenue-officer)after serving as CEO of Slack, will be leaving in the \"coming weeks\" to \"pursue other opportun",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "IBM partners with OpenAI to bolster enterprise AI push",
+      "url": "https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/",
+      "published_at": "2026-08-13T19:19:49.000Z",
+      "summary": "IBM plans to train and certify tens of thousands of consultants on OpenAI's technologies as part of this deal.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI hires new CRO as executive shake-up continues",
+      "url": "https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/",
+      "published_at": "2026-08-13T17:07:13.000Z",
+      "summary": "OpenAI has replaced chief revenue officer Denise Dresser after just nine months on the job, tapping Wiz president and chief operating officer Dali Rajic to take on frontier lab's top sales job.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "I looked inside an AI generated movie, and the best parts were all human",
+      "url": "https://www.theverge.com/entertainment/977994/higgsfield-ai-cully-hill-boys-black-list",
+      "published_at": "2026-08-13T15:30:00.000Z",
+      "summary": "Imagine a trio of bumbling, English lads who fantasize about becoming megastars while knocking back a few pints in a grimy pub somewhere in London. Picture the guys chortling and trying to one-up each other's idealized visions of the future with a series of increasingly glitzy fantasies in which the",
+      "priority_score": 100,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia’s new $500B plan is risky but brilliant, especially for aging GPUs",
+      "url": "https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/",
+      "published_at": "2026-08-13T15:08:00.000Z",
+      "summary": "Nvidia has a plan to make sure its GPUs won't lose value. It wants to convince a new crop of financiers to keep lending for AI buildouts.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "刚刚！Ilya首个模型曝光了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912028&idx=1&sn=6a4b6d6ad9bc0348547d90eb8818b1d8",
+      "published_at": "2026-08-13T07:38:00.000Z",
+      "summary": "关注前沿科技 2026-08-13 15:38 北京\n\nSSI第一剑，劈向持续学习\n\n##### henry 发自 凹非寺 量子位 | 公众号 QbitAI\n\n前OpenAI首席科学家Ilya，大概就是「哥已不在江湖，但江湖却到处都是哥的传说」的典型代表。\n\n亲手缔造深度学习时代的他，离开OpenAI已两年有余。自己创办的SSI不发模型，不做产品，几乎从牌桌上消失。\n\n可AI圈每隔一段时间，还是会有人追问同一个问题：Ilya在干嘛？\n\n现在，这件问题突然有了一个答案。\n\n就在刚刚，X上网友「三只草莓」（）爆料，SSI正在探索一种基于 **TTT（Test-Time Training，测试时训练",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+      "url": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired",
+      "published_at": "2026-08-13T21:42:38.000Z",
+      "summary": "Mico is headed to Learn Live. | Image: Microsoft\nMicrosoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a[support page](https://support.microsoft.com/en-us/microsoft-365-copilot/frequently-asked-questions-about-retired-copilot-features), Micros",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Suno is trying to look more like a real music production tool",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/979345/suno-studio-2-0-midi-chatbot-custom-effects",
+      "published_at": "2026-08-13T16:00:00.000Z",
+      "summary": "[Suno](https://www.theverge.com/ai-artificial-intelligence/786349/suno-ai-music-generator-v5-review)is releasing Studio 2.0 with significant upgrades that push it closer to an actual digital audio workstation (DAW), rather than a bare-bones audio editor with generative AI features. The biggest addit",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Microsoft kills off unsuccessful AI features while merging its separate Copilot apps",
+      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "published_at": "2026-08-13T15:30:52.000Z",
+      "summary": "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "3D指标超过Nano Banana Pro！浙大开源方案让AI在平面图像里进行立体编辑 | ACM MM'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912028&idx=4&sn=c106858467e16b7df780265696c61fe3",
+      "published_at": "2026-08-13T07:38:00.000Z",
+      "summary": "关注前沿科技 2026-08-13 15:38 北京\n\n摆脱文本盲猜，用显式3D几何约束解决AI图像编辑瓶颈\n\n##### ReLER 团队 投稿 量子位 | 公众号 QbitAI\n\n图像编辑常有这种需求：一排物体摆在桌上，需要把最后方的物体移动到最前方。\n\n这对人类来说是自然的视觉透视，但对AI而言，却是一连串复杂的几何难题。\n\n物体靠近后尺寸要放大，遮挡关系需要重新计算，原位置不能留残影，外观和纹理还得保持原样——任何一个环节出错，画面就会立刻穿帮。\n\n每一步都关乎三维空间的物理常识，而这恰恰是当前图像编辑模型最容易翻车的地方——语义指令它听懂了，但生成出来的三维状态，却常常错得离谱。\n\n",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+      "published_at": "2026-08-13T20:14:39.000Z",
+      "summary": "AI is expensive, Ali Ghodsi tells TechCrunch. With so many investors wanting into his latest round, he said yes to more than planned.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Building a practical path to post-quantum cryptography",
+      "url": "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/",
+      "published_at": "2026-08-13T18:11:42.000Z",
+      "summary": "Quantum computing has alternated between breakthrough darling and overhyped promise in technology circles. Its powerful new capabilities come with a threat to break current cryptography, but for business leaders navigating the noise, the signal should be clear: post-quantum cryptography (PQC) is a m",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "published_at": "2026-08-13T17:16:04.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Roundtables: Inside the “Censorship-Industrial Complex” Idea Shaping US Policy",
+      "url": "https://www.technologyreview.com/2026/08/13/1141399/roundtables-inside-the-censorship-industrial-complex-idea-shaping-us-policy/",
+      "published_at": "2026-08-13T21:00:00.000Z",
+      "summary": "**Listen to the session or watch below**\n\nThe[“censorship-industrial complex”](https://www.technologyreview.com/2026/08/04/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy&amp;itm_source=Roundtables)is an idea that a network of government, tech, and researc",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "published_at": "2026-08-13T17:04:18.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "published_at": "2026-08-13T16:45:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\">Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple in talks to pay publishers to provide Siri with current news: report",
+      "url": "https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/",
+      "published_at": "2026-08-13T14:34:43.000Z",
+      "summary": "The tech giant has considered a nine-figure budget for the payments, according to the WSJ.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "全景相机的第二个 10 年，影石想革自己的命",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111928&idx=1&sn=7356a09fa082187760ea1598714bffd7",
+      "published_at": "2026-08-13T14:12:00.000Z",
+      "summary": "Hardwire 2026-08-13 22:12 北京\n\n​让全景相机不再吃灰，比堆画质难多了。\n\n本文转载自 Hardwire，欢迎关注，共同看见硬件行业新风向 👇\n\n让全景相机不再吃灰，比堆画质难多了。\n\n**作者｜曹思颀** **编辑｜郑玄**\n\n你上一次打开全景相机，是什么时候？\n\n几个全景品类的老用户告诉我：全景相机很容易「吃灰」。他们当年冲着拍出酷炫的运动视频下单，到手之后发现不是没有相机，而是没那么多时间去滑雪、潜水、登山……机器用了几次就放抽屉里了。\n\n不过，更多最近一年入手全景相机的朋友，给出了完全不同的答案。他们的使用场景不再局限在户外运动，亲子、旅行、自驾游是他们更主",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Does Google even want to win at AI?",
+      "url": "https://www.theverge.com/podcast/979370/google-deepmind-ai-race-lose-jeff-dean-demis-hassabis",
+      "published_at": "2026-08-13T14:10:31.000Z",
+      "summary": "Today on*Decoder*, I’m talking with Hayden Field,*The Verge*’s senior AI reporter, about a question that’s been rocketing around the tech industry for the past week: Is Google losing the AI race?\n\nThat’s because last week Google announced a bombshell reorganization of its AI division, Google DeepMin",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "url": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+      "published_at": "2026-08-13T13:41:10.000Z",
+      "summary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid concerns about mass surveillance and police abuse.\n\nSeveral changes aim directly",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft is combining its Copilot apps ahead of a ‘super app’",
+      "url": "https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience",
+      "published_at": "2026-08-13T13:30:00.000Z",
+      "summary": "You soon won’t have to look at two Copilot apps in your Windows taskbar. | Image: Microsoft\nMicrosoft is finally beginning to combine its consumer and commercial Copilot AI assistants into a single \"super app\" interface, starting with the Copilot and Microsoft 365 Copilot apps. Both personal and wor",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: kids’ thoughts on AI, and female clones of male mice",
+      "url": "https://www.technologyreview.com/2026/08/13/1141896/the-download-kids-thoughts-on-ai-female-clones-male-mice/",
+      "published_at": "2026-08-13T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **How kids feel about A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "What’s behind this summer’s heat, and why 2027 could be worse",
+      "url": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/",
+      "published_at": "2026-08-13T10:00:00.000Z",
+      "summary": "This summer has been a scorcher for much of the Northern Hemisphere. June and July marked the[hottest two-month stretch](https://www.reuters.com/sustainability/cop/western-europe-saw-warmest-june-july-record-eu-scientists-say-2026-08-10/)in Europe since record-keeping began. The contiguous US endure",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "当 AI 开始批量写 HTML，WorkBuddy 想解决「生成之后」的问题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111923&idx=1&sn=8cf1553ea1b473c519d1cdf1ae38f487",
+      "published_at": "2026-08-13T09:42:00.000Z",
+      "summary": "原创连冉 2026-08-13 17:42 北京\n\n更好用的「AI 时代的 Office」。\n\n**作者｜连冉** **编辑｜ **郑玄****\n\n「人人都应该有一个 AI 工作台」，最近这段时间，网络上掀起了一阵搭建个人工作台的热潮。\n\n先是一位百万级大网红用 WorkBuddy 几句话搭出了一个专属工作台，视频发出后，抖音、小红书的评论区随即变成了「大型交作业现场」——有人搭自媒体选题看板，有人做健身打卡记录，有人给一年级孩子做暑期学习计划，有人整了短视频带货管理系统……\n\n但热闹之下，一个共性问题也很快浮出水面：工作台搭起来容易，用起来却卡壳了。\n\n不少用户在晒完新鲜感之后，很快发现了同",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "How kids feel about AI, in their own words",
+      "url": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
+      "published_at": "2026-08-13T09:00:00.000Z",
+      "summary": "When we set out to talk to kids about artificial intelligence, we thought we knew what we’d hear. We expected some to tell us they were using it to cheat a little, the way Millennials and Gen Xers opened up CliffsNotes or programmed formulas into their TI-82s, and others to share inspiring ways they",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912028&idx=5&sn=f31103cab5fdbaeef08f1e41348a3042",
+      "published_at": "2026-08-13T07:38:00.000Z",
+      "summary": "关注前沿科技 2026-08-13 15:38 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

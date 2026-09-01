@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-08-26T00:03:04.910Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-08-25",
+  "source_count": 20,
+  "time_filtered_count": 20,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2092225524210827424",
+      "text": "We just open-sourced our entire marketing playbook.\n\nAfter huge viral success with our Marketing OS running on Grok Bot, we decided to bring it to Claude.\n\nIntroducing Marketing AGI by Maxfusion.\n\nYou no longer need your first 5 marketing hires.\n\n📁 Marketing Department\n┃\n┣ 📁 Head of Marketing\n┃ ┣ 📁 Positioning & Offer Design\n┃ ┣ 📁 Pricing Strategy\n┃ ┗ 📁 Competitor Teardowns, Public Data Only\n┃\n┣ 📁 Copywriter\n┃ ┣ 📁 20 Variants, Panel-Scored\n┃ ┣ 📁 Email Sequences, Written in Full\n┃ ┗ 📁 Posts Built to Survive the Feed\n┃\n┣ 📁 Creative Strategist\n┃ ┣ 📁 The 18-Tactic Hook Engine\n┃ ┣ 📁 Fatigue Caught at the Concept Level\n┃ ┗ 📁 Next Tests, Ranked & Briefed\n┃\n┣ 📁 Launch Lead\n┃ ┣ 📁 The Runway Before Launch Day\n┃ ┗ 📁 Product Hunt, Hour by Hour\n┃\n┣ 📁 GEO Lead\n┃ ┣ 📁 Ranked by ChatGPT & Perplexity\n┃ ┗ 📁 App Store, Metadata to Screenshots\n┃\n┗ 📁 Analyst\n　 ┣ 📁 Audits, Weighted 0-100\n　 ┣ 📁 Numbers That Mean Something\n　 ┗ 📁 AI Slop, Caught on Sight\n\nAnd they coordinate all the work:  \n\nA single Claude skill runs the whole loop: \n\nThe Analyst finds the problems, the Copywriter rewrites it, the Creative Strategist tests the new version, and the Analyst grades the outcome.\n\nComment \"AGI\" and I'll send you the setup.",
+      "createdAt": "Tue Aug 25 12:20:11 +0000 2026",
+      "viewCount": 344526,
+      "likeCount": 1508,
+      "retweetCount": 316,
+      "author": {
+        "userName": "OriSilver",
+        "name": "Ori Silver",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/OriSilver/status/2092225524210827424",
+      "is_official": false
+    },
+    {
+      "id": "2092344873764704345",
+      "text": "The WebMCP Challenge is here.\n\nWe’ve teamed up with @ChromiumDev, @CloudflareDev, @ShopifyDevs, @vercel, @render, and @Netlify for a 10-day hackathon.\n\nUp for grabs: $35,000 in cash prizes, Codex Micros, ChatGPT Pro subscriptions, and more prizes from our supporters. https://t.co/J7CGKSxggZ",
+      "createdAt": "Tue Aug 25 20:14:26 +0000 2026",
+      "viewCount": 173337,
+      "likeCount": 1506,
+      "retweetCount": 118,
+      "author": {
+        "userName": "OpenAIDevs",
+        "name": "OpenAI Developers",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAIDevs/status/2092344873764704345",
+      "is_official": true
+    },
+    {
+      "id": "2092231461092933952",
+      "text": "Plato was actually right..\n\nResearchers proved every LLM on earth is converging on the exact same \"universal geometry\" of meaning.\n\nThey built a method that can translate between ANY model's embeddings without ever seeing the original text or using paired data.\n\ndifferent architectures, different training sets, different parameter counts.. it doesn't matter.\n\nUntil now, every AI model has lived in its own isolated mathematical universe.\n\nAn embedding vector from Claude meant nothing to GPT, and a vector from Llama meant nothing to Gemini. They spoke entirely different geometric languages.\n\nTo bridge them, you always needed paired datasets, complex encoders, or heavy fine-tuning.\n\nThen researchers dropped a bombshell paper.\n\nThey built a system that can translate between any model's embeddings without ever seeing the original text, without encoders, and without a single pair of matching data.\n\nHow?\n\nBecause the geometry is already there.\n\nDifferent models, built by different companies, with totally different architectures, parameter counts, and training data, are all naturally drifting toward the exact same underlying latent structure of human meaning.\n\nThe Platonic Representation Hypothesis isn't just a theory anymore. It’s a mathematical reality.\n\nThey built an unsupervised method that maps an unknown embedding from one model straight into a universal representation space, matching text vectors across different models with shockingly high precision.\n\nBut here is the dark side nobody is talking about.\n\nIf meaning has a universal geometry, and vectors can be freely translated across models without the original text or encoders...\n\nVector databases are wide open.\n\nAn adversary with access only to a company's stored embedding vectors can translate them, invert them, and extract sensitive internal documents, personal data, and proprietary codebases without ever hacking the model itself.",
+      "createdAt": "Tue Aug 25 12:43:46 +0000 2026",
+      "viewCount": 59321,
+      "likeCount": 1108,
+      "retweetCount": 180,
+      "author": {
+        "userName": "HowToPrompt__",
+        "name": "How To Prompt",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/HowToPrompt__/status/2092231461092933952",
+      "is_official": false
+    },
+    {
+      "id": "2092366554965107164",
+      "text": "ChatGPT Work can now use its computer and browser to sign in to websites on web and mobile, without ChatGPT ever seeing your username or password.\n\nThat means you can ask it to:\n• Set up utilities for a new apartment\n• Book a DMV or passport appointment\n• Check reimbursement costs through your insurance\n• Find and book an in-network doctor around your availability\n• Check when your car registration expires and prepare the renewal paperwork\n• Compare your rental insurance policy with an issue you’re emailing your landlord about\n• Find and save apartment listings that match your criteria\n• Restock something just by uploading a photo\n• Schedule a package pickup for a return\n• Cancel tickets for a rescheduled trip\n• Book a vet appointment\n• Submit reimbursement paperwork for medical treatments\n• Check resale sites for new drops and save things you might like\n• Find candidates with specific experience and draft outreach\n• Take invoices from your email and submit them to your accounting software\n• Draft replies to rental property inquiries\n• Fill out permit applications for your small business\n• Add action items to a vendor portal based on a recent client call\n• Analyze the latest ad campaign for your small business",
+      "createdAt": "Tue Aug 25 21:40:35 +0000 2026",
+      "viewCount": 285870,
+      "likeCount": 4317,
+      "retweetCount": 292,
+      "author": {
+        "userName": "ChatGPT",
+        "name": "ChatGPT",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/ChatGPT/status/2092366554965107164",
+      "is_official": true
+    },
+    {
+      "id": "2092292445614559351",
+      "text": "&gt; potential revenue: $30T\n&gt; world GDP: ~$120T https://t.co/7S7v22iUb5",
+      "createdAt": "Tue Aug 25 16:46:06 +0000 2026",
+      "viewCount": 644831,
+      "likeCount": 17966,
+      "retweetCount": 712,
+      "author": {
+        "userName": "Hesamation",
+        "name": "ℏεsam",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Hesamation/status/2092292445614559351",
+      "is_official": false
+    },
+    {
+      "id": "2092090827690610914",
+      "text": "Qwen3.8-27B at #9 overall on Code Arena, the only model in its size class in the top 10.😎 Small but mighty. Thanks for the recognition! @arena",
+      "createdAt": "Tue Aug 25 03:24:57 +0000 2026",
+      "viewCount": 95014,
+      "likeCount": 1253,
+      "retweetCount": 85,
+      "author": {
+        "userName": "Alibaba_Qwen",
+        "name": "Qwen",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Alibaba_Qwen/status/2092090827690610914",
+      "is_official": true
+    },
+    {
+      "id": "2092088373687328791",
+      "text": "I just discovered an awesome compression algorithm: your 4000 word blog post can be compressed down to the prompt you gave Claude to write it.",
+      "createdAt": "Tue Aug 25 03:15:12 +0000 2026",
+      "viewCount": 104682,
+      "likeCount": 4771,
+      "retweetCount": 215,
+      "author": {
+        "userName": "QuinnyPig",
+        "name": "Corey Quinn",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/QuinnyPig/status/2092088373687328791",
+      "is_official": false
+    },
+    {
+      "id": "2092253876137205982",
+      "text": "The wait is over! Meet Arduino VENTUNO Q, where AI takes action. \n\n💬 Run local LLMs like Qwen 3, Gemma 4, and Qwen 3 VLM directly on the board\n🧠 NPU + CPU + GPU +MCU: @Qualcomm Dragonwing IQ-8275 with up to 40 dense TOPS of AI performance and STM32H5 microcontroller for real-time control\n🗄️ 16 GB RAM + 64 GB eMMC + expandable storage\n🪁 Linux-powered, pre-loaded with Ubuntu OS + Zephyr RTOS\n🛠️ Build AI faster using Arduino App Lab, @huggingface, @EdgeImpulse, and Qualcomm AI Hub\n💨 Move seamlessly from prototype to production through Works with Arduino Certification Program\n\nThe first batch won’t last. Pre-order your VENTUNO Q with a free power supply and USB-C cable included! Get ready to enter a new era of Physical AI: https://t.co/YpDhKRuX6y",
+      "createdAt": "Tue Aug 25 14:12:50 +0000 2026",
+      "viewCount": 409974,
+      "likeCount": 2268,
+      "retweetCount": 305,
+      "author": {
+        "userName": "arduino",
+        "name": "Arduino",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/arduino/status/2092253876137205982",
+      "is_official": false
+    },
+    {
+      "id": "2092120477502460231",
+      "text": "🚨RIP CAPCUT\n\nGOOGLE GEMINI CAN NOW EDIT YOUR VIDEOS FOR YOU AND MAKE AMAZING CONTENT IN SECONDS\n\nHERE ARE 10 PROMPTS THAT DO IT ALL: 👇",
+      "createdAt": "Tue Aug 25 05:22:46 +0000 2026",
+      "viewCount": 124673,
+      "likeCount": 1136,
+      "retweetCount": 255,
+      "author": {
+        "userName": "heyalexmoore",
+        "name": "Alex Moore",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/heyalexmoore/status/2092120477502460231",
+      "is_official": false
+    },
+    {
+      "id": "2092065399701471396",
+      "text": "Major Western companies that have built AI products on Chinese models:\n- Thomson Reuters -&gt; Qwen\n- Harvey -&gt; Kimi K3\n- Cursor -&gt; Kimi K2.5\n- Airbnb -&gt; Qwen\n- Perplexity -&gt; DeepSeek",
+      "createdAt": "Tue Aug 25 01:43:54 +0000 2026",
+      "viewCount": 155730,
+      "likeCount": 1228,
+      "retweetCount": 213,
+      "author": {
+        "userName": "kyleichan",
+        "name": "Kyle Chan",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/kyleichan/status/2092065399701471396",
+      "is_official": false
+    },
+    {
+      "id": "2092315079576555806",
+      "text": "OpenWorker -- an open source agent that doesn't just chat but completes tasks on your laptop -- just released a new version with many features for security workflows. \n\nAfter our initial release, many users found it especially useful for cybersecurity. Attackers are already using AI; OpenWorker is committed to giving defenders the same leverage. Running an agent requires both (i) A model and (ii) A harness (the software around the model). Because the OpenWorker harness is fully open source, security teams can audit it to make sure we haven't built any backdoors that exfiltrate your code and data to some company or even a foreign adversary.\n\nOpenWorker now comes with built-in cybersecurity agents for (i) Scanning your code for vulnerabilities. (ii) Scanning dependencies for supply chain injections. (iii) Checking your cloud security configuration for attack surfaces. This enables developers to do much more security work before deployment (part of what's called the \"shift left\" movement).\n\nYou choose the model: you can run open weight models fully locally so sensitive code never leaves your machine. This helps with legitimate security work (like reproducing a known exploit to defend against it) that can trigger refusals in leading closed models. Or use your ChatGPT subscription, or stealth preview models like Ox Alpha, or any model via API key.\n\nThanks also to all the open source contributors!\n\nJoin work with @rohitcprasad so please follow him too to get more frequent updates.\n\nTry it out: https://t.co/QPZLudn7ug\nCode: https://t.co/NYCiTD6hSq",
+      "createdAt": "Tue Aug 25 18:16:02 +0000 2026",
+      "viewCount": 91753,
+      "likeCount": 1557,
+      "retweetCount": 189,
+      "author": {
+        "userName": "AndrewYNg",
+        "name": "Andrew Ng",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AndrewYNg/status/2092315079576555806",
+      "is_official": false
+    },
+    {
+      "id": "2092268362386780270",
+      "text": "Today we’re launching Portable Computer on @NVIDIA DGX Spark.\n\nPortable Computer is a fully local version of Perplexity Computer, where the entire runtime: orchestrator LLM, subagent LLM, agent harness all run on your local hardware. No cloud dependency. https://t.co/plVWz5PaAw",
+      "createdAt": "Tue Aug 25 15:10:24 +0000 2026",
+      "viewCount": 443535,
+      "likeCount": 3019,
+      "retweetCount": 293,
+      "author": {
+        "userName": "perplexity_ai",
+        "name": "Perplexity",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/perplexity_ai/status/2092268362386780270",
+      "is_official": true
+    },
+    {
+      "id": "2092086156221657348",
+      "text": "🚨 DeepSeek Flash Vision Is The New King of Open Source\n\n- DS Flash Vision is 10x cheaper than Kimi K3\n- It beats GLM 5.3 on performance \n- very good at agentic coding\n- works with images \n\nThis is the first open source model we have it in production 🚀 https://t.co/Gl4IZBu7uy",
+      "createdAt": "Tue Aug 25 03:06:23 +0000 2026",
+      "viewCount": 66035,
+      "likeCount": 1008,
+      "retweetCount": 63,
+      "author": {
+        "userName": "bindureddy",
+        "name": "Bindu Reddy",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/bindureddy/status/2092086156221657348",
+      "is_official": false
+    },
+    {
+      "id": "2092144427968151923",
+      "text": "I can officially confirm that posting on X did in fact change my life. 🥹\n\nToday was my first day at OpenAI as part of the GTM team!\n\nStill feels a little surreal to say that. So excited for this next chapter and everything I’m about to learn, build, and experience. ❤️ https://t.co/povFZlpy6X",
+      "createdAt": "Tue Aug 25 06:57:56 +0000 2026",
+      "viewCount": 59470,
+      "likeCount": 1274,
+      "retweetCount": 24,
+      "author": {
+        "userName": "Safinazelhadry",
+        "name": "Safinaz Elhadary",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Safinazelhadry/status/2092144427968151923",
+      "is_official": false
+    },
+    {
+      "id": "2092255772214509698",
+      "text": "You can now fine-tune Qwen3.8-27B for free with our notebook! 🔥\n\nLocal training works on 24GB VRAM.\n\nUnsloth trains Qwen3.8-27B 1.5x faster with 50% less VRAM.\n\nGitHub: https://t.co/aZWYAtakBP\nQwen3.8-27B Notebooks + Guide: https://t.co/3GE3WVWIOY https://t.co/lKJj9547X8",
+      "createdAt": "Tue Aug 25 14:20:22 +0000 2026",
+      "viewCount": 69597,
+      "likeCount": 1399,
+      "retweetCount": 161,
+      "author": {
+        "userName": "UnslothAI",
+        "name": "Unsloth AI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/UnslothAI/status/2092255772214509698",
+      "is_official": true
+    },
+    {
+      "id": "2092335305366069305",
+      "text": "Introducing ChatGPT Business Premium Seats\n\nThe new $100 Premium seat is a game changer for small businesses and startups—giving lean teams better tools, faster workflows, and capabilities once reserved for big companies.\n\nA flexible plan that scales with your team’s ambition.\n\nhttps://t.co/zxvwwaOaVF",
+      "createdAt": "Tue Aug 25 19:36:25 +0000 2026",
+      "viewCount": 677042,
+      "likeCount": 2597,
+      "retweetCount": 149,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2092335305366069305",
+      "is_official": true
+    },
+    {
+      "id": "2092150364376318413",
+      "text": "i’ve had 5289365493 diet cokes in the last one week while waiting for claude to get refilled.\n\nso i built diet coke, for my dearest claude\n\nget one for your claude - https://t.co/caOxgMuCLd https://t.co/QmUu8dFEm7",
+      "createdAt": "Tue Aug 25 07:21:31 +0000 2026",
+      "viewCount": 203666,
+      "likeCount": 1300,
+      "retweetCount": 99,
+      "author": {
+        "userName": "sur_singla",
+        "name": "Sur",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sur_singla/status/2092150364376318413",
+      "is_official": false
+    },
+    {
+      "id": "2092299704864284888",
+      "text": "Claude now has one memory across chat and Claude Cowork, and you decide what's in it.\n\nHand Cowork a task and it starts from what Claude already knows from your chats: the project you talked through, your manager's preferences, or the client from last quarter. https://t.co/ViKapsT8K6",
+      "createdAt": "Tue Aug 25 17:14:57 +0000 2026",
+      "viewCount": 455348,
+      "likeCount": 5596,
+      "retweetCount": 313,
+      "author": {
+        "userName": "claudeai",
+        "name": "Claude",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/claudeai/status/2092299704864284888",
+      "is_official": true
+    },
+    {
+      "id": "2092335329110004140",
+      "text": "A few updates to scheduled tasks in ChatGPT Work on web and mobile: Plus and Pro users can now set tasks to respond when something changes in Slack, Gmail, and Github, rather than just run on a set schedule. \n\nWe’re also rolling out scheduled tasks in ChatGPT to Free users, who can create up to three tasks. \n\nYou can also now share your favorite tasks for others to customize and use.",
+      "createdAt": "Tue Aug 25 19:36:30 +0000 2026",
+      "viewCount": 89975,
+      "likeCount": 1574,
+      "retweetCount": 101,
+      "author": {
+        "userName": "ChatGPT",
+        "name": "ChatGPT",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/ChatGPT/status/2092335329110004140",
+      "is_official": true
+    }
+  ]
+}

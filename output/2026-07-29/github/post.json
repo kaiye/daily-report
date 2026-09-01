@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-07-29T00:04:16.324Z",
+  "source_raw": "raw.json",
+  "source_count": 12,
+  "item_count": 10,
+  "language_breakdown": {
+    "TypeScript": 3,
+    "Java": 1,
+    "JavaScript": 1,
+    "Python": 4,
+    "Go": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars_today": 341,
+      "stars_total": 18674,
+      "forks": 2526
+    },
+    {
+      "rank": 2,
+      "repo": "jenkinsci/jenkins",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "stars_today": 180,
+      "stars_total": 26065,
+      "forks": 9687
+    },
+    {
+      "rank": 3,
+      "repo": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars_today": 797,
+      "stars_total": 44736,
+      "forks": 4447
+    },
+    {
+      "rank": 5,
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars_today": 636,
+      "stars_total": 234786,
+      "forks": 35774
+    },
+    {
+      "rank": 6,
+      "repo": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "stars_today": 227,
+      "stars_total": 7210,
+      "forks": 954
+    },
+    {
+      "rank": 7,
+      "repo": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "stars_today": 423,
+      "stars_total": 11319,
+      "forks": 1338
+    },
+    {
+      "rank": 8,
+      "repo": "opengeos/GeoLibre",
+      "url": "https://github.com/opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "language": "TypeScript",
+      "stars_today": 607,
+      "stars_total": 3380,
+      "forks": 390
+    },
+    {
+      "rank": 9,
+      "repo": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "stars_today": 309,
+      "stars_total": 9563,
+      "forks": 1290
+    },
+    {
+      "rank": 11,
+      "repo": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars_today": 662,
+      "stars_total": 21463,
+      "forks": 695
+    },
+    {
+      "rank": 12,
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "stars_today": 988,
+      "stars_total": 12072,
+      "forks": 1212
+    }
+  ]
+}

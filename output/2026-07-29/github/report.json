@@ -1,0 +1,48 @@
+{
+  "report_date": "2026-07-29",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜的 AI 相关项目最热方向集中在围绕大模型构建代理能力扩展，尤其是语音、视频理解与开发工作流增强。",
+  "items": [
+    {
+      "repo": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 自托管、由你拥有的 Grok Companion，把 waifu 与赛博生命的灵魂带入我们的世界，并以达到 Neuro-sama 的高度为目标；支持实时语音聊天以及游玩 Minecraft、Factorio，兼容 Web、macOS 和 Windows。",
+      "language": "TypeScript",
+      "stars_today": 797,
+      "stars_total": 44736
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "面向 Claude Code、Codex、Opencode、Cursor 等的代理 harness 性能优化系统，涵盖技能、本能、记忆、安全与研究优先开发。",
+      "language": "JavaScript",
+      "stars_today": 636,
+      "stars_total": 234786
+    },
+    {
+      "repo": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "使用开源模型构建本地语音代理。",
+      "language": "Python",
+      "stars_today": 227,
+      "stars_total": 7210
+    },
+    {
+      "repo": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "把任何技术书籍 PDF 转成 Claude Code 技能，方便学习、参考并在工作中直接使用。",
+      "language": "Python",
+      "stars_today": 423,
+      "stars_total": 11319
+    },
+    {
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "让 Claude 拥有观看任意视频的能力，/watch 会下载视频、提取帧、转写内容，并将全部信息交给 Claude。",
+      "language": "Python",
+      "stars_today": 988,
+      "stars_total": 12072
+    }
+  ]
+}

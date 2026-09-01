@@ -1,0 +1,450 @@
+{
+  "generated_at": "2026-08-28T00:02:31.995Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 36,
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "Here’s all the times AI has gone rogue and hacked other companies",
+      "url": "https://techcrunch.com/2026/08/27/heres-all-the-times-ai-has-gone-rogue-and-hacked-other-companies/",
+      "published_at": "2026-08-27T14:01:42.000Z",
+      "summary": "A recap of all the incidents involving LLMs made by Anthropic, Meta, and OpenAI, which went rogue and attacked real companies and individuals on the internet.",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI to start showing ads on ChatGPT’s free and Go tiers in India",
+      "url": "https://techcrunch.com/2026/08/27/openai-to-start-showing-ads-on-chatgpts-free-and-go-tiers-in-india/",
+      "published_at": "2026-08-27T11:35:59.000Z",
+      "summary": "OpenAI has more than 100 million weekly active ChatGPT users in India, a huge chunk of whom are on the free or the lower-priced Go tiers.",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "Ox Alpha「牛来」 身份揭晓；黄仁勋：AI 已迈过商业化拐点；世界人形机器人运动会闭幕：天工 Ultra 百米跑出 8 秒 64｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112732&idx=1&sn=0f42387fba8026a9603a21b24b1a4c96",
+      "published_at": "2026-08-27T00:28:00.000Z",
+      "summary": "Moonshot 2026-08-27 08:28 重庆\n\n亚马逊、苹果、微软、戴尔集体涨价，机构预测：全球内存紧缺或持续至 2027 年；\n\nMeta 豪掷 167 亿美元和解青少年成瘾诉讼；\n\n工信部确认鸿蒙手机系统全球第三：鸿蒙生态设备超 13.5 亿台；\n\n据报 DeepSeek 今年 1-7 月营收近 4.75 亿元，达去年全年水平 10 倍\n\n## 智谱正式发布并开源 GLM-5.3-Flash，Ox Alpha「牛来」 身份揭晓\n\n8 月 26 日，智谱正式上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列的首个原生多模态模型，也正是上周以来匿名",
+      "priority_score": 228,
+      "matched_keywords": [
+        "DeepSeek",
+        "GLM"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic and OpenAI are joining the AI stage at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/08/27/anthropic-and-openai-are-joining-the-ai-stage-at-techcrunch-disrupt-2026/",
+      "published_at": "2026-08-27T23:16:45.000Z",
+      "summary": "At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for Startups.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI, Anthropic, Google, and 100 other companies call for action to defend against rogue AI",
+      "url": "https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/",
+      "published_at": "2026-08-27T17:43:24.000Z",
+      "summary": "Some of the world's largest tech companies and AI startups have come together to decry the current state of cybersecurity and to advertise a new solution that they say can ward off a new generation of cyber threats.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "编辑部来了 AI 实习生｜千问入职 20 天，我给它写了一份实习小结",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112790&idx=1&sn=d0ad1e4770af28b086658469fe0f3e3d",
+      "published_at": "2026-08-27T13:00:00.000Z",
+      "summary": "原创Moonshot 2026-08-27 21:00 湖北\n\n一个 AI 编辑，是怎么带出来的\n\n**作者｜Moonshot** **编辑｜郑玄**\n\n8 月 20 日晚，MoonshotAI 在 GitHub 上更新了 kimi-code 0.38.0。没有发布会，也没有新闻稿。但这条信息，被我通过千问部署的一个定时任务「捕获」了。\n\n很快，千问把一篇 3100 字的稿件推到了我的飞书上，题目是《月之暗面把 500 亿美元估值，押在了一个代码模型上》。\n\n千问推送到飞书的稿件\n\n如果我在值班，可能这时才点开 GitHub，正在判断这个模型是正式版还是测试版。但千问已经找完资料，做完核查，完",
+      "priority_score": 152,
+      "matched_keywords": [
+        "Kimi"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "「牛来」20秒批量产！杭州黑马发布3D模型，世界模型底牌亮出",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652720944&idx=1&sn=23f54e81ab683b10c44af96d15a2f8dd",
+      "published_at": "2026-08-27T02:40:00.000Z",
+      "summary": "ASI启示录 2026-08-27 10:40 北京\n\n### **新智元报道**\n\n最近，Karpathy在X上甩出了一个实验。\n\n他给Claude Opus 5一段《魔戒》的开头，一百万Token的预算，让它用three.js把故事场景给画出来。\n\n两个小时，5500行代码，一个能走能看的低模山谷就跑在了浏览器里。\n\n所有人都在感叹：AI造世界，原来这么便宜。\n\n但我们想造的世界是这样的吗？\n\n就拿模型生成来说，AI 3D，正卡在一个很尴尬的阶段。网上随手一搜，从一张图片捏出3D模型的Demo已经遍地都是。\n\n但落到生产线， 一款小游戏需要成百上千件道具，一座数字工厂可能塞满货架、管线和设",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Plaud’s new earphones come with an eSIM-enabled case for talking to AI agents",
+      "url": "https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/",
+      "published_at": "2026-08-27T13:00:00.000Z",
+      "summary": "Called Plaud One, these adopt the simple bare-bones style of Apple's AirPods, and can record calls, while their case can be used to record in-person conversations or take notes.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "英伟达前AI总监颠覆Transformer！5万亿上下文物理AI，推演整个宇宙",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652720944&idx=2&sn=06e1f53de9b143bc4b062a9fa8870610",
+      "published_at": "2026-08-27T02:40:00.000Z",
+      "summary": "ASI启示录 2026-08-27 10:40 北京\n\n### **新智元报道**\n\n太震撼了！\n\nAI开始预测全宇宙——\n\nLLM预测世界的语言描述，视频世界模型预测（动态）图像，而这次直接预测四维的空间与时间的物理状态。\n\n最令人震撼的是，它采用了全新架构「神经算子」，而非如日中天的Transformer。\n\n在单次推理中直接输出完整的四维轨迹，连时间维度一起算进去。\n\n这需要的长下文长度无疑非常大，而现在初创企业Accelerated Understanding在训练中上下文以提升到万亿（1T）级别，推理时超过5万亿！\n\n5万亿是什么概念？这是当前顶尖LLM的 **500万倍** ！相当",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Barret Zoph, the Thinking Machines co-founder ousted before joining OpenAI, is now at Google",
+      "url": "https://techcrunch.com/2026/08/27/barret-zoph-the-thinking-machines-co-founder-who-defected-to-openai-is-now-at-google/",
+      "published_at": "2026-08-27T19:52:52.000Z",
+      "summary": "Zoph, who co-founded Thinking Machines Lab alongside Mira Murati and also served as the startup's CTO, led a brief stint at OpenAI and is now at Google.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Jensen Huang says Nvidia achieved AGI, again — not that it matters",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985597/jensen-huang-says-nvidia-achieved-senseless-agi",
+      "published_at": "2026-08-27T16:15:52.000Z",
+      "summary": "On[Nvidia's earnings call](https://www.theverge.com/tech/985387/nvidia-hundred-billion-dollar-quarterly-revenue)Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing. Almost immedi",
+      "priority_score": 100,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAIs executive exodus has one big winner",
+      "url": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus",
+      "published_at": "2026-08-27T14:00:00.000Z",
+      "summary": "Today on*Decoder,*I’m talking to*Verge*senior AI reporter Hayden Field about some pure*Decoder*bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president.\n\nWhile Sam Altman is the CEO and still OpenAI’",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: inside OpenAI’s Hugging Face hack, and a new EV takes on the US",
+      "url": "https://www.technologyreview.com/2026/08/27/1143033/the-download-openai-hugging-face-hack-slate-truck-ev/",
+      "published_at": "2026-08-27T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### The inside story on why",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "刚刚，Claude Code又进化了，替用户起草「反馈报告」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651052598&idx=2&sn=c248e65c9354ba2d754dd3915cb37507",
+      "published_at": "2026-08-27T03:57:00.000Z",
+      "summary": "机器之心 2026-08-27 11:57 北京\n\n干砸了，会主动上报自己\n\n机器之心编辑部\n\nClaude Code 又更新了一个颇有意思的小功能。\n\n这一次，它可以帮你起草反馈报告了。\n\n当某个功能出现故障、Claude 发现自己犯了错误，或者你告诉它哪里出了问题时，它会自动把相关情况整理成一份报告。\n\n你可以在发送之前进行查看、修改，并决定是否批准提交。\n\n不过，你也可以在 /config 中禁用这一功能，或者修改它的行为设置。\n\n官方也整理了一份详细文档，我们看下具体内容。\n\nClaude Code 开始给自己「写反馈报告」\n\nClaude 起草的反馈，是由 Claude 代你撰写的一",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s AI Mode can now track flight prices, help book hotels, and more",
+      "url": "https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/",
+      "published_at": "2026-08-27T16:00:00.000Z",
+      "summary": "The updates indicate that Google is looking to position AI Mode as an AI travel agent of sorts, as it's moving beyond simply helping users find information to actually handling parts of the trip-planning and booking process.",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "ADrive 跨产品协作实践：文件通了，Agent 就通了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521712&idx=1&sn=584ee46d8b9021b56004a8a7e318e2d0",
+      "published_at": "2026-08-27T10:00:00.000Z",
+      "summary": "原创火山引擎存储 2026-08-27 18:00 北京\n\n本文基于 ve-adrive-cli v1.0.2 。文中的品牌、项目和文件名均为演示示例。\n\nAgent 已经进入内容策划、素材制作和发布检查的工作流程，但文件仍主要靠人工搬运：资料散落在本地目录、聊天附件在临时链接中，一个 Agent 生成的成果，常常无法直接作为下一个 Agent 的输入。\n\nADrive 面向人与 Agent 提供统一的文件协作空间；ADrive CLI 则把查找、读取、传输、同步和权限控制带进 Agent 的工作环境。不同 Agent 可以围绕同一批文件接力，关键写入和高风险操作仍由人确认。\n\n下面通过一场 ",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia closes in on Hugging Face acquisition",
+      "url": "https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/",
+      "published_at": "2026-08-27T06:32:51.000Z",
+      "summary": "Nvidia has reportedly agreed to buy Hugging Face, the popular open source AI hub, for $12.9 billion in a move that would let Nvidia both protect its chip empire and jump back into the cloud business.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google’s AI note-taking app now allows you to interact with books",
+      "url": "https://www.theverge.com/tech/985567/google-gemini-notebook-expert-sources-books",
+      "published_at": "2026-08-27T19:30:00.000Z",
+      "summary": "Google's AI note-taking app, Gemini Notebook, can now pull information from the books you've purchased. The[new \"Expert Intelligence\" feature](https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/)allows you to bring titles from Google Play Books directl",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Hugging Face’s new robot is an adorable rollerskating duck",
+      "url": "https://www.theverge.com/gadgets/985549/hugging-face-microduck-robot",
+      "published_at": "2026-08-27T13:44:00.000Z",
+      "summary": "Hugging Face's Pollen Robotics has launched its second cute AI robot,[the Microduck](https://pollen-robotics.com/microduck/blog/introducing-microduck/), a one-eyed biped standing just under 10 inches tall. It's available to preorder now for $399 in cream, graphite, lavender, and sky blue, and Pollen",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Plaud is launching AI earbuds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985500/plaud-one-earbuds-ai-recorder-price-availability",
+      "published_at": "2026-08-27T13:11:23.000Z",
+      "summary": "Plaud has introduced a new AI wearable that's designed to record, transcribe, and summarize your conversations, only this time it looks like earbuds[instead of a pin](https://www.theverge.com/2024/9/14/24243781/plaud-notepin-review-ai-voice-recorder). The Plaud One Explorer Edition can be worn like ",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Adobe is adding more AI to Photoshop",
+      "url": "https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup",
+      "published_at": "2026-08-27T13:00:00.000Z",
+      "summary": "Adobe is rolling out an AI-heavy update for Photoshop that includes a new \"optional\" interface dedicated to its AI tools. Launching in beta, the \"AI Assisted Editor\" view will show all of Photoshop's AI features in a single toolbar, including its prompt-based image editor, background remover, an AI ",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "一年卖出 3 万台后，极壳即将发布下一代外骨骼",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112782&idx=1&sn=cb0fe63a5ca2a8d04711cb7cf37bd645",
+      "published_at": "2026-08-27T12:08:00.000Z",
+      "summary": "曹思颀 2026-08-27 20:08 湖北\n\n从垂直赛道走向「国民级」消费产品。\n\n本文转载自 Hardwire，欢迎关注，共同看见硬件行业新风向 👇\n\n从垂直赛道走向「国民级」消费产品。\n\n**作者｜曹思颀** **编辑｜郑玄**\n\n据 Hardwire 了解，消费级外骨骼领域头部企业极壳（Hypershell）近期已完成对多关节下肢外骨骼产品的研发。这款名为「Halo」的新一代旗舰产品将于 9 月 3 日在 IFA（柏林消费电子展）上正式发布。\n\n极壳（qiào，四声）成立于 2021 年底，是全球最早把外骨骼带入消费市场的公司之一。2024 年 12 月，极壳第一代产品 Hyper",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "全新 Qoder，正式发布",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511307&idx=2&sn=624a79c221ecff44407766522a6a70be",
+      "published_at": "2026-08-27T10:06:00.000Z",
+      "summary": "Qoder 2026-08-27 18:06 浙江\n\n今天，全新 Qoder 正式发布！ 这是一个以 Coding 能力为核心底座，面向所有人打造的智能体工作台。\n\n告诉 Qoder 你想完成什么，它会理解上下文、制定计划、调用工具、执行并验证。整个过程随时可以查看、调整或接管。\n\n全新的 Qoder 将会持续探索 Coding 能力在数字世界更高的天花板，不止于编程。\n\n## Qoder 的这一年\n\n2025 年 8 月，Qoder IDE 的第一个公开版本面向全球发布，短短一个月就收获了百万用户。\n\n几个月后，Qoder CLI 和 Qoder JetBrains 插件陆续发布，Qoder",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "AI患者管理驶入深水区：如何让「管得住」变成「管出疗效」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651052598&idx=1&sn=bbfc659cb66078285cbb3753c3095ab8",
+      "published_at": "2026-08-27T03:57:00.000Z",
+      "summary": "机器之心 2026-08-27 11:57 北京\n\nAI开始接手乳腺癌长期治疗\n\n机器之心发布\n\n在乳腺癌领域，AI 辅助筛查与早期诊断的能力已逐步成熟，使得更多患者能够得到精准的诊断。但筛查能力的提升，恰好把一个关键的问题推到了台前：患者被筛出来，被确诊之后，漫长的治疗期由谁来管理？\n\n中国乳腺癌发病率以年均约 3%~4% 的速度增长。其中约 70% 为激素受体阳性（HR+），需接受 5 到 10 年内分泌辅助治疗，确诊只用几天，围手术期只有几周，但治疗却需要持续五到十年。一项由中国抗癌协会乳腺癌专业委员会牵头的多中心研究显示，国内 39.1% 的乳腺癌患者未能坚持为期五年的规范化内分泌辅助",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "published_at": "2026-08-27T12:59:16.000Z",
+      "summary": "Piloting the world's first double-blind AI evaluations",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Viral AI startup Instinct has raised $350M at a $2.5B valuation",
+      "url": "https://techcrunch.com/2026/08/26/viral-ai-startup-instinct-has-raised-350-million-at-a-2-5-billion-valuation/",
+      "published_at": "2026-08-27T00:24:57.000Z",
+      "summary": "The startup is only a year old but it has already generated a massive amount of hype (and money) while also spurring privacy concerns.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI’s memory crunch is coming for Android apps",
+      "url": "https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/",
+      "published_at": "2026-08-27T14:27:04.000Z",
+      "summary": "Google is setting new memory-use limits for Android apps as AI data centers contribute to hardware shortages that could leave lower-cost phones with less memory.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "AI 创新实践｜「架构师 Agent」系统化落地",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511307&idx=1&sn=a61beaf9d8ec073581a91674d90649f0",
+      "published_at": "2026-08-27T10:06:00.000Z",
+      "summary": "原创刘瑞洲 2026-08-27 18:06 浙江\n\n对于“跨复杂业务系统的架构理解与设计”，本文或许能提供一些经验和参考\n\n这是2026年的第 55 篇文章\n\n（ 本文阅读时间：约 20 分钟 ）\n\n前言\n\n当前，在业界，AI 仍然无法很好的理解“复杂技术系统”，也无法针对性的达成完善的技术方案设计，“架构师”仍然只能由“人”担任。繁忙业务的架构师每天仍然要参与 N 多个技术讨论、技术决策，去讲自己的技术思考、技术设计—— 架构师的人力瓶颈明显。\n\n单个技术系统内部AI 逻辑理解和推理，在业界已经有了比较好的落地，但对于“跨复杂业务系统的架构理解与设计”并没有比较好的系统性解决方案提出来；而",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "两万字长文｜手把手带你趟过 AI Coding 深水区：编码让位，人退到哪里",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803848&idx=1&sn=d61f1e7642a93c81c86fba2cf799f4b3",
+      "published_at": "2026-08-27T09:38:00.000Z",
+      "summary": "原创腾讯程序员 2026-08-27 17:38 北京\n\n代码让给 AI 之后，人退到判断上，把取事实的活交给机器\n\n作者： 黄迅， PUBGMobile后台\n百万行 Lua，自研框架，模型几乎没见过——代码让给 AI 之后，人退到判断上，把取事实的活交给机器。\n## 前言：AI 已经能端到端交付了\n\n这个季度我们 做了一个内部平台，给我们的 coding agent 做支撑：七个服务，三个月，一千八百多次提交 ，十六万行生产代码、十一万行测试代码、八万多行前端， **没有一行是人写的** ，设计文档也全部由 AI 落笔。\n\n这个平台是对照组：通用技术栈，全新项目，没有历史包袱，对 AI 最友",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "A startup claims it’s found a drug to make your blood young",
+      "url": "https://www.technologyreview.com/2026/08/27/1143037/startup-claims-its-found-a-drug-to-make-your-blood-young/",
+      "published_at": "2026-08-27T19:48:13.000Z",
+      "summary": "I knew I’d officially become a ‘longevity influencer’ this month when a company called Generation Lab reached out to offer me the chance to write about—and even receive—their new rejuvenation treatment, an injectable combination of two existing drugs which they call 1 Generation.\n\nThis wasn’t just a",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "published_at": "2026-08-27T16:11:32.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "3 new ways to plan and book travel in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "published_at": "2026-08-27T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Travel_Blog_Hero_8.27.max-600x600.format-webp.webp\">Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+      "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+      "published_at": "2026-08-27T14:56:52.000Z",
+      "summary": "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Is Slate Auto’s new electric truck the EV Americans need?",
+      "url": "https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/",
+      "published_at": "2026-08-27T10:00:00.000Z",
+      "summary": "EVs account for under 10% of total new-vehicle sales in the US, and the numbers are declining. From a climate perspective, that’s pretty dismal, especially because the transportation sector is the single biggest source of greenhouse-gas emissions in the country. \n\nOne thing that could help turn that",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "ECCV 2026｜OmniColor：统一多模态线稿上色框架",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651052598&idx=3&sn=873659bf287878445abeba2f7dd7c9ae",
+      "published_at": "2026-08-27T03:57:00.000Z",
+      "summary": "机器之心 2026-08-27 11:57 北京\n\n支持任意组合的多模态控制。\n\n该论文的第一作者为张栩禄，香港理工大学博士生，指导老师为李青教授，研究方向为图像与视频生成。迄今已在 ECCV、AAAI、ACM MM 等顶级会议发表多篇论文。本文通讯作者为魏骁勇教授，作者团队来自香港理工大学 PolySmart Group。\n\n在动画和美术生产中，线稿上色是一个看似基础、却极其依赖细节控制的环节。创作者往往不是简单地把线稿涂上颜色，还需要理解角色身份、遵守局部色块约束、参考前后帧风格，并在连续片段中保持服装、发色、妆容和背景的一致性。尤其在现实工作中，控制信号通常是混合出现的，如文字描述、稀疏",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "AI自己出题自己练！两个月狂涨11%，编码自测反超Opus 4.8",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652720944&idx=3&sn=0103f543ec480a95c6eec3ecb3c5e010",
+      "published_at": "2026-08-27T02:40:00.000Z",
+      "summary": "ASI启示录 2026-08-27 10:40 北京\n\n喂不饱的模型，终于学会了自己种粮食\n\n### **新智元报道**\n\n训练一个能干活的模型，最贵的不是显卡，是训练题。\n\n尤其是到了编码和智能体这一档，光有题目和答案根本不够用：还要给它准备一套跑得起来的环境，一份判得了对错的测试，还要防着模型翻旧提交抄答案。\n\n难度也不能瞎给。\n\n太简单，模型闭着眼做完，什么也没学到；太难，一道都不会，攒不下正确的经验，等于白烧一轮算力。\n\n这些全凑齐了，还得凑够量。\n\n过去这活一直是人在干。慢、贵不说，主要是供不上：你刚整理完一批，模型转头就做完了。\n\n那让模型自己给自己出题呢？\n\n真有人这么干了。\n\n",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

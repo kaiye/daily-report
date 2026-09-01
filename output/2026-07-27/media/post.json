@@ -1,0 +1,164 @@
+{
+  "generated_at": "2026-07-27T00:02:46.561Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 13,
+  "items": [
+    {
+      "source": "新智元",
+      "title": "奥特曼马斯克豪言：我们已进入奇点！AGI加速窗口已至",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652714857&idx=1&sn=a2b246b204236f19bf695794c5125d56",
+      "published_at": "2026-07-26T04:24:00.000Z",
+      "summary": "ASI启示录 2026-07-26 12:24 北京\n\n### **新智元报道**\n\n奇点已至！\n\n在最新长谈，奥特曼十年后重新复盘创业方法论，罕见认怂：Codex当年真打不过Claude Code，靠敢死队式冲刺绝地翻盘。\n\n当时，Codex已落后于Claude Code，但OpenAI仍押上资源猛追，如今Codex已是他口中「大多数最优秀程序员在用」的工具。为达目的，OpenAI甚至砍掉了投入巨大的Sora与浏览器项目。\n\n但引起全网热议的是， **奥特曼的最新判断：**\n\n我们现在正处于奇点之中，这正是那一刻。\n\n**「奇点已至」，不止奥特曼！全网热议**\n\n在Ti Morse访谈中，奥",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "Claude",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "20岁拿下博士、答辩席坐着费曼的狂人：AI是第一种「外星智能」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652714857&idx=2&sn=61c5328a73d24efdbf0ba40eb08a7a7f",
+      "published_at": "2026-07-26T04:24:00.000Z",
+      "summary": "ASI启示录 2026-07-26 12:24 北京\n\n### **新智元报道**\n\nStephen Wolfram，一个把毕生精力都花在「让机器变聪明」上的人，坐在电脑前，屏幕上是ChatGPT刚替他写好的一段代码。\n\n语言是他自己发明的Wolfram Language，语法他看过，没问题，按下回车键就能直接在这台机器上跑。\n\n可就在那一秒，他停住了。\n\n等等，这大概是个坏主意——它会登进我所有的账户。\n\n真要把控制权交出去的那一刹那，这个四十年如一日教机器理解世界的人，突然间退缩了。\n\nStephen Wolfram，Mathematica、Wolfram Alpha、Wolfram语言的",
+      "priority_score": 200,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "从视觉压缩，到视觉记忆：MonkeyOCRv2以重建保留文档页面证据",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651046706&idx=2&sn=e898955a97f8121989a03245d944e18f",
+      "published_at": "2026-07-26T03:32:00.000Z",
+      "summary": "机器之心 2026-07-26 11:32 辽宁\n\n重建，可以成为文档视觉记忆。\n\n文档视觉编码器究竟有多重要？一个直接的验证方法是把其他条件全部锁死：在 MonkeyOCRv2 的受控实验中，不同模型使用相同的 Qwen3-1.7B、相同的训练数据、优化设置和解码流程，视觉编码器也全部冻结。唯一发生变化的，就是文档进入语言模型之前所经过的那套视觉表示。结果是，在 8 个文档理解基准上，MonkeyOCRv2-B 取得 57.2 分，领先最强对照 OpenVision-B 整整 13.2 分。这说明：在 LLM 开始理解和推理之前，视觉编码器已经决定了它能拿到多少可靠证据。\n\n- 论文标题： ",
+      "priority_score": 200,
+      "matched_keywords": [
+        "LLM",
+        "Qwen"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "一年从3B卷到0.xB：MonkeyOCRv2用0.7B拿下17语种文档解析开源第一",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907283&idx=2&sn=5df8a52712c79f67232ca9672d4cc34e",
+      "published_at": "2026-07-26T04:30:00.000Z",
+      "summary": "关注前沿科技 2026-07-26 12:30 北京\n\n模型不一定要继续变大，但每一部分参数必须知道自己究竟负责什么。\n\n##### MonkeyOCRv2团队 投稿 量子位 | 公众号 QbitAI\n从3B的MonkeyOCR，到1.2B的MinerU、1.0B的HunyuanOCR、0.9B的PaddleOCR-VL和GLM-OCR，再到0.7B、0.6B的MonkeyOCRv2，文档OCR正加速迈入小模型时代：模型越来越小，性能上限却一次次被重新定义。\n###### **△** 一年多时间里，文档OCR从3B快速进入0.xB区间。\n\n一年前，3B参数还可以被称为“轻量文档模型”。现在，这",
+      "priority_score": 128,
+      "matched_keywords": [
+        "GLM"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "published_at": "2026-07-26T16:33:13.000Z",
+      "summary": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Making sense of the panic over Chinese AI",
+      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+      "published_at": "2026-07-26T19:40:57.000Z",
+      "summary": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Kimi"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "3万小时触觉数据补齐具身智能“手感”！新智具身&复旦大学技术报告三连发",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907283&idx=1&sn=47ffec4e47dcd382a8021b5a87eb89e8",
+      "published_at": "2026-07-26T04:30:00.000Z",
+      "summary": "关注前沿科技 2026-07-26 12:30 北京\n\n项目数据、模型均开源\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n煮鸡蛋面、调柠檬水……机器人又来秀花活了：\n\n这次登场的是来自NeoteAI和复旦大学的系列模型。不仅是居家料理，收纳整理它同样拿手。工厂流水线装配、精细零件组装、线材缠绕梳理这些精细活也全都不在话下。\n\n不知道大家有没有见过机器人实操翻车的名场面：插头边缘反复摩擦却难以插入、抓取塑料瓶时力道失控导致瓶身瘪陷、叠好的毛巾在松手瞬间散落……在具身智能的落地进程中，这类“视觉系统判定无误，但物理交互瞬间翻车”的现象屡见不鲜。\n\n这些失败指向了一个行业共",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "用3万小时触觉数据补齐具身智能「手感」，新智具身联合复旦大学统一触觉「方言」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651046706&idx=1&sn=4a09f2999e1f18e03cdb92c5a8019cdb",
+      "published_at": "2026-07-26T03:32:00.000Z",
+      "summary": "机器之心 2026-07-26 11:32 辽宁\n\n触觉：具身智能的下一个 Scaling Law？\n\n机器之心发布\n\n新智具身联合复旦大学发布 系列技术报告：用 3 万小时触觉数据补齐具身智能 “手感”。\n\n先来看一段现场实景录制的视频：\n\n视频里机器人能干的活儿特别多：煮鸡蛋面、调柠檬水这些居家料理，还有收纳整理，它样样拿手；就连工厂流水线装配、精细零件组装、线材缠绕梳理这些精细活也全都不在话下。这正是 系列模型展现出的强大实操能力。\n\n不知道大家有没有见过机器人实操翻车的名场面：插头边缘反复摩擦却难以插入、抓取塑料瓶时力道失控导致瓶身瘪陷、叠好的毛巾在松手瞬间散落…… 在具身智能的落地进",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "造物100 #02｜能打游戏的「牙套」键盘、众筹 249 万美元的电子假花、能用卫星找狗的项圈",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111224&idx=1&sn=6732d72181bcccabb60981b58a01213d",
+      "published_at": "2026-07-26T05:08:00.000Z",
+      "summary": "Hardwire 2026-07-26 13:08 天津\n\n卷完参数之后，硬件开始卖「愧疚感」了。\n\n本文转载自 Hardwire，欢迎关注，共同看见硬件行业新风向 👇\n\n卷完参数之后，硬件开始卖「愧疚感」了。\n\n**作者｜徐珊** **编辑｜ **郑玄**** 上周 的 WAIC，人山人海。 每个展台 都在讲 AI，每件硬 件都说自己是「智能终端的下一代」。可你挤出场馆冷 静下来想想， 记住的产品 有几个 ？ 大部分设备 ，把 logo 遮住，你根本分不清谁是谁。\n\n这就是 2026 年硬件行业最拧巴的地方，造东西从没这么容易过：模型写代码、3D 打印出外壳、深圳供应链一条龙。但也正因为谁",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907283&idx=3&sn=27887b8c43c89216d2c79164bee69c4a",
+      "published_at": "2026-07-26T04:30:00.000Z",
+      "summary": "关注前沿科技 2026-07-26 12:30 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "夜间感知新突破！北航等提出红外主导的高效目标检测方案 | ECCV'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652714857&idx=3&sn=560ad5de820c9142bf1b5e896794a6e5",
+      "published_at": "2026-07-26T04:24:00.000Z",
+      "summary": "新智元 2026-07-26 12:24 北京\n\n### **新智元报道**\n\n##### **【新智元导读】 在复杂视觉场景中，红外目标检测至关重要。传统方法依赖RGB与红外融合，但RGB在低照度或恶劣天气下可能退化，影响检测效果。北航等团队提出InfraNet，以红外为主，利用质量感知机制控制RGB引导，提升鲁棒性。**\n\n在夜间感知、安防监控、无人机巡检与自动驾驶等复杂视觉场景中，红外目标检测具有重要应用价值。\n\n传统RGB-IR多模态检测方法通常默认RGB与红外信息互补，并在训练和推理阶段同时融合两种模态。然而，在低照度、雾天、强逆光等真实场景下，RGB图像可能严重退化，不但难以提供有",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "published_at": "2026-07-26T01:30:00.000Z",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "被罚51.79亿元，携程公布 19 项整改措施；传库克向特朗普力荐中国存储芯片，美光强烈反对；三星斩获博通2000亿美元巨额订单 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111218&idx=1&sn=a8f0eb2bdeff9c2a723129053fa6412a",
+      "published_at": "2026-07-26T00:32:00.000Z",
+      "summary": "美漪 2026-07-26 08:32 上海\n\n马斯克：SpaceX 将在下一次飞行中尝试用发射塔捕获星舰；Verizon 与 Google 达成逾 10 亿美元合作；Waymo 与 Uber 合作关系生变\n\n## 被罚 51.79 亿元，携程公布 19 项整改措施\n\n本报北京 7 月 25 日电（中青报·中青网记者 魏婉）记者从国家市场监督管理总局获悉，该局今天依法对携程集团有限公司（以下简称「携程」）滥用市场支配地位实施垄断行为作出行政处罚，罚没款合计 51.79 亿元。\n\n经查，2020 年以来，携程滥用其在中国境内在线酒店预订平台服务市场的支配地位，实施了两种垄断行为：要求「特牌」酒店",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

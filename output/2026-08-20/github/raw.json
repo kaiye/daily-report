@@ -1,0 +1,139 @@
+{
+  "source": "github_trending",
+  "collected_at": "2026-08-20T00:03:31.509Z",
+  "since": "daily",
+  "lang_filter": "all",
+  "count": 13,
+  "items": [
+    {
+      "rank": 1,
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "language": "Python",
+      "stars_total": 110579,
+      "forks": 16777,
+      "stars_today": 2221
+    },
+    {
+      "rank": 2,
+      "repo": "volcengine/OpenViking",
+      "url": "https://github.com/volcengine/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "language": "Python",
+      "stars_total": 30158,
+      "forks": 2335,
+      "stars_today": 804
+    },
+    {
+      "rank": 3,
+      "repo": "chaitanyagiri/munder-difflin",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "stars_total": 2673,
+      "forks": 319,
+      "stars_today": 795
+    },
+    {
+      "rank": 4,
+      "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&amp;CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF &amp; MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI &amp; 20+ platforms · 29 security domains · Apache 2.0",
+      "language": "Python",
+      "stars_total": 29825,
+      "forks": 3535,
+      "stars_today": 766
+    },
+    {
+      "rank": 5,
+      "repo": "nautechsystems/nautilus_trader",
+      "url": "https://github.com/nautechsystems/nautilus_trader",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "language": "Rust",
+      "stars_total": 26437,
+      "forks": 3419,
+      "stars_today": 80
+    },
+    {
+      "rank": 6,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars_total": 223759,
+      "forks": 19252,
+      "stars_today": 1894
+    },
+    {
+      "rank": 7,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_total": 274257,
+      "forks": 24556,
+      "stars_today": 557
+    },
+    {
+      "rank": 8,
+      "repo": "jundot/omlx",
+      "url": "https://github.com/jundot/omlx",
+      "description": "LLM inference server with continuous batching &amp; SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "language": "Python",
+      "stars_total": 19830,
+      "forks": 1689,
+      "stars_today": 472
+    },
+    {
+      "rank": 9,
+      "repo": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "language": "JavaScript",
+      "stars_total": 65770,
+      "forks": 12739,
+      "stars_today": 198
+    },
+    {
+      "rank": 10,
+      "repo": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "description": "High performance self-hosted photo and video management solution.",
+      "language": "TypeScript",
+      "stars_total": 111862,
+      "forks": 6628,
+      "stars_today": 128
+    },
+    {
+      "rank": 11,
+      "repo": "amadeusprotocol/node",
+      "url": "https://github.com/amadeusprotocol/node",
+      "description": "Tested Distro/Env Linux Kernel 6.8 Ubuntu 24.04\n\nUsing podman or docker",
+      "language": "Rust",
+      "stars_total": 4526,
+      "forks": 85,
+      "stars_today": 1397
+    },
+    {
+      "rank": 12,
+      "repo": "marceloprates/prettymaps",
+      "url": "https://github.com/marceloprates/prettymaps",
+      "description": "Draw pretty maps from OpenStreetMap data! Built with osmnx +matplotlib + shapely",
+      "language": "Python",
+      "stars_total": 13098,
+      "forks": 654,
+      "stars_today": 63
+    },
+    {
+      "rank": 13,
+      "repo": "genlayerlabs/genlayer-project-boilerplate",
+      "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate",
+      "description": "This project includes the boilerplate code for a GenLayer use case implementation, specifically a football bets game.\n\nAn example intelligent contract (Football Bets) with web access and LLM integration Direct mode tests — fast, in-memory unit tests with web/LLM mocking (~ms per test) Integration tests — full end-to-end tests against GenLayer Studio Contract linting — static analysis to catch common contract issues before deployment CI pipeline — GitHub Actions workflow for linting and direct tests A production-ready Next.js 15 frontend with TypeScript, TanStack Query, and Radix UI Configuration file template and deployment scripts Requirements Python >= 3.12 GenLayer CLI globally installed: npm install -g genlayer GenLayer Studio (for integration tests and deployment): Install from Docs or use the hosted GenLayer Studio Project Structure contracts/ # Python intelligent contracts tests/ direct/ # Fast in-memory tests (no Studio required) test_create_bet.py # Bet creation logic test_resolve_bet.py # Bet resolution with web/LLM mocks test_views.py # Read-only view methods integration/ # Full tests against GenLayer Studio test_football_bets.py fixtures.py # Expected state fixtures frontend/ # Next.js 15 app (TypeScript, TanStack Query, Radix UI) deploy/ # TypeScript deployment scripts gltest.config.yaml # Test runner network configuration pyproject.toml # Python/pytest configuration .github/workflows/ # CI pipeline Quick Start 1. Set up Python environment python3 -m venv .venv source .venv/bin/activate pip install -r requirements.txt 2. Lint your contracts Run the GenVM linter to catch issues before deployment:",
+      "language": "TypeScript",
+      "stars_total": 16222,
+      "forks": 809,
+      "stars_today": 430
+    }
+  ]
+}

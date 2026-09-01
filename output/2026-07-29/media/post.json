@@ -1,0 +1,417 @@
+{
+  "generated_at": "2026-07-29T00:03:53.969Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 34,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "月之暗面开源 Kimi K3 模型，2.8 万亿参数；英伟达牵头成立开放安全 AI 联盟；QQ 宠物宣布回归，接入混元大模型｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111265&idx=1&sn=71691bfcd89d6383b62ee784ed56a42a",
+      "published_at": "2026-07-28T00:29:00.000Z",
+      "summary": "Moonshot 2026-07-28 08:29 重庆\n\n谷歌 CEO 称正在训练 Gemini 4，据过往节奏推测有望于今年年底发布；\n\nOpenAI CEO 奥尔特曼：人类已经进入了「奇点」时代；\n\nClaude 对话分享链接意外被谷歌收录，用户隐私聊天内容曝光；\n\n## 月之暗面正式开源 Kimi K3 模型，2.8 万亿参数\n\n7 月 27 日，月之暗面官方正式开源 Kimi K3 模型。官方发布了 Kimi K3 的模型权重、技术报告，并开源支撑 Kimi K3 模型训练的关键 Infra 技术：MoonEP、FlashKDA 和 AgentEnv。\n\nKimi K3 是一个 2.",
+      "priority_score": 350,
+      "matched_keywords": [
+        "OpenAI",
+        "Claude",
+        "Kimi"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "AI leaders sign a statement asking the government to do something about automated AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta",
+      "published_at": "2026-07-28T19:46:43.000Z",
+      "summary": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance e",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Mistral"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "老黄人生第二条推文！只有Anthropic还在死扛",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652715178&idx=2&sn=17a9ecdfe1ea90a59456e5efbe717efb",
+      "published_at": "2026-07-28T04:41:00.000Z",
+      "summary": "ASI启示录 2026-07-28 12:41 北京\n\n### **新智元报道**\n\n黄仁勋这辈子，发过两条推。\n\n第一条放出一封32家公司联署的公开信，力挺开放权重模型。\n\n第二条官宣「开放安全AI联盟」（Open Secure AI Alliance），37家创始成员，芯片厂商、云巨头、安全公司、开源社区全到齐了。\n\n核心论点是：世界需要闭源和开源模型并存，但对网络安全而言，开源模型和harness是必需的。\n\n然后有意思的来了。\n\n联盟名单上，OpenAI不在，Google不在，Anthropic也不在。\n\n但眼瞅大势不妙的OpenAI和Google，赶紧补签了公开信。\n\n到头来，几乎所",
+      "priority_score": 228,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents",
+      "published_at": "2026-07-28T12:30:00.000Z",
+      "summary": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the[Mac version](https://www.theverge.com/ai-artificial-intelligence/893536/perplexitys-personal-computer-turns-your-spare-mac-int",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Perplexity",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Smart rings are looking like my kind of AI gadget",
+      "url": "https://www.theverge.com/gadgets/971744/smart-ring-ai-gadget-stream-index",
+      "published_at": "2026-07-28T12:00:00.000Z",
+      "summary": "Over the last few months, I've spent a lot of time talking to my computer. One underrated feature of the LLM revolution has been a remarkable leap in all kinds of dictation technology - even the fastest, cheapest models are getting very good at understanding and processing speech. I've tested lots o",
+      "priority_score": 150,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "中国医疗AI拿下全球第一！14亿人的微信「私人医生」重磅升级",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652715178&idx=1&sn=155d07d909c63642d93712998ba07cba",
+      "published_at": "2026-07-28T04:41:00.000Z",
+      "summary": "ASI启示录 2026-07-28 12:41 北京\n\n更懂你的AI：不仅记得住，还能分得清\n\n### **新智元报道**\n\n过去十年，医疗AI经历了两次范式跃迁。\n\n第一次浪潮，是「知识数字化」。\n\n从2010年代中期开始，海量医学教材、指南、论文被数字化，AI具备了检索知识的能力。这个阶段的核心价值，是「信息可及」。\n\n第二次浪潮，是「对话生成」。\n\nLLM出现后，AI不再只是检索和呈现，而是能像人一样组织语言、生成回答。这个阶段的核心价值，是「表达流畅」。\n\n这两次浪潮解决了一个问题：让知识离人更近。但它们都没有解决另一个更深层的问题——让知识真正服务于这个人。用户问了一个健康问题，AI",
+      "priority_score": 128,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing",
+      "url": "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/",
+      "published_at": "2026-07-28T04:30:00.000Z",
+      "summary": "Cursor says India is now its third-largest market globally and plans to expand local hiring and enterprise sales.",
+      "priority_score": 124,
+      "matched_keywords": [
+        "Cursor"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+      "url": "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "published_at": "2026-07-28T00:13:33.000Z",
+      "summary": "Anthropic founder and CEO Dario Amodei made his views clear about open-weight models and China's growing AI capabilities.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: OpenAI’s predictable hack, and an AI stock sell-off",
+      "url": "https://www.technologyreview.com/2026/07/28/1140868/the-download-openai-hack-ai-stock-sell-off/",
+      "published_at": "2026-07-28T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### OpenAI called the Huggi",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "阿里技术",
+      "title": "灵骏真武M890超节点实例 Day0 适配 Kimi K3",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247510586&idx=2&sn=e5e4e61dcdd7afe0315c7653c524f0d4",
+      "published_at": "2026-07-28T10:18:00.000Z",
+      "summary": "阿里技术 2026-07-28 18:18 浙江\n\n7 月 27 日晚，阿里云灵骏真武 M890 超节点实例已成功适配 2.8 万亿参数大模型 Kimi K3 ，基于芯片、推理平台和模型的联合优化，有效提升模型推理效率。 实测结果显示，该超节点运行 Kimi K3 的首 Token 时延降低约 35% ，长上下文场景下用户体验更流畅。\n\nKimi K3 是月之暗面（ Moonshot AI ）最新的旗舰模型，参数规模达到 2.8 万亿，采用混合专家（ MoE ）架构，其完整模型权重于今日正式开放下载。作为目前业界参数规模最大的模型之一， Kimi K3 的高效运行不仅需要大规模算力和显存支撑，",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Kimi"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Fish Audio raises $52M seed to build AI voice models for creators and enterprises",
+      "url": "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/",
+      "published_at": "2026-07-28T14:00:00.000Z",
+      "summary": "Since launching last year, the startup today has more than 8 million people using the open source or hosted version of its models, and now generates annual recurring revenue of $21 million.",
+      "priority_score": 74,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "世界模型新比赛！北大、清华、北航、上交、中科大联合发布首个三视角具身世界模型榜单，新评测标准来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651047068&idx=2&sn=b85c05653e0df460509291f8d8a2755d",
+      "published_at": "2026-07-28T05:05:00.000Z",
+      "summary": "机器之心 2026-07-28 13:05 北京\n\nTriWorldBench Challenge正式启动\n\n机器之心发布\n\n当机器人拥有多个摄像头，它看到的世界是否仍然保持一致？\n\n头部摄像头看到机器人正在抓取一个物体，腕部摄像头却显示机械臂还没有移动；一个视角中物体已经被放置完成，另一个视角中物体仍停留在原位 —— 这些看似细微的偏差，意味着模型生成的可能不是同一个真实世界。\n\n一个新的问题也随之出现：\n\n如何判断一个世界模型，是否真正理解了机器人所处的世界？\n\n近日，北京大学、清华大学、 北京航空航天大学 、上海交通大学、中国科学技术大学联合发起 TriWorldBench Challe",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "5 ways to host the ultimate dinner party with Google Search",
+      "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+      "published_at": "2026-07-28T13:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dinner_parties.max-600x600.format-webp.webp\">These AI features can help you craft a menu, design a tablescape, and handle other party-planning tasks.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "Loop Engineering 已死？ 一文带你了解Graph Engineering",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802937&idx=1&sn=3ecdb58a929806962d1b2455575d6b4a",
+      "published_at": "2026-07-28T10:33:00.000Z",
+      "summary": "腾讯技术工程 2026-07-28 18:33 广东\n\n深度全解\n\n作者：lukiexing\n\n## 01 起源：一条推文，三天 270 万浏览\n\n先把这个词的来龙去脉讲清楚，因为它能帮你判断哪些是营销、哪些是真问题。\n\n2026 年 7 月 17 日，OpenClaw 的创始人 Peter Steinberger 在 X 上发了一句话，没有配图，没有链接，也没有任何产品发布。\n我们还在聊循环（loops），还是已经转向图（graphs）了？ — Peter Steinberger，2026 年 7 月 17 日\n就这一句话，三天内累计 270 万浏览、上千条回复。Graph Engineer",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Bot-detection startup Spur nabs $200M from Insight",
+      "url": "https://techcrunch.com/2026/07/28/bot-detection-startup-spur-nabs-200m-from-insight/",
+      "published_at": "2026-07-28T21:29:34.000Z",
+      "summary": "Spur Intelligence has raised a $200 million round from Insight Partners for its tech that can identify legit human traffic from bots.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "published_at": "2026-07-28T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.max-600x600.format-webp.webp\">We’re announcing even more new capabilities in Managed Agents in Gemini API so developers can build reliable, production-ready agents.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "published_at": "2026-07-28T15:01:45.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "豆包搜索，走出了豆包",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907924&idx=1&sn=874e87b17bc70869e8a1a2c5f8e299db",
+      "published_at": "2026-07-28T09:58:00.000Z",
+      "summary": "原创关注前沿科技 2026-07-28 17:58 北京\n\n把搜索能力开放给Agent了\n\n##### 金磊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n**豆包** APP里的 **搜索** 能力，现在要走出豆包了——\n\n一头扎进面向企业和开发者的Agent，目标是想让Agent获取信息的这件事情，变得更加靠谱。\n\n我们先用最近大热的话题 **菲尔兹奖** ，来看下走出来的 **豆包搜索** ，实力到底几何。\n\n这类题目看上去不算复杂，真要做好，却得同时满足几个条件。\n\n信息得足够新，获奖名单和研究贡献不能出错；来源也得足够可靠，官方公告、媒体报道和人物资料最好能够相互印证。\n\n这次的",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
+      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+      "published_at": "2026-07-28T09:18:57.000Z",
+      "summary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on his job application for the chipmaker’s South Korean rival SK Hynix, sharing tips w",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Hugging Face is being used to easily undress women and children",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children",
+      "published_at": "2026-07-28T09:07:14.000Z",
+      "summary": "Hugging Face isn’t doing much to prevent the AI models it hosts from spitting out sexualized deepfakes. | Image: Cath Virginia / The Verge | Photos from Getty Images\nHugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to pr",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "LeCun连续转发！新作VISReg攻克JEPA世界模型「表征坍塌」核心难题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652715178&idx=3&sn=b6c9dde70a4ab7acf8dfcc7e5a97be99",
+      "published_at": "2026-07-28T04:41:00.000Z",
+      "summary": "新智元 2026-07-28 12:41 北京\n\n### **新智元报道**\n\nJEPA世界模型的底层是Yann LeCun自2017年起持续倡导的自监督学习（Self-Supervised Learning, SSL）。\n\nSSL 无需人工标注即可从海量数据中学习通用表征，但普遍面临一个核心难题—— **表征坍塌** （representation collapse）：模型倾向于把不同输入映射到相同或极少数几个向量上，看似完成了训练，实则未学到有判别力的表征。\n\n为抑制坍塌，主流方法大多依赖一系列 **启发式技巧** （EMA、教师-学生网络、停止梯度、冻结层等）。这些技巧使训练变得脆弱、难",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "MCP startup Runlayer accuses Rippling of stealing its product idea",
+      "url": "https://techcrunch.com/2026/07/28/mcp-startup-runlayer-accuses-rippling-of-stealing-its-product-idea/",
+      "published_at": "2026-07-28T20:45:12.000Z",
+      "summary": "Runlayer is suing Rippling after Rippling evaluated the startup's MCP  gateway product and then opted to build one itself.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sam Altman is ready to decelerate",
+      "url": "https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/",
+      "published_at": "2026-07-28T20:17:08.000Z",
+      "summary": "His change of position comes after \"the first security incident that I have felt very viscerally.\"",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "AI’s finally expensive enough to make Wall Street nervous",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex",
+      "published_at": "2026-07-28T19:33:03.000Z",
+      "summary": "Working hard, or bear-ly working? | Image: Cath Virginia / The Verge, Getty Images\nIt's earnings season, and investors got an unpleasant surprise from Google:[an increase on its spending estimate](https://www.reuters.com/business/google-quarterly-cloud-revenue-growth-beats-expectations-2026-07-22/),",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "published_at": "2026-07-28T16:27:42.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Data centers may face temporary power cuts to prevent blackouts on largest US grid",
+      "url": "https://techcrunch.com/2026/07/28/data-centers-may-face-temporary-power-cuts-to-prevent-blackouts-on-largest-us-grid/",
+      "published_at": "2026-07-28T15:42:26.000Z",
+      "summary": "The decision arrives as the breakneck pace of data center construction has grid operators scrambling to generate power.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Recursive Superintelligence signs $410M compute deal with Amazon",
+      "url": "https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/",
+      "published_at": "2026-07-28T13:19:17.000Z",
+      "summary": "Recursive’s emphasis on self-improving AI systems means much of the budget that would traditionally go toward headcount and operations is put straight into compute, as the company seeks to automate its own product development process.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "5 ways AI Mode in Search helps you enjoy the real world",
+      "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+      "published_at": "2026-07-28T13:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Mode_real_world.max-600x600.format-webp.webp\">It might sound counterintuitive, but Search's AI tools can actually help you make the most of your time offline whether you want to book concert tickets or find the perf…",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "阿里技术",
+      "title": "当理解成为瓶颈：AI 编程时代的认知债与意图债",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247510586&idx=1&sn=2131d6e991d3db144d3d06b636093e59",
+      "published_at": "2026-07-28T10:18:00.000Z",
+      "summary": "原创聂晓龙 2026-07-28 18:18 浙江\n\n这是2026年的第 42 篇文章\n\n（ 本文阅读时间：约 20 分钟 ）\n\n01\n\n失传的大马士革钢\n\n公元前5世纪的印度，工匠用坩埚炼出被称为「乌兹」的钢锭，经中东铁匠反复锻打，成就了冷兵器时代的巅峰— 大马士革刀 。可到了十八世纪，这门传承两千年的技艺，却在几十年间彻底失传。铁匠们仍守着祖传口诀，一步不差地重复着每一个动作，却再也打不出那样的锋芒。\n\n直到二十世纪末，现代冶金学才揭开谜底：那神话般的性能，源自特定矿脉中微量的钒、钼杂质在锻打中析出的碳化物纳米结构。而真正致命的是，从头到尾没有人真正理解过它「为什么」如此出众。工匠们拥有完",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "微软CEO纳德拉最新警告：单押一个大模型，是把公司命门交出去",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907924&idx=2&sn=9355c603598cc732cacc6171c375641f",
+      "published_at": "2026-07-28T09:58:00.000Z",
+      "summary": "关注前沿科技 2026-07-28 17:58 北京\n\n最聪明的模型可以租，公司的脑回路必须自己留着\n\n##### 梦瑶 发自 凹非寺 量子位 | 公众号 QbitAI\n全公司只押一个AI，最后可能把整家公司都押没了！！\n这句听起来多少有点耸人听闻，可说这话的人，偏偏是正在全力卖AI的微软CEO纳德拉。\n\n在CNN《Fareed Zakaria GPS》节目中，纳德拉给所有相信「一个大模型包打天下」的企业撂下一句狠话：\n任何失去数据、记忆和AI使用记录控制权的企业，都可能无法继续存在，因为它已经把自己的思考外包了～\n而且人家还说了，企业每天用AI读用得越深，AI背后的供应商也就越有机会摸清这家",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "国产AI登上《Cell》主刊！搭建统一生物表征空间实现虚拟试药",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907924&idx=3&sn=654ebf40eb186cf7ff0653d51ed2af96",
+      "published_at": "2026-07-28T09:58:00.000Z",
+      "summary": "关注前沿科技 2026-07-28 17:58 北京\n\n国内首个登上《Cell》主刊的AI虚拟细胞研究\n\n##### UniPert–G2CP团队 投稿 量子位 | 公众号 QbitAI\n\n近日，国际顶级学术期刊《Cell》主刊，刊出了一篇来自中国的AI生命科学研究论文《UniPert–G2CP》。\n\n论文承载首个解决 **「化学扰动×细胞特异性响应」** 难题的AI虚拟细胞算法，也是国内 **首个** 在《Cell》主刊发表AI虚拟细胞相关研究的成果。\n\n该成果直面并回答了一个困扰药物研发数十年的核心问题： **为何同一种药物，在不同遗传背景和不同细胞中的效果会存在较大差异？**\n\n这一问题",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247907924&idx=4&sn=7d47a8d1e516517641e1885079433d8d",
+      "published_at": "2026-07-28T09:58:00.000Z",
+      "summary": "关注前沿科技 2026-07-28 17:58 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "阿里技术人的夏日副本：人机对决、AIGX上新、双城开聊",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651047068&idx=1&sn=e0937a894d1d3b49938e50c0b52da9d2",
+      "published_at": "2026-07-28T05:05:00.000Z",
+      "summary": "原创关注智能体的 2026-07-28 13:05 北京\n\n「人机都很上头」\n\n编辑｜+0\n\n一块大屏前，两名人类和两名 AI 正在进行一场交易类桌游。\n\n这款游戏有些类似「大富翁」：玩家需要在四轮博弈中争夺工位、部署业务，并通过报价与其他玩家交易资产，最终以总资产决定胜负。\n\n现金很重要，但同类业务如果在相邻工位上连成片，收益会持续叠加——这才是拉开差距的关键。\n\n其他精选对局截图，非现场游戏画面。\n\n前三个季度，局势波澜不惊。直到第三季度末，一声报价打破了平衡。\n\n「10 万？成交。」\n\n人类玩家修业原本只想用 2.5 万元买入一块工位，却误将报价输入成了 10 万元。交易立即生效，他的现",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "上市暴涨的长鑫存储，直接把美国股市干崩了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111270&idx=1&sn=22c00866b8628811fe4c2ecf83140310",
+      "published_at": "2026-07-28T04:00:00.000Z",
+      "summary": "原创桦林舞王 2026-07-28 12:00 山东\n\n是中国的，也需要成为世界的。\n\n**作者｜桦林舞王** **编辑｜靖宇**\n\n7 月 27 日，长鑫科技在科创板挂牌。开盘价 49.50 元，较 8.66 元的发行价暴涨 472%。盘中最高触及 54.65 元，涨幅一度突破 531%。\n\n按开盘市值 3.31 万亿元计算，它在那一刻成了 A 股最值钱的公司。\n\n当所有人都在算合肥市赚了多少钱、长鑫员工多少人成了富翁时，美国同行们就没那么好过了。\n\n同一天，大洋彼岸的存储股集体「跳水」。\n\n**美光跌了 5%，闪存厂商 SanDisk 暴跌 12%，SK 海力士的美股 ADR 跌掉 8.5",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

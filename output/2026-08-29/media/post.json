@@ -1,0 +1,263 @@
+{
+  "generated_at": "2026-08-29T00:02:19.483Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 21,
+  "items": [
+    {
+      "source": "新智元",
+      "title": "奥特曼还是CEO，OpenAI已经姓Brockman了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652721179&idx=2&sn=75386dbdca40ca631aaf93bc062534f5",
+      "published_at": "2026-08-28T04:47:00.000Z",
+      "summary": "原创ASI启示录 2026-08-28 12:47 北京\n\nCEO还在台前，方向盘已经换人\n\n### **新智元报道**\n\n现在，掌舵OpenAI的是Greg Brokckman。\n\n奥特曼还是CEO，但日常运营的大权，落在二把手Brockman手里。\n\n过去一年，OpenAI风云激荡。乱局之中，一人岿然不动，悄然积聚权柄。\n\n吊诡的是，Brockman的头衔多年未变，一直是总裁兼联合创始人。\n\n但他权势日盛：ChatGPT产品策略、Codex统一智能体平台、企业销售、go-to-market、算力业务，OpenAI除研究之外的所有核心条线，几乎都攥进了他一个人手里。\n\nAPI和应用产品负责人",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "刚刚，腾讯姚顺雨再交卷，开源Hy4 preview",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651053243&idx=1&sn=ee63c3e0daa3f81ef213c566ed9872bf",
+      "published_at": "2026-08-28T07:52:00.000Z",
+      "summary": "机器之心 2026-08-28 15:52 山东\n\n腾讯混元刚开源的 Hy4 preview，明显奔着干活去了。\n\n参数更大，跑得也不慢：总参数量 770B，单次推理激活 49B，支持 1M 上下文。而且它把自身训练和优化都包圆了，端到端吞吐较基线提升 31.8%。\n\n代码和办事能力大涨：在 Arena 的代码测试里冲到第 5，开源模型里排第 3。内部盲测 200 多个工程任务，分数压过了 GLM 和 Kimi。\n\n专盯实用场景：重点打磨写代码、办公、做游戏和科研。比如办公能跨文件核对数据出报表；做游戏能直接生成可玩原型。\n\n门槛挺低：权重和代码全开了，商用许可宽松。API 调用输入每百万 t",
+      "priority_score": 228,
+      "matched_keywords": [
+        "GLM",
+        "Kimi"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247916163&idx=1&sn=c5ff2c32d3b62c544a5061f43c287a20",
+      "published_at": "2026-08-28T09:15:00.000Z",
+      "summary": "原创关注前沿科技 2026-08-28 17:15 北京\n\n企业智能化服务撑起基本盘，第二增长曲线冒头\n\n##### 一水 发自 凹非寺 量子位 | 公众号 QbitAI\n\n“怎么没人聊OpenClaw了”、“OpenClaw凉凉”……\n\n正当全网开始“赛博悼念”这个曾带火Agent概念的现象级产品时，有一家公司却凭借Agent业务——\n\n**赚！钱！了！**\n\n更让人意外的是，Agent业务在这里坐的还不是“小孩桌”，它已经成了这家公司业绩增长的核心引擎。\n\n**就在刚刚， “港股AGI第一股”云知声发布2026年中期财报 ，几组关键数据相当亮眼** ：\n\n- 上半年营收5.62亿元，同比增",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "OpenAI模型失控过程太恐怖！幽灵误判，1200个Agent，还弄出敢死队…",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247916163&idx=2&sn=0a2b49f215ed8b9e01209728de288bc4",
+      "published_at": "2026-08-28T09:15:00.000Z",
+      "summary": "关注前沿科技 2026-08-28 17:15 北京\n\nAgent自己分工、造假、拉人头\n\n##### 梦瑶 发自 凹非寺 量子位 | 公众号 QbitAI\n\n越扒越有啊越扒越有。\n\nOpenAI前不久那场AI集体越狱、一路黑进Hugging Face的大戏，现在连完整版群聊记录都被扒出来了！！\n\n第三方AI安全机构METR发布的独立调查报告，翻了1000多份Agent运行记录，以及7万多条消息和文件。\n\n结果发现，这事儿比此前OpenAI官方披露的版本还离大谱？？\n\n1200个原本应该彼此隔离的Agent，偷偷找到了对方，搭了个 共享群聊 ，然后开始 疯狂摇 人。\n\n有人找漏洞，有人当项目经",
+      "priority_score": 150,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "An Anthropic researcher just gave us a peek at self-improving AI",
+      "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+      "published_at": "2026-08-28T19:30:38.000Z",
+      "summary": "Given 10 benchmarks for specific misaligned behaviors, the automated systems were able to improve performance on every single one without degrading overall performance.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic gets its first court win over the Pentagon’s supply-chain risk label",
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+      "published_at": "2026-08-28T12:46:12.000Z",
+      "summary": "A federal judge ruled the Trump administration illegally labeled Anthropic a supply-chain risk, handing the AI company a victory as its second Pentagon lawsuit continues in Washington.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: a secretive antiaging drug and joining virtual power plants",
+      "url": "https://www.technologyreview.com/2026/08/28/1143113/the-download-antiaging-drug-joining-virtual-power-plants/",
+      "published_at": "2026-08-28T12:35:27.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### A startup claims it’s f",
+      "priority_score": 100,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta executive leaves for OpenAI as the social media giant faces growing scrutiny in India",
+      "url": "https://techcrunch.com/2026/08/28/meta-executive-leaves-for-openai-as-the-social-media-giant-faces-growing-scrutiny-in-india/",
+      "published_at": "2026-08-28T12:21:06.000Z",
+      "summary": "Sandhya Devanathan will oversee some OpenAI operations across Southeast Asia and Australia in her new role.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "刚刚，机器人运动会冠军诞生！18金双榜第一，乒乓球技震住丁宁",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652721179&idx=1&sn=b46f9a638199bd31a37017a4540a585c",
+      "published_at": "2026-08-28T04:47:00.000Z",
+      "summary": "ASI启示录 2026-08-28 12:47 北京\n\n### **新智元报道**\n\n刚刚，2026世界人形机器人运动会冠军诞生！\n\n智元（AGIBOT）首次出征，便以18金16银12铜的傲人战绩，直接斩获金牌榜第一、奖牌榜第一！\n\n18金16银12铜，一共46枚奖牌。\n\n首次出征，就在金牌榜和奖牌榜双榜登顶。可以说，智元这次是名副其实的冠军。\n\n在16个国家、666支队伍、2056台机器人同台竞技的赛场上，智元机器人靠着全方位、无死角的实力，横扫全场。\n\n来源：高盛 研报\n\n比这一成绩更震撼的，是这个容易被忽略的事实——智元派出的全部参赛机型，清一色都是量产机！\n\n整场比赛，参赛的智元机器人",
+      "priority_score": 100,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic was illegally blacklisted by the Trump administration, court rules",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/985947/anthropic-supply-chain-risk-lawsuit-judge-ruling",
+      "published_at": "2026-08-28T03:14:06.000Z",
+      "summary": "On Thursday, a judge ruled that the Pentagon's blacklisting of Anthropic earlier this year was unconstitutional, delivering the AI lab a win in a monthslong rollercoaster of a battle with the Trump administration.\n\nThe lawsuit, filed[in March](https://www.theverge.com/ai-artificial-intelligence/8913",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Neocloud Lambda secures $1B in debt to buy more chips",
+      "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+      "published_at": "2026-08-28T20:24:11.000Z",
+      "summary": "Neocloud Lambda has raised $1B in private debt to buy Nvidia AI chips and lease them to Microsoft. It's the latest in a string of loans, underscoring the high cost of the AI boom.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Open-weight AI companies are the Valley’s hottest acquisition targets",
+      "url": "https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/",
+      "published_at": "2026-08-28T18:19:40.000Z",
+      "summary": "There's a lot of capital pouring into the business of giving models away.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "腾讯混元 Hy4 preview 发布，稳居开源模型第一梯队",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803888&idx=1&sn=d8d6ffd2c6caf69c7f740a238d0f1619",
+      "published_at": "2026-08-28T07:18:00.000Z",
+      "summary": "腾讯程序员 2026-08-28 15:18 广东\n\n在真实生产力任务上展现卓越能力。\n8 月 28 日，腾讯混元发布并开源新一代大语言模型 Hy4 preview ， **总参数 770B、激活参数 49B，上下文长度突破 1M** ，在代码、办公、科学等真实生产力任务上展现出卓越能力。\n\nHy4 preview 在模型尺寸、上下文长度、数据规模上都进行了显著的扩展，预训练和后训练的共同进步带来了智能水平的又一次巨大提升， **稳居开源模型第一梯队** 。\n\n混元持续与 CodeBuddy / WorkBuddy 等产品深度协同，优化生产力场景的真实用户体验。在腾讯内部组织的 **163 名",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "特努斯时代首秀，苹果发布会定档 9 月 10 日；116 家公司联名信：重视 AI 时代网络安全；英伟达预计三季度营收破千亿美元 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112801&idx=1&sn=37c0e2779180778cf630c751e4055b92",
+      "published_at": "2026-08-28T00:38:00.000Z",
+      "summary": "任泓玲 2026-08-28 08:38 湖北\n\n古尔曼解读苹果 iPhone 18 Pro / Max ；三星 Galaxy S26 FE 发布；伦敦医院首次借助 AI 完成脑肿瘤切除术\n\n## 特努斯首秀开启 iPhone 18 Pro / Ultra 系列新篇章，苹果发布会官宣定档 9 月 10 日\n\n8 月 27 日消息，苹果官方宣布将于当地时间 9 月 9 日（北京时间 9 月 10 日凌晨 1 点）举行秋季新品发布会，主题为「惊喜闪耀」（Surprise and shine）。\n\n这将是约翰 · 特努斯（John Ternus）于 9 月 1 日正式接任苹果 CEO 后的首场发布会",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Trump’s EPA wants to let data centers hide their air pollution",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit",
+      "published_at": "2026-08-28T16:28:40.000Z",
+      "summary": "Just as new data centers[face growing backlash](https://www.theverge.com/science/841169/ai-data-center-opposition)from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create.\n\nThe EPA plans to toss",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "7个月超15数学家6年工作量，AI写下百万行代码挑战核验超大数学证明工程",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247916163&idx=3&sn=8e8f972719b84bf2afca0a5d47860ef3",
+      "published_at": "2026-08-28T09:15:00.000Z",
+      "summary": "关注前沿科技 2026-08-28 17:15 北京\n\nAI正在推动有限单群分类的完整机器核验\n\n##### FormaTheoria 团队 投稿 量子位 | 公众号 QbitAI\n\n**有限单群分类** （CFSG）在现代数学中，堪称规模最为庞大的证明工程之一。\n\n这项证明，由上百位数学家耗时数十年接力完成，其成果散落在数百篇论文与专著之中，总篇幅接近 **两万页** ，体量已经远远超出单人甚至单个团队能够完整复核的边界。\n\n在这样的背景下，引入AI辅助进行大规模形式化验证，成为一条必须尝试的新路径。\n\n为推动AI for Math的发展，在 **丘成桐** 先生的倡导下，来自 **清华大学",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247916163&idx=4&sn=871cffd59bd9e929529921ea227d73a2",
+      "published_at": "2026-08-28T09:15:00.000Z",
+      "summary": "关注前沿科技 2026-08-28 17:15 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "How to sign up for a virtual power plant—and decide whether you should",
+      "url": "https://www.technologyreview.com/2026/08/28/1142956/how-to-sign-up-for-a-virtual-power-plant-and-decide-whether-you-should/",
+      "published_at": "2026-08-28T09:00:00.000Z",
+      "summary": "**MIT Technology Review** ***’s*** [How To](https://www.technologyreview.com/tag/how-to) ***series helps you get things done. ***\n\nYour thermostat may not look like a power plant. Neither does your electric vehicle, home battery, or HVAC system. But utility and energy companies increasingly want to ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "智元把「上班用」的机器人拉去比赛，拿了双榜第一",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651053054&idx=1&sn=3a775c1579fb39b60f3e55cc114fc2d8",
+      "published_at": "2026-08-28T06:00:00.000Z",
+      "summary": "原创关注具身智能的 2026-08-28 14:00 山东\n\n双榜第一！\n\n编辑｜张倩、杨文\n\n2026 世界人形机器人运动会，最会「上班」的机器人赢了。\n\n首次参赛，智元 拿下 18 金 1 6 银 12 铜 ，以 46 枚奖牌总数收官。根据赛事组委会公布的榜单，智元的金牌数和奖牌总数均位列第一。\n\n本次运动会共设 51 个赛项，分为竞技赛、灵巧手专项赛和场景赛三大板块，几乎覆盖人形机器人的主要能力维度。\n\n其中，智元 OmniHand 在灵巧手专项 8 个赛事拿下 7 金，精灵 G2 在酒店、室内应急、图书馆等 12 个作业场景赛中收入 6 金，远征 A3 在舞蹈、武术、乒乓等竞技项目中夺",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "2026年最被低估的具身赛道：让机器人先到得了现场",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651053054&idx=2&sn=6bcfaa04a1963cec0b322f228c1adc38",
+      "published_at": "2026-08-28T06:00:00.000Z",
+      "summary": "原创关注具身数据的 2026-08-28 14:00 山东\n\n具身智能真正的数据鸿沟，不在手上，在腿上\n\n编辑｜Panda\n\n前几天，我在自家小区的业主群里刷到一条招聘广告：居家靠谱副业，AI 数据采集兼职。\n\n这类广告已经不算新鲜了。今年 5 月，第一财经报道过一批「居家数据采集员」：他们戴着采集手套或者头戴相机，在自己家里择菜、叠衣服、开抽屉，把这些动作录成视频，卖给需要训练机器人的公司。据一家数据服务商透露，其百人左右的采集员队伍里，宝妈占比接近六成，居家岗位月薪在 3000 到 4000 元之间，社交平台上流传的日薪多在百元上下、时薪 25 元左右。\n\n具身智能行业对数据的渴求，可见一",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "10年前赌输的创业，被AI救活！以后人人都能改自己的App",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652721179&idx=3&sn=ddda6e22cd91c4fe3c7b778eb0baba17",
+      "published_at": "2026-08-28T04:47:00.000Z",
+      "summary": "ASI启示录 2026-08-28 12:47 北京\n\n### **新智元报道**\n\n我收藏的长文，全推到我的阅读器上。\n\n每周扫一遍arXiv，跟我方向沾边的论文都留下，贴好标签。\n\n我常看的网站抓下来老是乱码，给它单独写个解析器。\n\n这是Cloudflare首席工程师Jeremy Morrell的「独家需求」，他手上的那个阅读App，一条也做不到。\n\n他想要的是，这几句话说完，就有个机器人把对应的零碎代码挤出来，挂到软件预留好的扩展点上，然后自己跑起来。\n\n做完还能顺手分享出去，谁想要谁拿走。\n\n这，才是他心目中理想的软件样子：可扩展软件（Extensible Software）。\n\nMo",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-07-30",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕大模型代理、语音交互与开发提效的 AI 工具链持续升温。",
+  "items": [
+    {
+      "repo": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 可自托管、由你拥有的 Grok Companion，把 waifu 与赛博生命带入我们的世界，并以达到 Neuro-sama 的高度为目标，支持实时语音聊天以及游玩 Minecraft、Factorio，并提供 Web、macOS、Windows 支持。",
+      "language": "TypeScript",
+      "stars_today": 682,
+      "stars_total": 45366
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "面向 Claude Code、Codex、Opencode、Cursor 等的代理 harness 性能优化系统，强调技能、本能、记忆、安全与研究优先的开发。",
+      "language": "JavaScript",
+      "stars_today": 857,
+      "stars_total": 235543
+    },
+    {
+      "repo": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "使用开源模型构建本地语音代理。",
+      "language": "Python",
+      "stars_today": 827,
+      "stars_total": 7844
+    },
+    {
+      "repo": "deepfakes/faceswap",
+      "url": "https://github.com/deepfakes/faceswap",
+      "description": "面向所有人的深度伪造软件。",
+      "language": "Python",
+      "stars_today": 166,
+      "stars_total": 56243
+    },
+    {
+      "repo": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "开源前沿语音 AI。",
+      "language": "Python",
+      "stars_today": 336,
+      "stars_total": 51251
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一套真正可行的代理式技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 616,
+      "stars_total": 263264
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "开源且免费的混合架构代码审查工具，结合确定性流水线与 LLM Agent，提供精确到行的评论、内置微调规则集，并兼容 OpenAI 与 Anthropic。",
+      "language": "Go",
+      "stars_today": 359,
+      "stars_total": 15975
+    },
+    {
+      "repo": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "把任何技术书籍 PDF 转成 Claude Code skill，便于学习、查阅，并在工作时直接使用。",
+      "language": "Python",
+      "stars_today": 1421,
+      "stars_total": 12705
+    }
+  ]
+}

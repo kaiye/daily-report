@@ -1,0 +1,159 @@
+{
+  "generated_at": "2026-08-03T00:07:03.829Z",
+  "source_raw": "raw.json",
+  "source_count": 15,
+  "item_count": 14,
+  "language_breakdown": {
+    "Jupyter Notebook": 3,
+    "TypeScript": 3,
+    "Crystal": 1,
+    "Markdown": 1,
+    "PowerShell": 1,
+    "Python": 2,
+    "JavaScript": 1,
+    "C": 1,
+    "Go": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "language": "Jupyter Notebook",
+      "stars_today": 2629,
+      "stars_total": 58977,
+      "forks": 11599
+    },
+    {
+      "rank": 2,
+      "repo": "usekaneo/kaneo",
+      "url": "https://github.com/usekaneo/kaneo",
+      "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "language": "TypeScript",
+      "stars_today": 496,
+      "stars_total": 6133,
+      "forks": 516
+    },
+    {
+      "rank": 3,
+      "repo": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "stars_today": 819,
+      "stars_total": 25629,
+      "forks": 2882
+    },
+    {
+      "rank": 4,
+      "repo": "iv-org/invidious",
+      "url": "https://github.com/iv-org/invidious",
+      "description": "Invidious is an alternative front-end to YouTube",
+      "language": "Crystal",
+      "stars_today": 305,
+      "stars_total": 21971,
+      "forks": 2455
+    },
+    {
+      "rank": 5,
+      "repo": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "stars_today": 674,
+      "stars_total": 534817,
+      "forks": 50554
+    },
+    {
+      "rank": 6,
+      "repo": "zhaoxuya520/reverse-skill",
+      "url": "https://github.com/zhaoxuya520/reverse-skill",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "language": "PowerShell",
+      "stars_today": 1141,
+      "stars_total": 13349,
+      "forks": 1997
+    },
+    {
+      "rank": 7,
+      "repo": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "language": "TypeScript",
+      "stars_today": 280,
+      "stars_total": 20299,
+      "forks": 2087
+    },
+    {
+      "rank": 8,
+      "repo": "microsoft/generative-ai-for-beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI",
+      "language": "Jupyter Notebook",
+      "stars_today": 588,
+      "stars_total": 114759,
+      "forks": 61283
+    },
+    {
+      "rank": 9,
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "stars_today": 659,
+      "stars_total": 64675,
+      "forks": 5346
+    },
+    {
+      "rank": 10,
+      "repo": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "language": "TypeScript",
+      "stars_today": 602,
+      "stars_total": 10988,
+      "forks": 1045
+    },
+    {
+      "rank": 11,
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars_today": 206,
+      "stars_total": 56870,
+      "forks": 4976
+    },
+    {
+      "rank": 12,
+      "repo": "NomaDamas/k-skill",
+      "url": "https://github.com/NomaDamas/k-skill",
+      "description": "한국인을 위한 스킬 모음집 - 에이전트를 한국인으로",
+      "language": "JavaScript",
+      "stars_today": 177,
+      "stars_total": 6886,
+      "forks": 808
+    },
+    {
+      "rank": 14,
+      "repo": "antirez/ds4",
+      "url": "https://github.com/antirez/ds4",
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "language": "C",
+      "stars_today": 139,
+      "stars_total": 19984,
+      "forks": 1774
+    },
+    {
+      "rank": 15,
+      "repo": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "stars_today": 333,
+      "stars_total": 29043,
+      "forks": 1868
+    }
+  ]
+}

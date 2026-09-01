@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">SEP 01, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">今日X上的AI讨论集中在新模型、产品发布和开发者工具更新。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@AndrewBolis</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Andrew Bolis</span>：You can earn $8500/month if you have ChatGPT, a laptop, an internet connection, and 60 mins a day. Usually, I&#39;d charge $79 for this guide, but today you get it 100% free. Like + reply &#39;Money&#39; &amp; I&#39;ll send you my detailed guide for FREE. Must follow me to get guide in DM. FREE for next 48 hours.
+          </p>
+          <p class="item-metric">👁 308.8K · ❤️ 2.5K</p>
+          <a class="item-link" href="https://twitter.com/AndrewBolis/status/2094428759097245768">https://twitter.com/AndrewBolis/status/2094428759097245768</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@MatthewBerman</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Matthew Berman</span>：SpaceXAI and the Grok @bot team are letting me give away free Ultra Plans ($200) to people who reply below. Grok Bot has been so fun to use, here are a couple use cases I&#39;m using right now: 🔶 Family Bot - helps me manage all of my kids&#39; school and after-school stuff. I get like 5 emails per day for this. 🔶 Item Seller Bot - I take pictures of stuff in my house and my bot creates listings (FB Marketplace for example) and manages the sale end to end. Reply below and I&#39;ll DM you with a code!
+          </p>
+          <p class="item-metric">👁 545.0K · ❤️ 3.8K</p>
+          <a class="item-link" href="https://twitter.com/MatthewBerman/status/2094500928850387073">https://twitter.com/MatthewBerman/status/2094500928850387073</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@bamitsmanas</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Manas Bam</span>：Update: Samarth and I have joined OpenAI. We started Kairos with a dream that felt too big to say out loud: a personal AGI for everyone. Excited to keep chasing that dream inside Codex and ChatGPT. https://t.co/vU3Y7StHxz
+          </p>
+          <p class="item-metric">👁 94.6K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/bamitsmanas/status/2094440934490669256">https://twitter.com/bamitsmanas/status/2094440934490669256</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@Ananth7e</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ananth</span>：anthropic is getting sued. and the lawsuit confirms everything users have been saying. a class action was filed in june claiming anthropic&#39;s max 20x plan delivers far less than advertised. their own numbers are in the filing. page 16 of the complaint has the table. here&#39;s what it shows: • max 5x delivers 3.5x weekly usage of pro. not 5x, • max 20x delivers 6x weekly usage of pro. not 20x. so max 20x delivers only 2x weekly usage of max 5x.
+          </p>
+          <p class="item-metric">👁 96.7K · ❤️ 1.5K</p>
+          <a class="item-link" href="https://twitter.com/Ananth7e/status/2094381991068373216">https://twitter.com/Ananth7e/status/2094381991068373216</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@alannnfx</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Alan</span>：everyone keeps asking how to get the @student.umgc.edu email here it is, no fluff: 1. go to https://t.co/Xa9JShx2Jr and apply - fee is waived if you apply by sept 1 2. register at least one class (this is the part everyone skips) 3. email activates - you get your @student.umgc.edu that one email unlocks: - google ai pro for a year - chatgpt plus - codex credits - github student pack step 2 is the whole trick. apply without enrolling and the email stays dead do it before sept 1 while it&#39;s free apply at https://t.co/Xa9JShx2Jr
+          </p>
+          <p class="item-metric">👁 850.2K · ❤️ 4.0K</p>
+          <a class="item-link" href="https://twitter.com/alannnfx/status/2094323059155190260">https://twitter.com/alannnfx/status/2094323059155190260</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@robj3d3</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Rob Hallam</span>：See you soon @thsottiaux 🫶 https://t.co/7ZBikhWixK
+          </p>
+          <p class="item-metric">👁 212.2K · ❤️ 1.2K</p>
+          <a class="item-link" href="https://twitter.com/robj3d3/status/2094402846368428170">https://twitter.com/robj3d3/status/2094402846368428170</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@EU_Commission</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">European Commission</span>：We have designated ChatGPT as a Very Large Online Search Engine and Reddit and Roblox as Very Large Online Platforms under the Digital Services Act. They now have four months to comply with additional DSA obligations. More: https://t.co/gIR8vTolmB #DSA https://t.co/luusxUd3i4
+          </p>
+          <p class="item-metric">👁 3.6M · ❤️ 3.9K</p>
+          <a class="item-link" href="https://twitter.com/EU_Commission/status/2094379702546784496">https://twitter.com/EU_Commission/status/2094379702546784496</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@yunta_tsai</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Yun-Ta Tsai</span>：Two months ago I was testing Grok @imagine to make the Battle of Red Cliffs (赤壁之戰). Now in Grok @bot you can spin up a director, screenwriter, music producer, and cinematographer to create a cinematic movie trailer in one shot. Attached the only prompt I gave to Grok @bot and the rest was autonomous.
+          </p>
+          <p class="item-metric">👁 469.7K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/yunta_tsai/status/2094240693594255834">https://twitter.com/yunta_tsai/status/2094240693594255834</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@moonpay</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">MoonPay 🟣</span>：we just bought $250 of NEET on Solana using Grok and PayBox sending all the @neet_sol to one person who likes this post https://t.co/GVaDppuKOE
+          </p>
+          <p class="item-metric">👁 47.3K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/moonpay/status/2094490170561077348">https://twitter.com/moonpay/status/2094490170561077348</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@poteto</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">lauren</span>：I&#39;m writing a guide to pstack! Here&#39;s part one. https://t.co/4yjdWKPieE
+          </p>
+          <p class="item-metric">👁 237.8K · ❤️ 3.1K</p>
+          <a class="item-link" href="https://twitter.com/poteto/status/2094457600259842065">https://twitter.com/poteto/status/2094457600259842065</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

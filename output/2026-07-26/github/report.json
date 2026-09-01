@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-07-26",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是围绕 LLM Agent 与 Claude 生态，把代码评审、浏览器自动化、开发技能、内容工具和领域模型进一步产品化。",
+  "items": [
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "开源且免费——在阿里巴巴规模下经受实战检验的混合架构代码评审工具：确定性流水线 + LLM Agent、精准行级评论、内置微调规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。",
+      "language": "Go",
+      "stars_today": 431,
+      "stars_total": 12941
+    },
+    {
+      "repo": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "为 AI Agent 运行网页自动化打造的最快浏览器，可与 Codex 或 Claude Code 等 AI Agent 共享你的已登录浏览器状态而不打扰你，零成本、零配置。",
+      "language": "JavaScript",
+      "stars_today": 986,
+      "stars_total": 3561
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "精选 Claude Skills、资源与工具清单，用于定制 Claude AI 工作流。",
+      "language": "Python",
+      "stars_today": 577,
+      "stars_total": 70572
+    },
+    {
+      "repo": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "一组 notebooks/recipes，展示一些有趣且有效使用 Claude 的方式。",
+      "language": "Jupyter Notebook",
+      "stars_today": 132,
+      "stars_total": 49877
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：面向金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 319,
+      "stars_total": 33780
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "可落地的 Agentic 技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 479,
+      "stars_total": 261089
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "真正工程师的 Skills，直接来自我的 .agents 目录。",
+      "language": "Shell",
+      "stars_today": 1740,
+      "stars_total": 188229
+    },
+    {
+      "repo": "palmier-io/palmier-pro",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "description": "为 AI 打造的 macOS 视频编辑器。",
+      "language": "Swift",
+      "stars_today": 412,
+      "stars_total": 12208
+    },
+    {
+      "repo": "CoreBunch/Instatic",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "description": "Webflow、Framer 和 WordPress 的开源替代品，Agentic 自托管可视化 CMS，可输出干净的静态页面，并具备用户、角色、插件、内容和数据库等能力。",
+      "language": "TypeScript",
+      "stars_today": 426,
+      "stars_total": 5057
+    },
+    {
+      "repo": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型 Dive into LLMs》系列编程实践教程。",
+      "language": "Jupyter Notebook",
+      "stars_today": 408,
+      "stars_total": 45343
+    },
+    {
+      "repo": "OtterMind/Chat2DB",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "description": "AI 驱动的数据库工具和 SQL 客户端，热门 GUI 客户端，支持 MySQL、Oracle、PostgreSQL、DB2、SQL Server、SQLite、H2、ClickHouse 等。",
+      "language": "Java",
+      "stars_today": 360,
+      "stars_total": 26654
+    }
+  ]
+}

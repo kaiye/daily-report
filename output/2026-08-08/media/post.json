@@ -1,0 +1,354 @@
+{
+  "generated_at": "2026-08-08T00:03:29.913Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 28,
+  "items": [
+    {
+      "source": "新智元",
+      "title": "实时视频版「Nano Banana」来了！160亿参数重磅开源",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652716810&idx=1&sn=b814cb5b87c9cb3677ac63eb1016e090",
+      "published_at": "2026-08-07T04:07:00.000Z",
+      "summary": "ASI启示录 2026-08-07 12:07 北京\n\n### **新智元报道**\n\n这个 8 月，AI 视频赛道的军备竞赛又升级了。\n\n字节跳动发布 Seedance 2.5，把单次视频生成时长从 15 秒翻倍到 30 秒。同一天 MiniMax H3 开源，价格只要闭源旗舰的三分之一。\n\n整个赛道争的还是同一个指标： **谁能一口气生成得更长、更连贯、更便宜。**\n\n但这场比赛有一个所有人都默认的前提： 你得先等视频生成完，看一下，才知道自己想不想改。如果想改，对不起，重新排队。 有意思的是，隔壁语音赛道已经把这个前提拆掉了。就在几周前，OpenAI 发布 GPT-Live，语音交互从「说",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT",
+        "MiniMax"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "AI推翻80年数学猜想，菲尔兹奖得主一夜没睡：以为要出局",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652716810&idx=2&sn=066eaef430c7d9307d33ebf126ba348c",
+      "published_at": "2026-08-07T04:07:00.000Z",
+      "summary": "ASI启示录 2026-08-07 12:07 北京\n\n### **新智元报道**\n\n过去三个月，AI在数学界连干了三件几十年没人干成的事。\n\n5月，OpenAI一个还没公开的内部模型，推翻了埃尔德什1946年提出的单位距离猜想。\n\n这道题悬了整整80年，普林斯顿的Noga Alon说它「大概是离散几何里最有名的问题」。\n\n7月，Anthropic研究员Levent Alpöge发推，称Claude Fable找到了雅可比猜想（Jacobian conjecture）在高维的一个反例。\n\n8月，OpenAI一口气公布了内部版Astra在数学和理论计算机科学上的十项进展，从高维球堆积、群论到格密",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "刚刚，ChatGPT 5.6免费版来了！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651048906&idx=2&sn=d0e7f21c94fc91c70f6b367f2af46232",
+      "published_at": "2026-08-07T01:02:00.000Z",
+      "summary": "原创关注模型的 2026-08-07 09:02 云南\n\n也给 Sol 升了个级……\n\n编辑｜Panda\n\nOpenAI 今天更新了 ChatGPT，付费侧和免费侧都有变动。\n\n- 付费侧，Plus 和 Pro 用户用到的 Chat 版 GPT-5.6 Sol 被重新调优 ，并新增了一个控制「思考程度」的滑杆；\n- 免费侧，默认模型换成 GPT-5.6 Luna，文本对话不再限量 ，另外多了一个 Think 按钮用于需要更多推理的问题。\n\n一个只在聊天场景里生效的 Sol 调优\n\n这次更新的 Sol 有一个限定：它只在 ChatGPT 的 Chat 体验中可用，驱动 Work 和 Codex ",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "OpenAI 首款 AI 硬件曝光；DeepSeek 拟上调 API 服务定价；曝字节拟训练超 5 万亿超大参数模型｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111656&idx=1&sn=41247222a01a6bb57e0347f7441c5518",
+      "published_at": "2026-08-07T00:18:00.000Z",
+      "summary": "徐珊 2026-08-07 08:18 北京\n\n深圳诞生国产消费级 3D 打印机「四小龙」；小红书加大 AI 投入，关注情感陪伴；Bose 推出新一代 QuietComfort 头戴式耳机。\n\n## 古尔曼爆料 OpenAI 首款 AI 硬件：甜甜圈造型、冰球大小，先进语音交互等\n\n8 月 7 日消息，彭博社的马克 · 古尔曼（Mark Gurman）今天（8 月 7 日）发布 Power On 实时通讯，爆料称 OpenAI 的首款 AI 硬件为冰球（Hockey Puck，约 115.8 立方厘米）大小，售价预估在 300 美元到 400 美元（IT 之家注：现汇率约合 2,029 元到 ",
+      "priority_score": 228,
+      "matched_keywords": [
+        "OpenAI",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Whats behind the Google AI shake-up",
+      "url": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+      "published_at": "2026-08-07T16:45:14.000Z",
+      "summary": "Some of the biggest names on Google's AI team[got new jobs this week](https://www.theverge.com/tech/975677/google-deepmind-ai-demis-hassabis-shakeup). In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best o",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Google AI",
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "published_at": "2026-08-07T16:16:09.000Z",
+      "summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "openJiuwen发布业界首个企业级分布式蜂群架构，联合邮储成功落地金融生产环境",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910431&idx=2&sn=a0a13f56d24758689910c40738131608",
+      "published_at": "2026-08-07T04:24:00.000Z",
+      "summary": "量子位 2026-08-07 12:24 北京\n\n从能用走向规模化落地\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n写代码、做研究、处理日常事务，Agent已经渗透进人们工作与生活的方方面面。\n\n但能通过试点验证、真正进入生产系统的，仍是少数。\n\n从服务个人到支撑数万名员工7×24小时运行，中间隔着一整套工程与治理问题：\n集群如何弹性扩展、资源如何有效利用、分散的多智能体如何统一治理、数据与权限如何隔离，以及规模化运行的成本如何控制。\n近日，由华为2012实验室、华为云、终端、计算等团队联合构建的openJiuwen开源AI Agent平台发布了 **企业级分布式蜂群",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "DeepSeek 的「斩杀线」，正在重塑 AI 行业的世界观",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111666&idx=1&sn=b5c7b9ffd6791e0fe4b29ee0c5625116",
+      "published_at": "2026-08-07T04:17:00.000Z",
+      "summary": "原创Techno 之王 2026-08-07 12:17 江西\n\n不要为极致的便宜而欢呼，「稳定的平衡」才是行业发展的本质。\n\n**作者｜Techno 之王** **编辑｜靖宇**\n\n8 月 4 日，「DeepSeek 斩杀线」竟然冲上微博热搜。V4 Flash 正式版凭借极致的性价比，在全球 AI 大模型的「成本-性能」坐标系上划出了一条残酷的行业生死线——比它贵的没它强，比它弱的没它便宜。开发者社区群情振奋，甚至外溢成了更大人群津津乐道的话题。\n\n当看起来 AI 世界的定价权已经易手，所有人为极致性价比欢呼的时候，两天后，8 月 6 日，DeepSeek 在开放平台后台发布了一条简短的公告",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "published_at": "2026-08-07T22:48:24.000Z",
+      "summary": "OpenAI said it has suspended work on some aspects of its upcoming model Astra over concerns about its cybersecurity prowess.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI puts the brakes on a new model because its supposedly too powerful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+      "published_at": "2026-08-07T18:40:34.000Z",
+      "summary": "OpenAI says[it is pausing \"internal activities\"](https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/)around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "参数化 Memory 漫谈（纯干货）",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511041&idx=1&sn=037ffb3529df30ea5b8b30b966a526bf",
+      "published_at": "2026-08-07T10:18:00.000Z",
+      "summary": "原创 陈梓康 2026-08-07 18:18 福建\n\n本文意在通过梳理脉络，尝试从头理解参数化，以及理解记忆\n\n\n这是2026年的第 49 篇文章\n（ 本文阅读时间：约 100 分钟 ）\n前言的前言：本文的思路是什么？\n（和 LLM 相关的）Memory 是一个被广泛关注和讨论的话题，其中，参数化 Memory 是 Memory 的一个重要分支。\n但是在众多的谈论中，我发现很多文章对于“参数化 Memory”这个概念的理解并不一致，比如认为“只要训练了一个记忆特化的模型，就归类为参数化 Memory 研究”。甚至在写下这篇文章之前，我也很难系统性地理解参数化记忆的本质是什么、难点如何，以及它",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "办公Agent大战正酣，真正的胜负手却藏在看不见的地方",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651048906&idx=1&sn=f6af0867a0c72211fb12bdf0f7ff43a5",
+      "published_at": "2026-08-07T01:02:00.000Z",
+      "summary": "原创后训练的 2026-08-07 09:02 云南\n\n把强化学习后训练做成产品，这是Pyromind给Agent时代的解答\n\n编辑｜Panda\n\n最近，办公 Agent 真是火。\n\n飞书 Aily、WorkBuddy、千问办公轮番上阵，挤破头想要抢占企业办公入口，AI Agent 正以前所未有的速度走进真实工位。写周报、跑数据、处理工单、盯流程……越来越多重复性的办公任务，开始被交到 Agent 手里。热闹背后，一个更根本的问题却容易被忽略：这些每天准时「上班」、反复干着同一类活儿的 Agent，真的会因为干得多而变得更好用吗？\n\n答案往往是不会。而这，正指向了眼下 AI 圈另一个热爆了的话",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
+      "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+      "published_at": "2026-08-07T14:00:00.000Z",
+      "summary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products —&#160;almost as&#160;if&#160;they&#8217;re&#160;forming a new government. And whether&#160;you&#8217;re&#160;thinking of Twitter&#8217;s old “town hall in your pocket” or&#160;Anthropic",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "published_at": "2026-08-07T21:30:11.000Z",
+      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+      "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "published_at": "2026-08-07T14:22:49.000Z",
+      "summary": "Airbnb will debut a new AI-powered search experience with a toggle.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "600倍加速，720p视频实时生成！单卡也能带的动14B模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652716810&idx=3&sn=ed0d03f1c359c897e017abdeee7c1bcb",
+      "published_at": "2026-08-07T04:07:00.000Z",
+      "summary": "新智元 2026-08-07 12:07 北京\n\n### **新智元报道**\n\n**生成一段5秒720p分辨率视频，为什么要等数十分钟？**\n\n对14B级视频生成模型来说，高分辨率、长时序和强运动一致性提升了画质，也同步拉长Token序列，放大注意力计算和显存峰值。消费级GPU必须同时面对速度与显存两道门槛。\n\n**LightX2V** 团队面向 **Wan2.2-A14B** 推出 **LightWan2.2-A14B** ，以步数蒸馏、NVFP4量化感知训练和动态稀疏注意力压缩计算量，再用高效算子、细粒度卸载和多卡通信优化打通整条推理链路。\n\n最终，14B模型可以在单张RTX 5090上高",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "语音成为 AI 关键入口，阿里一口气把全栈模型能力都拿出来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111687&idx=1&sn=0c2747823e75747f193bcced6ada1a71",
+      "published_at": "2026-08-07T11:40:00.000Z",
+      "summary": "原创连冉 2026-08-07 19:40 浙江\n\n语音 AI 的竞争赛道正在转向。\n\n**作者｜连冉** **编辑｜郑玄**\n\n我们正在悄然进入一个「打字越来越少」的时代。\n\n过去，语音只是键盘输入的补充：开车时发消息、开会时记笔记，它是「不方便打字时的替代方案」；但现在，语音正在成为人机交互的核心入口之一—— 有人用语音写完一天的工作文档，有人靠语音驱动 AI 写完代码，甚至有产品从诞生起就没有打字框，全程靠说话完成所有操作。\n\n这股「语音原生」的浪潮，也已经从用户习惯渗透到了一级市场。\n\n海外 AI 语音输入工具 Wispr 半年估值翻近三倍逼近 20 亿美元，用户规模同比暴涨超百倍；从",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
+      "published_at": "2026-08-07T20:01:51.000Z",
+      "summary": "That cover art is almost certainly AI too. | Image: Fenix Flexin\nIt[took long enough](https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop), but now LA rapper Fenix Flexin appears to have[admitted](https://x.com/nfr_podcast/status/2085725158916956",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Watching Roku’s AI channel is like eating from a trough",
+      "url": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+      "published_at": "2026-08-07T18:59:46.000Z",
+      "summary": "The appeal of[free ad-supported streaming television](https://www.theverge.com/23680217/fast-services-tubi-roku-pluto-tv)(FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do with traditiona",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "published_at": "2026-08-07T17:53:32.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: a censorship conspiracy theory and the first virus created by AI",
+      "url": "https://www.technologyreview.com/2026/08/07/1141389/the-download-censorship-conspiracy-theory-first-ai-virus/",
+      "published_at": "2026-08-07T14:20:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **How ideas of a vast c",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "How ideas of a vast censorship network moved from the online fringe to Trump policy",
+      "url": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
+      "published_at": "2026-08-07T14:00:00.000Z",
+      "summary": "*This article was produced in partnership with* [Type Investigations](https://www.typeinvestigations.org/) *, with support from the Wayne Barrett Project.*\n\nOne morning in April 2025, employees of a small office in the US State Department got the email many of them had been dreading. \n\nFor months, E",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+      "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+      "published_at": "2026-08-07T11:40:37.000Z",
+      "summary": "Meta's total fine has racked up to $942 million in this case.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "阿里技术",
+      "title": "最后15天初赛冲刺！首届阿里AI创意广告大赛评委天团曝光",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511041&idx=2&sn=a9524d2817984d53414c272198ddcc19",
+      "published_at": "2026-08-07T10:18:00.000Z",
+      "summary": "阿里技术 2026-08-07 18:18 福建\n\n欢迎留言一起参与讨论~\n\n[阅读原文](https://www.iconfont.cn/activity/entries/index?activity_id=16) [跳转微信打开](https://wechat2rss.xlab.app/link-proxy/?k=3e6b8a6f&amp;r=1&amp;u=https%3A%2F%2Fmp.weixin.qq.com%2Fs%3F__biz%3DMzg4NTczNzg2OA%3D%3D%26mid%3D2247511041%26idx%3D2%26sn%3Da9524d2817984d5",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "从胡言乱语到精准改代码：我是如何让 AI 读懂老项目的",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803058&idx=1&sn=f3ed1b512d61666ebc7d4852a33911b5",
+      "published_at": "2026-08-07T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-08-07 17:36 广东\n\n将真实债务项目重构成 AI 可维护项目\n\n作者：被删\nAI 时代赋予 AI 的新角色：AI 铲屎官。\n在 AI 很强的现在，依然很多人会认为， **AI 更适用于新项目快速迭代，但很难在一个背负着沉重的历史包袱的项目中起到很大的用处。**\n\n最近大半年都在重构项目，从前期使用 AI 依然困难重重，到如今 AI 能高效定位问题、给到十分贴合项目需要的解决方案，中间特别明显的一个转折点， **在于开始给项目搭建 AI 上下文工程。**\n\n当然，这一年来 AI 的能力本身也在不断加强，我们项目的质量和架构的合理性在我的努力重构下也在稳步提升，",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "AI圈功能狂卷，付费寥寥，Keep正在试一条新路",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910431&idx=1&sn=cd32d309b7df9150014246363ae5a7a4",
+      "published_at": "2026-08-07T04:24:00.000Z",
+      "summary": "原创关注前沿科技 2026-08-07 12:24 北京\n\nAI卷向运动赛道，Keep的新答卷能否跑通？\n\n##### 一水 发自 凹非寺 量子位 | 公众号 QbitAI\n\n没想到啊没想到。\n\n如今在一众「AI+」里，最让我停不下来的，居然是「AI+运动」？？\n\n**一提起「AI+运动」，不少人可能会想到Keep** 。\n\n国民级App的知名度，外加一系列适合承接AI的落地场景，让它天然站在了这条赛道的前排。\n\n不过，占住了认知地盘是一回事，怎么把AI真正带给用户则是另一回事。\n\n就在今天，Keep借88全民健身日这个契机，给出了自己的解法：\n\n**「超级AI会员」** 。\n\n等等，作为一位",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247910431&idx=3&sn=0354edeadfbb3fe72c9620457a2eed1b",
+      "published_at": "2026-08-07T04:24:00.000Z",
+      "summary": "关注前沿科技 2026-08-07 12:24 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "Handroid：当一台机器人既可以是灵巧手，也可以是人形机器人",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651048906&idx=3&sn=521a026ba05d59de5a1fe7d22cc77441",
+      "published_at": "2026-08-07T01:02:00.000Z",
+      "summary": "机器之心 2026-08-07 09:02 云南\n\n一台高 0.33 米、重 2.05 千克、拥有 27 个自由度的可重构桌面级机器人。\n\n如果机器人需要行走、转向、避障以接近目标，它需要一副能够移动的身体；如果机器人需要进一步完成抓取、倒水、叠杯子或拾取纸张等精细任务，它还需要一只足够灵巧的手。长期以来，这两类能力通常由不同的机器人平台分别实现：人形机器人侧重移动与全身交互，灵巧手则专注于物体尺度上的精细操作。这种分工虽然清晰，却也在无形中将机器人系统割裂为两部分：会移动的机器人，手往往不够灵巧；足够灵巧的手，又常常离不开机械臂和固定的工作空间。\n\n为了打破移动与精细操作之间的这道边界，来自",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

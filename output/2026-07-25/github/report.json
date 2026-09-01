@@ -1,0 +1,72 @@
+{
+  "report_date": "2026-07-25",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热的共同方向是大模型与 AI 代理生态的实用化工具链，涵盖 Claude 技能、代理浏览器、模型网关、金融基础模型与 LLM 学习实践。",
+  "items": [
+    {
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "实时全球情报仪表盘，将 AI 驱动的新闻聚合、地缘政治监测和基础设施追踪整合在统一的态势感知界面中。",
+      "language": "TypeScript",
+      "stars_today": 2184,
+      "stars_total": 73245
+    },
+    {
+      "repo": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "精选的 Claude Skills、资源与工具列表，用于定制 Claude AI 工作流。",
+      "language": "Python",
+      "stars_today": 663,
+      "stars_total": 70037
+    },
+    {
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos：面向金融市场语言的基础模型。",
+      "language": "Python",
+      "stars_today": 499,
+      "stars_total": 33479
+    },
+    {
+      "repo": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "面向 AI 代理运行网页自动化的最快浏览器，可与 Codex 或 Claude Code 等 AI 代理共享已登录的浏览器状态且不打扰你，零成本、零配置。",
+      "language": "JavaScript",
+      "stars_today": 880,
+      "stars_total": 2544
+    },
+    {
+      "repo": "CoreBunch/Instatic",
+      "url": "https://github.com/CoreBunch/Instatic",
+      "description": "Webflow、Framer 和 WordPress 的开源替代品，是可自托管的代理式可视化 CMS，可输出干净的静态页面，并包含用户、角色、插件、内容和数据库等能力。",
+      "language": "TypeScript",
+      "stars_today": 201,
+      "stars_total": 4273
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "真正工程师的 Skills，直接来自我的 .agents 目录。",
+      "language": "Shell",
+      "stars_today": 2251,
+      "stars_total": 186674
+    },
+    {
+      "repo": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型 Dive into LLMs》系列编程实践教程。",
+      "language": "Jupyter Notebook",
+      "stars_today": 328,
+      "stars_total": 44988
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "永不停下编码，免费的 MIT AI 网关提供一个端点连接 290+ 提供商和 500+ 模型，支持 Claude Code、Codex、Cursor、OpenCode、Cline 与 Copilot，并具备配额感知自动回退、令牌压缩、MCP/A2A、桌面版和 PWA。",
+      "language": "TypeScript",
+      "stars_today": 1841,
+      "stars_total": 28802
+    }
+  ]
+}

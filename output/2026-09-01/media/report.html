@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>媒体资讯</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #2a1f0f;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #ffc069;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #ffd8ab;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #ffe8cc 0%, #fff7ed 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #ffe0bf;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #ffe0bf;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #ffc069 88%, white) 0%,
+      color-mix(in srgb, #ffc069 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #ffe0bf;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">Media & News Watch</p>
+        </div>
+        <p class="date-chip">SEP 01, 2026</p>
+      </div>
+      <h1 class="hero-title">媒体资讯</h1>
+      <p class="hero-summary">今日AI媒体资讯集中在模型产品更新、企业部署和行业应用进展。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">TechCrunch AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">The Pentagon now has its own version of ChatGPT and Grok</span>：Versions of OpenAI&#39;s ChatGPT and SpaceXAI&#39;s Grok will join Google&#39;s Gemini on the Pentagon&#39;s central portal for AI tools.
+          </p>
+          <p class="item-metric">2026-08-31 20:13:45 UTC</p>
+          <a class="item-link" href="https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/">https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">The Verge AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">ChatGPT to face tougher regulation in the EU</span>：OpenAI will soon be held accountable for mitigating risks related to ChatGPT&#39;s impact on minors, user mental health, and the spread of illegal content in the European Union. That&#39;s because ChatGPT is[now considered a Very Large Online Search Engine](https://ec.europa.eu/commission/presscorner/detail
+          </p>
+          <p class="item-metric">2026-08-31 13:27:36 UTC</p>
+          <a class="item-link" href="https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa">https://www.theverge.com/ai-artificial-intelligence/986682/openai-chatgpt-eu-dsa</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">机器之心</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Mac mini缺货原因找到了！OpenAI、Anthropic都在抢</span>：原创关注AI的 2026-08-31 10:18 山东 AI时代硬通货。 机器之心编辑部 内存芯片价格飞涨，普通消费者快买不起电脑了，另一边，适合运行 AI 负载的设备却卖得火热。 据《The Information》援引 OpenAI 内部消息人士报道，过去几个月，OpenAI 购买了数万台 Mac mini 和 Mac Studio，用于强化学习和计算机操作智能体的开发。 这些设备被集中部署，用来训练和测试能够自主操作电脑的 Agent。报道还称，Anthropic 也在通过亚马逊 AWS 租用大量 Mac 算力。 苹果电脑过去主要面向普通消费者和专业创作者，如今，它们开始以集
+          </p>
+          <p class="item-metric">2026-08-31 02:18:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651053642&amp;idx=2&amp;sn=4b05490be78424c57d2d1d2f7b3215ed">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651053642&amp;idx=2&amp;sn=4b05490be78424c57d2d1d2f7b3215ed</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">机器之心</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">HOMIE Gen2全新发布！解锁人类经验的Scaling Law</span>：机器之心 2026-08-31 10:18 山东 机器人的经验百科全书。 机器之心发布 机器人没有迎来 GPT 时刻，关键缺口不在模型，而在于可以规模化的经验。Ropedia 以 HOMIE Gen2 为入口，为世界解锁 Physical AI 的 Experience Scaling Law，让人类经验成为具身智能的核心生产力。 Ropedia 最新发布的 HOMIE Gen2 机器之心获悉，总部位于新加坡的 Phy sical AI 公司 Ropedia 今日正式发布新一代多模态采集系统 HOMIE Gen2 ，并将在全球多地公开发售。这是该公司十二个月里的第四代采集硬件，也是继
+          </p>
+          <p class="item-metric">2026-08-31 02:18:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651053642&amp;idx=1&amp;sn=d7ad705f2e37aac9e5d2c4533d541899">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651053642&amp;idx=1&amp;sn=d7ad705f2e37aac9e5d2c4533d541899</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">MIT Technology Review AI</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">The Hugging Face hack could indicate cultural issues at OpenAI</span>：*This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,* [sign up here](https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/) *.* By now you’ve probably heard about last month’s major AI security incident,
+          </p>
+          <p class="item-metric">2026-08-31 18:00:00 UTC</p>
+          <a class="item-link" href="https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/">https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">阿里技术</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">zg 正式开源：本地检索，不止于关键词</span>：飞鸿 2026-08-31 18:40 浙江 本地内容检索需要在保留 rg 精确、快速和穷尽能力的基础上，进一步具备语义发现、相关性排序与上下文组织能力 —— 这正是 zg 希望解决的问题。 这是2026年的第 56 篇文章 （ 本文阅读时间：约 10 分钟 ） 摘要 ：人与 Agent 所需的信息，往往散落在大量本地文件中，准确、高效地定位这些信息并不容易。 **zg（zvec-grep）** 是面向人与 Agent 的本地优先检索基础设施，基于 **Zvec** 提供的向量检索与 BM25 能力，并结合 **ripgrep（rg）** ，从代码、文档等本地内容中提取并组织信息，减少
+          </p>
+          <p class="item-metric">2026-08-31 10:40:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&amp;mid=2247511367&amp;idx=1&amp;sn=7a7ea589cdf19b68dc5eb8b9f04e8030">https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&amp;mid=2247511367&amp;idx=1&amp;sn=7a7ea589cdf19b68dc5eb8b9f04e8030</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">极客公园</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">流量红利退潮，快手想用 AI 和老友们破局</span>：原创连冉 2026-08-31 19:52 北京 在快手持续发布作品超过 10 年的创作者超过 1700 万。 **作者｜连冉** **编辑｜ **郑玄**** 8 月 29 日，在 2026 快手光合创作者大会上，快手科技创始人、董事长兼 CEO 程一笑公布了一组数据：快手每天发布的作品超过 5800 万，近一年有超过 2.7 亿用户发布过作品，持续发布作品超过 10 年的创作者则超过 1700 万。 大会上，快手用这些数据说明其「平等普惠、温暖信任、多元特色」的社区底色。但放进快手最新财报，它们可能还有另一层含义：当流量扩张接近尾声，平台开始把「谁能留下来、谁能持续经营」变成新的竞
+          </p>
+          <p class="item-metric">2026-08-31 11:52:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653112985&amp;idx=2&amp;sn=8aebeab73f8317138503496ae3420610">https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&amp;mid=2653112985&amp;idx=2&amp;sn=8aebeab73f8317138503496ae3420610</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">腾讯技术工程</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">从Vibe Coding到Vibe Worlding：AI开始自己“造世界”了</span>：腾讯技术工程 2026-08-31 17:36 广东 和 AI 对话 如果说 **Vibe Coding** 让「写代码」这件事从「敲键盘」变成了「和 AI 对话」，那么今天要介绍的这项工作，可能正在把同样的故事在 **3D 世界构建** 领域重演一遍。 **开源地址：** - 项目主页：[https://usail-hkust.github.io/VibeWorlding-Gym/](https://usail-hkust.github.io/VibeWorlding-Gym/) - Code（沙盒环境与训练框架）：[https://github.com/usail-hkust/Vib
+          </p>
+          <p class="item-metric">2026-08-31 09:36:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649803909&amp;idx=1&amp;sn=86e196bd070ef323abc0b62f99bd4cac">https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649803909&amp;idx=1&amp;sn=86e196bd070ef323abc0b62f99bd4cac</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-warn">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">腾讯技术工程</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">CubeSandbox v0.7.0 发布：沙箱跨机流动，集群平滑演进</span>：腾讯技术工程 2026-08-31 17:36 广东 跨机暂停恢复、组件多版本共存，它们来啦！ 在 v0.6.0 中，我们把 CubeSandbox 送进了 Kubernetes，也交付了兼容 E2B 的 Volume 框架。控制面能以标准工作负载运行，计算节点作为可调度资源纳入集群，存储的选择权回到了用户手里。 但不少团队真正把集群跑起来之后，会遇到一个最大的问题：沙箱只能待在一开始的那台机器上。 暂停的沙箱换不了机器恢复，快照也只能在原节点用；更麻烦的是，组件一升级，之前做好的模板和快照就对不上了，只能重做。这两件事，正是生产用户最在意的。 于是，在 v0.7.0 中，我们将这些“
+          </p>
+          <p class="item-metric">2026-08-31 09:36:00 UTC</p>
+          <a class="item-link" href="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649803909&amp;idx=2&amp;sn=75a522e38308f9634ebaf54d7355af29">https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649803909&amp;idx=2&amp;sn=75a522e38308f9634ebaf54d7355af29</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

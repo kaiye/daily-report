@@ -1,0 +1,462 @@
+{
+  "generated_at": "2026-07-31T00:02:02.398Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 39,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "三星二季度利润同比增长 18 倍；Deepmind 拆散重组诺奖项目团队；Hugging Face 披露 AI 入侵全过程报告 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111343&idx=1&sn=1d125f3c9b91d254261857b1f7b4f8b7",
+      "published_at": "2026-07-30T00:59:00.000Z",
+      "summary": "苏子华 2026-07-30 08:59 北京\n\n· 微软确认 Copilot「超级应用」年内问世；\n\n## OpenAI 称 7 月年化收入继续走高，正面临 Anthropic 与开源模型双重竞争\n\n7 月 30 日消息，据 CNBC 今日报道，OpenAI 首席财务官萨拉 · 弗里亚尔（Sarah Friar）在当地时间 7 月 29 日举行的一场内部员工会议上透露，公司 7 月份的年化经常性收入（ARR）已超过整个第二季度的任一一个月。OpenAI 第二季度表现并不弱，而 7 月收入增长势头进一步增强。\n\n此举旨在向员工传递公司业务仍保持增长态势的信息，也需要向外部投资者证明其高达 85",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "AI开始给自己写代码了！GPT-5.6重写内核，服务成本直降20%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652715544&idx=2&sn=45ba73ecda8b2bcacf4ccd902b1a1591",
+      "published_at": "2026-07-30T06:45:00.000Z",
+      "summary": "ASI启示录 2026-07-30 14:45 北京\n\n### **新智元报道**\n\n这回，AI开始为自己写代码了！\n\nGPT-5.6一上线，接到的第一个大活，就是给自己的运行环境来了一次大「翻修」。\n\n它自主重写、优化了OpenAI线上那套底层代码，也就是真正负责跑模型的生产GPU内核。\n\n7月29日，OpenAI官方甩出一组数字：\n\nGPT-5.6 Sol参与的内核优化，让OpenAI对外的服务成本降了20%；推测解码的改进，让模型生成token的效率提升超过15%。\n\n这次GPT-5.6动的不是一个跑在演示环境里的Demo，而是OpenAI正在线上跑的，每天承载十亿级用户请求的那套生产系",
+      "priority_score": 228,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "终于，徒步的时候也能上班了！他用ChatGPT语音4小时干了8小时的活儿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651047451&idx=2&sn=6c3eedb4d04899ad178a6b10aa78d3a0",
+      "published_at": "2026-07-30T05:52:00.000Z",
+      "summary": "原创关注AI的 2026-07-30 13:52 北京\n\n「工作徒步就是在传统的徒步中加入一点工作」\n\n编辑｜山辉\n\nChatGPT 语音功能上线有段时间了，不知道大家的使用体验如何。\n\n在「像不像真人」这件事上，已经见到了不少惊人的案例。\n\n但更出人意料的是，一位博主分享了自己 边徒步、边用语音工作 的经历：他在北加州的红杉树森林里徒步了 4 个小时，全程戴着 AirPods，通过 ChatGPT 语音模式与大模型一路交流，结果「 这 4 个 小时干的 活，比在办公室 8 个小时还要多 」。\n\n按照他的描述，返程时乘坐自动驾驶汽车的 45 分钟，可以继续和 ChatGPT 讨论副业；在咖啡馆",
+      "priority_score": 228,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Microsoft is openly competing with OpenAI, Anthropic more than ever",
+      "url": "https://techcrunch.com/2026/07/29/microsoft-is-openly-competing-with-openai-anthropic-more-than-ever/",
+      "published_at": "2026-07-30T00:21:06.000Z",
+      "summary": "Microsoft pitched its own homegrown AI models, harnesses, and even a Mythos competitor on Wednesday, telling Wall Street it plans for continued growth.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares",
+      "url": "https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/",
+      "published_at": "2026-07-30T23:25:58.000Z",
+      "summary": "The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "传奇AlphaFold团队全员解散！诺奖得主投奔Anthropic，资源转向Gemini",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908242&idx=2&sn=b8925e5556f890a762f59279d33cb809",
+      "published_at": "2026-07-30T03:35:00.000Z",
+      "summary": "关注前沿科技 2026-07-30 11:35 北京\n\n嚯，诺奖团队也被砍了\n\n##### 听雨 发自 凹非寺 量子位 | 公众号 QbitAI\n\n啥？？\n\n曾拿下诺奖、打造AlphaFold的明星团队，被Google DeepMind原地解散了。\n\n据《金融时报》消息，这支曾攻克蛋白质结构预测难题、诞生诺贝尔化学奖得主的团队，如今已经不再作为一个独立团队存在。\n\n原来的成员被分流到Google内部多个项目：有人转去做Gemini和AI编程，有人研究基因组、蛋白质与酶设计、核聚变；\n\n还有一部分人去了Alphabet旗下的药物研发公司Isomorphic Labs，也有人直接离开了Google",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google DeepMind’s new AI model can control a robot’s entire body",
+      "url": "https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body",
+      "published_at": "2026-07-30T17:18:45.000Z",
+      "summary": "Apptronik’s Apollo 2 robot takes a baseball glove off of a shelf. | Image: Google\nGoogle DeepMind says the latest version of its Gemini Robotics AI model can \"control entire humanoid robots.\" While the[previous model focused](https://www.theverge.com/news/628021/google-deepmind-gemini-robotics-ai-mo",
+      "priority_score": 122,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Okta buys AI security startup Permiso — source says for about $200M",
+      "url": "https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/",
+      "published_at": "2026-07-30T16:09:42.000Z",
+      "summary": "The deal gives Okta identity threat detection capabilities as enterprises seek to secure AI agents and other non-human identities across cloud environments.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "published_at": "2026-07-30T10:15:19.000Z",
+      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a[paper presented at the International Conference on Machine Learning](https://role-confusion.github.io/), a top AI conference, this month. The cla",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label",
+      "url": "https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/",
+      "published_at": "2026-07-30T20:26:38.000Z",
+      "summary": "A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google says it fixed more Chrome bugs in June than over the past two years, thanks to AI",
+      "url": "https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/",
+      "published_at": "2026-07-30T18:57:58.000Z",
+      "summary": "As experts have warned for the last two years, some companies — like Microsoft and now Google — are finding and patching an exponential number of bugs in their products, thanks to the use of LLMs and AI tools.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "In the Hugging Face breach, OpenAI’s hacker was noisy and fast — but not unstoppable",
+      "url": "https://techcrunch.com/2026/07/30/in-the-hugging-face-breach-openais-hacker-was-noisy-and-fast-but-not-unstoppable/",
+      "published_at": "2026-07-30T14:48:32.000Z",
+      "summary": "Cybersecurity experts told TechCrunch that one of the biggest lessons to be taken from the OpenAI hack against Hugging Face has nothing to do with AI, but traditional cybersecurity defense.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: tricking LLMs, and reviving geothermal plants",
+      "url": "https://www.technologyreview.com/2026/07/30/1140936/the-download-tricking-llms-reviving-geothermal/",
+      "published_at": "2026-07-30T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **A fundamental flaw le",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Friend re-launches its AI pendant with a speaker that talks to you, for twice the price",
+      "url": "https://www.theverge.com/gadgets/973163/friend-re-launches-its-ai-pendant-with-a-speaker-that-talks-to-you-for-twice-the-price",
+      "published_at": "2026-07-30T16:33:32.000Z",
+      "summary": "Do you remember Friend? The Friend that launched an AI pendant, spent $1.8 million of its $2.5 million in funding to acquire friend.com, and plastered the NYC subway with ads promoting artificial companionship?\n\nYeah well, if you didn't remember,[Friend is back](https://x.com/AviSchiffmann/status/20",
+      "priority_score": 52,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "LinkedIn actually adds a ‘seems like AI slop’ button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973384/linkedin-seems-like-ai-slop-button",
+      "published_at": "2026-07-30T18:43:26.000Z",
+      "summary": "A lot of content on LinkedIn might seem like AI slop, and now, you'll be able to report those posts. As part of a series of updates to reduce the volume of AI slop on the platform, LinkedIn is introducing an actual button that lets you flag a post as something that \"Seems like AI slop.\"\n\nThe new fea",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "LinkedIn adds a button to report AI-generated ‘slop’",
+      "url": "https://techcrunch.com/2026/07/30/linkedin-adds-a-button-to-report-ai-generated-slop/",
+      "published_at": "2026-07-30T18:05:21.000Z",
+      "summary": "LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option. It's also replacing its own AI writing feature with a proofreading tool.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta says AI is making it easier to build new apps — and more are coming",
+      "url": "https://techcrunch.com/2026/07/30/meta-says-ai-is-making-it-easier-to-build-new-apps-and-more-are-coming/",
+      "published_at": "2026-07-30T15:41:16.000Z",
+      "summary": "Meta says AI is making it dramatically easier to build and launch new consumer apps, with CEO Mark Zuckerberg telling investors the company has more new consumer products on the way.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "TechCrunch Disrupt 2026’s biggest stage features leaders from Amazon, Replit, Tether, with much more to come",
+      "url": "https://techcrunch.com/2026/07/30/techcrunch-disrupt-2026s-biggest-stage-features-leaders-from-amazon-replit-tether-with-much-more-to-come/",
+      "published_at": "2026-07-30T14:00:00.000Z",
+      "summary": "The Disrupt Stage is where many of the biggest conversations in technology happen, with a legacy that stretches back for more than a decade.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Dili raises $21.7M to bring AI compliance to the infrastructure boom",
+      "url": "https://techcrunch.com/2026/07/30/dili-raises-15-million-to-bring-ai-compliance-to-the-infrastructure-boom/",
+      "published_at": "2026-07-30T13:00:00.000Z",
+      "summary": "The Series A was led by Khosla Ventures, with participation from Allianz, Rebel Fund, Brick and Mortar Ventures’ Darren Bechtel, and Y Combinator’s Garry Tan.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "AI Coding的下一站，不是更会写代码，而是更懂团队",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649802960&idx=1&sn=c62698da543f3bd37ba36b617bc92b80",
+      "published_at": "2026-07-30T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-07-30 17:36 广东\n\nQQ 浏览器让AI在团队语境中持续进化的工程实践\n\n作者：linjangyang、lypeerluo、kehawang、yansycao\n个人 AI Coding 的效率提升已无悬念，但团队规模铺开后，一个更深的短板暴露了：每次 session 踩坑、纠偏产出的有效经验，session 结束即归零。业界在 Agent 经验管理上的探索多聚焦\"个人记忆\"，而要打破AI每次进项目都\"从零开始\"的循环，需要的是一套能持续捕获、提纯、沉淀团队经验，让AI带着项目语境进场的系统。本文分享从 0 到 1 建设这套系统的完整过程——从初版 90% 候",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Investors love AI, as long as you’re a cloud host",
+      "url": "https://techcrunch.com/2026/07/30/investors-love-ai-as-long-as-youre-a-cloud-host/",
+      "published_at": "2026-07-30T22:41:41.000Z",
+      "summary": "Amazon isn't slowing down on data center spending — but investors don't seem to mind.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Tim Cook hints at iCloud Plus tier for AI power users",
+      "url": "https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai",
+      "published_at": "2026-07-30T22:29:45.000Z",
+      "summary": "Apple may allow users to pay to increase their AI usage limits. During an earnings call on Thursday, Apple CEO Tim Cook said that he believes people will want to use Apple Intelligence and the upcoming Siri AI \"a lot,\" adding that \"we will have some kind of upgrade possibilities on iCloud Plus where",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The loss of Situational Awareness",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973467/ai-bet-situational-awareness-oops-stonks",
+      "published_at": "2026-07-30T20:46:25.000Z",
+      "summary": "Neither artificial nor intelligent.\nI am not by any means an expert at finance but I think I do now have some advice for people who are: Do not name your hedge fund anything that will be hilarious if it blows up. Don't use a name like \"[Long-Term Capital Management](https://en.wikipedia.org/wiki/Lon",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Friend, the lonely AI wearable, returns with a new voice and a much bigger price tag",
+      "url": "https://techcrunch.com/2026/07/30/friend-the-lonely-ai-wearable-returns-with-a-new-voice-and-a-much-bigger-price-tag/",
+      "published_at": "2026-07-30T19:44:16.000Z",
+      "summary": "Friend, the AI wearable, can now talk to its users — for an enhanced price.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Montana’s plan to become an experimental medical hub just pushed forward",
+      "url": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
+      "published_at": "2026-07-30T17:10:00.000Z",
+      "summary": "As of this week in Montana, any biotech company with an experimental drug has a clear path to selling it to consumers. Companies whose drugs have been through preliminary testing—sometimes in as few as 10 healthy people—can pay $12,500 to apply to a newly established review board for approval. Once ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nscale buys Anyscale as it seeks to own more of the AI compute stack",
+      "url": "https://techcrunch.com/2026/07/30/nscale-buys-anyscale-as-it-seeks-to-own-more-of-the-ai-compute-stack/",
+      "published_at": "2026-07-30T15:19:15.000Z",
+      "summary": "British AI neocloud Nscale is buying software startup Anyscale, which helps companies scale their AI workloads across data centers and servers.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "published_at": "2026-07-30T15:09:09.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "顶配预售价 30 万元，小米澎程不当「红米汽车」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111370&idx=1&sn=cbd935b287de23e73a688f66a87ea539",
+      "published_at": "2026-07-30T15:02:00.000Z",
+      "summary": "原创极客公园汽车组 2026-07-30 23:02 北京\n\n50 万以内最好的增程 SUV（之一）。\n\n**作者｜曹思颀** **编辑｜靖宇**\n\n小米终于进入了主流 SUV 这个正面「战场」。\n\n过去两年，凭借着 SU7、YU7 两款现象级的爆款单品，小米进入汽车领域的首轮战役可谓风卷残云。累计交付超过 70 万台新车，汽车业务快速实现盈亏平衡。\n\n但这两款车，其实并没有进入竞争最激烈的主流市场——SU7、YU7 的成功，和它们在相对小众的细分领域里差异化竞争力的战略思路不无关系。\n\n而全新的澎程系列，从设计思路、目标用户再到市场定位，都和前两款车截然不同：\n\n设计是前者的重要标签，无论配",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "published_at": "2026-07-30T15:00:59.000Z",
+      "summary": "Gemini Robotics ER 2 helps robots reason, collaborate, and solve real-world tasks. It represents a step change in video understanding, tool orchestration, and multi-robot collaboration for robotic applications.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Forward-deployed engineers are the AI industry’s latest talent obsession",
+      "url": "https://techcrunch.com/2026/07/30/forward-deployed-engineers-are-the-ai-industrys-latest-talent-obsession/",
+      "published_at": "2026-07-30T15:00:00.000Z",
+      "summary": "A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "阿里技术",
+      "title": "面向监控场景的无订阅异常发现：问题、思路与边界",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247510834&idx=1&sn=9e785f8e33b7a2e4f0f53e52671023dd",
+      "published_at": "2026-07-30T11:55:00.000Z",
+      "summary": "原创孙晴 2026-07-30 19:55 浙江\n\n关于面向监控指标的自适应异常发现方法，本文或许能够提供一些经验和思考\n\n这是2026年的第 44 篇文章\n\n（ 本文阅读时间：约 20 分钟 ）\n本文讨论一种面向监控指标的自适应异常发现方法：系统从多天历史数据中学习正常形态，在保留固定阈值、前序环比、昨日同比等线上订阅规则兜底的同时，无需等待用户逐条订阅，即可生成带证据的异常候选。\n\n文中案例均已采用通用名称，日期及业务标识已隐去，量级与回放结果以相对化或区间化方式展示。图表用于说明数据形态与判断逻辑，不代表具体业务规模。\n01\n\n研究问题与边界：\n\n未订阅指标如何进入异常发现视野\n\n现有监",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "阿里技术",
+      "title": "前端 Skill 驱动的团队 AI Coding 实践：从个人到整体提效",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247510834&idx=2&sn=5a5b4047a438b8499f36792f06686618",
+      "published_at": "2026-07-30T11:55:00.000Z",
+      "summary": "原创王僖 2026-07-30 19:55 浙江\n\n这是2026年的第 45 篇文章\n\n（ 本文阅读时间：约 25 分钟 ）\n前言：当团队里的后端、PD、设计师都在用 AI 写前端代码，我们怎么保证产出是\"一个团队的产物\"而不是 AI 的随机产物？\n\n答案是： 把前端规范做成 Skill，前置到 AI 写第一行代码之前。\n01\n\n背景：AI 能写代码了，\n\n但可维护性、规范一致性成了新问题\n\n过去半年，团队几乎全员进入 AI Coding 状态：后端用 AI 写前端模块、PD 用 AI 搭可交互原型。大家跑得很快，但是问题也开逐渐暴露：\n\n- 风格漂移，AI 味浓 ：A 同学搭的项目像后台管理",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "飞书并入豆包：字节跳动的一次目标重塑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111360&idx=1&sn=8dcb0fd35868f364066ed48a22f23492",
+      "published_at": "2026-07-30T11:50:00.000Z",
+      "summary": "原创连冉 2026-07-30 19:50 北京\n\nAI 的出现，让组织生产力进入新的阶段，这也给了飞书一个新命题。\n\n**作者｜连冉** **编辑｜ **张鹏****\n\n7 月 30 日，字节跳动下发内部邮件，完成了近年来力度最大的一次 ToB 业务架构调整：飞书产品团队与豆包产品团队整合，成立新的豆包产品团队，由豆包负责人赵祺统筹，飞书负责人谢欣向其汇报；飞书商业化团队则与火山引擎整合，成立新的 ToB GTM 组织「创造力服务平台」，由火山引擎负责人谭待负责。\n\n关于这次调整，字节暂时还没有对外给出系统性的解读，但如果我们站在今天这个时间节点去观察，这件事可能并不只是一次简单的部门合并、",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "新智元火到硅谷了？VC大佬走访中国实验室，爆料长文连夜刷屏",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652715544&idx=1&sn=c0de05406a8cbb7eb4e7a590c247241b",
+      "published_at": "2026-07-30T06:45:00.000Z",
+      "summary": "ASI启示录 2026-07-30 14:45 北京\n\n人在工位坐，名震硅谷圈？\n\n### **新智元报道**\n\n朋友们，最新消息——\n\n新智元的名声，竟然已经漂洋过海，火到硅谷去了？！\n\n最近有位硅谷风投大佬来中国溜达了一圈，回去之后写了一篇《中国风投生态运作揭秘》，洋洋洒洒，真情实感。\n\n结果文章一发，硅谷圈直接炸锅。\n\n尤其这一段，简直堪称全文高光——\n\n中国人对西方动态，了如指掌！ 我在X/LinkedIn上发的动态，几小时之内就会被中国三大科技媒体翻译转载。 连我X上的评论区，都能截图翻译打包奉上！ ——你可能，已经在中国红了。\n\n甚至，文章里「新智元」还是用中文写的。在长篇的英文报",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "模型变强没有用，创作仍然碎片化！面向长程多模态创作的开放式Harness",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652715544&idx=3&sn=aa9c282b60344aac9b4fcb378177e718",
+      "published_at": "2026-07-30T06:45:00.000Z",
+      "summary": "新智元 2026-07-30 14:45 北京\n\n### **新智元报道**\n\n近几年，多模态生成模型进步很快。一句指令就能生成图片、视频、音频、网页、UI、分镜，甚至整套演示文稿。只看成品，创作门槛似乎已经大幅降低。\n\n真正的创作却很少是「一句话换一个结果」。一支短片要经历故事梗概、角色设定、镜头规划、参考图、候选画面、视频片段、配音和音乐等环节；一个网站离不开视觉参考、页面结构、交互逻辑、代码实现、预览检查和多轮修改；一套PPT也要兼顾内容筛选、叙事组织、版式设计、图示生成与跨页风格统一。\n\n这些中间材料不是可以随手丢弃的副产品。它们共同构成持续变化的项目状态：哪些素材已经采用，哪些版本被",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "这家中国公司站上国际顶会SIGGRAPH的C位",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651047451&idx=1&sn=274e2733c0b51bffa02aeed28256404c",
+      "published_at": "2026-07-30T05:52:00.000Z",
+      "summary": "原创关注AI的 2026-07-30 13:52 北京\n\nVAST在全球顶级学术舞台吸引全场最多目光\n\n编辑｜陈陈\n\n7 月 19 日至 23 日，美国洛杉矶，SIGGRAPH 2026 如期而至。这场汇聚全球计算机图形学与视觉计算领域顶尖学者、艺术家与工程师的年度盛会，吸引了来自 69 个国家的近万名参会者。渲染、几何建模、动画仿真、与生成式 AI，几乎所有关于如何用计算机创造视觉世界的最前沿探索，都在这五天里集中呈现。\n\n而今年，这场盛会的聚光灯里， 全球领先的通用人工智能公司 VAST （研发了Tripo系列3D大模型） 成为大会上出现频率最高的中国团队之一：\n\n登上 SIGGRAPH ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "终端市场的下一个增长点，高通押在了“个人AI”上",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908242&idx=1&sn=31308378fdb45a65220f6bd9f093283d",
+      "published_at": "2026-07-30T03:35:00.000Z",
+      "summary": "原创关注前沿科技 2026-07-30 11:35 北京\n\n靠“堆参数换销量”的逻辑，不再管用了\n\n##### 克雷西 发自 凹非寺 量子位 | 公众号 QbitAI\n\n全球智能终端市场，正在经历一场错位， **在出货量开始下滑的同时，其中AI终端的数量却越来越多** 。\n\n数据显示，今年上半年，全球智能手机出货量同比下滑13.9%，但同一批手机里，具备AI能力的比例，却已经达到66.4%，相对增幅达到了21.8%。\n\nPC、平板也是同一个剧本。\n\n根据预测，PC出货同比跌了11.7%，平板跌了8.6%，但两者的AI渗透率同样在走高。\n\n没有一个品类，逃过这个规律。\n\n这组数字，出自近期由高通",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "AI安全防御被曝重大缺陷，为了安全性，大量有效文本被直接清除！ | ICML‘26 Spotlight",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908242&idx=3&sn=410b384ca50071779a40285e48c72ee7",
+      "published_at": "2026-07-30T03:35:00.000Z",
+      "summary": "关注前沿科技 2026-07-30 11:35 北京\n\n大模型安全评估的方式，可能从根源上就错了\n\n##### SECFID团队 投稿 量子位 | 公众号 QbitAI\n\n你有没有想过，大模型安全评估的方式，可能从根源上就错了？\n\n面对提示词注入攻击，行业评判标准十分单一：只要模型不执行恶意指令，就判定为安全。\n\n但这个标准，漏掉了一件极其重要的事： **那些被拦截的注入指令，本身可能就是你要处理的数据。**\n\n举个翻译场景的例子，如果原文自带指令类语句，完整翻译原文会被判定不安全，直接删除原句虽然安全达标，却造成了内容缺失。\n\n我们一直在用“安全”的名义，掩盖模型偷偷丢掉数据的真相。\n\n由伊",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247908242&idx=4&sn=58f3b1a84d6137d18ecd2d13ee8df7f2",
+      "published_at": "2026-07-30T03:35:00.000Z",
+      "summary": "关注前沿科技 2026-07-30 11:35 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "generated_at": "2026-07-22T00:02:35.907Z",
+  "source_raw": "raw.json",
+  "source_count": 21,
+  "item_count": 15,
+  "language_breakdown": {
+    "TypeScript": 5,
+    "Python": 3,
+    "Unknown": 1,
+    "JavaScript": 2,
+    "Rust": 3,
+    "Assembly": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "language": "TypeScript",
+      "stars_today": 1295,
+      "stars_total": 65309,
+      "forks": 10183
+    },
+    {
+      "rank": 2,
+      "repo": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "language": "Python",
+      "stars_today": 4624,
+      "stars_total": 14346,
+      "forks": 1343
+    },
+    {
+      "rank": 3,
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "language": "Python",
+      "stars_today": 1925,
+      "stars_total": 24516,
+      "forks": 2349
+    },
+    {
+      "rank": 4,
+      "repo": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "language": "Unknown",
+      "stars_today": 1866,
+      "stars_total": 6808,
+      "forks": 279
+    },
+    {
+      "rank": 5,
+      "repo": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "language": "JavaScript",
+      "stars_today": 291,
+      "stars_total": 9087,
+      "forks": 1024
+    },
+    {
+      "rank": 6,
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "The most intelligent agent harness for code",
+      "language": "Rust",
+      "stars_today": 843,
+      "stars_total": 10292,
+      "forks": 1133
+    },
+    {
+      "rank": 7,
+      "repo": "oblien/openship",
+      "url": "https://github.com/oblien/openship",
+      "description": "Self-hosted deployment platform",
+      "language": "TypeScript",
+      "stars_today": 1562,
+      "stars_total": 6187,
+      "forks": 448
+    },
+    {
+      "rank": 8,
+      "repo": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "AI Agent Assistant &amp; development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "language": "Python",
+      "stars_today": 416,
+      "stars_total": 37448,
+      "forks": 2611
+    },
+    {
+      "rank": 9,
+      "repo": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "language": "TypeScript",
+      "stars_today": 849,
+      "stars_total": 6573,
+      "forks": 711
+    },
+    {
+      "rank": 10,
+      "repo": "tradesdontlie/tradingview-mcp",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+      "language": "JavaScript",
+      "stars_today": 114,
+      "stars_total": 4825,
+      "forks": 2173
+    },
+    {
+      "rank": 11,
+      "repo": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "Hundreds of models &amp; providers. One command to find what runs on your hardware.",
+      "language": "Rust",
+      "stars_today": 129,
+      "stars_total": 30179,
+      "forks": 1842
+    },
+    {
+      "rank": 13,
+      "repo": "chrislgarry/Apollo-11",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "language": "Assembly",
+      "stars_today": 1235,
+      "stars_total": 69951,
+      "forks": 7839
+    },
+    {
+      "rank": 14,
+      "repo": "DioxusLabs/dioxus",
+      "url": "https://github.com/DioxusLabs/dioxus",
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "language": "Rust",
+      "stars_today": 271,
+      "stars_total": 37638,
+      "forks": 1774
+    },
+    {
+      "rank": 16,
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline &amp; Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "language": "TypeScript",
+      "stars_today": 2034,
+      "stars_total": 23556,
+      "forks": 3151
+    },
+    {
+      "rank": 17,
+      "repo": "agegr/pi-web",
+      "url": "https://github.com/agegr/pi-web",
+      "description": "Web UI for the pi coding agent",
+      "language": "TypeScript",
+      "stars_today": 298,
+      "stars_total": 1712,
+      "forks": 277
+    }
+  ]
+}

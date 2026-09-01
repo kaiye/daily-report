@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-07-28T00:05:49.793Z",
+  "source_raw": "raw.json",
+  "source_count": 15,
+  "item_count": 12,
+  "language_breakdown": {
+    "Swift": 1,
+    "C++": 1,
+    "TypeScript": 2,
+    "Go": 2,
+    "Python": 4,
+    "JavaScript": 1,
+    "Java": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "permissionlesstech/bitchat",
+      "url": "https://github.com/permissionlesstech/bitchat",
+      "description": "bluetooth mesh chat, IRC vibes",
+      "language": "Swift",
+      "stars_today": 2346,
+      "stars_total": 32222,
+      "forks": 5058
+    },
+    {
+      "rank": 2,
+      "repo": "amnezia-vpn/amnezia-client",
+      "url": "https://github.com/amnezia-vpn/amnezia-client",
+      "description": "Amnezia VPN Client (Desktop+Mobile)",
+      "language": "C++",
+      "stars_today": 515,
+      "stars_total": 13796,
+      "forks": 1030
+    },
+    {
+      "rank": 3,
+      "repo": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars_today": 572,
+      "stars_total": 44007,
+      "forks": 4394
+    },
+    {
+      "rank": 4,
+      "repo": "opengeos/GeoLibre",
+      "url": "https://github.com/opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "language": "TypeScript",
+      "stars_today": 420,
+      "stars_total": 2657,
+      "forks": 352
+    },
+    {
+      "rank": 5,
+      "repo": "yorukot/superfile",
+      "url": "https://github.com/yorukot/superfile",
+      "description": "Pretty fancy and modern terminal file manager",
+      "language": "Go",
+      "stars_today": 600,
+      "stars_total": 20861,
+      "forks": 676
+    },
+    {
+      "rank": 6,
+      "repo": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars_today": 362,
+      "stars_total": 58151,
+      "forks": 11582
+    },
+    {
+      "rank": 7,
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "language": "JavaScript",
+      "stars_today": 847,
+      "stars_total": 51516,
+      "forks": 3039
+    },
+    {
+      "rank": 8,
+      "repo": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "language": "Python",
+      "stars_today": 441,
+      "stars_total": 34557,
+      "forks": 5795
+    },
+    {
+      "rank": 9,
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+      "language": "Go",
+      "stars_today": 979,
+      "stars_total": 14769,
+      "forks": 997
+    },
+    {
+      "rank": 10,
+      "repo": "jenkinsci/jenkins",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "description": "Jenkins automation server",
+      "language": "Java",
+      "stars_today": 180,
+      "stars_total": 25875,
+      "forks": 9680
+    },
+    {
+      "rank": 11,
+      "repo": "bradautomates/claude-video",
+      "url": "https://github.com/bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "stars_today": 434,
+      "stars_total": 11047,
+      "forks": 1142
+    },
+    {
+      "rank": 14,
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars_today": 240,
+      "stars_total": 54152,
+      "forks": 4699
+    }
+  ]
+}

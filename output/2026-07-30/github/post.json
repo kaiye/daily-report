@@ -1,0 +1,157 @@
+{
+  "generated_at": "2026-07-30T00:04:29.523Z",
+  "source_raw": "raw.json",
+  "source_count": 17,
+  "item_count": 14,
+  "language_breakdown": {
+    "TypeScript": 3,
+    "JavaScript": 1,
+    "Python": 6,
+    "Rust": 1,
+    "PHP": 1,
+    "Shell": 1,
+    "Go": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "opengeos/GeoLibre",
+      "url": "https://github.com/opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "language": "TypeScript",
+      "stars_today": 671,
+      "stars_total": 4014,
+      "forks": 430
+    },
+    {
+      "rank": 2,
+      "repo": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "language": "TypeScript",
+      "stars_today": 682,
+      "stars_total": 45366,
+      "forks": 4487
+    },
+    {
+      "rank": 3,
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars_today": 857,
+      "stars_total": 235543,
+      "forks": 35868
+    },
+    {
+      "rank": 4,
+      "repo": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "stars_today": 827,
+      "stars_total": 7844,
+      "forks": 999
+    },
+    {
+      "rank": 5,
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "The most RAM efficient harness",
+      "language": "Rust",
+      "stars_today": 640,
+      "stars_total": 13437,
+      "forks": 1476
+    },
+    {
+      "rank": 6,
+      "repo": "grokability/snipe-it",
+      "url": "https://github.com/grokability/snipe-it",
+      "description": "A free open source IT asset/license management system",
+      "language": "PHP",
+      "stars_today": 164,
+      "stars_total": 14431,
+      "forks": 3903
+    },
+    {
+      "rank": 7,
+      "repo": "deepfakes/faceswap",
+      "url": "https://github.com/deepfakes/faceswap",
+      "description": "Deepfakes Software For All",
+      "language": "Python",
+      "stars_today": 166,
+      "stars_total": 56243,
+      "forks": 13428
+    },
+    {
+      "rank": 8,
+      "repo": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "language": "Python",
+      "stars_today": 336,
+      "stars_total": 51251,
+      "forks": 5707
+    },
+    {
+      "rank": 10,
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 616,
+      "stars_total": 263264,
+      "forks": 23510
+    },
+    {
+      "rank": 12,
+      "repo": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "language": "Python",
+      "stars_today": 154,
+      "stars_total": 59055,
+      "forks": 11673
+    },
+    {
+      "rank": 13,
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.",
+      "language": "Go",
+      "stars_today": 359,
+      "stars_total": 15975,
+      "forks": 1078
+    },
+    {
+      "rank": 14,
+      "repo": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "stars_today": 945,
+      "stars_total": 10377,
+      "forks": 1345
+    },
+    {
+      "rank": 16,
+      "repo": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars_today": 1022,
+      "stars_total": 19552,
+      "forks": 2591
+    },
+    {
+      "rank": 17,
+      "repo": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "stars_today": 1421,
+      "stars_total": 12705,
+      "forks": 1413
+    }
+  ]
+}

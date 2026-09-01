@@ -1,0 +1,353 @@
+{
+  "generated_at": "2026-08-22T00:03:20.552Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 29,
+  "items": [
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s Opus 4.6 is a smut-machine",
+      "url": "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
+      "published_at": "2026-08-21T23:07:25.000Z",
+      "summary": "Anthropic forbids its Claude models from generating sexually explicit content. But a series of tests conducted by TechCrunch found that it didn't take much to get past the restriction.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "机器人GPT-3时刻震动硅谷！0行代码，看一遍秒会，黄仁勋李飞飞参投",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652719368&idx=1&sn=d5a0a68f04d7e09d9cabe5c4950db88e",
+      "published_at": "2026-08-21T08:09:00.000Z",
+      "summary": "ASI启示录 2026-08-21 16:09 北京\n\n只需一次 3-12 秒的演示，不训练、不微调，几秒钟学会。\n\n### **新智元报道**\n\n8 月 19 日，宇树科技在科创板敲钟上市，市值约 610 亿元。\n\n同一天，英伟达 CEO 黄仁勋的女儿黄敏珊飞抵北京逛 WRC 世界机器人大会。\n\n而就在第二天北京时间凌晨，硅谷机器人公司 Generalist AI 发布了新一代基础模型 GEN-1.5。\n\n两个月前，斯坦福教授李飞飞刚以个人身份投了 Generalist AI 的 4 亿美元融资，同轮天使投资人还有小米联合创始人林斌和 Zoom 创始人袁征。英伟达也是股东。聪明钱和聪明人同时",
+      "priority_score": 152,
+      "matched_keywords": [
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia just showed that the harness, not the AI model, is now the real hero",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/",
+      "published_at": "2026-08-21T19:43:39.000Z",
+      "summary": "Nvidia research shows that AI agents can perform well, and not go off the deep end, through fine-tuning, even if the AI model isn't that great at the task.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "published_at": "2026-08-21T11:59:48.000Z",
+      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "靠这10个优化点，我们把Multi-Agent工作流成本降了50%以上",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803728&idx=1&sn=e5958d1c5d52e82bbe693b932d07492f",
+      "published_at": "2026-08-21T09:36:00.000Z",
+      "summary": "腾讯程序员 2026-08-21 17:36 广东\n\nHarness工作流的成本优化实践\n\n作者：lemonye\n我们用 AI Agent 驱动前后端全流程开发——从需求分析到自动化测试，整个 harness 工作流由 1 个 TL + 6 个子 Agent 组成。跑起来之后第一个问题就是：钱烧得很快，但完全不知道烧在哪。我们先用 AgentLens 把成本拆开看，发现系统提示词、工具返回信息、历史消息是大头。围绕\"让 AI 只看到当前需要的上下文、减少无关的上下文、减少重复的上下文\"这三个原则，我们逐一改造了架构拆分、稳定前缀、渐进式披露、代码图谱、CLI 替代 MCP、长期记忆按需索引、工",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "形界智能：沿用两段式架构，是市场对 AI 实时视频的最大误判",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112471&idx=1&sn=0281317712e3f2dd0b03470be31aef59",
+      "published_at": "2026-08-21T10:00:00.000Z",
+      "summary": "原创Cynthia 2026-08-21 18:00 湖北\n\n投资人广撒网式布局，但真正的全域沉浸式生成，还少之又少。\n\n**作者｜Cynthia** **编辑｜郑玄**\n\n**2024 年 8 月 27 日，DOOM 里的一声枪响，在 2026 年年中的资本市场，听到了震耳欲聋的回响。**\n\n这一天，一段《DOOM》的游戏画面出现在 Google Research、Google DeepMind 和特拉维夫大学研究团队公布的演示里。\n\n棕红色的墙壁，幽暗的走廊，像素化的枪口，玩家移动，怪物出现。然后，玩家按下键盘，枪响了。\n\n如果不去细看，这段演示与三十年来无数次《DOOM》游戏录像没有任何",
+      "priority_score": 100,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Starcloud raises $250 million for orbital data centers as launch options dry up",
+      "url": "https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/",
+      "published_at": "2026-08-21T14:00:00.000Z",
+      "summary": "There's about to be a big fight to secure access to space.",
+      "priority_score": 52,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "When AI designs a drug, who gets the credit?",
+      "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+      "published_at": "2026-08-21T09:00:00.000Z",
+      "summary": "When the biotech company Insilico Medicine used its computer models to propose a promising drug for pulmonary fibrosis, it enthusiastically claimed in a press release that the molecule had been “discovered by” its generative AI platform.\n\nInsilico leads a pack of companies using AI to rapidly come u",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "WRC最忙机器人：猛干15分钟家务，收纳、补货、叠衣服…",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913892&idx=1&sn=9165adc17e3eeeaf27070e28114d0d53",
+      "published_at": "2026-08-21T03:02:00.000Z",
+      "summary": "原创关注前沿科技 2026-08-21 11:02 北京\n\nAgent原生的具身大脑\n\n##### Jay 发自 凹非寺 量子位 | 公众号 QbitAI\n世界模型和VLA，都不是答案。\n这个观点，出自前华为智驾AI一号位、「华为天才少年」黄青虬。\n\n离开华为后，他联合创办了通用具身智能公司墨奇智能——成立仅半年，估值已超70亿元。\n\n近期，墨奇迎来第一次交卷：自研具身智能模型架构MoRA（MORPHI Reasoning & Autonomy）——一条Agentic-Native的具身大脑路线。\n\nWRC 2026现场，墨奇正式展示了这个大脑的能力。\n\n承载这个大脑的，是墨奇自研的本体——\n",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message",
+      "published_at": "2026-08-21T21:25:50.000Z",
+      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from[chief product officer Hari Srinivasan](https://www.linkedin.com/feed/update/urn:li:activity:7495960472341409792/), \"over a million",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "AI 音乐走到「该怎么做」，中国大模型为啥选最难的路？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112471&idx=2&sn=87eace7a36a3cda67f657c00377b117e",
+      "published_at": "2026-08-21T10:00:00.000Z",
+      "summary": "极客公园 2026-08-21 18:00 湖北\n\n不做 Suno，选择 AI 音乐的另一条路。\n\n***01*** ****「AI 音乐，拼的早已不是产能」****\n\n流媒体平台 Deezer 最新披露了一组数据：AI 歌曲每天涌入平台的速度已经从 2025 年初的 1 万首飙升到 7.5 万首，占当日新增上传的 44%。但实际播放占比，只有 1%—3%。\n\n7.5 万首进去，不到 3%能被听见。剩下的，沉默地沉在平台底层。\n\n产能炸了，产品却过不了人的耳朵这一关。\n\n更深层的问题是，听众越来越能分辨 AI 作品和人类创作，平台也开始用质量而非数量来筛选，比如 TIDAL 就上线了 AI 透",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "This company’s plans to deploy space mirrors could jeopardize the night sky for many",
+      "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
+      "published_at": "2026-08-21T09:00:00.000Z",
+      "summary": "A company that plans to beam sunlight from space to Earth on demand might unintentionally brighten the night sky for many more people than intended, according to a new study.\n\nLater this year, the US company Reflect Orbital plans to launch a test satellite called Eärendil-1 that will extend an 18-by",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "从单点突破到全数 SOTA，阿里打响「模型团战」第一枪",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112452&idx=1&sn=9db8790e3a9e6265ae282f25a49b4944",
+      "published_at": "2026-08-21T06:00:00.000Z",
+      "summary": "原创李苏 2026-08-21 14:00 湖北\n\nSOTA 是能力，能被全世界用起来才是护城河。\n\n**作者｜李苏** **编辑｜靖宇**\n\n8 月 20 日晚，阿里巴巴发布新季度业绩。\n\n阿里云外部商业化收入同比增长 45%，创 22 个季度以来的新高。AI 云及算力服务收入达到 484.37 亿元，经调整 EBITA 为 56.28 亿元，同比增长 133%，利润率升至 12%。AI 相关产品收入连续第 12 个季度实现三位数增长，本季度达到 123.76 亿元。\n\n这组数字解释了市场对云业务的反应。同样亮眼的，还有以千问大模型为核心的一整套模型矩阵。过去一个月，阿里在大语言、图像、语音",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "把时间还给科学创造，玻尔·科学空间在桌面接管了科研「体力活」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651051506&idx=2&sn=7492c796da65176af0bf9bcce332eae7",
+      "published_at": "2026-08-21T03:19:00.000Z",
+      "summary": "机器之心 2026-08-21 11:19 北京\n\n玻尔科学空间精选多学科AI科学家，服务你的科研。\n\n机器之心发布\n\n科学家最宝贵的时间，本应被用来提出更大胆的问题、理解更深层的机制、做出更重要的发现，却常常消耗在搜索、整理、验证、复现和沟通之中。\n\n今天，深势科技正式 发布玻尔・科学空间（公开测试版），为科研人员与 AI 科学家共同完成科研任务提供统一的桌面端工作环境 。它连接本地与云端的科学数据、计算和实验资源，并将面向不同学科的 AI 科学家内置于科研流程之中。\n\n研究者，只需提问与确认。科学空间，接管所有的 “体力活”。\n\n- 链接：[https://www.bohrium.com/",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "失业小哥7000行代码，复刻了AMD重金收购的AI芯片！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652719368&idx=2&sn=eee0307d61dc88166077528cc54255be",
+      "published_at": "2026-08-21T08:09:00.000Z",
+      "summary": "ASI启示录 2026-08-21 16:09 北京\n\n一个人的失业期，撞碎了芯片行业的护城河\n\n### **新智元报道**\n\n谁能想到，2026年硅谷最魔幻的科技爽文，不是巨头之间的烧钱大战，而是一个破产小哥，单枪匹马挑战千亿市值的芯片巨头。\n\n就在今年8月6日，芯片巨头AMD意气风发地宣布，正式收购AI推理芯片领域的当红炸子鸡——Taalas。\n\n这笔交易被视为AMD向英伟达发起挑战的「秘密武器」。\n\n然而，AMD高层们庆祝收购的香槟还没开完，X上的一条帖子，直接把科技圈的下巴惊掉了。\n\n一位失业工程师，轻描淡写地说——\n\n「过去6个月，我把Taalas的专利拆解研究了一遍。我觉得他们的方",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "逛完 WRC，我们发现机器人行业最该回答的 5 个问题",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112437&idx=1&sn=dbcbf186c2fef7dab461f2cf8d2a76b4",
+      "published_at": "2026-08-21T04:08:00.000Z",
+      "summary": "原创白石 周永亮 2026-08-21 12:08 北京\n\n没来的一定要看，来了的不看等于白来。\n\n**作者｜ 白石 周永亮** **编辑｜ **周永亮 李源****\n\n8 月 19 日，北京亦庄的空气里飘着一种奇怪的兴奋，这是 2026 世界机器人大会开幕的日子。300 多家企业、2000 多件展品，几乎把具身智能行业能拿出的东西都搬到了这里：大模型、本体、关键零部件、数据，应有尽有。\n\n开幕当天，宇树科技敲钟上市，盘中市值一度冲破 4000 亿元，这可能是过去十年，中国机器人行业最接近「资本狂欢」的一天。过去，机器人公司更多活在实验室、融资新闻和 Demo 视频里；而宇树的上市，第一次给这",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "Agent 终章（Harness 成本篇）：一次百炼账单降低 88% 实战",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511201&idx=1&sn=4af859e8a065ac8c1fa687ace0ea5feb",
+      "published_at": "2026-08-21T10:18:00.000Z",
+      "summary": "原创景钊 2026-08-21 18:18 浙江\n\n关于优化 token，本文或许能够提供一些经验和参考\n\n这是2026年的第 54 篇文章\n\n（ 本文阅读时间：约 20 分钟 ）\nAI 编码半小时就可以完成一个 agent，但是一个没做过任何优化的 agent，跑一轮就是几十 M token，月底一看，费用爆炸。眼下，token 的使用已经进入精细化时代。目前个人用 token 不少公司已经开始设限，下一步大概率是开始梳理各类 agent ，在 agent 逐渐同质化下最后就是胜者为王，谁用最少的钱跑出最好效果。因此，优化 token 不是锦上添花，是 agent 能不能活下去的前提。\n\n本",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "豆包大模型测评招募丨寻找行业资深AI实践者",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521383&idx=1&sn=abb9e4f892fdc334e752ca8c3c4483d1",
+      "published_at": "2026-08-21T10:00:00.000Z",
+      "summary": "字节跳动技术团队 2026-08-21 18:00 北京\n\n当大模型开始进入投研、研发、医疗、法律和工业生产，衡量它的标准不再只是答案对不对，而是结果能不能真正用于工作。\n\n现在，我们面向各行业招募各行业资深 AI 实践专家。我们希望把最难、最真实的专业任务交给模型，由最懂行业的人判断它离专业交付还有多远。\n\n**寻找怎样的专家**\n\n这不是一次普通的 AI 体验活动。我们寻找的是细分领域内少数既懂行业、又真正把 AI 用到深处的人。我们希望你具备以下三类能力之一：\n\n- **有丰富的 AI 使用经验。** 长期使用多个主流模型或 Agent 处理真实工作，能够推进数十至上千轮的复杂任务；月度",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "WRC交卷⎜机器人长程任务总断片？墨奇用Agentic-Native重构具身大脑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651051506&idx=1&sn=d1eb5c88e5a7ebfb2d81c68804684eed",
+      "published_at": "2026-08-21T03:19:00.000Z",
+      "summary": "原创关注机器人的 2026-08-21 11:19 北京\n\n比会做一个动作更难的，是把一整件事连续做完。\n\n编辑｜杜伟\n\n2026 年的世界机器人大会，最难的演示可能一点都不炫。\n\n这几天，北京亦庄一下子挤进 300 多家机器人企业。\n\n翻跟头、跳舞、打拳 ……，这些都算不上新鲜事了。相反，让一台机器人犯难的，可能是人类每天随手就能完成的一些小事，比如收拾房间。\n\n在成立仅半年多的通用具身智能机器人公司墨奇智能（MORPHI）的展台上，其 首次公开亮相的轮式机器人 MORPHI KINO ，面对的就是这样一场长约 15 分钟的家务实战：\n\n它要穿过多个区域，将茶几上的物品收纳到指定的盘子里：\n",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia partners with data center developer Cloverleaf",
+      "url": "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
+      "published_at": "2026-08-21T22:37:38.000Z",
+      "summary": "Nvidia continues to pour money into data center development — just as AI data centers bring lots of money into Nvidia.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The DOJ is investigating a16z. What does this mean for venture capital?",
+      "url": "https://techcrunch.com/podcast/the-doj-is-investigating-a16z-what-does-this-mean-for-venture-capital/",
+      "published_at": "2026-08-21T14:00:00.000Z",
+      "summary": "Andreessen Horowitz has two partners sitting on the boards of companies that now&#160;compete with each other: Ben Horowitz at Databricks and Martin Casado at&#160;Fivetran. Nothing too scandalous on the surface, except&#160;the Department of&#160;Justice&#160;has&#160;reportedly&#160;been investiga",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Major YouTube creators are facing backlash for accepting AI money",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash",
+      "published_at": "2026-08-21T13:37:52.000Z",
+      "summary": "A still from Sam Kolder’s video “AI is replacing me.” | Screenshot: The Verge,[YouTube](https://www.youtube.com/watch?v=CGoFUxCmBdA)\nOver the past few days, a number of prominent filmmaking content creators including[Matti Haapoja](https://www.threads.com/@mattih/post/DcBh3cslYcg)and[Sam \"Kold\" Kold",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: threats from space mirrors and credit for AI drugs",
+      "url": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
+      "published_at": "2026-08-21T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### This company’s plans to",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Mother tongue",
+      "url": "https://www.technologyreview.com/2026/08/21/1141726/mother-tongue-fiction/",
+      "published_at": "2026-08-21T09:00:00.000Z",
+      "summary": "“Daddy?” Theo curled against my side in bed. “Where do words go when they die?”\n\nI’d orchestrated the bedtime routine flawlessly: bath (taken), teeth (brushed), potty (tinkled), books (two), song (one, poorly sung), and snuggle (his chin on my second rib). Now was the moment when our son’s eyelids w",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "端到端论文生成系统：假结论检出率92%，自动跑实验、画图、直出论文初稿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651051506&idx=3&sn=aa2e1f4dd425cf0a52631efb49e2f182",
+      "published_at": "2026-08-21T03:19:00.000Z",
+      "summary": "机器之心 2026-08-21 11:19 北京\n\n端到端研究论文生成系统。\n\nSpark-to-Paper 是一套端到端研究论文生成系统，以 13 个可组合技能的形式运行在现有编程助手内部，无需单独部署的智能体平台或外部编排服务。从一句研究想法出发，系统自动完成文献检索、实验设计、实验执行、论文写作、证据驱动的结论修订、可编辑论文图生成，直至输出可直接编译的完整 LaTeX 项目。\n\n在 8 个受控研究课题上，Spark-to-Paper 引文有效率达 99.5%，图形元素可编辑率达 96.4%；对 36 条人为注入的假结论，检出率从单遍生成的 14% 提升至 92%，对抗式评审精确率达 7",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "科学家只管提问题，AI负责跑实验：深势科技把科研全流程搬进一个桌面",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913892&idx=2&sn=cf9d597946f8f0987109569128cf0bc6",
+      "published_at": "2026-08-21T03:02:00.000Z",
+      "summary": "关注前沿科技 2026-08-21 11:02 北京\n\n让科学家的时间回到科学创造\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n科学家真正花在“做科研”上的时间，可能远比你以为的少。\n\n一个新课题摆在面前，起点从来不是灵光一闪的假设，而是一连串琐碎的准备工作——\n\n- 文献和数据散落在不同的数据库、表格、文件夹和实验记录里，得一个个翻、一点点对齐；\n- 关键的方法和实验条件藏在论文的细节角落，光是辨别和整合就要耗掉大半精力；\n- 好不容易攒出一个有潜力的假设，想验证，却又被环境配置、参数调试、反复试错死死拖住；\n- 等终于跑出结果，还有一大摊数据等着清洗，图表等着制作",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "具身明星企业们：别卷模型了，数据才是行业最终的爆点｜WRC'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913892&idx=3&sn=764d146c1738f1ce1f3d1645b236677c",
+      "published_at": "2026-08-21T03:02:00.000Z",
+      "summary": "关注前沿科技 2026-08-21 11:02 北京\n\n模型决定上限，数据决定能不能抵达上限。\n\n##### 文婷 发自 凹非寺 量子位 | 公众号 QbitAI\n\n真没想到，在大家都忙着卷参数、卷架构、卷硬件的时候，具身智能行业头部的这几位玩家竟然集体调转了方向盘，将矛头直接指向了 **“数据”** ！\n\n在刚刚开幕的WRC物理AI引领者论坛上， **香港中文大学（深圳）- 深圳河套学院双聘助理教授兼跨纬智能科学家刘桂良** 、 **地瓜机器人算法副总裁隋伟** 、 **临界点CTO熊坤 以及 智在无界技术合伙人郑思鹏** 等行业大佬们达成了一个共识：\n**具身智能行业真正的引爆点，可能不在",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247913892&idx=4&sn=bbf836f9f3e862142b97bfbdc38177ee",
+      "published_at": "2026-08-21T03:02:00.000Z",
+      "summary": "关注前沿科技 2026-08-21 11:02 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI data startup Micro1 reaches $500M gross run rate amid AI training boom",
+      "url": "https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/",
+      "published_at": "2026-08-21T00:13:44.000Z",
+      "summary": "Surging demand for AI training data is driving rapid growth for the startup and its rivals.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

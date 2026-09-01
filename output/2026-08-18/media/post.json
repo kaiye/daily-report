@@ -1,0 +1,226 @@
+{
+  "generated_at": "2026-08-18T00:06:53.764Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 18,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "问界「童车」上市，华为联合设计；DeepSeek 涨价策略今日实行；大学生用 AI 人脸视频盗刷 5 万元被判刑",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112042&idx=1&sn=8022f4d749430af49530268bc98ede02",
+      "published_at": "2026-08-17T00:30:00.000Z",
+      "summary": "Li Yuan 2026-08-17 08:30 北京\n\nAnthropic 正全速加码生物医学 AI；建模交易平台表示 AI 生成的 3D 模型数量销售额仅占 1%\n\n## IPO 前 Anthropic CEO 达里奥 · 阿莫迪罕见发长文回应质疑，预告未来 5-10 年 AI 将治愈多数疾病\n\nAnthropic CEO 达里奥 · 阿莫迪（Dario Amodei）几乎从不碰社交媒体。但就在 IPO 估值被推到 2 万亿美元的节骨眼上，他罕见地发了一篇长文，正面回应 Anthropic 如何看待监管。\n\n长文中，达里奥 · 阿莫迪回「我们设计的每一条政策，都让前沿公司承担更多成本，同时",
+      "priority_score": 224,
+      "matched_keywords": [
+        "Anthropic",
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic explains how Claudes invisible text watermarks will work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system",
+      "published_at": "2026-08-17T10:57:13.000Z",
+      "summary": "Anthropic has clarified how it's planning to apply invisible watermarks to Claude-generated text in order to comply with Europe's AI transparency rules. On Friday,[Anthropic announced](https://www.anthropic.com/news/claude-text-watermark)that Claude's text marking system is \"a version of the SynthID",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s annualized revenue surges to $65B",
+      "url": "https://techcrunch.com/2026/08/17/anthropics-annualized-revenue-surges-to-65b/",
+      "published_at": "2026-08-17T23:56:26.000Z",
+      "summary": "The model maker added $18 billion in annualized revenue in two months.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
+      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "published_at": "2026-08-17T16:38:44.000Z",
+      "summary": "Rare books are incredibly valuable for training LLMs, since these models have already trained on whatever's available online.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia investing $1.5B in SoftBank data center developer behind OpenAI project",
+      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+      "published_at": "2026-08-17T15:16:24.000Z",
+      "summary": "Nvidia's investment in SoftBank's data center developer will guarantee its chips power an OpenAI data center.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "Harness 工程之道：Skill 原理与最佳实践",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511112&idx=1&sn=279ba391d62489b0226d94570388ac8d",
+      "published_at": "2026-08-17T11:05:00.000Z",
+      "summary": "张梦杰 2026-08-17 19:05 浙江\n\n本文从概念原理出发，结合真实的工程化项目 trade-ab-skill，系统性地讲解 Skill 的结构规范、触发机制、作用域优先级，以及最佳实践。\n\n这是2026年的第 52 篇文章\n\n（ 本文阅读时间：约 15 分钟 ）\n\nAgent Skills 是一种轻量、开放的能力扩展规范，用于为 AI Agent 扩展专业知识和工作流。本文从概念原理出发，结合真实的工程化项目 trade-ab-skill，系统性地讲解 Skill 的结构规范、触发机制、作用域优先级，以及最佳实践。（文章内容基于作者个人技术实践与独立思考，旨在分享经验，仅代表个人观",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Get closer to the game with Gemini and Pixel",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "published_at": "2026-08-17T08:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\">Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and  Smartphone Technology.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Google Gemini"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Wispr raises $280M at $2B valuation as it looks beyond dictation",
+      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation/",
+      "published_at": "2026-08-17T13:10:05.000Z",
+      "summary": "The funds will allow Wispr to increase its footprint as it ventures into new areas, such as meetings, with its newly released note-taker tool.",
+      "priority_score": 52,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Groq raises $350M to fuel its pivot from AI chips to neocloud",
+      "url": "https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/",
+      "published_at": "2026-08-17T16:15:12.000Z",
+      "summary": "Groq raised $350 million at a $3.5 billion valuation as the former AI chipmaker pivots to a neocloud business and expands its Nvidia-powered data center footprint.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "What Flock’s defenders are missing",
+      "url": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
+      "published_at": "2026-08-17T19:16:09.000Z",
+      "summary": "*This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,* [sign up here](https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/) *.*\n\nFlock, the police-tech giant known for its network of some 120,000 automatic",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "Agent的上限，可能不在模型，而在团队知识",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803612&idx=1&sn=13be122cb61484933486e146d5724e37",
+      "published_at": "2026-08-17T09:36:00.000Z",
+      "summary": "原创腾讯程序员 2026-08-17 17:36 广东\n\n团队 AI 知识底座建设实践\n\n作者：danteyang\n当 Agent 成为团队一线生产力，知识供给的问题随之暴露：检索不准、注入低效、过时内容越堆越多。本文记录安全中心团队从定目标、搭体系到跑通知识飞轮的完整过程，包括关键决策背后的思考、踩过的坑，以及可直接复用的方法。当团队开始用 Agent 做研发和运营，一个问题很快浮出来： **Agent 的输出质量，直接取决于你能给它什么质量的知识** 。怎么让知识「产得出、找得准、喂得进、淘汰得掉」，是每个上了 Agent 的团队都要解决的工程问题。本文章是基于团队搭建AI知识体系的实践，",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI automation startup Relay shuts down, staff joins Google’s Chrome team",
+      "url": "https://techcrunch.com/2026/08/17/ai-automation-startup-relay-shuts-down-staff-joins-googles-chrome-team/",
+      "published_at": "2026-08-17T21:27:05.000Z",
+      "summary": "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "published_at": "2026-08-17T19:46:21.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "从「拍得到」到「拍得成」：大疆如何重塑全景影像天花板",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112066&idx=1&sn=dddc1a6b20854fcb4b55f92fcf276532",
+      "published_at": "2026-08-17T14:51:00.000Z",
+      "summary": "原创张勇毅 2026-08-17 22:51 北京\n\n在天上，为全景影像打下地基。\n\n**作者｜张勇毅** **编辑｜郑玄**\n\n即使你不怎么关注摩托车，今年你大概也刷到过张雪机车的故事：一支成立不到两年的中国车队，第一次征战世界超级摩托车锦标赛，今年 3 月底就在葡萄牙波尔蒂芒以近 4 秒的优势拿下队史首冠，周末连下两回合；到 6 月中旬，赛季第六冠已经到手。\n\n比成绩更有戏剧性的是这支车队的来路。创始人张雪 14 岁在湖南山村骑上摩托，辍学进修理铺当学徒，20 岁左右就能闭着眼组装发动机；如今征战世界赛场的那台 820RR-RS，用的是自研的 819cc 直列三缸发动机，车架和电控全部国产",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: dead robot friends and the “censorship-industrial complex”",
+      "url": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
+      "published_at": "2026-08-17T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### What happens when a kid",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Whisker’s AI-powered litter robot thinks my cats swapped bodies",
+      "url": "https://www.theverge.com/tech/978323/whisker-litter-robot-5-pro-review",
+      "published_at": "2026-08-17T11:00:00.000Z",
+      "summary": "The greatest invention in[pet tech](https://www.theverge.com/tech/765085/pet-gadgets-dog-cat-fish-favorites)in recent years is the litter robot. A machine that scoops your kitties' poop so you don't have to - what else could a cat owner possibly want? How about insights into your kitty's litter box ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "How much hydrogen awaits us underground?",
+      "url": "https://www.technologyreview.com/2026/08/17/1141560/how-much-hydrogen-awaits-underground/",
+      "published_at": "2026-08-17T09:00:00.000Z",
+      "summary": "In the 1990s, Barbara Sherwood Lollar descended into the Kidd Creek mine in northern Ontario, which cuts more than three kilometers into the ancient root of North America. There her team of geochemists found water that had been confined underground for more than a billion years. This ancient brine t",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "What happens when a kid’s robot best friend dies?",
+      "url": "https://www.technologyreview.com/2026/08/17/1141568/moxie-when-kids-robot-best-friend-dies/",
+      "published_at": "2026-08-17T09:00:00.000Z",
+      "summary": "When Xander first met Moxie, she taught him that when he was anxious, he could calm down by exhaling through his lips so that he buzzed like a bee. They practiced breathing like dragons to manage feeling mad and sniffing like bunnies to boost his energy. But in the six years they’ve known each other",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+📅 Report date: 2026-08-24
+📁 Output dir:  /root/.openclaw/workspace/github-repos/kaiye/daily-report/output/2026-08-24
+
+📰 [MEDIA] Fetching RSS feeds...
+  ✅ Google AI Blog                   0 items
+  ✅ Google DeepMind                  0 items
+  ✅ The Verge AI                     0 items
+  ✅ TechCrunch AI                    4 items
+  ✅ MIT Technology Review AI         0 items
+  ✅ HuggingFace Blog                 0 items
+  ✅ 量子位                              3 items
+  ✅ 机器之心                             0 items
+  ✅ 新智元                              2 items
+  ✅ 极客公园                             3 items
+  ✅ 字节跳动技术团队                         0 items
+  ✅ 阿里技术                             0 items
+  ✅ 腾讯技术工程                           0 items
+  💾 raw.json: 12 items
+  🧹 Post-processing media raw data...
+  💾 post.json: 12 items
+  🤖 Generating report JSON via LLM...
+Error: LLM request failed: HTTP 401 {"error":{"message":"Missing Authentication header","code":401}}
+    at requestJsonFromLlm (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/generators/llm_report.js:177:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async generateSectionReport (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/generators/llm_report.js:223:10)
+    at async generateVerifiedReport (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/pipeline/generate_verified_report.js:94:5)
+    at async runMedia (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/pipeline/media.js:61:18)
+    at async main (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/scripts/run_daily.js:28:7)
+📅 Report date: 2026-08-24
+📁 Output dir:  /root/.openclaw/workspace/github-repos/kaiye/daily-report/output/2026-08-24
+
+📰 [MEDIA] Fetching RSS feeds...
+  ✅ Google AI Blog                   0 items
+  ✅ Google DeepMind                  0 items
+  ✅ The Verge AI                     0 items
+  ✅ TechCrunch AI                    4 items
+  ✅ MIT Technology Review AI         0 items
+  ✅ HuggingFace Blog                 0 items
+  ✅ 量子位                              3 items
+  ✅ 机器之心                             0 items
+  ✅ 新智元                              2 items
+  ✅ 极客公园                             3 items
+  ✅ 字节跳动技术团队                         0 items
+  ✅ 阿里技术                             0 items
+  ✅ 腾讯技术工程                           0 items
+  💾 raw.json: 12 items
+  🧹 Post-processing media raw data...
+  💾 post.json: 12 items
+  🤖 Generating report JSON via LLM...
+Error: LLM request failed: HTTP 500 {"error":{"message":"Post \"https://www.packyapi.com/v1/chat/completions\": EOF","type":"server_error","code":"internal_server_error"}}
+    at requestJsonFromLlm (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/generators/llm_report.js:177:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async generateSectionReport (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/generators/llm_report.js:223:10)
+    at async generateVerifiedReport (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/pipeline/generate_verified_report.js:94:5)
+    at async runMedia (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/pipeline/media.js:61:18)
+    at async main (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/scripts/run_daily.js:28:7)
+📅 Report date: 2026-08-24
+📁 Output dir:  /root/.openclaw/workspace/github-repos/kaiye/daily-report/output/2026-08-24
+
+📰 [MEDIA] Fetching RSS feeds...
+  ✅ Google AI Blog                   0 items
+  ✅ Google DeepMind                  0 items
+  ✅ The Verge AI                     0 items
+  ✅ TechCrunch AI                    4 items
+  ✅ MIT Technology Review AI         0 items
+  ✅ HuggingFace Blog                 0 items
+  ✅ 量子位                              3 items
+  ✅ 机器之心                             0 items
+  ✅ 新智元                              2 items
+  ✅ 极客公园                             3 items
+  ✅ 字节跳动技术团队                         0 items
+  ✅ 阿里技术                             0 items
+  ✅ 腾讯技术工程                           0 items
+  💾 raw.json: 12 items
+  🧹 Post-processing media raw data...
+  💾 post.json: 12 items
+  🤖 Generating report JSON via LLM...
+Error: LLM request failed: HTTP 500 {"error":{"message":"Post \"https://www.packyapi.com/v1/chat/completions\": EOF","type":"server_error","code":"internal_server_error"}}
+    at requestJsonFromLlm (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/generators/llm_report.js:177:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async generateSectionReport (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/generators/llm_report.js:223:10)
+    at async generateVerifiedReport (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/pipeline/generate_verified_report.js:94:5)
+    at async runMedia (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/src/daily_report_js/pipeline/media.js:61:18)
+    at async main (file:///root/.openclaw/workspace/github-repos/kaiye/daily-report/scripts/run_daily.js:28:7)
+📅 Report date: 2026-08-24
+📁 Output dir:  /root/.openclaw/workspace/github-repos/kaiye/daily-report/output/2026-08-24
+⚠️  LLM 网关当前返回 packyapi EOF，本报告由已清洗数据按原始排序降级生成。
+
+📰 [MEDIA] fallback collect/post/render
+  ✅ Google AI Blog                   0 items
+  ✅ Google DeepMind                  0 items
+  ✅ The Verge AI                     0 items
+  ✅ TechCrunch AI                    4 items
+  ✅ MIT Technology Review AI         0 items
+  ✅ HuggingFace Blog                 0 items
+  ✅ 量子位                              3 items
+  ✅ 机器之心                             0 items
+  ✅ 新智元                              2 items
+  ✅ 极客公园                             3 items
+  ✅ 字节跳动技术团队                         0 items
+  ✅ 阿里技术                             0 items
+  ✅ 腾讯技术工程                           0 items
+  ✅ PNG saved: /root/.openclaw/workspace/github-repos/kaiye/daily-report/output/2026-08-24/media/report.png
+  raw=12, post=12
+
+🐙 [GITHUB] fallback collect/post/render
+  ✅ PNG saved: /root/.openclaw/workspace/github-repos/kaiye/daily-report/output/2026-08-24/github/report.png
+  raw=18, post=15
+
+🐦 [X] fallback collect/post/render
+  🔍 Query window: UTC 2026-08-23 00:00 – 23:59 (min_faves=1000)
+  📥 Fetched 20 raw tweets
+  ✅ PNG saved: /root/.openclaw/workspace/github-repos/kaiye/daily-report/output/2026-08-24/x/report.png
+  raw=20, post=20
+
+🎉 Fallback done! Output: /root/.openclaw/workspace/github-repos/kaiye/daily-report/output/2026-08-24

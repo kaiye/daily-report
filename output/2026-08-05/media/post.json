@@ -1,0 +1,392 @@
+{
+  "generated_at": "2026-08-05T00:06:13.473Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 32,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "传新 iPhone 最高涨价 1350 元；阿里发 Qwen3.8，2.4 万亿参数；DuckDuckGo 推「反科技」太阳镜 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111542&idx=1&sn=8124565bd78989f294341aad482d3ae2",
+      "published_at": "2026-08-04T00:11:00.000Z",
+      "summary": "周永亮 2026-08-04 08:11 北京\n\nChatGPT Atlas 浏览器将于 8 月 9 日停止服务；MiniMax H3 开源；智元公布核心管理层名单，回应罗剑岚缺席系「岗位调整」\n\n## 白宫拟召集 OpenAI 和 Anthropic 等巨头，讨论 AI 模型安全测试框架\n\n据五位知情人士透露，特朗普政府已邀请 OpenAI、谷歌、Anthropic 等大型科技企业工作人员于周二前往白宫，审议人工智能监管框架最终版本。该框架将设立一套自愿性机制，要求人工智能实验室在向合作方及公众推出模型前，向政府提交相关模型。\n\n今年 6 月初的行政命令要求在 8 月 1 日前完成框架制定，",
+      "priority_score": 628,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "ChatGPT",
+        "GPT",
+        "Qwen",
+        "MiniMax"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "开源版Claude Science来了！零依赖、MIT协议，内置30+项科研Skills",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=2&sn=e2fa7bc0803bd3d6cf5f152e99729b46",
+      "published_at": "2026-08-04T09:00:00.000Z",
+      "summary": "关注前沿科技 2026-08-04 17:00 北京\n\n北大&元空AI Agent联合实验室出品\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\nClaude Science，你可能有耳闻。\n\nAnthropic家那个能自己搜文献、自己写代码、自己跑分析、自己出图出报告的科研Agent，一度让人直呼「这才是AI for Science该有的样子」。\n\n但它闭源。\n\n现在，有人把它复刻出来了—— **开源** ，MIT协议，核心零依赖。\n\n项目叫 **OpenAI4S（Open AI for Scientist）** ，是 **北京大学&元空AI Agent联合实验室** ",
+      "priority_score": 450,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI drags Apple’s lawsuit into the court of public opinion",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974914/openai-blog-response-apple-lawsuit-messages",
+      "published_at": "2026-08-04T11:27:55.000Z",
+      "summary": "OpenAI says Apple’s lawsuit is “careless, aggressive, and oddly personal.” | Image: Cath Virginia / The Verge, Getty Images\nApple's legal battle against OpenAI just got messier now that the ChatGPT-maker has publicly aired receipts to counter Apple's version of events. In a blog post published overn",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "16张B200才能跑的Kimi K3，8张AMD就装下了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651048208&idx=2&sn=bc63eb3cc25002794ef8b3131a48e7de",
+      "published_at": "2026-08-04T06:26:00.000Z",
+      "summary": "原创关注LLM的 2026-08-04 14:26 北京\n\n显存开始比算力更重要，AMD 押对了吗？\n\n机器之心编辑部\n\n这可能是 AMD 等了很久的时刻。\n\n最近，Wafer AI 在 AMD MI355X 上部署了 Kimi K3。结果是，原本需要 16 张 NVIDIA B200、横跨两台服务器运行的模型，在一台配备 8 张 MI355X 的 AMD 服务器中就能完成部署。\n\n更关键的是，它不只是把模型装进去了。\n\n在输入 1024 Token、输出 400 Token 的测试中，MI355X 跑出了 952 Token/s 的总吞吐量，单用户生成速度达到 118 Token/s。\n\n按",
+      "priority_score": 200,
+      "matched_keywords": [
+        "LLM",
+        "Kimi"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "对话景鲲：AI 产品的 All in One，是上下文的 All in One",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111555&idx=1&sn=32b17dc68109cc165a9ac3db671730f2",
+      "published_at": "2026-08-04T04:34:00.000Z",
+      "summary": "Founder Park 2026-08-04 12:34 山东\n\n​​模型为王的时代，Genspark 是如何持续增长的？\n\n模型为王的时代，Genspark 是如何持续增长的？\n\n**作者｜连冉** **编辑｜ **万户****\n\n这是 Genspark 首次出现在 AGI Playground 的舞台上，创始人&CEO 景鲲还带来了他们的一款新产品。\n\n一套支持文档、表格、幻灯片、PDF 的全功能 AI 办公套件 GenOffice，免费开源，且支持 PC 和 Mac 双端，开发周期仅为 1 名工程师、1 周时间。\n\n从最早的 AI 搜索引擎切入，到果断转向通用 Super Agent，",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+      "published_at": "2026-08-04T20:05:26.000Z",
+      "summary": "A new SaferAI report finds Z.ai's open-weight GLM-5.2 approaches frontier AI capabilities while lacking key safety mitigations, renewing concerns that powerful open models could outpace governance and safeguards.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "GLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia doesn’t mess around: A week after open AI industry group formed, it’s already showing progress",
+      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+      "published_at": "2026-08-04T19:28:49.000Z",
+      "summary": "The week-old Open Secure AI Alliance, spearheaded by Nvidia and grown to over 120 companies, already has proposals out for defending against AI agents.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+      "published_at": "2026-08-04T19:48:40.000Z",
+      "summary": "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "How an OpenAI influencer trip backfired",
+      "url": "https://www.theverge.com/tech/975173/openai-influencers-brand-trip-ai-backlash-marketing",
+      "published_at": "2026-08-04T17:46:41.000Z",
+      "summary": "The brand trip is a right of passage for influencers. It's a mark of legitimacy that a sponsor wants to invite them on an all-expenses-paid vacation, often with luxurious freebies and activities. Trips can also spur hard feelings from uninvited influencers, trigger criticism from the public, and pro",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "‘Not healthy’ LLM use is more common than you think",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/975180/llm-ai-chatbot-use-not-healthy",
+      "published_at": "2026-08-04T17:33:46.000Z",
+      "summary": "Hank Green, a popular YouTuber and science communicator,[said](https://www.theverge.com/tech/973893/hank-green-says-his-youtube-channel-may-need-to-pause-after-admitting-to-relying-on-ai-for-research)he is stepping back from production amid intense criticism over his use of AI. Green described his A",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "published_at": "2026-08-04T14:03:01.000Z",
+      "summary": "Apple says its trade secrets investigation into OpenAI has widened. In a new court filing, Apple claims additional former staff may have retained or accessed confidential information.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Can Reddit fend off a new wave of AI SEO spam?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/973098/reddit-ai-search-seo-marketing-brands-spam",
+      "published_at": "2026-08-04T10:00:00.000Z",
+      "summary": "Earlier this year, a Reddit user had[asked](https://www.reddit.com/r/SkincareAddicts/comments/1t9jvcf/magic_molecule_hypochlorous_acid_spray_is_it/)members of a skincare-focused subreddit if anyone had tried a specific hypochlorous acid spray, a product often used for acne. There were dozens of resp",
+      "priority_score": 100,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "开发者苦 “造轮子” 久矣，HarmonyOS 7 正在抹平系统能力的接入鸿沟",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=1&sn=427f52342e1d6beba877e7e125c44564",
+      "published_at": "2026-08-04T09:00:00.000Z",
+      "summary": "关注前沿科技 2026-08-04 17:00 北京\n\n系统到底能帮我扛多少活？\n\n##### 梦瑶 克雷西 发自 凹非寺 量子位 | 公众号 QbitAI\n\n亲手带火Vibe Coding的AI大神卡帕西，前阵子忍不住在网上放声吐槽：\n\n自己的Agent会把代码写得一团糟，没美感还喜欢到处copy粘贴，最主要的是压根不听自己的指令。\n\n这条吐槽戳中了不少开发者——\n\nAI是真的会写代码了，但自己加班最多的那部分，代码生成根本救不了。\n\n真正拖住应用交付的，往往不在于代码生成，而是其背后那段更长、更琐碎，也更依赖系统工程能力的链路。\n\n这种事儿，在终端开发里尤其常见。\n\n在刚刚结束的 华为HD",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "AMDs data center business is booming while gaming takes a backseat",
+      "url": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen",
+      "published_at": "2026-08-04T20:57:49.000Z",
+      "summary": "Driven by demand for AI capacity, AMD's data center revenue more than doubled year-over-year in its[latest earnings report](https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results), reaching $6.7 billion. That's up from[$5.8 billion in Q1](https://",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in July 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "published_at": "2026-08-04T13:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/July_AI_Recap_still.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from July 2026",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Is the future of data centers portable? Runware builds a pod to find out",
+      "url": "https://techcrunch.com/2026/08/04/is-the-future-of-data-centers-portable-runware-builds-a-pod-to-find-out/",
+      "published_at": "2026-08-04T13:00:00.000Z",
+      "summary": "On Tuesday, AI infrastructure company Runware announced the launch of its own modular data center called Sonic Inference Pod.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "EON wants to move the data superhighway from ocean fiber to space lasers",
+      "url": "https://techcrunch.com/2026/08/04/eon-wants-to-move-the-data-superhighway-from-ocean-fiber-to-space-lasers/",
+      "published_at": "2026-08-04T12:00:00.000Z",
+      "summary": "Endeavor Optical Networks is planning to launch the fastest space laser communications system yet built.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "为什么 AI 视频，需要“懂生成”的画质增强",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521103&idx=1&sn=464de2a00f29cfc21e3875a515d5fdbe",
+      "published_at": "2026-08-04T11:12:00.000Z",
+      "summary": "视频与边缘 2026-08-04 19:12 北京\n\nAI 视频生成已经足够惊艳。\n\n一段提示词，就能生成一段精彩的视频。过去需要拍摄、建模、后期一起才能完成的画面，现在可以由模型快速生成出来。\n\n不过真正进入生产之后，我们会发现生成只是第一步。\n\n一条 AI 视频要从生成走到发布，往往还需要一系列画质增强和调优。尤其是低分辨率生成的视频，通常还要把画质增强到更高规格，才能满足上线的要求。\n\n这一步看似简单，但往往伴随着新的问题产生。\n\n有些 AI 视频增强之后，第一眼确实更清楚了。但多看几秒，就会发现一些不对劲：细节变多了，却不一定自然；边缘更锐了，却没有真正的质感；静帧看着还行，动起来却可",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "published_at": "2026-08-04T13:58:29.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "SpaceX has bought $329M worth of Tesla Megapacks so far this year",
+      "url": "https://techcrunch.com/2026/08/04/spacex-has-bought-329m-worth-of-tesla-megapacks-so-far-this-year/",
+      "published_at": "2026-08-04T21:07:26.000Z",
+      "summary": "The purchase illustrates just how interconnected Elon Musk's universe of companies are.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "SpaceX made more revenue as an AI company than a space company",
+      "url": "https://www.theverge.com/science/975335/spacex-made-more-money-as-a-neocloud",
+      "published_at": "2026-08-04T20:47:55.000Z",
+      "summary": "SpaceX's AI revenue grew more than three times to $2.6 billion from the year before, mostly because of deals that the company made to provide compute to other AI companies, according to SpaceX's quarterly earnings. The AI division, which the company said in its documents to go public was the source ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meet Wrinkles, an app that uncovers the hidden stories of the places around you",
+      "url": "https://techcrunch.com/2026/08/04/meet-wrinkles-an-ai-app-that-uncovers-the-hidden-stories-of-the-places-around-you/",
+      "published_at": "2026-08-04T19:34:34.000Z",
+      "summary": "Wrinkles, available on both iOS and Android, essentially acts as an AI-powered audio tour guide that reveals hidden history and local stories.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Spotify expands AI remix and covers project with Merlin partnership",
+      "url": "https://techcrunch.com/2026/08/04/spotify-adds-merlin-to-its-ai-music-remix-and-covers-effort/",
+      "published_at": "2026-08-04T15:50:06.000Z",
+      "summary": "Spotify says Merlin, which represents more than 30,000 independent labels and distributors, has joined Universal Music Group in backing its upcoming AI-powered remix and covers product. The paid tool will let fans create AI-generated covers and remixes of participating artists’ music while ensuring ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Texas halts new data centers as governor calls for audits",
+      "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+      "published_at": "2026-08-04T15:42:35.000Z",
+      "summary": "Tech companies and developers have been scouring the U.S. for places to build data centers, and they’ve been drawn to Texas’ loose regulations and seemingly abundant power supply. But even Texas can be pushed to the brink.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Texas says data centers must pass an audit before connecting to the grid",
+      "url": "https://www.theverge.com/policy/975071/texas-data-center-audit",
+      "published_at": "2026-08-04T15:33:21.000Z",
+      "summary": "Texas[announced](https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit)new a audit on data centers that could slow approval for new facilities seeking to connect to the state energy grid.\n\nGovernor Greg Abbott (R) on Monday directed the Public Utility Commission of ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Elon Musk spends half his time talking robots and AI on Tesla earnings calls",
+      "url": "https://techcrunch.com/2026/08/04/elon-musk-spends-half-his-time-talking-robots-and-ai-on-tesla-earnings-calls/",
+      "published_at": "2026-08-04T15:20:06.000Z",
+      "summary": "An analysis of the last seven years of Tesla earnings calls shows just how little attention Musk pays to Tesla's car business.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: US robot restrictions, and ICE’s DNA grab",
+      "url": "https://www.technologyreview.com/2026/08/04/1141098/the-download-robot-restrictions-ice-dna/",
+      "published_at": "2026-08-04T12:14:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### **Trump’s AI protection",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "文件上传即可检索｜实时多模态向量链路落地实践分享",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521103&idx=2&sn=e4de10f386f34f1620fadc40729e8ec4",
+      "published_at": "2026-08-04T11:12:00.000Z",
+      "summary": "原创Viking 2026-08-04 19:12 北京\n\n当企业 AI 应用从概念验证走向生产，一定遇到过这样的场景：商品图库每天新增几千张图片、企业知识库持续有新文档进入、训练数据平台需尽快感知新样本……这些内容的第一站，通常是 **对象存储** 。\n\n但“文件已经上传”并不等于“内容已经能被 AI 使用”。从“存起来”到“用起来”，通常还要经过这样一套流程：\n\n**发现新增或变化的对象 → 读取对象或元信息 → 清洗与组装模型输入 → 生成 Embedding（向量化） → 写入向量数据库 → 更新检索索引**\n\n如果上述流程由多个定时任务和脚本拼接，生产阶段常常会遇到三个卡点：\n\n1.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "智源&北大用一句话完成音视频联合编辑 | SIGGRAPH Asia'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=3&sn=93d5f6e39859c6c9c378533ba3009898",
+      "published_at": "2026-08-04T09:00:00.000Z",
+      "summary": "关注前沿科技 2026-08-04 17:00 北京\n\n让画面与声音在同一个端到端生成过程中共同响应指令\n\n##### InstructAV2AV 团队 投稿 量子位 | 公众号 QbitAI\n\n真实世界中的视觉与声音，并不是两条彼此独立的信息流。\n\n人物口型对应语音，汽车运动对应引擎声，动物动作对应叫声。一次完整的视频编辑，不仅要改变画面中的目标，还要同步处理它在音轨中的声学痕迹，同时尽量保持环境声不变。\n\n文本驱动的视频编辑已经能够替换人物、修改物体属性、插入或删除对象，但真实媒体天然是多模态的。视觉对象、运动状态、语音、环境声之间存在紧密对应关系。\n\n模型不仅要准确执行编辑指令，还要保留",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247909661&idx=4&sn=0a52299cbf61b42c38bbe0e80597c851",
+      "published_at": "2026-08-04T09:00:00.000Z",
+      "summary": "关注前沿科技 2026-08-04 17:00 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "无本体数据直达真机，深朴智能拔掉机器人后训练的「真机数据锚点」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651048208&idx=1&sn=3336d943ba2c2d434435345f35a5bfdb",
+      "published_at": "2026-08-04T06:26:00.000Z",
+      "summary": "原创关注具身智能的 2026-08-04 14:26 北京\n\n这一次，无本体数据不只用来预训练！\n\n编辑｜Youli\n\n当下，一个逐渐清晰的共识是，具身智能的叙事正由「会不会做一个动作」，转向「能不能在真实世界里稳定完成复杂任务」。尤其是在刚刚过去的 WAIC2026 现场，这一点尤为明显，机器人不再满足于表演式的单动作演示，而是被期待走进产线、仓储和酒店客房，真正「做事」。\n\n不过，Demo 与落地之间，隔着一道明确的鸿沟。VLA 还是 WAM？模型够不够大？参数够不够多？等等，路线之争尚无定论。但有一个难题明确而具体： 数据，尤其是高质量操作数据。 前段时间，「AI 教母」、斯坦福大学教授",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "千寻智能高阳团队新作|换了新硬件，老数据还有用吗？揭秘机器人学习中的\"涌现式迁移\"",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651048208&idx=3&sn=8b47e2bdd229509515ce2995c42b5f36",
+      "published_at": "2026-08-04T06:26:00.000Z",
+      "summary": "机器之心 2026-08-04 14:26 北京\n\n之前在旧硬件上花了大量人力、金钱采集的示教数据，还能用在新机器人身上吗？\n\n想象一位干了二十年的汽修老师傅，带一个刚进门的学徒。老师傅经验丰富，但如果学徒连螺丝刀都拿不稳，老师傅那些 \"听声音就知道哪里坏了\" 的绝活，讲了也是白讲 —— 徒弟根本接不住。可一旦徒弟练熟了基本功，老师傅的经验就会 突然变得点 石成金 ，让徒弟的水平一路飙升。等到徒弟自己都快出师了，老师傅再多的经验，能带来的提升也就有限了。\n\n机器人学习里，藏着一个几乎一模一样的故事。\n\n近日，千寻智能高阳团队的最新研究 《 When Does Legacy Data Start",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

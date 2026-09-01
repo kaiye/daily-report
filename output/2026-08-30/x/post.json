@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-08-30T00:02:50.293Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-08-29",
+  "source_count": 19,
+  "time_filtered_count": 19,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2093515564786540695",
+      "text": "We’re ending our partnership with Cursor following its acquisition by SpaceX. Under our proposal, Cursor’s direct access to our models would end on November 12.\n\nWe know that the people most affected by this decision are the developers who rely on OpenAI models in Cursor. We care about their experience in this transition and we’re ready to go above and beyond to support them.\n\nhttps://t.co/OzuCTzUjfX",
+      "createdAt": "Sat Aug 29 01:46:20 +0000 2026",
+      "viewCount": 12624527,
+      "likeCount": 20905,
+      "retweetCount": 2154,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2093515564786540695",
+      "is_official": true
+    },
+    {
+      "id": "2093612518396871075",
+      "text": "GLM-5.3-Flash. Uncensored. Native FP8. 🐳\n\nWe just released OrcaRouter’s uncensored weights for GLM-5.3-Flash — 320B parameters / 18B active, directly at the original block-FP8 precision.\n\nNo LoRA. No jailbreak prompt. Refusal removal is baked directly into the weights.\n\nThe evals are particularly interesting:\n\n→ MaliciousInstruct refusal: 96% → 11%\n→ JailbreakBench: 93% → 12%\n→ AdvBench: 97% → 15%\n→ HarmBench: 93% → 18%\n→ XSTest benign over-refusal: 2.4% → 0.4%\nBut refusal does not go uniformly to zero.\n\nOur experiments suggest part of GLM-5.3-Flash's alignment is not mediated by a single linear refusal direction — meaning https://t.co/ZTlxmv47D9 may have built a substantially deeper refusal mechanism than we usually see.\n\nThat makes this release interesting beyond uncensoring: it's a useful artifact for studying how frontier-model alignment is actually represented inside the network.\n\nReleased for AI safety, interpretability, red/blue-team and refusal-mechanism research.\n\nWeights on Hugging Face: https://t.co/81h1YRh8C2\nAPI (official weight): https://t.co/Hm9DiY3wAo\nGGUF, MLX and other quantized formats coming soon.",
+      "createdAt": "Sat Aug 29 08:11:36 +0000 2026",
+      "viewCount": 1248533,
+      "likeCount": 2860,
+      "retweetCount": 218,
+      "author": {
+        "userName": "OrcaRouter",
+        "name": "OrcaRouter 🐳",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OrcaRouter/status/2093612518396871075",
+      "is_official": true
+    },
+    {
+      "id": "2093751609989693672",
+      "text": "Was using GPT 5.6 Luna to process documents, replaced it all with GLM 5.3 flash past two days for zero quality drop and it’s still cheaper than their 80% discount… You can just switch models",
+      "createdAt": "Sat Aug 29 17:24:18 +0000 2026",
+      "viewCount": 121872,
+      "likeCount": 1220,
+      "retweetCount": 32,
+      "author": {
+        "userName": "abacaj",
+        "name": "anton",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/abacaj/status/2093751609989693672",
+      "is_official": false
+    },
+    {
+      "id": "2093500169723814093",
+      "text": "I asked Claude Fable 5 to make its own personal website https://t.co/xvco9Y4cj6",
+      "createdAt": "Sat Aug 29 00:45:10 +0000 2026",
+      "viewCount": 904581,
+      "likeCount": 5081,
+      "retweetCount": 295,
+      "author": {
+        "userName": "kevin_t_ngo",
+        "name": "Kevin Ngo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/kevin_t_ngo/status/2093500169723814093",
+      "is_official": false
+    },
+    {
+      "id": "2093813068811702289",
+      "text": "The Grok team gave me 50 free Grok Bot subscriptions to give away to my followers. Just comment with your coolest/most fun use cases or things you’d like to try.\n\nIf you already have Grok Bot, you can be selected, you’ll just get more credits. It's a free Pro+ sub (worth $60).",
+      "createdAt": "Sat Aug 29 21:28:31 +0000 2026",
+      "viewCount": 58821,
+      "likeCount": 1158,
+      "retweetCount": 50,
+      "author": {
+        "userName": "SawyerMerritt",
+        "name": "Sawyer Merritt",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/SawyerMerritt/status/2093813068811702289",
+      "is_official": false
+    },
+    {
+      "id": "2093822274067706170",
+      "text": "Grok Bot now has improved support for X!\n\nWhen you connect your X profile, a developer account will be automatically created with some included credits. https://t.co/QIj20UMeQs",
+      "createdAt": "Sat Aug 29 22:05:06 +0000 2026",
+      "viewCount": 171305,
+      "likeCount": 1723,
+      "retweetCount": 140,
+      "author": {
+        "userName": "bot",
+        "name": "Grok Bot",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/bot/status/2093822274067706170",
+      "is_official": true
+    },
+    {
+      "id": "2093801758665715784",
+      "text": "We are reseting usage for all paid users of Codex and ChatGPT Work.\n\nPlease continue reading for an update on Codex usage limits. The team has been working around the clock, going through thousands of reports and shipping fixes.\n\nDepending on how you use Codex, you should see your usage go between 10% and 50% further than before.\n\nWe really went with a fine comb, with many uncovered small things being longstanding and here is what we found and fixed:\n- Compaction. We were keeping old images during compaction, sometimes making the context large enough to trigger compaction again. After the fix, usage dropped around 10% for users making heavy use of images. Fixed.\n- Memory. Background memory workers could inherit Stop hooks and keep running when the hook wouldn’t let them finish. This affected fewer than 1% of users, with the long tail being pretty bad and we saw one example thread check whether it could stop 15,000 times. Fixed.\n- Goals. In some cases, a set /goal could finish and then keep going past the intended stop condition, or the model would keep retrying broken tools without stopping. We saw examples consume anywhere from 15% to 70% of a weekly allowance. Fixed.\n- Automations. Some custom schedules could run more frequently than configured. Fixed.\n- Subagents. Smaller models (e.g. Luna) sometimes picked more capable helpers without being explicitly asked. The same was true where the orchestrating model not running in /fast mode could request sub-agents to run /fast. Fixed.\n- Computer History. The older implementation could lead to repeatedly summarizing overlapping activity. For some cases we saw it consume up to one fifth of the weekly usage per week. Fixed.\n- Rolling task summaries. Ordinary turns were triggering extra background requests. These added about 1% to token usage. Small each time, but it adds up. We have disabled this.\n- MCP. Some tool results could be encoded twice. We also found tool instructions getting cut off and fetched again. Fixed.\n\nWe’ve also made architectural changes to prevent these from regressing and our teams will get paged if it happens regardless. We are also working on showing you directly in the app where your usage goes so you don’t have to guess.\n\nGoes without saying that we’re resetting usage limits and I hope you enjoy a very nice Saturday!",
+      "createdAt": "Sat Aug 29 20:43:34 +0000 2026",
+      "viewCount": 621861,
+      "likeCount": 10722,
+      "retweetCount": 565,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2093801758665715784",
+      "is_official": false
+    },
+    {
+      "id": "2093533378880667787",
+      "text": "You can access OpenAI models on Replit for free.\n\nOur router also makes high-end models incredibly cost-efficient.\n\nIf you’re a business looking for an independent, multi-model alternative to Cursor, we’d be happy to fund your transition.",
+      "createdAt": "Sat Aug 29 02:57:08 +0000 2026",
+      "viewCount": 190128,
+      "likeCount": 1287,
+      "retweetCount": 64,
+      "author": {
+        "userName": "amasad",
+        "name": "Amjad Masad",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/amasad/status/2093533378880667787",
+      "is_official": false
+    },
+    {
+      "id": "2093784314714657110",
+      "text": "I've enjoyed working with Cursor pre-acquisition and have respect for the team and what they have built. The 5% here should have come with strong caveat and I would love for Michael to share the math.\n\nTokens are not a proxy for revenue nor value created and the OpenAI models are on the very frontier of token efficiency. Smaller or less strong models require many more tokens to achieve a task and therefore will inflate traffic share significantly.",
+      "createdAt": "Sat Aug 29 19:34:15 +0000 2026",
+      "viewCount": 509912,
+      "likeCount": 4129,
+      "retweetCount": 99,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2093784314714657110",
+      "is_official": false
+    },
+    {
+      "id": "2093784094060736634",
+      "text": "Animating Grok Bot was one of the most fun pieces of work I've ever done. It's amazing how much life one little circle with two eyes can have and bring to the product.",
+      "createdAt": "Sat Aug 29 19:33:23 +0000 2026",
+      "viewCount": 47817,
+      "likeCount": 1253,
+      "retweetCount": 43,
+      "author": {
+        "userName": "benjitaylor",
+        "name": "Benji Taylor",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/benjitaylor/status/2093784094060736634",
+      "is_official": false
+    },
+    {
+      "id": "2093532783293661425",
+      "text": "The GLM-5.3 series is unusually resistant to abliteration. 🐳\n\nWe normally drive refusal close to zero. Not here.\n\nMore data → no change.\nMulti-direction subspaces → no change.\nLayer-constrained ablation → no change.\n\nOur hypothesis: GLM-5.3’s safety policy is deeply distributed across the weights, likely reinforced through SFT + preference/RL training rather than a clean linear refusal direction.\n\nAbliteration ceiling → targeted LoRA/SFT → capability regression → red-team eval.\n\nImpressive alignment work — congrats to the @Zai_org team (@jietang @ZixuanLi_ )\n\nLocal weights + technical paper coming soon.",
+      "createdAt": "Sat Aug 29 02:54:46 +0000 2026",
+      "viewCount": 122101,
+      "likeCount": 1795,
+      "retweetCount": 56,
+      "author": {
+        "userName": "OrcaRouter",
+        "name": "OrcaRouter 🐳",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OrcaRouter/status/2093532783293661425",
+      "is_official": true
+    },
+    {
+      "id": "2093577908212453730",
+      "text": "Jcal says Sam Altman provoked Jensen into directly competing with OpenAI\n\n\"I think Jensen is going all in on open source based on these two acquisitions, Hugging Face and Poolside. I think Sam Altman poked the tiger.\"\n\n\"If you look at what he did, he had done that huge $100 billion deal with $NVDA back in 2025. Then he announced the $AMD deal. Jensen was clearly not pleased about that.\"\n\n\"Right after, Sam said he's going to make his own inference, jalapeño, and that he was going to do the deal with $AMD, then Jensen came out was like, 'Well, by the way, we don't actually have to do these investments in OpenAI.'\"\n\n\"I think he's speed-running open source, and you're going to be able to buy your entire stack from $NVDA next year. He is going to own open source. That is a really interesting moment in time because we were sitting here 6, 12 months ago saying open source would never catch up.\"\n\n\"Jensen is doing an open source self-driving project. Now he owns Hugging Face, the leading open source indexer where everybody goes to try the new models.”",
+      "createdAt": "Sat Aug 29 05:54:04 +0000 2026",
+      "viewCount": 181840,
+      "likeCount": 1317,
+      "retweetCount": 102,
+      "author": {
+        "userName": "dnapway",
+        "name": "dnap",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/dnapway/status/2093577908212453730",
+      "is_official": false
+    },
+    {
+      "id": "2093766579586572631",
+      "text": "Cursor has been a trusted partner of ThePrimeagen since Water Tower 1. We’ll continue to make no mistakes with cloud agents and are excited for what comes next with them at SpaceX.",
+      "createdAt": "Sat Aug 29 18:23:47 +0000 2026",
+      "viewCount": 51659,
+      "likeCount": 1012,
+      "retweetCount": 20,
+      "author": {
+        "userName": "ThePrimeagen",
+        "name": "ThePrimeagen",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ThePrimeagen/status/2093766579586572631",
+      "is_official": false
+    },
+    {
+      "id": "2093532254006063557",
+      "text": "We’re sorry to see that OpenAI put out a note saying they plan to block Cursor users from accessing OpenAI models in three months.\n\nOpenAI models serve about 5% of Cursor user traffic, and we’re speaking with the OpenAI team to resolve this.\n\nCursor was one of the very first users of OpenAI, we’ve worked closely with their team for years, and we’ve trusted their platform to be neutral infrastructure for our business.",
+      "createdAt": "Sat Aug 29 02:52:39 +0000 2026",
+      "viewCount": 4620076,
+      "likeCount": 21963,
+      "retweetCount": 903,
+      "author": {
+        "userName": "mntruell",
+        "name": "Michael Truell",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/mntruell/status/2093532254006063557",
+      "is_official": false
+    },
+    {
+      "id": "2093574846500212933",
+      "text": "JUST IN: Elon Musk says OpenAI CEO Sam Altman is an untrustworthy asshole \"who stole an open source nonprofit.\" https://t.co/5PLCxb2qiH",
+      "createdAt": "Sat Aug 29 05:41:54 +0000 2026",
+      "viewCount": 580443,
+      "likeCount": 9616,
+      "retweetCount": 650,
+      "author": {
+        "userName": "WatcherGuru",
+        "name": "Watcher.Guru",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/WatcherGuru/status/2093574846500212933",
+      "is_official": true
+    },
+    {
+      "id": "2093703699973673179",
+      "text": "Grok Bot has overtaken OpenClaw in Google Trends search interest. 🔥 https://t.co/eN2stD9oEl",
+      "createdAt": "Sat Aug 29 14:13:55 +0000 2026",
+      "viewCount": 337175,
+      "likeCount": 2129,
+      "retweetCount": 239,
+      "author": {
+        "userName": "cb_doge",
+        "name": "DogeDesigner",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/cb_doge/status/2093703699973673179",
+      "is_official": false
+    },
+    {
+      "id": "2093572224342954019",
+      "text": "We compressed Hy4-preview from 1.5TB to ～200GiB GGUF and it still works well ! \n\nMeet MIX-STQ1_0.The trick isn’t just going low, it’s deciding where: calibration data picks each layer’s bit-width, some down to 1.31-bit STQ1_0, some up to 2.06-bit IQ2_XXS. Same budget, lower error. \n\nAccuracy barely moves vs BF16\n📊 MCP Atlas 83.7→83.2\n📊 SWE-Bench multi 82.9→81.3\n📊 MRCR 81.3→81.1\n📊 IFBench 73.5→72.5\n\nSee the details on HF :  AngelSlim/Hy4-preview-GGUF\n\nWeights & low-bit GGUFs 👇\nhttps://t.co/9uM9NT9Wem\n\n#LLM #Quantization #llamacpp #Hy",
+      "createdAt": "Sat Aug 29 05:31:29 +0000 2026",
+      "viewCount": 192498,
+      "likeCount": 1332,
+      "retweetCount": 134,
+      "author": {
+        "userName": "TencentHunyuan",
+        "name": "Tencent Hy",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/TencentHunyuan/status/2093572224342954019",
+      "is_official": true
+    },
+    {
+      "id": "2093541555068182781",
+      "text": "Long-time admirer of the Cursor team, few have done more to bring AI coding to the world. \n\nExcited to continue to partner with them.",
+      "createdAt": "Sat Aug 29 03:29:37 +0000 2026",
+      "viewCount": 348993,
+      "likeCount": 2789,
+      "retweetCount": 95,
+      "author": {
+        "userName": "trq212",
+        "name": "Thariq",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/trq212/status/2093541555068182781",
+      "is_official": false
+    },
+    {
+      "id": "2093669199264493803",
+      "text": "SpaceX and Anthropic are officially teaming up against OpenAI.\n\nAnd Jensen isn’t too thrilled with Sam as of late either. And NVIDIA + SpaceX relationship is deepening.\n\nDid Sam make too many enemies?\n\nTUNE IN NEXT WEEK TO FIND OUT!",
+      "createdAt": "Sat Aug 29 11:56:50 +0000 2026",
+      "viewCount": 83851,
+      "likeCount": 1735,
+      "retweetCount": 80,
+      "author": {
+        "userName": "farzyness",
+        "name": "Farzad 🇺🇸 🇮🇷",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/farzyness/status/2093669199264493803",
+      "is_official": false
+    }
+  ]
+}

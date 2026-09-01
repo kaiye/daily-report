@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-07-22",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜的 AI 相关项目最热方向是围绕智能体编码、模型接入与工作流增强的开发者工具链持续升温。",
+  "items": [
+    {
+      "repo": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "实时全球情报仪表盘，以 AI 驱动的新闻聚合、地缘政治监测和基础设施追踪整合到统一的态势感知界面中。",
+      "language": "TypeScript",
+      "stars_today": 1295,
+      "stars_total": 65309
+    },
+    {
+      "repo": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码。",
+      "language": "Python",
+      "stars_today": 4624,
+      "stars_total": 14346
+    },
+    {
+      "repo": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "面向 MCP 和 CLI 的本地优先代码智能图谱，构建代码库的持久映射，让 AI 编码工具只读取真正重要的内容。",
+      "language": "Python",
+      "stars_today": 1925,
+      "stars_total": 24516
+    },
+    {
+      "repo": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "给你的编码智能体加上的一项技能，防止它把答案埋没掉，输出也更适合 ADHD 用户。",
+      "language": "Unknown",
+      "stars_today": 1866,
+      "stars_total": 6808
+    },
+    {
+      "repo": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "面向 CAD、机器人和硬件设计的一组智能体技能集合。",
+      "language": "JavaScript",
+      "stars_today": 291,
+      "stars_total": 9087
+    },
+    {
+      "repo": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "最智能的代码智能体运行框架。",
+      "language": "Rust",
+      "stars_today": 843,
+      "stars_total": 10292
+    },
+    {
+      "repo": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "集成众多 IM 平台、LLM、插件与 AI 能力的 AI Agent 助手和开发框架，也可以作为你的 openclaw 替代方案。",
+      "language": "Python",
+      "stars_today": 416,
+      "stars_total": 37448
+    },
+    {
+      "repo": "tradesdontlie/tradingview-mcp",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "description": "AI 辅助的 TradingView 图表分析，可将 Claude Code 连接到你的 TradingView Desktop 以实现个人工作流自动化。",
+      "language": "JavaScript",
+      "stars_today": 114,
+      "stars_total": 4825
+    },
+    {
+      "repo": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "汇集数百个模型与提供商，只需一条命令就能找出哪些能在你的硬件上运行。",
+      "language": "Rust",
+      "stars_today": 129,
+      "stars_total": 30179
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "免费的 MIT AI 网关：单一端点接入 268+ 提供商和 500+ 模型，并可与 Claude Code、Codex、Cursor、OpenCode、Cline 和 Copilot 协同工作。",
+      "language": "TypeScript",
+      "stars_today": 2034,
+      "stars_total": 23556
+    },
+    {
+      "repo": "agegr/pi-web",
+      "url": "https://github.com/agegr/pi-web",
+      "description": "pi 编码智能体的 Web UI。",
+      "language": "TypeScript",
+      "stars_today": 298,
+      "stars_total": 1712
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+# 媒体资讯
+
+LLM 网关当前返回 packyapi EOF，本报告由已清洗数据按原始排序降级生成。
+
+### [DeepSeek Harness 公测，对标 Claude Cowork ；长鑫科技市值超越腾讯；OpenAI 年化营收有望翻番达 400 亿美元｜极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653111937&idx=1&sn=010c7cffc4e0d436990390639f9d14b3)
+*极客公园* · 2026-08-14
+
+DeepSeek Harness 公测，对标 Claude Cowork ；长鑫科技市值超越腾讯；OpenAI 年化营收有望翻番达 400 亿美元｜极客早知道：连冉 2026-08-14 08:51 北京 投资者押注 Anthropic 估值达 2 万亿美元；部分 Claude 模型将添加「文本水印」；发布 14 年后，手游《糖果传奇》年营收仍接近 10 亿美元 ## 对标 Claude Cowo。
+
+### [苦等两年](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652718041&idx=2&sn=615157f3bc36a4189b8014b7520f91e8)
+*新智元* · 2026-08-14
+
+苦等两年：ASI启示录 2026-08-14 10:09 北京 ### **新智元报道** 刚刚，Linux用户苦等了两年的客户端，终于落地了。
+
+### [面对对齐研究者，Claude会心虚](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050318&idx=3&sn=646235c43b02191b026359b92131c5a0)
+*机器之心* · 2026-08-14
+
+面对对齐研究者，Claude会心虚：原创关注AI的 2026-08-14 09:41 北京 当 Claude 认出你是对齐研究者时，它会变得不那么自信。
+
+### [DeepSeek Harness 拆解：一套能拼装的 Agent 架构](https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803587&idx=1&sn=a5ac30af9c015db111b60f947eb4e240)
+*腾讯技术工程* · 2026-08-14
+
+DeepSeek Harness 拆解：一套能拼装的 Agent 架构：原创腾讯程序员 2026-08-14 17:20 广东 DeepSeek 发布了第一款 Agent 产品 # 作者： chino， 腾讯WXG 微信小店前端开发工程师 DeepSeek 发布了第一款 Agent 产品，DeepSeek Harness。
+
+### [You can now turn off Google Geminis visible watermarks](https://www.theverge.com/tech/980416/google-gemini-ai-watermarks-removal)
+*The Verge AI* · 2026-08-14
+
+You can now turn off Google Geminis visible watermarks：Google will now allow you to remove visible watermarks from the images, videos, and music made with AI tools.
+
+### [Token半价](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247912455&idx=3&sn=9b852011eb8e17720e89fb30d38a293c)
+*量子位* · 2026-08-14
+
+Token半价：关注前沿科技 2026-08-14 14:09 北京 性能提升18.
+
+### [全球第一，碾压谷歌](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652718041&idx=1&sn=acd13e744a368ee8a16b5152ffd25c7d)
+*新智元* · 2026-08-14
+
+全球第一，碾压谷歌：ASI启示录 2026-08-14 10:09 北京 语音与交互赛道，中国队站上世界之巅 ### **新智元报道** 刚刚，「中国版Thinking Machines Lab」诞生！
+
+### [最有意思的AI音乐模型，让创作不再差点意思](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651050318&idx=2&sn=38f2fcda11cb83826f8cddccc8e532e8)
+*机器之心* · 2026-08-14
+
+最有意思的AI音乐模型，让创作不再差点意思：机器之心 2026-08-14 09:41 北京 音潮大模型 V4.
+
+### [Does Mark Zuckerberg really believe AI is ‘for everyone’](https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/)
+*TechCrunch AI* · 2026-08-14
+
+Does Mark Zuckerberg really believe AI is ‘for everyone’：Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#16。

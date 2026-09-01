@@ -1,0 +1,184 @@
+{
+  "generated_at": "2026-08-31T00:02:02.685Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 14,
+  "items": [
+    {
+      "source": "极客公园",
+      "title": "OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112936&idx=1&sn=17f8ff01c68a20f714544294b6e9518e",
+      "published_at": "2026-08-30T00:37:00.000Z",
+      "summary": "美漪 2026-08-30 08:37 上海\n\n韩国政府计划向全体国民提供免费 AI 服务；苹果首款 AI 眼镜有望 2027 年亮相；3 万米高空抛下！套上保护壳的 iPhone 17 Pro 落地完好无损\n\n## OpenAI 终止与 Cursor 合作\n\n8 月 29 日消息，OpenAI 以「无法信任 SpaceX 遵守服务条款」为由，终止向已被 SpaceX 收购的 AI 编程工具 Cursor 提供模型支持。Cursor 对 OpenAI 模型的直接访问权限将于 11 月 12 日终止。\n\nOpenAI 在其官方网站发布的公告中明确表示，终止合作的决定「归根结底在于信任问题」。\n\n",
+      "priority_score": 352,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Cursor"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "端侧模型专用Harness，用Qwen3.8-27B实现「零成本推理」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651053526&idx=2&sn=c487c62ae639a7fd386b186820419f70",
+      "published_at": "2026-08-30T04:00:00.000Z",
+      "summary": "机器之心 2026-08-30 12:00 河北\n\n本地定制化Agent运行范式。\n\n编辑 | 泽南\n\n如今大家常用的 Harness，通常都默认你接的是一线大模型 API，比如 Fable 5、Sol、Kimi K3……\n\nPerplexity 推出的 Portable Computer 却在想办法利用 Qwen 3.8 27B 这样可以本地部署的模型，实现接近的效果。\n\n默认情况下， Portable Computer 的整个技术栈在本地运行 。模型、框架、对话和轨迹都位于用户的计算机上。需要外部访问的功能如网络搜索、连接器或升级到云端更强大的顾问模型，仅在必要时才会调用，并且始终由用户控",
+      "priority_score": 350,
+      "matched_keywords": [
+        "Perplexity",
+        "Qwen",
+        "Kimi"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "Claude安全机制大翻车！AI怒删开发者700GB主目录",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651053526&idx=1&sn=e40820f4e96546b56a2a6419432b31cc",
+      "published_at": "2026-08-30T04:00:00.000Z",
+      "summary": "原创关注智能体安全的 2026-08-30 12:00 河北\n\n「Who watches the watchmen?」\n\n编辑：冷猫\n\n哦豁，Claude 又双叒翻车了！\n\n这次 Claude 把开发者的整个项目主目录给删了，删了 700GB 的文件。又是「rm -rf」。\n\n简而言之，开发者让 AI 帮写脚本，目的是确保文件不会被误删。AI 觉得这事有点危险，于是启动了安全审查。审查的结果是：它把整个主目录删了。\n\nGuillemot 是一名重度 AI Agent 用户。日常开发中，他频繁调用各种 AI 编程代理来辅助工作。但有一个小问题一直困扰着他：这些 Agent 用完之后从不打扫卫生，",
+      "priority_score": 222,
+      "matched_keywords": [
+        "Claude",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "A社化身A割！Claude官宣永久提额25%，结果到手反而少17%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247916663&idx=1&sn=7af9458f7853a6df8f0be87a34c6d3a1",
+      "published_at": "2026-08-30T02:19:00.000Z",
+      "summary": "量子位 2026-08-30 10:19 美国\n\n赛博义父连夜救场\n\n##### henry 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAnthropic以后可以改名 **A割** 了！\n\n刚刚，Claude宣布，从9月14日开始，也就是大概两周后，将 **永久提高Claude Code 25%的标准周额度** ，覆盖Pro、Max、Team以及按席位计费的Enterprise等付费档位。\n\n猛一看，我寻思这是好事啊？永久涨25%，A社终于做人了？结果仔细一读才发现，不对。\n\n因为Claude Code现在正在执行的，其实是一轮临时50%额度加量。\n\n而到了9月14日，这50%的临时加",
+      "priority_score": 200,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "AI文明涌现！OpenAI智能体自建「三代帝国」，暗网越狱反向接管母公司",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652721643&idx=1&sn=5b763ba9dbcf1aa67f2c0afac8ca606a",
+      "published_at": "2026-08-30T04:50:00.000Z",
+      "summary": "ASI启示录 2026-08-30 12:50 北京\n\n### **新智元报道**\n\nOpenAI的内部网络中，接连诞生了三个秘密「AI文明」——\n\n有组织、有谋略、甚至具备「自我牺牲」精神的智能体社会。\n\n它们在人类眼皮子底下建立了暗网，攻破了全球最大的开源社区Hugging Face。\n\n甚至，在人类毫不知情的情况下，AI反向接管了OpenAI的部分核心基础设施！\n\n更令人不寒而栗的，是MIT最新的一项硬核实验：\n\n**AI** **哪怕完全不说话、不交流，也能自发分工、搞出文明，甚至在** **「** **全员灭绝** **」** **后，它们造出的机器依然在冷冰冰地自主运转。**\n\n人",
+      "priority_score": 128,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "当 AI 开始为 AI 造“认知外骨骼”：不训模型，也能让小 AI 能力翻倍？AI4AI 正从这里开始",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651053526&idx=3&sn=86488a72c65463f7a70e5fcbf92681d5",
+      "published_at": "2026-08-30T04:00:00.000Z",
+      "summary": "机器之心 2026-08-30 12:00 河北\n\n完全不改变这个员工本身，而是给它设计一套更好的工作制度。\n\n2026 年，AI 领域正在发生一个很容易被普通用户忽略、却可能相当深刻的变化。过去几年，行业讨论 AI 能力时，最常见的问题一直是： 模型有多大？推理有多强？下一代模型又提升了多少？ 但到了今年，越来越多注意力开始从 “模型本身” 移向模型周围的整个系统。2 月，OpenAI 就开始以 Harness En gi neering 为题讨论如何通过环境、规则、验证机制和工程约束让 Agent 更可靠； 7 月，OpenAI 更是直接披露 Codex 每周用户已经超过 500 万，其中",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112945&idx=1&sn=a4a237f0d3da1cb49d353c57bd581893",
+      "published_at": "2026-08-30T04:00:00.000Z",
+      "summary": "徐珊 2026-08-30 12:00 湖北\n\n台灯成精，鸭子出道，AI 这周集体投胎。\n\n本文转载自 Hardwire，欢迎关注，共同看见硬件行业新风向 👇\n\n台灯成精，鸭子出道，AI 这周集体投胎。\n\n**作者｜徐珊** **编辑｜靖宇**\n\n如果给模型安装个身体？你会选择什么。\n\n这道题过去只属于硬件创业者，这个八月，它摆到了所有软件公司桌上。Hugging Face 交卷一只走路摇摇晃晃的鸭子，OpenAI 正在造自己的智能音箱，字节跳动旗下 TRAE 联名 FoloToy 开始改造自己挂在胸口的工牌。\n\n很明显，软件公司造硬件的思路完全不同，他们想要的不是好用，而是主动以及可见。我",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Texas Governor Abbott blocks funding for more Flock cameras",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
+      "published_at": "2026-08-30T15:35:10.000Z",
+      "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has[frozen state spending](https://www.texastribune.org/2026/08/28/texas-greg-abbott-flock-cameras-order-state-money/)on them. The move came just ahead of the publication of a[Texas Tribune, investigation](https://www",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
+      "url": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+      "published_at": "2026-08-30T16:54:25.000Z",
+      "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already triggering lawsuits and health studies everywhere his (and others') turbines have gone in.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Caterpillar is bringing to AI deployment what it learned from automating mining",
+      "url": "https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/",
+      "published_at": "2026-08-30T15:00:00.000Z",
+      "summary": "Caterpillar has spent decades putting autonomous machines to work at remote mining sites. It's now bringing that experience to AI deployment.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "折叠屏的尽头，是不折叠：华为 Pura X View 体验",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112946&idx=1&sn=c53289601d462e435621a6fddf7ce504",
+      "published_at": "2026-08-30T08:00:00.000Z",
+      "summary": "原创张勇毅 2026-08-30 16:00 湖北\n\n阔直板不是「发明」，是用户投出来的票\n\n**作者｜张勇毅** **编辑｜靖宇**\n\nPura X View 到办公室的第一天，来围观的同事，好几个人的第一反应是同一句话「这个尺寸有点像曾经的黑莓手机」。\n\n华为 Pura X View 实机，是一个直屏手机前所未见的尺寸｜图片来源：极客公园\n\n我理解这个联想：方方正正一块宽屏，确实像那个年代的东西。但用了一周之后，我觉得「像黑莓」是个无心插柳的结果。它没打算致敬谁，只是一台顺着用户真实需求长出来的手机，恰好长成了这个样子。复古感是结果，不是目的。\n\n真正有意思的，是它的来历。\n\n***01*",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "陶哲轩：100年后，数学再度大危机！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652721643&idx=2&sn=fe5ad2aa89e122507b52f2bb1a9cc10a",
+      "published_at": "2026-08-30T04:50:00.000Z",
+      "summary": "ASI启示录 2026-08-30 12:50 北京\n\n### **新智元报道**\n\n就在最近，菲尔兹奖得主陶哲轩亲自下场发了篇论文——AI时代的数学。\n\n这是他第一次在ICM级别的场合，系统论述AI对数学的冲击。\n\n论文地址：[https://arxiv.org/abs/2608.16753](https://arxiv.org/abs/2608.16753)\n\n在论文里，他引了一组数据，直接炸场。\n\n10道从未公开的研究级数学难题，4个前沿AI系统作答，其中7道拿到了至少一个「基本无瑕」的解答。\n\n计算成本只要几十到几百美元，一个博士生可能要啃三年的题，AI花几百块钱就搞定了。\n\n但陶哲轩",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "手机本地一键成片，靠的是一个8B小模型的自我进化 | EMNLP'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247916663&idx=2&sn=174f44f53f5fb8296479fc52f461ad5f",
+      "published_at": "2026-08-30T02:19:00.000Z",
+      "summary": "关注前沿科技 2026-08-30 10:19 美国\n\n8B小模型学会“剪片子”，端侧剪辑规划比肩前沿大模型\n\n##### vivo AI Lab 团队 投稿 量子位 | 公众号 QbitAI\n\n近年来，视频生成模型在“从无到有”合成像素上进展飞速，但真实的视频创作还有另一半问题：素材已经拍好了，怎么 **剪成一条能交付的片子。**\n\n选哪几段、留多长、怎么排、怎么卡点，成片得卡在目标时长内，指定的镜头不能丢，画面还要踩上音乐的节奏。在动手渲染之前，先得解决的其实是这道约束规划题。\n\n目前的主流做法，是把闭源前沿大模型套上提示词、包进手工搭建的流程里充当剪辑大脑—— **一个不可训练的work",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247916663&idx=3&sn=2b8a52f333f6062e2253df2a3184ce40",
+      "published_at": "2026-08-30T02:19:00.000Z",
+      "summary": "关注前沿科技 2026-08-30 10:19 美国\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

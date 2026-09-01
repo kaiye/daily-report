@@ -1,0 +1,95 @@
+{
+  "generated_at": "2026-07-31T00:02:29.666Z",
+  "source_raw": "raw.json",
+  "source_count": 14,
+  "item_count": 8,
+  "language_breakdown": {
+    "Python": 3,
+    "Jupyter Notebook": 1,
+    "TypeScript": 2,
+    "Rust": 1,
+    "JavaScript": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "language": "Python",
+      "stars_today": 628,
+      "stars_total": 8761,
+      "forks": 1086
+    },
+    {
+      "rank": 2,
+      "repo": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "language": "Jupyter Notebook",
+      "stars_today": 155,
+      "stars_total": 53872,
+      "forks": 10946
+    },
+    {
+      "rank": 3,
+      "repo": "paperswithbacktest/awesome-systematic-trading",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "language": "Python",
+      "stars_today": 621,
+      "stars_total": 11019,
+      "forks": 1412
+    },
+    {
+      "rank": 4,
+      "repo": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "language": "TypeScript",
+      "stars_today": 915,
+      "stars_total": 18706,
+      "forks": 1904
+    },
+    {
+      "rank": 6,
+      "repo": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "description": "Create and share 3D architectural projects.",
+      "language": "TypeScript",
+      "stars_today": 625,
+      "stars_total": 20099,
+      "forks": 2620
+    },
+    {
+      "rank": 7,
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "stars_today": 378,
+      "stars_total": 55529,
+      "forks": 4786
+    },
+    {
+      "rank": 13,
+      "repo": "agavra/tuicr",
+      "url": "https://github.com/agavra/tuicr",
+      "description": "a code review TUI with vim keybindings",
+      "language": "Rust",
+      "stars_today": 190,
+      "stars_total": 1846,
+      "forks": 159
+    },
+    {
+      "rank": 14,
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars_today": 804,
+      "stars_total": 236202,
+      "forks": 35926
+    }
+  ]
+}

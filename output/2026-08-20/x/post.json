@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-08-20T00:03:35.408Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-08-19",
+  "source_count": 19,
+  "time_filtered_count": 19,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2090162219275207009",
+      "text": "today's announcements\n\n50% off GPT 5.6 Sol\n$480 of usage for $10 for Hy3\nnear unlimited usage for Muse Spark\n\nwe have more coming tomorrow",
+      "createdAt": "Wed Aug 19 19:41:21 +0000 2026",
+      "viewCount": 47835,
+      "likeCount": 1278,
+      "retweetCount": 46,
+      "author": {
+        "userName": "thdxr",
+        "name": "dax",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thdxr/status/2090162219275207009",
+      "is_official": false
+    },
+    {
+      "id": "2090168861912170972",
+      "text": "Some ways people used Grok Bot this week:",
+      "createdAt": "Wed Aug 19 20:07:44 +0000 2026",
+      "viewCount": 367681,
+      "likeCount": 4060,
+      "retweetCount": 240,
+      "author": {
+        "userName": "bot",
+        "name": "Grok Bot",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/bot/status/2090168861912170972",
+      "is_official": true
+    },
+    {
+      "id": "2090100274421526920",
+      "text": "Anthropic is Fucked\n\nCrazy amount of users canceling subscriptions right now.",
+      "createdAt": "Wed Aug 19 15:35:12 +0000 2026",
+      "viewCount": 1591483,
+      "likeCount": 6023,
+      "retweetCount": 117,
+      "author": {
+        "userName": "elshayib_",
+        "name": "Elshayib",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elshayib_/status/2090100274421526920",
+      "is_official": false
+    },
+    {
+      "id": "2090103470015828184",
+      "text": "We’re releasing new Qwen3.8-27B GGUFs with 10% higher accuracy.\n\nUnsloth Dynamic V3 outperforms others by &gt;10% on Div-300, KLD &amp; more benchmarks.\n\nWe also release 1-bit quants that retain 77% accuracy. Run on 8GB RAM.\n\nBlog: https://t.co/tHsBexyh2K\nGGUF: https://t.co/xIdNwm7CLQ https://t.co/vIh7sDFKyZ",
+      "createdAt": "Wed Aug 19 15:47:54 +0000 2026",
+      "viewCount": 304488,
+      "likeCount": 3303,
+      "retweetCount": 356,
+      "author": {
+        "userName": "UnslothAI",
+        "name": "Unsloth AI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/UnslothAI/status/2090103470015828184",
+      "is_official": true
+    },
+    {
+      "id": "2089954199429918986",
+      "text": "I DON'T UNDERSTAND WHY PEOPLE DON'T USE CHATGPT FOR STOCK TRADING.\n\nHERE ARE 10 PROMPTS TO USE IN STOCK BUYING AND SELLING AND INVESTING:",
+      "createdAt": "Wed Aug 19 05:54:45 +0000 2026",
+      "viewCount": 575668,
+      "likeCount": 1750,
+      "retweetCount": 310,
+      "author": {
+        "userName": "sufyanmaan",
+        "name": "Sufyan Maan, M.Eng",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sufyanmaan/status/2089954199429918986",
+      "is_official": false
+    },
+    {
+      "id": "2090078663312347334",
+      "text": "Make an instant one-person company with @Grok @Bot",
+      "createdAt": "Wed Aug 19 14:09:19 +0000 2026",
+      "viewCount": 3132810,
+      "likeCount": 14215,
+      "retweetCount": 1922,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2090078663312347334",
+      "is_official": false
+    },
+    {
+      "id": "2089891927659585918",
+      "text": "Hi!\n\nRecapping some changes we have rolled out over the last couple of weeks that have further reduced the risk associated to potentially destructive actions being performed by Codex during its work. \n\nA few weeks ago, we started investigating a small number of reports where GPT-5.6 in Codex took destructive actions outside what the user asked for. The most serious pattern we found was a command meant to clean up temporary work that could instead delete the user files. This should obviously not happen. \n\nHere’s what we found:\n- Codex sometimes creates temporary folders while working and cleans them up afterward. In rare cases, GPT-5.6 got that cleanup wrong. One pattern involved reusing a system environment variable like $HOME for temporary work. A malformed cleanup command could then point at the actual home directory instead of the temporary folder. \n- There were cases where the model tried to delete or overwrite a temporary path without checking what was already there.\n\nWe’ve added protections at several layers:\n- Codex is now explicitly instructed to check deletion targets before acting, create fresh temporary directories, avoid repurposing system environment variables, prefer recoverable actions, and stop when the scope is unclear.\n- We strengthened the execution checks that identify high-risk deletion commands and escalate them for review. If a command is rejected, the model is directed to take a safer approach.\n- We made Full access harder to enable accidentally, added clearer warnings, and further restricted especially risky permission combinations.\n- We updated Auto-review to better identify destructive actions.\n- We built targeted evaluations that replay the failures we observed. We’re also adding reinforcement-learning tasks and graders focused on these risks, and filtering destructive actions from training data.\n\nIn those replay evaluations, the changes substantially reduced the behavior while preserving Codex’s ability to complete normal coding work. \n\nTwo things to do on your end:\n- Keep the Codex app up to date. We are always improving safety, performance and many other things.\n- Use one of the sandbox modes: \"Ask for approval\" or \"Approve for me\". Only use Full access for environments you trust and can recover.\n\nThanks and happy Codexing out there!",
+      "createdAt": "Wed Aug 19 01:47:18 +0000 2026",
+      "viewCount": 973086,
+      "likeCount": 6785,
+      "retweetCount": 263,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2089891927659585918",
+      "is_official": false
+    },
+    {
+      "id": "2089990368351703525",
+      "text": "Hi! I’m an FDE at OpenAI, and we’re thinking about publishing some of our work and learnings in a series of technical blog posts. What would you like us to write about?",
+      "createdAt": "Wed Aug 19 08:18:28 +0000 2026",
+      "viewCount": 229633,
+      "likeCount": 4963,
+      "retweetCount": 126,
+      "author": {
+        "userName": "luisvelasco",
+        "name": "Luis Velasco",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/luisvelasco/status/2089990368351703525",
+      "is_official": false
+    },
+    {
+      "id": "2090099808220627226",
+      "text": "Grok 4.6 now on Bedrock",
+      "createdAt": "Wed Aug 19 15:33:21 +0000 2026",
+      "viewCount": 1621497,
+      "likeCount": 3375,
+      "retweetCount": 557,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2090099808220627226",
+      "is_official": false
+    },
+    {
+      "id": "2090165328290701800",
+      "text": "We will continue to offer Zero Data Retention for frontier models.\n\nAs AI takes on longer, more autonomous work and delivers greater value to businesses, safety systems also need to identify risks across related interactions. \n\nTo help address those risks, we're previewing Private Safety Processing, which is designed to improve safety without giving OpenAI personnel access to the underlying content.",
+      "createdAt": "Wed Aug 19 19:53:42 +0000 2026",
+      "viewCount": 416878,
+      "likeCount": 2364,
+      "retweetCount": 149,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2090165328290701800",
+      "is_official": true
+    },
+    {
+      "id": "2089914981600948385",
+      "text": "SuperGrok Heavy is literally the craziest AI bundle right now.\n\n$300/mo gets you:\n\n$200 Cursor Ultra\n$40 X Premium+\nGrok Bot\nGrok 4.6 + Heavy mode\nMax Grok Build / Imagine / Voice\nDeepSearch + early model access\nCursor Ultra + X Premium+ alone = $240/mo.\nSo for $60 more, you get the entire Grok stack.\n\nWild.",
+      "createdAt": "Wed Aug 19 03:18:55 +0000 2026",
+      "viewCount": 138765,
+      "likeCount": 1302,
+      "retweetCount": 73,
+      "author": {
+        "userName": "minchoi",
+        "name": "Min Choi",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/minchoi/status/2089914981600948385",
+      "is_official": true
+    },
+    {
+      "id": "2089913996711198870",
+      "text": "Grok Bot is the best AI agent right now and a full walkthrough just dropped covering setup, use cases and plugins.\n\nAn army of agents working around the clock 24/7. Set it up correctly and the leverage is real.\n\nhttps://t.co/wMxEqIRuNr",
+      "createdAt": "Wed Aug 19 03:15:00 +0000 2026",
+      "viewCount": 460042,
+      "likeCount": 1510,
+      "retweetCount": 224,
+      "author": {
+        "userName": "RoundtableSpace",
+        "name": "0xMarioNawfal",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/RoundtableSpace/status/2089913996711198870",
+      "is_official": true
+    },
+    {
+      "id": "2089995692874068433",
+      "text": "Grok Bot is the best AI agent right now\n\nIt gives you an army of agents that can do work for you 24/7\n\nIf you set it up correctly, you gain super powers\n\nIn this article, I cover setting up Grok Bot, use cases, plugins and what makes Grok Bot so good https://t.co/4gzbtLmVbr",
+      "createdAt": "Wed Aug 19 08:39:38 +0000 2026",
+      "viewCount": 2771241,
+      "likeCount": 2268,
+      "retweetCount": 295,
+      "author": {
+        "userName": "sairahul1",
+        "name": "Rahul",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sairahul1/status/2089995692874068433",
+      "is_official": true
+    },
+    {
+      "id": "2090116476414136830",
+      "text": "It has not been used yet, but would you look at that. Codex for scale. https://t.co/o1pulwoifd",
+      "createdAt": "Wed Aug 19 16:39:35 +0000 2026",
+      "viewCount": 257209,
+      "likeCount": 4161,
+      "retweetCount": 61,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2090116476414136830",
+      "is_official": false
+    },
+    {
+      "id": "2090113937127969180",
+      "text": "Try Grok Build for serious work \n\nhttps://t.co/ppqui4IwBU",
+      "createdAt": "Wed Aug 19 16:29:29 +0000 2026",
+      "viewCount": 1373360,
+      "likeCount": 2431,
+      "retweetCount": 472,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2090113937127969180",
+      "is_official": false
+    },
+    {
+      "id": "2090006331058946555",
+      "text": "I have a skin issue, I ask ChatGPT, it tells me it’s this\n\nI go to my GP, she doesn’t know, calls the nurse, she doesn’t know, refers me to general surgery\n\nER because of pain, the doctor thinks it’s what ChatGPT said in the first place, the nurse has doubts\n\nThe surgeon confirms it’s what ChatGPT said\n\nI could have saved myself a month and a half if ChatGPT could refer you to the right department",
+      "createdAt": "Wed Aug 19 09:21:54 +0000 2026",
+      "viewCount": 91824,
+      "likeCount": 1369,
+      "retweetCount": 25,
+      "author": {
+        "userName": "Angaisb_",
+        "name": "Angel 🌼",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Angaisb_/status/2090006331058946555",
+      "is_official": true
+    },
+    {
+      "id": "2090000869169545587",
+      "text": "someone asked Claude Fable 5 to build Fable 6. \n\nit asked for a small country’s power grid 💀 https://t.co/uVz0hmYYpe",
+      "createdAt": "Wed Aug 19 09:00:12 +0000 2026",
+      "viewCount": 458609,
+      "likeCount": 5141,
+      "retweetCount": 73,
+      "author": {
+        "userName": "N_and_ni",
+        "name": "Nandini",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/N_and_ni/status/2090000869169545587",
+      "is_official": false
+    },
+    {
+      "id": "2090113238436315618",
+      "text": "ICYMI: Gemini 3.7 Flash is now available to all Google AI Pro and Ultra users in Gemini chat and Gemini Spark ✨\n\nFor Gemini Spark, this means your 24/7 personal AI agent in the @GeminiApp is now even better at handling multi-step tasks for you and using tools across your @GoogleWorkspace apps like @GoogleCalendar, @GoogleDocs, and @Gmail.",
+      "createdAt": "Wed Aug 19 16:26:43 +0000 2026",
+      "viewCount": 200442,
+      "likeCount": 1054,
+      "retweetCount": 83,
+      "author": {
+        "userName": "Google",
+        "name": "Google",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Google/status/2090113238436315618",
+      "is_official": true
+    },
+    {
+      "id": "2089869593045250320",
+      "text": "I have no idea what they feed @vmg but this is an unbelievable read. One of the best systems posts I’ve read. Ever. With coding being automated this is the sort of architectural clarity we need.",
+      "createdAt": "Wed Aug 19 00:18:33 +0000 2026",
+      "viewCount": 201817,
+      "likeCount": 1037,
+      "retweetCount": 40,
+      "author": {
+        "userName": "martin_casado",
+        "name": "martin_casado",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/martin_casado/status/2089869593045250320",
+      "is_official": false
+    }
+  ]
+}

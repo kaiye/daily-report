@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-08-09T00:03:34.182Z",
+  "source_raw": "raw.json",
+  "source_count": 12,
+  "item_count": 9,
+  "language_breakdown": {
+    "TypeScript": 1,
+    "JavaScript": 1,
+    "Roff": 1,
+    "Python": 3,
+    "Shell": 1,
+    "Rust": 1,
+    "Kotlin": 1
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "stars_today": 2483,
+      "stars_total": 8873,
+      "forks": 836
+    },
+    {
+      "rank": 2,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars_today": 779,
+      "stars_total": 84544,
+      "forks": 9096
+    },
+    {
+      "rank": 3,
+      "repo": "TapXWorld/ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "language": "Roff",
+      "stars_today": 118,
+      "stars_total": 77921,
+      "forks": 17645
+    },
+    {
+      "rank": 4,
+      "repo": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Python",
+      "stars_today": 481,
+      "stars_total": 16721,
+      "forks": 1364
+    },
+    {
+      "rank": 5,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars_today": 1359,
+      "stars_total": 209991,
+      "forks": 18142
+    },
+    {
+      "rank": 6,
+      "repo": "goauthentik/authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "stars_today": 467,
+      "stars_total": 23967,
+      "forks": 1836
+    },
+    {
+      "rank": 7,
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "language": "Python",
+      "stars_today": 153,
+      "stars_total": 96465,
+      "forks": 18650
+    },
+    {
+      "rank": 10,
+      "repo": "denoland/celld",
+      "url": "https://github.com/denoland/celld",
+      "description": "self-hosted, distributed Durable Objects",
+      "language": "Rust",
+      "stars_today": 432,
+      "stars_total": 2559,
+      "forks": 72
+    },
+    {
+      "rank": 12,
+      "repo": "bannedbook/fanqiang",
+      "url": "https://github.com/bannedbook/fanqiang",
+      "description": "翻墙-科学上网",
+      "language": "Kotlin",
+      "stars_today": 101,
+      "stars_total": 49872,
+      "forks": 8253
+    }
+  ]
+}

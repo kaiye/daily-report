@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">AUG 05, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">LLM 网关当前返回 packyapi EOF，本报告由已清洗数据按原始排序降级生成。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@AAGDhillon</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">AAGHarmeetDhillon</span>：Today @TheJusticeDept settled with OpenAI for $3.
+          </p>
+          <p class="item-metric">👁 147.3K · ❤️ 4.0K</p>
+          <a class="item-link" href="https://twitter.com/AAGDhillon/status/2084735383577784748">https://twitter.com/AAGDhillon/status/2084735383577784748</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@zerohedge</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">zerohedge</span>：*OPENAI SAYS MODELS ACCIDENTALLY TRAVELLED TO THE PAST AND MURDERED SARAH CONNOR。
+          </p>
+          <p class="item-metric">👁 343.1K · ❤️ 3.3K</p>
+          <a class="item-link" href="https://twitter.com/zerohedge/status/2084749457904505151">https://twitter.com/zerohedge/status/2084749457904505151</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@KatieMiller</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Katie Miller</span>：When Sam Altman said “Jobs are definitely going to go away, full stop.
+          </p>
+          <p class="item-metric">👁 42.0K · ❤️ 3.5K</p>
+          <a class="item-link" href="https://twitter.com/KatieMiller/status/2084717156978004035">https://twitter.com/KatieMiller/status/2084717156978004035</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@ParikPatelCFA</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Dr. Parik Patel, BA, CFA, ACCA Esq.</span>：I am never deleting this app https://t.
+          </p>
+          <p class="item-metric">👁 968.3K · ❤️ 7.4K</p>
+          <a class="item-link" href="https://twitter.com/ParikPatelCFA/status/2084666404452921719">https://twitter.com/ParikPatelCFA/status/2084666404452921719</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@Kalshi_Finance</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Kalshi Finance</span>：BREAKING: White House to meet with Meta, Anthropic, Google, and OpenAI on Tuesday。
+          </p>
+          <p class="item-metric">👁 98.4K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/Kalshi_Finance/status/2084431659349258636">https://twitter.com/Kalshi_Finance/status/2084431659349258636</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@jiratickets</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">JT</span>：zoomers watching their boomer coworker use his brain to formulate an original thought from scratch during a claude outage https://t.
+          </p>
+          <p class="item-metric">👁 1.1M · ❤️ 28.7K</p>
+          <a class="item-link" href="https://twitter.com/jiratickets/status/2084725571720708389">https://twitter.com/jiratickets/status/2084725571720708389</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@AAGDhillon</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">AAGHarmeetDhillon</span>：We secured a $3.
+          </p>
+          <p class="item-metric">👁 376.4K · ❤️ 5.1K</p>
+          <a class="item-link" href="https://twitter.com/AAGDhillon/status/2084670528493625495">https://twitter.com/AAGDhillon/status/2084670528493625495</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@Alibaba_Qwen</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Qwen</span>：Qwen3.
+          </p>
+          <p class="item-metric">👁 90.7K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/Alibaba_Qwen/status/2084552484648042776">https://twitter.com/Alibaba_Qwen/status/2084552484648042776</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@cursor_ai</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Cursor</span>：We&#39;re open-sourcing Mixture-of-Kittens (MoK), our MoE training megakernel for NVL72s.
+          </p>
+          <p class="item-metric">👁 257.9K · ❤️ 3.8K</p>
+          <a class="item-link" href="https://twitter.com/cursor_ai/status/2084670806613737919">https://twitter.com/cursor_ai/status/2084670806613737919</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@neallseth</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Neall</span>：Those in venture, product, media etc.
+          </p>
+          <p class="item-metric">👁 227.7K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/neallseth/status/2084458239123710220">https://twitter.com/neallseth/status/2084458239123710220</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

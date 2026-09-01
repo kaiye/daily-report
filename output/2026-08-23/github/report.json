@@ -1,0 +1,128 @@
+{
+  "report_date": "2026-08-23",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "LLM 网关当前返回 packyapi EOF，本报告由已清洗数据按原始排序降级生成。",
+  "items": [
+    {
+      "repo": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "description": "Lightweight coding agent that runs in your terminal。",
+      "language": "Rust",
+      "stars_today": 1544,
+      "stars_total": 113313
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers.",
+      "language": "Shell",
+      "stars_today": 2683,
+      "stars_total": 231996
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system.",
+      "language": "JavaScript",
+      "stars_today": 411,
+      "stars_total": 242166
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework &amp; software development methodology that works.",
+      "language": "Shell",
+      "stars_today": 592,
+      "stars_total": 276179
+    },
+    {
+      "repo": "Wei-Shaw/sub2api",
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "stars_today": 278,
+      "stars_total": 38780
+    },
+    {
+      "repo": "makeplane/plane",
+      "url": "https://github.com/makeplane/plane",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative.",
+      "language": "TypeScript",
+      "stars_today": 263,
+      "stars_total": 57212
+    },
+    {
+      "repo": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities.",
+      "language": "TypeScript",
+      "stars_today": 149,
+      "stars_total": 201809
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster 。",
+      "language": "Python",
+      "stars_today": 127,
+      "stars_total": 142526
+    },
+    {
+      "repo": "AprilNEA/OpenLogi",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++.",
+      "language": "Rust",
+      "stars_today": 959,
+      "stars_total": 13908
+    },
+    {
+      "repo": "modular/modular",
+      "url": "https://github.com/modular/modular",
+      "description": "The Modular Platform (includes MAX &amp; Mojo)。",
+      "language": "Mojo",
+      "stars_today": 395,
+      "stars_total": 28838
+    },
+    {
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.",
+      "language": "Unknown",
+      "stars_today": 315,
+      "stars_total": 205291
+    },
+    {
+      "repo": "mahlernim/google-timeline-visualizer",
+      "url": "https://github.com/mahlernim/google-timeline-visualizer",
+      "description": "Visualize your year in travel using your Google Location History (Timeline) data。",
+      "language": "Kotlin",
+      "stars_today": 441,
+      "stars_total": 2560
+    },
+    {
+      "repo": "ripienaar/free-for-dev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev。",
+      "language": "HTML",
+      "stars_today": 829,
+      "stars_total": 133887
+    },
+    {
+      "repo": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "language": "Go",
+      "stars_today": 104,
+      "stars_total": 110534
+    },
+    {
+      "repo": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins。",
+      "language": "TypeScript",
+      "stars_today": 286,
+      "stars_total": 4656
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "generated_at": "2026-08-25T00:03:08.512Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 18,
+  "items": [
+    {
+      "source": "新智元",
+      "title": "刚刚，奥特曼炮轰达里奥「反人类」！绝密模型同日曝光",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652720033&idx=1&sn=02a66568aecd291dcc0cbd2c1b59bd4a",
+      "published_at": "2026-08-24T02:16:00.000Z",
+      "summary": "ASI启示录 2026-08-24 10:16 北京\n\n两巨头火药味渐浓\n\n### **新智元报道**\n\n就在刚刚，OpenAI神秘双响炮泄露，打响与Claude争霸的下一战！\n\n最近，OpenAI员工在GitHub上的一次「手滑」，意外暴露了模型的代号——gpt-nathree。\n\n很多人分析，GPT-6 Astra马上就要来了。\n\n今天，Anthropic又有两张「新牌」，被第三方开发者应用和Discord社区曝光——claude-mashmallow-eap（棉花糖）、claude-melon-eap（甜瓜）。\n\n几乎同一时间，CEO奥特曼在播客《Founders》中，火力全开，暗讽An",
+      "priority_score": 400,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Kids outlearn AI—and we still don’t know why",
+      "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+      "published_at": "2026-08-24T09:00:00.000Z",
+      "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human child. \n\nNow there are two. \n\nFour short years after the release of ChatGPT, many of ",
+      "priority_score": 228,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "传 Hugging Face 寻求出售，估值 130 亿美元；Altman：担心 AI 被少数强势主体掌控；成都 AG.AL 获电竞世俱杯冠军 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112562&idx=1&sn=8d456c806a46b0fbbf65135a686dce5b",
+      "published_at": "2026-08-24T00:47:00.000Z",
+      "summary": "苏子华 2026-08-24 08:47 中国香港\n\n· 美光警告算力增速超带宽 3 倍；\n\n## OpenAI CEO 奥特曼：担心人工智能会被少数强势主体掌控\n\n8 月 24 日消息，OpenAI 首席执行官萨姆 · 奥特曼表示，他担心人工智能终有一天会被少数公司、模型或个人所控制，让绝大多数消费者在技术如何塑造世界这个问题上没有发言权。\n\nAnthropic 还是上个月唯一一家没有签署支持开放权重模型联名信的大型人工智能公司。开放权重模型允许开发者在自己的基础设施上分享、下载、修改和部署人工智能模型。\n\n中国已经拥抱了开放权重模型，这使其能够以极低的成本跟上硅谷的步伐。美国的一些公司，包",
+      "priority_score": 224,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI is building AI agents for everything. Will everyone use them?",
+      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them/",
+      "published_at": "2026-08-24T15:00:00.000Z",
+      "summary": "Inside the frontier lab’s push to bring AI agents from software engineers to the masses.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "OpenAI",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "DeepSeek Harness规模化踩坑实录：耗时、成本、失败到底该怎么查",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649803822&idx=1&sn=82b4c1b6735d5757e5e0a3288312c73e",
+      "published_at": "2026-08-24T09:36:00.000Z",
+      "summary": "腾讯云日志服务 2026-08-24 17:36 广东\n\n全景Agent可观测方案\n\n# 作者： trumphuang\n\n# 一、导语\n\nAgent 已经进入不少团队的日常研发流程。规模上来之后，使用方的关注点不再只是单次结果是否正确，还包括三件事： **耗时花在模型推理还是工具执行上；Token 消耗集中在哪些会话、哪些模型上；失败与中断发生在哪一步，过程是否可以回溯** 。 DeepSeek Harness（下文简称 DSH）是 DeepSeek 开源的 Agent 框架，自带会话轨迹视图、Session 事件流落盘与工具调用检索，作用域是 **本机、单会话、实时** ；一旦要看一批任务的",
+      "priority_score": 150,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Valor, Point72 back General Intuition at $6B valuation as AI startup pushes into robotics",
+      "url": "https://techcrunch.com/2026/08/24/valor-point72-back-general-intuition-at-6b-valuation-as-ai-startup-pushes-into-robotics/",
+      "published_at": "2026-08-24T15:24:18.000Z",
+      "summary": "General Intuition, the startup building a foundation model that trains generalized AI agents how to move through space and time, is in talks to raise at a $6 billion pre-money valuation from new investors including Valor Ventures, Point72 Ventures, and Seven Seven Six.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "硅谷押注的下一个 Harness，是整个桌面操作系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112572&idx=1&sn=8e4ad35fdb6c245f79871ae4d996c650",
+      "published_at": "2026-08-24T04:08:00.000Z",
+      "summary": "原创张勇毅 2026-08-24 12:08 湖北\n\n不是 AI 操作系统，是 AI 读得懂的操作系统\n\n**作者｜张勇毅** **编辑｜靖宇**\n\n截止目前，有了 DeepSeek Harness 之类 CLI 产品之后，你电脑里的 AI 几乎已经无所不能：它可以总结网页，润色邮件，改两张图。\n\n目前做不了几乎只有一件事： **碰你的电脑本身** 。\n\n有一个操作系统反过来做了这件事。它叫 Omarchy，一个 Linux 发行版，8 月 14 日发布了 4.0 版本：AI 直接装在系统里，你用一句话告诉它要什么，它替你操作电脑。十天之内，社区给它写了 1,074 个插件。\n\nOmarchy",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "对话黄青虬：成立半年估值 70 亿，阿里腾讯联投，交出了能「长程执行」的第一个自研模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112585&idx=1&sn=48d7065e041dd0a3009308a6112823f1",
+      "published_at": "2026-08-24T10:00:00.000Z",
+      "summary": "原创苏子华 2026-08-24 18:00 湖北\n\n通往物理 AGI 的路线图，和他的反共识清单。\n\n**作者｜苏子华** **编辑｜靖宇**\n\n机器人 行业现在最关心的一个问题：它能干完一整件事吗？\n\n几十秒的抓取物品的视频已经撑不起估值了。把一件事从头干到尾，成了最新的考题，行业里叫它「长程任务」。\n\n8 月 19 日，世界机器人大会，一台机器人首次亮相，用 15 分钟回答了这道题：收拾客厅，检查冰箱，把烘干机里的衣服拿出来，放进新的一批，按下启动键，最后把衣服叠好。\n\n里面大概有七八十个动作，自主完成，全程没掉链子。\n\n正在忙活衣物烘洗家务的 MORPHI KINO 机器人｜图片来源：",
+      "priority_score": 124,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "How to encourage smarter AI use in the classroom",
+      "url": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
+      "published_at": "2026-08-24T14:20:19.000Z",
+      "summary": "*This article is from* [Making AI Work](https://www.technologyreview.com/2026/02/09/1132462/ai-newsletter-professional-applications/) *, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox,* [sign up here](https://forms.technology",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "Codex「额度黑洞」终于查清！真凶竟是这个小功能",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652720033&idx=2&sn=99070f047c3d100627a3d83e4135e7d5",
+      "published_at": "2026-08-24T02:16:00.000Z",
+      "summary": "ASI启示录 2026-08-24 10:16 北京\n\n### **新智元报道**\n\n折腾了整整一周，Codex「额度消耗过快」的悬案终于告破。\n\n就在昨天，OpenAI Codex负责人Tibo Sottiaux在X上发了一条长帖，一口气认了三处Bug。\n\n其中，最让人无语的一个是，Codex 后台会自动给每段对话起个名字。就这么个小玩意消耗的额度，远超预期。\n\n**额度掉得不对劲**\n\n从8月中下旬起，大量Codex付费用户陆续发现，额度掉得不对劲。\n\n同样的活儿，上周能干很久，这周干着干着额度就见底了。 有人实测，200美元的Pro套餐，16个小时就烧掉了80%的额度。\n\n社区里的猜测很",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "一个大脑，多种本体：江行智能详解物理AI工业落地的系统解法",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651052153&idx=2&sn=5897d8c549935688b6db8a5f32e04d80",
+      "published_at": "2026-08-24T09:49:00.000Z",
+      "summary": "机器之心 2026-08-24 17:49 北京\n\n用一个跨本体的大脑驱动所有形态，让技术价值在容错最低、要求最苛刻的工业现场先行验证。\n\n机器之心发布\n\n算力上限，是物理 AI 落地过程中需要面对的现实约束之一。\n\n但在 2026 世界机器人大会的具身智能商业落地论坛上， 江行智能 CEO 庞海天给出了一个反直觉的观察：这个约束，恰恰在推动一条更依赖工程效率的技术路线。\n\n在这场题为《一个大脑，多种本体：物理 AI 的工业落地之路》的演讲中，他将目光拉回到工业现场的真实约束：工业机器人安装量的规模、5G 基站的广泛覆盖、发电能力的充足供给 —— 当 AI 从模型走向物理系统，能否把 AI 稳",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hugging Face reportedly in talks to be acquired for $13B",
+      "url": "https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/",
+      "published_at": "2026-08-24T13:47:26.000Z",
+      "summary": "Hugging Face has reportedly been fielding acquisition offers that would value the company at around $13B. But with the founders' feeling of responsibility to community, doubts arise as to whether a sale will happen.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: kids outlearning AI, and space travel agents",
+      "url": "https://www.technologyreview.com/2026/08/24/1142863/the-download-kids-outlearning-ai-space-travel-agents/",
+      "published_at": "2026-08-24T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### Kids outlearn AI—and we",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "都在问世界模型怎么落地，PixVerse把答案做成了「好玩」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651052153&idx=1&sn=3ab5c5cea400b3dfc8db924322e04aa3",
+      "published_at": "2026-08-24T09:49:00.000Z",
+      "summary": "原创机器之心 2026-08-24 17:49 北京\n\n世界模型开始考虑「怎么玩下去？」\n\n编辑｜张倩、冷猫\n\n这两年，互动娱乐先在线下火了一轮。\n\n比如去河南开封万岁山武侠城，不少游客已经不只是奔着景点和演出去的了。有人专门找 NPC 猜拳、接任务、换「银票」，也有人刷到某个 NPC 的短视频后，直接跑到景区找真人互动。万岁山目前有近 2000 名 NPC，每天上演上千场互动。一些游客甚至会为了没走完的任务和没遇到的角色，专门规划二刷、三刷。\n\n这类体验火起来并不难理解。普通表演，在家刷手机就能知道大体剧情，现场看也就图个视觉效果。但和 NPC 玩就不一样了，每次互动都是自己亲身参与的，一些",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Trump bought SpaceX shares two weeks after blockbuster IPO",
+      "url": "https://techcrunch.com/2026/08/24/trump-bought-spacex-shares-two-weeks-after-blockbuster-ipo/",
+      "published_at": "2026-08-24T21:24:17.000Z",
+      "summary": "The president bought when the stock was in the mid-$150 range. SpaceX finished trading on Monday back at its IPO price of $135.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Amjad Masad, CEO and co-founder of Replit, joins the Disrupt Stage at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/08/24/amjad-masad-ceo-and-co-founder-of-replit-joins-the-disrupt-stage-at-techcrunch-disrupt-2026/",
+      "published_at": "2026-08-24T19:54:19.000Z",
+      "summary": "At TechCrunch Disrupt 2026, Replit CEO Amjad Masad will share his perspective on the future of programming and Replit's role in developing it.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Instinct’s powerful AI assistant is raising privacy and security concerns",
+      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+      "published_at": "2026-08-24T18:03:55.000Z",
+      "summary": "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf come with uncomfortable trade-offs.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "把事实核查嵌入诊疗流程：MedGuard给「诊疗安全」当守门人",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651052153&idx=3&sn=73608f6d8689d58e5b250a2cf643d66c",
+      "published_at": "2026-08-24T09:49:00.000Z",
+      "summary": "机器之心 2026-08-24 17:49 北京\n\n一句“不用担心”背后的医学事实漏洞。\n\n一 句“ 不 用担心”背后的医学事实漏洞\n\n在线问诊中，一句 “你的脂肪肝不用担心”，背后可能隐藏着什么？\n\n咨询者是一名既往弥漫大 B 细胞淋巴瘤患者，医生根据影像描述将脂肪肝特征误判为 “影像高密度”，据此排除了脂肪肝。该判断表面看符合医学语境，但关键医学事实与真实影像表现并不一致。\n\n以往针对在线诊疗的安全方案，大多依赖关键词规则或简单的文本分类。这类方法对 “明显错误” 有效，但遇到需要结合患者全局上下文、临床指南和证据链才能判断的边界案例，往往力不从心。一个 “不” 字被遗漏，结论就可能完全相",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

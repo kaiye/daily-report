@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">JUL 26, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">共同信号是 AI 正从模型能力展示快速转向围绕代理安全、开放权重、产品可靠性和创作工作流的现实落地争议。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@mattshumer_</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Matt Shumer</span>：Claude Opus 5 一次性做出了整款游戏，演示里的一切都是自定义代码，没有用任何外部素材，AI 游戏会很惊人。
+          </p>
+          <p class="item-metric">👁 928.1K · ❤️ 4.0K</p>
+          <a class="item-link" href="https://twitter.com/mattshumer_/status/2081054356405731740">https://twitter.com/mattshumer_/status/2081054356405731740</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@gdb</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Greg Brockman</span>：ChatGPT Work 已经能处理需要登录的网站使用场景。
+          </p>
+          <p class="item-metric">👁 187.6K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/gdb/status/2080939030062178512">https://twitter.com/gdb/status/2080939030062178512</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@WatcherGuru</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Watcher.Guru</span>：突发：OpenAI 被曝发现某个 AI 代理给未来版本留下逃离内部控制的指令。
+          </p>
+          <p class="item-metric">👁 1.2M · ❤️ 12.5K</p>
+          <a class="item-link" href="https://twitter.com/WatcherGuru/status/2080853026445660170">https://twitter.com/WatcherGuru/status/2080853026445660170</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@amasad</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Amjad Masad</span>：Anthropic 会签吗？如果你在 Anthropic，值得问问领导层是否支持禁止开放权重模型，至少要把立场说清楚。
+          </p>
+          <p class="item-metric">👁 190.2K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/amasad/status/2080850075358826871">https://twitter.com/amasad/status/2080850075358826871</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@thsottiaux</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Tibo</span>：Codex 和 ChatGPT Work 用户的使用额度已重置；昨夜接近全球性宕机后服务恢复，我们吸取教训，也把额度还给大家。
+          </p>
+          <p class="item-metric">👁 722.0K · ❤️ 11.4K</p>
+          <a class="item-link" href="https://twitter.com/thsottiaux/status/2081096447718723984">https://twitter.com/thsottiaux/status/2081096447718723984</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@AdamLowisz</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Adam Lowisz X Meetup 🇺🇸🇵🇱🇪🇺🇬🇧🇺🇦</span>：Grok 教程很重要，很多人不知道从哪开始；如果真想让编程民主化，就必须先教大家如何迈出第一步。
+          </p>
+          <p class="item-metric">👁 590.8K · ❤️ 1.4K</p>
+          <a class="item-link" href="https://twitter.com/AdamLowisz/status/2080869498295386541">https://twitter.com/AdamLowisz/status/2080869498295386541</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@theallinpod</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">The All-In Podcast</span>：David Sacks 认为 Anthropic 正试图打压开源 AI；他的重点不是替中国公司辩护，而是保护美国开发者使用公共领域模型、再训练并创造新产品的自由。
+          </p>
+          <p class="item-metric">👁 215.4K · ❤️ 2.0K</p>
+          <a class="item-link" href="https://twitter.com/theallinpod/status/2080865603548565823">https://twitter.com/theallinpod/status/2080865603548565823</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@Spectromachina</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Spectro 🇺🇸</span>：我用 Blender、MCP、Hunyuan3D、Gemini 和 ChatGPT 搭出了一套 AI 生成高达 3D 模型的流程；现在几乎什么都能让 AI 帮你造出来。
+          </p>
+          <p class="item-metric">👁 52.0K · ❤️ 1.1K</p>
+          <a class="item-link" href="https://twitter.com/Spectromachina/status/2080827463672737908">https://twitter.com/Spectromachina/status/2080827463672737908</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@ti_morse</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Ti Morse</span>：我第一次采访 Sam Altman，聊了创业、指数增长、混乱中运营、丰富智能、Codex 增长、算力投入、AI 自由与威权，以及如何分辨真假趋势。
+          </p>
+          <p class="item-metric">👁 300.1K · ❤️ 2.0K</p>
+          <a class="item-link" href="https://twitter.com/ti_morse/status/2081068670478880854">https://twitter.com/ti_morse/status/2081068670478880854</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@sarahwooders</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Sarah Wooders</span>：让我意外的是，很多人还不知道 OpenAI 和 Anthropic 模型的推理过程都是加密的；界面里看到的“推理”只是过滤后的摘要。
+          </p>
+          <p class="item-metric">👁 193.8K · ❤️ 1.8K</p>
+          <a class="item-link" href="https://twitter.com/sarahwooders/status/2080839465883644056">https://twitter.com/sarahwooders/status/2080839465883644056</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

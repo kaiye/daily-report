@@ -1,0 +1,48 @@
+# 媒体资讯
+
+LLM 网关当前返回 packyapi EOF，本报告由已清洗数据按原始排序降级生成。
+
+### [突发](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651053471&idx=1&sn=eb718841cd7d53921a32e5ecd15bbff5)
+*机器之心* · 2026-08-29
+
+突发：原创关注AI的 2026-08-29 12:26 四川 「马斯克想蒸馏我。
+
+### [一块GPU，Claude爆肝48小时自我对齐](https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652721330&idx=1&sn=41a465565a357819906d1cb0e0b683ce)
+*新智元* · 2026-08-29
+
+一块GPU，Claude爆肝48小时自我对齐：原创ASI启示录 2026-08-29 08:47 美国 48小时不睡不歇，效率狂飙15000倍！
+
+### [Anthropic盯上「训练芯片」](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651053471&idx=2&sn=e6f7b2881329a55cfb6a1f71cbb861fb)
+*机器之心* · 2026-08-29
+
+Anthropic盯上「训练芯片」：原创关注AI的 2026-08-29 12:26 四川 OpenAI亮出「推理芯片」，Anthropic瞄准「训练芯片」。
+
+### [Anthropic 将发招股书，预计募资 1300 亿美元超越 SpaceX；腾讯发布 HY4 preview 模型；科隆游戏展多个展位失窃 | 极客早知道](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112908&idx=1&sn=b6dc01b00b38744077e1d24781bbf20f)
+*极客公园* · 2026-08-29
+
+Anthropic 将发招股书，预计募资 1300 亿美元超越 SpaceX；腾讯发布 HY4 preview 模型；科隆游戏展多个展位失窃 | 极客早知道：曹思颀 2026-08-29 08:33 北京 王兴：美团不做 Token 工厂；传内存超越 SoC，成手机 BOM 成本第一大户；华硕推出全球首款 WiFi8 游戏路由器。
+
+### [Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/)
+*TechCrunch AI* · 2026-08-29
+
+Sony Music, Warner sue Anthropic, alleging a “brazen campaign” of intellectual property theft：This latest lawsuit is particularly broad and homes in on accusations of illegal piracy.
+
+### [Sony Music and Warner Chappell are suing Anthropic](https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright)
+*The Verge AI* · 2026-08-29
+
+Sony Music and Warner Chappell are suing Anthropic：Sony Music and Warner Chappell have[filed suit against Anthropic](https://www.
+
+### [人类，越来越难理解 AI](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653112913&idx=1&sn=df9387b5e54be2b2efe0ad0df7a0a265)
+*极客公园* · 2026-08-29
+
+人类，越来越难理解 AI：原创Techno 之王 2026-08-29 16:00 湖北 人类监控 AI 的方法，逐渐失败。
+
+### [只靠一问一答，就能抓出大模型幻觉，准确率88% | ICML'26](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247916598&idx=3&sn=d4b7937d5c43888682c10e5905020303)
+*量子位* · 2026-08-29
+
+只靠一问一答，就能抓出大模型幻觉，准确率88% | ICML'26：关注前沿科技 2026-08-29 13:41 北京 “类人准则探测机制”让大模型幻觉检测有了新基线 ##### HCPD 团队 投稿 量子位 | 公众号 QbitAI 随着大语言模型广泛应用于教育、医疗等决策支持场景， **幻觉** （LLM Hallucination）仍是其可靠部署面临的核心风险之一。
+
+### [“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z](https://techcrunch.com/2026/08/29/were-not-doing-30-bets-a-year-vijay-pande-on-betting-small-after-running-4-billion-at-a16z/)
+*TechCrunch AI* · 2026-08-29
+
+“We’re not doing 30 bets a year”: Vijay Pande on betting small after running $4 billion at a16z：Vijay Pande — who left a16z's roughly $4 billion biotech practice last year to start the much smaller, AI-native VZVC — 。

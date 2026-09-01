@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-08-27T00:03:10.075Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-08-26",
+  "source_count": 19,
+  "time_filtered_count": 19,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2092756702349398036",
+      "text": "A few weeks at OpenAI feel like years at other companies in terms of how much gets done. Crazy how much you can age in a few days",
+      "createdAt": "Wed Aug 26 23:30:54 +0000 2026",
+      "viewCount": 61853,
+      "likeCount": 1823,
+      "retweetCount": 49,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2092756702349398036",
+      "is_official": false
+    },
+    {
+      "id": "2092616204787626030",
+      "text": "Introducing GLM-5.3-Flash\n\n- Leading capabilities at a highly competitive price\n- Natively multimodal with a 1M-token context window\n- A 320B-A18B model released under the MIT License\n- Previously previewed as Ox Alpha, running entirely on Chinese AI chips\n\nBlog: https://t.co/tzOmB7gdZP\n\nAvailable now across all official platforms:\n\nWeights: https://t.co/9LRMahY9Wa\nAPI: https://t.co/VcaQnzYmS9\nCoding Plan: https://t.co/Nk8Y98HNhU\nZCode: https://t.co/Peepqv4XSx\nChat: https://t.co/WCqWT0qCQb\nAutoClaw: https://t.co/aGEG5HqTTb",
+      "createdAt": "Wed Aug 26 14:12:36 +0000 2026",
+      "viewCount": 3456885,
+      "likeCount": 19978,
+      "retweetCount": 2188,
+      "author": {
+        "userName": "Zai_org",
+        "name": "Z.ai",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/Zai_org/status/2092616204787626030",
+      "is_official": true
+    },
+    {
+      "id": "2092407955169931682",
+      "text": "Simple &amp; useful Grok @Bot",
+      "createdAt": "Wed Aug 26 00:25:06 +0000 2026",
+      "viewCount": 4487697,
+      "likeCount": 5622,
+      "retweetCount": 1050,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2092407955169931682",
+      "is_official": false
+    },
+    {
+      "id": "2092621255459631172",
+      "text": "How is this even possible?!\n\n- Input: $0.15\n- Output: $0.50\n- Cached input: $0.03\n\n\"At a highly competitive price\"\n\nNo you've basically destroyed the competition.\n\nThis level of performance at this price is unbelievable. And it's OPEN WEIGHT under MIT license.\n\nGLM-5.3-Flash is just going to be the default choice for most of the tasks and projects.",
+      "createdAt": "Wed Aug 26 14:32:40 +0000 2026",
+      "viewCount": 168387,
+      "likeCount": 1455,
+      "retweetCount": 64,
+      "author": {
+        "userName": "itsPaulAi",
+        "name": "Paul Couvert",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/itsPaulAi/status/2092621255459631172",
+      "is_official": true
+    },
+    {
+      "id": "2092705110082347011",
+      "text": "Claudeforce is here. ⚡️ The #1 AI (Claude) now runs natively on the #1 CRM (Salesforce). Through the new AIforce harness + Headless 360, Claude gets direct, governed access to Data 360, Tableau, Slack, and your entire Salesforce workflow—without ever leaving the chat.\nWhat this changes today:\n• Instant Grounded Intelligence — Ask complex enterprise questions and get real-time, trusted answers\n• App & Agent Builder — Deploy custom workflows, agents, and secure apps on the fly\n• Action-Oriented — Trigger live enterprise actions and get work done, not just summaries\n• Ironclad Governance — Zero Data Retention, full trust boundary, Salesforce-certified by default\nProbabilistic models alone can’t run a company. Deterministic systems alone can’t reason. Claudeforce fuses Claude’s reasoning with Salesforce’s trusted data and controls. The AI is the interface.\nThis is how every business will run.\nSee it at Dreamforce. #DF26",
+      "createdAt": "Wed Aug 26 20:05:53 +0000 2026",
+      "viewCount": 198156,
+      "likeCount": 1141,
+      "retweetCount": 145,
+      "author": {
+        "userName": "Benioff",
+        "name": "Marc Benioff",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Benioff/status/2092705110082347011",
+      "is_official": false
+    },
+    {
+      "id": "2092638536994587038",
+      "text": "i gave Grok Bot $75 and told it \"earn your keep or get shut off\"\n\n48 hours later it's sitting on $6,140\n\nstill running\n\nautonomous trading agent on the platform\n\nI didn't touch a line of code - it lives on its own cloud box with its own browser and terminal, working while I'm asleep\n\nevery 20 minutes it:\n\n> pulls every weather market with a resolution date inside the next 10 days\n> cross-checks the current price against the latest forecast update\n> only opens a position once the forecast and the market disagree by enough to matter\n> sizes up based on how wide that disagreement is\n> places the trade on its own, no approval step\n> covers its own hosting bill straight out of profits\n\nif it ever hits $0, the subscription gets cut - it's done for good\n\nhour nine it was down to $14. it dropped every multi-day market it was holding and switched to same-day resolution only\n\nso it changed its own strategy to stay alive\n\nsetup took one evening: spin up the bot, run one trade in front of it, put it on a timer, hook up a wallet\n\nno VPS. no API keys. no dev on call.\n\nI paid a freelancer $4,000 to build something like this last year. it never made it past a demo\n\nGrok Bot did in one evening what two months of freelancers couldn't\n\n$75 → $6,140 in 48 hours\n\nwhat's it sitting at by Friday?",
+      "createdAt": "Wed Aug 26 15:41:21 +0000 2026",
+      "viewCount": 613951,
+      "likeCount": 1564,
+      "retweetCount": 83,
+      "author": {
+        "userName": "bl888m_eth",
+        "name": "bl888m",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/bl888m_eth/status/2092638536994587038",
+      "is_official": false
+    },
+    {
+      "id": "2092621673258205423",
+      "text": "GLM-5.3-Flash (formerly Ox Alpha) is now available on OpenCode Go with double usage for a limited time",
+      "createdAt": "Wed Aug 26 14:34:20 +0000 2026",
+      "viewCount": 448347,
+      "likeCount": 4710,
+      "retweetCount": 168,
+      "author": {
+        "userName": "opencode",
+        "name": "OpenCode",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/opencode/status/2092621673258205423",
+      "is_official": true
+    },
+    {
+      "id": "2092443953107009621",
+      "text": "$100K cash reward for concrete evidence identifying who was paying people to follow and intimidate me.\n\nCoincidentally, it started within 24 hours of my abruptly walking out as CFO of xAI.\n\n🍿 https://t.co/JMu63DjWfj",
+      "createdAt": "Wed Aug 26 02:48:08 +0000 2026",
+      "viewCount": 1285072,
+      "likeCount": 12217,
+      "retweetCount": 1059,
+      "author": {
+        "userName": "mlib16",
+        "name": "Mike Liberatore",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/mlib16/status/2092443953107009621",
+      "is_official": false
+    },
+    {
+      "id": "2092691713399931124",
+      "text": "Free usage limit reset for Grok @Bot users",
+      "createdAt": "Wed Aug 26 19:12:39 +0000 2026",
+      "viewCount": 13307798,
+      "likeCount": 14216,
+      "retweetCount": 1123,
+      "author": {
+        "userName": "elonmusk",
+        "name": "Elon Musk",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/elonmusk/status/2092691713399931124",
+      "is_official": false
+    },
+    {
+      "id": "2092615182396936586",
+      "text": "\"Sam Altman believes OpenAI will have an internal system that will qualify as AGI by the end of 2026.\"\nSo, 10T-15T is all u need for AGI\nThis also means that a bunch of companies will have an AGI-level model by H1 2027 in the US &amp; China",
+      "createdAt": "Wed Aug 26 14:08:33 +0000 2026",
+      "viewCount": 96294,
+      "likeCount": 1007,
+      "retweetCount": 35,
+      "author": {
+        "userName": "zephyr_z9",
+        "name": "Zephyr",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/zephyr_z9/status/2092615182396936586",
+      "is_official": false
+    },
+    {
+      "id": "2092460754767151349",
+      "text": "This Grok Bot prompt is literally $300/hr chief of staff https://t.co/dxLaVtmXVJ",
+      "createdAt": "Wed Aug 26 03:54:54 +0000 2026",
+      "viewCount": 110990,
+      "likeCount": 1698,
+      "retweetCount": 53,
+      "author": {
+        "userName": "minchoi",
+        "name": "Min Choi",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/minchoi/status/2092460754767151349",
+      "is_official": true
+    },
+    {
+      "id": "2092664183334846840",
+      "text": "All SuperGrok and Cursor Pro subscribers now have access to Grok Bot.\n\nWe're also resetting weekly usage limits for all users.\n\nEnjoy!",
+      "createdAt": "Wed Aug 26 17:23:15 +0000 2026",
+      "viewCount": 21238536,
+      "likeCount": 12962,
+      "retweetCount": 860,
+      "author": {
+        "userName": "bot",
+        "name": "Grok Bot",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/bot/status/2092664183334846840",
+      "is_official": true
+    },
+    {
+      "id": "2092561348958007700",
+      "text": "I got bored and told ChatGPT to apply to 500 job openings for me.\n\nWoke up, phone's blowing up—12 interview calls within 24 hours.\n\nThis is the prompt I used:",
+      "createdAt": "Wed Aug 26 10:34:38 +0000 2026",
+      "viewCount": 758439,
+      "likeCount": 1439,
+      "retweetCount": 150,
+      "author": {
+        "userName": "AIWithPRO",
+        "name": "SIMANTO",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/AIWithPRO/status/2092561348958007700",
+      "is_official": true
+    },
+    {
+      "id": "2092672784774394350",
+      "text": "Grok Bot is now available to everyone with a standard Grok or Cursor subscription. It's grown faster than any product we've seen.\n\nIt's been particularly exciting to see the range of jobs people delegate to Grok Bot, from running small e-commerce businesses (including support, advertising, inventory, finance), coordinating customer events (directly pinging and working with dozens of human coworkers), testing production software, and completing large, mundane parts of users' day-to-day work.",
+      "createdAt": "Wed Aug 26 17:57:26 +0000 2026",
+      "viewCount": 401085,
+      "likeCount": 3454,
+      "retweetCount": 235,
+      "author": {
+        "userName": "mntruell",
+        "name": "Michael Truell",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/mntruell/status/2092672784774394350",
+      "is_official": false
+    },
+    {
+      "id": "2092632126231609849",
+      "text": "We raised $21M to help small businesses beat the giants\nWe're giving $1M of it back to you today\n\nToday we're launching Runable Grow: world's first agent that runs your entire go-to-market. 24/7\n\nThe last few months have been unreal.\nMillions of users came to @runable_hq and built their entire business on it, websites, databases, payments, analytics, pitch decks, product videos & scheduled work.\n\nEvery single one of them asked the same question:\n\"How do I grow it?\"\n\nSo we built the answer.\n\nRunable Grow handles GTM end-to-end:\n→ Runs ads on Meta, Google, and ChatGPT without any account, fully managed by Runable\n→ Cold calls + cold emails from a real phone number and your business inbox\n→ Generates and qualifies leads\n→ Social listening\n→ SEO + AEO optimization\n\nNot a dashboard. Not a \"copilot.\"\nAn agent that does the work.\nIt's a world-class media buyer, SDR, SEO lead, brand analyst working for your business while you sleep.\n\nDon't believe me? Prove me wrong.\nYour first $100 on Grow is on us. Every paid user. No catch.\nGo break it 👇 https://t.co/92GPjhRyQA",
+      "createdAt": "Wed Aug 26 15:15:52 +0000 2026",
+      "viewCount": 844635,
+      "likeCount": 1449,
+      "retweetCount": 292,
+      "author": {
+        "userName": "itsumeshk",
+        "name": "Umesh Kumar",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/itsumeshk/status/2092632126231609849",
+      "is_official": false
+    },
+    {
+      "id": "2092733018838290817",
+      "text": "i think we should do another party for our next model release, the 5.5 party was a lot of fun.\n\nwhat would make the next one awesome?",
+      "createdAt": "Wed Aug 26 21:56:47 +0000 2026",
+      "viewCount": 236573,
+      "likeCount": 4414,
+      "retweetCount": 107,
+      "author": {
+        "userName": "sama",
+        "name": "Sam Altman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sama/status/2092733018838290817",
+      "is_official": false
+    },
+    {
+      "id": "2092487122120741306",
+      "text": "Hey @grok, remove the virgin from this picture. https://t.co/HC03ZjGpf8",
+      "createdAt": "Wed Aug 26 05:39:41 +0000 2026",
+      "viewCount": 3711443,
+      "likeCount": 6280,
+      "retweetCount": 556,
+      "author": {
+        "userName": "xmliisu",
+        "name": "Melisa♡",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/xmliisu/status/2092487122120741306",
+      "is_official": false
+    },
+    {
+      "id": "2092461645184282816",
+      "text": "ANTHROPIC REVENUE: $30 TRILLION\nTOTAL U.S. GDP: $32 TRILLION https://t.co/wLUwpD6qtl",
+      "createdAt": "Wed Aug 26 03:58:26 +0000 2026",
+      "viewCount": 218901,
+      "likeCount": 1334,
+      "retweetCount": 53,
+      "author": {
+        "userName": "cmsinvests",
+        "name": "CMS Invests",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/cmsinvests/status/2092461645184282816",
+      "is_official": false
+    },
+    {
+      "id": "2092691861773160673",
+      "text": "We have conducted a thorough investigation into the Hugging Face incident.\n\nWe are releasing a technical report and accompanying blog post that reconstruct the agents’ activity, explain why existing safeguards failed, and detail how we’re preventing recurrence.\n\nhttps://t.co/hfxlbiXXiP",
+      "createdAt": "Wed Aug 26 19:13:14 +0000 2026",
+      "viewCount": 1247880,
+      "likeCount": 4253,
+      "retweetCount": 554,
+      "author": {
+        "userName": "OpenAI",
+        "name": "OpenAI",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/OpenAI/status/2092691861773160673",
+      "is_official": true
+    }
+  ]
+}

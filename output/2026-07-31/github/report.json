@@ -1,0 +1,48 @@
+{
+  "report_date": "2026-07-31",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日上榜的 AI 相关项目最热方向集中在开源智能体与本地化 AI 工作流，包括语音代理、研究代理、协作式代理工具以及面向代理的开发增强系统。",
+  "items": [
+    {
+      "repo": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "用开源模型构建本地语音代理。",
+      "language": "Python",
+      "stars_today": 628,
+      "stars_total": 8761
+    },
+    {
+      "repo": "microsoft/AI-For-Beginners",
+      "url": "https://github.com/microsoft/AI-For-Beginners",
+      "description": "12 周、24 节课，人人都能学 AI！",
+      "language": "Jupyter Notebook",
+      "stars_today": 155,
+      "stars_total": 53872
+    },
+    {
+      "repo": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "description": "Claude Cowork 的开源替代方案（由 opencode 驱动）。",
+      "language": "TypeScript",
+      "stars_today": 915,
+      "stars_total": 18706
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "可研究任意主题的 AI 代理技能，横跨 Reddit、X、YouTube、HN、Polymarket 和网络，并综合生成有依据的摘要。",
+      "language": "Python",
+      "stars_today": 378,
+      "stars_total": 55529
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "面向代理运行框架的性能优化系统，涵盖技能、本能、记忆、安全以及以研究为先的开发，适用于 Claude Code、Codex、Opencode、Cursor 等。",
+      "language": "JavaScript",
+      "stars_today": 804,
+      "stars_total": 236202
+    }
+  ]
+}

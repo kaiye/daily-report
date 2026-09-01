@@ -1,0 +1,80 @@
+{
+  "report_date": "2026-08-10",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "LLM 网关当前返回 packyapi EOF，本报告由已清洗数据按原始排序降级生成。",
+  "items": [
+    {
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "language": "TypeScript",
+      "stars_today": 2356,
+      "stars_total": 11002
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers.",
+      "language": "Shell",
+      "stars_today": 858,
+      "stars_total": 140637
+    },
+    {
+      "repo": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running?",
+      "language": "Go",
+      "stars_today": 210,
+      "stars_total": 20626
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars_today": 680,
+      "stars_total": 85116
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。",
+      "language": "Python",
+      "stars_today": 306,
+      "stars_total": 61168
+    },
+    {
+      "repo": "goauthentik/authentik",
+      "url": "https://github.com/goauthentik/authentik",
+      "description": "The authentication glue you need.",
+      "language": "Python",
+      "stars_today": 310,
+      "stars_total": 24263
+    },
+    {
+      "repo": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies。",
+      "language": "Python",
+      "stars_today": 528,
+      "stars_total": 17208
+    },
+    {
+      "repo": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "language": "Python",
+      "stars_today": 365,
+      "stars_total": 125481
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "T3 Code is an \"agent harness control surface\".",
+      "language": "TypeScript",
+      "stars_today": 163,
+      "stars_total": 17645
+    }
+  ]
+}

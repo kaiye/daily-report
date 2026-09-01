@@ -1,0 +1,64 @@
+{
+  "report_date": "2026-08-17",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "LLM 网关当前返回 packyapi EOF，本报告由已清洗数据按原始排序降级生成。",
+  "items": [
+    {
+      "repo": "cordiverse/cordis",
+      "url": "https://github.com/cordiverse/cordis",
+      "description": "Meta-Framework of Spatiotemporal Composability。",
+      "language": "TypeScript",
+      "stars_today": 720,
+      "stars_total": 4703
+    },
+    {
+      "repo": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "description": "Beautiful, Modern &amp; Opinionated Linux。",
+      "language": "Shell",
+      "stars_today": 270,
+      "stars_total": 25362
+    },
+    {
+      "repo": "unslothai/unsloth",
+      "url": "https://github.com/unslothai/unsloth",
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.",
+      "language": "Python",
+      "stars_today": 572,
+      "stars_total": 72554
+    },
+    {
+      "repo": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative。",
+      "language": "TypeScript",
+      "stars_today": 150,
+      "stars_total": 83868
+    },
+    {
+      "repo": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs。",
+      "language": "Python",
+      "stars_today": 1588,
+      "stars_total": 461713
+    },
+    {
+      "repo": "ToolJet/ToolJet",
+      "url": "https://github.com/ToolJet/ToolJet",
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools。",
+      "language": "JavaScript",
+      "stars_today": 452,
+      "stars_total": 40009
+    },
+    {
+      "repo": "cactus-compute/needle",
+      "url": "https://github.com/cactus-compute/needle",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "language": "Python",
+      "stars_today": 443,
+      "stars_total": 6552
+    }
+  ]
+}
