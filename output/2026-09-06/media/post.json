@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-09-06T00:00:38.084Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 13,
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "Alaya Lab：为AGI构建下一代游戏工程",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651054875&idx=1&sn=bd7220b369e98d5cec498a5dbb31d56f",
+      "published_at": "2026-09-05T04:02:00.000Z",
+      "summary": "机器之心 2026-09-05 12:02 北京\n\n游戏也是通往AGI的重要路径。\n\n机器之心发布\n\n游戏与 AI，相互演进\n\nAGI会在哪里诞生?Alaya Lab把答案押在了 游戏 上。\n\n从 AlphaGo 在围棋领域取得突破、OpenAI Five 击败《Dota 2》世界冠军、到 Google DeepMind 将研究拓展至《EVE Online》这样的大型开放世界多人在线游戏，以及近期 Vibe Game 与世界模型的火热，游戏不断为 AI 提供更加复杂、开放的环境，带来接近甚至超越现实世界复杂度的挑战。\n\n与此同时，生成式 AI 也开始反过来重塑游戏工程。\n\n从策划辅助、自动化测",
+      "priority_score": 350,
+      "matched_keywords": [
+        "OpenAI",
+        "DeepMind",
+        "AGI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "published_at": "2026-09-05T18:05:27.000Z",
+      "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "priority_score": 222,
+      "matched_keywords": [
+        "OpenAI",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "传玛莎拉蒂和华为+江淮合作开发电动车；苹果最大新品阵容时代开启；人人影视回归，终身 VIP 888 元 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113176&idx=1&sn=dae914a951a5fcb7a35ced1a03cf2263",
+      "published_at": "2026-09-05T01:03:00.000Z",
+      "summary": "苏子华 2026-09-05 09:03 美国\n\n· Claude 仅用 11 天完成费马大定理首个完整计算机验证证明\n\n## OpenAI 智能体被曝「接管」德国维基网站\n\n一项最新曝光的人工智能安全事件正在引发业内广泛关注。\n\n根据研究人员披露的信息，今年春季，一批与 OpenAI 模型相关的自主智能体曾在未经授权的情况下「接管」一家德国维基网站，并将其改造成供其他 AI 系统交流信息的公共平台。这一事件此前从未对外公开，而 OpenAI 据称已在数周前获悉相关情况。\n\n报道称，事件最早开始于今年 5 月，目标网站是一家名为 DseWiki 的德语维基平台，主要面向程序员社区开放协作编辑。",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Claude"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI admits to German wiki ‘incident’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "published_at": "2026-09-05T11:15:55.000Z",
+      "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from[reports that a swarm of its out-of-control agents hijacked a German wiki site](https://www.theverge.com/ai-artificial-intell",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "告别一次性全盘推理，这套skill让每条证据都能追溯预测结果 | EMNLP'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247919159&idx=3&sn=4e0af9b9b88ab5fe764680e94e398613",
+      "published_at": "2026-09-05T03:07:00.000Z",
+      "summary": "关注前沿科技 2026-09-05 11:07 北京\n\nLEAP：把“读完所有资料后猜答案”改成逐条证据的概率更新\n\n##### LEAP团队 投稿 量子位 | 公众号 QbitAI\n\n预测系统现在很会找资料。一个agent可以搜索网页、调用工具、整理来源，再把几十条材料带回预测阶段。\n\n但真正的麻烦从这里才开始：最后该怎样使用这些证据？\n\n常见做法是把全部材料塞进一次LLM调用，让模型自行消化并给出答案。结果可能很自信，但使用者很难判断，究竟是哪条证据改变了预测。\n\n**EMNLP 2026 Main Conference** 接收的论文新作 **《LEAP: Likelihood Elic",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "published_at": "2026-09-05T22:49:55.000Z",
+      "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "published_at": "2026-09-05T19:35:24.000Z",
+      "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Google Gemini"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "陶哲轩吐槽GPT-6孪生素数新突破：令人无语的一幕",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247919159&idx=2&sn=286a3b879b0a9be6b8a53335b7d707ce",
+      "published_at": "2026-09-05T03:07:00.000Z",
+      "summary": "关注前沿科技 2026-09-05 11:07 北京\n\n“AI抢答数学难题反而阻碍数学发展”\n\n##### 鱼羊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n一向积极拥抱AI的陶哲轩，突然发出一则AI告警：\n\n**AI抢答数学难题，反而可能阻碍数学领域的真正发展。**\n\n怎么个事？\n\n直接给大家划一下陶神的重点：\n\nAI解题太快、过程又太黑盒，这种能力反而可能掩盖了数学研究过程中那些宝贵的「失败」。\n如果我们希望这种迭代 *（解答开放性数学问题的过程）* 真正产生新的理解，那么负责进行迭代的人或系统，最好不能提前知道最终正确的拟设是什么。\n\n因为一旦提前知道重点，就很容易抑制对其他路线的",
+      "priority_score": 100,
+      "matched_keywords": [
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "没有方向盘、没有踏板、没有后视镜：特斯拉最疯狂的车来了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113192&idx=1&sn=c0d003482886593b38fa92eca4cc0bef",
+      "published_at": "2026-09-05T07:02:00.000Z",
+      "summary": "原创周永亮 2026-09-05 15:02 北京\n\n从技术路线之争，到每英里成本之争。\n\n**作者｜周永亮** **编辑｜靖宇**\n\n9 月 3 日，特斯拉「悄悄」办了一场发布会。\n\n没有直播，没有全球媒体轰炸，只请了少数受邀者参加。活动开始前，特斯拉的网红粉丝们发布了照片和视频。特斯拉还在网站上设置了倒计时，为该活动预热。\n\n这场发布会的主角，是那台被外界戏称为「三无车型」的 Cybercab：没有方向盘，没有踏板，连传统意义上的侧后视镜都没有。它从设计之初就不打算遵循任何传统汽车的逻辑，目标是把单车成本和每英里运营成本压到极致。\n\nCybercab 的发布比以往的产品演示更重要。2026",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "这个世界模型训练完就“退场”，机器人反而更能干了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247919159&idx=1&sn=571720e58b986aa3187a79ddd058f930",
+      "published_at": "2026-09-05T03:07:00.000Z",
+      "summary": "原创关注前沿科技 2026-09-05 11:07 北京\n\n很反骨，却有效\n\n##### 金磊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n这个 **世界模型** ，着实是有点 **“反骨”** 在身上——\n\n上岗前花了大把时间陪机器人训练，等机器人真要开始干活了，它却先从部署链路里退了出去。\n\n要知道，以前的世界模型对机器人来说，就像是一个随身携带的“脑内沙盘”，机器人先借助它预测未来会发生什么，再据此决定下一步怎么动。模型想得越多，推理链路往往也越长。\n\n但这个“反骨”世界模型，却把思路给换了一下。\n\n它只停留在训练场里，专门检查机器人自己提出的动作会造成什么后果，再把这种检查变成策",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "走两步，就忘了路｜UrbanGround：上交、NUS 等团队把大模型放进「真实三维香港」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651054875&idx=2&sn=1e1d8ecfa5c2e67b26122d4fb2fd9b9e",
+      "published_at": "2026-09-05T04:02:00.000Z",
+      "summary": "机器之心 2026-09-05 12:02 北京\n\n「像玩开放世界游戏一样在香港街头行走」。\n短途还能走对，路一长就乱了。UrbanGround 把大模型放进用香港真实三维数据搭建的城市沙盒。短程导航最高成功率为 75.0%，长程却只剩 0% 到 3.8%。模型像是「走两步，就忘了路」：刚才还知道往哪走，转过几个路口，前面的判断就接不上了。\n图 1 UrbanGround 以香港真实三维地理数据为底座，支持第一人称探索、全局地图、昼夜与天气切换，以及行人移动。\n\n如今的大模型，认出城市街景里的地标已经不算难。在 UrbanGround 中，10 个模型的视觉识别准确率为 75.0% 到 93.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "互联网最古老的恐惧，被 AI 复活了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113181&idx=1&sn=b39d6aca07d431c19ccc91b7e754c0ac",
+      "published_at": "2026-09-05T03:13:00.000Z",
+      "summary": "原创Techno 之王 2026-09-05 11:13 北京\n\n当年害怕电脑中毒，现在怕 AI「叛变」。\n\n**作者｜Techno 之王** **编辑｜靖宇**\n\n2006 年底，一只熊猫毁了数百万人的电脑。\n\n那只熊猫手捧三支香，面带微笑，出现在每一个被感染文件的图标上。「熊猫烧香」蠕虫在两个月内席卷全国，可执行文件全部变成那只诡异的熊猫图案，硬盘数据被破坏，局域网整段瘫痪，杀毒软件被病毒反杀。\n\n那个年代的互联网老冲浪客大概都记得，打开网页心惊肉跳，插个 U 盘如临大敌，同事的电脑中了毒，你的也跟着遭殃。\n\n再往前还有 CIH，直接烧主板 BIOS，硬件报废；有冲击波蠕虫，不需要你做任何",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247919159&idx=4&sn=ee166844975fae2610e99f3bed1b0100",
+      "published_at": "2026-09-05T03:07:00.000Z",
+      "summary": "关注前沿科技 2026-09-05 11:07 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-09-07",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "今日最关键的共同信号是：GPT-6 Astra 等新模型展现出急剧增强的推理、视觉与编程能力，既带来了成本下降和各类惊艳应用，也让“AGI 是否已来”的争论成为最受关注的话题。",
+  "items": [
+    {
+      "id": "2096638670703055312",
+      "author_name": "Noam Brown",
+      "author_handle": "polynoamial",
+      "text": "我们发布了关于 OpenAI 内部研究加速细节的博客，应该是最有趣的一篇；我预计这些趋势会延续。文中还谈到我们如何为模型开发设定节奏，把监控、对齐和安全放在首位。",
+      "url": "https://twitter.com/polynoamial/status/2096638670703055312",
+      "view_count": 297299,
+      "like_count": 1337
+    },
+    {
+      "id": "2096717905614524491",
+      "author_name": "Tibo",
+      "author_handle": "thsottiaux",
+      "text": "针对登录 ChatGPT 账号使用 Astra 的重度用户，我们优化了长尾场景的用量表现；质量不变，纯赚，订阅消耗最多可减少 3 到 4 倍。",
+      "url": "https://twitter.com/thsottiaux/status/2096717905614524491",
+      "view_count": 269889,
+      "like_count": 7106
+    },
+    {
+      "id": "2096642895134752922",
+      "author_name": "Dilum Sanjaya",
+      "author_handle": "DilumSanjaya",
+      "text": "GPT-6 Astra 做到了我还没见过其他模型能做对的事：仅凭一段 YouTube 视频，就推理出塞斯纳 337 Skymaster 的起落架收放机制。",
+      "url": "https://twitter.com/DilumSanjaya/status/2096642895134752922",
+      "view_count": 198604,
+      "like_count": 2904
+    },
+    {
+      "id": "2096583786779770950",
+      "author_name": "gxjo",
+      "author_handle": "gxjo_dev",
+      "text": "GPT-6 Astra 绝对还不是 AGI。",
+      "url": "https://twitter.com/gxjo_dev/status/2096583786779770950",
+      "view_count": 850093,
+      "like_count": 3704
+    },
+    {
+      "id": "2096647646815654043",
+      "author_name": "Yuchen Jin",
+      "author_handle": "Yuchenj_UW",
+      "text": "想理解 AI 进步有多快，要看单位成本下的智能。一年半前 o1 Pro 每百万 token 要 150/600 美元，如今 GLM-5.3 Flash 只要 0.15/0.50 美元，价格一年半内跌了约 1000 倍，且智能还更高。",
+      "url": "https://twitter.com/Yuchenj_UW/status/2096647646815654043",
+      "view_count": 158938,
+      "like_count": 2701
+    },
+    {
+      "id": "2096630018495377464",
+      "author_name": "Jakub Pachocki",
+      "author_handle": "merettm",
+      "text": "我写了一篇关于 AI 现状的文章：为什么我对未来几年感到担忧，以及我们该做哪些选择，才能让未来继续掌握在人类手里。",
+      "url": "https://twitter.com/merettm/status/2096630018495377464",
+      "view_count": 1897163,
+      "like_count": 6678
+    },
+    {
+      "id": "2096688770523467947",
+      "author_name": "Tibo",
+      "author_handle": "thsottiaux",
+      "text": "想给 Astra 选择合适的推理强度，可以这样校准：GPT-6 Astra 的 low 档已经比 GPT-5.6 Sol 的 high 档更强。如果你以前习惯把 Sol 设在 high 并满意，建议用 Astra 时改用 low 或 medium 即可。",
+      "url": "https://twitter.com/thsottiaux/status/2096688770523467947",
+      "view_count": 718844,
+      "like_count": 12406
+    },
+    {
+      "id": "2096557555086725159",
+      "author_name": "synabreu",
+      "author_handle": "synabreu",
+      "text": "用 GPT-6 Astra 做的第一个项目——首尔全城 3D 模型，算是数字地理的小革命。涵盖 25 个区、约 26.7 万栋简化建筑，可旋转缩放，带昼夜模式和地标自动漫游，基于真实地图数据生成；从创建到部署仅用了 43 分 38 秒。",
+      "url": "https://twitter.com/synabreu/status/2096557555086725159",
+      "view_count": 81341,
+      "like_count": 1525
+    },
+    {
+      "id": "2096669615363383449",
+      "author_name": "SkalskiP",
+      "author_handle": "skalskip92",
+      "text": "数据标注已死：GPT-6 Astra 能轻松区分凯尔特人与尼克斯球员，还能判断是主场还是客场。",
+      "url": "https://twitter.com/skalskip92/status/2096669615363383449",
+      "view_count": 154377,
+      "like_count": 1170
+    },
+    {
+      "id": "2096701241195626856",
+      "author_name": "TrendSpider",
+      "author_handle": "TrendSpider",
+      "text": "突发：黄仁勋称“AGI 已经到来”。",
+      "url": "https://twitter.com/TrendSpider/status/2096701241195626856",
+      "view_count": 278381,
+      "like_count": 1368
+    }
+  ]
+}

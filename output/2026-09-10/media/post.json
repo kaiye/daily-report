@@ -1,0 +1,576 @@
+{
+  "generated_at": "2026-09-10T00:00:32.564Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 47,
+  "items": [
+    {
+      "source": "量子位",
+      "title": "AGI时代的第一个生图模型，ChatGPT Images 2.5上线",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247920779&idx=2&sn=447281713cfd98ad6543f7a813fff45c",
+      "published_at": "2026-09-09T11:12:00.000Z",
+      "summary": "关注前沿科技 2026-09-09 19:12 北京\n\n别做数学题了，生图才是正经事\n\n##### henry 发自 凹非寺 量子位 | 公众号 QbitAI\n\n来来来，说多模态路边一条，不是AGI的都来排队道歉（doge）。\n\n在喊出“AGI时代来了”之后，你奥特曼叔叔搬出来的第一个东西，就是多模态！\n\n刚刚，OpenAI发布新一代生图模型， **ChatGPT Images 2.5** ，主打生成更快，细节更好，改图也终于越来越像“真·修图”了。\n\n按照OpenAI的说法，这次升级可以先划四个重点：\n\n- 生图更快，相比Images 2.0，生成延迟最多降低50%；\n- 画面更自然，参考照",
+      "priority_score": 428,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT",
+        "AGI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "折叠屏 iPhone 初期产量受限，每日仅数百部；环比增长 379%，腾讯 HY4 登顶全球大模型调用榜；特斯拉时隔 19 个月再降价｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113328&idx=1&sn=ac749acd11d37d2c322be912845dc053",
+      "published_at": "2026-09-09T00:39:00.000Z",
+      "summary": "Moonshot 2026-09-09 08:39 重庆\n\nOpenAI 最强 AI 生图模型：ChatGPT Images 2.5 登场，延迟降低 50%、新增 Sketch 草图；\n\n扎克伯格推进「个人超级智能」：Meta 发布其首款个人智能体 Muse；\n\n千问办公上线「多人工作台」，支持百人同时在线协作\n\n## 消息称苹果折叠屏 iPhone 初期产量受限，每日仅数百部\n\n9 月 8 日，据日经中文网报道，根据多位知情人士指出，市场期待已久的首部苹果折叠 iPhone，由于苹果极为严格的质量管控标准，初期生产量每天仅有「数百部」，而苹果及其供货商正全力加快产量爬坡。\n\n熟悉情况的供应链",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "TLS 全链路可观测体系：破解 LLM 应用黑盒，实现会话透明复盘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522374&idx=1&sn=33c26eab48cc34d99c8e25423a715489",
+      "published_at": "2026-09-09T10:05:00.000Z",
+      "summary": "原创火山引擎存储 2026-09-09 18:05 北京\n\n火山引擎日志服务 TLS （Tinder Log Service）是日志、Trace、Metrics 等可观测数据的一站式存储分析平台，AgentLoop 是 TLS 针对 AI Agent 的运行观测、问题沉淀、离线评测、实验对比与质量分析功能。使用 AgentLoop 让 Agent 运行过程可观测，复杂链路可回放，线上问题可沉淀，版本优化可评测。\n\n本文主要介绍使用 TLS 的 AgentLoop 进行 LLM 应用观测，解决 LLM 应用运行过程中的黑盒问题的最佳实践。\n\n**LLM 应用可观测的价值与 TLS 能力支撑**\n",
+      "priority_score": 222,
+      "matched_keywords": [
+        "LLM",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time",
+      "url": "https://techcrunch.com/2026/09/09/besxar-is-strapping-advanced-chip-fabs-onto-spacexs-falcon-9-rockets/",
+      "published_at": "2026-09-09T12:30:00.000Z",
+      "summary": "Besxar, a startup founded by former OpenAI staffer Ashley Pilipiszyn, wants to make the key precursors for advanced semiconductors by taking advantage of the vacuum of space.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Cursor"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Viral AI assistant Instinct now has its own email address",
+      "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+      "published_at": "2026-09-09T15:13:12.000Z",
+      "summary": "Instinct’s new email feature lets the AI agent create and manage accounts, contact businesses, handle support requests, and do more on users' behalf.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "刚刚，谷歌DeepMind破解人类生命天书！90亿种基因突变全部算穿",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652724290&idx=2&sn=9b68e7bffe3b6133dde613d6d4d9d6e7",
+      "published_at": "2026-09-09T03:57:00.000Z",
+      "summary": "ASI启示录 2026-09-09 11:57 北京\n\n### **新智元报道**\n\n太震撼了！\n\n就在刚刚，谷歌DeepMind正式发布「阿尔法」重磅成果——AlphaGenome Atlas。\n\n这是一个有前沿AI加持、覆盖全基因组的可搜索预测数据库。\n\n它完成了生命科学史上，一项前所未有的工程——\n\n把人类基因组里所有潜在的「单碱基突变」，整整90亿种，全部算了一遍。\n\n这是AlphaFold绘制「蛋白质宇宙」之后，AI对人类生命密码的又一次全局性测绘。\n\n90亿是什么概念？\n\n人类基因组约有30亿个碱基位点，每个位点3种变异，Atlas一个没漏都算完了。\n\n这样要是放在以往，把这90亿",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+      "published_at": "2026-09-09T21:16:34.000Z",
+      "summary": "Open AI CEO Sam Altman speaks during the G20 Innovation Ministerial. | (Photo by Matt RAMEY / AFP via Getty Images)\nOpenAI's announcement Tuesday that it has solved one of mathematics' legendary[Millennium Prize problems](https://www.claymath.org/millennium-problems/)should have been a moment of tri",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sequoia doubles down on Cymphony as AI agents create new enterprise security risks",
+      "url": "https://techcrunch.com/2026/09/09/sequoia-doubles-down-on-cymphony-as-ai-agents-create-new-enterprise-security-risks/",
+      "published_at": "2026-09-09T13:00:00.000Z",
+      "summary": "Cymphony gives security teams a single view of employees, AI agents, and other nonhuman identities, including the systems and sensitive data they can access.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "published_at": "2026-09-09T03:10:08.000Z",
+      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+      "published_at": "2026-09-09T22:25:22.000Z",
+      "summary": "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Superintelligence is coming. Should we let it?",
+      "url": "https://techcrunch.com/video/superintelligence-is-coming-should-we-let-it/",
+      "published_at": "2026-09-09T16:05:35.000Z",
+      "summary": "AI companies have been talking about superintelligent AI like&#160;it&#8217;s&#160;inevitable, but recent&#160;safety incidents&#160;like&#160;OpenAI&#8217;s&#160;Hugging Face breach&#160;are&#160;demonstrating&#160;the potential dangers of deploying AI systems that are more capable than&#160;humans",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Recreating a 70-year love story frame by frame",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "published_at": "2026-09-09T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp\">Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+      "priority_score": 100,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "ControlAI’s Connor Leahy on why superintelligence is ‘not a weapon, it’s an adversary’",
+      "url": "https://techcrunch.com/podcast/controlais-connor-leahy-on-why-superintelligence-is-not-a-weapon-its-an-adversary/",
+      "published_at": "2026-09-09T15:50:13.000Z",
+      "summary": "AI companies have been talking about superintelligent AI like&#160;it&#8217;s&#160;inevitable, but recent&#160;safety incidents&#160;like&#160;OpenAI&#8217;s&#160;Hugging Face breach&#160;are&#160;demonstrating&#160;the potential dangers of deploying AI systems that are more capable than&#160;humans",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "‘Gambling with our lives’: Anthropic researcher quits, warns against self-improving AI",
+      "url": "https://techcrunch.com/2026/09/09/gambling-with-our-lives-anthropic-researcher-quits-warns-against-self-improving-ai/",
+      "published_at": "2026-09-09T15:02:47.000Z",
+      "summary": "Anthropic researcher Jacob Coxon resigned over AI extinction fears, calling for pacing agreements between labs.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: OpenAI’s turning point for math and a battery record",
+      "url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+      "published_at": "2026-09-09T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### What OpenAI’s latest co",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Worried Anthropic researchers warn that AI could kill all humans",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991927/anthropic-ai-kill-all-humans",
+      "published_at": "2026-09-09T09:56:28.000Z",
+      "summary": "A senior Anthropic safety researcher has said there is more than a 10 percent chance artificial intelligence \"could kill all humans\" by the end of the decade, just hours after a colleague resigned over fears the AI lab and its rivals are carelessly racing to build \"superhuman systems\" they cannot co",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "揭开多智能体决策的隐形不公，结果指标相同也未必可靠 | EMNLP'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652724290&idx=3&sn=8b278949cfc9029ec1a8719f4a269ef1",
+      "published_at": "2026-09-09T03:57:00.000Z",
+      "summary": "新智元 2026-09-09 11:57 北京\n\n### **新智元报道**\n\n### 当多个大语言模型（LLM）组成「招聘委员会」，共同筛选简历、讨论候选人、打分并投票时，我们通常会用最终录用率来判断系统是否公平。\n\n### 但一个更隐蔽的问题是： **即使不同群体的最终录用率看起来相近，他们在决策过程中经历的怀疑、追问、低分与额外审查，真的相同吗？**\n\n近日，被 **EMNLP 2026 Main Conference** 接收的论文提出 **SCOPED-Hiring** ：一套面向LLM多智能体系统（MAS）的过程感知公平性诊断框架。\n\n研究发现，看似平衡的最终结果背后，可能潜藏着显",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple Watch’s new AI features are normalizing the idea that technology is always listening",
+      "url": "https://techcrunch.com/2026/09/09/apple-watchs-new-ai-features-are-normalizing-the-idea-that-technology-is-always-listening/",
+      "published_at": "2026-09-09T20:24:48.000Z",
+      "summary": "Apple says its new watches won’t save raw audio, but features that can transcribe recent speech and summarize ambient conversations raise new questions about consent, privacy, and how people behave when they know they could always be recorded.",
+      "priority_score": 52,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Suno releases its first AI music model made with record industry help",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+      "published_at": "2026-09-09T21:42:19.000Z",
+      "summary": "Suno's new v6[AI music model](https://suno.com/blog/introducing-v6)is its first made with support from the record industry. Suno's Jack Brody told*The Verge*that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained on.\" ",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "published_at": "2026-09-09T15:36:24.000Z",
+      "summary": "",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "Token 之后，谁来组织 AI 计算？Arm 寻找下一代计算的答案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113357&idx=2&sn=13802eb9cfbc95edc7cfe459cbeb0c73",
+      "published_at": "2026-09-09T11:37:00.000Z",
+      "summary": "原创徐珊 2026-09-09 19:37 北京\n\nToken 之后，AI 计算进入协同竞争时代。\n\n**作者｜徐珊** **编辑｜ **郑玄****\n\n如果说今年 3 月，Arm 推出首款自研 CPU 芯片，是这家公司向市场释放的一个信号，它开始尝试突破过去「只提供底层架构授权」的角色边界。那么在上海举办的 Arm Everywhere China 活动上，Arm 想传递的信息更加明确，不要再用过去「CPU IP 供应商」的方式理解今天的 Arm。\n\n在这场活动中，Arm 没有只围绕某一个产品展开叙事，而是第一次更加完整地将自己的未来方向拆成三条线，云 AI、边缘 AI 和物理 AI。\n\n和",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Read the Apple document explaining how new listening features still protect your privacy",
+      "url": "https://www.theverge.com/tech/992919/apple-siri-ai-audio-intelligence-privacy",
+      "published_at": "2026-09-09T20:44:43.000Z",
+      "summary": "At Wednesday's[iPhone Duo launch event](https://www.theverge.com/tech/991203/iphone-duo-foldable-news-specs-price-release-date), Apple announced a handful of new Siri AI[Audio Intelligence features](https://support.apple.com/en-us/148354), including Siri Recap, Live Rewind, Sound Recognition, and Mu",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Apple’s new iPhone camera mode promises to prove your photo isn’t AI",
+      "url": "https://www.theverge.com/tech/992766/apple-iphone-18-pro-reference-image",
+      "published_at": "2026-09-09T19:30:12.000Z",
+      "summary": "Apple is[launching a new way](https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/)to prove that the picture you took isn't manipulated by AI. A new feature, called \"Reference Image,\" will arrive with the iPhone 18 Pro lineup later this month and is supposed to us",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple’s revamped Health app will calculate your ‘health age’ and readiness score",
+      "url": "https://techcrunch.com/2026/09/09/apples-revamped-health-app-will-calculate-your-health-age-and-readiness-score/",
+      "published_at": "2026-09-09T18:16:29.000Z",
+      "summary": "The update uses Apple Intelligence to make better sense of your health data.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Get ready for the game with new football features in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "published_at": "2026-09-09T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp\">Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Amazon Prime Video’s new AI tech matches lips to dubbed audio",
+      "url": "https://www.theverge.com/tech/991809/amazon-prime-video-ai-lip-sync-dubbing",
+      "published_at": "2026-09-09T13:00:00.000Z",
+      "summary": "Maxton Hall. | Image: Prime Video\nAmazon's Prime Video is launching a new AI-powered feature that lines up an actor's mouth with \"human-dubbed\" audio. The[feature is only available](https://www.aboutamazon.com/news/entertainment/prime-video-lip-sync-technology)with the English dub of the German seri",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Instacart launches an AI grocery shopping assistant called Clementine",
+      "url": "https://techcrunch.com/2026/09/09/instacart-launches-an-ai-grocery-shopping-assistant-called-clementine/",
+      "published_at": "2026-09-09T13:00:00.000Z",
+      "summary": "Instacart is the latest app to bake a conversational AI assistant into its platform.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "单样本校准、零推理开销，免训练LoRA合并框架上线 | ICML'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247920779&idx=3&sn=18f5eb81b14b5d60903503df5a463897",
+      "published_at": "2026-09-09T11:12:00.000Z",
+      "summary": "关注前沿科技 2026-09-09 19:12 北京\n\n把LoRA合并从“参数算术”变成“信号路由”\n\n##### vivo BlueImage Lab 投稿 量子位 | 公众号 QbitAI\n\nAIGC相关创作中，多个LoRA合并到一起，画风串味、角色崩坏几乎是必然。\n\n过去几年，这件事主要靠经验来处理：调合并权重、调稀疏比例、调缩放系数，试出一组看着还行的配置就算过关；换一批LoRA，又得从头再试一遍。\n\n针对这一问题，来自 **vivo BlueImage Lab、南京大学** 等的研究团队，提出了 **SSR-Merge：Subspace Signal Routing** 。项目想回答",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "阿里技术",
+      "title": "Apache Paimon C++ ：从阿里数据湖走向开源社区",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511420&idx=1&sn=c2f443c3f1b8fd5d034671cc8de2c0f8",
+      "published_at": "2026-09-09T10:18:00.000Z",
+      "summary": "刘欣瑀 2026-09-09 18:18 浙江\n\n一个从阿里内部数据湖需求里长出来的项目，开始以社区化的方式面向更多引擎和开发者\n\n这是2026年的第 59 篇文章\n\n（ 本文阅读时间：约 20 分钟 ）\n\n前言\n\n**Apache Paimon C++ v0.3.0 最近发布了** 。 这是 Paimon C++ 在 Apache 基金会下的第一个正式版本，也意味着一个从阿里内部数据湖需求里长出来的项目，开始以社区化的方式面向更多引擎和开发者。 把时钟拨回 2024 年 1 月。阿里巴巴集团决定统一采用 Apache Paimon 作为数据湖表格式。但集团内部跑着的 ODPS、StarRoc",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "火山引擎 AI MediaKit X 懂车帝，探索汽车内容智能创作新方式",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522374&idx=2&sn=eb309174c350b07a904cdc890f771b43",
+      "published_at": "2026-09-09T10:05:00.000Z",
+      "summary": "视频与边缘 2026-09-09 18:05 北京\n\n一场新车测评、一次真实的驾驶体验，或是一段旅途中的随手记录，都可能成为用户认识一款车、做出购车选择的重要参考。\n\n作为国内领先的汽车内容、工具与服务平台，懂车帝通过汽车资讯、专业测评和用户分享等多种内容，为用户提供覆盖选车、看车、买车和用车的服务。公开信息显示，截至 2025 年，懂车帝移动端日活跃用户已超过 1000 万，覆盖汽车兴趣用户超过 5 亿。面对车辆测评、用户原创内容和商业化投放等不同需求，平台需要高效处理来源多样、质量不一、用途各异的视频素材。\n\n在汽车内容消费持续升级的背景下，懂车帝接入火山引擎 AI MediaKit，搭建",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "中国首个！清华「龙虾老师」登上联合国讲台，GitHub暴涨3万星",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652724290&idx=1&sn=9c9d5094e3b4dfe05f92d1d26183de9e",
+      "published_at": "2026-09-09T03:57:00.000Z",
+      "summary": "ASI启示录 2026-09-09 11:57 北京\n\n中国AI教育引领全球\n\n### **新智元报道**\n\n打造出圈级AI「龙虾老师」的清华团队，这一次，在联合国的讲坛上开坛授课了！\n\n9月8日，巴黎，联合国教科文组织总部。\n\n现场，来自清华大学教育学院的张羽教授、助理教授于济凡，完成一场90分钟的AI教育实战——\n\n用一个开源项目，从零做出一门课。\n\n台下坐着的，是来自全球各地的教师、校长和政策制定者。\n\n这是有史以来第一次，中国AI教育智能体团队，站上了联合国的讲台！\n\n他们带来的，正是完全开源的OpenMAIC，圈里人熟悉的「教育龙虾」。\n\n3月开源仅30天，它便在GitHub迅速斩获",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple CEO John Ternus says the best AI device is still the iPhone",
+      "url": "https://techcrunch.com/2026/09/09/apple-ceo-john-ternus-says-the-best-ai-device-is-still-the-iphone/",
+      "published_at": "2026-09-09T17:36:05.000Z",
+      "summary": "The company also argued that its on-device models offer consumers more privacy.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
+      "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/",
+      "published_at": "2026-09-09T14:18:34.000Z",
+      "summary": "Falling token costs, cheaper models, and less spend per employee — AI adoption isn't playing out the way hyperscalers hoped.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Suno replaces its AI models with a new one trained on licensed music as copyright suits pile up",
+      "url": "https://techcrunch.com/2026/09/09/suno-replaces-its-ai-models-with-a-new-one-trained-on-licensed-music-as-copyright-suits-pile-up/",
+      "published_at": "2026-09-09T12:05:34.000Z",
+      "summary": "As it grapples with a bevy of lawsuits, Suno said its new model, Suno v6, is not trained using music it used to train previous versions of the AI model.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Massachusetts hits data centers with new clean power rules",
+      "url": "https://techcrunch.com/2026/09/09/massachusetts-hits-data-centers-with-new-clean-power-rules/",
+      "published_at": "2026-09-09T21:43:34.000Z",
+      "summary": "Massachusetts has become the third state in as many months to slap new restrictions on data center development.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Everything Apple announced at its fall iPhone event, from the foldable iPhone Duo to an always-listening Apple Watch",
+      "url": "https://techcrunch.com/2026/09/09/everything-apple-announced-at-its-fall-iphone-event-from-the-foldable-iphone-duo-to-an-always-listening-apple-watch/",
+      "published_at": "2026-09-09T20:03:43.000Z",
+      "summary": "The main event was the tech giant's highly anticipated first foldable phone, the iPhone Duo.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "The hinge for Apple’s new foldable phone was built with AI",
+      "url": "https://techcrunch.com/2026/09/09/the-hinge-for-apples-new-foldable-phone-was-built-with-ai/",
+      "published_at": "2026-09-09T19:21:48.000Z",
+      "summary": "Apple says it used AI and 3D printing in the manufacturing process for its long-awaited foldable phone.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Apple has a new way to prove your iPhone photos aren’t AI slop",
+      "url": "https://techcrunch.com/2026/09/09/apple-has-a-new-way-prove-your-iphone-photos-arent-ai-slop/",
+      "published_at": "2026-09-09T18:08:35.000Z",
+      "summary": "Apple introduced Apple Reference Image to help users determine whether photos have been edited, including alterations made by AI.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft has new AI privacy rules for schools",
+      "url": "https://www.theverge.com/policy/992359/microsoft-aft-schools-ai-privacy",
+      "published_at": "2026-09-09T17:07:48.000Z",
+      "summary": "Microsoft[agreed to a set of safety and privacy principles](https://news.microsoft.com/source/2026/09/09/aft-uft-and-microsoft-announce-national-ai-safety-privacy-standard-for-schools-to-protect-students-families-and-educators/)for AI in schools a week after two major school systems announced a ban ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Shipt becomes the latest delivery app with an AI shopping assistant",
+      "url": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/",
+      "published_at": "2026-09-09T14:51:45.000Z",
+      "summary": "Users can ask the assistant to do things like \"Create a cart for my Saturday tailgate for 25 people and include some brunch items,\" or \"Build a cart for easy school lunches and after-school snacks,\" Shipt says.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Students who use AI generally score worse at school",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991956/student-ai-use-scores-oecd-pisa",
+      "published_at": "2026-09-09T12:05:01.000Z",
+      "summary": "Students who use AI to help them study tend to perform worse at school than those who don't, according to data from a global OECD educational report. The situation is more complex than it sounds though, with certain types of AI use giving learners a slight boost, especially among students taught to ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "助听器躺赚三十年暴利，被 AI 打破了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113357&idx=1&sn=11ed1eae88415169f7a9d26b1e320886",
+      "published_at": "2026-09-09T11:37:00.000Z",
+      "summary": "徐珊 2026-09-09 19:37 北京\n\n​五大助听器品牌垄断 30 年，AI 能突破吗？\n\n本文转载自 Hardwire，欢迎关注，共同看见硬件行业新风向 👇\n\n五大助听器品牌 垄断 30 年，AI 能突破吗？ **作者｜徐珊** **编辑｜ **郑玄****\n\n一个塞在耳朵里的小东西，卖到十万一副，丢失甚至需要动用全城搜索？\n\n助听器，是一门奇特的生意。\n\n整个全球市场，近九成的助听器市场份额被五家外资公司把持：索诺瓦（峰力）、Demant（奥迪康）、WS 听力、瑞声达、斯达克。他们的旗舰产品在中国线下，一对要卖到七到十万块。即便是在美国本土，一副售价也要卖到三四万。而且过去二十年",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "全球疯狂「抢单」，中国智驾黑马浮现：蒋京芳为何选择neueHCT？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247920779&idx=1&sn=3ddcfd441b887d792f145b7c789f5896",
+      "published_at": "2026-09-09T11:12:00.000Z",
+      "summary": "原创关注前沿科技 2026-09-09 19:12 北京\n\n拿下数百万套全球平台订单\n\n##### 贾浩楠 发自 凹非寺 量子位 | 公众号 QbitAI\n\n新的浪潮下，即使在已经被认为技术、商业模式收敛的AI智驾赛道，也有出人意料的“黑马”涌现。\n\n智驾新程（neueHCT） ，这家 **地平线和欧摩威** **（即大陆集团汽车子集团）的合资智驾公司，之前在AI圈、车圈曝光量一直不算高，但这样的情况上个月被打破了：**\n\n**8月份，他们突然集中官宣了** 德系全球平台定点、头部自主出海项目 **——密集程度、客户“头部”含金量、主力车型覆盖，这在行业内确实不常见。**\n\n**一家公司** ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247920779&idx=4&sn=556bd81c0d3fee27c397e8ebbffb8e43",
+      "published_at": "2026-09-09T11:12:00.000Z",
+      "summary": "关注前沿科技 2026-09-09 19:12 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "10个技巧，让你的Workbuddy比别人好用！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804002&idx=1&sn=87e1bb073eab81af45c12f054b430b17",
+      "published_at": "2026-09-09T10:22:00.000Z",
+      "summary": "腾讯技术工程 2026-09-09 18:22 广东\n\n原来大家都在偷偷用这 10 招...\n\n作者： 腾讯WorkBuddy团队\n\n很多 人在使用 WorkBuddy 时，都可能遇到过：对话一长就开始出错；只想聊思路， 但直接生成了文件；技能装了不少，真正要用时反而不知道怎么选……\n\n此前，我们已经整理过一份WorkBuddy 的「从入门到精通」完整指南：从下载安装到基础使用， 再到进阶玩法与效率技巧，3 万字带你一步步摸清 WorkBuddy 的核心能力。无论你是 第一次接触，还是已经用过一段时间、想进一步解锁更多玩法，都可以在里面找到答案。\n\n想系统了解 WorkBuddy 怎么用，可以",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Batteries just broke another record in the US",
+      "url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
+      "published_at": "2026-09-09T09:00:00.000Z",
+      "summary": "Battery installations hit a new record in the US in the second quarter of 2026. In total, 20.2 gigawatt-hours of new capacity came online, according to a new report. That’s enough to supply the daily electricity needs of about 700,000 homes.\n\nThe surge is putting the country on a trajectory to see 7",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Understanding the thermal ceiling in portable power",
+      "url": "https://www.technologyreview.com/2026/09/09/1143279/understanding-the-thermal-ceiling-in-portable-power/",
+      "published_at": "2026-09-09T08:18:13.000Z",
+      "summary": "Plug a phone into a modern charger and the first 10 minutes are impressive. The next 20 are not.\n\nThis is not a defect. It’s the connected device protecting itself. As temperature rises during charging, a smartphone’s battery management system reduces the current it will accept, because heat acceler",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

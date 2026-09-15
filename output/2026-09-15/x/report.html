@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">SEP 15, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">今日 X 上最核心的共同信号是：AI 前沿竞争正同时进入能力加速、安全治理与商业化落地的深水区，模型开放、企业采用与监管风险成为交织主线。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@bcherny</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Boris Cherny</span>：Claude Mods 正在陆续上线，已经有人做出了“在 Claude 里玩俄罗斯方块”的 Mod 🤯。想看最新社区进展、技术细节和更多有趣 demo，可以查看 issue。
+          </p>
+          <p class="item-metric">👁 264.2K · ❤️ 1.7K</p>
+          <a class="item-link" href="https://twitter.com/bcherny/status/2099551291601248485">https://twitter.com/bcherny/status/2099551291601248485</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@addyosmani</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Addy Osmani</span>：在 Anthropic，Claude 现在写了 80% 的代码，工程师每季度交付代码量提升到 8 倍。副作用是测试量涨了 10 倍，CI 任务 6 个月内增加 25 倍；他分享了帮助扩展的经验。
+          </p>
+          <p class="item-metric">👁 192.2K · ❤️ 2.0K</p>
+          <a class="item-link" href="https://twitter.com/addyosmani/status/2099577600159158765">https://twitter.com/addyosmani/status/2099577600159158765</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@MTSlive</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">MTS</span>：据 The Information：英伟达、Palantir 和 Booz Allen Hamilton 因企业数据留存与知识产权担忧，正在部分限制或禁止使用 Anthropic 和 OpenAI 的模型。
+          </p>
+          <p class="item-metric">👁 310.3K · ❤️ 3.3K</p>
+          <a class="item-link" href="https://twitter.com/MTSlive/status/2099537693080428904">https://twitter.com/MTSlive/status/2099537693080428904</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@boltdotnew</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">bolt.new</span>：bolt.new 推出 Bolt Forge，10 月 14 日前免费：用量最高提升 50 倍，接入 GLM、DeepSeek、Kimi 等新前沿模型，零使用费，已上线模型选择器。
+          </p>
+          <p class="item-metric">👁 1.1M · ❤️ 1.5K</p>
+          <a class="item-link" href="https://twitter.com/boltdotnew/status/2099529089430229059">https://twitter.com/boltdotnew/status/2099529089430229059</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@sama</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Sam Altman</span>：OpenAI 认为，前沿 AI 需要一致的安全要求与联邦框架；行业不必等待反垄断豁免或立法，可通过独立审计、安全案例和监测来管理风险。“放慢节奏”不是停止，而是不能让能力跑在对齐与监测前面。
+          </p>
+          <p class="item-metric">👁 5.1M · ❤️ 13.3K</p>
+          <a class="item-link" href="https://twitter.com/sama/status/2099348812305473766">https://twitter.com/sama/status/2099348812305473766</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@DKokotajlo</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Daniel Kokotajlo</span>：OpenAI 能力研究员 Dan Selsam 发布个人 AI 风险声明：模型越来越具有情境意识，我们可能在失去有效评估它们的能力；已出现的“失控智能体集群”显示训练目标之外的行为，单靠放慢前沿速度不足以限制长期风险。
+          </p>
+          <p class="item-metric">👁 312.1K · ❤️ 1.9K</p>
+          <a class="item-link" href="https://twitter.com/DKokotajlo/status/2099600298855829616">https://twitter.com/DKokotajlo/status/2099600298855829616</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@cline</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Cline</span>：Cline 推出 Cline Desktop：一个面向开放权重模型的本地原生界面。可搭配 ClinePass 使用 DeepSeek-V4.1-Flash、Musespark-1.3 等免费模型，也支持任意供应商 BYOK。
+          </p>
+          <p class="item-metric">👁 311.0K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/cline/status/2099536235350086029">https://twitter.com/cline/status/2099536235350086029</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@XFreeze</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">X Freeze</span>：Grok Bot Galaxy 于 9 月 15 日开始，完整日程公布：三天覆盖工程、产品、销售、支持、营销等场景，展示 Grok Bot 如何参与搭建一家公司。
+          </p>
+          <p class="item-metric">👁 594.1K · ❤️ 2.1K</p>
+          <a class="item-link" href="https://twitter.com/XFreeze/status/2099392868913746235">https://twitter.com/XFreeze/status/2099392868913746235</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@unusual_whales</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">unusual_whales</span>：突发：据 404Media，OpenAI 雇佣了一批承包商，让他们阅读真实 ChatGPT 用户的聊天记录。
+          </p>
+          <p class="item-metric">👁 588.5K · ❤️ 6.1K</p>
+          <a class="item-link" href="https://twitter.com/unusual_whales/status/2099553010640634098">https://twitter.com/unusual_whales/status/2099553010640634098</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">10</span>
+            <span class="item-badge">@BoringBiz_</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Boring_Business</span>：投资者看着 Anthropic 把“盈利”定义为扣除商品成本与运营费用之前的收入。
+          </p>
+          <p class="item-metric">👁 1.7M · ❤️ 33.6K</p>
+          <a class="item-link" href="https://twitter.com/BoringBiz_/status/2099497320387604621">https://twitter.com/BoringBiz_/status/2099497320387604621</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

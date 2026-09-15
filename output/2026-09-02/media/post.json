@@ -1,0 +1,447 @@
+{
+  "generated_at": "2026-09-02T01:20:59.633Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 35,
+  "items": [
+    {
+      "source": "新智元",
+      "title": "马斯克狂赞！硅谷大佬惊呼：Grok Bot是下一个ChatGPT时刻",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652722026&idx=2&sn=0ee71d7f4ab8b5bfd29789d7138cc169",
+      "published_at": "2026-09-01T03:33:00.000Z",
+      "summary": "原创ASI启示录 2026-09-01 11:33 北京\n\n### **新智元报道**\n\n硅谷顶级投资人，在a16z对话中给出判断——\n\n**Grok Bot，就是又一次ChatGPT时刻！**\n\n在这个节目中，硅谷顶级投资机构Atreides的掌门人Gavin Baker，如此断言。\n\n他曾花了数小时，用Claude Code精心构建了一套工具流水线。\n\n然而，当他打开Grok Bot，仅仅用了3分钟跑出的版本，全面碾压前者！\n\n「做播客摘要、Substack摘要、X平台情绪追踪……以前用Claude Code每一项都要折腾好几个小时，而在Grok Bot里，每个任务只用了7到12秒，而且效",
+      "priority_score": 400,
+      "matched_keywords": [
+        "Claude",
+        "ChatGPT",
+        "GPT",
+        "Grok"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "ChatGPT Health adds Epic integration for clinicians to import patient data",
+      "url": "https://techcrunch.com/2026/09/01/chatgpt-health-adds-epic-integration-for-clinicians-to-import-patient-data/",
+      "published_at": "2026-09-01T17:00:00.000Z",
+      "summary": "OpenAI said that the integration provides read-only access to health records for clinicians.",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic launches Claude Fable 5.1 and says its up to 45 percent cheaper for agentic work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+      "published_at": "2026-09-01T22:01:36.000Z",
+      "summary": "Anthropic says its newest AI models,[Fable 5.1 and Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1), address criticisms from customers about price, data retention, and overzealous safeguards. The company claims[Claude Fable 5.1](https://platform.claude.com/docs/en/models/fable-5-1/",
+      "priority_score": 250,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI’s Astra model is on the way — and very good at breaking into computer systems",
+      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "published_at": "2026-09-01T21:06:24.000Z",
+      "summary": "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM.",
+      "priority_score": 250,
+      "matched_keywords": [
+        "OpenAI",
+        "LLM"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "A社故意黑化Opus，模拟入侵Hugging Face，抱抱脸：？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247917299&idx=2&sn=ed4657c30b38ea6d2a986b353912dc4b",
+      "published_at": "2026-09-01T05:33:00.000Z",
+      "summary": "原创关注前沿科技 2026-09-01 13:33 北京\n\nOpus：这一世，我黑化了......\n\n##### 程浅 发自 凹非寺 量子位 | 公众号 QbitAI\n\n咱说这老A社做研究的方式也真是挺邪门的……\n\nA社今早刚发了一项研究结果：\n\n他们自导自演，1:1还原了当时“OpenAI入侵HuggingFace事件”的全过程——\n\n**最终证明了自家的Opus模型也能成功入侵HuggingFace……**\n\n怎么个事？这也要比？？\n\nOpus：这一世，我黑化了，我要拿回上一世我本可以得到的一切。\n\n关注主播，免费看Opus（黑化版）复仇全集。\n\n## Anthropic的“养蛊”实验\n\n",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI delayed its new model’s development after the Hugging Face hack",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987695/openai-astra-unreleased-model-cybersecurity-delay",
+      "published_at": "2026-09-01T20:45:49.000Z",
+      "summary": "After an unreleased OpenAI model wreaked enough havoc to make international headlines, OpenAI delayed the development of a different unreleased model suite, Astra, in order to shore up its safety work, the company wrote Tuesday in a blog post.\n\nIn July, an unreleased OpenAI model broke out of its re",
+      "priority_score": 150,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s new Fable release is cheaper, less restrictive",
+      "url": "https://techcrunch.com/2026/09/01/anthropics-new-fable-release-is-cheaper-less-restrictive/",
+      "published_at": "2026-09-01T19:39:22.000Z",
+      "summary": "Fable 5.1 includes changes meant to reduce token cost and false-positive restrictions from the model's safeguards.",
+      "priority_score": 150,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AIR raises $50M to help companies vet the skills and add-ons AI agents use",
+      "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+      "published_at": "2026-09-01T15:45:51.000Z",
+      "summary": "AIR's platform can discover agents running at a company, continuously vets any skills and add-ons they use, and blocks any unwanted behavior.",
+      "priority_score": 146,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Sequoia-incubated Empirik launches with $21M to predict outages before they happen",
+      "url": "https://techcrunch.com/2026/09/01/sequoia-incubated-empirik-launches-with-21m-to-predict-outages-before-they-happen/",
+      "published_at": "2026-09-01T16:31:04.000Z",
+      "summary": "The startup wants to do for IT infrastructure what Cursor did for software engineering.",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Cursor"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "published_at": "2026-09-01T21:39:07.000Z",
+      "summary": "",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "字节跳动技术团队",
+      "title": "VLDB 2026｜字节数据库 5 篇论文入选，附现场分享安排",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247521958&idx=1&sn=c7c173ceb0fbf6827a6cf448e4380d0f",
+      "published_at": "2026-09-01T09:00:00.000Z",
+      "summary": "字节跳动数据库 2026-09-01 17:00 北京\n\n作为数据管理与数据库系统领域最具影响力的国际会议之一，VLDB 2026 于当地时间 8 月 31 日‑9 月 4 日，在美国波士顿拉开帷幕。字节跳动数据库团队今年共有 **5 篇论文入选** ，方向涵盖键值分离存储引擎、写入下推、Agentic LLM 数据准备、时序图社区搜索、GPU 子图匹配。\n\n**5 篇入选论文一览：**\n\n1. **Terark-DS** ｜面向存算分离的高性能键值分离存储引擎。 写入吞吐提升 20.4%–63.9%，总成本降幅 22.7%–58.6%，已在字节存算分离架构上大规模部署。\n2. **WOP（W",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "The rise of AI civilizations and the fall of corporate responsibility",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987566/ai-civilizations-opeai-hugging-face-hack",
+      "published_at": "2026-09-01T19:02:54.000Z",
+      "summary": "Depending on who you ask, developer platform Hugging Face was recently attacked by OpenAI - after it lost control of its own AI tools - or by a succession of AI \"civilizations.\" Welcome to the linguistic battlefield of AI safety, where word choices can shift responsibility for a massive cybersecurit",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Apple accuses OpenAI of destroying evidence",
+      "url": "https://www.theverge.com/tech/987575/apple-openai-destroying-evidence-trade-secrets-lawsuit",
+      "published_at": "2026-09-01T18:19:26.000Z",
+      "summary": "Apple is pushing for \"expedited discovery\" in its legal battle against OpenAI over concerns the company is actively destroying evidence, as[reported earlier by, Bloomberg](https://www.bloomberg.com/news/articles/2026-08-31/apple-says-openai-is-destroying-evidence-in-trade-secrets-case). In[a filing ",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: engineered microbes for crops, and OpenAI’s culture problem",
+      "url": "https://www.technologyreview.com/2026/09/01/1143199/the-download-engineered-microbes-openai-safety-culture/",
+      "published_at": "2026-09-01T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### How engineered microbes",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "CUDA 20年护城河被打破！0代码、0人类，AI 14天造出真芯片",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652722026&idx=1&sn=7f5e7d4e3daf9f465de9dd017a032d00",
+      "published_at": "2026-09-01T03:33:00.000Z",
+      "summary": "原创ASI启示录 2026-09-01 11:33 北京\n\n### **新智元报道**\n\n就在刚刚， OpenAI工程师承认，已经看不懂AI写的代码了。\n\nSemiAnalysis爆料说，在查看自家自研芯片的底层代码时， OpenAI工程师 无奈地承认：人类已经彻底无法理解AI生成的代码了。\n\n更惊人的是，几乎就在同一时间，硅谷Architect Labs团队，扔出可能摧毁整个半导体行业的论文：\n\n**两名人类工程师，仅仅用自然语言写了写高层规格说明书，AI 就在两周之内，零人工介入、从零生成了一颗能跑大模型的真实芯片硬件！**\n\n英伟达的CUDA护城河，直接被破解了。\n\n标题：Redwood",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "DeepMind AlphaEvolve再破纪录：矩阵乘法指数40年最低！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652722026&idx=3&sn=cbbd3227761fa83f9396863d82dcc654",
+      "published_at": "2026-09-01T03:33:00.000Z",
+      "summary": "原创ASI启示录 2026-09-01 11:33 北京\n\n算法自己进化，人类纪录被改写\n\n### **新智元报道**\n\nAlphaEvolve再次刷新记录！\n\n谷歌云首席科学家、DeepMind副总裁Pushmeet Kohli官宣：\n\n矩阵乘法的最快理论速度再次被刷新！\n\n矩阵乘法是现代计算的「暗物质」——它驱动着从图形渲染到大规模神经网络训练的一切，却至今无人真正知道它的理论最快速度。\n\n这个速度由指数ω定义：把两个n×n矩阵相乘的渐近复杂度是 O(n^ω)。\n\n教科书算法给出ω=3，1969年德国数学家Volker Strassen把它降到约2.807。\n\n此后半个多世纪，逐渐把上界一",
+      "priority_score": 100,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "AfterQuery reportedly becomes Y Combinator’s fastest-ever unicorn, now valued at $3.2B",
+      "url": "https://techcrunch.com/2026/09/01/afterquery-reportedly-becomes-y-combinators-fastest-ever-unicorn-now-valued-at-3-2b/",
+      "published_at": "2026-09-01T22:08:24.000Z",
+      "summary": "AI model-training startup AfterQuery has reportedly raised a round that valued it at $3.2 billion, just five months after announcing its $30 million Series A at a $300 million valuation in April.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "硬件加强版「WorkBuddy」，拿下数亿融资，瞄向你的终极上下文",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113014&idx=1&sn=17ece999ee94255575d1777ce0e56a0d",
+      "published_at": "2026-09-01T06:22:00.000Z",
+      "summary": "苏子华 2026-09-01 14:22 湖北\n\n你的电脑屏幕，从未如此重要。\n\n本文转载自 Hardwire，欢迎关注，共同看见硬件行业新风向 👇\n\n你的电脑屏幕，从未如此重要。\n\n**作者｜苏子华** **编辑｜ **靖宇****\n\n现场体验过 Violoop 之后，很多关于未来的「AI 助手」该长什么样、能做些什么、能力的极限究竟在哪的困惑，可能都会迎刃而解。\n\n因为 Violoop 已经把它们变成了现实。\n\n**Violoop 实物图｜图片来源：Violoop**\n\nVioloop 是一款巴掌大小的硬件，即插即用，V4 版本通过一根 Type-C 线连在电脑上，不挤占电脑的 CPU/",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s Android update tackles motion sickness, accessibility, and more",
+      "url": "https://techcrunch.com/2026/09/01/googles-android-update-tackles-motion-sickness-accessibility-and-more/",
+      "published_at": "2026-09-01T20:53:05.000Z",
+      "summary": "While some of the features see Google playing catch-up to Apple, which already offers similar features for iPhone users, others specifically leverage Gemini to provide various improvements.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "published_at": "2026-09-01T20:45:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/August_AI_Recap_social.max-600x600.format-webp.webp\">Here are Google’s latest AI updates from August 2026",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "How AI plotted an interstellar journey to Alpha Centauri",
+      "url": "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/",
+      "published_at": "2026-09-01T19:10:36.000Z",
+      "summary": "A nonprofit organization called the[Fermi Explorer Mission](https://www.youtube.com/watch?v=PnlvzNy2uUQ&amp;feature=youtu.be)announced today that it intends to launch a spacecraft to our nearest star system by the end of 2029. \n\nIt’s a hugely ambitious mission—if all goes well, the spacecraft could ",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "John Deere launched an AI chatbot for farmers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/987486/john-deere-jd-ai-chatbot",
+      "published_at": "2026-09-01T16:00:52.000Z",
+      "summary": "John Deere is testing a new[\"JD\" AI assistant](https://www.deere.com/en-us/privacy-data/data-services/your-data#meet-jd)that it says can help farmers make more money, with answers about best practices and historical trends that are based on their own data. It uses their \"field, machine and operation",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Amazon Alexa can now alert you when something new might tempt you to shop",
+      "url": "https://techcrunch.com/2026/09/01/amazon-alexa-can-now-alert-you-when-something-new-might-tempt-you-to-shop/",
+      "published_at": "2026-09-01T15:51:55.000Z",
+      "summary": "Amazon is adding a new Alexa-powered feature called “Update Me When” that can send personalized alerts about product launches, tours, books, shows, and other events that could trigger a purchase.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Fambot introduces an ‘AI chief of staff’ for families",
+      "url": "https://techcrunch.com/2026/09/01/fambot-introduces-an-ai-chief-of-staff-for-families/",
+      "published_at": "2026-09-01T15:10:58.000Z",
+      "summary": "Fambot is building an AI “chief of staff” to help families manage the emails, calendars, school updates, sports schedules, and other logistics of raising kids.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Nvidias controversial DLSS 5 arrives September 3rd and requires serious GPU horsepower",
+      "url": "https://www.theverge.com/tech/986378/nvidia-dlss-5-launch-nba-2k27",
+      "published_at": "2026-09-01T13:00:00.000Z",
+      "summary": "Nvidia is officially launching DLSS 5 this week, following a divisive announcement in March where we likened the AI upscaling tech to a[\"real-time generative AI filter for video games\"](https://www.theverge.com/news/895472/nvidia-dlss5-generative-ai-pc-graphics)and[\"motion smoothing for video games,",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google needs Hollywood more than the studios need AI",
+      "url": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai",
+      "published_at": "2026-09-01T22:50:29.000Z",
+      "summary": "Google has[reportedly been reaching out](https://www.latimes.com/entertainment-arts/business/story/2026-08-31/how-google-is-courting-hollywood-to-use-its-ai-tools)to a number of Hollywood's biggest studios,  hoping to strike licensing agreements that would allow it to train its AI models on copyrigh",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Introducing agentic video understanding with Gemini",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "published_at": "2026-09-01T17:08:51.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "published_at": "2026-09-01T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GooglePics_Hero.max-600x600.format-webp.webp\">Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s answer to Canva is an AI tool where you prompt instead of design",
+      "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+      "published_at": "2026-09-01T17:35:37.000Z",
+      "summary": "With Google Pics, Google is pushing deeper into the creative software market dominated by Canva and Adobe, but with a distinctly AI-first approach.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google Pics is like Canva, but with even more AI",
+      "url": "https://www.theverge.com/tech/987423/google-pics-ai-image-editor-generator",
+      "published_at": "2026-09-01T16:00:00.000Z",
+      "summary": "Google wants Workspace users to edit and generate their business imagery with Pics. | Image: Google\nGoogle has a new suite of creative design tools for Workspace users called Google Pics, which aims to make editing and generating \"professional-grade\" AI images less cumbersome for businesses. Built a",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Making the AI-powered case for legacy modernization",
+      "url": "https://www.technologyreview.com/2026/09/01/1142180/making-the-ai-powered-case-for-legacy-modernization/",
+      "published_at": "2026-09-01T14:00:00.000Z",
+      "summary": "For years, legacy technology has been a problem companies knew they needed to solve, but one they often struggled to tackle. The cost, complexity, and risk of replacing business-critical systems could make modernization feel like a disruption to manage instead of an opportunity to pursue. But with t",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "梅卡曼德上市，具身智能又跑出一家百亿公司",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113027&idx=1&sn=49b793aabeb35c8510acc9b32516b72d",
+      "published_at": "2026-09-01T11:46:00.000Z",
+      "summary": "原创Li Yuan 2026-09-01 19:46 北京\n\n十年前形成的产品路线，今天究竟会成为它的基础，还是限制。\n\n**作者｜Li Yuan** **编辑｜ **郑玄****\n\n2026 年 9 月 1 日，梅卡曼德登陆港交所。一个过去很少被大众看见的机器人公司，终于被公开市场标出了价格，首日收盘 **总市值约 124 亿港元。**\n\n上市之前，一级市场和基石投资者已经先给出了自己的判断。梅卡曼德此次引入包括苏格兰百年资管巨头 Baillie Gifford 在内的 9 家基石投资者，合计认购 1.86 亿美元。\n\n成立于 2016 年，梅卡曼德和宇树一样，都是上一轮机器人创业潮里走出来",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "How engineered microbes could help feed the world’s crops",
+      "url": "https://www.technologyreview.com/2026/09/01/1143195/microbe-fertilizer-switch-bioworks/",
+      "published_at": "2026-09-01T09:00:00.000Z",
+      "summary": "Fertilizer is crucial for the global food supply, but making it uses a lot of energy and produces a lot of emissions. Some companies hope microbes can help.\n\nA growing body of research shows that seeding the soil around a crop’s roots with beneficial microbes can help feed the plant, providing cruci",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "“没有Token的CS学生，应立即退学”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247917299&idx=1&sn=ecdb9bfd3ed5b530adc183d650a7f5de",
+      "published_at": "2026-09-01T05:33:00.000Z",
+      "summary": "关注前沿科技 2026-09-01 13:33 北京\n\n禁止古法编程、Token自费\n\n##### 听雨 发自 凹非寺 量子位 | 公众号 QbitAI\n没有Token的CS学生，应立即退学！\n这句暴论，出自南京大学计算机学院副教授 **蒋炎岩** 今年秋季新开设的《生成式软件工程》课程中。\n\n好家伙，现在国内高校的计算机系已经卷到「自费烧Token」了？\n\n知乎相关问题随即冲上热榜，目前已经引来了四百多个回答。\n\n但我仔细看了看，底下持赞成意见的人居多。\n\n而且大家看起来都很有共鸣：\n\n网友A：这话说得太保守了，我建议大学取消所有课堂，把省下来的课时费全部用来采购Token，按人头发给学生。",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247917299&idx=3&sn=0b99ef151385f5097c2b1b37b7823872",
+      "published_at": "2026-09-01T05:33:00.000Z",
+      "summary": "关注前沿科技 2026-09-01 13:33 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

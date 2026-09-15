@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-09-03",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日榜单几乎被 AI 智能体生态霸屏，尤其是面向编码智能体的技能、性能优化与开发工作流工具最为突出。",
+  "items": [
+    {
+      "repo": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM（Time Series Foundation Model）是 Google Research 开发的预训练时间序列基础模型，用于时间序列预测。",
+      "language": "Python",
+      "stars_today": 343,
+      "stars_total": 29744
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "让你的 AI 智能体像团队里最懒的高级工程师一样思考。最好的代码是你从未写过的代码。",
+      "language": "JavaScript",
+      "stars_today": 1354,
+      "stars_total": 121477
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio 是开源的、完全本地的 ElevenLabs 替代品——支持 646 种语言的语音克隆、语音设计、视频配音、听写、转写与有声书创作。",
+      "language": "Python",
+      "stars_today": 832,
+      "stars_total": 14669
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "面向编码智能体的 Chrome DevTools。",
+      "language": "TypeScript",
+      "stars_today": 148,
+      "stars_total": 50626
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "与你一同成长的智能体。",
+      "language": "Python",
+      "stars_today": 533,
+      "stars_total": 240111
+    },
+    {
+      "repo": "pacifio/atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "description": "面向智能体的源代码控制。可同时使用多个编码智能体，在一个地方跟踪它们的更改并查询它们。",
+      "language": "Rust",
+      "stars_today": 888,
+      "stars_total": 2857
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "为 Claude Code 打造的学术研究技能：研究 → 写作 → 审阅 → 修订 → 定稿。",
+      "language": "Python",
+      "stars_today": 799,
+      "stars_total": 45544
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "面向智能体 harness 的性能优化系统。为 Claude Code、Codex、Opencode、Cursor 等提供技能、直觉、记忆、安全与研究优先的开发能力。",
+      "language": "JavaScript",
+      "stars_today": 516,
+      "stars_total": 246317
+    },
+    {
+      "repo": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "智能体技能：从文本中清除 AI 生成的痕迹。",
+      "language": "Python",
+      "stars_today": 374,
+      "stars_total": 40350
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 为什么用很多 token，而少量 token 就能达到同样的效果——Claude Code 技能，像穴居人一样说话可削减 65% 的 token。",
+      "language": "Go",
+      "stars_today": 238,
+      "stars_total": 102624
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "真正工程师用的技能，直接来自我的 .agents 目录。",
+      "language": "Shell",
+      "stars_today": 1166,
+      "stars_total": 245206
+    },
+    {
+      "repo": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "description": "随处可运行，可使用任何东西。",
+      "language": "TypeScript",
+      "stars_today": 775,
+      "stars_total": 31969
+    }
+  ]
+}

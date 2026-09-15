@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-09-08",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "今天最清晰的共同信号是：从 GPT-6 Astra 的代码与科学应用、Grok 4.7 的逼近，到 ChatGPT Work 进入真实工作流，AI 正以“AGI 时代已来”的姿态快速落地，同时安全警告与“是否被高估”的争论也在同步放大。",
+  "items": [
+    {
+      "id": "2096794565499883839",
+      "author_name": "Greg Brockman",
+      "author_handle": "gdb",
+      "text": "这是一篇关于 AI 现状以及 OpenAI、整个行业和世界正面临的选择与挑战的重要文章：我们已进入 AGI 时代，未来几年需要严肃、审慎地共同应对，未来可以比过去好得多。",
+      "url": "https://twitter.com/gdb/status/2096794565499883839",
+      "view_count": 352898,
+      "like_count": 2640
+    },
+    {
+      "id": "2096872309936287887",
+      "author_name": "Dwayne",
+      "author_handle": "CtrlAltDwayne",
+      "text": "把 PS2 版《Simpsons Hit and Run》逆向工程后用 three.js 重建成网页版；这全靠 GPT-6 Astra 在 xhigh 推理模式下完成，花了我大量用量，最棒的是开源了。",
+      "url": "https://twitter.com/CtrlAltDwayne/status/2096872309936287887",
+      "view_count": 145187,
+      "like_count": 1960
+    },
+    {
+      "id": "2097004044778602642",
+      "author_name": "Christoffer Bjelke",
+      "author_handle": "chribjel",
+      "text": "顺带一提，Grok 4.7 快照刚结束训练，团队目前正在测试。",
+      "url": "https://twitter.com/chribjel/status/2097004044778602642",
+      "view_count": 50456,
+      "like_count": 2121
+    },
+    {
+      "id": "2096873745420075020",
+      "author_name": "Greg Diamos",
+      "author_handle": "GregoryDiamos",
+      "text": "我认为应该重新审视那些“小到离谱”的神经网络：我为了数据处理需要一个 10k tok/s 的 CPU 模型，便让 Anthropic Claude Code 用大量 token 去构建，结果得到三个有趣的发现。",
+      "url": "https://twitter.com/GregoryDiamos/status/2096873745420075020",
+      "view_count": 119878,
+      "like_count": 2096
+    },
+    {
+      "id": "2097018264048251309",
+      "author_name": "ChatGPT",
+      "author_handle": "ChatGPT",
+      "text": "ChatGPT Work 现在能识别那些让你文风像“你”的特征：常用短语、专属落款、大小写怪癖；连接 Gmail、Google Drive、Slack 与 SharePoint 后，它会从邮件、消息和文件中学习你的写作风格，并带进你接下来写的内容。",
+      "url": "https://twitter.com/ChatGPT/status/2097018264048251309",
+      "view_count": 474673,
+      "like_count": 5182
+    },
+    {
+      "id": "2096989299509969210",
+      "author_name": "Kirill",
+      "author_handle": "kegashin",
+      "text": "我在帮 GPT-6 Astra 成为 AGI。",
+      "url": "https://twitter.com/kegashin/status/2096989299509969210",
+      "view_count": 761457,
+      "like_count": 31708
+    },
+    {
+      "id": "2096810883100074188",
+      "author_name": "Jun Song",
+      "author_handle": "jun_song",
+      "text": "我原本想象的 AGI 是爱因斯坦级智能加海量算力，能治愈疾病、推动科学指数级进步并开启人类新时代；但现在人们把会玩 Blender、操作电脑、订理发店的 AI 就称为 AGI。我尊重黄仁勋，但他的生意依赖向所有 AI 公司卖硬件，当然要配合这套营销。",
+      "url": "https://twitter.com/jun_song/status/2096810883100074188",
+      "view_count": 151334,
+      "like_count": 2545
+    },
+    {
+      "id": "2096786161981366338",
+      "author_name": "lauren",
+      "author_handle": "poteto",
+      "text": "Grok Bot 桌面端本周大幅提速：冷启动到可用界面快约 18%，冷启动 LCP 快约 23%，FCP 快约 16%，主线程总阻塞时间减少 34%；还有继续优化的空间，祝长假中用 Grok Bot 愉快构建。",
+      "url": "https://twitter.com/poteto/status/2096786161981366338",
+      "view_count": 532106,
+      "like_count": 2888
+    },
+    {
+      "id": "2096762034037682391",
+      "author_name": "Kalshi",
+      "author_handle": "Kalshi",
+      "text": "突发：OpenAI 科学家警告，机器智能正开始超越人类。",
+      "url": "https://twitter.com/Kalshi/status/2096762034037682391",
+      "view_count": 160636,
+      "like_count": 3443
+    },
+    {
+      "id": "2096776615258910934",
+      "author_name": "forloop",
+      "author_handle": "forloopcodes",
+      "text": "据推算，GPT-6 Astra 约 1.2T 活跃参数、总参数约 10–14T；预训练或在 10 万张以上 GPU 上进行约 100 天，算力约 4e26 至 1.5e27 FLOPs。相比前代 Sol 约 1.7 倍的定价说明，其活跃参数增幅约为 1.5–2.5 倍，而非 10 倍。",
+      "url": "https://twitter.com/forloopcodes/status/2096776615258910934",
+      "view_count": 404682,
+      "like_count": 2235
+    }
+  ]
+}

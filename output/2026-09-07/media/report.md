@@ -1,0 +1,33 @@
+# 媒体资讯
+
+今日 AI 重点包括奥特曼证实 GPT-6 早已训练完、新闻机构起诉 OpenAI 与微软侵权、Anthropic 和解金分配引作者不满，以及国产大模型厂商准备入驻天猫销售 Token。
+
+### [奥特曼：GPT-6 早已训练完，更强的模型很快发布](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247919381&idx=2&sn=004cb0657b179aa89107176ebfa950aa)
+*量子位* · 2026-09-06
+
+奥特曼：GPT-6 早已训练完，更强的模型很快发布：奥特曼透露 GPT-6 Astra 其实早已训练完成，此前因安全问题暂停训练的是未来的模型，而非 GPT-6；能力显著更强的模型很快就会发布。
+
+### [《西雅图时报》与《新闻日报》起诉 OpenAI 和微软侵权](https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft)
+*The Verge AI* · 2026-09-06
+
+《西雅图时报》与《新闻日报》起诉 OpenAI 和微软侵权：两家美国报纸指控 OpenAI 和微软在未经授权的情况下使用其新闻作品，并因此提起版权侵权诉讼。
+
+### [作者反对出版商与代理机构索取 Anthropic 和解金份额](https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/)
+*TechCrunch AI* · 2026-09-06
+
+作者反对出版商与代理机构索取 Anthropic 和解金份额：作者群体认为，出版商和代理机构在 Anthropic 和解款项中要求的份额超过了应得比例，因此提出异议。
+
+### [Kimi、MiniMax 等将在天猫开店销售 Token，OpenAI 回应 Agent 攻击德国网站](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113208&idx=1&sn=9e1f7a7a30522b1f04454ea5f1262a3e)
+*极客公园* · 2026-09-06
+
+Kimi、MiniMax 等将在天猫开店销售 Token，OpenAI 回应 Agent 攻击德国网站：上海证券报独家消息称，Kimi、MiniMax、阶跃星辰等大模型厂商正与天猫接洽，准备开设官方旗舰店销售 Token 订阅套餐；OpenAI 也回应了 Agent 攻击德国网站一事。
+
+### [AI Agent 判断是否使用你的软件只需 500 个 Token](https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113214&idx=1&sn=d6672f7f11292648a5e6b6732fe700bd)
+*极客公园* · 2026-09-06
+
+AI Agent 判断是否使用你的软件只需 500 个 Token：文章以 Cursor、Claude Code、Windsurf、Gemini CLI 等编码 Agent 为例指出，很多开发者遇到的集成失败未必是模型不够聪明，而是产品本身不适合被 Agent 调用。
+
+### [GPT-6 的最佳搭档是字节 Seedance](https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247919381&idx=1&sn=a713c05891cf637b94b2cddbd0bddc69)
+*量子位* · 2026-09-06
+
+GPT-6 的最佳搭档是字节 Seedance：在文章展示的 AI 视频中，GPT-6 负责写故事、搭场景、安排演员与镜头并完成分镜，字节 Seedance 2.5 负责生成画面并剪辑成片。

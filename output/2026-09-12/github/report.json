@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-09-12",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日热榜最热的方向是 AI 编码代理与代理技能生态：从约束代理输出、本地优先的编码代理桌面端，到技能框架、规格驱动开发工具链和代理驱动的研究知识库，都在围绕“让代理真正干活”展开。",
+  "items": [
+    {
+      "repo": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "阻止你的编码代理把答案埋在长篇废话里的技能，输出方式对 ADHD 友好。",
+      "language": "Python",
+      "stars_today": 3463,
+      "stars_total": 41742
+    },
+    {
+      "repo": "melgarafael/DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "description": "开源 AI 销售 OS——自托管 CRM，自带原生 AI 代理与 WhatsApp（WAHA），是 Kommo、Octadesk 和 Intercom 的开源替代，适合任何靠聊天成交的业务，MCP-ready、多租户、符合 LGPD。",
+      "language": "TypeScript",
+      "stars_today": 152,
+      "stars_total": 1328
+    },
+    {
+      "repo": "vastsa/PI-Desktop",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "description": "本地优先的 AI 编码代理桌面端：Electron + Rust 宿主核心 + pi Agent Harness + 用户可自行安装的插件。",
+      "language": "TypeScript",
+      "stars_today": 552,
+      "stars_total": 2767
+    },
+    {
+      "repo": "alsk1992/CloddsBot",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "description": "可在 1000+ 市场自主运行的开源 AI 交易代理——覆盖 Polymarket、Kalshi、Binance、Hyperliquid、Solana DEX 与 5 条 EVM 链，寻找套利机会、即时执行、在你睡觉时管理风险，自托管，基于 Claude 构建。",
+      "language": "TypeScript",
+      "stars_today": 626,
+      "stars_total": 2139
+    },
+    {
+      "repo": "nashsu/llm_wiki",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "description": "LLM Wiki 是一款跨平台桌面应用，把你的文档自动变成有组织、相互链接的知识库——不再像传统 RAG 那样每次都从头检索作答，而是由 LLM 增量构建并维护一个持久的 wiki。",
+      "language": "TypeScript",
+      "stars_today": 647,
+      "stars_total": 18721
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "一套真正好用的代理技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 729,
+      "stars_total": 285358
+    },
+    {
+      "repo": "jihe520/MathModelAgent",
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "description": "专为数学建模设计的 Agent 与技能，自动完成数学建模并生成一份完整、可直接提交的论文。",
+      "language": "Python",
+      "stars_today": 129,
+      "stars_total": 4851
+    },
+    {
+      "repo": "jordan-gibbs/hyperresearch",
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "description": "代理驱动的研究知识库：代理收集、检索并把网络研究综合成持久、可搜索的 wiki。",
+      "language": "Python",
+      "stars_today": 153,
+      "stars_total": 2592
+    },
+    {
+      "repo": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "用任意模型并行运行研究代理。",
+      "language": "Rust",
+      "stars_today": 120,
+      "stars_total": 1263
+    },
+    {
+      "repo": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "description": "💫 帮你上手规格驱动开发（Spec-Driven Development）的工具包。",
+      "language": "Python",
+      "stars_today": 1015,
+      "stars_total": 135761
+    },
+    {
+      "repo": "pascalorg/editor",
+      "url": "https://github.com/pascalorg/editor",
+      "description": "开源 3D 建筑编辑器，带本地 CLI、MCP 工具，以及面向人类与 AI 代理的实用工作流。",
+      "language": "TypeScript",
+      "stars_today": 106,
+      "stars_total": 23587
+    }
+  ]
+}

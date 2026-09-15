@@ -1,0 +1,98 @@
+{
+  "report_date": "2026-09-12",
+  "section": "x",
+  "title": "X 热点",
+  "summary": "今日最核心的共同信号是，AI 行业一边加速推出智能体与开发工具，一边在安全、蒸馏争议和商业模式上暴露出越来越公开的分歧。",
+  "items": [
+    {
+      "id": "2098392170197561573",
+      "author_name": "Dean W. Perkins",
+      "author_handle": "deanwperkins",
+      "text": "一位 Google Cloud 工程师演示了如何用 Claude 从零搭建完整应用：26 分钟、全程直播，做到很多团队要花数周才能上线。他说这比任何 500 美元的 vibe-coding 课程都值，真正掌握 Claude 的人正在直接交付别人外包给团队的东西。",
+      "url": "https://twitter.com/deanwperkins/status/2098392170197561573",
+      "view_count": 765618,
+      "like_count": 2248
+    },
+    {
+      "id": "2098238138334548260",
+      "author_name": "Tibo",
+      "author_handle": "thsottiaux",
+      "text": "按需扩展智能体。Tibo 说这基本就是支撑 ChatGPT Work 的基础设施，现在封装成 API，不到 1 分钟就能上手，祝大家构建愉快。",
+      "url": "https://twitter.com/thsottiaux/status/2098238138334548260",
+      "view_count": 963457,
+      "like_count": 4547
+    },
+    {
+      "id": "2098378389497463169",
+      "author_name": "Jun Song",
+      "author_handle": "jun_song",
+      "text": "Anthropic 抱怨蒸馏很荒谬：他们自己先爬遍全网、用人类最稀有的书训练，然后又烧掉；他们才是非法蒸馏全人类知识的一方。",
+      "url": "https://twitter.com/jun_song/status/2098378389497463169",
+      "view_count": 55209,
+      "like_count": 3101
+    },
+    {
+      "id": "2098218692396163274",
+      "author_name": "ollama",
+      "author_handle": "ollama",
+      "text": "ChatGPT 桌面端（Codex 应用）现在可以配置使用 Ollama 模型。下载或更新到 Ollama 0.34 即可开始。",
+      "url": "https://twitter.com/ollama/status/2098218692396163274",
+      "view_count": 100295,
+      "like_count": 1309
+    },
+    {
+      "id": "2098233797745725882",
+      "author_name": "tetsuo",
+      "author_handle": "tetsuoai",
+      "text": "SpaceXAI 将于 9 月 15–17 日直播三人团队用 Grok Bot 从零搭建一整家公司：从创意、商业计划、产品决策到工程实现，观众全程围观。活动 Grok Bot Galaxy 还包括现场演示和实操课程，覆盖工程、产品、销售、营销、客服与创始人用例；线上或旧金山现场均需注册。",
+      "url": "https://twitter.com/tetsuoai/status/2098233797745725882",
+      "view_count": 2688366,
+      "like_count": 2916
+    },
+    {
+      "id": "2098259696943767897",
+      "author_name": "vas",
+      "author_handle": "vasuman",
+      "text": "Anthropic：我们要灭了你；OpenAI：我们先灭你。Meta：不如把 iMessage 数据也给我们；Google：🚨我们的最新模型刚刚击败 Claude 3.5 Haiku🚨。",
+      "url": "https://twitter.com/vasuman/status/2098259696943767897",
+      "view_count": 515056,
+      "like_count": 25408
+    },
+    {
+      "id": "2098478103852966288",
+      "author_name": "Polymarket",
+      "author_handle": "Polymarket",
+      "text": "最新消息：据报道，Sam Altman 已告诉 OpenAI 员工，他愿意放慢前沿 AI 的开发速度。",
+      "url": "https://twitter.com/Polymarket/status/2098478103852966288",
+      "view_count": 152487,
+      "like_count": 1883
+    },
+    {
+      "id": "2098405396360687752",
+      "author_name": "Quiver Quantitative",
+      "author_handle": "QuiverQuant",
+      "text": "最新消息：ChatGPT 现在可以拉取政客、对冲基金和内部人士的股票交易数据，用来识别可疑交易、构建自己的工具等。下面是如何连接……",
+      "url": "https://twitter.com/QuiverQuant/status/2098405396360687752",
+      "view_count": 146879,
+      "like_count": 1272
+    },
+    {
+      "id": "2098256018836963382",
+      "author_name": "Kun Chen",
+      "author_handle": "kunchenguid",
+      "text": "Kun Chen 实测各 LLM 订阅的真实 token 价值：SuperGrok Heavy 最高，约 1.2 万美元 token，ROI 约 40 倍；OpenAI 和 Anthropic 的 200 美元套餐大致都是 7000 美元上下；Cursor Ultra 在主流订阅中 ROI 最低，约只有前两者一半，对个人消费者恐怕已不划算。测量在干净环境中跑完各供应商 5 个配额百分点，按 API 价格折算；只算编程 agent 配额，不包含聊天机器人或 Grok Bot，也不保证未来不变。",
+      "url": "https://twitter.com/kunchenguid/status/2098256018836963382",
+      "view_count": 162974,
+      "like_count": 1588
+    },
+    {
+      "id": "2098300998968357218",
+      "author_name": "Tibo",
+      "author_handle": "thsottiaux",
+      "text": "下周我们将退役 GPT-5.3-Codex-Spark。你敢信我们真给模型起了这种名字吗！它跑得不错也很有趣，但使用量在下降，而且我们现在有更好的模型。该给未来腾位置了。",
+      "url": "https://twitter.com/thsottiaux/status/2098300998968357218",
+      "view_count": 1240660,
+      "like_count": 13871
+    }
+  ]
+}

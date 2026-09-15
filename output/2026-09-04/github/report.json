@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-09-04",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "本期 GitHub 趋势中最热的共同方向是 AI 智能体生态，尤其是面向 Claude Code、Codex、Hermes、OpenClaude 等工具的 Agent Skills、token 优化与本地推理能力。",
+  "items": [
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "给真实工程师准备的 Skills，直接取自我的 .agents 目录。",
+      "language": "Shell",
+      "stars_today": 1601,
+      "stars_total": 247339
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "与你一同成长的智能体。",
+      "language": "Python",
+      "stars_today": 774,
+      "stars_total": 240825
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "让 AI 智能体像房间里最懒的资深开发者一样思考：最好的代码是你不曾写下的代码。",
+      "language": "JavaScript",
+      "stars_today": 2128,
+      "stars_total": 123380
+    },
+    {
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Anthropic 的 Agent Skills 公共仓库。",
+      "language": "Python",
+      "stars_today": 281,
+      "stars_total": 173639
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "智能体运行框架（agent harness）性能优化系统，为 Claude Code、Codex、Opencode、Cursor 等提供技能、直觉、记忆、安全与研究优先的开发能力。",
+      "language": "JavaScript",
+      "stars_today": 751,
+      "stars_total": 247164
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 为什么要用很多 token，明明少量 token 就能办成——一个像穴居人一样说话的 Claude Code Skill，可削减 65% 的 token。",
+      "language": "Go",
+      "stars_today": 543,
+      "stars_total": 103084
+    },
+    {
+      "repo": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "可去除文本中 AI 生成痕迹的 Agent Skill。",
+      "language": "Python",
+      "stars_today": 1208,
+      "stars_total": 41453
+    },
+    {
+      "repo": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM（Time Series Foundation Model）是由 Google Research 开发的预训练时间序列基础模型，用于时间序列预测。",
+      "language": "Python",
+      "stars_today": 1618,
+      "stars_total": 30695
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "为 AI 编程智能体准备的生产级工程 Skills。",
+      "language": "JavaScript",
+      "stars_today": 264,
+      "stars_total": 92023
+    },
+    {
+      "repo": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "开源推理服务器，为你的硬件运行最佳本地模型，并接入你已在使用的智能体；兼容 Pi、OpenCode、Hermes、OpenClaw、Codex、Claude Code、Oh My Pi 与 Cline。",
+      "language": "TypeScript",
+      "stars_today": 161,
+      "stars_total": 1936
+    },
+    {
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "面向 Claude Code 的学术研究 Skills：研究 → 写作 → 评审 → 修改 → 定稿。",
+      "language": "Python",
+      "stars_today": 496,
+      "stars_total": 45988
+    },
+    {
+      "repo": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "description": "可运行在任何地方，也可使用任何东西。",
+      "language": "TypeScript",
+      "stars_today": 451,
+      "stars_total": 32335
+    }
+  ]
+}

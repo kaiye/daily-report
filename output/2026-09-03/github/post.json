@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-09-03T00:04:07.128Z",
+  "source_raw": "raw.json",
+  "source_count": 19,
+  "item_count": 13,
+  "language_breakdown": {
+    "Python": 5,
+    "JavaScript": 2,
+    "TypeScript": 2,
+    "Rust": 2,
+    "Go": 1,
+    "Shell": 1
+  },
+  "items": [
+    {
+      "rank": 2,
+      "repo": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars_today": 343,
+      "stars_total": 29744,
+      "forks": 2860
+    },
+    {
+      "rank": 3,
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars_today": 1354,
+      "stars_total": 121477,
+      "forks": 6567
+    },
+    {
+      "rank": 4,
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription &amp; audiobook creation in 646 languages.",
+      "language": "Python",
+      "stars_today": 832,
+      "stars_total": 14669,
+      "forks": 2101
+    },
+    {
+      "rank": 6,
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "language": "TypeScript",
+      "stars_today": 148,
+      "stars_total": 50626,
+      "forks": 3553
+    },
+    {
+      "rank": 7,
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars_today": 533,
+      "stars_total": 240111,
+      "forks": 49122
+    },
+    {
+      "rank": 9,
+      "repo": "pacifio/atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "language": "Rust",
+      "stars_today": 888,
+      "stars_total": 2857,
+      "forks": 186
+    },
+    {
+      "rank": 11,
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars_today": 799,
+      "stars_total": 45544,
+      "forks": 3580
+    },
+    {
+      "rank": 12,
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars_today": 516,
+      "stars_total": 246317,
+      "forks": 37146
+    },
+    {
+      "rank": 15,
+      "repo": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "stars_today": 374,
+      "stars_total": 40350,
+      "forks": 3493
+    },
+    {
+      "rank": 16,
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "Go",
+      "stars_today": 238,
+      "stars_total": 102624,
+      "forks": 5970
+    },
+    {
+      "rank": 17,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars_today": 1166,
+      "stars_total": 245206,
+      "forks": 20849
+    },
+    {
+      "rank": 18,
+      "repo": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "description": "runs anywhere. uses anything",
+      "language": "TypeScript",
+      "stars_today": 775,
+      "stars_total": 31969,
+      "forks": 8994
+    },
+    {
+      "rank": 19,
+      "repo": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "language": "Rust",
+      "stars_today": 586,
+      "stars_total": 18491,
+      "forks": 1245
+    }
+  ]
+}

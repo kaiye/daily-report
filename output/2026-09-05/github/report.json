@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-09-05",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日最热方向是 AI Agent 生态，围绕 Agent Skills、编码 Agent 与本地模型的配套项目占据了榜单核心位置。",
+  "items": [
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "面向真正工程师的 Skills，直接取自作者的 .agents 目录。",
+      "language": "Shell",
+      "stars_today": 2758,
+      "stars_total": 250336
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "让你的 AI Agent 像团队里最懒的资深开发一样思考：最好的代码是你从未写过的代码。",
+      "language": "JavaScript",
+      "stars_today": 1679,
+      "stars_total": 125944
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "Agent 运行时性能优化系统，为 Claude Code、Codex、Opencode、Cursor 等提供 Skills、直觉、记忆、安全与研究优先的开发能力。",
+      "language": "JavaScript",
+      "stars_today": 1135,
+      "stars_total": 248487
+    },
+    {
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Agent Skills 的公开仓库。",
+      "language": "Python",
+      "stars_today": 511,
+      "stars_total": 174120
+    },
+    {
+      "repo": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "可去除文本中 AI 生成痕迹的 Agent 技能。",
+      "language": "Python",
+      "stars_today": 1130,
+      "stars_total": 42686
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "会与你一同成长的 Agent。",
+      "language": "Python",
+      "stars_today": 720,
+      "stars_total": 241480
+    },
+    {
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 为什么要用很多 token，几个 token 就够了——通过像穴居人一样说话为 Claude Code 削减 65% token 的技能。",
+      "language": "Go",
+      "stars_today": 501,
+      "stars_total": 103564
+    },
+    {
+      "repo": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "开源推理服务器，为你的硬件运行最佳本地模型，并接入你已在使用的 Agent，兼容 Pi、OpenCode、Hermes、OpenClaw、Codex、Claude Code、Oh My Pi 与 Cline。",
+      "language": "TypeScript",
+      "stars_today": 391,
+      "stars_total": 2454
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio 是开源、完全本地的 ElevenLabs 替代方案，覆盖 646 种语言的语音克隆、声音设计、视频配音、听写、转录与有声书创作。",
+      "language": "Python",
+      "stars_today": 1345,
+      "stars_total": 17944
+    },
+    {
+      "repo": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM（Time Series Foundation Model）是 Google Research 开发的预训练时间序列基础模型，用于时间序列预测。",
+      "language": "Python",
+      "stars_today": 342,
+      "stars_total": 31043
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "开源的编码 Agent。",
+      "language": "TypeScript",
+      "stars_today": 345,
+      "stars_total": 204107
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "为 Claude Code、Codex 和 Pi 提供 38 种编辑式图表类型，HTML + SVG 自包含，没有阴影，也没有 Mermaid 劣质输出。",
+      "language": "HTML",
+      "stars_today": 437,
+      "stars_total": 30908
+    }
+  ]
+}

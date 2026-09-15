@@ -1,0 +1,168 @@
+{
+  "generated_at": "2026-09-04T00:05:32.784Z",
+  "source_raw": "raw.json",
+  "source_count": 19,
+  "item_count": 15,
+  "language_breakdown": {
+    "C++": 1,
+    "Shell": 1,
+    "Python": 5,
+    "JavaScript": 3,
+    "Go": 1,
+    "Kotlin": 1,
+    "Unknown": 1,
+    "TypeScript": 2
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "fmtlib/fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "description": "A modern formatting library",
+      "language": "C++",
+      "stars_today": 963,
+      "stars_total": 25061,
+      "forks": 3014
+    },
+    {
+      "rank": 2,
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "stars_today": 1601,
+      "stars_total": 247339,
+      "forks": 20967
+    },
+    {
+      "rank": 3,
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "stars_today": 774,
+      "stars_total": 240825,
+      "forks": 49340
+    },
+    {
+      "rank": 4,
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "stars_today": 2128,
+      "stars_total": 123380,
+      "forks": 6668
+    },
+    {
+      "rank": 5,
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "stars_today": 281,
+      "stars_total": 173639,
+      "forks": 20605
+    },
+    {
+      "rank": 6,
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "stars_today": 751,
+      "stars_total": 247164,
+      "forks": 37245
+    },
+    {
+      "rank": 7,
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "language": "Go",
+      "stars_today": 543,
+      "stars_total": 103084,
+      "forks": 5994
+    },
+    {
+      "rank": 8,
+      "repo": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
+      "stars_today": 1208,
+      "stars_total": 41453,
+      "forks": 3547
+    },
+    {
+      "rank": 9,
+      "repo": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "language": "Python",
+      "stars_today": 1618,
+      "stars_total": 30695,
+      "forks": 2930
+    },
+    {
+      "rank": 11,
+      "repo": "bannedbook/fanqiang",
+      "url": "https://github.com/bannedbook/fanqiang",
+      "description": "翻墙-科学上网",
+      "language": "Kotlin",
+      "stars_today": 522,
+      "stars_total": 52129,
+      "forks": 8468
+    },
+    {
+      "rank": 12,
+      "repo": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "stars_today": 264,
+      "stars_total": 92023,
+      "forks": 9810
+    },
+    {
+      "rank": 13,
+      "repo": "ByteByteGoHq/system-design-101",
+      "url": "https://github.com/ByteByteGoHq/system-design-101",
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "language": "Unknown",
+      "stars_today": 171,
+      "stars_total": 88321,
+      "forks": 9821
+    },
+    {
+      "rank": 14,
+      "repo": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "language": "TypeScript",
+      "stars_today": 161,
+      "stars_total": 1936,
+      "forks": 142
+    },
+    {
+      "rank": 15,
+      "repo": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "language": "Python",
+      "stars_today": 496,
+      "stars_total": 45988,
+      "forks": 3602
+    },
+    {
+      "rank": 16,
+      "repo": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "description": "runs anywhere. uses anything",
+      "language": "TypeScript",
+      "stars_today": 451,
+      "stars_total": 32335,
+      "forks": 9018
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "generated_at": "2026-09-15T00:00:30.099Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 32,
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "published_at": "2026-09-14T22:59:41.000Z",
+      "summary": "When OpenAI CEO Sam Altman, Anthropic CEO Dario Amodei, Google DeepMind cofounder Demis Hassabis, and SpaceX head Elon Musk loosely agreed over the weekend to slow down AI development, skeptics spotted an ulterior motive immediately. The AI titans had declared that their aim was to \"pace the frontie",
+      "priority_score": 300,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "让企业拥有自己的模型！PyTRIO定义TaaS新范式：大模型训练进入API时代",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056978&idx=1&sn=3f375ee86e8f98ec325bdb7c84fdf2b9",
+      "published_at": "2026-09-14T04:03:00.000Z",
+      "summary": "原创关注AI的 2026-09-14 12:03 北京\n\n掌控你的模型，开拓你的边界\n\n编辑｜山辉\n\n最近，越来越多应用层 AI 企业走上了一条相似的路线： 用自己积累 的专业 知识和业务经验，训练自己的模型。\n\n就在 8 月，法律 AI 公司 Harvey 发布了其首个经过后训练的开放权重模型 Tenet。它以 Kimi K3 为底座，在法律智能体基准 LAB 上的全通过率达到 19.7% ，明显高于 Fable 5（11.5%）和 GPT-5.6 Sol（2.5%）等闭源模型。单项任务成本为 5.92 美元 ，也低于上述两款闭源模型。\n\n在 LAB 留出任务上，Harvey Tenet 以",
+      "priority_score": 228,
+      "matched_keywords": [
+        "GPT",
+        "Kimi"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "published_at": "2026-09-14T16:00:00.000Z",
+      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by Google DeepMind, could have implications for alignment researchers trying to keep ",
+      "priority_score": 222,
+      "matched_keywords": [
+        "DeepMind",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says",
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+      "published_at": "2026-09-14T20:44:14.000Z",
+      "summary": "Glass Imaging was founded by a pair of former Apple engineers who previously led the team that developed Apple's Portrait Mode.",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "AGI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "网页藏毒，劫持Agent？你需要会「追凶」的自进化女警系统",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725823&idx=3&sn=5c8c769b4c57df9b147d1946c6fc977e",
+      "published_at": "2026-09-14T07:55:00.000Z",
+      "summary": "新智元 2026-09-14 15:55 北京\n\n### **新智元报道**\n\n今天的AI Agent，已经不只是聊天窗口里「会说话」的模型。它们正在接入浏览器、文件系统、终端、API、MCP服务和各种自动化工作流，开始真正替用户执行任务。\n\n问题也随之变得更危险：Agent不只听用户说什么，还会主动读取外部世界。搜索结果、网页正文、本地文件、工具返回值、日志、README、API payload，都可能进入它的上下文，变成它下一步行动的依据。\n\n一句藏在网页里的恶意指令，可能比一段显式攻击prompt更隐蔽，也更危险。\n\n这带来一个全新的安全悖论：Agent越能干，越依赖外部信息；而外部信息",
+      "priority_score": 150,
+      "matched_keywords": [
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "published_at": "2026-09-14T17:54:22.000Z",
+      "summary": "*This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first,* [sign up here](https://forms.technologyreview.com/newsletters/ai-demystified-the-algorithm/) *.*\n\nThis weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a[brake on th",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+      "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/",
+      "published_at": "2026-09-14T15:00:00.000Z",
+      "summary": "If you're building an AI company, the question isn't whether foundation models will continue to evolve. It's whether your company will continue creating value as they do. Don't miss this interactive session on the Builders Stage at TechCrunch Disrupt 2026.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+      "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+      "published_at": "2026-09-14T13:00:00.000Z",
+      "summary": "Microsoft is publishing a 37-page \"[humanist AI code of conduct](https://microsoft.ai/code-of-conduct/)\" today, amid growing safety concerns over AI model progress. Anthropic CEO Dario Amodei[called for a coordinated slow down](https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "腾讯技术工程",
+      "title": "别再只卷Prompt 了，真正拉开Agent差距的是Context Engineering",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804088&idx=1&sn=bbe53279f2c8fe79fea751faca5a264f",
+      "published_at": "2026-09-14T09:36:00.000Z",
+      "summary": "腾讯程序员 2026-09-14 17:36 广东\n\n拥抱大模型 —— Context Engineering：AI 工程范式的跃迁\n\n作者：lingnyliang\n\n如何写出让模型“最听话”的提示词？这就是 Prompt Engineering 的核心问题。它催生了 Zero-shot、Few-shot、Chain-of-Thought 等大量技术，这些方法有一个共同点：它们都在优化“单次 LLM 调用”——写好一条输入，获得一条更好的输出。这在单轮任务里非常有效，但“单轮”是它的硬边界。\n\n### **1. 引言：从 Prompt Engineering → ReAct → Context",
+      "priority_score": 122,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "前OpenAI后训练VP回应陶哲轩：说AI毁了数学，可能还是太小瞧AI了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922668&idx=3&sn=b523db27e8310b2b48e63fccee476600",
+      "published_at": "2026-09-14T07:30:00.000Z",
+      "summary": "量子位 2026-09-14 15:30 北京\n\nAI数学不仅要与人类理解对齐，更要进入现有的数学体系\n\n##### henry 发自 凹非寺 量子位 | 公众号 QbitAI\n\n说AI毁了数学，可能还是太小瞧AI了。\n\n刚刚，OpenAI前后训练VP **Liam Fedus** ，回应了陶哲轩等数学家关于“AI不应只追求解题，更应推动数学理解”的观点。\n\n他赞同陶哲轩对概念理解的重视，但也认为不能用今天AI的能力边界，框定未来的可能性。\n\n在Liam看来，未来的AI不仅能解决问题，还能提出有价值的洞见、建立新的概念框架，让数学家在此基础上继续探索。\n\n换句话说，如果AI的训练目标不只是“把",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
+      "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/",
+      "published_at": "2026-09-14T14:45:44.000Z",
+      "summary": "The notetaker offers a generous free plan, and that has resulted in over 400,000 monthly active users. The company said that over 1 million people have recorded meetings until now.",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Fashion app Daydream uses Apple Intelligence to help you shop the outfits in your camera roll",
+      "url": "https://techcrunch.com/2026/09/14/fashion-discovery-app-daydream-uses-apple-intelligence-to-help-you-shop-the-outfits-saved-in-your-camera-roll/",
+      "published_at": "2026-09-14T17:00:00.000Z",
+      "summary": "Thanks to the launch of iOS 27, Daydream's app now includes features that can turn saved outfit photos into shoppable results and search for products through Siri without opening the app.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "A Vinyl Bar in Shibuya is a startup from a former Spotify leader for making music apps",
+      "url": "https://techcrunch.com/2026/09/14/a-vinyl-bar-in-shibuya-is-a-startup-offering-fun-music-apps/",
+      "published_at": "2026-09-14T13:55:00.000Z",
+      "summary": "Former Spotify exec's company releases experimental \"singles\" that involves users in music making.",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "专访爆火「机器鸭」背后的硬件推手：这是个信号，未来推动新故事的并非硬件",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113551&idx=1&sn=be3c994364b659680689a0757d180dad",
+      "published_at": "2026-09-14T09:00:00.000Z",
+      "summary": "Lilyann、苏子华 2026-09-14 17:00 北京\n\n以下文章来源于：Hardwire\n**Hardwire**\n来自极客公园，关注 AI 与硬件行业融合而产生的各种新机会、新想法和新产品。\n\n​这两年，全球 AI 硬件爆品，为什么总来自开源社区？\n\n这两年，全球 AI 硬件爆品，为什么总来自开源社区？\n\n**作者｜ **Lilyann、苏子华****\n\n编辑｜靖宇\n\n最近这两周，一只「机器鸭」在 X 上刷屏了。\n\n这只叫 Microduck 的机器鸭，由 Hugging Face 旗下的 Pollen Robotics 设计，售价 399 美元。 **高峰期平均每 4 秒卖出一台",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "60天融资数千万，何泳澔出任CTO！这家黑马冲刺「最后一公里」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725823&idx=1&sn=a9b97242f04160708fad4d7470d499c3",
+      "published_at": "2026-09-14T07:55:00.000Z",
+      "summary": "ASI启示录 2026-09-14 15:55 北京\n\n### **新智元报道**\n\n2026年上半年，具身智能赛道狂揽超过460亿元融资，人形机器人的单价也正式迈入「万元以内」的门槛。\n\n每隔几周，就会有一段新的机器人Demo在全网刷屏。但这背后，整个行业却撞上了一堵隐形的墙：真机采集的真实数据太贵、太慢，根本「喂不饱」庞大的模型。\n\n如何破局？\n\n近期的一项前沿测试，给出了一组令人振奋的数据：在复杂操作任务中，利用规模为真机数据5倍的仿真数据进行训练，直接将机器人的真实操作成功率提升了40%，而其获取成本，仅为真机数据的三分之一。\n\n这组数据揭示了一个产业界日益清晰的共识——\n\n如果要走到",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "一年连融三轮，这家金融AI公司又拿下超3亿B轮",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922668&idx=2&sn=4811e140747570bfecfadda2bbd39f91",
+      "published_at": "2026-09-14T07:30:00.000Z",
+      "summary": "关注前沿科技 2026-09-14 15:30 北京\n\n险资、券商与头部创投持续加码\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n近日，中国金融AI领跑者讯兔科技正式完成 **超3亿元** 人民币B轮融资。至此， **公司在过去一年内已连续完成三轮融资** 。\n\n本轮融资进一步汇聚金融产业的战略力量，投资方覆盖险资、券商、公募、产业资本与头部投资机构。保险业国家级投资平台中保投资、头部券商系私募基金子公司广发信德共同参与；同时， 讯兔科技 获得启明创投、琥珀资本、嘉程资本、信宸资本、钟鼎资本等头部创投机构和老股东的鼎力支持。华兴资本继续担任独家财务顾问。\n\n本轮融资后",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
+      "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+      "published_at": "2026-09-14T16:27:53.000Z",
+      "summary": "The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "published_at": "2026-09-14T16:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/DevFest.max-600x600.format-webp.webp\">DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "端侧AI从「能跑」到「会进化」，元空智能跑进惠普预装",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922668&idx=1&sn=b762949c666f171abc37b314ac5ac0f0",
+      "published_at": "2026-09-14T07:30:00.000Z",
+      "summary": "关注前沿科技 2026-09-14 15:30 北京\n\n端侧AI开始长出真实生产力\n\n##### 梦瑶 发自 凹非寺 量子位 | 公众号 QbitAI\n\n静态互联网数据的增长红利，见顶了。\n\n下一轮模型能力的跃迁，会越来越依赖与真实环境持续交互的「端侧」。\n\n当整个行业还在想办法把更强的模型塞进设备时，一支从北大走出来的团队，给出了上述这一激进的行业判断。\n\n甚至在端侧AI迎来爆发的这个时间节点，他们还直接给它重新下了一个定义：\n\n生产力=元空端侧AI=模型×Agent × 设备。\n\n端侧AI也由此从一条「把模型搬下来」的单向链路，开始变成一套能自己转起来的飞轮。\n\n###### **△** ",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia CEO Jensen Huang tells Trump ‘we’re not going to let [an AI slowdown] happen’",
+      "url": "https://techcrunch.com/2026/09/14/nvidia-ceo-jensen-huang-tells-trump-were-not-going-to-let-an-ai-slowdown-happen/",
+      "published_at": "2026-09-14T21:51:02.000Z",
+      "summary": "Though Elon Musk and Sam Altman have supported Dario Amodei's calls to slow the pace of AI development, Jensen Huang seems to feel differently.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "What execs and politicians are saying about slowing down AI development",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+      "published_at": "2026-09-14T21:21:42.000Z",
+      "summary": "Dario Amodei kicked off a flood of statements over the past few days about AI safety by publishing a long essay titled[\"We Must Pace the Frontier\"](https://darioamodei.com/post/we-must-pace-the-frontier)detailing why AI development should be slowed down. Other AI leaders and politicians are speaking",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Jensen Huang puts Trump on speakerphone onstage to announce robots won’t take over the world",
+      "url": "https://www.theverge.com/tech/995079/president-donald-trump-calls-nvidia-ceo-jensen-huang-all-in-summit",
+      "published_at": "2026-09-14T20:03:37.000Z",
+      "summary": "NVIDIA CEO Jensen Huang speaks during the G20 Innovation Ministerial in Chapel Hill, North Carolina, on September 2, 2026. (Photo by Matt RAMEY / AFP via Getty Images) | AFP via Getty Images\nNvidia CEO Jensen Huang took a call from President Trump on Monday while onstage at the All-In Podcast's All-",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "published_at": "2026-09-14T19:00:00.000Z",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Dialogues_Christina-Koch_social.max-600x600.format-webp.webp\">Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "With iOS 27, I’m actually using Siri again",
+      "url": "https://techcrunch.com/2026/09/14/with-ios-27-im-actually-using-siri-again/",
+      "published_at": "2026-09-14T17:10:30.000Z",
+      "summary": "Apple’s long-delayed Siri overhaul is finally here with iOS 27, and it changes how useful the assistant feels day to day.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Donated livers can be made biologically younger",
+      "url": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
+      "published_at": "2026-09-14T16:11:42.000Z",
+      "summary": "Once an organ is removed from a donor’s body, the clock starts ticking. Surgeons usually flush the organ[with a preservative solution](https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/university-of-wisconsin-solution), bag it, and put it on ice—where it immedia",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Hear how AI can engineer nature’s comeback at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/",
+      "published_at": "2026-09-14T14:30:00.000Z",
+      "summary": "Not long ago, bringing an extinct species back to life belonged to science fiction. Today, it's the mission of a billion-dollar startup. Join the conversation with one of tech's most unconventional founders. Secure your Disrupt pass today.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "5 days left to exhibit at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/14/techcrunch-disrupt-2026-exhibit-table-deadline-5-days/",
+      "published_at": "2026-09-14T14:00:00.000Z",
+      "summary": "The last day to apply for an exhibit table at TechCrunch Disrupt 2026 on Sept 18. Just 5 days left. Secure your spot on the Expo Hall floor and put your business in front of 10,000+ founders, investors, and tech leaders.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
+      "url": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/",
+      "published_at": "2026-09-14T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### Roundtables: could AI r",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "1300万天压到0.25秒！分子之心用AI把化学反应拍成电影，成果登Science子刊",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725823&idx=2&sn=df1b36d5cf12be72db54a4d7337edf92",
+      "published_at": "2026-09-14T07:55:00.000Z",
+      "summary": "ASI启示录 2026-09-14 15:55 北京\n\n### **新智元报道**\n\n十万个原子，发生一次化学反应，用计算机模拟一遍要多久？\n\n如果用传统的量子化学方法，每往前走一步， 理论上要约一千三百万天，大约三万五千六百多年，现实中根本难以执行。\n\n原因一点也不复杂。\n\n模拟是一步一步往前推的，每一步只推进1飞秒，也就是千万亿分之一秒；可每推这么一小步，都得把十万个原子的电子结构和相互作用力重新算一遍。\n\n这，只是一步。\n\n想看完一次完整的反应，得走几十万甚至几百万步。\n\n所以计算化学领域一直有个绕不过去的「不可能三角」：精度、速度、尺度，三样只能挑两样。\n\n量子力学看得准，却跑不远，通",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922668&idx=4&sn=4a9ee451eaddd5856f7ee7490b197eb7",
+      "published_at": "2026-09-14T07:30:00.000Z",
+      "summary": "关注前沿科技 2026-09-14 15:30 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "追觅四大赛道 IFA 首秀：一套技术，四个出口",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113549&idx=1&sn=c7dc5bcae49b4ba2c862ede36b258539",
+      "published_at": "2026-09-14T04:08:00.000Z",
+      "summary": "原创张勇毅 2026-09-14 12:08 北京\n\n追觅在 IFA 上展出的不是四条产品线，是一套技术的四个出口。\n\n**作者｜张勇毅** **编辑｜郑玄**\n\n去年一年，全球扫地机器人的出货量约 2412 万台。同一年，全球人形机器人的出货量约 1.8 万台。两个数字都来自 IDC，中间差了 1300 多倍。\n\n带着这两个数字走进今年柏林的 IFA 主会场，这种体感上的反差就更明显了。\n\nIFA 官方今年搭了迄今最大规模的人形机器人展示平台，主题是「未来已来」，机器人走秀也排进了每天的日程。转到清洁电器区，几家中国清洁品牌的展台上，扫地机器人长出了手和腿：有会爬楼梯的，有伸出机械臂往墙角边",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "告别「只会相似度检索」：腾讯最新T-Mem让AI学会「联想回忆」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056978&idx=2&sn=901b4973ad6d9c8cae04509443643876",
+      "published_at": "2026-09-14T04:03:00.000Z",
+      "summary": "机器之心 2026-09-14 12:03 北京\n\n大语言模型智能体正越来越多地进入长期陪伴聊天这类场景 —— 不再答完一个问题就走，而是和用户 处成 一 段 长久的关系 。\n\n这种关系对记忆提出了一个具体要求：用户不会年复一年用同样的话重复同一件事，记忆系统得在措辞、话题甚至语境都变了的情况下，依然 把当年那段记忆找回来 。\n\n但今天几乎所有长期记忆方案，无论底层用向量库、图数据库还是其他存储形式，在检索环节都共享同一个假设：只要查询与记忆足够 \"像\"，记忆就能被召回。这个假设只在记忆和对话字面或语义有相似度时成立。然而现实对话里，措辞会变，场景会变，记忆却依然需要被召回。认知科学中的经典概",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

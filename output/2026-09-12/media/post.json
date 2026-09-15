@@ -1,0 +1,317 @@
+{
+  "generated_at": "2026-09-12T00:00:56.854Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 26,
+  "items": [
+    {
+      "source": "新智元",
+      "title": "老黄替OpenAI宣布AGI！出题人当场打脸：换个考场99.9%掉到62.7%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725028&idx=2&sn=fb813584fd0cdb605249a20166fe92a1",
+      "published_at": "2026-09-11T05:13:00.000Z",
+      "summary": "ASI启示录 2026-09-11 13:13 北京\n\n### **新智元报道**\n\n上周四，OpenAI发布GPT-6 Astra。\n\n官网给它的定性是「世界上最智能、最对齐的模型」。\n\n紧接着，黄仁勋在X上发了一条帖子，把这件事推向另一个高度：\n\nAGI已经到来。恭喜OpenAI团队。\n\n反观GPT-6 Astra的官方发布页，通篇找不到「AGI已实现」这样的字眼。\n\n一个卖GPU的，替做模型的，把话说满了。\n\n更有意思的，是出题的人。\n\nOpenAI发布页写着Astra在ARC-AGI-3上拿到99.9%，「饱和」了这个以AGI命名的基准。\n\n负责出卷子的评测机构ARC Prize看完跑",
+      "priority_score": 328,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT",
+        "AGI"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic spent this week in hot water over cybersecurity",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994064/anthropic-spent-this-week-in-hot-water-over-cybersecurity",
+      "published_at": "2026-09-11T16:09:14.000Z",
+      "summary": "After[admitting earlier this year](https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests)that its AI models had hacked other companies' systems on a handful of occasions, Anthropic released a new[report](https://www.anthropic.com/research",
+      "priority_score": 250,
+      "matched_keywords": [
+        "Anthropic",
+        "Claude"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal",
+      "published_at": "2026-09-11T20:44:02.000Z",
+      "summary": "New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to[a report from, Reuters](https://www.reuters.com/legal/government/chatgpt-invented-fake-police-testimony-murder-appeal-new-mex",
+      "priority_score": 200,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "当智能体开始替人花钱，如何证明「它是谁」？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113463&idx=1&sn=dee1611a5474d889a64ac3a0fd4aa9ed",
+      "published_at": "2026-09-11T15:02:00.000Z",
+      "summary": "原创徐珊 2026-09-11 23:02 湖北\n\n智能体商业的 ChatGPT 时刻正在到来，但要让 AI 真正替人办成事，必须先补上代码自主交易的信任基石。\n\n**作者｜徐珊** **编辑｜郑玄**\n\n在蚂蚁集团，负责 AI 支付安全的陈树鹏是个深度的智能体使用者。日常写代码、梳理汇报、提炼会议纪要，AI 几乎接管了他工作流里的大部分环节。\n\n这种高度依赖背后，却存在着一个清晰的分水岭。一旦任务涉及真金白银，比如调用付费数据接口、购买素材或预订服务，绝大多数人都会本能地把权限卡死不愿交出钱包。哪怕是陈树鹏自己，手头测试过大量任务型框架，真正被他允许支付权限的智能体也仅仅只有两三个。\n\n但在",
+      "priority_score": 200,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "AI数学的最后一道高墙，塌了！GPT-6 Astra刷穿FrontierMath Tier 4",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247921612&idx=2&sn=8b92b058d2d607605f9050d1ff30e1dd",
+      "published_at": "2026-09-11T04:44:00.000Z",
+      "summary": "关注前沿科技 2026-09-11 12:44 北京\n\n曾预言AI几十年解不出，如今一年被刷穿！\n\n##### henry 发自 凹非寺 量子位 | 公众号 QbitAI\n\n刚刚，最后一道FrontierMath Tier 4难题，被GPT-6 Astra攻破了。\n\n至此，这套曾经被视作 **大模型数学噩梦** 的研究级测试，所有题目都已经至少被AI成功解出过一次。\n\nEpoch AI也正式给它下了结论， **FrontierMath Tier 4，饱和了。**\n\n虽然从上面的图里看，Astra还没有直接干到100%，OpenAI自己公布的成绩也是97.6%。\n\n但按照Epoch的算法，“全部",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "DeepSeek V4.1 Flash 发布；罗永浩狂喷苹果折叠屏：全是抄的；马斯克「无聊公司」融资 30 亿美元｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113429&idx=1&sn=1fe337d59265cf4a05add99a1a00ad98",
+      "published_at": "2026-09-11T00:29:00.000Z",
+      "summary": "张勇毅 2026-09-11 08:29 美国\n\n## DeepSeek V4.1 Flash 模型正式发布：全面超越 V4 Pro、原生多模态视觉理解，最高降价 60%\n\n9 月 10 日消息，深度求索今日正式发布DeepSeek V4.1 Flash 模型。这是其全新模型结构系列中的最小尺寸的模型，具备原生多模态视觉理解能力。\n\n新模型结构的设计初衷是：能力上限更高、推理速度更快、吞吐更大、可扩展到更大参数模型。\n\nDeepSeek V4.1 Flash 为 552B 参数的 MoE 模型，采用了全新的 Causal-Encoder-Decoder 结构，输入和输出不对称，输入激活只有 8",
+      "priority_score": 152,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update",
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Kimi-maker Moonshot AI targets $2B in annual revenue",
+      "url": "https://techcrunch.com/2026/09/11/kimi-maker-moonshot-ai-targets-2-billion-in-annual-revenue/",
+      "published_at": "2026-09-11T19:35:54.000Z",
+      "summary": "While K3's usage figures have declined slightly in recent months, OpenRouter data currently shows as many as 300 billion tokens being generated each day by K3 models on the system.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Kimi"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI’s feud with mathematicians is only escalating",
+      "url": "https://techcrunch.com/2026/09/11/openais-feud-with-mathematicians-is-only-escalating/",
+      "published_at": "2026-09-11T20:57:36.000Z",
+      "summary": "Twenty-five leading mathematicians signed an open letter arguing that AI labs are threatening their intellectual work.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "An Anthropic researcher’s doomsday warning comes at a very interesting time",
+      "url": "https://techcrunch.com/podcast/an-anthropic-researchers-doomsday-warning-comes-at-a-very-interesting-time/",
+      "published_at": "2026-09-11T18:41:49.000Z",
+      "summary": "An Anthropic researcher resigned this week,&#160;warning in a post on X&#160;that the company is “racing straight to self-improving superintelligence and gambling with our lives”.&#160;The company&#8217;s own alignment&#160;lead&#160;even&#160;co-signed the message&#160;rather than walking it back.&",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nscale adds former OpenAI exec Fidji Simo to its board ahead of potential IPO",
+      "url": "https://techcrunch.com/2026/09/11/nscale-adds-former-openai-exec-fidji-simo-to-its-board-ahead-of-potential-ipo/",
+      "published_at": "2026-09-11T16:46:25.000Z",
+      "summary": "The No. 2 exec at OpenAI also led Instacart through its IPO in 2023.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "全球最大，谷歌Figure排队买！这个团队，撑起硅谷最火机器人",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725028&idx=1&sn=be9bc45f7cf4b5008266d578899324ed",
+      "published_at": "2026-09-11T05:13:00.000Z",
+      "summary": "ASI启示录 2026-09-11 13:13 北京\n\n### **新智元报道**\n\n藏不住了，这次是彻底藏不住了！\n\n**Google DeepMind、Figure、1X、Genesis AI、Dyna Robotics……** 硅谷这一轮最火的机器人玩家， 背后竟站着同一家数据「供血商」 。\n\nDyna-2跑出100万小时的Scaling Law，背后有它。\n\nGENE-26.5一口气完成一顿20步的饭，用到的第一人称数据，也来自这里。\n\n能拿下这些头部客户，光会「数据采集」显然不够。\n\n这家神秘公司手里，还有另一张更硬核的王牌——强大的数据处理与算法能力。\n\n那些行业中最难啃的corn",
+      "priority_score": 100,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "不简单，“吃货快乐榜”也全面AI化了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247921612&idx=1&sn=e31b397821d09a324a3044a9f6b60362",
+      "published_at": "2026-09-11T04:44:00.000Z",
+      "summary": "原创关注前沿科技 2026-09-11 12:44 北京\n\n“全球首个3D原生城市世界模型”来了！\n\n##### 林方舟 发自 凹非寺 量子位 | 公众号 QbitAI\n\n家人们，高德扫街榜推出一年了，有没有人和我一样，现在干饭前总要刷一刷它？\n\n去年，依靠真实导航和到店行为数据，高德直接在美食和到店领域来了一波诺曼底登陆。\n\n但我以为这也就到头了。\n\n没想到，时隔一年，高德9月10日宣布： **扫街榜全面AI化了** 。\n\n大模型化，世界模型助力，开启空间智能觅食新时代。\n\nHow？\n\n升级后的2026版扫街榜，用AI算法理解不同导航到店行为的评分权重，更精准体现用户真实选择，让更多经得起反",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "openJiuwen首发双维度RSI框架，AI自修改，落地办公智能体，算力亲和助力又快又省",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056535&idx=2&sn=7a573bbe843cc0de6ae15d11528d7417",
+      "published_at": "2026-09-11T05:04:00.000Z",
+      "summary": "机器之心 2026-09-11 13:04 上海\n\n让自我迭代真正跑起来的工程闭环。\n\n机器之心发布\n\n让智能体完成一次任务已经不难，难的是让它从每一次任务中学会改进。当前多数智能体还是 \"交付即定型\"：遇到失败，需要人工复盘日志、修改提示词、补充工具、再重新测试。调优成本高、周期长，有效经验也难以积累。\n\n这正是 RSI（Recursive Self-Improvement，递归自我改进） 要解决的问题。 它不是让模型自己训练自己，而是让智能体从真实任务反馈中生成改进方案、执行验证、保留有效改进，帮助智能体持续优化。 早在今年 6 月，由华为 2012 实验室、华为云、终端、计算等团队联合构",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+      "published_at": "2026-09-11T22:58:17.000Z",
+      "summary": "The round for the two-year-old startup is coming together months after Mecka announced its Series A.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Y Combinator’s Garry Tan wants US open-weight AI labs to ‘distill’ frontier models, too",
+      "url": "https://techcrunch.com/2026/09/11/y-combinators-garry-tan-wants-u-s-open-weight-ai-labs-to-distill-frontier-models-too/",
+      "published_at": "2026-09-11T20:59:47.000Z",
+      "summary": "Tan wants smaller, American open-weight AI labs to use the same kind of training techniques on American frontier AI labs, giving the U.S. a more robust set of open-weight options that aren’t Chinese.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "One week left to book your exhibit table at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/09/11/one-week-left-to-book-your-exhibit-table-at-techcrunch-disrupt-2026/",
+      "published_at": "2026-09-11T20:33:18.000Z",
+      "summary": "Only one week left to secure your exhibit table. Tables are limited and can sell out before the September 18 deadline.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Final, final, final call for TechCrunch Disrupt 2026 Side Events",
+      "url": "https://techcrunch.com/2026/09/11/final-final-final-call-for-techcrunch-disrupt-2026-side-events/",
+      "published_at": "2026-09-11T20:30:17.000Z",
+      "summary": "The absolute last chance to apply to host an official Side Event during TechCrunch Disrupt 2026 is tonight, September 11, at 11:59 p.m. PT.",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Roundtables: AI’s apocalypse crisis",
+      "url": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+      "published_at": "2026-09-11T20:05:06.000Z",
+      "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive editor Niall Firth for a conversation with senior AI editor Will Douglas Heaven and AI",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Meta says its changing AI suggestions after posing invasive personal questions",
+      "url": "https://www.theverge.com/tech/993974/meta-ai-prompt-invasive-suggestions",
+      "published_at": "2026-09-11T14:25:21.000Z",
+      "summary": "Meta says it's making changes to the prompts suggested by its AI chatbot after a viral video showed it digging for personal information about a woman's young daughters,[as reported earlier by, Futurism](https://futurism.com/artificial-intelligence/mother-horrified-meta-ai-family). In a statement to*",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: biotech’s future and cheaper, cleaner steel",
+      "url": "https://www.technologyreview.com/2026/09/11/1143879/the-download-biotech-future-cheaper-cleaner-steel/",
+      "published_at": "2026-09-11T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### Meet the under-35s shap",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Meet the under-35s shaping the future of biotech",
+      "url": "https://www.technologyreview.com/2026/09/11/1143834/meet-the-under-35s-shaping-the-future-of-biotech/",
+      "published_at": "2026-09-11T09:00:00.000Z",
+      "summary": "Every year,*MIT Technology Review*puts together a list of some of the brightest and best young minds working across science and technology. Our 35 Innovators Under 35 are the ones to watch—people whose research and technical work stands to shape the future of their fields.\n\nThis year, the list inclu",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "对话桥介数物：机器人运动的下一步是让任何机器人半小时内学会跳特定的舞",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113434&idx=1&sn=8e5018ee81690726b440c1eefe60ae36",
+      "published_at": "2026-09-11T05:43:00.000Z",
+      "summary": "Li Yuan 2026-09-11 13:43 北京\n\n全身运动基座模型可能是机器人运动的下一步。这样的模型该怎么训练，又会给机器人商业带来怎样的变化？给四十多款机器人做过运动部署的桥介数物，可能最适合回答这个问题。\n\n具身智能 现在太吵了。\n\n行业里的人各自笃定，声音大的先被听见。最响的那些声音，往往离真实的进展最远。\n\n真正在往前推的人，看的是谁在践行非共识，什么在真的往前走，以及谁心里有一张完整的图，而不是走一步看一步。\n\n这些东西不会上热搜，但它们决定这个行业的下一步。\n\n我们一直探寻这些。 如果你也是—— 欢迎来到极客公园 In The Loop。👇 ****作者｜ Li Yua",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "第一篇AI4AI综述：让AI改进AI，发展到哪步了？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725028&idx=3&sn=e1f1fac83f33b7b69deca04d6530d22e",
+      "published_at": "2026-09-11T05:13:00.000Z",
+      "summary": "新智元 2026-09-11 13:13 北京\n\n### **新智元报道**\n\n从long horizon智能体到recursive self-improvement：从「AI 能做什么」出发，进一步追问「Can AI improve AI?」——AI能否可靠地改进AI，并让进步持续积累？\n\n让AI写一段代码，已经是许多人熟悉的工作方式。如果把任务换成「帮我做出一个更好的AI」，它能完成吗？\n\n这意味着AI要提出方案、修改代码、运行实验、判断结果，再把有效的改进留下来。最诱人的前景是：这一轮变强的系统，还能帮助下一轮做得更好。\n\n围绕这个问题，第一篇AI4AI综述论文梳理了数百项研究，将lon",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "90后发Nature，高中生进ICML，我在这场蚂蚁InTech论坛看见被AI折叠的科研",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056535&idx=1&sn=47e5a4b05b756ef8fee5ffaf95439c00",
+      "published_at": "2026-09-11T05:04:00.000Z",
+      "summary": "原创关注立秋的 2026-09-11 13:04 上海\n\n一场与不确定性的遇见和对话。\n\n编辑｜Sia\n\n假如你吃了个鸡蛋觉得不错，何必认识那只下蛋的母鸡呢？\n\n没想到，钱钟书这句名言，在今年外滩大会有了一个 AI 版本：\n\n当你读到一篇好文章，解决了疑问，也学到了东西，它究竟是人写的还是 AI 写的，还重要吗？\n\n提出这个问题的，是拿过 ACL 最佳论文的北京大学博士生吉嘉铭，也是上届蚂蚁 InTech 奖得主。他还做了一个更激进的预测：学术 Conference 一定会消失。\n\n就在几十分钟前，同一个舞台上，美国科学院、工程院、艺术与科学院三院院士 Michael I. Jordan 也聊",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "日均产出万亿Token！Mooncake落地生产，KV Cache命中率稳定突破90%",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247921612&idx=3&sn=093fb9795201626263820bf95a370eac",
+      "published_at": "2026-09-11T04:44:00.000Z",
+      "summary": "关注前沿科技 2026-09-11 12:44 北京\n\n把同样的算力转化为更多、更优质、更稳定的AI Token\n\n##### 趋境科技 、KVCache.AI 投稿 量子位 | 公众号 QbitAI\n\n随着智能体从“一问一答”走向持续规划、工具调用和多轮执行，Token需求正在从零散调用转变为持续、规模化的生产需求。\n\n以某头部万亿参数模型的生产实践为例， **趋境科技** 日均高品质AI Token产量已稳定突破 **一万亿** ，自2026年春节以来，平均单台算力的Token生产效率提升超过 **3倍** ，总产能增长超过 **30倍** 。\n\n支撑这一规模化生产的背后，是对推理引擎、调",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247921612&idx=4&sn=be8143a350b2fc84a1de18d8eaafa4be",
+      "published_at": "2026-09-11T04:44:00.000Z",
+      "summary": "关注前沿科技 2026-09-11 12:44 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

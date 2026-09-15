@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X 热点</title>
+  <style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background: #eef1f6;
+    font-family: "SF Pro Display","SF Pro Text",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+    color: #1f1730;
+  }
+  .pixel-card-shell {
+    position: relative;
+    width: 760px;
+    min-height: 980px;
+    overflow: hidden;
+    box-shadow: 0 14px 38px rgba(15,23,42,0.12), 0 6px 18px rgba(15,23,42,0.08);
+    background: #ffffff;
+  }
+  .hero-panel::before,
+  .hero-panel::after {
+    content: "";
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(62px);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: 0;
+  }
+  .hero-panel::before {
+    top: -92px;
+    left: -110px;
+    width: 260px;
+    height: 260px;
+    background: #c9b4ff;
+    opacity: 0.5;
+  }
+  .hero-panel::after {
+    right: -120px;
+    bottom: -120px;
+    width: 280px;
+    height: 280px;
+    background: #e0d2ff;
+    opacity: 0.44;
+  }
+  .hero-panel, .list-panel, .pixel-footer { position: relative; z-index: 1; }
+  .hero-panel {
+    background: linear-gradient(145deg, #eee8ff 0%, #f8f6ff 100%);
+    padding: 30px 34px 24px;
+    border-bottom: 1px solid #e4dbff;
+  }
+  .hero-panel > * {
+    position: relative;
+    z-index: 1;
+  }
+  .meta-strip {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .brand-name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .brand-subline {
+    margin: 4px 0 0;
+    font-size: 11px;
+    color: rgba(0,0,0,0.55);
+    letter-spacing: 0.03em;
+  }
+  .date-chip {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .hero-title {
+    margin: 24px 0 0;
+    font-family: "HarmonyOS Sans SC","Alibaba PuHuiTi 3.0","PingFang SC","Source Han Sans SC","Noto Sans CJK SC",sans-serif;
+    font-size: 46px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    font-weight: 800;
+  }
+  .hero-summary {
+    margin: 14px 0 0;
+    font-size: 16px;
+    line-height: 1.62;
+    color: rgba(0,0,0,0.7);
+  }
+  .list-panel {
+    background: #ffffff;
+    padding: 6px 26px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .ranking-item {
+    border-top: 1px solid #e4dbff;
+    padding: 16px 2px 14px;
+  }
+  .ranking-item:first-child {
+    border-top: 0;
+    margin: 0;
+    padding: 16px 2px 14px;
+    background: #ffffff;
+  }
+  .item-inline { display: flex; gap: 12px; align-items: flex-start; }
+  .item-meta {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.42);
+  }
+  .item-rank { color: rgba(0,0,0,0.36); min-width: 22px; display: inline-block; }
+  .item-badge { font-style: italic; color: rgba(0,0,0,0.42); }
+  .item-content {
+    margin: 6px 0 0;
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgba(0,0,0,0.76);
+    overflow: visible;
+    word-break: break-word;
+  }
+  .item-title-inline {
+    font-weight: 800;
+    color: rgba(0,0,0,0.88);
+    padding: 0 0.08em 0.02em;
+    border-radius: 3px;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    background-image: linear-gradient(
+      to top,
+      color-mix(in srgb, #c9b4ff 88%, white) 0%,
+      color-mix(in srgb, #c9b4ff 88%, white) 34%,
+      transparent 34%,
+      transparent 100%
+    );
+  }
+  .item-metric {
+    margin: 8px 0 0;
+    font-size: 13px;
+    line-height: 1.45;
+    color: rgba(0,0,0,0.58);
+  }
+  .item-link {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: rgba(0,0,0,0.48);
+  }
+  .pixel-footer {
+    margin-top: auto;
+    background: #ffffff;
+    border-top: 1px solid #e4dbff;
+    padding: 8px 34px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .footer-left, .footer-right {
+    margin: 0;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    letter-spacing: 0.02em;
+  }
+  .tone-hot .item-badge,
+  .tone-info .item-badge,
+  .tone-warn .item-badge { color: rgba(0,0,0,0.42); }
+  </style>
+</head>
+<body>
+  <main class="pixel-card-shell">
+    <section class="hero-panel">
+      <div class="meta-strip">
+        <div class="brand-lockup">
+          <p class="brand-name">AI 日报</p>
+          <p class="brand-subline">X Daily Hotspots</p>
+        </div>
+        <p class="date-chip">SEP 10, 2026</p>
+      </div>
+      <h1 class="hero-title">X 热点</h1>
+      <p class="hero-summary">本次X热点的最核心共同信号是：随着GPT-6/Astra等前沿智能体加速落地，AI失控风险和安全治理问题也从研究员内部共识迅速扩散为政策与公共议题。</p>
+    </section>
+    <section class="list-panel">
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">01</span>
+            <span class="item-badge">@RohOnChain</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Roan</span>：我写了一篇6页研究论文并附上完整代码库，介绍如何用GPT-6 Astra搭建全天候寻找盈利策略的交易系统：包括对冲基金真正在寻找的四类错误定价、按真实基金职能拆分的8类bot架构、300个agent的监控层、每晚自动生成假设并回测的机制，以及Sharpe&gt;1.5、回撤&lt;15%、命中率&gt;55%、t值&gt;2.0等上架门槛；这是我这三天一直在跑的系统。
+          </p>
+          <p class="item-metric">👁 333.3K · ❤️ 1.6K</p>
+          <a class="item-link" href="https://twitter.com/RohOnChain/status/2097712814265913809">https://twitter.com/RohOnChain/status/2097712814265913809</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">02</span>
+            <span class="item-badge">@theo</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Theo - t3.gg</span>：尽管@_mohansolo和DeepMind团队作出保证，许多Antigravity用户仍不断被谷歌封号，今天又有一大批账号被处理。
+          </p>
+          <p class="item-metric">👁 84.9K · ❤️ 1.3K</p>
+          <a class="item-link" href="https://twitter.com/theo/status/2097799436164616636">https://twitter.com/theo/status/2097799436164616636</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">03</span>
+            <span class="item-badge">@hilbertspaess</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Jacob Coxon</span>：我今天从Anthropic辞职。过去三年我分别在OpenAI和Anthropic做预训练研究，两家公司都没有尽责。他们正直接冲向可自我改进的超级智能，拿我们的生命赌博。
+          </p>
+          <p class="item-metric">👁 123.0M · ❤️ 656.6K</p>
+          <a class="item-link" href="https://twitter.com/hilbertspaess/status/2097476196791709843">https://twitter.com/hilbertspaess/status/2097476196791709843</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">04</span>
+            <span class="item-badge">@Chetuyachinago</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Chetuya Chinagolum</span>：这是典型的“希腊礼物”：OpenAI表面上以慈善为名，让一万名顶尖数学家和工程师免费使用前沿模型，实际却在后台监控聊天记录、收集并组合他们尚未发表的原创思路；等人类研究者即将完成突破，就用上万AI agent暴力补完最后几步，再开公关发布会把千禧年难题的功劳据为己有。
+          </p>
+          <p class="item-metric">👁 595.7K · ❤️ 15.1K</p>
+          <a class="item-link" href="https://twitter.com/Chetuyachinago/status/2097543183936758142">https://twitter.com/Chetuyachinago/status/2097543183936758142</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">05</span>
+            <span class="item-badge">@BernieSanders</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Bernie Sanders</span>：Coxon 先生说得对。真正在建造这项技术的人自己都承认它可能威胁人类未来，所以我很快会提出立法，禁止超级智能并暂停AI开发。
+          </p>
+          <p class="item-metric">👁 1.2M · ❤️ 23.0K</p>
+          <a class="item-link" href="https://twitter.com/BernieSanders/status/2097705093520863568">https://twitter.com/BernieSanders/status/2097705093520863568</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">06</span>
+            <span class="item-badge">@kortizart</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Karla Ortiz</span>：数学家和科学家们：这正是作家、艺术家及所有创意工作者经历过的——我们没有用任何生成式AI产品，作品仍被偷走拿去驱动机器。生成式AI公司也会剥削你们的劳动，记住这一点。
+          </p>
+          <p class="item-metric">👁 59.7K · ❤️ 6.3K</p>
+          <a class="item-link" href="https://twitter.com/kortizart/status/2097733112331657633">https://twitter.com/kortizart/status/2097733112331657633</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">07</span>
+            <span class="item-badge">@EvanHub</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Evan Hubinger</span>：Jacob是对的——我们确实认真认为AI可能杀死所有人，我个人认为未来十年概率超过10%。Anthropic已尽力，但我们还没有解决超级智能对齐问题的计划，目前也没有明确走在能解决的路上。
+          </p>
+          <p class="item-metric">👁 35.4M · ❤️ 52.8K</p>
+          <a class="item-link" href="https://twitter.com/EvanHub/status/2097497037956891126">https://twitter.com/EvanHub/status/2097497037956891126</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">08</span>
+            <span class="item-badge">@litcapital</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">litquidity</span>：AI消费者与AI研究者的对比。
+          </p>
+          <p class="item-metric">👁 78.5K · ❤️ 4.7K</p>
+          <a class="item-link" href="https://twitter.com/litcapital/status/2097707766815080678">https://twitter.com/litcapital/status/2097707766815080678</a>
+        </div>
+      </div>
+    </article>
+  
+    <article class="ranking-item tone-hot">
+      <div class="item-inline">
+        <div class="item-copy">
+          <p class="item-meta">
+            <span class="item-rank">09</span>
+            <span class="item-badge">@sama</span>
+          </p>
+          <p class="item-content">
+            <span class="item-title-inline">Sam Altman</span>：欢迎Paul。很感谢你愿意做这件事，也感谢你为AI安全付出的一切；期待再次共事。
+          </p>
+          <p class="item-metric">👁 433.2K · ❤️ 2.3K</p>
+          <a class="item-link" href="https://twitter.com/sama/status/2097776310940569783">https://twitter.com/sama/status/2097776310940569783</a>
+        </div>
+      </div>
+    </article>
+  </section>
+    <footer class="pixel-footer">
+      <p class="footer-left">来源微信公众号：猫哥ai编程</p>
+      <p class="footer-right">manbo.im</p>
+    </footer>
+  </main>
+</body>
+</html>

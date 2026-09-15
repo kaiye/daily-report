@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-09-11",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日热门项目几乎都围绕 AI 编码代理与智能体技能生态展开，从技能框架、模型选型到多智能体课堂与本地代理桌面端形成了一条完整的工具链。",
+  "items": [
+    {
+      "repo": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "让编码代理不再把答案埋在输出深处的技能，输出对 ADHD 友好。",
+      "language": "Python",
+      "stars_today": 3882,
+      "stars_total": 38225
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "真正行之有效的智能体技能框架与软件开发方法论。",
+      "language": "Shell",
+      "stars_today": 732,
+      "stars_total": 284691
+    },
+    {
+      "repo": "alsk1992/CloddsBot",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "description": "开源 AI 交易代理，自主运行于 1000+ 市场——Polymarket、Kalshi、Binance、Hyperliquid、Solana DEX 与 5 条 EVM 链，自动寻找优势、即时执行，并在你睡觉时管理风险；面向机器对机器支付的智能体商业协议，可自托管，基于 Claude 构建。",
+      "language": "TypeScript",
+      "stars_today": 277,
+      "stars_total": 1625
+    },
+    {
+      "repo": "Tencent/teamai-cli",
+      "url": "https://github.com/Tencent/teamai-cli",
+      "description": "让每个团队都成为 AI 原生团队。",
+      "language": "TypeScript",
+      "stars_today": 841,
+      "stars_total": 3763
+    },
+    {
+      "repo": "AlexsJones/llmfit",
+      "url": "https://github.com/AlexsJones/llmfit",
+      "description": "数百个模型与服务商，一条命令找出能在你硬件上跑起来的那些。",
+      "language": "Rust",
+      "stars_today": 258,
+      "stars_total": 35719
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "面向 Claude Code、Codex 和 Pi 的 38 种编辑级图表类型，自包含 HTML + SVG，没有阴影，也没有 Mermaid 味。",
+      "language": "HTML",
+      "stars_today": 1294,
+      "stars_total": 37716
+    },
+    {
+      "repo": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "language": "JavaScript",
+      "stars_today": 962,
+      "stars_total": 30817
+    },
+    {
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "别停下编码：免费 MIT AI 网关，一个端点接入 352 家服务商（150+ 免费）、1200+ 模型 Kimi、Claude、GPT、Gemini、GLM、DeepSeek、MiniMax，兼容 Claude Code、Codex、Cursor、OpenCode、Cline 与 Copilot，带配额感知自动回退，RTK+Caveman 压缩节省 15-95% token，支持 MCP/A2A 与桌面/PWA，由 550+ 贡献者共同打造。",
+      "language": "TypeScript",
+      "stars_today": 626,
+      "stars_total": 64224
+    },
+    {
+      "repo": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "description": "开放多智能体互动课堂——一键获得沉浸式的多智能体学习体验。",
+      "language": "TypeScript",
+      "stars_today": 837,
+      "stars_total": 35283
+    },
+    {
+      "repo": "nashsu/llm_wiki",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "description": "LLM Wiki 是一款跨平台桌面应用，把你的文档自动变成有组织、相互链接的知识库——不再沿用每次从头检索作答的传统 RAG，而是由 LLM 从你的资料中增量构建并维护一座常驻 wiki。",
+      "language": "TypeScript",
+      "stars_today": 142,
+      "stars_total": 18082
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "开放的智能体技能工具——npx skills。",
+      "language": "TypeScript",
+      "stars_today": 122,
+      "stars_total": 31128
+    },
+    {
+      "repo": "vastsa/PI-Desktop",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "description": "本地优先的 AI 编码代理桌面端：Electron + Rust 宿主核心 + pi Agent Harness + 用户可安装插件。",
+      "language": "TypeScript",
+      "stars_today": 624,
+      "stars_total": 2277
+    }
+  ]
+}

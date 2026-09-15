@@ -1,0 +1,232 @@
+{
+  "generated_at": "2026-09-13T00:00:31.066Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 18,
+  "items": [
+    {
+      "source": "机器之心",
+      "title": "从认路到「跌倒再战」，机器人也在重走大模型的Scaling之路？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056768&idx=2&sn=4654e82cec450b3529f97ef07f1aa2a4",
+      "published_at": "2026-09-12T03:00:00.000Z",
+      "summary": "机器之心 2026-09-12 11:00 四川\n\n亮源新创用两次技术发布给出了自己的回答\n\n机器之心发布\n\n过去三年，大模型走完了一条已被反复验证的路：先在海量数据上预训练出能力，再用对齐把能力变成可用性，最后靠大规模部署中的真实反馈持续进化。GPT-3、InstructGPT、ChatGPT——三步，一步一个台阶。\n\n于是一个问题开始在具身智能行业里产生： 这条路，能不 能在物理 世界原样再走一遍？\n\n提出这个问题，是因为具身智能正卡在一道与当年大模型相似的“鸿沟”前：模型在仿真榜单上分数越刷越高，演示视频越拍越炫，但真正放到真实环境里，换一个场景、换一台机器，往往就要重新采数据、重新训练",
+      "priority_score": 228,
+      "matched_keywords": [
+        "ChatGPT",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI’s rogue AI tried to hack another company in May",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack",
+      "published_at": "2026-09-12T21:41:36.000Z",
+      "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now[independent researchers](https://www.rubyhack.ai/)have said that a swarm of OpenAI agents were responsible for the attack. Not only that, but the AI tried to steal users' API key",
+      "priority_score": 222,
+      "matched_keywords": [
+        "OpenAI",
+        "AI Agent"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic CEO outlines plan to slow AI development",
+      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+      "published_at": "2026-09-12T19:34:44.000Z",
+      "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+      "priority_score": 200,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "新智元",
+      "title": "谷歌Meta被锤刷榜！Gemini暴跌70分，Top 2秒变倒数第三",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725362&idx=2&sn=e5e98cc82fe8be66d0fd257af594420c",
+      "published_at": "2026-09-12T07:15:00.000Z",
+      "summary": "ASI启示录 2026-09-12 15:15 河北\n\n### **新智元报道**\n\n跑分这事儿，最近有点不太对劲。\n\n9月8日，分析机构SemiAnalysis连甩五条推文，直接点名谷歌和Meta两家万亿巨头——\n\nGemini 3.8 Flash和Muse Spark 1.3是「刷榜痕迹最明显的两个模型」。\n\n证据，非常清晰。\n\n在测Agent干活能力的Terminal-Bench 2.1榜单上，Gemini 3.8 Flash考了89.4分，在182个模型里高居第2，把GPT-6 Astra都压在了身下。\n\n结果换到8月29日刚上线的Terminal-Bench 4.0，同一个模型只拿到",
+      "priority_score": 150,
+      "matched_keywords": [
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+      "published_at": "2026-09-12T16:23:40.000Z",
+      "summary": "Anthropic CEO Dario Amodei says the time has come to slow down AI development and will give third-party evaluators like[METR](https://metr.org/)access to its models to help ensure its \"adherence to safety practices and commitments.\" In a[winding essay](https://darioamodei.com/post/we-must-pace-the-f",
+      "priority_score": 122,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+      "published_at": "2026-09-12T21:16:28.000Z",
+      "summary": "OpenAI CEO Sam Altman confirmed that there would be no OpenAI IPO in 2026 during an[interview](https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/)with*[Fortune](https://youtu.be/2my-NU6LuCM)*. Over the course of 45 minutes, Altman discussed a variety of su",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+      "published_at": "2026-09-12T20:19:16.000Z",
+      "summary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI just wants to win",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+      "published_at": "2026-09-12T11:00:00.000Z",
+      "summary": "OpenAI has spent the last few years planting flags across the increasingly difficult terrain in mathematics. This week, it claimed one of its biggest prizes yet: a solution to a legendary Millennium Prize problem. In normal circumstances, this would have been celebrated as a historic achievement.\n\nI",
+      "priority_score": 100,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "极客公园",
+      "title": "月之暗面冲击 20 亿美元 ARR；燧原科技上市，高开 188%；iPhone Duo 二手平台每台涨价 2.4 万｜极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113475&idx=1&sn=a7ce102635ee294c7814c733acdc1bfe",
+      "published_at": "2026-09-12T00:27:00.000Z",
+      "summary": "徐珊 2026-09-12 08:27 美国\n\nAnthropic披露AI相亲骗局；王腾创业公司今日宜休 ISHO 睡眠记录 App 开启内测；Meta下一代混合现实设备曝光\n\n## 燧原科技上市敲钟，创始人现身，「国产 GPU 四小龙」全部完成资本化\n\n9 月 11 日，燧原科技（688801.SH）在科创板正式敲钟上市，这也是「国产 GPU 四小龙」中最后一家登陆资本市场的企业。第一财经记者在上交所现场注意到，公司两位创始人赵立东、张亚林一起现身敲钟现场，对于记者在现场关于公司上市后业务展望的提问，创始人赵立东表示「不方便接受采访」。\n\n开盘日，燧原科技高开超 188%，报 410 元，总",
+      "priority_score": 100,
+      "matched_keywords": [
+        "Anthropic"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "配套CLI与Skills，浙大开源可插拔Agent评测底座",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922331&idx=2&sn=31d53cffe48bc2b01fe20512a63dc043",
+      "published_at": "2026-09-12T08:30:00.000Z",
+      "summary": "关注前沿科技 2026-09-12 16:30 北京\n\n告别海量脚手架\n\n##### ZJU-REAL 团队 投稿 量子位 | 公众号 QbitAI\n\n同一套模型，换一个coding agent运行时，测试得分和实际消耗往往大相径庭。\n\n而在本地、Docker与各类云沙箱之间来回适配，又容易陷入写不完胶水代码的泥潭。\n\n针对这一问题， **浙江大学ZJU-REAL团队** 开源了 **ageval** （agent eval）。它的核心思路是将待测Agent与运行环境通过插件彻底解耦：在配置文件中修改一行，同一份dataset就能在不同环境、不同Agent间自由切换运行。\n\n配合专用的CLI与",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "刚刚，国产世界模型Motus 2发布！灵巧操作开始「自进化」",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725362&idx=1&sn=15cce7ff702a6cd1225a6bfb9e685879",
+      "published_at": "2026-09-12T07:15:00.000Z",
+      "summary": "ASI启示录 2026-09-12 15:15 河北\n\n### **新智元报道**\n\n刚刚，机器人开始自进化，迈出自主世界智能体的一大步！\n\n9月10日，在外滩大会现场，生数科技联合创始人、CEO 骆怡航带来了 生数 Motus2——一个面向灵巧操作的自我演化型通用世界模型。\n\n它要解决的，不只是让机器人学会一个动作，而是让机器人能够预演动作后果、判断结果好坏，再用这些判断改进策略。\n\n双手撕纸、翻书页、开易拉罐、擀面团等过去被视为高难度的精细动作，丝滑出现在了 Motus2 的真机演示中。\n\n通用具身智能体，应当在一个统一系统里完成五件事：感知、预测、行动、评估与改进。形成这种持续演化的闭环",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "新智元",
+      "title": "清华发布物理引导的扩散模型，无线信道多尺度预测提升37.19% | TMC'26",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&mid=2652725362&idx=3&sn=4583c8cace3c994eafb6e1b7fd031e22",
+      "published_at": "2026-09-12T07:15:00.000Z",
+      "summary": "新智元 2026-09-12 15:15 河北\n\n### **新智元报道**\n\n在移动通信网络中，参考信号接收功率（RSRP）能够直接反映无线信道的质量，影响用户体验与网络吞吐。\n\n无线信号在城市空间的传播受到路径损失、阴影衰落等大尺度衰落损耗，以及多径效应等带来的小尺度衰落损耗。\n\n传统方法难以对不易表征的小尺度衰落进行建模，制约了RSRP预测的精度。\n\n清华大学、北京邮电大学联合团队 围绕无线网络RSRP预测问题提出 物理引导扩散模型Channel-Diff ，将RSRP预测表述为条件生成问题：既要恢复相对稳定的大尺度传播趋势，也要学习随机的小尺度衰落分布。 Channel-Diff将传播",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "AI 时代的「4399」，可把我玩嗨了｜AI 上新",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113496&idx=1&sn=a65a14dedf98f1803cdf7003455e0201",
+      "published_at": "2026-09-12T06:33:00.000Z",
+      "summary": "原创Moonshot 2026-09-12 14:33 甘肃\n\n「程序」，可以成为一种社交媒体的内容单位吗？\n\n**作者｜Moonshot** **编辑｜ **靖宇****\n\n打开 Pocket 的前十分钟，我以为自己打开了一个 Instagram 版的 4399。\n\n不久前，Meta 在美国正式推出了 Pocket。Pocket 的玩法很好理解，用户不用写代码，只要告诉 AI「我想做一个什么东西」，几十秒后就能得到一个可以直接操作的小游戏、小工具或者互动页面。\n\n做完以后，它就像发帖一样，发到了 Pocket 的信息流里，其他人刷到后，可以直接玩、评论、转发，或者拿去修改成自己的版本。\n\n打",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "淘天自研编码器斩获MSU 6项冠军，视频编码技术支撑内容体验升级",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056768&idx=1&sn=12328292ebfa03f4d8373e374df5bf9b",
+      "published_at": "2026-09-12T03:00:00.000Z",
+      "summary": "机器之心 2026-09-12 11:00 四川\n\n淘天S266系列编码器斩获6项世界冠军，彰显领先技术实力。\n\n机器之心发布\n\n近日，由莫斯科国立大学（Moscow State University，MSU）举办的第 19 届 MSU 世界视频编码器大赛（MSU 2025 FullHD 赛道）结果正式揭晓。\n\n在这场汇聚了腾讯、快手、AOMedia 及 OpenVisualCloud 等国内外顶尖团队、27 款主流编码器同台竞技的权威评测中，淘天音视频技术团队自主研发的 S266 系 列编 码器 表现出色，累计斩获 6 项世界冠军 及 1 项季军 。\n\n完整比赛结果：[https://www",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Trump is giving data centers a pass to pollute",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+      "published_at": "2026-09-12T14:41:27.000Z",
+      "summary": "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new[report](https://www.environmentalprotectionnetwork.org/new-report-ai-",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "这个学生，用4天做的AI短片，从京东拿走30000元！",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922331&idx=1&sn=682af74c95e5b9419703ad7e74bdad9d",
+      "published_at": "2026-09-12T08:30:00.000Z",
+      "summary": "原创关注前沿科技 2026-09-12 16:30 北京\n\n首次曝光京东灵境AIGC\n\n##### 金磊 发自 凹非寺 量子位 | 公众号 QbitAI\n\n有了AI，现在的学生，真的是不得了——\n\n仅仅耗时 **4天** 时间，就做出了一个 **AI短片** ，然后直接斩获 **一等奖** ，拿下 **30000元！**\n\n来，话不多说，我们直接先来欣赏一下作品：\n\n真的很难想象，如此高清、丝滑且充满想象力的短片，竟然是一个学生在4天内搓出来的。\n\n而这，便是出自 **东北师范大学** 动画系的研究生 **徐威** 的作品—— **《ARCADIA》** 。\n\n讲述的是几名在火星探险的人类，以",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247922331&idx=3&sn=7ce5df5e6dc4843e702521af2ea85d17",
+      "published_at": "2026-09-12T08:30:00.000Z",
+      "summary": "关注前沿科技 2026-09-12 16:30 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "机器之心",
+      "title": "从「Disable」到「Able」，爱博智能在康复里寻找答案",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056768&idx=3&sn=9e2722e35a74a5363db0f41f212241ab",
+      "published_at": "2026-09-12T03:00:00.000Z",
+      "summary": "衡奕铭 2026-09-12 11:00 四川\n\n以下文章来源于：科城变量\n**科城变量**\n从合肥，发现未来科技变量。\n\n从「Disable」到「Able」，爱博智能在康复里寻找答案\n\n**编辑 | 衡奕铭** **从一个名字说起** 爱博智能的英文名 Aible 中，放着两个词：AI 与 Able。据他们介绍，这个名字表达的是一个朴素的愿望： 用 AI 帮助能力受限者重新获得能力，即去掉“Disable”中的“dis” 。\n\n爱博智能首先把这份愿景落在了康复场景。一个人想抬起腿，大脑发出的运动指令却未必能够抵达肢体。头皮表面的脑电信号十分微弱，眼动和肌肉活动都会留下干扰；即使算法从中识别出",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

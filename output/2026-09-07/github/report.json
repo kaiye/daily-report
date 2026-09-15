@@ -1,0 +1,120 @@
+{
+  "report_date": "2026-09-07",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日 GitHub 热门以 AI 智能体生态为核心，从 agent 性能优化、技能与营销技能库，到推理服务及各类 agent 应用集中上榜。",
+  "items": [
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "Agent 框架的性能优化系统，为 Claude Code、Codex、Opencode、Cursor 等提供技能、直觉、记忆、安全与以研究为先的开发能力。",
+      "language": "JavaScript",
+      "stars_today": 1485,
+      "stars_total": 251279
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "为真正的工程师准备的技能，直接来自我的 .agents 目录。",
+      "language": "Shell",
+      "stars_today": 2207,
+      "stars_total": 254495
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "为 Claude Code、Codex 和 Pi 提供的 38 种编著型图表类型，自包含 HTML + SVG，无阴影，没有 Mermaid 式花活。",
+      "language": "HTML",
+      "stars_today": 620,
+      "stars_total": 32325
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "与你一同成长的智能体。",
+      "language": "Python",
+      "stars_today": 520,
+      "stars_total": 242530
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "开源的编程智能体。",
+      "language": "TypeScript",
+      "stars_today": 551,
+      "stars_total": 205245
+    },
+    {
+      "repo": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "从文本中消除 AI 生成痕迹的 Agent 技能。",
+      "language": "Python",
+      "stars_today": 748,
+      "stars_total": 44213
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "让你的 AI 智能体像团队里最懒的资深开发一样思考：最好的代码就是你从未写过的代码。",
+      "language": "JavaScript",
+      "stars_today": 1539,
+      "stars_total": 129311
+    },
+    {
+      "repo": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 最初的 agent 元框架：部署智能多智能体群、协调自主工作流、构建对话式 AI 系统，并具备自适应记忆、自学习智能、RAG 集成以及众多原生集成的 Claude Code / Codex / Hermes。",
+      "language": "TypeScript",
+      "stars_today": 276,
+      "stars_total": 70973
+    },
+    {
+      "repo": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "针对你的硬件运行最佳本地模型的开源推理服务器，可直接接入你正在使用的 agent，支持 Pi、OpenCode、Hermes、OpenClaw、Codex、Claude Code、Oh My Pi 和 Cline。",
+      "language": "TypeScript",
+      "stars_today": 604,
+      "stars_total": 3663
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "description": "面向 Claude Code 和 AI 智能体的营销技能，覆盖 CRO、文案写作、SEO、数据分析与增长工程。",
+      "language": "JavaScript",
+      "stars_today": 329,
+      "stars_total": 47498
+    },
+    {
+      "repo": "aipoch/open-science",
+      "url": "https://github.com/aipoch/open-science",
+      "description": "AIPOCH 的 Open Science 是一个开源、本地优先、模型无关的 AI 研究工作台，支持 macOS、Windows 和 Linux，带有科学 agent、Python/R notebook、数据连接器与可复现来源追溯。",
+      "language": "TypeScript",
+      "stars_today": 146,
+      "stars_total": 3845
+    },
+    {
+      "repo": "OpenWhispr/openwhispr",
+      "url": "https://github.com/OpenWhispr/openwhispr",
+      "description": "支持本地（Nvidia Parakeet/Whisper）与云端模型（BYOK）的语音转文字听写应用，隐私优先且跨平台可用。",
+      "language": "JavaScript",
+      "stars_today": 121,
+      "stars_total": 7339
+    },
+    {
+      "repo": "humanlayer/skills",
+      "url": "https://github.com/humanlayer/skills",
+      "description": "来自 HumanLayer 的 Claude Code 技能，可通过 npx skills add 安装；可用技能 include improve-claude-md，会使用 <important if> 代码块重写 CLAUDE.md 以提升指令遵循度。",
+      "language": "TypeScript",
+      "stars_today": 451,
+      "stars_total": 3120
+    },
+    {
+      "repo": "The-Swarm-Corporation/AutoHedge",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge",
+      "description": "几分钟内构建你的自主对冲基金，AutoHedge 利用群体智能与 AI 智能体来自动化市场分析、风险管理和交易执行。",
+      "language": "Python",
+      "stars_today": 142,
+      "stars_total": 4700
+    }
+  ]
+}

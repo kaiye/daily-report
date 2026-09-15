@@ -1,0 +1,355 @@
+{
+  "generated_at": "2026-09-04T00:00:57.243Z",
+  "source_raw": "raw.json",
+  "history_files_used": 3,
+  "history_days": 3,
+  "priority_keywords_used": 22,
+  "item_count": 27,
+  "items": [
+    {
+      "source": "The Verge AI",
+      "title": "ChatGPT, Grok, and Claude all went down at the same time",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989503/chatgpt-grok-claude-outage-down",
+      "published_at": "2026-09-03T15:35:14.000Z",
+      "summary": "OpenAI's ChatGPT, xAI's Grok, and Anthropic's Claude are back online after they all began experiencing issues around the same time on Thursday. At about 11AM ET, ChatGPT started returning error messages for users trying to use the chatbot, with its[status page saying](https://status.openai.com/)ther",
+      "priority_score": 700,
+      "matched_keywords": [
+        "OpenAI",
+        "Anthropic",
+        "Claude",
+        "ChatGPT",
+        "GPT",
+        "xAI",
+        "Grok"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+      "published_at": "2026-09-03T18:00:00.000Z",
+      "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use. As OpenAI[announced earlier this week](https://www.theverge.com/ai-artificial-intelligence/987695/o",
+      "priority_score": 322,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT",
+        "AGI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "火速吃瓜，OpenAI模型还没发又惹出争议了？？",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247918381&idx=2&sn=5664ff1f2c1a47f4ff0485cc903122c5",
+      "published_at": "2026-09-03T09:30:00.000Z",
+      "summary": "关注前沿科技 2026-09-03 17:30 北京\n\n模型开始在脑内循环，安全专家急了\n\n##### 一水 发自 凹非寺 量子位 | 公众号 QbitAI\n\n怎么模型还没发又惹出争议了？？\n\nGPT-6发布前夕，最早由The Information爆出的一则消息迅速在网上引起热议：\n\n**OpenAI新模型引入了一种名为“循环深度（recurrent depth）”的推理技术，它可能让模型的思考过程变得更难理解、更难监控** 。\n\n用大白话说就是，以后AI想了啥，人类就真看不懂了。\n\n啊这，那要是AI学会欺骗、作弊或者绕过安全限制，我们岂不是也无法及时发现了？？\n\n难怪消息一出，AI安全圈迅",
+      "priority_score": 228,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "OpenAI Astra被曝引入「循环深度」能力飙升！安全专家坐不住了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651054414&idx=2&sn=e29b7c12fc5056bc5c62410551d98e82",
+      "published_at": "2026-09-03T04:01:00.000Z",
+      "summary": "机器之心 2026-09-03 12:01 北京\n\n明天发布？\n\n编辑｜山辉\n\nOpenAI 最强新模型 Astra，可能明天就要来了！\n\n这是 OpenAI 第一个达到「关键级」网络安全能力门槛的模型。\n\nAstra 在纳入 2026 年 6 月至 8 月披露的 20 个 V8 高危漏洞的内部测试集上， 取得了 10 0% 的任意代码执行成功率，而 GPT-5.6 Sol 的成功率仅为 20% ，同时，Astra 使用的 Token 更少效率更高。\n\n它还成功发现并利用了两个此前未知的零日漏洞，完成浏览器沙箱逃逸，并在加固操作系统中将权限从普通用户提升至 root。\n\nOpenAI 甚至为它",
+      "priority_score": 228,
+      "matched_keywords": [
+        "OpenAI",
+        "GPT"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "OpenAI launches Astra, its powerful (and controversial) new model",
+      "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+      "published_at": "2026-09-03T18:01:45.000Z",
+      "summary": "OpenAI claims that Astra represents \"a new frontier on computer and browser use,\" and that it handles tasks with unmatched \"speed, accuracy, and safety.\"",
+      "priority_score": 150,
+      "matched_keywords": [
+        "OpenAI"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "马斯克：火箭再炸一次，SpaceX 就没了；小米「阔折叠」全球首秀；豆包工作支持多 Agent 和屏幕操作 | 极客早知道",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113100&idx=1&sn=82a76842dba8b1e596afb1c7ccbc975d",
+      "published_at": "2026-09-03T00:08:00.000Z",
+      "summary": "于程程 2026-09-03 08:08 北京\n\n谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景;消息称月之暗面启动港股 IPO 流程，本周已向港交所秘密交表;科学家疑似探测到暗物质首个直接证据，待进一步验证\n\n## 谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景\n\n9 月 2 日消息，谷歌在 Google DeepMind 网站低调上线了 Gemini 3.8 Flash 模型。其基于 Gemini 3.7 Flash，拥有在软件工程和智能体知识工作流方面的性能提升，并持续支持可定制的努力水平，以控制质量、成本和延迟的组合。",
+      "priority_score": 150,
+      "matched_keywords": [
+        "DeepMind"
+      ],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+      "published_at": "2026-09-03T16:00:00.000Z",
+      "summary": "Nvidia is announcing its new[Personal AI Router](https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/)(PAIR), a free tool that syncs up your home computers for tackling local AI inference tasks with tools like Ollama and LM Studio.\n\nLet's get the obvious thing out of the way, despite what its ",
+      "priority_score": 128,
+      "matched_keywords": [
+        "Llama"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "陈大年复出，入局大模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247918381&idx=1&sn=e834d412e92eb1fa885dfcf471d4b2c7",
+      "published_at": "2026-09-03T09:30:00.000Z",
+      "summary": "原创关注前沿科技 2026-09-03 17:30 北京\n\n首秀逼近DeepSeek万亿旗舰\n\n##### 鹭羽 发自 凹非寺 量子位 | 公众号 QbitAI\n\n不得了！国产大模型第一梯队，最近爆了个冷门。\n\n一家新公司，首款模型只有 **27B** ，却在信通院MCP专项测试中拿下综合第二。\n\n排在它前面的，是梁文锋藏了近一年的大杀器——参数量高达1.6万亿的 **DeepSeek-V4-Pro** 。\n\n两者差距，只区区 **1.3个百分点** 。\n\n这匹黑马就是 **StartLux-V1.0-27B-Preview** ，来自 StartLux *（原点星辉）* 。\n\n有点面生是吧？",
+      "priority_score": 128,
+      "matched_keywords": [
+        "DeepSeek"
+      ],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Meta is paying to peek at how you use their latest AI model",
+      "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+      "published_at": "2026-09-03T18:19:56.000Z",
+      "summary": "For its new Muse Spark model, intended for operating coding and other agents, Meta is offering an explicit discount averaging out to about 95% for users who \"contribute\" to the development of future models by sharing their prompts and model outputs.",
+      "priority_score": 122,
+      "matched_keywords": [
+        "AGI"
+      ],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "蚂蚁VLDB最佳论文：用一张“逻辑表”驯服3050亿条训练数据",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247918381&idx=4&sn=dfbbddb50c561e09f85e05c20c65bfb1",
+      "published_at": "2026-09-03T09:30:00.000Z",
+      "summary": "关注前沿科技 2026-09-03 17:30 北京\n\n35PB语料，数据准备提速5.6倍\n\n##### 蚂蚁集团 投稿 量子位 | 公众号 QbitAI\n\n训练一个大模型之前，语料需要经过解析、清洗、去重、质量评分、Token化和样本组装。\n\n规模来到PB级，工程团队每天面对的不止算力账单，还有数百张表、不断增加的特征，以及少数几条就可能让整批任务重跑的异常数据。\n\n以此为背景，论文《OmniTable: A Unified Wide-Table System for Petabyte-Scale LLM Data Curation and Exploration》介绍了一套由 **蚂蚁集团",
+      "priority_score": 100,
+      "matched_keywords": [
+        "LLM"
+      ],
+      "signal_tags": []
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google says its AI weather model is getting better",
+      "url": "https://www.theverge.com/tech/988921/weather-forecast-ai-model-google-satellite-update",
+      "published_at": "2026-09-03T15:00:00.000Z",
+      "summary": "Google is rolling out an updated AI weather model that's supposed to be more accurate, especially when it comes to predicting rain and snowfall.\n\nIn the announcement today, the company says it's now able to make forecasts with \"unprecedented resolution\" using its new WeatherNext 3 AI model. It can p",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "机器之心",
+      "title": "RSI离我们有多远？这家中国团队给出了第一梯队的工程解",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651054414&idx=1&sn=8b059e8c7025fd12ef2262632d066f8d",
+      "published_at": "2026-09-03T04:01:00.000Z",
+      "summary": "机器之心 2026-09-03 12:01 北京\n\n在智能体和系统协议层解锁 RSI。\n\nAgent 经常遇到这样一种幻觉：你给模型接入了终端，下发了一个复杂的 debug 任务，看着它顺藤摸瓜排查了几个小时，最终完美修复了依赖冲突，甚至连测试用例都帮你补齐了。\n\n你以为你的系统变强了。\n\n但第二天，另一个 Agent 接手了同一个仓库的相似任务。结果，它像个完全没来过的新手，从盲目读取报错、乱改配置到随意重装，把昨天踩过的坑、走过的弯路，原封不动又走了一遍。\n\n代码修好了，日志也存下来了，但对于系统而言，什么都没有发生。\n\n深挖这个现象，是一个残酷、致命、却极少被正视的工程问题： 模型的单次",
+      "priority_score": 50,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Nvidia is buying Hugging Face for almost $13 billion",
+      "url": "https://www.theverge.com/tech/985474/nvidia-buying-hugging-face-deal",
+      "published_at": "2026-09-03T12:12:06.000Z",
+      "summary": "Nvidia has[agreed to buy Hugging Face](https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/)for $12.93 billion, bringing one of the most popular hosting platforms for open-source AI models, datasets, and tools under the ownership of the world's biggest AI chipmaker.\n\nHugging Face is an onli",
+      "priority_score": 46,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna",
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "量子位",
+      "title": "卡车自动驾驶里程超10亿公里，嬴彻科技定义“货运物理AI”",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247918381&idx=3&sn=e9e8351e72ca4e3a323d30b1a8052c21",
+      "published_at": "2026-09-03T09:30:00.000Z",
+      "summary": "关注前沿科技 2026-09-03 17:30 北京\n\n吃下90%市场份额\n\n##### 允中 发自 凹非寺 量子位 | 公众号 QbitAI\n\n2026年9月3日，嬴彻科技宣布其卡车自动驾驶商业运营里程突破 **10亿公里** ，形成行业最大规模的真实运营数据资产。\n\n目前，嬴彻以超 **90%的市场份额** 领跑中国卡车智驾市场，并已完成从“自动驾驶”到“货运物理AI”的战略升级，构建覆盖 **干线、支线/城配及末端** 的全场景货运机器人网络。\n\n## 商业化领跑：从价值呈现到规模优势\n\n截至当前，嬴彻智驾系统的高速网络覆盖率达97%，用户涵盖快递快运、零担专线、冷链、百货、奶罐等多元领",
+      "priority_score": 28,
+      "matched_keywords": [],
+      "signal_tags": [
+        "product_update"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Accel reportedly in talks to lead $1B round for Thinking Machines at $40B valuation",
+      "url": "https://techcrunch.com/2026/09/03/accel-reportedly-in-talks-to-lead-1b-round-for-thinking-machines-at-40b-valuation/",
+      "published_at": "2026-09-03T19:36:29.000Z",
+      "summary": "The high-profile startup's annual revenue run rate stands at over $100 million.",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "极客公园",
+      "title": "成立不到一年连融三轮，这个睡眠 AI 产品「火」了",
+      "url": "https://mp.weixin.qq.com/s?__biz=MTMwNDMwODQ0MQ==&mid=2653113105&idx=1&sn=10394fa42d6aa07877395900ace069a3",
+      "published_at": "2026-09-03T06:02:00.000Z",
+      "summary": "原创连冉 2026-09-03 14:02 湖北\n\n床头或许会成为 AI4Bio 的一个新入口。\n\n**作者｜连冉** **编辑｜郑玄**\n\n一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注，智元机器人等机构先后进入股东名单；到了今年 7 月，招商局创投又领投了它的新一轮融资。\n\n这家公司叫 Fullive.ai，创始人郑昊本科就读于清华数学系，此后一路跨过生物统计、因果推断、AI、医学和硬科技投资；联合创始人韦骁龙来自北大计算机，此前曾在华为、荣耀负责消费电子产品。团队里还有参与过华为手环、WHOOP 等穿戴设备的硬件人员，以及来自百度、大疆等公司的算",
+      "priority_score": 24,
+      "matched_keywords": [],
+      "signal_tags": [
+        "funding_mna"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Abliteration.ai is making a business out of removing AI guardrails",
+      "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+      "published_at": "2026-09-03T18:37:57.000Z",
+      "summary": "Abliteration.AI is making powerful AI models without guardrails easier to access, arguing that giving defenders the same tools as bad actors could ultimately improve cybersecurity.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Ollie is betting its focus on privacy can help it win the AI assistant race",
+      "url": "https://techcrunch.com/2026/09/03/ollie-is-betting-privacy-can-win-the-ai-assistant-race/",
+      "published_at": "2026-09-03T16:09:01.000Z",
+      "summary": "The family-focused AI assistant wants access to the details of your everyday life, but says it won’t use that data to train AI models or share it with others.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "Google DeepMind",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "published_at": "2026-09-03T15:02:08.000Z",
+      "summary": "",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Google’s latest AI weather model gives you no excuse to forget your umbrella",
+      "url": "https://techcrunch.com/2026/09/03/googles-latest-ai-weather-model-gives-you-no-excuse-to-forget-your-umbrella/",
+      "published_at": "2026-09-03T15:00:00.000Z",
+      "summary": "WeatherNext 3 is the latest wave of a sea change in meteorology brought out by deep learning techniques. Google says it will start feeding into weather information users see in search, Google Maps, and Gemini.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Nvidia confirms it will buy Hugging Face for $12.9 billion",
+      "url": "https://techcrunch.com/2026/09/03/nvidia-confirms-it-will-buy-hugging-face-for-12-9-billion/",
+      "published_at": "2026-09-03T12:42:45.000Z",
+      "summary": "Nvidia said Hugging Face hosts over 3 million models and is used by over 18 million developers.",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Scaling agentic AI pilots across the enterprise",
+      "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+      "published_at": "2026-09-03T09:30:32.000Z",
+      "summary": "As agentic AI moves from experimentation toward enterprise deployment, the challenge is figuring out how agents can work together, connect to the systems and data they need, and operate safely across the workflows that run a business. Although agentic AI has been adopted by some 80% of Fortune 500 c",
+      "priority_score": 22,
+      "matched_keywords": [],
+      "signal_tags": [
+        "technical_breakthrough"
+      ]
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Google now lets you chat with Gmail, Docs, and Keep",
+      "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+      "published_at": "2026-09-03T16:00:00.000Z",
+      "summary": "Google is rolling out AI-powered voice assistant modes for Gmail, Docs, and Keep that allow you to manage the apps by talking to them. The real time conversational capabilities are called Gmail Live, Docs Live, and Keep Live, and like the[Gemini Live](https://www.theverge.com/2024/8/13/24219736/gemi",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "HuggingFace Blog",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "published_at": "2026-09-03T13:13:48.000Z",
+      "summary": "",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "The Download: rethinking child safety and fossil-fueled farming",
+      "url": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
+      "published_at": "2026-09-03T12:10:00.000Z",
+      "summary": "*This is today’s edition of* [The Download](https://forms.technologyreview.com/newsletters/briefing-the-download/?_ga=2.179569122.736533416.1649661040-405833893.1649413289),*our weekday newsletter that provides a daily dose of what’s going on in the world of technology.*\n\n### Child-monitoring apps m",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "Agriculture relies on fossil fuels. It’s costing us.",
+      "url": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/",
+      "published_at": "2026-09-03T10:00:00.000Z",
+      "summary": "If you’ve had to fill up your vehicle’s gas tank or buy a plane ticket lately, you’ve probably felt the effects of rising fossil-fuel prices. But farmers buying fertilizer for their crops are especially aware of just how far the ripple effects of the conflict in Iran have spread.\n\nFertilizer prices ",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    },
+    {
+      "source": "量子位",
+      "title": "量子位编辑作者招聘",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&mid=2247918381&idx=5&sn=4f653a5a11ad57c3b0c403d822d2df87",
+      "published_at": "2026-09-03T09:30:00.000Z",
+      "summary": "关注前沿科技 2026-09-03 17:30 北京\n\n3个岗位（含实习），不设边界\n\n##### 编辑部 发自 凹非寺 量子位 | 公众号 QbitAI\n\nAI热潮还在汹涌，但如果你还不知道如何参与……那为什么不来 **量子位** 呢？\n\n我们是一家以 **追踪AI新进展** 为核心的内容平台，经过8年积累，目前拥有顶流影响力，广泛且备受认可的产业资源，以及时代风口的最佳观测和学习生态位。\n\n目前，我们有 三大方向 岗位招聘，希望你是 （或者能成为） 这三个方向的内容专家：\n\n- **AI产业方向** ：关注基建层创新，包含芯片、AI Infra、云计算；\n- **AI财经方向** ：关注A",
+      "priority_score": 0,
+      "matched_keywords": [],
+      "signal_tags": []
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "report_date": "2026-09-15",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日榜单几乎被 AI 与 Agent 生态占据，从本地语音/音乐生成、多智能体交易到代码审查与 Agent 技能注册表，围绕 LLM 落地的实用工具是共同主线。",
+  "items": [
+    {
+      "repo": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "description": "在你已有的硬件上运行前沿 MoE 模型——纯 C、零依赖，专家从磁盘流式加载，小引擎承载大模型。🐦",
+      "language": "C",
+      "stars_today": 2173,
+      "stars_total": 32026
+    },
+    {
+      "repo": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "在阿里巴巴规模下久经考验的高效代码审查工具：确定性流水线 + LLM Agent 的混合架构，精确到行的评审意见，内置多语言规则集（NPE、线程安全、XSS、SQL 注入），兼容 OpenAI 与 Anthropic。",
+      "language": "Go",
+      "stars_today": 1571,
+      "stars_total": 25635
+    },
+    {
+      "repo": "multimodal-art-projection/YuE",
+      "url": "https://github.com/multimodal-art-projection/YuE",
+      "description": "YuE2：融合符号规划、零样本翻唱与智能体音乐编辑的前沿音乐生成。",
+      "language": "Python",
+      "stars_today": 559,
+      "stars_total": 8312
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio 是开源、完全本地的 ElevenLabs 替代方案——支持 646 种语言的语音克隆、音色设计、视频配音、听写、转录与有声书制作。",
+      "language": "Python",
+      "stars_today": 2776,
+      "stars_total": 29131
+    },
+    {
+      "repo": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "简洁通用的群体智能引擎，预测万物。",
+      "language": "Python",
+      "stars_today": 560,
+      "stars_total": 73119
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "给你的 AI agent 一双看见整个互联网的眼睛——读取并搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书，一个 CLI，零 API 费用。",
+      "language": "Python",
+      "stars_today": 651,
+      "stars_total": 81215
+    },
+    {
+      "repo": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "description": "提取自 Anthropic 的系统提示词——Claude Fable 5.1、Opus 5、Claude Design、Claude Code；OpenAI——ChatGPT GPT-6-Astra、Codex；Google——Gemini 3.8 Flash、3.1 Pro、Antigravity；xAI——Grok、Grok Bot、Cursor、Kimi 等，持续更新。",
+      "language": "JavaScript",
+      "stars_today": 764,
+      "stars_total": 66743
+    },
+    {
+      "repo": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents：多智能体 LLM 金融交易框架。",
+      "language": "Python",
+      "stars_today": 745,
+      "stars_total": 106098
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "description": "π RuView 把普通 WiFi 信号变成实时空间智能、生命体征监测与存在检测——无需一个视频像素。",
+      "language": "Rust",
+      "stars_today": 383,
+      "stars_total": 93822
+    },
+    {
+      "repo": "tech-leads-club/agent-skills",
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "description": "面向专业 AI 编程 agent 的安全、经验证的技能注册表，让你放心扩展 Antigravity、Claude Code、Cursor、Copilot 等。",
+      "language": "TypeScript",
+      "stars_today": 512,
+      "stars_total": 6047
+    },
+    {
+      "repo": "OpenBMB/VoxCPM",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2：免分词器的 TTS，面向多语言语音生成、创意音色设计与逼真克隆。",
+      "language": "Python",
+      "stars_today": 216,
+      "stars_total": 37356
+    },
+    {
+      "repo": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "description": "🤗 Transformers：文本、视觉、音频及多模态前沿机器学习模型的模型定义框架，兼顾推理与训练。",
+      "language": "Python",
+      "stars_today": 536,
+      "stars_total": 165957
+    }
+  ]
+}

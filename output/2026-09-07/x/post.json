@@ -1,0 +1,334 @@
+{
+  "generated_at": "2026-09-07T00:04:23.275Z",
+  "source_raw": "raw.json",
+  "utc_date": "2026-09-06",
+  "source_count": 19,
+  "time_filtered_count": 19,
+  "text_filtered_count": 19,
+  "item_count": 19,
+  "items": [
+    {
+      "id": "2096638670703055312",
+      "text": "One of the most interesting blog posts we've released: details on internal research acceleration at @OpenAI. I expect these trends to continue.\n\nWe also share some details on how we've paced model development to prioritize monitoring, alignment, and security. https://t.co/mURAZxpVwO",
+      "createdAt": "Sun Sep 06 16:36:27 +0000 2026",
+      "viewCount": 297299,
+      "likeCount": 1337,
+      "retweetCount": 120,
+      "author": {
+        "userName": "polynoamial",
+        "name": "Noam Brown",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/polynoamial/status/2096638670703055312",
+      "is_official": false
+    },
+    {
+      "id": "2096717905614524491",
+      "text": "We've made some improvements that improve usage on the long tail for power users of Astra when logged in with your ChatGPT account.\n\nNo change in quality and a pure win that on the long tail can result in up to 3-4X less usage being drawn from the subscription.",
+      "createdAt": "Sun Sep 06 21:51:18 +0000 2026",
+      "viewCount": 269889,
+      "likeCount": 7106,
+      "retweetCount": 265,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2096717905614524491",
+      "is_official": false
+    },
+    {
+      "id": "2096642895134752922",
+      "text": "GPT-6 Astra pulled off a mechanism I haven't seen another model get right yet\n\nCessna 337 Skymaster landing gear\n\nIt figured it out from a YouTube video https://t.co/QMsz29EJRR",
+      "createdAt": "Sun Sep 06 16:53:14 +0000 2026",
+      "viewCount": 198604,
+      "likeCount": 2904,
+      "retweetCount": 208,
+      "author": {
+        "userName": "DilumSanjaya",
+        "name": "Dilum Sanjaya",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/DilumSanjaya/status/2096642895134752922",
+      "is_official": false
+    },
+    {
+      "id": "2096583786779770950",
+      "text": "GPT-6 Astra is definitely NOT AGI https://t.co/q4o3uywMqc",
+      "createdAt": "Sun Sep 06 12:58:22 +0000 2026",
+      "viewCount": 850093,
+      "likeCount": 3704,
+      "retweetCount": 76,
+      "author": {
+        "userName": "gxjo_dev",
+        "name": "gxjo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/gxjo_dev/status/2096583786779770950",
+      "is_official": false
+    },
+    {
+      "id": "2096555280306000120",
+      "text": "① Open Gemini, Grok, or GPT Image 2.0\n② Upload your favorite photo\n③ Paste the prompt below\n④ Generate your own stunning AI image 🔥\n\nPrompt: ⤵️ https://t.co/136Z3PYR7e",
+      "createdAt": "Sun Sep 06 11:05:05 +0000 2026",
+      "viewCount": 177129,
+      "likeCount": 2393,
+      "retweetCount": 263,
+      "author": {
+        "userName": "Alina_with_Ai",
+        "name": "Alina Ai",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Alina_with_Ai/status/2096555280306000120",
+      "is_official": true
+    },
+    {
+      "id": "2096616468851097811",
+      "text": "Today we're releasing data on models accelerating research at OpenAI. \n\nRecursive self-improvement could be the most important contributor to AI capabilities over the next few years, but by default it will only be seen inside a few frontier AI labs. Being transparent is more urgent than ever, so we can inform the public discussion on whether and how to pace model development. I ask other AI companies to do the same.\n\nhttps://t.co/iLKbrLcBAI",
+      "createdAt": "Sun Sep 06 15:08:14 +0000 2026",
+      "viewCount": 867782,
+      "likeCount": 4369,
+      "retweetCount": 445,
+      "author": {
+        "userName": "kliu128",
+        "name": "Kevin Liu",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/kliu128/status/2096616468851097811",
+      "is_official": false
+    },
+    {
+      "id": "2096647371983880383",
+      "text": "An important post from Jakub:",
+      "createdAt": "Sun Sep 06 17:11:01 +0000 2026",
+      "viewCount": 716038,
+      "likeCount": 3654,
+      "retweetCount": 178,
+      "author": {
+        "userName": "sama",
+        "name": "Sam Altman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/sama/status/2096647371983880383",
+      "is_official": false
+    },
+    {
+      "id": "2096647646815654043",
+      "text": "If you want to understand how fast AI is improving, look at intelligence per dollar.\n\n1.5 years ago:\no1 Pro: $150 / $600 per M tokens\n\nToday:\nGLM-5.3 Flash: $0.15 / $0.50\n\nThat’s a ~1000x collapse in price in under 1.5 years, while GLM-5.3 Flash is more intelligent than o1 Pro.",
+      "createdAt": "Sun Sep 06 17:12:07 +0000 2026",
+      "viewCount": 158938,
+      "likeCount": 2701,
+      "retweetCount": 153,
+      "author": {
+        "userName": "Yuchenj_UW",
+        "name": "Yuchen Jin",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/Yuchenj_UW/status/2096647646815654043",
+      "is_official": false
+    },
+    {
+      "id": "2096630018495377464",
+      "text": "I wrote about the state of AI, why I’m concerned about the next few years, and the choices we need to make to keep the future in humanity’s hands.\n\nAn Alien Mind: https://t.co/FeIfWNe0UE",
+      "createdAt": "Sun Sep 06 16:02:04 +0000 2026",
+      "viewCount": 1897163,
+      "likeCount": 6678,
+      "retweetCount": 923,
+      "author": {
+        "userName": "merettm",
+        "name": "Jakub Pachocki",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/merettm/status/2096630018495377464",
+      "is_official": false
+    },
+    {
+      "id": "2096642871386313187",
+      "text": "i recommend having gpt-6 pro in chatgpt do math challenges to win money https://t.co/m3731FVzbb",
+      "createdAt": "Sun Sep 06 16:53:08 +0000 2026",
+      "viewCount": 130804,
+      "likeCount": 2528,
+      "retweetCount": 28,
+      "author": {
+        "userName": "nicdunz",
+        "name": "Nicholas Dunzelman",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/nicdunz/status/2096642871386313187",
+      "is_official": false
+    },
+    {
+      "id": "2096688770523467947",
+      "text": "To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high.\n\nIf you were using high reasoning efforts with Sol and were happy, I suggest you move down to low or medium for Astra.",
+      "createdAt": "Sun Sep 06 19:55:32 +0000 2026",
+      "viewCount": 718844,
+      "likeCount": 12406,
+      "retweetCount": 580,
+      "author": {
+        "userName": "thsottiaux",
+        "name": "Tibo",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/thsottiaux/status/2096688770523467947",
+      "is_official": false
+    },
+    {
+      "id": "2096557555086725159",
+      "text": "Hi Friends, for my first project created with GPT-6 Astra, I built the entire city of Seoul in 3D—a small revolution in digital geography! 😄 This interactive 3D miniature covers all of Seoul and its surrounding areas, and you can explore it yourself. It includes:\n\n• All 25 districts of Seoul and approximately 267,000 simplified building models\n• Rotate, zoom, and pan controls, plus an automated fly-through of 14 landmarks\n• Day, sunset, and night modes\n• Mobile touch support\n\nThe buildings were generated from real-world map data, with their shapes simplified for performance. Terrain and building heights are exaggerated by 4× to make the cityscape easier to see.\n\nThe entire process—from creating the project to completing deployment—took 43 minutes and 38 seconds minutes.\n\nPlease note that the buildings are simplified models based on locations and footprints recorded in OpenStreetMap. Where height data is unavailable, estimated heights derived from the source data are used. The landmark models are interpretive recreations designed to emphasize their distinctive features, rather than survey-grade or photorealistic reconstructions of every building.\n\nThe project is based on real road, waterway, elevation, and building data.\n\n• Maps and buildings: OpenFreeMap / OpenMapTiles / © OpenStreetMap contributors · ODbL\nData snapshot: August 30, 2026\n• Terrain: AWS Terrain Tiles / Mapzen · SRTM and other sources\n• District boundaries: southkorea/seoul-maps · Statistics Korea’s 2013 boundaries\nThese may differ from Seoul’s current administrative boundaries.\n• 3D rendering: Three.js\n• Additional components: terrain, road, and building data, subject to their respective licenses\n\nhttps://t.co/MLl5Iel5v8",
+      "createdAt": "Sun Sep 06 11:14:07 +0000 2026",
+      "viewCount": 81341,
+      "likeCount": 1525,
+      "retweetCount": 223,
+      "author": {
+        "userName": "synabreu",
+        "name": "synabreu",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/synabreu/status/2096557555086725159",
+      "is_official": false
+    },
+    {
+      "id": "2096407730030530762",
+      "text": "Astra helped me win an argument i had with my fianceé on whether glasses dry faster right-side-up or upside-down after dishwashing by simulating the physics of the water molecules and nearby air humidity\n\nthank you @OpenAI ❤️🥹 https://t.co/plL5TPCfgY",
+      "createdAt": "Sun Sep 06 01:18:46 +0000 2026",
+      "viewCount": 165302,
+      "likeCount": 1239,
+      "retweetCount": 51,
+      "author": {
+        "userName": "iamBarronRoth",
+        "name": "Barron Roth",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/iamBarronRoth/status/2096407730030530762",
+      "is_official": false
+    },
+    {
+      "id": "2096669615363383449",
+      "text": "data labeling is dead\n\nGPT-6 Astra easily tells Celtics players from Knicks players\n\nwhether they play at home or on the road https://t.co/RCth36rbiU",
+      "createdAt": "Sun Sep 06 18:39:25 +0000 2026",
+      "viewCount": 154377,
+      "likeCount": 1170,
+      "retweetCount": 56,
+      "author": {
+        "userName": "skalskip92",
+        "name": "SkalskiP",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/skalskip92/status/2096669615363383449",
+      "is_official": false
+    },
+    {
+      "id": "2096445519060926667",
+      "text": "Instead of watching two hours of Netflix, watch this 4 hour course.\n\nThe clearest and most detailed online guide on Claude I’ve ever seen.\n\nBuild tools.\n\nAutomate your work.\n\nLearn to create bots and systems.\n\nSave this before you forget. https://t.co/tZ3sS2nnVj",
+      "createdAt": "Sun Sep 06 03:48:56 +0000 2026",
+      "viewCount": 501455,
+      "likeCount": 1118,
+      "retweetCount": 110,
+      "author": {
+        "userName": "twetsfyp",
+        "name": "me",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/twetsfyp/status/2096445519060926667",
+      "is_official": false
+    },
+    {
+      "id": "2096705384132288884",
+      "text": "If even Jensen is now saying that with GPT-Astra, \"AGI has arrived,\" then we can agree on that.\n\nAGI is here, trained on 100k Grace Blackwell NVlink 72.\n\nAnd the next 400k will be online soon. With that, we'll probably reach ASI and RSI.",
+      "createdAt": "Sun Sep 06 21:01:33 +0000 2026",
+      "viewCount": 67503,
+      "likeCount": 1132,
+      "retweetCount": 58,
+      "author": {
+        "userName": "kimmonismus",
+        "name": "Chubby♨️",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/kimmonismus/status/2096705384132288884",
+      "is_official": false
+    },
+    {
+      "id": "2096652307580768297",
+      "text": "GPT (astra) is too autistic, they had to put this in the prompt \n\n> When the user's prompt indicates a request for action, such as \"can you...\", \"I want to...\", \"help me...\" and similar expressions, treat these as instructions to do the work and take action. Do not stop at acknowledging capability (e.g. \"Yes…\")",
+      "createdAt": "Sun Sep 06 17:30:38 +0000 2026",
+      "viewCount": 194015,
+      "likeCount": 2769,
+      "retweetCount": 29,
+      "author": {
+        "userName": "ChangJonathanC",
+        "name": "Jonathan Chang",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/ChangJonathanC/status/2096652307580768297",
+      "is_official": false
+    },
+    {
+      "id": "2096701241195626856",
+      "text": "BREAKING: JENSEN HUANG:\n\n“AGI has arrived”",
+      "createdAt": "Sun Sep 06 20:45:05 +0000 2026",
+      "viewCount": 278381,
+      "likeCount": 1368,
+      "retweetCount": 52,
+      "author": {
+        "userName": "TrendSpider",
+        "name": "TrendSpider",
+        "isVerified": false,
+        "isBlueVerified": false,
+        "verifiedType": "Business"
+      },
+      "url": "https://twitter.com/TrendSpider/status/2096701241195626856",
+      "is_official": true
+    },
+    {
+      "id": "2096596480874127450",
+      "text": "turn chatgpt into unlimited codex with infinite astra. little sneekpeak. update dropping today. current version: https://t.co/23EFtqwKTc https://t.co/sKM2ax3NpE",
+      "createdAt": "Sun Sep 06 13:48:48 +0000 2026",
+      "viewCount": 190903,
+      "likeCount": 1130,
+      "retweetCount": 36,
+      "author": {
+        "userName": "dummerspast39",
+        "name": "Binkg",
+        "isVerified": false,
+        "isBlueVerified": true,
+        "verifiedType": ""
+      },
+      "url": "https://twitter.com/dummerspast39/status/2096596480874127450",
+      "is_official": false
+    }
+  ]
+}

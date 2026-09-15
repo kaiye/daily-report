@@ -1,0 +1,96 @@
+{
+  "report_date": "2026-09-06",
+  "section": "github",
+  "title": "Github 趋势",
+  "summary": "今日高热项目主要集中在 AI Agent 技能、体验优化与本地推理部署方向，Agent 工程化工具链是绝对主流。",
+  "items": [
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "为真正的工程师准备的技能，直接取自我的 .agents 目录。",
+      "language": "Shell",
+      "stars_today": 2692,
+      "stars_total": 252592
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "Agent 框架性能优化系统，为 Claude Code、Codex、Opencode、Cursor 等提供技能、直觉、记忆、安全与研究优先的开发能力。",
+      "language": "JavaScript",
+      "stars_today": 1314,
+      "stars_total": 249869
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "让你的 AI 智能体像办公室里最懒的资深开发一样思考——最好的代码就是你从未写过的代码。",
+      "language": "JavaScript",
+      "stars_today": 2845,
+      "stars_total": 127910
+    },
+    {
+      "repo": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "与你一起成长的智能体。",
+      "language": "Python",
+      "stars_today": 575,
+      "stars_total": 241990
+    },
+    {
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Agent Skills 的公开仓库。",
+      "language": "Python",
+      "stars_today": 475,
+      "stars_total": 174551
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "为 Claude Code、Codex 和 Pi 提供 38 种编辑级图表类型，全部为自包含的 HTML + SVG，无阴影，没有 Mermaid 劣质内容。",
+      "language": "HTML",
+      "stars_today": 855,
+      "stars_total": 31675
+    },
+    {
+      "repo": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "description": "开源编程智能体。",
+      "language": "TypeScript",
+      "stars_today": 725,
+      "stars_total": 204667
+    },
+    {
+      "repo": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 最初的 Agent 元框架：可部署智能多智能体集群、协调自主工作流、构建对话式 AI 系统，并具备自适应记忆、自学习智能和 RAG 集成，原生集成 Claude Code / Codex / Hermes 及更多工具。",
+      "language": "TypeScript",
+      "stars_today": 136,
+      "stars_total": 70688
+    },
+    {
+      "repo": "humanlayer/skills",
+      "url": "https://github.com/humanlayer/skills",
+      "description": "来自 HumanLayer 的 Claude Code 技能，可通过 npx skills add humanlayer/skills --skill SKILLNAME 安装；其中可用技能 improve-claude-md 会使用 <important if> 代码块重写你的 CLAUDE.md，以提高指令遵循度。",
+      "language": "TypeScript",
+      "stars_today": 442,
+      "stars_total": 2683
+    },
+    {
+      "repo": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "去除文本中 AI 生成痕迹的 Agent 技能。",
+      "language": "Python",
+      "stars_today": 990,
+      "stars_total": 43462
+    },
+    {
+      "repo": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "开源推理服务端，为你的硬件运行最适合的本地模型，并接入你正在使用的智能体；兼容 Pi、OpenCode、Hermes、OpenClaw、Codex、Claude Code、Oh My Pi 和 Cline。",
+      "language": "TypeScript",
+      "stars_today": 674,
+      "stars_total": 3185
+    }
+  ]
+}
