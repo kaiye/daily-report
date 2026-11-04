@@ -25,42 +25,46 @@ Go to **Settings → Secrets and variables → Actions → New repository secret
 | Secret | Required | Description |
 |---|---|---|
 | `OPENAI_API_KEY` | ✅ | Any OpenAI-compatible API key |
-| `OPENAI_BASE_URL` | optional | API base URL (default: OpenAI official) |
-| `OPENAI_MODEL` | optional | Model name (default: `gpt-5.4`) |
+| `OPENAI_BASE_URL` | optional | Overrides `llm.base_url` in `config/defaults.yaml` |
+| `OPENAI_MODEL` | optional | Overrides `llm.model` in `config/defaults.yaml` |
 | `TWITTERAPI_IO_KEY` | optional | [TwitterAPI.io](https://twitterapi.io) key for X section |
 
-The `LLM` config accepts any OpenAI-compatible endpoint. You can use:
-- **OpenAI** (`https://api.openai.com/v1`)
-- **SiliconFlow** (`https://api.siliconflow.cn/v1`)
-- **DeepSeek** (`https://api.deepseek.com/v1`)
-- Any other compatible provider
+The `llm` config accepts any OpenAI-compatible endpoint; set `llm.base_url` (or the `OPENAI_BASE_URL` secret) to your provider and `llm.model` (or `OPENAI_MODEL`) to a model it serves. Providers such as OpenAI, SiliconFlow, and DeepSeek work.
 
 ### 3. Customize configuration
 
-Edit `config/defaults.yaml` to set your LLM preferences and section-level directives:
+Edit `config/defaults.yaml` to set your LLM preferences and section settings. Set `llm.base_url` to your provider's base URL; the other key shipped values are:
 
 ```yaml
 llm:
-  base_url: https://cc.dingsum.com/v1
-  model: gpt-5.4
+  model: deepseek-v4-flash        # use a model your provider serves
+  temperature: 0.2
+  proxy: ""                        # optional HTTP proxy
+
+output:
+  language: zh-cn                  # used by the llm_directive templates
+  section_titles:
+    media: 媒体资讯
+    github: Github 趋势
+    x: X 热点
+
+verify:
+  max_repair_attempts: 2           # LLM repair attempts after a failed check
 
 media:
   hours: 24
-  llm_directive: |
-    Select the 7 most impactful AI news items. Prioritize product launches
-    and major industry events. Deduplicate overlapping stories.
+  max_items: 9
 
 github:
-  max_results: 10
-  llm_directive: |
-    Include all trending repos, sort by stars_today descending.
+  since: daily                     # daily | weekly | monthly
+  max_results: 15
 
 x:
   min_faves: 1000
   top_n: 10
-  llm_directive: |
-    Select the 10 most insightful AI tweets, sorted by view count.
 ```
+
+Each section also has an `llm_directive` (full text in `config/defaults.yaml`) that is injected into the LLM system prompt. Directives support these placeholders: `{{max_items}}`, `{{output_language}}`, and, for the media section, `{{priority_keywords}}`. Media/X post-processing knobs live under `post_process` in the same file.
 
 Edit `config/rss_sources.yaml` to configure RSS feeds:
 
@@ -150,8 +154,8 @@ node scripts/validate_reports.js --date 2026-03-22
 node scripts/validate_reports.js --date 2026-03-22 --fix
 ```
 
-Pipeline order is enforced as:
-`raw -> post -> llm -> json -> verify`
+Each section runs:
+`raw -> post -> report.json (LLM) -> verify -> repair if needed (up to verify.max_repair_attempts) -> Markdown / HTML / PNG`
 
 ---
 
@@ -159,15 +163,18 @@ Pipeline order is enforced as:
 
 ```text
 config/
-  defaults.yaml                    ← main config (LLM, section settings)
+  defaults.yaml                    ← main config (LLM, output, sections, verify, post-process)
   rss_sources.yaml                 ← media RSS list
   x_keywords.yaml                  ← X keyword list
 
 scripts/
-  run_daily.js                     ← orchestration entry only
-  validate_reports.js              ← validation CLI entry only
+  run_daily.js                     ← orchestration entry
+  run_daily_no_llm_fallback.js     ← no-LLM collect/post/render fallback
+  validate_reports.js              ← validation CLI entry
 
 src/daily_report_js/
+  config.js                        ← config loading and CLI argument parsing
+  project.js                       ← repo/config/output paths
   collectors/                      ← raw collectors (per channel)
     media_rss.js
     github_trending.js
@@ -177,9 +184,9 @@ src/daily_report_js/
     github.js
     x.js
   schema/
-    report_schema.js              ← single source of truth for report fields/rules
+    report_schema.js               ← report schema + prompt example shared by LLM/verify
   generators/
-    llm_report.js                  ← only post -> report.json (LLM)
+    llm_report.js                  ← LLM generation + repair of report JSON
   renderers/
     markdown.js
     html.js
@@ -191,6 +198,12 @@ src/daily_report_js/
     github.js
     x.js
     verify.js
+    generate_verified_report.js    ← generate -> verify -> repair loop
+  utils/
+    io.js
+    text.js
+    time.js
+    template.js
 
 output/
   YYYY-MM-DD/<section>/            ← raw/post/report outputs
@@ -203,11 +216,11 @@ output/
 | Variable | Where to set | Description |
 |---|---|---|
 | `OPENAI_API_KEY` | GitHub Secret | LLM API key (required) |
-| `OPENAI_BASE_URL` | GitHub Secret | LLM base URL (optional, for non-OpenAI providers) |
-| `OPENAI_MODEL` | GitHub Secret | Model name override (optional) |
+| `OPENAI_BASE_URL` | GitHub Secret | Overrides `llm.base_url` (optional) |
+| `OPENAI_MODEL` | GitHub Secret | Overrides `llm.model` (optional) |
 | `TWITTERAPI_IO_KEY` | GitHub Secret | TwitterAPI.io key (required for X section) |
 
-For local runs, export these as environment variables.
+For local runs, export these as environment variables. When `OPENAI_BASE_URL` / `OPENAI_MODEL` are unset, the corresponding values from `config/defaults.yaml` are used.
 
 ---
 
@@ -220,10 +233,10 @@ A: Yes. If `TWITTERAPI_IO_KEY` is not set, the X section is skipped gracefully. 
 A: Yes. Standard public RSS URLs work. For WeChat public accounts, services like [wechat2rss](https://wechat2rss.xlab.app) can generate RSS feeds.
 
 **Q: PNG generation failed — is that a problem?**
-A: No. PNG generation is optional. If Playwright is not installed, the pipeline completes without PNG. All other outputs (JSON, Markdown, HTML) are always produced.
+A: No. PNG generation is optional. If Playwright's Chromium browser is not installed, the pipeline logs a warning and completes without PNG; the other outputs (JSON, Markdown, HTML) are still produced.
 
 **Q: How does the LLM directive work?**
-A: In `config/defaults.yaml`, each section has an `llm_directive` field. This text is injected into the LLM system prompt, telling it how to sort, filter, and summarize the raw data. This is the primary way to customize the report style without touching code.
+A: In `config/defaults.yaml`, each section has an `llm_directive` field. This text is injected into the LLM system prompt, telling it how to sort, filter, and summarize the post-processed data. This is the primary way to customize the report style without touching code.
 
 ---
 
