@@ -29,20 +29,15 @@ Go to **Settings → Secrets and variables → Actions → New repository secret
 | `OPENAI_MODEL` | optional | Overrides `llm.model` in `config/defaults.yaml` |
 | `TWITTERAPI_IO_KEY` | optional | [TwitterAPI.io](https://twitterapi.io) key for X section |
 
-The shipped `config/defaults.yaml` uses `https://cf.api.fan/v1` with model `deepseek-v4-flash`; point `llm.base_url` at the provider you actually use. The `llm` config accepts any OpenAI-compatible endpoint:
-- **OpenAI** (`https://api.openai.com/v1`)
-- **SiliconFlow** (`https://api.siliconflow.cn/v1`)
-- **DeepSeek** (`https://api.deepseek.com/v1`)
-- Any other compatible provider
+The `llm` config accepts any OpenAI-compatible endpoint; set `llm.base_url` (or the `OPENAI_BASE_URL` secret) to your provider and `llm.model` (or `OPENAI_MODEL`) to a model it serves. Providers such as OpenAI, SiliconFlow, and DeepSeek work.
 
 ### 3. Customize configuration
 
-Edit `config/defaults.yaml` to set your LLM preferences and section settings. The key shipped values are:
+Edit `config/defaults.yaml` to set your LLM preferences and section settings. Set `llm.base_url` to your provider's base URL; the other key shipped values are:
 
 ```yaml
 llm:
-  base_url: https://cf.api.fan/v1
-  model: deepseek-v4-flash
+  model: deepseek-v4-flash        # use a model your provider serves
   temperature: 0.2
   proxy: ""                        # optional HTTP proxy
 
